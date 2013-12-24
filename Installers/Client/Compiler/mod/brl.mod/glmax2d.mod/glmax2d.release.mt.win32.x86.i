@@ -1,0 +1,69 @@
+ModuleInfo "Version: 1.13"
+ModuleInfo "Author: Mark Sibly"
+ModuleInfo "License: Blitz Shared Source Code"
+ModuleInfo "Copyright: Blitz Research Ltd"
+ModuleInfo "Modserver: BRL"
+ModuleInfo "History: 1.13 Release"
+ModuleInfo "History: Cleaned up SetGraphics"
+ModuleInfo "History: 1.12 Release"
+ModuleInfo "History: Fixed filtered image min filters"
+ModuleInfo "History: 1.11 Release"
+ModuleInfo "History: Fixed texture delete logic"
+ModuleInfo "History: 1.10 Release"
+ModuleInfo "History: Add SetColor/SetClsColor clamping"
+ModuleInfo "History: 1.09 Release"
+ModuleInfo "History: Fixed DrawPixmap using current blend mode - now always uses SOLIDBLEND"
+ModuleInfo "History: 1.08 Release"
+ModuleInfo "History: Added MIPMAPPEDIMAGE support"
+ModuleInfo "History: 1.07 Release"
+ModuleInfo "History: Now default driver for MacOS/Linux only (D3D7 for windows)"
+ModuleInfo "History: 1.06 Release"
+ModuleInfo "History: Ripped out a bunch of dead code"
+ModuleInfo "History: 1.05 Release"
+ModuleInfo "History: Added checks to prevent invalid textures deletes"
+import brl.blitz
+import brl.max2d
+import brl.glgraphics
+TGLImageFrame^brl.max2d.TImageFrame{
+.u0#&
+.v0#&
+.u1#&
+.v1#&
+.uscale#&
+.vscale#&
+.name%&
+.seq%&
+-New%()="_brl_glmax2d_TGLImageFrame_New"
+-Delete%()="_brl_glmax2d_TGLImageFrame_Delete"
+-Draw%(x0#,y0#,x1#,y1#,tx#,ty#,sx#,sy#,sw#,sh#)="_brl_glmax2d_TGLImageFrame_Draw"
++CreateFromPixmap:TGLImageFrame(src:brl.pixmap.TPixmap,flags%)="_brl_glmax2d_TGLImageFrame_CreateFromPixmap"
+}="brl_glmax2d_TGLImageFrame"
+TGLMax2DDriver^brl.max2d.TMax2DDriver{
+-New%()="_brl_glmax2d_TGLMax2DDriver_New"
+-Create:TGLMax2DDriver()="_brl_glmax2d_TGLMax2DDriver_Create"
+-GraphicsModes:brl.graphics.TGraphicsMode&[]()="_brl_glmax2d_TGLMax2DDriver_GraphicsModes"
+-AttachGraphics:brl.max2d.TMax2DGraphics(widget%,flags%)="_brl_glmax2d_TGLMax2DDriver_AttachGraphics"
+-CreateGraphics:brl.max2d.TMax2DGraphics(width%,height%,depth%,hertz%,flags%)="_brl_glmax2d_TGLMax2DDriver_CreateGraphics"
+-SetGraphics%(g:brl.graphics.TGraphics)="_brl_glmax2d_TGLMax2DDriver_SetGraphics"
+-ResetGLContext%(g:brl.graphics.TGraphics)="_brl_glmax2d_TGLMax2DDriver_ResetGLContext"
+-Flip%(sync%)="_brl_glmax2d_TGLMax2DDriver_Flip"
+-ToString$()="_brl_glmax2d_TGLMax2DDriver_ToString"
+-CreateFrameFromPixmap:TGLImageFrame(pixmap:brl.pixmap.TPixmap,flags%)="_brl_glmax2d_TGLMax2DDriver_CreateFrameFromPixmap"
+-SetBlend%(blend%)="_brl_glmax2d_TGLMax2DDriver_SetBlend"
+-SetAlpha%(alpha#)="_brl_glmax2d_TGLMax2DDriver_SetAlpha"
+-SetLineWidth%(width#)="_brl_glmax2d_TGLMax2DDriver_SetLineWidth"
+-SetColor%(red%,green%,blue%)="_brl_glmax2d_TGLMax2DDriver_SetColor"
+-SetClsColor%(red%,green%,blue%)="_brl_glmax2d_TGLMax2DDriver_SetClsColor"
+-SetViewport%(x%,y%,w%,h%)="_brl_glmax2d_TGLMax2DDriver_SetViewport"
+-SetTransform%(xx#,xy#,yx#,yy#)="_brl_glmax2d_TGLMax2DDriver_SetTransform"
+-Cls%()="_brl_glmax2d_TGLMax2DDriver_Cls"
+-Plot%(x#,y#)="_brl_glmax2d_TGLMax2DDriver_Plot"
+-DrawLine%(x0#,y0#,x1#,y1#,tx#,ty#)="_brl_glmax2d_TGLMax2DDriver_DrawLine"
+-DrawRect%(x0#,y0#,x1#,y1#,tx#,ty#)="_brl_glmax2d_TGLMax2DDriver_DrawRect"
+-DrawOval%(x0#,y0#,x1#,y1#,tx#,ty#)="_brl_glmax2d_TGLMax2DDriver_DrawOval"
+-DrawPoly%(xy#&[],handle_x#,handle_y#,origin_x#,origin_y#)="_brl_glmax2d_TGLMax2DDriver_DrawPoly"
+-DrawPixmap%(p:brl.pixmap.TPixmap,x%,y%)="_brl_glmax2d_TGLMax2DDriver_DrawPixmap"
+-GrabPixmap:brl.pixmap.TPixmap(x%,y%,w%,h%)="_brl_glmax2d_TGLMax2DDriver_GrabPixmap"
+-SetResolution%(width#,height#)="_brl_glmax2d_TGLMax2DDriver_SetResolution"
+}="brl_glmax2d_TGLMax2DDriver"
+GLMax2DDriver:TGLMax2DDriver()="brl_glmax2d_GLMax2DDriver"

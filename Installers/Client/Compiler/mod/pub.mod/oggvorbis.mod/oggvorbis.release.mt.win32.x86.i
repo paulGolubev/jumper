@@ -1,0 +1,13 @@
+ModuleInfo "Version: 1.06"
+ModuleInfo "License: OggVorbis License"
+ModuleInfo "Copyright: Xiph.Org Foundation http://www.xiph.org/"
+ModuleInfo "Credit: Adapted for BlitzMax by Simon Armstrong"
+ModuleInfo "Modserver: BRL"
+ModuleInfo "History: 1.06 Release"
+ModuleInfo "History: Moved Encode_OGG stub to axe.oggsaver module"
+ModuleInfo "History: 1.05 Release"
+ModuleInfo "History: Added Encode_OGG stub"
+ModuleInfo "History: Updated to libogg-1.1.3 and libvorbis-1.1.2"
+import brl.blitz
+Decode_Ogg@*(datasource:Object,reado%(buf@*,size%,nmemb%,src:Object),seeko%(src:Object,off0%,off1%,whence%),closeo%(src:Object),tello%(src:Object),samples% Var,channels% Var,freq% Var)="Decode_Ogg"
+Read_Ogg%(ogg@*,buf@*,size%)="Read_Ogg"

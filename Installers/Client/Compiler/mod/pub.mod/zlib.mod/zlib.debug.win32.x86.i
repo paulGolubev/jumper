@@ -1,0 +1,11 @@
+ModuleInfo "Version: 1.02"
+ModuleInfo "Author: Jean-loup Gailly, Mark Adler"
+ModuleInfo "License: ZLib/PNG License"
+ModuleInfo "Modserver: BRL"
+ModuleInfo "Credit: Adapted for BlitzMax by Mark Sibly"
+ModuleInfo "History: 1.02"
+ModuleInfo "History: Updated zlib to 1.2.3"
+import brl.blitz
+compress%(dest@*,dest_len% Var,source@*,source_len%)="compress"
+compress2%(dest@*,dest_len% Var,source@*,source_len%,level%)="compress2"
+uncompress%(dest@*,dest_len% Var,source@*,source_len%)="uncompress"

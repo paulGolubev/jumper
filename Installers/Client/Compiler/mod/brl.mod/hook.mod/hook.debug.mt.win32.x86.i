@@ -1,0 +1,12 @@
+ModuleInfo "Version: 1.01"
+ModuleInfo "Author: Mark Sibly"
+ModuleInfo "License: Blitz Shared Source Code"
+ModuleInfo "Copyright: Blitz Research Ltd"
+ModuleInfo "Modserver: BRL"
+ModuleInfo "History: 1.01 Release"
+ModuleInfo "History: Added Context parameter to RemoveHook function"
+import brl.blitz
+AllocHookId%()="brl_hook_AllocHookId"
+AddHook%(id%,func:Object(id%,data:Object,context:Object),context:Object="bbNullObject",priority%=0)="brl_hook_AddHook"
+RunHooks:Object(id%,data:Object)="brl_hook_RunHooks"
+RemoveHook%(id%,func:Object(id%,data:Object,context:Object),context:Object="bbNullObject")="brl_hook_RemoveHook"
