@@ -1,0 +1,39226 @@
+	format	MS COFF
+	extrn	___GLEW_3DFX_multisample
+	extrn	___GLEW_3DFX_tbuffer
+	extrn	___GLEW_3DFX_texture_compression_FXT1
+	extrn	___GLEW_APPLE_client_storage
+	extrn	___GLEW_APPLE_element_array
+	extrn	___GLEW_APPLE_fence
+	extrn	___GLEW_APPLE_float_pixels
+	extrn	___GLEW_APPLE_flush_buffer_range
+	extrn	___GLEW_APPLE_pixel_buffer
+	extrn	___GLEW_APPLE_specular_vector
+	extrn	___GLEW_APPLE_texture_range
+	extrn	___GLEW_APPLE_transform_hint
+	extrn	___GLEW_APPLE_vertex_array_object
+	extrn	___GLEW_APPLE_vertex_array_range
+	extrn	___GLEW_APPLE_ycbcr_422
+	extrn	___GLEW_ARB_color_buffer_float
+	extrn	___GLEW_ARB_depth_buffer_float
+	extrn	___GLEW_ARB_depth_texture
+	extrn	___GLEW_ARB_draw_buffers
+	extrn	___GLEW_ARB_draw_instanced
+	extrn	___GLEW_ARB_fragment_program
+	extrn	___GLEW_ARB_fragment_program_shadow
+	extrn	___GLEW_ARB_fragment_shader
+	extrn	___GLEW_ARB_framebuffer_object
+	extrn	___GLEW_ARB_framebuffer_sRGB
+	extrn	___GLEW_ARB_geometry_shader4
+	extrn	___GLEW_ARB_half_float_pixel
+	extrn	___GLEW_ARB_half_float_vertex
+	extrn	___GLEW_ARB_imaging
+	extrn	___GLEW_ARB_instanced_arrays
+	extrn	___GLEW_ARB_map_buffer_range
+	extrn	___GLEW_ARB_matrix_palette
+	extrn	___GLEW_ARB_multisample
+	extrn	___GLEW_ARB_multitexture
+	extrn	___GLEW_ARB_occlusion_query
+	extrn	___GLEW_ARB_pixel_buffer_object
+	extrn	___GLEW_ARB_point_parameters
+	extrn	___GLEW_ARB_point_sprite
+	extrn	___GLEW_ARB_shader_objects
+	extrn	___GLEW_ARB_shading_language_100
+	extrn	___GLEW_ARB_shadow
+	extrn	___GLEW_ARB_shadow_ambient
+	extrn	___GLEW_ARB_texture_border_clamp
+	extrn	___GLEW_ARB_texture_buffer_object
+	extrn	___GLEW_ARB_texture_compression
+	extrn	___GLEW_ARB_texture_compression_rgtc
+	extrn	___GLEW_ARB_texture_cube_map
+	extrn	___GLEW_ARB_texture_env_add
+	extrn	___GLEW_ARB_texture_env_combine
+	extrn	___GLEW_ARB_texture_env_crossbar
+	extrn	___GLEW_ARB_texture_env_dot3
+	extrn	___GLEW_ARB_texture_float
+	extrn	___GLEW_ARB_texture_mirrored_repeat
+	extrn	___GLEW_ARB_texture_non_power_of_two
+	extrn	___GLEW_ARB_texture_rectangle
+	extrn	___GLEW_ARB_texture_rg
+	extrn	___GLEW_ARB_transpose_matrix
+	extrn	___GLEW_ARB_vertex_array_object
+	extrn	___GLEW_ARB_vertex_blend
+	extrn	___GLEW_ARB_vertex_buffer_object
+	extrn	___GLEW_ARB_vertex_program
+	extrn	___GLEW_ARB_vertex_shader
+	extrn	___GLEW_ARB_window_pos
+	extrn	___GLEW_ATIX_point_sprites
+	extrn	___GLEW_ATIX_texture_env_combine3
+	extrn	___GLEW_ATIX_texture_env_route
+	extrn	___GLEW_ATIX_vertex_shader_output_point_size
+	extrn	___GLEW_ATI_draw_buffers
+	extrn	___GLEW_ATI_element_array
+	extrn	___GLEW_ATI_envmap_bumpmap
+	extrn	___GLEW_ATI_fragment_shader
+	extrn	___GLEW_ATI_map_object_buffer
+	extrn	___GLEW_ATI_pn_triangles
+	extrn	___GLEW_ATI_separate_stencil
+	extrn	___GLEW_ATI_shader_texture_lod
+	extrn	___GLEW_ATI_text_fragment_shader
+	extrn	___GLEW_ATI_texture_compression_3dc
+	extrn	___GLEW_ATI_texture_env_combine3
+	extrn	___GLEW_ATI_texture_float
+	extrn	___GLEW_ATI_texture_mirror_once
+	extrn	___GLEW_ATI_vertex_array_object
+	extrn	___GLEW_ATI_vertex_attrib_array_object
+	extrn	___GLEW_ATI_vertex_streams
+	extrn	___GLEW_EXT_422_pixels
+	extrn	___GLEW_EXT_Cg_shader
+	extrn	___GLEW_EXT_abgr
+	extrn	___GLEW_EXT_bgra
+	extrn	___GLEW_EXT_bindable_uniform
+	extrn	___GLEW_EXT_blend_color
+	extrn	___GLEW_EXT_blend_equation_separate
+	extrn	___GLEW_EXT_blend_func_separate
+	extrn	___GLEW_EXT_blend_logic_op
+	extrn	___GLEW_EXT_blend_minmax
+	extrn	___GLEW_EXT_blend_subtract
+	extrn	___GLEW_EXT_clip_volume_hint
+	extrn	___GLEW_EXT_cmyka
+	extrn	___GLEW_EXT_color_subtable
+	extrn	___GLEW_EXT_compiled_vertex_array
+	extrn	___GLEW_EXT_convolution
+	extrn	___GLEW_EXT_coordinate_frame
+	extrn	___GLEW_EXT_copy_texture
+	extrn	___GLEW_EXT_cull_vertex
+	extrn	___GLEW_EXT_depth_bounds_test
+	extrn	___GLEW_EXT_direct_state_access
+	extrn	___GLEW_EXT_draw_buffers2
+	extrn	___GLEW_EXT_draw_instanced
+	extrn	___GLEW_EXT_draw_range_elements
+	extrn	___GLEW_EXT_fog_coord
+	extrn	___GLEW_EXT_fragment_lighting
+	extrn	___GLEW_EXT_framebuffer_blit
+	extrn	___GLEW_EXT_framebuffer_multisample
+	extrn	___GLEW_EXT_framebuffer_object
+	extrn	___GLEW_EXT_framebuffer_sRGB
+	extrn	___GLEW_EXT_geometry_shader4
+	extrn	___GLEW_EXT_gpu_program_parameters
+	extrn	___GLEW_EXT_gpu_shader4
+	extrn	___GLEW_EXT_histogram
+	extrn	___GLEW_EXT_index_array_formats
+	extrn	___GLEW_EXT_index_func
+	extrn	___GLEW_EXT_index_material
+	extrn	___GLEW_EXT_index_texture
+	extrn	___GLEW_EXT_light_texture
+	extrn	___GLEW_EXT_misc_attribute
+	extrn	___GLEW_EXT_multi_draw_arrays
+	extrn	___GLEW_EXT_multisample
+	extrn	___GLEW_EXT_packed_depth_stencil
+	extrn	___GLEW_EXT_packed_float
+	extrn	___GLEW_EXT_packed_pixels
+	extrn	___GLEW_EXT_paletted_texture
+	extrn	___GLEW_EXT_pixel_buffer_object
+	extrn	___GLEW_EXT_pixel_transform
+	extrn	___GLEW_EXT_pixel_transform_color_table
+	extrn	___GLEW_EXT_point_parameters
+	extrn	___GLEW_EXT_polygon_offset
+	extrn	___GLEW_EXT_rescale_normal
+	extrn	___GLEW_EXT_scene_marker
+	extrn	___GLEW_EXT_secondary_color
+	extrn	___GLEW_EXT_separate_specular_color
+	extrn	___GLEW_EXT_shadow_funcs
+	extrn	___GLEW_EXT_shared_texture_palette
+	extrn	___GLEW_EXT_stencil_clear_tag
+	extrn	___GLEW_EXT_stencil_two_side
+	extrn	___GLEW_EXT_stencil_wrap
+	extrn	___GLEW_EXT_subtexture
+	extrn	___GLEW_EXT_texture
+	extrn	___GLEW_EXT_texture3D
+	extrn	___GLEW_EXT_texture_array
+	extrn	___GLEW_EXT_texture_buffer_object
+	extrn	___GLEW_EXT_texture_compression_dxt1
+	extrn	___GLEW_EXT_texture_compression_latc
+	extrn	___GLEW_EXT_texture_compression_rgtc
+	extrn	___GLEW_EXT_texture_compression_s3tc
+	extrn	___GLEW_EXT_texture_cube_map
+	extrn	___GLEW_EXT_texture_edge_clamp
+	extrn	___GLEW_EXT_texture_env
+	extrn	___GLEW_EXT_texture_env_add
+	extrn	___GLEW_EXT_texture_env_combine
+	extrn	___GLEW_EXT_texture_env_dot3
+	extrn	___GLEW_EXT_texture_filter_anisotropic
+	extrn	___GLEW_EXT_texture_integer
+	extrn	___GLEW_EXT_texture_lod_bias
+	extrn	___GLEW_EXT_texture_mirror_clamp
+	extrn	___GLEW_EXT_texture_object
+	extrn	___GLEW_EXT_texture_perturb_normal
+	extrn	___GLEW_EXT_texture_rectangle
+	extrn	___GLEW_EXT_texture_sRGB
+	extrn	___GLEW_EXT_texture_shared_exponent
+	extrn	___GLEW_EXT_texture_swizzle
+	extrn	___GLEW_EXT_timer_query
+	extrn	___GLEW_EXT_transform_feedback
+	extrn	___GLEW_EXT_vertex_array
+	extrn	___GLEW_EXT_vertex_array_bgra
+	extrn	___GLEW_EXT_vertex_shader
+	extrn	___GLEW_EXT_vertex_weighting
+	extrn	___GLEW_GREMEDY_frame_terminator
+	extrn	___GLEW_GREMEDY_string_marker
+	extrn	___GLEW_HP_convolution_border_modes
+	extrn	___GLEW_HP_image_transform
+	extrn	___GLEW_HP_occlusion_test
+	extrn	___GLEW_HP_texture_lighting
+	extrn	___GLEW_IBM_cull_vertex
+	extrn	___GLEW_IBM_multimode_draw_arrays
+	extrn	___GLEW_IBM_rasterpos_clip
+	extrn	___GLEW_IBM_static_data
+	extrn	___GLEW_IBM_texture_mirrored_repeat
+	extrn	___GLEW_IBM_vertex_array_lists
+	extrn	___GLEW_INGR_color_clamp
+	extrn	___GLEW_INGR_interlace_read
+	extrn	___GLEW_INTEL_parallel_arrays
+	extrn	___GLEW_INTEL_texture_scissor
+	extrn	___GLEW_KTX_buffer_region
+	extrn	___GLEW_MESAX_texture_stack
+	extrn	___GLEW_MESA_pack_invert
+	extrn	___GLEW_MESA_resize_buffers
+	extrn	___GLEW_MESA_window_pos
+	extrn	___GLEW_MESA_ycbcr_texture
+	extrn	___GLEW_NV_blend_square
+	extrn	___GLEW_NV_conditional_render
+	extrn	___GLEW_NV_copy_depth_to_color
+	extrn	___GLEW_NV_depth_buffer_float
+	extrn	___GLEW_NV_depth_clamp
+	extrn	___GLEW_NV_depth_range_unclamped
+	extrn	___GLEW_NV_evaluators
+	extrn	___GLEW_NV_explicit_multisample
+	extrn	___GLEW_NV_fence
+	extrn	___GLEW_NV_float_buffer
+	extrn	___GLEW_NV_fog_distance
+	extrn	___GLEW_NV_fragment_program
+	extrn	___GLEW_NV_fragment_program2
+	extrn	___GLEW_NV_fragment_program4
+	extrn	___GLEW_NV_fragment_program_option
+	extrn	___GLEW_NV_framebuffer_multisample_coverage
+	extrn	___GLEW_NV_geometry_program4
+	extrn	___GLEW_NV_geometry_shader4
+	extrn	___GLEW_NV_gpu_program4
+	extrn	___GLEW_NV_half_float
+	extrn	___GLEW_NV_light_max_exponent
+	extrn	___GLEW_NV_multisample_filter_hint
+	extrn	___GLEW_NV_occlusion_query
+	extrn	___GLEW_NV_packed_depth_stencil
+	extrn	___GLEW_NV_parameter_buffer_object
+	extrn	___GLEW_NV_pixel_data_range
+	extrn	___GLEW_NV_point_sprite
+	extrn	___GLEW_NV_present_video
+	extrn	___GLEW_NV_primitive_restart
+	extrn	___GLEW_NV_register_combiners
+	extrn	___GLEW_NV_register_combiners2
+	extrn	___GLEW_NV_texgen_emboss
+	extrn	___GLEW_NV_texgen_reflection
+	extrn	___GLEW_NV_texture_compression_vtc
+	extrn	___GLEW_NV_texture_env_combine4
+	extrn	___GLEW_NV_texture_expand_normal
+	extrn	___GLEW_NV_texture_rectangle
+	extrn	___GLEW_NV_texture_shader
+	extrn	___GLEW_NV_texture_shader2
+	extrn	___GLEW_NV_texture_shader3
+	extrn	___GLEW_NV_transform_feedback
+	extrn	___GLEW_NV_vertex_array_range
+	extrn	___GLEW_NV_vertex_array_range2
+	extrn	___GLEW_NV_vertex_program
+	extrn	___GLEW_NV_vertex_program1_1
+	extrn	___GLEW_NV_vertex_program2
+	extrn	___GLEW_NV_vertex_program2_option
+	extrn	___GLEW_NV_vertex_program3
+	extrn	___GLEW_NV_vertex_program4
+	extrn	___GLEW_OES_byte_coordinates
+	extrn	___GLEW_OES_compressed_paletted_texture
+	extrn	___GLEW_OES_read_format
+	extrn	___GLEW_OES_single_precision
+	extrn	___GLEW_OML_interlace
+	extrn	___GLEW_OML_resample
+	extrn	___GLEW_OML_subsample
+	extrn	___GLEW_PGI_misc_hints
+	extrn	___GLEW_PGI_vertex_hints
+	extrn	___GLEW_REND_screen_coordinates
+	extrn	___GLEW_S3_s3tc
+	extrn	___GLEW_SGIS_color_range
+	extrn	___GLEW_SGIS_detail_texture
+	extrn	___GLEW_SGIS_fog_function
+	extrn	___GLEW_SGIS_generate_mipmap
+	extrn	___GLEW_SGIS_multisample
+	extrn	___GLEW_SGIS_pixel_texture
+	extrn	___GLEW_SGIS_point_line_texgen
+	extrn	___GLEW_SGIS_sharpen_texture
+	extrn	___GLEW_SGIS_texture4D
+	extrn	___GLEW_SGIS_texture_border_clamp
+	extrn	___GLEW_SGIS_texture_edge_clamp
+	extrn	___GLEW_SGIS_texture_filter4
+	extrn	___GLEW_SGIS_texture_lod
+	extrn	___GLEW_SGIS_texture_select
+	extrn	___GLEW_SGIX_async
+	extrn	___GLEW_SGIX_async_histogram
+	extrn	___GLEW_SGIX_async_pixel
+	extrn	___GLEW_SGIX_blend_alpha_minmax
+	extrn	___GLEW_SGIX_clipmap
+	extrn	___GLEW_SGIX_convolution_accuracy
+	extrn	___GLEW_SGIX_depth_texture
+	extrn	___GLEW_SGIX_flush_raster
+	extrn	___GLEW_SGIX_fog_offset
+	extrn	___GLEW_SGIX_fog_texture
+	extrn	___GLEW_SGIX_fragment_specular_lighting
+	extrn	___GLEW_SGIX_framezoom
+	extrn	___GLEW_SGIX_interlace
+	extrn	___GLEW_SGIX_ir_instrument1
+	extrn	___GLEW_SGIX_list_priority
+	extrn	___GLEW_SGIX_pixel_texture
+	extrn	___GLEW_SGIX_pixel_texture_bits
+	extrn	___GLEW_SGIX_reference_plane
+	extrn	___GLEW_SGIX_resample
+	extrn	___GLEW_SGIX_shadow
+	extrn	___GLEW_SGIX_shadow_ambient
+	extrn	___GLEW_SGIX_sprite
+	extrn	___GLEW_SGIX_tag_sample_buffer
+	extrn	___GLEW_SGIX_texture_add_env
+	extrn	___GLEW_SGIX_texture_coordinate_clamp
+	extrn	___GLEW_SGIX_texture_lod_bias
+	extrn	___GLEW_SGIX_texture_multi_buffer
+	extrn	___GLEW_SGIX_texture_range
+	extrn	___GLEW_SGIX_texture_scale_bias
+	extrn	___GLEW_SGIX_vertex_preclip
+	extrn	___GLEW_SGIX_vertex_preclip_hint
+	extrn	___GLEW_SGIX_ycrcb
+	extrn	___GLEW_SGI_color_matrix
+	extrn	___GLEW_SGI_color_table
+	extrn	___GLEW_SGI_texture_color_table
+	extrn	___GLEW_SUNX_constant_data
+	extrn	___GLEW_SUN_convolution_border_modes
+	extrn	___GLEW_SUN_global_alpha
+	extrn	___GLEW_SUN_mesh_array
+	extrn	___GLEW_SUN_read_video_pixels
+	extrn	___GLEW_SUN_slice_accum
+	extrn	___GLEW_SUN_triangle_list
+	extrn	___GLEW_SUN_vertex
+	extrn	___GLEW_VERSION_1_1
+	extrn	___GLEW_VERSION_1_2
+	extrn	___GLEW_VERSION_1_3
+	extrn	___GLEW_VERSION_1_4
+	extrn	___GLEW_VERSION_1_5
+	extrn	___GLEW_VERSION_2_0
+	extrn	___GLEW_VERSION_2_1
+	extrn	___GLEW_VERSION_3_0
+	extrn	___GLEW_WIN_phong_shading
+	extrn	___GLEW_WIN_specular_fog
+	extrn	___GLEW_WIN_swap_hint
+	extrn	___bb_blitz_blitz
+	extrn	___bb_opengl_opengl
+	extrn	___glewActiveStencilFaceEXT
+	extrn	___glewActiveTexture
+	extrn	___glewActiveTextureARB
+	extrn	___glewActiveVaryingNV
+	extrn	___glewAddSwapHintRectWIN
+	extrn	___glewAlphaFragmentOp1ATI
+	extrn	___glewAlphaFragmentOp2ATI
+	extrn	___glewAlphaFragmentOp3ATI
+	extrn	___glewApplyTextureEXT
+	extrn	___glewAreProgramsResidentNV
+	extrn	___glewAreTexturesResidentEXT
+	extrn	___glewArrayElementEXT
+	extrn	___glewArrayObjectATI
+	extrn	___glewAsyncMarkerSGIX
+	extrn	___glewAttachObjectARB
+	extrn	___glewAttachShader
+	extrn	___glewBeginConditionalRender
+	extrn	___glewBeginConditionalRenderNV
+	extrn	___glewBeginFragmentShaderATI
+	extrn	___glewBeginOcclusionQueryNV
+	extrn	___glewBeginQuery
+	extrn	___glewBeginQueryARB
+	extrn	___glewBeginSceneEXT
+	extrn	___glewBeginTransformFeedback
+	extrn	___glewBeginTransformFeedbackEXT
+	extrn	___glewBeginTransformFeedbackNV
+	extrn	___glewBeginVertexShaderEXT
+	extrn	___glewBindAttribLocation
+	extrn	___glewBindAttribLocationARB
+	extrn	___glewBindBuffer
+	extrn	___glewBindBufferARB
+	extrn	___glewBindBufferBase
+	extrn	___glewBindBufferBaseEXT
+	extrn	___glewBindBufferBaseNV
+	extrn	___glewBindBufferOffsetEXT
+	extrn	___glewBindBufferOffsetNV
+	extrn	___glewBindBufferRange
+	extrn	___glewBindBufferRangeEXT
+	extrn	___glewBindBufferRangeNV
+	extrn	___glewBindFragDataLocation
+	extrn	___glewBindFragDataLocationEXT
+	extrn	___glewBindFragmentShaderATI
+	extrn	___glewBindFramebuffer
+	extrn	___glewBindFramebufferEXT
+	extrn	___glewBindLightParameterEXT
+	extrn	___glewBindMaterialParameterEXT
+	extrn	___glewBindMultiTextureEXT
+	extrn	___glewBindParameterEXT
+	extrn	___glewBindProgramARB
+	extrn	___glewBindProgramNV
+	extrn	___glewBindRenderbuffer
+	extrn	___glewBindRenderbufferEXT
+	extrn	___glewBindTexGenParameterEXT
+	extrn	___glewBindTextureEXT
+	extrn	___glewBindTextureUnitParameterEXT
+	extrn	___glewBindVertexArray
+	extrn	___glewBindVertexArrayAPPLE
+	extrn	___glewBindVertexShaderEXT
+	extrn	___glewBinormalPointerEXT
+	extrn	___glewBlendColor
+	extrn	___glewBlendColorEXT
+	extrn	___glewBlendEquation
+	extrn	___glewBlendEquationEXT
+	extrn	___glewBlendEquationSeparate
+	extrn	___glewBlendEquationSeparateEXT
+	extrn	___glewBlendFuncSeparate
+	extrn	___glewBlendFuncSeparateEXT
+	extrn	___glewBlitFramebuffer
+	extrn	___glewBlitFramebufferEXT
+	extrn	___glewBufferData
+	extrn	___glewBufferDataARB
+	extrn	___glewBufferParameteriAPPLE
+	extrn	___glewBufferRegionEnabledEXT
+	extrn	___glewBufferSubData
+	extrn	___glewBufferSubDataARB
+	extrn	___glewCheckFramebufferStatus
+	extrn	___glewCheckFramebufferStatusEXT
+	extrn	___glewCheckNamedFramebufferStatusEXT
+	extrn	___glewClampColor
+	extrn	___glewClampColorARB
+	extrn	___glewClearBufferfi
+	extrn	___glewClearBufferfv
+	extrn	___glewClearBufferiv
+	extrn	___glewClearBufferuiv
+	extrn	___glewClearColorIiEXT
+	extrn	___glewClearColorIuiEXT
+	extrn	___glewClearDepthdNV
+	extrn	___glewClearDepthfOES
+	extrn	___glewClientActiveTexture
+	extrn	___glewClientActiveTextureARB
+	extrn	___glewClientActiveVertexStreamATI
+	extrn	___glewClientAttribDefaultEXT
+	extrn	___glewClipPlanefOES
+	extrn	___glewColor3fVertex3fSUN
+	extrn	___glewColor3fVertex3fvSUN
+	extrn	___glewColor3hNV
+	extrn	___glewColor3hvNV
+	extrn	___glewColor4fNormal3fVertex3fSUN
+	extrn	___glewColor4fNormal3fVertex3fvSUN
+	extrn	___glewColor4hNV
+	extrn	___glewColor4hvNV
+	extrn	___glewColor4ubVertex2fSUN
+	extrn	___glewColor4ubVertex2fvSUN
+	extrn	___glewColor4ubVertex3fSUN
+	extrn	___glewColor4ubVertex3fvSUN
+	extrn	___glewColorFragmentOp1ATI
+	extrn	___glewColorFragmentOp2ATI
+	extrn	___glewColorFragmentOp3ATI
+	extrn	___glewColorMaskIndexedEXT
+	extrn	___glewColorMaski
+	extrn	___glewColorPointerEXT
+	extrn	___glewColorPointerListIBM
+	extrn	___glewColorPointervINTEL
+	extrn	___glewColorSubTable
+	extrn	___glewColorSubTableEXT
+	extrn	___glewColorTable
+	extrn	___glewColorTableEXT
+	extrn	___glewColorTableParameterfv
+	extrn	___glewColorTableParameterfvSGI
+	extrn	___glewColorTableParameteriv
+	extrn	___glewColorTableParameterivSGI
+	extrn	___glewColorTableSGI
+	extrn	___glewCombinerInputNV
+	extrn	___glewCombinerOutputNV
+	extrn	___glewCombinerParameterfNV
+	extrn	___glewCombinerParameterfvNV
+	extrn	___glewCombinerParameteriNV
+	extrn	___glewCombinerParameterivNV
+	extrn	___glewCombinerStageParameterfvNV
+	extrn	___glewCompileShader
+	extrn	___glewCompileShaderARB
+	extrn	___glewCompressedMultiTexImage1DEXT
+	extrn	___glewCompressedMultiTexImage2DEXT
+	extrn	___glewCompressedMultiTexImage3DEXT
+	extrn	___glewCompressedMultiTexSubImage1DEXT
+	extrn	___glewCompressedMultiTexSubImage2DEXT
+	extrn	___glewCompressedMultiTexSubImage3DEXT
+	extrn	___glewCompressedTexImage1D
+	extrn	___glewCompressedTexImage1DARB
+	extrn	___glewCompressedTexImage2D
+	extrn	___glewCompressedTexImage2DARB
+	extrn	___glewCompressedTexImage3D
+	extrn	___glewCompressedTexImage3DARB
+	extrn	___glewCompressedTexSubImage1D
+	extrn	___glewCompressedTexSubImage1DARB
+	extrn	___glewCompressedTexSubImage2D
+	extrn	___glewCompressedTexSubImage2DARB
+	extrn	___glewCompressedTexSubImage3D
+	extrn	___glewCompressedTexSubImage3DARB
+	extrn	___glewCompressedTextureImage1DEXT
+	extrn	___glewCompressedTextureImage2DEXT
+	extrn	___glewCompressedTextureImage3DEXT
+	extrn	___glewCompressedTextureSubImage1DEXT
+	extrn	___glewCompressedTextureSubImage2DEXT
+	extrn	___glewCompressedTextureSubImage3DEXT
+	extrn	___glewConvolutionFilter1D
+	extrn	___glewConvolutionFilter1DEXT
+	extrn	___glewConvolutionFilter2D
+	extrn	___glewConvolutionFilter2DEXT
+	extrn	___glewConvolutionParameterf
+	extrn	___glewConvolutionParameterfEXT
+	extrn	___glewConvolutionParameterfv
+	extrn	___glewConvolutionParameterfvEXT
+	extrn	___glewConvolutionParameteri
+	extrn	___glewConvolutionParameteriEXT
+	extrn	___glewConvolutionParameteriv
+	extrn	___glewConvolutionParameterivEXT
+	extrn	___glewCopyColorSubTable
+	extrn	___glewCopyColorSubTableEXT
+	extrn	___glewCopyColorTable
+	extrn	___glewCopyColorTableSGI
+	extrn	___glewCopyConvolutionFilter1D
+	extrn	___glewCopyConvolutionFilter1DEXT
+	extrn	___glewCopyConvolutionFilter2D
+	extrn	___glewCopyConvolutionFilter2DEXT
+	extrn	___glewCopyMultiTexImage1DEXT
+	extrn	___glewCopyMultiTexImage2DEXT
+	extrn	___glewCopyMultiTexSubImage1DEXT
+	extrn	___glewCopyMultiTexSubImage2DEXT
+	extrn	___glewCopyMultiTexSubImage3DEXT
+	extrn	___glewCopyTexImage1DEXT
+	extrn	___glewCopyTexImage2DEXT
+	extrn	___glewCopyTexSubImage1DEXT
+	extrn	___glewCopyTexSubImage2DEXT
+	extrn	___glewCopyTexSubImage3D
+	extrn	___glewCopyTexSubImage3DEXT
+	extrn	___glewCopyTextureImage1DEXT
+	extrn	___glewCopyTextureImage2DEXT
+	extrn	___glewCopyTextureSubImage1DEXT
+	extrn	___glewCopyTextureSubImage2DEXT
+	extrn	___glewCopyTextureSubImage3DEXT
+	extrn	___glewCreateProgram
+	extrn	___glewCreateProgramObjectARB
+	extrn	___glewCreateShader
+	extrn	___glewCreateShaderObjectARB
+	extrn	___glewCullParameterdvEXT
+	extrn	___glewCullParameterfvEXT
+	extrn	___glewCurrentPaletteMatrixARB
+	extrn	___glewDeleteAsyncMarkersSGIX
+	extrn	___glewDeleteBufferRegionEXT
+	extrn	___glewDeleteBuffers
+	extrn	___glewDeleteBuffersARB
+	extrn	___glewDeleteFencesAPPLE
+	extrn	___glewDeleteFencesNV
+	extrn	___glewDeleteFragmentShaderATI
+	extrn	___glewDeleteFramebuffers
+	extrn	___glewDeleteFramebuffersEXT
+	extrn	___glewDeleteObjectARB
+	extrn	___glewDeleteOcclusionQueriesNV
+	extrn	___glewDeleteProgram
+	extrn	___glewDeleteProgramsARB
+	extrn	___glewDeleteProgramsNV
+	extrn	___glewDeleteQueries
+	extrn	___glewDeleteQueriesARB
+	extrn	___glewDeleteRenderbuffers
+	extrn	___glewDeleteRenderbuffersEXT
+	extrn	___glewDeleteShader
+	extrn	___glewDeleteTexturesEXT
+	extrn	___glewDeleteVertexArrays
+	extrn	___glewDeleteVertexArraysAPPLE
+	extrn	___glewDeleteVertexShaderEXT
+	extrn	___glewDepthBoundsEXT
+	extrn	___glewDepthBoundsdNV
+	extrn	___glewDepthRangedNV
+	extrn	___glewDepthRangefOES
+	extrn	___glewDetachObjectARB
+	extrn	___glewDetachShader
+	extrn	___glewDetailTexFuncSGIS
+	extrn	___glewDisableClientStateIndexedEXT
+	extrn	___glewDisableIndexedEXT
+	extrn	___glewDisableVariantClientStateEXT
+	extrn	___glewDisableVertexAttribArray
+	extrn	___glewDisableVertexAttribArrayARB
+	extrn	___glewDisablei
+	extrn	___glewDrawArraysEXT
+	extrn	___glewDrawArraysInstancedARB
+	extrn	___glewDrawArraysInstancedEXT
+	extrn	___glewDrawBufferRegionEXT
+	extrn	___glewDrawBuffers
+	extrn	___glewDrawBuffersARB
+	extrn	___glewDrawBuffersATI
+	extrn	___glewDrawElementArrayAPPLE
+	extrn	___glewDrawElementArrayATI
+	extrn	___glewDrawElementsInstancedARB
+	extrn	___glewDrawElementsInstancedEXT
+	extrn	___glewDrawRangeElementArrayAPPLE
+	extrn	___glewDrawRangeElementArrayATI
+	extrn	___glewDrawRangeElements
+	extrn	___glewDrawRangeElementsEXT
+	extrn	___glewEdgeFlagPointerEXT
+	extrn	___glewEdgeFlagPointerListIBM
+	extrn	___glewElementPointerAPPLE
+	extrn	___glewElementPointerATI
+	extrn	___glewEnableClientStateIndexedEXT
+	extrn	___glewEnableIndexedEXT
+	extrn	___glewEnableVariantClientStateEXT
+	extrn	___glewEnableVertexAttribArray
+	extrn	___glewEnableVertexAttribArrayARB
+	extrn	___glewEnablei
+	extrn	___glewEndConditionalRender
+	extrn	___glewEndConditionalRenderNV
+	extrn	___glewEndFragmentShaderATI
+	extrn	___glewEndOcclusionQueryNV
+	extrn	___glewEndQuery
+	extrn	___glewEndQueryARB
+	extrn	___glewEndSceneEXT
+	extrn	___glewEndTransformFeedback
+	extrn	___glewEndTransformFeedbackEXT
+	extrn	___glewEndTransformFeedbackNV
+	extrn	___glewEndVertexShaderEXT
+	extrn	___glewEvalMapsNV
+	extrn	___glewExecuteProgramNV
+	extrn	___glewExtractComponentEXT
+	extrn	___glewFinalCombinerInputNV
+	extrn	___glewFinishAsyncSGIX
+	extrn	___glewFinishFenceAPPLE
+	extrn	___glewFinishFenceNV
+	extrn	___glewFinishObjectAPPLE
+	extrn	___glewFinishTextureSUNX
+	extrn	___glewFlushMappedBufferRange
+	extrn	___glewFlushMappedBufferRangeAPPLE
+	extrn	___glewFlushPixelDataRangeNV
+	extrn	___glewFlushRasterSGIX
+	extrn	___glewFlushVertexArrayRangeAPPLE
+	extrn	___glewFlushVertexArrayRangeNV
+	extrn	___glewFogCoordPointer
+	extrn	___glewFogCoordPointerEXT
+	extrn	___glewFogCoordPointerListIBM
+	extrn	___glewFogCoordd
+	extrn	___glewFogCoorddEXT
+	extrn	___glewFogCoorddv
+	extrn	___glewFogCoorddvEXT
+	extrn	___glewFogCoordf
+	extrn	___glewFogCoordfEXT
+	extrn	___glewFogCoordfv
+	extrn	___glewFogCoordfvEXT
+	extrn	___glewFogCoordhNV
+	extrn	___glewFogCoordhvNV
+	extrn	___glewFogFuncSGIS
+	extrn	___glewFragmentColorMaterialEXT
+	extrn	___glewFragmentColorMaterialSGIX
+	extrn	___glewFragmentLightModelfEXT
+	extrn	___glewFragmentLightModelfSGIX
+	extrn	___glewFragmentLightModelfvEXT
+	extrn	___glewFragmentLightModelfvSGIX
+	extrn	___glewFragmentLightModeliEXT
+	extrn	___glewFragmentLightModeliSGIX
+	extrn	___glewFragmentLightModelivEXT
+	extrn	___glewFragmentLightModelivSGIX
+	extrn	___glewFragmentLightfEXT
+	extrn	___glewFragmentLightfSGIX
+	extrn	___glewFragmentLightfvEXT
+	extrn	___glewFragmentLightfvSGIX
+	extrn	___glewFragmentLightiEXT
+	extrn	___glewFragmentLightiSGIX
+	extrn	___glewFragmentLightivEXT
+	extrn	___glewFragmentLightivSGIX
+	extrn	___glewFragmentMaterialfEXT
+	extrn	___glewFragmentMaterialfSGIX
+	extrn	___glewFragmentMaterialfvEXT
+	extrn	___glewFragmentMaterialfvSGIX
+	extrn	___glewFragmentMaterialiEXT
+	extrn	___glewFragmentMaterialiSGIX
+	extrn	___glewFragmentMaterialivEXT
+	extrn	___glewFragmentMaterialivSGIX
+	extrn	___glewFrameTerminatorGREMEDY
+	extrn	___glewFrameZoomSGIX
+	extrn	___glewFramebufferDrawBufferEXT
+	extrn	___glewFramebufferDrawBuffersEXT
+	extrn	___glewFramebufferReadBufferEXT
+	extrn	___glewFramebufferRenderbuffer
+	extrn	___glewFramebufferRenderbufferEXT
+	extrn	___glewFramebufferTexturLayer
+	extrn	___glewFramebufferTexture1D
+	extrn	___glewFramebufferTexture1DEXT
+	extrn	___glewFramebufferTexture2D
+	extrn	___glewFramebufferTexture2DEXT
+	extrn	___glewFramebufferTexture3D
+	extrn	___glewFramebufferTexture3DEXT
+	extrn	___glewFramebufferTextureARB
+	extrn	___glewFramebufferTextureEXT
+	extrn	___glewFramebufferTextureFaceARB
+	extrn	___glewFramebufferTextureFaceEXT
+	extrn	___glewFramebufferTextureLayerARB
+	extrn	___glewFramebufferTextureLayerEXT
+	extrn	___glewFreeObjectBufferATI
+	extrn	___glewFrustumfOES
+	extrn	___glewGenAsyncMarkersSGIX
+	extrn	___glewGenBuffers
+	extrn	___glewGenBuffersARB
+	extrn	___glewGenFencesAPPLE
+	extrn	___glewGenFencesNV
+	extrn	___glewGenFragmentShadersATI
+	extrn	___glewGenFramebuffers
+	extrn	___glewGenFramebuffersEXT
+	extrn	___glewGenOcclusionQueriesNV
+	extrn	___glewGenProgramsARB
+	extrn	___glewGenProgramsNV
+	extrn	___glewGenQueries
+	extrn	___glewGenQueriesARB
+	extrn	___glewGenRenderbuffers
+	extrn	___glewGenRenderbuffersEXT
+	extrn	___glewGenSymbolsEXT
+	extrn	___glewGenTexturesEXT
+	extrn	___glewGenVertexArrays
+	extrn	___glewGenVertexArraysAPPLE
+	extrn	___glewGenVertexShadersEXT
+	extrn	___glewGenerateMipmap
+	extrn	___glewGenerateMipmapEXT
+	extrn	___glewGenerateMultiTexMipmapEXT
+	extrn	___glewGenerateTextureMipmapEXT
+	extrn	___glewGetActiveAttrib
+	extrn	___glewGetActiveAttribARB
+	extrn	___glewGetActiveUniform
+	extrn	___glewGetActiveUniformARB
+	extrn	___glewGetActiveVaryingNV
+	extrn	___glewGetArrayObjectfvATI
+	extrn	___glewGetArrayObjectivATI
+	extrn	___glewGetAttachedObjectsARB
+	extrn	___glewGetAttachedShaders
+	extrn	___glewGetAttribLocation
+	extrn	___glewGetAttribLocationARB
+	extrn	___glewGetBooleanIndexedvEXT
+	extrn	___glewGetBooleani_v
+	extrn	___glewGetBufferParameteriv
+	extrn	___glewGetBufferParameterivARB
+	extrn	___glewGetBufferPointerv
+	extrn	___glewGetBufferPointervARB
+	extrn	___glewGetBufferSubData
+	extrn	___glewGetBufferSubDataARB
+	extrn	___glewGetClipPlanefOES
+	extrn	___glewGetColorTable
+	extrn	___glewGetColorTableEXT
+	extrn	___glewGetColorTableParameterfv
+	extrn	___glewGetColorTableParameterfvEXT
+	extrn	___glewGetColorTableParameterfvSGI
+	extrn	___glewGetColorTableParameteriv
+	extrn	___glewGetColorTableParameterivEXT
+	extrn	___glewGetColorTableParameterivSGI
+	extrn	___glewGetColorTableSGI
+	extrn	___glewGetCombinerInputParameterfvNV
+	extrn	___glewGetCombinerInputParameterivNV
+	extrn	___glewGetCombinerOutputParameterfvNV
+	extrn	___glewGetCombinerOutputParameterivNV
+	extrn	___glewGetCombinerStageParameterfvNV
+	extrn	___glewGetCompressedMultiTexImageEXT
+	extrn	___glewGetCompressedTexImage
+	extrn	___glewGetCompressedTexImageARB
+	extrn	___glewGetCompressedTextureImageEXT
+	extrn	___glewGetConvolutionFilter
+	extrn	___glewGetConvolutionFilterEXT
+	extrn	___glewGetConvolutionParameterfv
+	extrn	___glewGetConvolutionParameterfvEXT
+	extrn	___glewGetConvolutionParameteriv
+	extrn	___glewGetConvolutionParameterivEXT
+	extrn	___glewGetDetailTexFuncSGIS
+	extrn	___glewGetDoubleIndexedvEXT
+	extrn	___glewGetFenceivNV
+	extrn	___glewGetFinalCombinerInputParameterfvNV
+	extrn	___glewGetFinalCombinerInputParameterivNV
+	extrn	___glewGetFloatIndexedvEXT
+	extrn	___glewGetFogFuncSGIS
+	extrn	___glewGetFragDataLocation
+	extrn	___glewGetFragDataLocationEXT
+	extrn	___glewGetFragmentLightfvEXT
+	extrn	___glewGetFragmentLightfvSGIX
+	extrn	___glewGetFragmentLightivEXT
+	extrn	___glewGetFragmentLightivSGIX
+	extrn	___glewGetFragmentMaterialfvEXT
+	extrn	___glewGetFragmentMaterialfvSGIX
+	extrn	___glewGetFragmentMaterialivEXT
+	extrn	___glewGetFragmentMaterialivSGIX
+	extrn	___glewGetFramebufferAttachmentParameteriv
+	extrn	___glewGetFramebufferAttachmentParameterivEXT
+	extrn	___glewGetFramebufferParameterivEXT
+	extrn	___glewGetHandleARB
+	extrn	___glewGetHistogram
+	extrn	___glewGetHistogramEXT
+	extrn	___glewGetHistogramParameterfv
+	extrn	___glewGetHistogramParameterfvEXT
+	extrn	___glewGetHistogramParameteriv
+	extrn	___glewGetHistogramParameterivEXT
+	extrn	___glewGetImageTransformParameterfvHP
+	extrn	___glewGetImageTransformParameterivHP
+	extrn	___glewGetInfoLogARB
+	extrn	___glewGetIntegerIndexedvEXT
+	extrn	___glewGetIntegeri_v
+	extrn	___glewGetInvariantBooleanvEXT
+	extrn	___glewGetInvariantFloatvEXT
+	extrn	___glewGetInvariantIntegervEXT
+	extrn	___glewGetLocalConstantBooleanvEXT
+	extrn	___glewGetLocalConstantFloatvEXT
+	extrn	___glewGetLocalConstantIntegervEXT
+	extrn	___glewGetMapAttribParameterfvNV
+	extrn	___glewGetMapAttribParameterivNV
+	extrn	___glewGetMapControlPointsNV
+	extrn	___glewGetMapParameterfvNV
+	extrn	___glewGetMapParameterivNV
+	extrn	___glewGetMinmax
+	extrn	___glewGetMinmaxEXT
+	extrn	___glewGetMinmaxParameterfv
+	extrn	___glewGetMinmaxParameterfvEXT
+	extrn	___glewGetMinmaxParameteriv
+	extrn	___glewGetMinmaxParameterivEXT
+	extrn	___glewGetMultiTexEnvfvEXT
+	extrn	___glewGetMultiTexEnvivEXT
+	extrn	___glewGetMultiTexGendvEXT
+	extrn	___glewGetMultiTexGenfvEXT
+	extrn	___glewGetMultiTexGenivEXT
+	extrn	___glewGetMultiTexImageEXT
+	extrn	___glewGetMultiTexLevelParameterfvEXT
+	extrn	___glewGetMultiTexLevelParameterivEXT
+	extrn	___glewGetMultiTexParameterIivEXT
+	extrn	___glewGetMultiTexParameterIuivEXT
+	extrn	___glewGetMultiTexParameterfvEXT
+	extrn	___glewGetMultiTexParameterivEXT
+	extrn	___glewGetMultisamplefvNV
+	extrn	___glewGetNamedBufferParameterivEXT
+	extrn	___glewGetNamedBufferPointervEXT
+	extrn	___glewGetNamedBufferSubDataEXT
+	extrn	___glewGetNamedFramebufferAttachmentParameterivEXT
+	extrn	___glewGetNamedProgramLocalParameterIivEXT
+	extrn	___glewGetNamedProgramLocalParameterIuivEXT
+	extrn	___glewGetNamedProgramLocalParameterdvEXT
+	extrn	___glewGetNamedProgramLocalParameterfvEXT
+	extrn	___glewGetNamedProgramStringEXT
+	extrn	___glewGetNamedProgramivEXT
+	extrn	___glewGetNamedRenderbufferParameterivEXT
+	extrn	___glewGetObjectBufferfvATI
+	extrn	___glewGetObjectBufferivATI
+	extrn	___glewGetObjectParameterfvARB
+	extrn	___glewGetObjectParameterivARB
+	extrn	___glewGetOcclusionQueryivNV
+	extrn	___glewGetOcclusionQueryuivNV
+	extrn	___glewGetPixelTransformParameterfvEXT
+	extrn	___glewGetPixelTransformParameterivEXT
+	extrn	___glewGetPointerIndexedvEXT
+	extrn	___glewGetPointervEXT
+	extrn	___glewGetProgramEnvParameterdvARB
+	extrn	___glewGetProgramEnvParameterfvARB
+	extrn	___glewGetProgramInfoLog
+	extrn	___glewGetProgramLocalParameterdvARB
+	extrn	___glewGetProgramLocalParameterfvARB
+	extrn	___glewGetProgramNamedParameterdvNV
+	extrn	___glewGetProgramNamedParameterfvNV
+	extrn	___glewGetProgramParameterdvNV
+	extrn	___glewGetProgramParameterfvNV
+	extrn	___glewGetProgramStringARB
+	extrn	___glewGetProgramStringNV
+	extrn	___glewGetProgramiv
+	extrn	___glewGetProgramivARB
+	extrn	___glewGetProgramivNV
+	extrn	___glewGetQueryObjecti64vEXT
+	extrn	___glewGetQueryObjectiv
+	extrn	___glewGetQueryObjectivARB
+	extrn	___glewGetQueryObjectui64vEXT
+	extrn	___glewGetQueryObjectuiv
+	extrn	___glewGetQueryObjectuivARB
+	extrn	___glewGetQueryiv
+	extrn	___glewGetQueryivARB
+	extrn	___glewGetRenderbufferParameteriv
+	extrn	___glewGetRenderbufferParameterivEXT
+	extrn	___glewGetSeparableFilter
+	extrn	___glewGetSeparableFilterEXT
+	extrn	___glewGetShaderInfoLog
+	extrn	___glewGetShaderSource
+	extrn	___glewGetShaderSourceARB
+	extrn	___glewGetShaderiv
+	extrn	___glewGetSharpenTexFuncSGIS
+	extrn	___glewGetStringi
+	extrn	___glewGetTexBumpParameterfvATI
+	extrn	___glewGetTexBumpParameterivATI
+	extrn	___glewGetTexFilterFuncSGIS
+	extrn	___glewGetTexParameterIiv
+	extrn	___glewGetTexParameterIivEXT
+	extrn	___glewGetTexParameterIuiv
+	extrn	___glewGetTexParameterIuivEXT
+	extrn	___glewGetTexParameterPointervAPPLE
+	extrn	___glewGetTextureImageEXT
+	extrn	___glewGetTextureLevelParameterfvEXT
+	extrn	___glewGetTextureLevelParameterivEXT
+	extrn	___glewGetTextureParameterIivEXT
+	extrn	___glewGetTextureParameterIuivEXT
+	extrn	___glewGetTextureParameterfvEXT
+	extrn	___glewGetTextureParameterivEXT
+	extrn	___glewGetTrackMatrixivNV
+	extrn	___glewGetTransformFeedbackVarying
+	extrn	___glewGetTransformFeedbackVaryingEXT
+	extrn	___glewGetTransformFeedbackVaryingNV
+	extrn	___glewGetUniformBufferSizeEXT
+	extrn	___glewGetUniformLocation
+	extrn	___glewGetUniformLocationARB
+	extrn	___glewGetUniformOffsetEXT
+	extrn	___glewGetUniformfv
+	extrn	___glewGetUniformfvARB
+	extrn	___glewGetUniformiv
+	extrn	___glewGetUniformivARB
+	extrn	___glewGetUniformuiv
+	extrn	___glewGetUniformuivEXT
+	extrn	___glewGetVariantArrayObjectfvATI
+	extrn	___glewGetVariantArrayObjectivATI
+	extrn	___glewGetVariantBooleanvEXT
+	extrn	___glewGetVariantFloatvEXT
+	extrn	___glewGetVariantIntegervEXT
+	extrn	___glewGetVariantPointervEXT
+	extrn	___glewGetVaryingLocationNV
+	extrn	___glewGetVertexAttribArrayObjectfvATI
+	extrn	___glewGetVertexAttribArrayObjectivATI
+	extrn	___glewGetVertexAttribIiv
+	extrn	___glewGetVertexAttribIivEXT
+	extrn	___glewGetVertexAttribIuiv
+	extrn	___glewGetVertexAttribIuivEXT
+	extrn	___glewGetVertexAttribPointerv
+	extrn	___glewGetVertexAttribPointervARB
+	extrn	___glewGetVertexAttribPointervNV
+	extrn	___glewGetVertexAttribdv
+	extrn	___glewGetVertexAttribdvARB
+	extrn	___glewGetVertexAttribdvNV
+	extrn	___glewGetVertexAttribfv
+	extrn	___glewGetVertexAttribfvARB
+	extrn	___glewGetVertexAttribfvNV
+	extrn	___glewGetVertexAttribiv
+	extrn	___glewGetVertexAttribivARB
+	extrn	___glewGetVertexAttribivNV
+	extrn	___glewGetVideoi64vNV
+	extrn	___glewGetVideoivNV
+	extrn	___glewGetVideoui64vNV
+	extrn	___glewGetVideouivNV
+	extrn	___glewGlobalAlphaFactorbSUN
+	extrn	___glewGlobalAlphaFactordSUN
+	extrn	___glewGlobalAlphaFactorfSUN
+	extrn	___glewGlobalAlphaFactoriSUN
+	extrn	___glewGlobalAlphaFactorsSUN
+	extrn	___glewGlobalAlphaFactorubSUN
+	extrn	___glewGlobalAlphaFactoruiSUN
+	extrn	___glewGlobalAlphaFactorusSUN
+	extrn	___glewHistogram
+	extrn	___glewHistogramEXT
+	extrn	___glewImageTransformParameterfHP
+	extrn	___glewImageTransformParameterfvHP
+	extrn	___glewImageTransformParameteriHP
+	extrn	___glewImageTransformParameterivHP
+	extrn	___glewIndexFuncEXT
+	extrn	___glewIndexMaterialEXT
+	extrn	___glewIndexPointerEXT
+	extrn	___glewIndexPointerListIBM
+	extrn	___glewInsertComponentEXT
+	extrn	___glewIsAsyncMarkerSGIX
+	extrn	___glewIsBuffer
+	extrn	___glewIsBufferARB
+	extrn	___glewIsEnabledIndexedEXT
+	extrn	___glewIsEnabledi
+	extrn	___glewIsFenceAPPLE
+	extrn	___glewIsFenceNV
+	extrn	___glewIsFramebuffer
+	extrn	___glewIsFramebufferEXT
+	extrn	___glewIsObjectBufferATI
+	extrn	___glewIsOcclusionQueryNV
+	extrn	___glewIsProgram
+	extrn	___glewIsProgramARB
+	extrn	___glewIsProgramNV
+	extrn	___glewIsQuery
+	extrn	___glewIsQueryARB
+	extrn	___glewIsRenderbuffer
+	extrn	___glewIsRenderbufferEXT
+	extrn	___glewIsShader
+	extrn	___glewIsTextureEXT
+	extrn	___glewIsVariantEnabledEXT
+	extrn	___glewIsVertexArray
+	extrn	___glewIsVertexArrayAPPLE
+	extrn	___glewLightEnviEXT
+	extrn	___glewLinkProgram
+	extrn	___glewLinkProgramARB
+	extrn	___glewLoadProgramNV
+	extrn	___glewLoadTransposeMatrixd
+	extrn	___glewLoadTransposeMatrixdARB
+	extrn	___glewLoadTransposeMatrixf
+	extrn	___glewLoadTransposeMatrixfARB
+	extrn	___glewLockArraysEXT
+	extrn	___glewMapBuffer
+	extrn	___glewMapBufferARB
+	extrn	___glewMapBufferRange
+	extrn	___glewMapControlPointsNV
+	extrn	___glewMapNamedBufferEXT
+	extrn	___glewMapObjectBufferATI
+	extrn	___glewMapParameterfvNV
+	extrn	___glewMapParameterivNV
+	extrn	___glewMatrixFrustumEXT
+	extrn	___glewMatrixIndexPointerARB
+	extrn	___glewMatrixIndexubvARB
+	extrn	___glewMatrixIndexuivARB
+	extrn	___glewMatrixIndexusvARB
+	extrn	___glewMatrixLoadIdentityEXT
+	extrn	___glewMatrixLoadTransposedEXT
+	extrn	___glewMatrixLoadTransposefEXT
+	extrn	___glewMatrixLoaddEXT
+	extrn	___glewMatrixLoadfEXT
+	extrn	___glewMatrixMultTransposedEXT
+	extrn	___glewMatrixMultTransposefEXT
+	extrn	___glewMatrixMultdEXT
+	extrn	___glewMatrixMultfEXT
+	extrn	___glewMatrixOrthoEXT
+	extrn	___glewMatrixPopEXT
+	extrn	___glewMatrixPushEXT
+	extrn	___glewMatrixRotatedEXT
+	extrn	___glewMatrixRotatefEXT
+	extrn	___glewMatrixScaledEXT
+	extrn	___glewMatrixScalefEXT
+	extrn	___glewMatrixTranslatedEXT
+	extrn	___glewMatrixTranslatefEXT
+	extrn	___glewMinmax
+	extrn	___glewMinmaxEXT
+	extrn	___glewMultTransposeMatrixd
+	extrn	___glewMultTransposeMatrixdARB
+	extrn	___glewMultTransposeMatrixf
+	extrn	___glewMultTransposeMatrixfARB
+	extrn	___glewMultiDrawArrays
+	extrn	___glewMultiDrawArraysEXT
+	extrn	___glewMultiDrawElementArrayAPPLE
+	extrn	___glewMultiDrawElements
+	extrn	___glewMultiDrawElementsEXT
+	extrn	___glewMultiDrawRangeElementArrayAPPLE
+	extrn	___glewMultiModeDrawArraysIBM
+	extrn	___glewMultiModeDrawElementsIBM
+	extrn	___glewMultiTexBufferEXT
+	extrn	___glewMultiTexCoord1d
+	extrn	___glewMultiTexCoord1dARB
+	extrn	___glewMultiTexCoord1dv
+	extrn	___glewMultiTexCoord1dvARB
+	extrn	___glewMultiTexCoord1f
+	extrn	___glewMultiTexCoord1fARB
+	extrn	___glewMultiTexCoord1fv
+	extrn	___glewMultiTexCoord1fvARB
+	extrn	___glewMultiTexCoord1hNV
+	extrn	___glewMultiTexCoord1hvNV
+	extrn	___glewMultiTexCoord1i
+	extrn	___glewMultiTexCoord1iARB
+	extrn	___glewMultiTexCoord1iv
+	extrn	___glewMultiTexCoord1ivARB
+	extrn	___glewMultiTexCoord1s
+	extrn	___glewMultiTexCoord1sARB
+	extrn	___glewMultiTexCoord1sv
+	extrn	___glewMultiTexCoord1svARB
+	extrn	___glewMultiTexCoord2d
+	extrn	___glewMultiTexCoord2dARB
+	extrn	___glewMultiTexCoord2dv
+	extrn	___glewMultiTexCoord2dvARB
+	extrn	___glewMultiTexCoord2f
+	extrn	___glewMultiTexCoord2fARB
+	extrn	___glewMultiTexCoord2fv
+	extrn	___glewMultiTexCoord2fvARB
+	extrn	___glewMultiTexCoord2hNV
+	extrn	___glewMultiTexCoord2hvNV
+	extrn	___glewMultiTexCoord2i
+	extrn	___glewMultiTexCoord2iARB
+	extrn	___glewMultiTexCoord2iv
+	extrn	___glewMultiTexCoord2ivARB
+	extrn	___glewMultiTexCoord2s
+	extrn	___glewMultiTexCoord2sARB
+	extrn	___glewMultiTexCoord2sv
+	extrn	___glewMultiTexCoord2svARB
+	extrn	___glewMultiTexCoord3d
+	extrn	___glewMultiTexCoord3dARB
+	extrn	___glewMultiTexCoord3dv
+	extrn	___glewMultiTexCoord3dvARB
+	extrn	___glewMultiTexCoord3f
+	extrn	___glewMultiTexCoord3fARB
+	extrn	___glewMultiTexCoord3fv
+	extrn	___glewMultiTexCoord3fvARB
+	extrn	___glewMultiTexCoord3hNV
+	extrn	___glewMultiTexCoord3hvNV
+	extrn	___glewMultiTexCoord3i
+	extrn	___glewMultiTexCoord3iARB
+	extrn	___glewMultiTexCoord3iv
+	extrn	___glewMultiTexCoord3ivARB
+	extrn	___glewMultiTexCoord3s
+	extrn	___glewMultiTexCoord3sARB
+	extrn	___glewMultiTexCoord3sv
+	extrn	___glewMultiTexCoord3svARB
+	extrn	___glewMultiTexCoord4d
+	extrn	___glewMultiTexCoord4dARB
+	extrn	___glewMultiTexCoord4dv
+	extrn	___glewMultiTexCoord4dvARB
+	extrn	___glewMultiTexCoord4f
+	extrn	___glewMultiTexCoord4fARB
+	extrn	___glewMultiTexCoord4fv
+	extrn	___glewMultiTexCoord4fvARB
+	extrn	___glewMultiTexCoord4hNV
+	extrn	___glewMultiTexCoord4hvNV
+	extrn	___glewMultiTexCoord4i
+	extrn	___glewMultiTexCoord4iARB
+	extrn	___glewMultiTexCoord4iv
+	extrn	___glewMultiTexCoord4ivARB
+	extrn	___glewMultiTexCoord4s
+	extrn	___glewMultiTexCoord4sARB
+	extrn	___glewMultiTexCoord4sv
+	extrn	___glewMultiTexCoord4svARB
+	extrn	___glewMultiTexCoordPointerEXT
+	extrn	___glewMultiTexEnvfEXT
+	extrn	___glewMultiTexEnvfvEXT
+	extrn	___glewMultiTexEnviEXT
+	extrn	___glewMultiTexEnvivEXT
+	extrn	___glewMultiTexGendEXT
+	extrn	___glewMultiTexGendvEXT
+	extrn	___glewMultiTexGenfEXT
+	extrn	___glewMultiTexGenfvEXT
+	extrn	___glewMultiTexGeniEXT
+	extrn	___glewMultiTexGenivEXT
+	extrn	___glewMultiTexImage1DEXT
+	extrn	___glewMultiTexImage2DEXT
+	extrn	___glewMultiTexImage3DEXT
+	extrn	___glewMultiTexParameterIivEXT
+	extrn	___glewMultiTexParameterIuivEXT
+	extrn	___glewMultiTexParameterfEXT
+	extrn	___glewMultiTexParameterfvEXT
+	extrn	___glewMultiTexParameteriEXT
+	extrn	___glewMultiTexParameterivEXT
+	extrn	___glewMultiTexRenderbufferEXT
+	extrn	___glewMultiTexSubImage1DEXT
+	extrn	___glewMultiTexSubImage2DEXT
+	extrn	___glewMultiTexSubImage3DEXT
+	extrn	___glewNamedBufferDataEXT
+	extrn	___glewNamedBufferSubDataEXT
+	extrn	___glewNamedFramebufferRenderbufferEXT
+	extrn	___glewNamedFramebufferTexture1DEXT
+	extrn	___glewNamedFramebufferTexture2DEXT
+	extrn	___glewNamedFramebufferTexture3DEXT
+	extrn	___glewNamedFramebufferTextureEXT
+	extrn	___glewNamedFramebufferTextureFaceEXT
+	extrn	___glewNamedFramebufferTextureLayerEXT
+	extrn	___glewNamedProgramLocalParameter4dEXT
+	extrn	___glewNamedProgramLocalParameter4dvEXT
+	extrn	___glewNamedProgramLocalParameter4fEXT
+	extrn	___glewNamedProgramLocalParameter4fvEXT
+	extrn	___glewNamedProgramLocalParameterI4iEXT
+	extrn	___glewNamedProgramLocalParameterI4ivEXT
+	extrn	___glewNamedProgramLocalParameterI4uiEXT
+	extrn	___glewNamedProgramLocalParameterI4uivEXT
+	extrn	___glewNamedProgramLocalParameters4fvEXT
+	extrn	___glewNamedProgramLocalParametersI4ivEXT
+	extrn	___glewNamedProgramLocalParametersI4uivEXT
+	extrn	___glewNamedProgramStringEXT
+	extrn	___glewNamedRenderbufferStorageEXT
+	extrn	___glewNamedRenderbufferStorageMultisampleCoverageEXT
+	extrn	___glewNamedRenderbufferStorageMultisampleEXT
+	extrn	___glewNewBufferRegionEXT
+	extrn	___glewNewObjectBufferATI
+	extrn	___glewNormal3fVertex3fSUN
+	extrn	___glewNormal3fVertex3fvSUN
+	extrn	___glewNormal3hNV
+	extrn	___glewNormal3hvNV
+	extrn	___glewNormalPointerEXT
+	extrn	___glewNormalPointerListIBM
+	extrn	___glewNormalPointervINTEL
+	extrn	___glewNormalStream3bATI
+	extrn	___glewNormalStream3bvATI
+	extrn	___glewNormalStream3dATI
+	extrn	___glewNormalStream3dvATI
+	extrn	___glewNormalStream3fATI
+	extrn	___glewNormalStream3fvATI
+	extrn	___glewNormalStream3iATI
+	extrn	___glewNormalStream3ivATI
+	extrn	___glewNormalStream3sATI
+	extrn	___glewNormalStream3svATI
+	extrn	___glewOrthofOES
+	extrn	___glewPassTexCoordATI
+	extrn	___glewPixelDataRangeNV
+	extrn	___glewPixelTexGenSGIX
+	extrn	___glewPixelTransformParameterfEXT
+	extrn	___glewPixelTransformParameterfvEXT
+	extrn	___glewPixelTransformParameteriEXT
+	extrn	___glewPixelTransformParameterivEXT
+	extrn	___glewPointParameterf
+	extrn	___glewPointParameterfARB
+	extrn	___glewPointParameterfEXT
+	extrn	___glewPointParameterfv
+	extrn	___glewPointParameterfvARB
+	extrn	___glewPointParameterfvEXT
+	extrn	___glewPointParameteri
+	extrn	___glewPointParameteriNV
+	extrn	___glewPointParameteriv
+	extrn	___glewPointParameterivNV
+	extrn	___glewPollAsyncSGIX
+	extrn	___glewPolygonOffsetEXT
+	extrn	___glewPresentFrameDualFillNV
+	extrn	___glewPresentFrameKeyedNV
+	extrn	___glewPrimitiveRestartIndexNV
+	extrn	___glewPrimitiveRestartNV
+	extrn	___glewPrioritizeTexturesEXT
+	extrn	___glewProgramBufferParametersIivNV
+	extrn	___glewProgramBufferParametersIuivNV
+	extrn	___glewProgramBufferParametersfvNV
+	extrn	___glewProgramEnvParameter4dARB
+	extrn	___glewProgramEnvParameter4dvARB
+	extrn	___glewProgramEnvParameter4fARB
+	extrn	___glewProgramEnvParameter4fvARB
+	extrn	___glewProgramEnvParameterI4iNV
+	extrn	___glewProgramEnvParameterI4ivNV
+	extrn	___glewProgramEnvParameterI4uiNV
+	extrn	___glewProgramEnvParameterI4uivNV
+	extrn	___glewProgramEnvParameters4fvEXT
+	extrn	___glewProgramEnvParametersI4ivNV
+	extrn	___glewProgramEnvParametersI4uivNV
+	extrn	___glewProgramLocalParameter4dARB
+	extrn	___glewProgramLocalParameter4dvARB
+	extrn	___glewProgramLocalParameter4fARB
+	extrn	___glewProgramLocalParameter4fvARB
+	extrn	___glewProgramLocalParameterI4iNV
+	extrn	___glewProgramLocalParameterI4ivNV
+	extrn	___glewProgramLocalParameterI4uiNV
+	extrn	___glewProgramLocalParameterI4uivNV
+	extrn	___glewProgramLocalParameters4fvEXT
+	extrn	___glewProgramLocalParametersI4ivNV
+	extrn	___glewProgramLocalParametersI4uivNV
+	extrn	___glewProgramNamedParameter4dNV
+	extrn	___glewProgramNamedParameter4dvNV
+	extrn	___glewProgramNamedParameter4fNV
+	extrn	___glewProgramNamedParameter4fvNV
+	extrn	___glewProgramParameter4dNV
+	extrn	___glewProgramParameter4dvNV
+	extrn	___glewProgramParameter4fNV
+	extrn	___glewProgramParameter4fvNV
+	extrn	___glewProgramParameteriARB
+	extrn	___glewProgramParameteriEXT
+	extrn	___glewProgramParameters4dvNV
+	extrn	___glewProgramParameters4fvNV
+	extrn	___glewProgramStringARB
+	extrn	___glewProgramUniform1fEXT
+	extrn	___glewProgramUniform1fvEXT
+	extrn	___glewProgramUniform1iEXT
+	extrn	___glewProgramUniform1ivEXT
+	extrn	___glewProgramUniform1uiEXT
+	extrn	___glewProgramUniform1uivEXT
+	extrn	___glewProgramUniform2fEXT
+	extrn	___glewProgramUniform2fvEXT
+	extrn	___glewProgramUniform2iEXT
+	extrn	___glewProgramUniform2ivEXT
+	extrn	___glewProgramUniform2uiEXT
+	extrn	___glewProgramUniform2uivEXT
+	extrn	___glewProgramUniform3fEXT
+	extrn	___glewProgramUniform3fvEXT
+	extrn	___glewProgramUniform3iEXT
+	extrn	___glewProgramUniform3ivEXT
+	extrn	___glewProgramUniform3uiEXT
+	extrn	___glewProgramUniform3uivEXT
+	extrn	___glewProgramUniform4fEXT
+	extrn	___glewProgramUniform4fvEXT
+	extrn	___glewProgramUniform4iEXT
+	extrn	___glewProgramUniform4ivEXT
+	extrn	___glewProgramUniform4uiEXT
+	extrn	___glewProgramUniform4uivEXT
+	extrn	___glewProgramUniformMatrix2fvEXT
+	extrn	___glewProgramUniformMatrix2x3fvEXT
+	extrn	___glewProgramUniformMatrix2x4fvEXT
+	extrn	___glewProgramUniformMatrix3fvEXT
+	extrn	___glewProgramUniformMatrix3x2fvEXT
+	extrn	___glewProgramUniformMatrix3x4fvEXT
+	extrn	___glewProgramUniformMatrix4fvEXT
+	extrn	___glewProgramUniformMatrix4x2fvEXT
+	extrn	___glewProgramUniformMatrix4x3fvEXT
+	extrn	___glewProgramVertexLimitNV
+	extrn	___glewPushClientAttribDefaultEXT
+	extrn	___glewReadBufferRegionEXT
+	extrn	___glewReadVideoPixelsSUN
+	extrn	___glewReferencePlaneSGIX
+	extrn	___glewRenderbufferStorage
+	extrn	___glewRenderbufferStorageEXT
+	extrn	___glewRenderbufferStorageMultisample
+	extrn	___glewRenderbufferStorageMultisampleCoverageNV
+	extrn	___glewRenderbufferStorageMultisampleEXT
+	extrn	___glewReplacementCodePointerSUN
+	extrn	___glewReplacementCodeubSUN
+	extrn	___glewReplacementCodeubvSUN
+	extrn	___glewReplacementCodeuiColor3fVertex3fSUN
+	extrn	___glewReplacementCodeuiColor3fVertex3fvSUN
+	extrn	___glewReplacementCodeuiColor4fNormal3fVertex3fSUN
+	extrn	___glewReplacementCodeuiColor4fNormal3fVertex3fvSUN
+	extrn	___glewReplacementCodeuiColor4ubVertex3fSUN
+	extrn	___glewReplacementCodeuiColor4ubVertex3fvSUN
+	extrn	___glewReplacementCodeuiNormal3fVertex3fSUN
+	extrn	___glewReplacementCodeuiNormal3fVertex3fvSUN
+	extrn	___glewReplacementCodeuiSUN
+	extrn	___glewReplacementCodeuiTexCoord2fColor4fNormal3fVertex3fSUN
+	extrn	___glewReplacementCodeuiTexCoord2fColor4fNormal3fVertex3fvSUN
+	extrn	___glewReplacementCodeuiTexCoord2fNormal3fVertex3fSUN
+	extrn	___glewReplacementCodeuiTexCoord2fNormal3fVertex3fvSUN
+	extrn	___glewReplacementCodeuiTexCoord2fVertex3fSUN
+	extrn	___glewReplacementCodeuiTexCoord2fVertex3fvSUN
+	extrn	___glewReplacementCodeuiVertex3fSUN
+	extrn	___glewReplacementCodeuiVertex3fvSUN
+	extrn	___glewReplacementCodeuivSUN
+	extrn	___glewReplacementCodeusSUN
+	extrn	___glewReplacementCodeusvSUN
+	extrn	___glewRequestResidentProgramsNV
+	extrn	___glewResetHistogram
+	extrn	___glewResetHistogramEXT
+	extrn	___glewResetMinmax
+	extrn	___glewResetMinmaxEXT
+	extrn	___glewResizeBuffersMESA
+	extrn	___glewSampleCoverage
+	extrn	___glewSampleCoverageARB
+	extrn	___glewSampleMapATI
+	extrn	___glewSampleMaskEXT
+	extrn	___glewSampleMaskIndexedNV
+	extrn	___glewSampleMaskSGIS
+	extrn	___glewSamplePatternEXT
+	extrn	___glewSamplePatternSGIS
+	extrn	___glewSecondaryColor3b
+	extrn	___glewSecondaryColor3bEXT
+	extrn	___glewSecondaryColor3bv
+	extrn	___glewSecondaryColor3bvEXT
+	extrn	___glewSecondaryColor3d
+	extrn	___glewSecondaryColor3dEXT
+	extrn	___glewSecondaryColor3dv
+	extrn	___glewSecondaryColor3dvEXT
+	extrn	___glewSecondaryColor3f
+	extrn	___glewSecondaryColor3fEXT
+	extrn	___glewSecondaryColor3fv
+	extrn	___glewSecondaryColor3fvEXT
+	extrn	___glewSecondaryColor3hNV
+	extrn	___glewSecondaryColor3hvNV
+	extrn	___glewSecondaryColor3i
+	extrn	___glewSecondaryColor3iEXT
+	extrn	___glewSecondaryColor3iv
+	extrn	___glewSecondaryColor3ivEXT
+	extrn	___glewSecondaryColor3s
+	extrn	___glewSecondaryColor3sEXT
+	extrn	___glewSecondaryColor3sv
+	extrn	___glewSecondaryColor3svEXT
+	extrn	___glewSecondaryColor3ub
+	extrn	___glewSecondaryColor3ubEXT
+	extrn	___glewSecondaryColor3ubv
+	extrn	___glewSecondaryColor3ubvEXT
+	extrn	___glewSecondaryColor3ui
+	extrn	___glewSecondaryColor3uiEXT
+	extrn	___glewSecondaryColor3uiv
+	extrn	___glewSecondaryColor3uivEXT
+	extrn	___glewSecondaryColor3us
+	extrn	___glewSecondaryColor3usEXT
+	extrn	___glewSecondaryColor3usv
+	extrn	___glewSecondaryColor3usvEXT
+	extrn	___glewSecondaryColorPointer
+	extrn	___glewSecondaryColorPointerEXT
+	extrn	___glewSecondaryColorPointerListIBM
+	extrn	___glewSeparableFilter2D
+	extrn	___glewSeparableFilter2DEXT
+	extrn	___glewSetFenceAPPLE
+	extrn	___glewSetFenceNV
+	extrn	___glewSetFragmentShaderConstantATI
+	extrn	___glewSetInvariantEXT
+	extrn	___glewSetLocalConstantEXT
+	extrn	___glewShaderOp1EXT
+	extrn	___glewShaderOp2EXT
+	extrn	___glewShaderOp3EXT
+	extrn	___glewShaderSource
+	extrn	___glewShaderSourceARB
+	extrn	___glewSharpenTexFuncSGIS
+	extrn	___glewSpriteParameterfSGIX
+	extrn	___glewSpriteParameterfvSGIX
+	extrn	___glewSpriteParameteriSGIX
+	extrn	___glewSpriteParameterivSGIX
+	extrn	___glewStencilFuncSeparate
+	extrn	___glewStencilFuncSeparateATI
+	extrn	___glewStencilMaskSeparate
+	extrn	___glewStencilOpSeparate
+	extrn	___glewStencilOpSeparateATI
+	extrn	___glewStringMarkerGREMEDY
+	extrn	___glewSwizzleEXT
+	extrn	___glewTagSampleBufferSGIX
+	extrn	___glewTangentPointerEXT
+	extrn	___glewTbufferMask3DFX
+	extrn	___glewTestFenceAPPLE
+	extrn	___glewTestFenceNV
+	extrn	___glewTestObjectAPPLE
+	extrn	___glewTexBufferARB
+	extrn	___glewTexBufferEXT
+	extrn	___glewTexBumpParameterfvATI
+	extrn	___glewTexBumpParameterivATI
+	extrn	___glewTexCoord1hNV
+	extrn	___glewTexCoord1hvNV
+	extrn	___glewTexCoord2fColor3fVertex3fSUN
+	extrn	___glewTexCoord2fColor3fVertex3fvSUN
+	extrn	___glewTexCoord2fColor4fNormal3fVertex3fSUN
+	extrn	___glewTexCoord2fColor4fNormal3fVertex3fvSUN
+	extrn	___glewTexCoord2fColor4ubVertex3fSUN
+	extrn	___glewTexCoord2fColor4ubVertex3fvSUN
+	extrn	___glewTexCoord2fNormal3fVertex3fSUN
+	extrn	___glewTexCoord2fNormal3fVertex3fvSUN
+	extrn	___glewTexCoord2fVertex3fSUN
+	extrn	___glewTexCoord2fVertex3fvSUN
+	extrn	___glewTexCoord2hNV
+	extrn	___glewTexCoord2hvNV
+	extrn	___glewTexCoord3hNV
+	extrn	___glewTexCoord3hvNV
+	extrn	___glewTexCoord4fColor4fNormal3fVertex4fSUN
+	extrn	___glewTexCoord4fColor4fNormal3fVertex4fvSUN
+	extrn	___glewTexCoord4fVertex4fSUN
+	extrn	___glewTexCoord4fVertex4fvSUN
+	extrn	___glewTexCoord4hNV
+	extrn	___glewTexCoord4hvNV
+	extrn	___glewTexCoordPointerEXT
+	extrn	___glewTexCoordPointerListIBM
+	extrn	___glewTexCoordPointervINTEL
+	extrn	___glewTexFilterFuncSGIS
+	extrn	___glewTexImage3D
+	extrn	___glewTexImage3DEXT
+	extrn	___glewTexImage4DSGIS
+	extrn	___glewTexParameterIiv
+	extrn	___glewTexParameterIivEXT
+	extrn	___glewTexParameterIuiv
+	extrn	___glewTexParameterIuivEXT
+	extrn	___glewTexRenderbufferNV
+	extrn	___glewTexScissorFuncINTEL
+	extrn	___glewTexScissorINTEL
+	extrn	___glewTexSubImage1DEXT
+	extrn	___glewTexSubImage2DEXT
+	extrn	___glewTexSubImage3D
+	extrn	___glewTexSubImage3DEXT
+	extrn	___glewTexSubImage4DSGIS
+	extrn	___glewTextureBufferEXT
+	extrn	___glewTextureFogSGIX
+	extrn	___glewTextureImage1DEXT
+	extrn	___glewTextureImage2DEXT
+	extrn	___glewTextureImage3DEXT
+	extrn	___glewTextureLightEXT
+	extrn	___glewTextureMaterialEXT
+	extrn	___glewTextureNormalEXT
+	extrn	___glewTextureParameterIivEXT
+	extrn	___glewTextureParameterIuivEXT
+	extrn	___glewTextureParameterfEXT
+	extrn	___glewTextureParameterfvEXT
+	extrn	___glewTextureParameteriEXT
+	extrn	___glewTextureParameterivEXT
+	extrn	___glewTextureRangeAPPLE
+	extrn	___glewTextureRenderbufferEXT
+	extrn	___glewTextureSubImage1DEXT
+	extrn	___glewTextureSubImage2DEXT
+	extrn	___glewTextureSubImage3DEXT
+	extrn	___glewTrackMatrixNV
+	extrn	___glewTransformFeedbackAttribsNV
+	extrn	___glewTransformFeedbackVaryings
+	extrn	___glewTransformFeedbackVaryingsEXT
+	extrn	___glewTransformFeedbackVaryingsNV
+	extrn	___glewUniform1f
+	extrn	___glewUniform1fARB
+	extrn	___glewUniform1fv
+	extrn	___glewUniform1fvARB
+	extrn	___glewUniform1i
+	extrn	___glewUniform1iARB
+	extrn	___glewUniform1iv
+	extrn	___glewUniform1ivARB
+	extrn	___glewUniform1ui
+	extrn	___glewUniform1uiEXT
+	extrn	___glewUniform1uiv
+	extrn	___glewUniform1uivEXT
+	extrn	___glewUniform2f
+	extrn	___glewUniform2fARB
+	extrn	___glewUniform2fv
+	extrn	___glewUniform2fvARB
+	extrn	___glewUniform2i
+	extrn	___glewUniform2iARB
+	extrn	___glewUniform2iv
+	extrn	___glewUniform2ivARB
+	extrn	___glewUniform2ui
+	extrn	___glewUniform2uiEXT
+	extrn	___glewUniform2uiv
+	extrn	___glewUniform2uivEXT
+	extrn	___glewUniform3f
+	extrn	___glewUniform3fARB
+	extrn	___glewUniform3fv
+	extrn	___glewUniform3fvARB
+	extrn	___glewUniform3i
+	extrn	___glewUniform3iARB
+	extrn	___glewUniform3iv
+	extrn	___glewUniform3ivARB
+	extrn	___glewUniform3ui
+	extrn	___glewUniform3uiEXT
+	extrn	___glewUniform3uiv
+	extrn	___glewUniform3uivEXT
+	extrn	___glewUniform4f
+	extrn	___glewUniform4fARB
+	extrn	___glewUniform4fv
+	extrn	___glewUniform4fvARB
+	extrn	___glewUniform4i
+	extrn	___glewUniform4iARB
+	extrn	___glewUniform4iv
+	extrn	___glewUniform4ivARB
+	extrn	___glewUniform4ui
+	extrn	___glewUniform4uiEXT
+	extrn	___glewUniform4uiv
+	extrn	___glewUniform4uivEXT
+	extrn	___glewUniformBufferEXT
+	extrn	___glewUniformMatrix2fv
+	extrn	___glewUniformMatrix2fvARB
+	extrn	___glewUniformMatrix2x3fv
+	extrn	___glewUniformMatrix2x4fv
+	extrn	___glewUniformMatrix3fv
+	extrn	___glewUniformMatrix3fvARB
+	extrn	___glewUniformMatrix3x2fv
+	extrn	___glewUniformMatrix3x4fv
+	extrn	___glewUniformMatrix4fv
+	extrn	___glewUniformMatrix4fvARB
+	extrn	___glewUniformMatrix4x2fv
+	extrn	___glewUniformMatrix4x3fv
+	extrn	___glewUnlockArraysEXT
+	extrn	___glewUnmapBuffer
+	extrn	___glewUnmapBufferARB
+	extrn	___glewUnmapNamedBufferEXT
+	extrn	___glewUnmapObjectBufferATI
+	extrn	___glewUpdateObjectBufferATI
+	extrn	___glewUseProgram
+	extrn	___glewUseProgramObjectARB
+	extrn	___glewValidateProgram
+	extrn	___glewValidateProgramARB
+	extrn	___glewVariantArrayObjectATI
+	extrn	___glewVariantPointerEXT
+	extrn	___glewVariantbvEXT
+	extrn	___glewVariantdvEXT
+	extrn	___glewVariantfvEXT
+	extrn	___glewVariantivEXT
+	extrn	___glewVariantsvEXT
+	extrn	___glewVariantubvEXT
+	extrn	___glewVariantuivEXT
+	extrn	___glewVariantusvEXT
+	extrn	___glewVertex2hNV
+	extrn	___glewVertex2hvNV
+	extrn	___glewVertex3hNV
+	extrn	___glewVertex3hvNV
+	extrn	___glewVertex4hNV
+	extrn	___glewVertex4hvNV
+	extrn	___glewVertexArrayParameteriAPPLE
+	extrn	___glewVertexArrayRangeAPPLE
+	extrn	___glewVertexArrayRangeNV
+	extrn	___glewVertexAttrib1d
+	extrn	___glewVertexAttrib1dARB
+	extrn	___glewVertexAttrib1dNV
+	extrn	___glewVertexAttrib1dv
+	extrn	___glewVertexAttrib1dvARB
+	extrn	___glewVertexAttrib1dvNV
+	extrn	___glewVertexAttrib1f
+	extrn	___glewVertexAttrib1fARB
+	extrn	___glewVertexAttrib1fNV
+	extrn	___glewVertexAttrib1fv
+	extrn	___glewVertexAttrib1fvARB
+	extrn	___glewVertexAttrib1fvNV
+	extrn	___glewVertexAttrib1hNV
+	extrn	___glewVertexAttrib1hvNV
+	extrn	___glewVertexAttrib1s
+	extrn	___glewVertexAttrib1sARB
+	extrn	___glewVertexAttrib1sNV
+	extrn	___glewVertexAttrib1sv
+	extrn	___glewVertexAttrib1svARB
+	extrn	___glewVertexAttrib1svNV
+	extrn	___glewVertexAttrib2d
+	extrn	___glewVertexAttrib2dARB
+	extrn	___glewVertexAttrib2dNV
+	extrn	___glewVertexAttrib2dv
+	extrn	___glewVertexAttrib2dvARB
+	extrn	___glewVertexAttrib2dvNV
+	extrn	___glewVertexAttrib2f
+	extrn	___glewVertexAttrib2fARB
+	extrn	___glewVertexAttrib2fNV
+	extrn	___glewVertexAttrib2fv
+	extrn	___glewVertexAttrib2fvARB
+	extrn	___glewVertexAttrib2fvNV
+	extrn	___glewVertexAttrib2hNV
+	extrn	___glewVertexAttrib2hvNV
+	extrn	___glewVertexAttrib2s
+	extrn	___glewVertexAttrib2sARB
+	extrn	___glewVertexAttrib2sNV
+	extrn	___glewVertexAttrib2sv
+	extrn	___glewVertexAttrib2svARB
+	extrn	___glewVertexAttrib2svNV
+	extrn	___glewVertexAttrib3d
+	extrn	___glewVertexAttrib3dARB
+	extrn	___glewVertexAttrib3dNV
+	extrn	___glewVertexAttrib3dv
+	extrn	___glewVertexAttrib3dvARB
+	extrn	___glewVertexAttrib3dvNV
+	extrn	___glewVertexAttrib3f
+	extrn	___glewVertexAttrib3fARB
+	extrn	___glewVertexAttrib3fNV
+	extrn	___glewVertexAttrib3fv
+	extrn	___glewVertexAttrib3fvARB
+	extrn	___glewVertexAttrib3fvNV
+	extrn	___glewVertexAttrib3hNV
+	extrn	___glewVertexAttrib3hvNV
+	extrn	___glewVertexAttrib3s
+	extrn	___glewVertexAttrib3sARB
+	extrn	___glewVertexAttrib3sNV
+	extrn	___glewVertexAttrib3sv
+	extrn	___glewVertexAttrib3svARB
+	extrn	___glewVertexAttrib3svNV
+	extrn	___glewVertexAttrib4Nbv
+	extrn	___glewVertexAttrib4NbvARB
+	extrn	___glewVertexAttrib4Niv
+	extrn	___glewVertexAttrib4NivARB
+	extrn	___glewVertexAttrib4Nsv
+	extrn	___glewVertexAttrib4NsvARB
+	extrn	___glewVertexAttrib4Nub
+	extrn	___glewVertexAttrib4NubARB
+	extrn	___glewVertexAttrib4Nubv
+	extrn	___glewVertexAttrib4NubvARB
+	extrn	___glewVertexAttrib4Nuiv
+	extrn	___glewVertexAttrib4NuivARB
+	extrn	___glewVertexAttrib4Nusv
+	extrn	___glewVertexAttrib4NusvARB
+	extrn	___glewVertexAttrib4bv
+	extrn	___glewVertexAttrib4bvARB
+	extrn	___glewVertexAttrib4d
+	extrn	___glewVertexAttrib4dARB
+	extrn	___glewVertexAttrib4dNV
+	extrn	___glewVertexAttrib4dv
+	extrn	___glewVertexAttrib4dvARB
+	extrn	___glewVertexAttrib4dvNV
+	extrn	___glewVertexAttrib4f
+	extrn	___glewVertexAttrib4fARB
+	extrn	___glewVertexAttrib4fNV
+	extrn	___glewVertexAttrib4fv
+	extrn	___glewVertexAttrib4fvARB
+	extrn	___glewVertexAttrib4fvNV
+	extrn	___glewVertexAttrib4hNV
+	extrn	___glewVertexAttrib4hvNV
+	extrn	___glewVertexAttrib4iv
+	extrn	___glewVertexAttrib4ivARB
+	extrn	___glewVertexAttrib4s
+	extrn	___glewVertexAttrib4sARB
+	extrn	___glewVertexAttrib4sNV
+	extrn	___glewVertexAttrib4sv
+	extrn	___glewVertexAttrib4svARB
+	extrn	___glewVertexAttrib4svNV
+	extrn	___glewVertexAttrib4ubNV
+	extrn	___glewVertexAttrib4ubv
+	extrn	___glewVertexAttrib4ubvARB
+	extrn	___glewVertexAttrib4ubvNV
+	extrn	___glewVertexAttrib4uiv
+	extrn	___glewVertexAttrib4uivARB
+	extrn	___glewVertexAttrib4usv
+	extrn	___glewVertexAttrib4usvARB
+	extrn	___glewVertexAttribArrayObjectATI
+	extrn	___glewVertexAttribDivisorARB
+	extrn	___glewVertexAttribI1i
+	extrn	___glewVertexAttribI1iEXT
+	extrn	___glewVertexAttribI1iv
+	extrn	___glewVertexAttribI1ivEXT
+	extrn	___glewVertexAttribI1ui
+	extrn	___glewVertexAttribI1uiEXT
+	extrn	___glewVertexAttribI1uiv
+	extrn	___glewVertexAttribI1uivEXT
+	extrn	___glewVertexAttribI2i
+	extrn	___glewVertexAttribI2iEXT
+	extrn	___glewVertexAttribI2iv
+	extrn	___glewVertexAttribI2ivEXT
+	extrn	___glewVertexAttribI2ui
+	extrn	___glewVertexAttribI2uiEXT
+	extrn	___glewVertexAttribI2uiv
+	extrn	___glewVertexAttribI2uivEXT
+	extrn	___glewVertexAttribI3i
+	extrn	___glewVertexAttribI3iEXT
+	extrn	___glewVertexAttribI3iv
+	extrn	___glewVertexAttribI3ivEXT
+	extrn	___glewVertexAttribI3ui
+	extrn	___glewVertexAttribI3uiEXT
+	extrn	___glewVertexAttribI3uiv
+	extrn	___glewVertexAttribI3uivEXT
+	extrn	___glewVertexAttribI4bv
+	extrn	___glewVertexAttribI4bvEXT
+	extrn	___glewVertexAttribI4i
+	extrn	___glewVertexAttribI4iEXT
+	extrn	___glewVertexAttribI4iv
+	extrn	___glewVertexAttribI4ivEXT
+	extrn	___glewVertexAttribI4sv
+	extrn	___glewVertexAttribI4svEXT
+	extrn	___glewVertexAttribI4ubv
+	extrn	___glewVertexAttribI4ubvEXT
+	extrn	___glewVertexAttribI4ui
+	extrn	___glewVertexAttribI4uiEXT
+	extrn	___glewVertexAttribI4uiv
+	extrn	___glewVertexAttribI4uivEXT
+	extrn	___glewVertexAttribI4usv
+	extrn	___glewVertexAttribI4usvEXT
+	extrn	___glewVertexAttribIPointer
+	extrn	___glewVertexAttribIPointerEXT
+	extrn	___glewVertexAttribPointer
+	extrn	___glewVertexAttribPointerARB
+	extrn	___glewVertexAttribPointerNV
+	extrn	___glewVertexAttribs1dvNV
+	extrn	___glewVertexAttribs1fvNV
+	extrn	___glewVertexAttribs1hvNV
+	extrn	___glewVertexAttribs1svNV
+	extrn	___glewVertexAttribs2dvNV
+	extrn	___glewVertexAttribs2fvNV
+	extrn	___glewVertexAttribs2hvNV
+	extrn	___glewVertexAttribs2svNV
+	extrn	___glewVertexAttribs3dvNV
+	extrn	___glewVertexAttribs3fvNV
+	extrn	___glewVertexAttribs3hvNV
+	extrn	___glewVertexAttribs3svNV
+	extrn	___glewVertexAttribs4dvNV
+	extrn	___glewVertexAttribs4fvNV
+	extrn	___glewVertexAttribs4hvNV
+	extrn	___glewVertexAttribs4svNV
+	extrn	___glewVertexAttribs4ubvNV
+	extrn	___glewVertexBlendARB
+	extrn	___glewVertexBlendEnvfATI
+	extrn	___glewVertexBlendEnviATI
+	extrn	___glewVertexPointerEXT
+	extrn	___glewVertexPointerListIBM
+	extrn	___glewVertexPointervINTEL
+	extrn	___glewVertexStream2dATI
+	extrn	___glewVertexStream2dvATI
+	extrn	___glewVertexStream2fATI
+	extrn	___glewVertexStream2fvATI
+	extrn	___glewVertexStream2iATI
+	extrn	___glewVertexStream2ivATI
+	extrn	___glewVertexStream2sATI
+	extrn	___glewVertexStream2svATI
+	extrn	___glewVertexStream3dATI
+	extrn	___glewVertexStream3dvATI
+	extrn	___glewVertexStream3fATI
+	extrn	___glewVertexStream3fvATI
+	extrn	___glewVertexStream3iATI
+	extrn	___glewVertexStream3ivATI
+	extrn	___glewVertexStream3sATI
+	extrn	___glewVertexStream3svATI
+	extrn	___glewVertexStream4dATI
+	extrn	___glewVertexStream4dvATI
+	extrn	___glewVertexStream4fATI
+	extrn	___glewVertexStream4fvATI
+	extrn	___glewVertexStream4iATI
+	extrn	___glewVertexStream4ivATI
+	extrn	___glewVertexStream4sATI
+	extrn	___glewVertexStream4svATI
+	extrn	___glewVertexWeightPointerEXT
+	extrn	___glewVertexWeightfEXT
+	extrn	___glewVertexWeightfvEXT
+	extrn	___glewVertexWeighthNV
+	extrn	___glewVertexWeighthvNV
+	extrn	___glewVideoParameterivNV
+	extrn	___glewWeightPointerARB
+	extrn	___glewWeightbvARB
+	extrn	___glewWeightdvARB
+	extrn	___glewWeightfvARB
+	extrn	___glewWeightivARB
+	extrn	___glewWeightsvARB
+	extrn	___glewWeightubvARB
+	extrn	___glewWeightuivARB
+	extrn	___glewWeightusvARB
+	extrn	___glewWindowPos2d
+	extrn	___glewWindowPos2dARB
+	extrn	___glewWindowPos2dMESA
+	extrn	___glewWindowPos2dv
+	extrn	___glewWindowPos2dvARB
+	extrn	___glewWindowPos2dvMESA
+	extrn	___glewWindowPos2f
+	extrn	___glewWindowPos2fARB
+	extrn	___glewWindowPos2fMESA
+	extrn	___glewWindowPos2fv
+	extrn	___glewWindowPos2fvARB
+	extrn	___glewWindowPos2fvMESA
+	extrn	___glewWindowPos2i
+	extrn	___glewWindowPos2iARB
+	extrn	___glewWindowPos2iMESA
+	extrn	___glewWindowPos2iv
+	extrn	___glewWindowPos2ivARB
+	extrn	___glewWindowPos2ivMESA
+	extrn	___glewWindowPos2s
+	extrn	___glewWindowPos2sARB
+	extrn	___glewWindowPos2sMESA
+	extrn	___glewWindowPos2sv
+	extrn	___glewWindowPos2svARB
+	extrn	___glewWindowPos2svMESA
+	extrn	___glewWindowPos3d
+	extrn	___glewWindowPos3dARB
+	extrn	___glewWindowPos3dMESA
+	extrn	___glewWindowPos3dv
+	extrn	___glewWindowPos3dvARB
+	extrn	___glewWindowPos3dvMESA
+	extrn	___glewWindowPos3f
+	extrn	___glewWindowPos3fARB
+	extrn	___glewWindowPos3fMESA
+	extrn	___glewWindowPos3fv
+	extrn	___glewWindowPos3fvARB
+	extrn	___glewWindowPos3fvMESA
+	extrn	___glewWindowPos3i
+	extrn	___glewWindowPos3iARB
+	extrn	___glewWindowPos3iMESA
+	extrn	___glewWindowPos3iv
+	extrn	___glewWindowPos3ivARB
+	extrn	___glewWindowPos3ivMESA
+	extrn	___glewWindowPos3s
+	extrn	___glewWindowPos3sARB
+	extrn	___glewWindowPos3sMESA
+	extrn	___glewWindowPos3sv
+	extrn	___glewWindowPos3svARB
+	extrn	___glewWindowPos3svMESA
+	extrn	___glewWindowPos4dMESA
+	extrn	___glewWindowPos4dvMESA
+	extrn	___glewWindowPos4fMESA
+	extrn	___glewWindowPos4fvMESA
+	extrn	___glewWindowPos4iMESA
+	extrn	___glewWindowPos4ivMESA
+	extrn	___glewWindowPos4sMESA
+	extrn	___glewWindowPos4svMESA
+	extrn	___glewWriteMaskEXT
+	extrn	_bbOnDebugEnterScope
+	extrn	_bbOnDebugLeaveScope
+	extrn	_bbStringClass
+	public	___bb_glew_glew
+	section	"code" code
+___bb_glew_glew:
+	push	ebp
+	mov	ebp,esp
+	push	ebx
+	cmp	dword [_6340],0
+	je	_6341
+	mov	eax,0
+	pop	ebx
+	mov	esp,ebp
+	pop	ebp
+	ret
+_6341:
+	mov	dword [_6340],1
+	push	ebp
+	push	_3
+	call	dword [_bbOnDebugEnterScope]
+	add	esp,8
+	call	___bb_blitz_blitz
+	call	___bb_opengl_opengl
+	mov	ebx,0
+	jmp	_1
+_1:
+	call	dword [_bbOnDebugLeaveScope]
+	mov	eax,ebx
+	pop	ebx
+	mov	esp,ebp
+	pop	ebp
+	ret
+	section	"data" data writeable align 8
+	align	4
+_6340:
+	dd	0
+_4:
+	db	"glew",0
+_5:
+	db	"GL_SMOOTH_POINT_SIZE_RANGE",0
+_6:
+	db	"i",0
+	align	4
+_7:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	4
+	dw	50,56,51,52
+_8:
+	db	"GL_SMOOTH_POINT_SIZE_GRANULARITY",0
+	align	4
+_9:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	4
+	dw	50,56,51,53
+_10:
+	db	"GL_SMOOTH_LINE_WIDTH_RANGE",0
+	align	4
+_11:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	4
+	dw	50,56,53,48
+_12:
+	db	"GL_SMOOTH_LINE_WIDTH_GRANULARITY",0
+	align	4
+_13:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	4
+	dw	50,56,53,49
+_14:
+	db	"GL_UNSIGNED_BYTE_3_3_2",0
+	align	4
+_15:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,49,56
+_16:
+	db	"GL_UNSIGNED_SHORT_4_4_4_4",0
+	align	4
+_17:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,49,57
+_18:
+	db	"GL_UNSIGNED_SHORT_5_5_5_1",0
+	align	4
+_19:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,50,48
+_20:
+	db	"GL_UNSIGNED_INT_8_8_8_8",0
+	align	4
+_21:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,50,49
+_22:
+	db	"GL_UNSIGNED_INT_10_10_10_2",0
+	align	4
+_23:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,50,50
+_24:
+	db	"GL_RESCALE_NORMAL",0
+	align	4
+_25:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,50,54
+_26:
+	db	"GL_TEXTURE_BINDING_3D",0
+	align	4
+_27:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,55,52
+_28:
+	db	"GL_PACK_SKIP_IMAGES",0
+	align	4
+_29:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,55,53
+_30:
+	db	"GL_PACK_IMAGE_HEIGHT",0
+	align	4
+_31:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,55,54
+_32:
+	db	"GL_UNPACK_SKIP_IMAGES",0
+	align	4
+_33:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,55,55
+_34:
+	db	"GL_UNPACK_IMAGE_HEIGHT",0
+	align	4
+_35:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,55,56
+_36:
+	db	"GL_TEXTURE_3D",0
+	align	4
+_37:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,55,57
+_38:
+	db	"GL_PROXY_TEXTURE_3D",0
+	align	4
+_39:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,56,48
+_40:
+	db	"GL_TEXTURE_DEPTH",0
+	align	4
+_41:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,56,49
+_42:
+	db	"GL_TEXTURE_WRAP_R",0
+	align	4
+_43:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,56,50
+_44:
+	db	"GL_MAX_3D_TEXTURE_SIZE",0
+	align	4
+_45:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,56,51
+_46:
+	db	"GL_BGR",0
+	align	4
+_47:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,57,50
+_48:
+	db	"GL_BGRA",0
+	align	4
+_49:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,57,51
+_50:
+	db	"GL_MAX_ELEMENTS_VERTICES",0
+	align	4
+_51:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,48,48,48
+_52:
+	db	"GL_MAX_ELEMENTS_INDICES",0
+	align	4
+_53:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,48,48,49
+_54:
+	db	"GL_CLAMP_TO_EDGE",0
+	align	4
+_55:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,48,55,49
+_56:
+	db	"GL_TEXTURE_MIN_LOD",0
+	align	4
+_57:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,48,56,50
+_58:
+	db	"GL_TEXTURE_MAX_LOD",0
+	align	4
+_59:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,48,56,51
+_60:
+	db	"GL_TEXTURE_BASE_LEVEL",0
+	align	4
+_61:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,48,56,52
+_62:
+	db	"GL_TEXTURE_MAX_LEVEL",0
+	align	4
+_63:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,48,56,53
+_64:
+	db	"GL_LIGHT_MODEL_COLOR_CONTROL",0
+	align	4
+_65:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,50,55,50
+_66:
+	db	"GL_SINGLE_COLOR",0
+	align	4
+_67:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,50,55,51
+_68:
+	db	"GL_SEPARATE_SPECULAR_COLOR",0
+	align	4
+_69:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,50,55,52
+_70:
+	db	"GL_UNSIGNED_BYTE_2_3_3_REV",0
+	align	4
+_71:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,54,51,52
+_72:
+	db	"GL_UNSIGNED_SHORT_5_6_5",0
+	align	4
+_73:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,54,51,53
+_74:
+	db	"GL_UNSIGNED_SHORT_5_6_5_REV",0
+	align	4
+_75:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,54,51,54
+_76:
+	db	"GL_UNSIGNED_SHORT_4_4_4_4_REV",0
+	align	4
+_77:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,54,51,55
+_78:
+	db	"GL_UNSIGNED_SHORT_1_5_5_5_REV",0
+	align	4
+_79:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,54,51,56
+_80:
+	db	"GL_UNSIGNED_INT_8_8_8_8_REV",0
+	align	4
+_81:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,54,51,57
+_82:
+	db	"GL_UNSIGNED_INT_2_10_10_10_REV",0
+	align	4
+_83:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,54,52,48
+_84:
+	db	"GL_ALIASED_POINT_SIZE_RANGE",0
+	align	4
+_85:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,57,48,49
+_86:
+	db	"GL_ALIASED_LINE_WIDTH_RANGE",0
+	align	4
+_87:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,57,48,50
+_88:
+	db	"GL_MULTISAMPLE",0
+	align	4
+_89:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,50,53
+_90:
+	db	"GL_SAMPLE_ALPHA_TO_COVERAGE",0
+	align	4
+_91:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,50,54
+_92:
+	db	"GL_SAMPLE_ALPHA_TO_ONE",0
+	align	4
+_93:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,50,55
+_94:
+	db	"GL_SAMPLE_COVERAGE",0
+	align	4
+_95:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,50,56
+_96:
+	db	"GL_SAMPLE_BUFFERS",0
+	align	4
+_97:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,51,54
+_98:
+	db	"GL_SAMPLES",0
+	align	4
+_99:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,51,55
+_100:
+	db	"GL_SAMPLE_COVERAGE_VALUE",0
+	align	4
+_101:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,51,56
+_102:
+	db	"GL_SAMPLE_COVERAGE_INVERT",0
+	align	4
+_103:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,51,57
+_104:
+	db	"GL_CLAMP_TO_BORDER",0
+	align	4
+_105:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,48,54,57
+_106:
+	db	"GL_TEXTURE0",0
+	align	4
+_107:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,57,56,52
+_108:
+	db	"GL_TEXTURE1",0
+	align	4
+_109:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,57,56,53
+_110:
+	db	"GL_TEXTURE2",0
+	align	4
+_111:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,57,56,54
+_112:
+	db	"GL_TEXTURE3",0
+	align	4
+_113:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,57,56,55
+_114:
+	db	"GL_TEXTURE4",0
+	align	4
+_115:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,57,56,56
+_116:
+	db	"GL_TEXTURE5",0
+	align	4
+_117:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,57,56,57
+_118:
+	db	"GL_TEXTURE6",0
+	align	4
+_119:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,57,57,48
+_120:
+	db	"GL_TEXTURE7",0
+	align	4
+_121:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,57,57,49
+_122:
+	db	"GL_TEXTURE8",0
+	align	4
+_123:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,57,57,50
+_124:
+	db	"GL_TEXTURE9",0
+	align	4
+_125:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,57,57,51
+_126:
+	db	"GL_TEXTURE10",0
+	align	4
+_127:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,57,57,52
+_128:
+	db	"GL_TEXTURE11",0
+	align	4
+_129:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,57,57,53
+_130:
+	db	"GL_TEXTURE12",0
+	align	4
+_131:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,57,57,54
+_132:
+	db	"GL_TEXTURE13",0
+	align	4
+_133:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,57,57,55
+_134:
+	db	"GL_TEXTURE14",0
+	align	4
+_135:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,57,57,56
+_136:
+	db	"GL_TEXTURE15",0
+	align	4
+_137:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,57,57,57
+_138:
+	db	"GL_TEXTURE16",0
+	align	4
+_139:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,48,48
+_140:
+	db	"GL_TEXTURE17",0
+	align	4
+_141:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,48,49
+_142:
+	db	"GL_TEXTURE18",0
+	align	4
+_143:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,48,50
+_144:
+	db	"GL_TEXTURE19",0
+	align	4
+_145:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,48,51
+_146:
+	db	"GL_TEXTURE20",0
+	align	4
+_147:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,48,52
+_148:
+	db	"GL_TEXTURE21",0
+	align	4
+_149:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,48,53
+_150:
+	db	"GL_TEXTURE22",0
+	align	4
+_151:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,48,54
+_152:
+	db	"GL_TEXTURE23",0
+	align	4
+_153:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,48,55
+_154:
+	db	"GL_TEXTURE24",0
+	align	4
+_155:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,48,56
+_156:
+	db	"GL_TEXTURE25",0
+	align	4
+_157:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,48,57
+_158:
+	db	"GL_TEXTURE26",0
+	align	4
+_159:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,49,48
+_160:
+	db	"GL_TEXTURE27",0
+	align	4
+_161:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,49,49
+_162:
+	db	"GL_TEXTURE28",0
+	align	4
+_163:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,49,50
+_164:
+	db	"GL_TEXTURE29",0
+	align	4
+_165:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,49,51
+_166:
+	db	"GL_TEXTURE30",0
+	align	4
+_167:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,49,52
+_168:
+	db	"GL_TEXTURE31",0
+	align	4
+_169:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,49,53
+_170:
+	db	"GL_ACTIVE_TEXTURE",0
+	align	4
+_171:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,49,54
+_172:
+	db	"GL_CLIENT_ACTIVE_TEXTURE",0
+	align	4
+_173:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,49,55
+_174:
+	db	"GL_MAX_TEXTURE_UNITS",0
+	align	4
+_175:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,49,56
+_176:
+	db	"GL_TRANSPOSE_MODELVIEW_MATRIX",0
+	align	4
+_177:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,49,57
+_178:
+	db	"GL_TRANSPOSE_PROJECTION_MATRIX",0
+	align	4
+_179:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,50,48
+_180:
+	db	"GL_TRANSPOSE_TEXTURE_MATRIX",0
+	align	4
+_181:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,50,49
+_182:
+	db	"GL_TRANSPOSE_COLOR_MATRIX",0
+	align	4
+_183:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,50,50
+_184:
+	db	"GL_SUBTRACT",0
+	align	4
+_185:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,50,51
+_186:
+	db	"GL_COMPRESSED_ALPHA",0
+	align	4
+_187:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,50,53
+_188:
+	db	"GL_COMPRESSED_LUMINANCE",0
+	align	4
+_189:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,50,54
+_190:
+	db	"GL_COMPRESSED_LUMINANCE_ALPHA",0
+	align	4
+_191:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,50,55
+_192:
+	db	"GL_COMPRESSED_INTENSITY",0
+	align	4
+_193:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,50,56
+_194:
+	db	"GL_COMPRESSED_RGB",0
+	align	4
+_195:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,50,57
+_196:
+	db	"GL_COMPRESSED_RGBA",0
+	align	4
+_197:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,51,48
+_198:
+	db	"GL_TEXTURE_COMPRESSION_HINT",0
+	align	4
+_199:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,51,49
+_200:
+	db	"GL_NORMAL_MAP",0
+	align	4
+_201:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,54,53
+_202:
+	db	"GL_REFLECTION_MAP",0
+	align	4
+_203:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,54,54
+_204:
+	db	"GL_TEXTURE_CUBE_MAP",0
+	align	4
+_205:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,54,55
+_206:
+	db	"GL_TEXTURE_BINDING_CUBE_MAP",0
+	align	4
+_207:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,54,56
+_208:
+	db	"GL_TEXTURE_CUBE_MAP_POSITIVE_X",0
+	align	4
+_209:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,54,57
+_210:
+	db	"GL_TEXTURE_CUBE_MAP_NEGATIVE_X",0
+	align	4
+_211:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,55,48
+_212:
+	db	"GL_TEXTURE_CUBE_MAP_POSITIVE_Y",0
+	align	4
+_213:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,55,49
+_214:
+	db	"GL_TEXTURE_CUBE_MAP_NEGATIVE_Y",0
+	align	4
+_215:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,55,50
+_216:
+	db	"GL_TEXTURE_CUBE_MAP_POSITIVE_Z",0
+	align	4
+_217:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,55,51
+_218:
+	db	"GL_TEXTURE_CUBE_MAP_NEGATIVE_Z",0
+	align	4
+_219:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,55,52
+_220:
+	db	"GL_PROXY_TEXTURE_CUBE_MAP",0
+	align	4
+_221:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,55,53
+_222:
+	db	"GL_MAX_CUBE_MAP_TEXTURE_SIZE",0
+	align	4
+_223:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,55,54
+_224:
+	db	"GL_COMBINE",0
+	align	4
+_225:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,54,48
+_226:
+	db	"GL_COMBINE_RGB",0
+	align	4
+_227:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,54,49
+_228:
+	db	"GL_COMBINE_ALPHA",0
+	align	4
+_229:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,54,50
+_230:
+	db	"GL_RGB_SCALE",0
+	align	4
+_231:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,54,51
+_232:
+	db	"GL_ADD_SIGNED",0
+	align	4
+_233:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,54,52
+_234:
+	db	"GL_INTERPOLATE",0
+	align	4
+_235:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,54,53
+_236:
+	db	"GL_CONSTANT",0
+	align	4
+_237:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,54,54
+_238:
+	db	"GL_PRIMARY_COLOR",0
+	align	4
+_239:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,54,55
+_240:
+	db	"GL_PREVIOUS",0
+	align	4
+_241:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,54,56
+_242:
+	db	"GL_SOURCE0_RGB",0
+	align	4
+_243:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,55,54
+_244:
+	db	"GL_SOURCE1_RGB",0
+	align	4
+_245:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,55,55
+_246:
+	db	"GL_SOURCE2_RGB",0
+	align	4
+_247:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,55,56
+_248:
+	db	"GL_SOURCE0_ALPHA",0
+	align	4
+_249:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,56,52
+_250:
+	db	"GL_SOURCE1_ALPHA",0
+	align	4
+_251:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,56,53
+_252:
+	db	"GL_SOURCE2_ALPHA",0
+	align	4
+_253:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,56,54
+_254:
+	db	"GL_OPERAND0_RGB",0
+	align	4
+_255:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,57,50
+_256:
+	db	"GL_OPERAND1_RGB",0
+	align	4
+_257:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,57,51
+_258:
+	db	"GL_OPERAND2_RGB",0
+	align	4
+_259:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,57,52
+_260:
+	db	"GL_OPERAND0_ALPHA",0
+	align	4
+_261:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,48,48
+_262:
+	db	"GL_OPERAND1_ALPHA",0
+	align	4
+_263:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,48,49
+_264:
+	db	"GL_OPERAND2_ALPHA",0
+	align	4
+_265:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,48,50
+_266:
+	db	"GL_TEXTURE_COMPRESSED_IMAGE_SIZE",0
+	align	4
+_267:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,54,52
+_268:
+	db	"GL_TEXTURE_COMPRESSED",0
+	align	4
+_269:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,54,53
+_270:
+	db	"GL_NUM_COMPRESSED_TEXTURE_FORMATS",0
+	align	4
+_271:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,54,54
+_272:
+	db	"GL_COMPRESSED_TEXTURE_FORMATS",0
+	align	4
+_273:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,54,55
+_274:
+	db	"GL_DOT3_RGB",0
+	align	4
+_275:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,55,56
+_276:
+	db	"GL_DOT3_RGBA",0
+	align	4
+_277:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,55,57
+_278:
+	db	"GL_MULTISAMPLE_BIT",0
+	align	4
+_279:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	9
+	dw	53,51,54,56,55,48,57,49,50
+_280:
+	db	"GL_BLEND_DST_RGB",0
+	align	4
+_281:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,54,56
+_282:
+	db	"GL_BLEND_SRC_RGB",0
+	align	4
+_283:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,54,57
+_284:
+	db	"GL_BLEND_DST_ALPHA",0
+	align	4
+_285:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,55,48
+_286:
+	db	"GL_BLEND_SRC_ALPHA",0
+	align	4
+_287:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,55,49
+_288:
+	db	"GL_POINT_SIZE_MIN",0
+	align	4
+_289:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,48,54,50
+_290:
+	db	"GL_POINT_SIZE_MAX",0
+	align	4
+_291:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,48,54,51
+_292:
+	db	"GL_POINT_FADE_THRESHOLD_SIZE",0
+	align	4
+_293:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,48,54,52
+_294:
+	db	"GL_POINT_DISTANCE_ATTENUATION",0
+	align	4
+_295:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,48,54,53
+_296:
+	db	"GL_GENERATE_MIPMAP",0
+	align	4
+_297:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,49,54,57
+_298:
+	db	"GL_GENERATE_MIPMAP_HINT",0
+	align	4
+_299:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,49,55,48
+_300:
+	db	"GL_DEPTH_COMPONENT16",0
+	align	4
+_301:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,49,56,57
+_302:
+	db	"GL_DEPTH_COMPONENT24",0
+	align	4
+_303:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,49,57,48
+_304:
+	db	"GL_DEPTH_COMPONENT32",0
+	align	4
+_305:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,49,57,49
+_306:
+	db	"GL_MIRRORED_REPEAT",0
+	align	4
+_307:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,54,52,56
+_308:
+	db	"GL_FOG_COORDINATE_SOURCE",0
+	align	4
+_309:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,56,55,50
+_310:
+	db	"GL_FOG_COORDINATE",0
+	align	4
+_311:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,56,55,51
+_312:
+	db	"GL_FRAGMENT_DEPTH",0
+	align	4
+_313:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,56,55,52
+_314:
+	db	"GL_CURRENT_FOG_COORDINATE",0
+	align	4
+_315:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,56,55,53
+_316:
+	db	"GL_FOG_COORDINATE_ARRAY_TYPE",0
+	align	4
+_317:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,56,55,54
+_318:
+	db	"GL_FOG_COORDINATE_ARRAY_STRIDE",0
+	align	4
+_319:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,56,55,55
+_320:
+	db	"GL_FOG_COORDINATE_ARRAY_POINTER",0
+	align	4
+_321:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,56,55,56
+_322:
+	db	"GL_FOG_COORDINATE_ARRAY",0
+	align	4
+_323:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,56,55,57
+_324:
+	db	"GL_COLOR_SUM",0
+	align	4
+_325:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,56,56,48
+_326:
+	db	"GL_CURRENT_SECONDARY_COLOR",0
+	align	4
+_327:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,56,56,49
+_328:
+	db	"GL_SECONDARY_COLOR_ARRAY_SIZE",0
+	align	4
+_329:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,56,56,50
+_330:
+	db	"GL_SECONDARY_COLOR_ARRAY_TYPE",0
+	align	4
+_331:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,56,56,51
+_332:
+	db	"GL_SECONDARY_COLOR_ARRAY_STRIDE",0
+	align	4
+_333:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,56,56,52
+_334:
+	db	"GL_SECONDARY_COLOR_ARRAY_POINTER",0
+	align	4
+_335:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,56,56,53
+_336:
+	db	"GL_SECONDARY_COLOR_ARRAY",0
+	align	4
+_337:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,56,56,54
+_338:
+	db	"GL_MAX_TEXTURE_LOD_BIAS",0
+	align	4
+_339:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,52,53
+_340:
+	db	"GL_TEXTURE_FILTER_CONTROL",0
+	align	4
+_341:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,52,56
+_342:
+	db	"GL_TEXTURE_LOD_BIAS",0
+	align	4
+_343:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,52,57
+_344:
+	db	"GL_INCR_WRAP",0
+	align	4
+_345:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,53,53
+_346:
+	db	"GL_DECR_WRAP",0
+	align	4
+_347:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,53,54
+_348:
+	db	"GL_TEXTURE_DEPTH_SIZE",0
+	align	4
+_349:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,57,48
+_350:
+	db	"GL_DEPTH_TEXTURE_MODE",0
+	align	4
+_351:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,57,49
+_352:
+	db	"GL_TEXTURE_COMPARE_MODE",0
+	align	4
+_353:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,57,50
+_354:
+	db	"GL_TEXTURE_COMPARE_FUNC",0
+	align	4
+_355:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,57,51
+_356:
+	db	"GL_COMPARE_R_TO_TEXTURE",0
+	align	4
+_357:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,57,52
+_358:
+	db	"GL_BUFFER_SIZE",0
+	align	4
+_359:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,54,48
+_360:
+	db	"GL_BUFFER_USAGE",0
+	align	4
+_361:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,54,49
+_362:
+	db	"GL_QUERY_COUNTER_BITS",0
+	align	4
+_363:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,49,54
+_364:
+	db	"GL_CURRENT_QUERY",0
+	align	4
+_365:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,49,55
+_366:
+	db	"GL_QUERY_RESULT",0
+	align	4
+_367:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,49,56
+_368:
+	db	"GL_QUERY_RESULT_AVAILABLE",0
+	align	4
+_369:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,49,57
+_370:
+	db	"GL_ARRAY_BUFFER",0
+	align	4
+_371:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,54,50
+_372:
+	db	"GL_ELEMENT_ARRAY_BUFFER",0
+	align	4
+_373:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,54,51
+_374:
+	db	"GL_ARRAY_BUFFER_BINDING",0
+	align	4
+_375:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,54,52
+_376:
+	db	"GL_ELEMENT_ARRAY_BUFFER_BINDING",0
+	align	4
+_377:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,54,53
+_378:
+	db	"GL_VERTEX_ARRAY_BUFFER_BINDING",0
+	align	4
+_379:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,54,54
+_380:
+	db	"GL_NORMAL_ARRAY_BUFFER_BINDING",0
+	align	4
+_381:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,54,55
+_382:
+	db	"GL_COLOR_ARRAY_BUFFER_BINDING",0
+	align	4
+_383:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,54,56
+_384:
+	db	"GL_INDEX_ARRAY_BUFFER_BINDING",0
+	align	4
+_385:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,54,57
+_386:
+	db	"GL_TEXTURE_COORD_ARRAY_BUFFER_BINDING",0
+	align	4
+_387:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,55,48
+_388:
+	db	"GL_EDGE_FLAG_ARRAY_BUFFER_BINDING",0
+	align	4
+_389:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,55,49
+_390:
+	db	"GL_SECONDARY_COLOR_ARRAY_BUFFER_BINDING",0
+	align	4
+_391:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,55,50
+_392:
+	db	"GL_FOG_COORDINATE_ARRAY_BUFFER_BINDING",0
+	align	4
+_393:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,55,51
+_394:
+	db	"GL_WEIGHT_ARRAY_BUFFER_BINDING",0
+	align	4
+_395:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,55,52
+_396:
+	db	"GL_VERTEX_ATTRIB_ARRAY_BUFFER_BINDING",0
+	align	4
+_397:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,55,53
+_398:
+	db	"GL_READ_ONLY",0
+	align	4
+_399:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,48,48
+_400:
+	db	"GL_WRITE_ONLY",0
+	align	4
+_401:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,48,49
+_402:
+	db	"GL_READ_WRITE",0
+	align	4
+_403:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,48,50
+_404:
+	db	"GL_BUFFER_ACCESS",0
+	align	4
+_405:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,48,51
+_406:
+	db	"GL_BUFFER_MAPPED",0
+	align	4
+_407:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,48,52
+_408:
+	db	"GL_BUFFER_MAP_POINTER",0
+	align	4
+_409:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,48,53
+_410:
+	db	"GL_STREAM_DRAW",0
+	align	4
+_411:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,52,48
+_412:
+	db	"GL_STREAM_READ",0
+	align	4
+_413:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,52,49
+_414:
+	db	"GL_STREAM_COPY",0
+	align	4
+_415:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,52,50
+_416:
+	db	"GL_STATIC_DRAW",0
+	align	4
+_417:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,52,52
+_418:
+	db	"GL_STATIC_READ",0
+	align	4
+_419:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,52,53
+_420:
+	db	"GL_STATIC_COPY",0
+	align	4
+_421:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,52,54
+_422:
+	db	"GL_DYNAMIC_DRAW",0
+	align	4
+_423:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,52,56
+_424:
+	db	"GL_DYNAMIC_READ",0
+	align	4
+_425:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,52,57
+_426:
+	db	"GL_DYNAMIC_COPY",0
+	align	4
+_427:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,53,48
+_428:
+	db	"GL_SAMPLES_PASSED",0
+	align	4
+_429:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,57,50
+_430:
+	db	"GL_VERTEX_ATTRIB_ARRAY_ENABLED",0
+	align	4
+_431:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,51,56
+_432:
+	db	"GL_VERTEX_ATTRIB_ARRAY_SIZE",0
+	align	4
+_433:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,51,57
+_434:
+	db	"GL_VERTEX_ATTRIB_ARRAY_STRIDE",0
+	align	4
+_435:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,52,48
+_436:
+	db	"GL_VERTEX_ATTRIB_ARRAY_TYPE",0
+	align	4
+_437:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,52,49
+_438:
+	db	"GL_CURRENT_VERTEX_ATTRIB",0
+	align	4
+_439:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,52,50
+_440:
+	db	"GL_VERTEX_PROGRAM_POINT_SIZE",0
+	align	4
+_441:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,55,48
+_442:
+	db	"GL_VERTEX_PROGRAM_TWO_SIDE",0
+	align	4
+_443:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,55,49
+_444:
+	db	"GL_VERTEX_ATTRIB_ARRAY_POINTER",0
+	align	4
+_445:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,55,51
+_446:
+	db	"GL_STENCIL_BACK_FUNC",0
+	align	4
+_447:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,49,54
+_448:
+	db	"GL_STENCIL_BACK_FAIL",0
+	align	4
+_449:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,49,55
+_450:
+	db	"GL_STENCIL_BACK_PASS_DEPTH_FAIL",0
+	align	4
+_451:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,49,56
+_452:
+	db	"GL_STENCIL_BACK_PASS_DEPTH_PASS",0
+	align	4
+_453:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,49,57
+_454:
+	db	"GL_MAX_DRAW_BUFFERS",0
+	align	4
+_455:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,53,50
+_456:
+	db	"GL_DRAW_BUFFER0",0
+	align	4
+_457:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,53,51
+_458:
+	db	"GL_DRAW_BUFFER1",0
+	align	4
+_459:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,53,52
+_460:
+	db	"GL_DRAW_BUFFER2",0
+	align	4
+_461:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,53,53
+_462:
+	db	"GL_DRAW_BUFFER3",0
+	align	4
+_463:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,53,54
+_464:
+	db	"GL_DRAW_BUFFER4",0
+	align	4
+_465:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,53,55
+_466:
+	db	"GL_DRAW_BUFFER5",0
+	align	4
+_467:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,53,56
+_468:
+	db	"GL_DRAW_BUFFER6",0
+	align	4
+_469:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,53,57
+_470:
+	db	"GL_DRAW_BUFFER7",0
+	align	4
+_471:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,54,48
+_472:
+	db	"GL_DRAW_BUFFER8",0
+	align	4
+_473:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,54,49
+_474:
+	db	"GL_DRAW_BUFFER9",0
+	align	4
+_475:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,54,50
+_476:
+	db	"GL_DRAW_BUFFER10",0
+	align	4
+_477:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,54,51
+_478:
+	db	"GL_DRAW_BUFFER11",0
+	align	4
+_479:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,54,52
+_480:
+	db	"GL_DRAW_BUFFER12",0
+	align	4
+_481:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,54,53
+_482:
+	db	"GL_DRAW_BUFFER13",0
+	align	4
+_483:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,54,54
+_484:
+	db	"GL_DRAW_BUFFER14",0
+	align	4
+_485:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,54,55
+_486:
+	db	"GL_DRAW_BUFFER15",0
+	align	4
+_487:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,54,56
+_488:
+	db	"GL_BLEND_EQUATION_ALPHA",0
+	align	4
+_489:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,55,55
+_490:
+	db	"GL_POINT_SPRITE",0
+	align	4
+_491:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,49,51
+_492:
+	db	"GL_COORD_REPLACE",0
+	align	4
+_493:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,49,52
+_494:
+	db	"GL_MAX_VERTEX_ATTRIBS",0
+	align	4
+_495:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,50,49
+_496:
+	db	"GL_VERTEX_ATTRIB_ARRAY_NORMALIZED",0
+	align	4
+_497:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,50,50
+_498:
+	db	"GL_MAX_TEXTURE_COORDS",0
+	align	4
+_499:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,50,57
+_500:
+	db	"GL_MAX_TEXTURE_IMAGE_UNITS",0
+	align	4
+_501:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,51,48
+_502:
+	db	"GL_FRAGMENT_SHADER",0
+	align	4
+_503:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,54,51,50
+_504:
+	db	"GL_VERTEX_SHADER",0
+	align	4
+_505:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,54,51,51
+_506:
+	db	"GL_MAX_FRAGMENT_UNIFORM_COMPONENTS",0
+	align	4
+_507:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,54,53,55
+_508:
+	db	"GL_MAX_VERTEX_UNIFORM_COMPONENTS",0
+	align	4
+_509:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,54,53,56
+_510:
+	db	"GL_MAX_VARYING_FLOATS",0
+	align	4
+_511:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,54,53,57
+_512:
+	db	"GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS",0
+	align	4
+_513:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,54,54,48
+_514:
+	db	"GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS",0
+	align	4
+_515:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,54,54,49
+_516:
+	db	"GL_SHADER_TYPE",0
+	align	4
+_517:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,54,54,51
+_518:
+	db	"GL_FLOAT_VEC2",0
+	align	4
+_519:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,54,54,52
+_520:
+	db	"GL_FLOAT_VEC3",0
+	align	4
+_521:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,54,54,53
+_522:
+	db	"GL_FLOAT_VEC4",0
+	align	4
+_523:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,54,54,54
+_524:
+	db	"GL_INT_VEC2",0
+	align	4
+_525:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,54,54,55
+_526:
+	db	"GL_INT_VEC3",0
+	align	4
+_527:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,54,54,56
+_528:
+	db	"GL_INT_VEC4",0
+	align	4
+_529:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,54,54,57
+_530:
+	db	"GL_BOOL",0
+	align	4
+_531:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,54,55,48
+_532:
+	db	"GL_BOOL_VEC2",0
+	align	4
+_533:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,54,55,49
+_534:
+	db	"GL_BOOL_VEC3",0
+	align	4
+_535:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,54,55,50
+_536:
+	db	"GL_BOOL_VEC4",0
+	align	4
+_537:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,54,55,51
+_538:
+	db	"GL_FLOAT_MAT2",0
+	align	4
+_539:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,54,55,52
+_540:
+	db	"GL_FLOAT_MAT3",0
+	align	4
+_541:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,54,55,53
+_542:
+	db	"GL_FLOAT_MAT4",0
+	align	4
+_543:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,54,55,54
+_544:
+	db	"GL_SAMPLER_1D",0
+	align	4
+_545:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,54,55,55
+_546:
+	db	"GL_SAMPLER_2D",0
+	align	4
+_547:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,54,55,56
+_548:
+	db	"GL_SAMPLER_3D",0
+	align	4
+_549:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,54,55,57
+_550:
+	db	"GL_SAMPLER_CUBE",0
+	align	4
+_551:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,54,56,48
+_552:
+	db	"GL_SAMPLER_1D_SHADOW",0
+	align	4
+_553:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,54,56,49
+_554:
+	db	"GL_SAMPLER_2D_SHADOW",0
+	align	4
+_555:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,54,56,50
+_556:
+	db	"GL_DELETE_STATUS",0
+	align	4
+_557:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,55,49,50
+_558:
+	db	"GL_COMPILE_STATUS",0
+	align	4
+_559:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,55,49,51
+_560:
+	db	"GL_LINK_STATUS",0
+	align	4
+_561:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,55,49,52
+_562:
+	db	"GL_VALIDATE_STATUS",0
+	align	4
+_563:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,55,49,53
+_564:
+	db	"GL_INFO_LOG_LENGTH",0
+	align	4
+_565:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,55,49,54
+_566:
+	db	"GL_ATTACHED_SHADERS",0
+	align	4
+_567:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,55,49,55
+_568:
+	db	"GL_ACTIVE_UNIFORMS",0
+	align	4
+_569:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,55,49,56
+_570:
+	db	"GL_ACTIVE_UNIFORM_MAX_LENGTH",0
+	align	4
+_571:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,55,49,57
+_572:
+	db	"GL_SHADER_SOURCE_LENGTH",0
+	align	4
+_573:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,55,50,48
+_574:
+	db	"GL_ACTIVE_ATTRIBUTES",0
+	align	4
+_575:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,55,50,49
+_576:
+	db	"GL_ACTIVE_ATTRIBUTE_MAX_LENGTH",0
+	align	4
+_577:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,55,50,50
+_578:
+	db	"GL_FRAGMENT_SHADER_DERIVATIVE_HINT",0
+	align	4
+_579:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,55,50,51
+_580:
+	db	"GL_SHADING_LANGUAGE_VERSION",0
+	align	4
+_581:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,55,50,52
+_582:
+	db	"GL_CURRENT_PROGRAM",0
+	align	4
+_583:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,55,50,53
+_584:
+	db	"GL_POINT_SPRITE_COORD_ORIGIN",0
+	align	4
+_585:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,48,48,48
+_586:
+	db	"GL_LOWER_LEFT",0
+	align	4
+_587:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,48,48,49
+_588:
+	db	"GL_UPPER_LEFT",0
+	align	4
+_589:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,48,48,50
+_590:
+	db	"GL_STENCIL_BACK_REF",0
+	align	4
+_591:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,48,48,51
+_592:
+	db	"GL_STENCIL_BACK_VALUE_MASK",0
+	align	4
+_593:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,48,48,52
+_594:
+	db	"GL_STENCIL_BACK_WRITEMASK",0
+	align	4
+_595:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,48,48,53
+_596:
+	db	"GL_CURRENT_RASTER_SECONDARY_COLOR",0
+	align	4
+_597:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,56,56,55
+_598:
+	db	"GL_PIXEL_PACK_BUFFER",0
+	align	4
+_599:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,53,49
+_600:
+	db	"GL_PIXEL_UNPACK_BUFFER",0
+	align	4
+_601:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,53,50
+_602:
+	db	"GL_PIXEL_PACK_BUFFER_BINDING",0
+	align	4
+_603:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,53,51
+_604:
+	db	"GL_PIXEL_UNPACK_BUFFER_BINDING",0
+	align	4
+_605:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,53,53
+_606:
+	db	"GL_FLOAT_MAT2x3",0
+	align	4
+_607:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,54,56,53
+_608:
+	db	"GL_FLOAT_MAT2x4",0
+	align	4
+_609:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,54,56,54
+_610:
+	db	"GL_FLOAT_MAT3x2",0
+	align	4
+_611:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,54,56,55
+_612:
+	db	"GL_FLOAT_MAT3x4",0
+	align	4
+_613:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,54,56,56
+_614:
+	db	"GL_FLOAT_MAT4x2",0
+	align	4
+_615:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,54,56,57
+_616:
+	db	"GL_FLOAT_MAT4x3",0
+	align	4
+_617:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,54,57,48
+_618:
+	db	"GL_SRGB",0
+	align	4
+_619:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,57,48,52
+_620:
+	db	"GL_SRGB8",0
+	align	4
+_621:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,57,48,53
+_622:
+	db	"GL_SRGB_ALPHA",0
+	align	4
+_623:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,57,48,54
+_624:
+	db	"GL_SRGB8_ALPHA8",0
+	align	4
+_625:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,57,48,55
+_626:
+	db	"GL_SLUMINANCE_ALPHA",0
+	align	4
+_627:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,57,48,56
+_628:
+	db	"GL_SLUMINANCE8_ALPHA8",0
+	align	4
+_629:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,57,48,57
+_630:
+	db	"GL_SLUMINANCE",0
+	align	4
+_631:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,57,49,48
+_632:
+	db	"GL_SLUMINANCE8",0
+	align	4
+_633:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,57,49,49
+_634:
+	db	"GL_COMPRESSED_SRGB",0
+	align	4
+_635:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,57,49,50
+_636:
+	db	"GL_COMPRESSED_SRGB_ALPHA",0
+	align	4
+_637:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,57,49,51
+_638:
+	db	"GL_COMPRESSED_SLUMINANCE",0
+	align	4
+_639:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,57,49,52
+_640:
+	db	"GL_COMPRESSED_SLUMINANCE_ALPHA",0
+	align	4
+_641:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,57,49,53
+_642:
+	db	"GL_CONTEXT_FLAG_FORWARD_COMPATIBLE_BIT",0
+	align	4
+_643:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	1
+	dw	49
+_644:
+	db	"GL_MAJOR_VERSION",0
+	align	4
+_645:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,51,48,55
+_646:
+	db	"GL_MINOR_VERSION",0
+	align	4
+_647:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,51,48,56
+_648:
+	db	"GL_NUM_EXTENSIONS",0
+	align	4
+_649:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,51,48,57
+_650:
+	db	"GL_CONTEXT_FLAGS",0
+	align	4
+_651:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,51,49,48
+_652:
+	db	"GL_DEPTH_BUFFER",0
+	align	4
+_653:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,51,49,53
+_654:
+	db	"GL_STENCIL_BUFFER",0
+	align	4
+_655:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,51,49,54
+_656:
+	db	"GL_COMPRESSED_RED",0
+	align	4
+_657:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,51,49,55
+_658:
+	db	"GL_COMPRESSED_RG",0
+	align	4
+_659:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,51,49,56
+_660:
+	db	"GL_RGBA32F",0
+	align	4
+_661:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,51,54
+_662:
+	db	"GL_RGB32F",0
+	align	4
+_663:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,51,55
+_664:
+	db	"GL_RGBA16F",0
+	align	4
+_665:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,52,50
+_666:
+	db	"GL_RGB16F",0
+	align	4
+_667:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,52,51
+_668:
+	db	"GL_VERTEX_ATTRIB_ARRAY_INTEGER",0
+	align	4
+_669:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,54,57
+_670:
+	db	"GL_MAX_ARRAY_TEXTURE_LAYERS",0
+	align	4
+_671:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,55,49
+_672:
+	db	"GL_MIN_PROGRAM_TEXEL_OFFSET",0
+	align	4
+_673:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,55,54
+_674:
+	db	"GL_MAX_PROGRAM_TEXEL_OFFSET",0
+	align	4
+_675:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,55,55
+_676:
+	db	"GL_CLAMP_VERTEX_COLOR",0
+	align	4
+_677:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,57,56
+_678:
+	db	"GL_CLAMP_FRAGMENT_COLOR",0
+	align	4
+_679:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,57,57
+_680:
+	db	"GL_CLAMP_READ_COLOR",0
+	align	4
+_681:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,49,48,48
+_682:
+	db	"GL_FIXED_ONLY",0
+	align	4
+_683:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,49,48,49
+_684:
+	db	"GL_TEXTURE_RED_TYPE",0
+	align	4
+_685:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,56,53,54
+_686:
+	db	"GL_TEXTURE_GREEN_TYPE",0
+	align	4
+_687:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,56,53,55
+_688:
+	db	"GL_TEXTURE_BLUE_TYPE",0
+	align	4
+_689:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,56,53,56
+_690:
+	db	"GL_TEXTURE_ALPHA_TYPE",0
+	align	4
+_691:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,56,53,57
+_692:
+	db	"GL_TEXTURE_LUMINANCE_TYPE",0
+	align	4
+_693:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,56,54,48
+_694:
+	db	"GL_TEXTURE_INTENSITY_TYPE",0
+	align	4
+_695:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,56,54,49
+_696:
+	db	"GL_TEXTURE_DEPTH_TYPE",0
+	align	4
+_697:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,56,54,50
+_698:
+	db	"GL_UNSIGNED_NORMALIZED",0
+	align	4
+_699:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,56,54,51
+_700:
+	db	"GL_TEXTURE_1D_ARRAY",0
+	align	4
+_701:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,56,54,52
+_702:
+	db	"GL_PROXY_TEXTURE_1D_ARRAY",0
+	align	4
+_703:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,56,54,53
+_704:
+	db	"GL_TEXTURE_2D_ARRAY",0
+	align	4
+_705:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,56,54,54
+_706:
+	db	"GL_PROXY_TEXTURE_2D_ARRAY",0
+	align	4
+_707:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,56,54,55
+_708:
+	db	"GL_TEXTURE_BINDING_1D_ARRAY",0
+	align	4
+_709:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,56,54,56
+_710:
+	db	"GL_TEXTURE_BINDING_2D_ARRAY",0
+	align	4
+_711:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,56,54,57
+_712:
+	db	"GL_R11F_G11F_B10F",0
+	align	4
+_713:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,56,57,56
+_714:
+	db	"GL_UNSIGNED_INT_10F_11F_11F_REV",0
+	align	4
+_715:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,56,57,57
+_716:
+	db	"GL_RGB9_E5",0
+	align	4
+_717:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,57,48,49
+_718:
+	db	"GL_UNSIGNED_INT_5_9_9_9_REV",0
+	align	4
+_719:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,57,48,50
+_720:
+	db	"GL_TEXTURE_SHARED_SIZE",0
+	align	4
+_721:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,57,48,51
+_722:
+	db	"GL_TRANSFORM_FEEDBACK_VARYING_MAX_LENGTH",0
+	align	4
+_723:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,57,53,56
+_724:
+	db	"GL_TRANSFORM_FEEDBACK_BUFFER_MODE",0
+	align	4
+_725:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,57,54,55
+_726:
+	db	"GL_MAX_TRANSFORM_FEEDBACK_SEPARATE_COMPONENTS",0
+	align	4
+_727:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,57,54,56
+_728:
+	db	"GL_TRANSFORM_FEEDBACK_VARYINGS",0
+	align	4
+_729:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,57,55,49
+_730:
+	db	"GL_TRANSFORM_FEEDBACK_BUFFER_START",0
+	align	4
+_731:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,57,55,50
+_732:
+	db	"GL_TRANSFORM_FEEDBACK_BUFFER_SIZE",0
+	align	4
+_733:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,57,55,51
+_734:
+	db	"GL_PRIMITIVES_GENERATED",0
+	align	4
+_735:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,57,55,53
+_736:
+	db	"GL_TRANSFORM_FEEDBACK_PRIMITIVES_WRITTEN",0
+	align	4
+_737:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,57,55,54
+_738:
+	db	"GL_RASTERIZER_DISCARD",0
+	align	4
+_739:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,57,55,55
+_740:
+	db	"GL_MAX_TRANSFORM_FEEDBACK_INTERLEAVED_COMPONENTS",0
+	align	4
+_741:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,57,55,56
+_742:
+	db	"GL_MAX_TRANSFORM_FEEDBACK_SEPARATE_ATTRIBS",0
+	align	4
+_743:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,57,55,57
+_744:
+	db	"GL_INTERLEAVED_ATTRIBS",0
+	align	4
+_745:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,57,56,48
+_746:
+	db	"GL_SEPARATE_ATTRIBS",0
+	align	4
+_747:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,57,56,49
+_748:
+	db	"GL_TRANSFORM_FEEDBACK_BUFFER",0
+	align	4
+_749:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,57,56,50
+_750:
+	db	"GL_TRANSFORM_FEEDBACK_BUFFER_BINDING",0
+	align	4
+_751:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,57,56,51
+_752:
+	db	"GL_RGBA32UI",0
+	align	4
+_753:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,48,56
+_754:
+	db	"GL_RGB32UI",0
+	align	4
+_755:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,48,57
+_756:
+	db	"GL_RGBA16UI",0
+	align	4
+_757:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,49,52
+_758:
+	db	"GL_RGB16UI",0
+	align	4
+_759:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,49,53
+_760:
+	db	"GL_RGBA8UI",0
+	align	4
+_761:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,50,48
+_762:
+	db	"GL_RGB8UI",0
+	align	4
+_763:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,50,49
+_764:
+	db	"GL_RGBA32I",0
+	align	4
+_765:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,50,54
+_766:
+	db	"GL_RGB32I",0
+	align	4
+_767:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,50,55
+_768:
+	db	"GL_RGBA16I",0
+	align	4
+_769:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,51,50
+_770:
+	db	"GL_RGB16I",0
+	align	4
+_771:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,51,51
+_772:
+	db	"GL_RGBA8I",0
+	align	4
+_773:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,51,56
+_774:
+	db	"GL_RGB8I",0
+	align	4
+_775:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,51,57
+_776:
+	db	"GL_RED_INTEGER",0
+	align	4
+_777:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,52,52
+_778:
+	db	"GL_GREEN_INTEGER",0
+	align	4
+_779:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,52,53
+_780:
+	db	"GL_BLUE_INTEGER",0
+	align	4
+_781:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,52,54
+_782:
+	db	"GL_ALPHA_INTEGER",0
+	align	4
+_783:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,52,55
+_784:
+	db	"GL_RGB_INTEGER",0
+	align	4
+_785:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,52,56
+_786:
+	db	"GL_RGBA_INTEGER",0
+	align	4
+_787:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,52,57
+_788:
+	db	"GL_BGR_INTEGER",0
+	align	4
+_789:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,53,48
+_790:
+	db	"GL_BGRA_INTEGER",0
+	align	4
+_791:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,53,49
+_792:
+	db	"GL_SAMPLER_1D_ARRAY",0
+	align	4
+_793:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,56,56
+_794:
+	db	"GL_SAMPLER_2D_ARRAY",0
+	align	4
+_795:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,56,57
+_796:
+	db	"GL_SAMPLER_1D_ARRAY_SHADOW",0
+	align	4
+_797:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,57,49
+_798:
+	db	"GL_SAMPLER_2D_ARRAY_SHADOW",0
+	align	4
+_799:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,57,50
+_800:
+	db	"GL_SAMPLER_CUBE_SHADOW",0
+	align	4
+_801:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,57,51
+_802:
+	db	"GL_UNSIGNED_INT_VEC2",0
+	align	4
+_803:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,57,52
+_804:
+	db	"GL_UNSIGNED_INT_VEC3",0
+	align	4
+_805:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,57,53
+_806:
+	db	"GL_UNSIGNED_INT_VEC4",0
+	align	4
+_807:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,57,54
+_808:
+	db	"GL_INT_SAMPLER_1D",0
+	align	4
+_809:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,57,55
+_810:
+	db	"GL_INT_SAMPLER_2D",0
+	align	4
+_811:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,57,56
+_812:
+	db	"GL_INT_SAMPLER_3D",0
+	align	4
+_813:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,57,57
+_814:
+	db	"GL_INT_SAMPLER_CUBE",0
+	align	4
+_815:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,51,48,48
+_816:
+	db	"GL_INT_SAMPLER_1D_ARRAY",0
+	align	4
+_817:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,51,48,50
+_818:
+	db	"GL_INT_SAMPLER_2D_ARRAY",0
+	align	4
+_819:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,51,48,51
+_820:
+	db	"GL_UNSIGNED_INT_SAMPLER_1D",0
+	align	4
+_821:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,51,48,53
+_822:
+	db	"GL_UNSIGNED_INT_SAMPLER_2D",0
+	align	4
+_823:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,51,48,54
+_824:
+	db	"GL_UNSIGNED_INT_SAMPLER_3D",0
+	align	4
+_825:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,51,48,55
+_826:
+	db	"GL_UNSIGNED_INT_SAMPLER_CUBE",0
+	align	4
+_827:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,51,48,56
+_828:
+	db	"GL_UNSIGNED_INT_SAMPLER_1D_ARRAY",0
+	align	4
+_829:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,51,49,48
+_830:
+	db	"GL_UNSIGNED_INT_SAMPLER_2D_ARRAY",0
+	align	4
+_831:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,51,49,49
+_832:
+	db	"GL_QUERY_WAIT",0
+	align	4
+_833:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,51,55,49
+_834:
+	db	"GL_QUERY_NO_WAIT",0
+	align	4
+_835:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,51,55,50
+_836:
+	db	"GL_QUERY_BY_REGION_WAIT",0
+	align	4
+_837:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,51,55,51
+_838:
+	db	"GL_QUERY_BY_REGION_NO_WAIT",0
+	align	4
+_839:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,51,55,52
+_840:
+	db	"GL_MULTISAMPLE_3DFX",0
+	align	4
+_841:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,56,50
+_842:
+	db	"GL_SAMPLE_BUFFERS_3DFX",0
+	align	4
+_843:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,56,51
+_844:
+	db	"GL_SAMPLES_3DFX",0
+	align	4
+_845:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,56,52
+_846:
+	db	"GL_MULTISAMPLE_BIT_3DFX",0
+_847:
+	db	"GL_COMPRESSED_RGB_FXT1_3DFX",0
+	align	4
+_848:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,56,48
+_849:
+	db	"GL_COMPRESSED_RGBA_FXT1_3DFX",0
+	align	4
+_850:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,56,49
+_851:
+	db	"GL_UNPACK_CLIENT_STORAGE_APPLE",0
+	align	4
+_852:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,50,54
+_853:
+	db	"GL_ELEMENT_ARRAY_APPLE",0
+	align	4
+_854:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,54,52
+_855:
+	db	"GL_ELEMENT_ARRAY_TYPE_APPLE",0
+	align	4
+_856:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,54,53
+_857:
+	db	"GL_ELEMENT_ARRAY_POINTER_APPLE",0
+	align	4
+_858:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,54,54
+_859:
+	db	"GL_DRAW_PIXELS_APPLE",0
+	align	4
+_860:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,51,51,56
+_861:
+	db	"GL_FENCE_APPLE",0
+	align	4
+_862:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,51,51,57
+_863:
+	db	"GL_HALF_APPLE",0
+	align	4
+_864:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	4
+	dw	53,49,51,49
+_865:
+	db	"GL_RGBA_FLOAT32_APPLE",0
+_866:
+	db	"GL_RGB_FLOAT32_APPLE",0
+_867:
+	db	"GL_ALPHA_FLOAT32_APPLE",0
+	align	4
+_868:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,51,56
+_869:
+	db	"GL_INTENSITY_FLOAT32_APPLE",0
+	align	4
+_870:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,51,57
+_871:
+	db	"GL_LUMINANCE_FLOAT32_APPLE",0
+	align	4
+_872:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,52,48
+_873:
+	db	"GL_LUMINANCE_ALPHA_FLOAT32_APPLE",0
+	align	4
+_874:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,52,49
+_875:
+	db	"GL_RGBA_FLOAT16_APPLE",0
+_876:
+	db	"GL_RGB_FLOAT16_APPLE",0
+_877:
+	db	"GL_ALPHA_FLOAT16_APPLE",0
+	align	4
+_878:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,52,52
+_879:
+	db	"GL_INTENSITY_FLOAT16_APPLE",0
+	align	4
+_880:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,52,53
+_881:
+	db	"GL_LUMINANCE_FLOAT16_APPLE",0
+	align	4
+_882:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,52,54
+_883:
+	db	"GL_LUMINANCE_ALPHA_FLOAT16_APPLE",0
+	align	4
+_884:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,52,55
+_885:
+	db	"GL_COLOR_FLOAT_APPLE",0
+	align	4
+_886:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,51,52,51
+_887:
+	db	"GL_BUFFER_SERIALIZED_MODIFY_APPLE",0
+	align	4
+_888:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,51,52,54
+_889:
+	db	"GL_BUFFER_FLUSHING_UNMAP_APPLE",0
+	align	4
+_890:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,51,52,55
+_891:
+	db	"GL_MIN_PBUFFER_VIEWPORT_DIMS_APPLE",0
+	align	4
+_892:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,51,52,52
+_893:
+	db	"GL_LIGHT_MODEL_SPECULAR_VECTOR_APPLE",0
+	align	4
+_894:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,50,52
+_895:
+	db	"GL_TEXTURE_RANGE_LENGTH_APPLE",0
+	align	4
+_896:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,51,49
+_897:
+	db	"GL_TEXTURE_RANGE_POINTER_APPLE",0
+	align	4
+_898:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,51,50
+_899:
+	db	"GL_TEXTURE_STORAGE_HINT_APPLE",0
+	align	4
+_900:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,51,54
+_901:
+	db	"GL_STORAGE_PRIVATE_APPLE",0
+	align	4
+_902:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,51,55
+_903:
+	db	"GL_STORAGE_CACHED_APPLE",0
+	align	4
+_904:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,51,56
+_905:
+	db	"GL_STORAGE_SHARED_APPLE",0
+	align	4
+_906:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,51,57
+_907:
+	db	"GL_TRANSFORM_HINT_APPLE",0
+	align	4
+_908:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,50,53
+_909:
+	db	"GL_VERTEX_ARRAY_BINDING_APPLE",0
+	align	4
+_910:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,50,57
+_911:
+	db	"GL_VERTEX_ARRAY_RANGE_APPLE",0
+	align	4
+_912:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,55,55
+_913:
+	db	"GL_VERTEX_ARRAY_RANGE_LENGTH_APPLE",0
+	align	4
+_914:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,55,56
+_915:
+	db	"GL_VERTEX_ARRAY_STORAGE_HINT_APPLE",0
+	align	4
+_916:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,55,57
+_917:
+	db	"GL_MAX_VERTEX_ARRAY_RANGE_ELEMENT_APPLE",0
+	align	4
+_918:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,56,48
+_919:
+	db	"GL_VERTEX_ARRAY_RANGE_POINTER_APPLE",0
+	align	4
+_920:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,56,49
+_921:
+	db	"GL_YCBCR_422_APPLE",0
+	align	4
+_922:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,51,51
+_923:
+	db	"GL_UNSIGNED_SHORT_8_8_APPLE",0
+	align	4
+_924:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,51,52
+_925:
+	db	"GL_UNSIGNED_SHORT_8_8_REV_APPLE",0
+	align	4
+_926:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,51,53
+_927:
+	db	"GL_RGBA_FLOAT_MODE_ARB",0
+	align	4
+_928:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,52,56
+_929:
+	db	"GL_CLAMP_VERTEX_COLOR_ARB",0
+_930:
+	db	"GL_CLAMP_FRAGMENT_COLOR_ARB",0
+_931:
+	db	"GL_CLAMP_READ_COLOR_ARB",0
+_932:
+	db	"GL_FIXED_ONLY_ARB",0
+_933:
+	db	"GL_DEPTH_COMPONENT32F",0
+	align	4
+_934:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,48,49,50
+_935:
+	db	"GL_DEPTH32F_STENCIL8",0
+	align	4
+_936:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,48,49,51
+_937:
+	db	"GL_FLOAT_32_UNSIGNED_INT_24_8_REV",0
+	align	4
+_938:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,54,57
+_939:
+	db	"GL_DEPTH_COMPONENT16_ARB",0
+_940:
+	db	"GL_DEPTH_COMPONENT24_ARB",0
+_941:
+	db	"GL_DEPTH_COMPONENT32_ARB",0
+_942:
+	db	"GL_TEXTURE_DEPTH_SIZE_ARB",0
+_943:
+	db	"GL_DEPTH_TEXTURE_MODE_ARB",0
+_944:
+	db	"GL_MAX_DRAW_BUFFERS_ARB",0
+_945:
+	db	"GL_DRAW_BUFFER0_ARB",0
+_946:
+	db	"GL_DRAW_BUFFER1_ARB",0
+_947:
+	db	"GL_DRAW_BUFFER2_ARB",0
+_948:
+	db	"GL_DRAW_BUFFER3_ARB",0
+_949:
+	db	"GL_DRAW_BUFFER4_ARB",0
+_950:
+	db	"GL_DRAW_BUFFER5_ARB",0
+_951:
+	db	"GL_DRAW_BUFFER6_ARB",0
+_952:
+	db	"GL_DRAW_BUFFER7_ARB",0
+_953:
+	db	"GL_DRAW_BUFFER8_ARB",0
+_954:
+	db	"GL_DRAW_BUFFER9_ARB",0
+_955:
+	db	"GL_DRAW_BUFFER10_ARB",0
+_956:
+	db	"GL_DRAW_BUFFER11_ARB",0
+_957:
+	db	"GL_DRAW_BUFFER12_ARB",0
+_958:
+	db	"GL_DRAW_BUFFER13_ARB",0
+_959:
+	db	"GL_DRAW_BUFFER14_ARB",0
+_960:
+	db	"GL_DRAW_BUFFER15_ARB",0
+_961:
+	db	"GL_FRAGMENT_PROGRAM_ARB",0
+	align	4
+_962:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,50,48
+_963:
+	db	"GL_PROGRAM_ALU_INSTRUCTIONS_ARB",0
+	align	4
+_964:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,50,49
+_965:
+	db	"GL_PROGRAM_TEX_INSTRUCTIONS_ARB",0
+	align	4
+_966:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,50,50
+_967:
+	db	"GL_PROGRAM_TEX_INDIRECTIONS_ARB",0
+	align	4
+_968:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,50,51
+_969:
+	db	"GL_PROGRAM_NATIVE_ALU_INSTRUCTIONS_ARB",0
+	align	4
+_970:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,50,52
+_971:
+	db	"GL_PROGRAM_NATIVE_TEX_INSTRUCTIONS_ARB",0
+	align	4
+_972:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,50,53
+_973:
+	db	"GL_PROGRAM_NATIVE_TEX_INDIRECTIONS_ARB",0
+	align	4
+_974:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,50,54
+_975:
+	db	"GL_MAX_PROGRAM_ALU_INSTRUCTIONS_ARB",0
+	align	4
+_976:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,50,55
+_977:
+	db	"GL_MAX_PROGRAM_TEX_INSTRUCTIONS_ARB",0
+	align	4
+_978:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,50,56
+_979:
+	db	"GL_MAX_PROGRAM_TEX_INDIRECTIONS_ARB",0
+	align	4
+_980:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,50,57
+_981:
+	db	"GL_MAX_PROGRAM_NATIVE_ALU_INSTRUCTIONS_ARB",0
+	align	4
+_982:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,51,48
+_983:
+	db	"GL_MAX_PROGRAM_NATIVE_TEX_INSTRUCTIONS_ARB",0
+	align	4
+_984:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,51,49
+_985:
+	db	"GL_MAX_PROGRAM_NATIVE_TEX_INDIRECTIONS_ARB",0
+	align	4
+_986:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,51,50
+_987:
+	db	"GL_MAX_TEXTURE_COORDS_ARB",0
+_988:
+	db	"GL_MAX_TEXTURE_IMAGE_UNITS_ARB",0
+_989:
+	db	"GL_FRAGMENT_SHADER_ARB",0
+_990:
+	db	"GL_MAX_FRAGMENT_UNIFORM_COMPONENTS_ARB",0
+_991:
+	db	"GL_FRAGMENT_SHADER_DERIVATIVE_HINT_ARB",0
+_992:
+	db	"GL_INVALID_FRAMEBUFFER_OPERATION",0
+	align	4
+_993:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	4
+	dw	49,50,56,54
+_994:
+	db	"GL_FRAMEBUFFER_ATTACHMENT_COLOR_ENCODING",0
+	align	4
+_995:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,50,57,54
+_996:
+	db	"GL_FRAMEBUFFER_ATTACHMENT_COMPONENT_TYPE",0
+	align	4
+_997:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,50,57,55
+_998:
+	db	"GL_FRAMEBUFFER_ATTACHMENT_RED_SIZE",0
+	align	4
+_999:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,50,57,56
+_1000:
+	db	"GL_FRAMEBUFFER_ATTACHMENT_GREEN_SIZE",0
+	align	4
+_1001:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,50,57,57
+_1002:
+	db	"GL_FRAMEBUFFER_ATTACHMENT_BLUE_SIZE",0
+	align	4
+_1003:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,51,48,48
+_1004:
+	db	"GL_FRAMEBUFFER_ATTACHMENT_ALPHA_SIZE",0
+	align	4
+_1005:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,51,48,49
+_1006:
+	db	"GL_FRAMEBUFFER_ATTACHMENT_DEPTH_SIZE",0
+	align	4
+_1007:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,51,48,50
+_1008:
+	db	"GL_FRAMEBUFFER_ATTACHMENT_STENCIL_SIZE",0
+	align	4
+_1009:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,51,48,51
+_1010:
+	db	"GL_FRAMEBUFFER_DEFAULT",0
+	align	4
+_1011:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,51,48,52
+_1012:
+	db	"GL_FRAMEBUFFER_UNDEFINED",0
+	align	4
+_1013:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,51,48,53
+_1014:
+	db	"GL_DEPTH_STENCIL_ATTACHMENT",0
+	align	4
+_1015:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,51,48,54
+_1016:
+	db	"GL_INDEX",0
+	align	4
+_1017:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,51,49,52
+_1018:
+	db	"GL_MAX_RENDERBUFFER_SIZE",0
+	align	4
+_1019:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,50,52
+_1020:
+	db	"GL_DEPTH_STENCIL",0
+	align	4
+_1021:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,52,49
+_1022:
+	db	"GL_UNSIGNED_INT_24_8",0
+	align	4
+_1023:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,52,50
+_1024:
+	db	"GL_DEPTH24_STENCIL8",0
+	align	4
+_1025:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,53,54
+_1026:
+	db	"GL_TEXTURE_STENCIL_SIZE",0
+	align	4
+_1027:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,53,55
+_1028:
+	db	"GL_DRAW_FRAMEBUFFER_BINDING",0
+	align	4
+_1029:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,48,48,54
+_1030:
+	db	"GL_FRAMEBUFFER_BINDING",0
+_1031:
+	db	"GL_RENDERBUFFER_BINDING",0
+	align	4
+_1032:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,48,48,55
+_1033:
+	db	"GL_READ_FRAMEBUFFER",0
+	align	4
+_1034:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,48,48,56
+_1035:
+	db	"GL_DRAW_FRAMEBUFFER",0
+	align	4
+_1036:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,48,48,57
+_1037:
+	db	"GL_READ_FRAMEBUFFER_BINDING",0
+	align	4
+_1038:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,48,49,48
+_1039:
+	db	"GL_RENDERBUFFER_SAMPLES",0
+	align	4
+_1040:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,48,49,49
+_1041:
+	db	"GL_FRAMEBUFFER_ATTACHMENT_OBJECT_TYPE",0
+	align	4
+_1042:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,48,52,56
+_1043:
+	db	"GL_FRAMEBUFFER_ATTACHMENT_OBJECT_NAME",0
+	align	4
+_1044:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,48,52,57
+_1045:
+	db	"GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_LEVEL",0
+	align	4
+_1046:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,48,53,48
+_1047:
+	db	"GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_CUBE_MAP_FACE",0
+	align	4
+_1048:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,48,53,49
+_1049:
+	db	"GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_LAYER",0
+	align	4
+_1050:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,48,53,50
+_1051:
+	db	"GL_FRAMEBUFFER_COMPLETE",0
+	align	4
+_1052:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,48,53,51
+_1053:
+	db	"GL_FRAMEBUFFER_INCOMPLETE_ATTACHMENT",0
+	align	4
+_1054:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,48,53,52
+_1055:
+	db	"GL_FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT",0
+	align	4
+_1056:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,48,53,53
+_1057:
+	db	"GL_FRAMEBUFFER_INCOMPLETE_DRAW_BUFFER",0
+	align	4
+_1058:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,48,53,57
+_1059:
+	db	"GL_FRAMEBUFFER_INCOMPLETE_READ_BUFFER",0
+	align	4
+_1060:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,48,54,48
+_1061:
+	db	"GL_FRAMEBUFFER_UNSUPPORTED",0
+	align	4
+_1062:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,48,54,49
+_1063:
+	db	"GL_MAX_COLOR_ATTACHMENTS",0
+	align	4
+_1064:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,48,54,51
+_1065:
+	db	"GL_COLOR_ATTACHMENT0",0
+	align	4
+_1066:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,48,54,52
+_1067:
+	db	"GL_COLOR_ATTACHMENT1",0
+	align	4
+_1068:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,48,54,53
+_1069:
+	db	"GL_COLOR_ATTACHMENT2",0
+	align	4
+_1070:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,48,54,54
+_1071:
+	db	"GL_COLOR_ATTACHMENT3",0
+	align	4
+_1072:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,48,54,55
+_1073:
+	db	"GL_COLOR_ATTACHMENT4",0
+	align	4
+_1074:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,48,54,56
+_1075:
+	db	"GL_COLOR_ATTACHMENT5",0
+	align	4
+_1076:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,48,54,57
+_1077:
+	db	"GL_COLOR_ATTACHMENT6",0
+	align	4
+_1078:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,48,55,48
+_1079:
+	db	"GL_COLOR_ATTACHMENT7",0
+	align	4
+_1080:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,48,55,49
+_1081:
+	db	"GL_COLOR_ATTACHMENT8",0
+	align	4
+_1082:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,48,55,50
+_1083:
+	db	"GL_COLOR_ATTACHMENT9",0
+	align	4
+_1084:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,48,55,51
+_1085:
+	db	"GL_COLOR_ATTACHMENT10",0
+	align	4
+_1086:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,48,55,52
+_1087:
+	db	"GL_COLOR_ATTACHMENT11",0
+	align	4
+_1088:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,48,55,53
+_1089:
+	db	"GL_COLOR_ATTACHMENT12",0
+	align	4
+_1090:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,48,55,54
+_1091:
+	db	"GL_COLOR_ATTACHMENT13",0
+	align	4
+_1092:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,48,55,55
+_1093:
+	db	"GL_COLOR_ATTACHMENT14",0
+	align	4
+_1094:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,48,55,56
+_1095:
+	db	"GL_COLOR_ATTACHMENT15",0
+	align	4
+_1096:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,48,55,57
+_1097:
+	db	"GL_DEPTH_ATTACHMENT",0
+	align	4
+_1098:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,48,57,54
+_1099:
+	db	"GL_STENCIL_ATTACHMENT",0
+	align	4
+_1100:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,49,50,56
+_1101:
+	db	"GL_FRAMEBUFFER",0
+	align	4
+_1102:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,49,54,48
+_1103:
+	db	"GL_RENDERBUFFER",0
+	align	4
+_1104:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,49,54,49
+_1105:
+	db	"GL_RENDERBUFFER_WIDTH",0
+	align	4
+_1106:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,49,54,50
+_1107:
+	db	"GL_RENDERBUFFER_HEIGHT",0
+	align	4
+_1108:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,49,54,51
+_1109:
+	db	"GL_RENDERBUFFER_INTERNAL_FORMAT",0
+	align	4
+_1110:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,49,54,52
+_1111:
+	db	"GL_STENCIL_INDEX1",0
+	align	4
+_1112:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,49,54,54
+_1113:
+	db	"GL_STENCIL_INDEX4",0
+	align	4
+_1114:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,49,54,55
+_1115:
+	db	"GL_STENCIL_INDEX8",0
+	align	4
+_1116:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,49,54,56
+_1117:
+	db	"GL_STENCIL_INDEX16",0
+	align	4
+_1118:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,49,54,57
+_1119:
+	db	"GL_RENDERBUFFER_RED_SIZE",0
+	align	4
+_1120:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,49,55,54
+_1121:
+	db	"GL_RENDERBUFFER_GREEN_SIZE",0
+	align	4
+_1122:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,49,55,55
+_1123:
+	db	"GL_RENDERBUFFER_BLUE_SIZE",0
+	align	4
+_1124:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,49,55,56
+_1125:
+	db	"GL_RENDERBUFFER_ALPHA_SIZE",0
+	align	4
+_1126:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,49,55,57
+_1127:
+	db	"GL_RENDERBUFFER_DEPTH_SIZE",0
+	align	4
+_1128:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,49,56,48
+_1129:
+	db	"GL_RENDERBUFFER_STENCIL_SIZE",0
+	align	4
+_1130:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,49,56,49
+_1131:
+	db	"GL_FRAMEBUFFER_INCOMPLETE_MULTISAMPLE",0
+	align	4
+_1132:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,49,56,50
+_1133:
+	db	"GL_MAX_SAMPLES",0
+	align	4
+_1134:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,49,56,51
+_1135:
+	db	"GL_FRAMEBUFFER_SRGB",0
+	align	4
+_1136:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,56,49
+_1137:
+	db	"GL_LINES_ADJACENCY_ARB",0
+	align	4
+_1138:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	49,48
+_1139:
+	db	"GL_LINE_STRIP_ADJACENCY_ARB",0
+	align	4
+_1140:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	49,49
+_1141:
+	db	"GL_TRIANGLES_ADJACENCY_ARB",0
+	align	4
+_1142:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	49,50
+_1143:
+	db	"GL_TRIANGLE_STRIP_ADJACENCY_ARB",0
+	align	4
+_1144:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	49,51
+_1145:
+	db	"GL_PROGRAM_POINT_SIZE_ARB",0
+_1146:
+	db	"GL_MAX_GEOMETRY_TEXTURE_IMAGE_UNITS_ARB",0
+	align	4
+_1147:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,56,56,49
+_1148:
+	db	"GL_FRAMEBUFFER_ATTACHMENT_LAYERED_ARB",0
+	align	4
+_1149:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,54,51
+_1150:
+	db	"GL_FRAMEBUFFER_INCOMPLETE_LAYER_TARGETS_ARB",0
+	align	4
+_1151:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,54,52
+_1152:
+	db	"GL_FRAMEBUFFER_INCOMPLETE_LAYER_COUNT_ARB",0
+	align	4
+_1153:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,54,53
+_1154:
+	db	"GL_GEOMETRY_SHADER_ARB",0
+	align	4
+_1155:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,51,49,51
+_1156:
+	db	"GL_GEOMETRY_VERTICES_OUT_ARB",0
+	align	4
+_1157:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,51,49,52
+_1158:
+	db	"GL_GEOMETRY_INPUT_TYPE_ARB",0
+	align	4
+_1159:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,51,49,53
+_1160:
+	db	"GL_GEOMETRY_OUTPUT_TYPE_ARB",0
+	align	4
+_1161:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,51,49,54
+_1162:
+	db	"GL_MAX_GEOMETRY_VARYING_COMPONENTS_ARB",0
+	align	4
+_1163:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,51,49,55
+_1164:
+	db	"GL_MAX_VERTEX_VARYING_COMPONENTS_ARB",0
+	align	4
+_1165:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,51,49,56
+_1166:
+	db	"GL_MAX_GEOMETRY_UNIFORM_COMPONENTS_ARB",0
+	align	4
+_1167:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,51,49,57
+_1168:
+	db	"GL_MAX_GEOMETRY_OUTPUT_VERTICES_ARB",0
+	align	4
+_1169:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,51,50,48
+_1170:
+	db	"GL_MAX_GEOMETRY_TOTAL_OUTPUT_COMPONENTS_ARB",0
+	align	4
+_1171:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,51,50,49
+_1172:
+	db	"GL_HALF_FLOAT_ARB",0
+_1173:
+	db	"GL_HALF_FLOAT",0
+_1174:
+	db	"GL_CONSTANT_COLOR",0
+	align	4
+_1175:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,55,54,57
+_1176:
+	db	"GL_ONE_MINUS_CONSTANT_COLOR",0
+	align	4
+_1177:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,55,55,48
+_1178:
+	db	"GL_CONSTANT_ALPHA",0
+	align	4
+_1179:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,55,55,49
+_1180:
+	db	"GL_ONE_MINUS_CONSTANT_ALPHA",0
+	align	4
+_1181:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,55,55,50
+_1182:
+	db	"GL_BLEND_COLOR",0
+	align	4
+_1183:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,55,55,51
+_1184:
+	db	"GL_FUNC_ADD",0
+	align	4
+_1185:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,55,55,52
+_1186:
+	db	"GL_MIN",0
+	align	4
+_1187:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,55,55,53
+_1188:
+	db	"GL_MAX",0
+	align	4
+_1189:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,55,55,54
+_1190:
+	db	"GL_BLEND_EQUATION",0
+	align	4
+_1191:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,55,55,55
+_1192:
+	db	"GL_FUNC_SUBTRACT",0
+	align	4
+_1193:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,55,55,56
+_1194:
+	db	"GL_FUNC_REVERSE_SUBTRACT",0
+	align	4
+_1195:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,55,55,57
+_1196:
+	db	"GL_CONVOLUTION_1D",0
+	align	4
+_1197:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,55,56,52
+_1198:
+	db	"GL_CONVOLUTION_2D",0
+	align	4
+_1199:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,55,56,53
+_1200:
+	db	"GL_SEPARABLE_2D",0
+	align	4
+_1201:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,55,56,54
+_1202:
+	db	"GL_CONVOLUTION_BORDER_MODE",0
+	align	4
+_1203:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,55,56,55
+_1204:
+	db	"GL_CONVOLUTION_FILTER_SCALE",0
+	align	4
+_1205:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,55,56,56
+_1206:
+	db	"GL_CONVOLUTION_FILTER_BIAS",0
+	align	4
+_1207:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,55,56,57
+_1208:
+	db	"GL_REDUCE",0
+	align	4
+_1209:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,55,57,48
+_1210:
+	db	"GL_CONVOLUTION_FORMAT",0
+	align	4
+_1211:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,55,57,49
+_1212:
+	db	"GL_CONVOLUTION_WIDTH",0
+	align	4
+_1213:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,55,57,50
+_1214:
+	db	"GL_CONVOLUTION_HEIGHT",0
+	align	4
+_1215:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,55,57,51
+_1216:
+	db	"GL_MAX_CONVOLUTION_WIDTH",0
+	align	4
+_1217:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,55,57,52
+_1218:
+	db	"GL_MAX_CONVOLUTION_HEIGHT",0
+	align	4
+_1219:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,55,57,53
+_1220:
+	db	"GL_POST_CONVOLUTION_RED_SCALE",0
+	align	4
+_1221:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,55,57,54
+_1222:
+	db	"GL_POST_CONVOLUTION_GREEN_SCALE",0
+	align	4
+_1223:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,55,57,55
+_1224:
+	db	"GL_POST_CONVOLUTION_BLUE_SCALE",0
+	align	4
+_1225:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,55,57,56
+_1226:
+	db	"GL_POST_CONVOLUTION_ALPHA_SCALE",0
+	align	4
+_1227:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,55,57,57
+_1228:
+	db	"GL_POST_CONVOLUTION_RED_BIAS",0
+	align	4
+_1229:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,48,48
+_1230:
+	db	"GL_POST_CONVOLUTION_GREEN_BIAS",0
+	align	4
+_1231:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,48,49
+_1232:
+	db	"GL_POST_CONVOLUTION_BLUE_BIAS",0
+	align	4
+_1233:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,48,50
+_1234:
+	db	"GL_POST_CONVOLUTION_ALPHA_BIAS",0
+	align	4
+_1235:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,48,51
+_1236:
+	db	"GL_HISTOGRAM",0
+	align	4
+_1237:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,48,52
+_1238:
+	db	"GL_PROXY_HISTOGRAM",0
+	align	4
+_1239:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,48,53
+_1240:
+	db	"GL_HISTOGRAM_WIDTH",0
+	align	4
+_1241:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,48,54
+_1242:
+	db	"GL_HISTOGRAM_FORMAT",0
+	align	4
+_1243:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,48,55
+_1244:
+	db	"GL_HISTOGRAM_RED_SIZE",0
+	align	4
+_1245:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,48,56
+_1246:
+	db	"GL_HISTOGRAM_GREEN_SIZE",0
+	align	4
+_1247:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,48,57
+_1248:
+	db	"GL_HISTOGRAM_BLUE_SIZE",0
+	align	4
+_1249:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,49,48
+_1250:
+	db	"GL_HISTOGRAM_ALPHA_SIZE",0
+	align	4
+_1251:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,49,49
+_1252:
+	db	"GL_HISTOGRAM_LUMINANCE_SIZE",0
+	align	4
+_1253:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,49,50
+_1254:
+	db	"GL_HISTOGRAM_SINK",0
+	align	4
+_1255:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,49,51
+_1256:
+	db	"GL_MINMAX",0
+	align	4
+_1257:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,49,52
+_1258:
+	db	"GL_MINMAX_FORMAT",0
+	align	4
+_1259:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,49,53
+_1260:
+	db	"GL_MINMAX_SINK",0
+	align	4
+_1261:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,49,54
+_1262:
+	db	"GL_TABLE_TOO_LARGE",0
+	align	4
+_1263:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,49,55
+_1264:
+	db	"GL_COLOR_MATRIX",0
+	align	4
+_1265:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,52,53
+_1266:
+	db	"GL_COLOR_MATRIX_STACK_DEPTH",0
+	align	4
+_1267:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,52,54
+_1268:
+	db	"GL_MAX_COLOR_MATRIX_STACK_DEPTH",0
+	align	4
+_1269:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,52,55
+_1270:
+	db	"GL_POST_COLOR_MATRIX_RED_SCALE",0
+	align	4
+_1271:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,52,56
+_1272:
+	db	"GL_POST_COLOR_MATRIX_GREEN_SCALE",0
+	align	4
+_1273:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,52,57
+_1274:
+	db	"GL_POST_COLOR_MATRIX_BLUE_SCALE",0
+	align	4
+_1275:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,53,48
+_1276:
+	db	"GL_POST_COLOR_MATRIX_ALPHA_SCALE",0
+	align	4
+_1277:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,53,49
+_1278:
+	db	"GL_POST_COLOR_MATRIX_RED_BIAS",0
+	align	4
+_1279:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,53,50
+_1280:
+	db	"GL_POST_COLOR_MATRIX_GREEN_BIAS",0
+	align	4
+_1281:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,53,51
+_1282:
+	db	"GL_POST_COLOR_MATRIX_BLUE_BIAS",0
+	align	4
+_1283:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,53,52
+_1284:
+	db	"GL_POST_COLOR_MATRIX_ALPHA_BIAS",0
+	align	4
+_1285:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,53,53
+_1286:
+	db	"GL_COLOR_TABLE",0
+	align	4
+_1287:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,55,54
+_1288:
+	db	"GL_POST_CONVOLUTION_COLOR_TABLE",0
+	align	4
+_1289:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,55,55
+_1290:
+	db	"GL_POST_COLOR_MATRIX_COLOR_TABLE",0
+	align	4
+_1291:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,55,56
+_1292:
+	db	"GL_PROXY_COLOR_TABLE",0
+	align	4
+_1293:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,55,57
+_1294:
+	db	"GL_PROXY_POST_CONVOLUTION_COLOR_TABLE",0
+	align	4
+_1295:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,56,48
+_1296:
+	db	"GL_PROXY_POST_COLOR_MATRIX_COLOR_TABLE",0
+	align	4
+_1297:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,56,49
+_1298:
+	db	"GL_COLOR_TABLE_SCALE",0
+	align	4
+_1299:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,56,50
+_1300:
+	db	"GL_COLOR_TABLE_BIAS",0
+	align	4
+_1301:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,56,51
+_1302:
+	db	"GL_COLOR_TABLE_FORMAT",0
+	align	4
+_1303:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,56,52
+_1304:
+	db	"GL_COLOR_TABLE_WIDTH",0
+	align	4
+_1305:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,56,53
+_1306:
+	db	"GL_COLOR_TABLE_RED_SIZE",0
+	align	4
+_1307:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,56,54
+_1308:
+	db	"GL_COLOR_TABLE_GREEN_SIZE",0
+	align	4
+_1309:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,56,55
+_1310:
+	db	"GL_COLOR_TABLE_BLUE_SIZE",0
+	align	4
+_1311:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,56,56
+_1312:
+	db	"GL_COLOR_TABLE_ALPHA_SIZE",0
+	align	4
+_1313:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,56,57
+_1314:
+	db	"GL_COLOR_TABLE_LUMINANCE_SIZE",0
+	align	4
+_1315:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,57,48
+_1316:
+	db	"GL_COLOR_TABLE_INTENSITY_SIZE",0
+	align	4
+_1317:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,57,49
+_1318:
+	db	"GL_IGNORE_BORDER",0
+	align	4
+_1319:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,49,48,52
+_1320:
+	db	"GL_CONSTANT_BORDER",0
+	align	4
+_1321:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,49,48,53
+_1322:
+	db	"GL_WRAP_BORDER",0
+	align	4
+_1323:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,49,48,54
+_1324:
+	db	"GL_REPLICATE_BORDER",0
+	align	4
+_1325:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,49,48,55
+_1326:
+	db	"GL_CONVOLUTION_BORDER_COLOR",0
+	align	4
+_1327:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,49,48,56
+_1328:
+	db	"GL_VERTEX_ATTRIB_ARRAY_DIVISOR_ARB",0
+	align	4
+_1329:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,55,48
+_1330:
+	db	"GL_MAP_READ_BIT",0
+_1331:
+	db	"GL_MAP_WRITE_BIT",0
+	align	4
+_1332:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	1
+	dw	50
+_1333:
+	db	"GL_MAP_INVALIDATE_RANGE_BIT",0
+	align	4
+_1334:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	1
+	dw	52
+_1335:
+	db	"GL_MAP_INVALIDATE_BUFFER_BIT",0
+	align	4
+_1336:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	1
+	dw	56
+_1337:
+	db	"GL_MAP_FLUSH_EXPLICIT_BIT",0
+	align	4
+_1338:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	49,54
+_1339:
+	db	"GL_MAP_UNSYNCHRONIZED_BIT",0
+	align	4
+_1340:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	51,50
+_1341:
+	db	"GL_MATRIX_PALETTE_ARB",0
+	align	4
+_1342:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,56,48
+_1343:
+	db	"GL_MAX_MATRIX_PALETTE_STACK_DEPTH_ARB",0
+	align	4
+_1344:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,56,49
+_1345:
+	db	"GL_MAX_PALETTE_MATRICES_ARB",0
+	align	4
+_1346:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,56,50
+_1347:
+	db	"GL_CURRENT_PALETTE_MATRIX_ARB",0
+	align	4
+_1348:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,56,51
+_1349:
+	db	"GL_MATRIX_INDEX_ARRAY_ARB",0
+	align	4
+_1350:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,56,52
+_1351:
+	db	"GL_CURRENT_MATRIX_INDEX_ARB",0
+	align	4
+_1352:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,56,53
+_1353:
+	db	"GL_MATRIX_INDEX_ARRAY_SIZE_ARB",0
+	align	4
+_1354:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,56,54
+_1355:
+	db	"GL_MATRIX_INDEX_ARRAY_TYPE_ARB",0
+	align	4
+_1356:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,56,55
+_1357:
+	db	"GL_MATRIX_INDEX_ARRAY_STRIDE_ARB",0
+	align	4
+_1358:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,56,56
+_1359:
+	db	"GL_MATRIX_INDEX_ARRAY_POINTER_ARB",0
+	align	4
+_1360:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,56,57
+_1361:
+	db	"GL_MULTISAMPLE_ARB",0
+_1362:
+	db	"GL_SAMPLE_ALPHA_TO_COVERAGE_ARB",0
+_1363:
+	db	"GL_SAMPLE_ALPHA_TO_ONE_ARB",0
+_1364:
+	db	"GL_SAMPLE_COVERAGE_ARB",0
+_1365:
+	db	"GL_SAMPLE_BUFFERS_ARB",0
+_1366:
+	db	"GL_SAMPLES_ARB",0
+_1367:
+	db	"GL_SAMPLE_COVERAGE_VALUE_ARB",0
+_1368:
+	db	"GL_SAMPLE_COVERAGE_INVERT_ARB",0
+_1369:
+	db	"GL_MULTISAMPLE_BIT_ARB",0
+_1370:
+	db	"GL_TEXTURE0_ARB",0
+_1371:
+	db	"GL_TEXTURE1_ARB",0
+_1372:
+	db	"GL_TEXTURE2_ARB",0
+_1373:
+	db	"GL_TEXTURE3_ARB",0
+_1374:
+	db	"GL_TEXTURE4_ARB",0
+_1375:
+	db	"GL_TEXTURE5_ARB",0
+_1376:
+	db	"GL_TEXTURE6_ARB",0
+_1377:
+	db	"GL_TEXTURE7_ARB",0
+_1378:
+	db	"GL_TEXTURE8_ARB",0
+_1379:
+	db	"GL_TEXTURE9_ARB",0
+_1380:
+	db	"GL_TEXTURE10_ARB",0
+_1381:
+	db	"GL_TEXTURE11_ARB",0
+_1382:
+	db	"GL_TEXTURE12_ARB",0
+_1383:
+	db	"GL_TEXTURE13_ARB",0
+_1384:
+	db	"GL_TEXTURE14_ARB",0
+_1385:
+	db	"GL_TEXTURE15_ARB",0
+_1386:
+	db	"GL_TEXTURE16_ARB",0
+_1387:
+	db	"GL_TEXTURE17_ARB",0
+_1388:
+	db	"GL_TEXTURE18_ARB",0
+_1389:
+	db	"GL_TEXTURE19_ARB",0
+_1390:
+	db	"GL_TEXTURE20_ARB",0
+_1391:
+	db	"GL_TEXTURE21_ARB",0
+_1392:
+	db	"GL_TEXTURE22_ARB",0
+_1393:
+	db	"GL_TEXTURE23_ARB",0
+_1394:
+	db	"GL_TEXTURE24_ARB",0
+_1395:
+	db	"GL_TEXTURE25_ARB",0
+_1396:
+	db	"GL_TEXTURE26_ARB",0
+_1397:
+	db	"GL_TEXTURE27_ARB",0
+_1398:
+	db	"GL_TEXTURE28_ARB",0
+_1399:
+	db	"GL_TEXTURE29_ARB",0
+_1400:
+	db	"GL_TEXTURE30_ARB",0
+_1401:
+	db	"GL_TEXTURE31_ARB",0
+_1402:
+	db	"GL_ACTIVE_TEXTURE_ARB",0
+_1403:
+	db	"GL_CLIENT_ACTIVE_TEXTURE_ARB",0
+_1404:
+	db	"GL_MAX_TEXTURE_UNITS_ARB",0
+_1405:
+	db	"GL_QUERY_COUNTER_BITS_ARB",0
+_1406:
+	db	"GL_CURRENT_QUERY_ARB",0
+_1407:
+	db	"GL_QUERY_RESULT_ARB",0
+_1408:
+	db	"GL_QUERY_RESULT_AVAILABLE_ARB",0
+_1409:
+	db	"GL_SAMPLES_PASSED_ARB",0
+_1410:
+	db	"GL_PIXEL_PACK_BUFFER_ARB",0
+_1411:
+	db	"GL_PIXEL_UNPACK_BUFFER_ARB",0
+_1412:
+	db	"GL_PIXEL_PACK_BUFFER_BINDING_ARB",0
+_1413:
+	db	"GL_PIXEL_UNPACK_BUFFER_BINDING_ARB",0
+_1414:
+	db	"GL_POINT_SIZE_MIN_ARB",0
+_1415:
+	db	"GL_POINT_SIZE_MAX_ARB",0
+_1416:
+	db	"GL_POINT_FADE_THRESHOLD_SIZE_ARB",0
+_1417:
+	db	"GL_POINT_DISTANCE_ATTENUATION_ARB",0
+_1418:
+	db	"GL_POINT_SPRITE_ARB",0
+_1419:
+	db	"GL_COORD_REPLACE_ARB",0
+_1420:
+	db	"GL_PROGRAM_OBJECT_ARB",0
+	align	4
+_1421:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,54,52,56
+_1422:
+	db	"GL_SHADER_OBJECT_ARB",0
+	align	4
+_1423:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,54,53,54
+_1424:
+	db	"GL_OBJECT_TYPE_ARB",0
+	align	4
+_1425:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,54,54,50
+_1426:
+	db	"GL_OBJECT_SUBTYPE_ARB",0
+_1427:
+	db	"GL_FLOAT_VEC2_ARB",0
+_1428:
+	db	"GL_FLOAT_VEC3_ARB",0
+_1429:
+	db	"GL_FLOAT_VEC4_ARB",0
+_1430:
+	db	"GL_INT_VEC2_ARB",0
+_1431:
+	db	"GL_INT_VEC3_ARB",0
+_1432:
+	db	"GL_INT_VEC4_ARB",0
+_1433:
+	db	"GL_BOOL_ARB",0
+_1434:
+	db	"GL_BOOL_VEC2_ARB",0
+_1435:
+	db	"GL_BOOL_VEC3_ARB",0
+_1436:
+	db	"GL_BOOL_VEC4_ARB",0
+_1437:
+	db	"GL_FLOAT_MAT2_ARB",0
+_1438:
+	db	"GL_FLOAT_MAT3_ARB",0
+_1439:
+	db	"GL_FLOAT_MAT4_ARB",0
+_1440:
+	db	"GL_SAMPLER_1D_ARB",0
+_1441:
+	db	"GL_SAMPLER_2D_ARB",0
+_1442:
+	db	"GL_SAMPLER_3D_ARB",0
+_1443:
+	db	"GL_SAMPLER_CUBE_ARB",0
+_1444:
+	db	"GL_SAMPLER_1D_SHADOW_ARB",0
+_1445:
+	db	"GL_SAMPLER_2D_SHADOW_ARB",0
+_1446:
+	db	"GL_SAMPLER_2D_RECT_ARB",0
+	align	4
+_1447:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,54,56,51
+_1448:
+	db	"GL_SAMPLER_2D_RECT_SHADOW_ARB",0
+	align	4
+_1449:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,54,56,52
+_1450:
+	db	"GL_OBJECT_DELETE_STATUS_ARB",0
+_1451:
+	db	"GL_OBJECT_COMPILE_STATUS_ARB",0
+_1452:
+	db	"GL_OBJECT_LINK_STATUS_ARB",0
+_1453:
+	db	"GL_OBJECT_VALIDATE_STATUS_ARB",0
+_1454:
+	db	"GL_OBJECT_INFO_LOG_LENGTH_ARB",0
+_1455:
+	db	"GL_OBJECT_ATTACHED_OBJECTS_ARB",0
+_1456:
+	db	"GL_OBJECT_ACTIVE_UNIFORMS_ARB",0
+_1457:
+	db	"GL_OBJECT_ACTIVE_UNIFORM_MAX_LENGTH_ARB",0
+_1458:
+	db	"GL_OBJECT_SHADER_SOURCE_LENGTH_ARB",0
+_1459:
+	db	"GL_SHADING_LANGUAGE_VERSION_ARB",0
+_1460:
+	db	"GL_TEXTURE_COMPARE_MODE_ARB",0
+_1461:
+	db	"GL_TEXTURE_COMPARE_FUNC_ARB",0
+_1462:
+	db	"GL_COMPARE_R_TO_TEXTURE_ARB",0
+_1463:
+	db	"GL_TEXTURE_COMPARE_FAIL_VALUE_ARB",0
+	align	4
+_1464:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,53,57
+_1465:
+	db	"GL_CLAMP_TO_BORDER_ARB",0
+_1466:
+	db	"GL_TEXTURE_BUFFER_ARB",0
+	align	4
+_1467:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,56,56,50
+_1468:
+	db	"GL_MAX_TEXTURE_BUFFER_SIZE_ARB",0
+	align	4
+_1469:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,56,56,51
+_1470:
+	db	"GL_TEXTURE_BINDING_BUFFER_ARB",0
+	align	4
+_1471:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,56,56,52
+_1472:
+	db	"GL_TEXTURE_BUFFER_DATA_STORE_BINDING_ARB",0
+	align	4
+_1473:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,56,56,53
+_1474:
+	db	"GL_TEXTURE_BUFFER_FORMAT_ARB",0
+	align	4
+_1475:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,56,56,54
+_1476:
+	db	"GL_COMPRESSED_ALPHA_ARB",0
+_1477:
+	db	"GL_COMPRESSED_LUMINANCE_ARB",0
+_1478:
+	db	"GL_COMPRESSED_LUMINANCE_ALPHA_ARB",0
+_1479:
+	db	"GL_COMPRESSED_INTENSITY_ARB",0
+_1480:
+	db	"GL_COMPRESSED_RGB_ARB",0
+_1481:
+	db	"GL_COMPRESSED_RGBA_ARB",0
+_1482:
+	db	"GL_TEXTURE_COMPRESSION_HINT_ARB",0
+_1483:
+	db	"GL_TEXTURE_COMPRESSED_IMAGE_SIZE_ARB",0
+_1484:
+	db	"GL_TEXTURE_COMPRESSED_ARB",0
+_1485:
+	db	"GL_NUM_COMPRESSED_TEXTURE_FORMATS_ARB",0
+_1486:
+	db	"GL_COMPRESSED_TEXTURE_FORMATS_ARB",0
+_1487:
+	db	"GL_COMPRESSED_RED_RGTC1",0
+	align	4
+_1488:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,56,51
+_1489:
+	db	"GL_COMPRESSED_SIGNED_RED_RGTC1",0
+	align	4
+_1490:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,56,52
+_1491:
+	db	"GL_COMPRESSED_RG_RGTC2",0
+	align	4
+_1492:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,56,53
+_1493:
+	db	"GL_COMPRESSED_SIGNED_RG_RGTC2",0
+	align	4
+_1494:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,56,54
+_1495:
+	db	"GL_NORMAL_MAP_ARB",0
+_1496:
+	db	"GL_REFLECTION_MAP_ARB",0
+_1497:
+	db	"GL_TEXTURE_CUBE_MAP_ARB",0
+_1498:
+	db	"GL_TEXTURE_BINDING_CUBE_MAP_ARB",0
+_1499:
+	db	"GL_TEXTURE_CUBE_MAP_POSITIVE_X_ARB",0
+_1500:
+	db	"GL_TEXTURE_CUBE_MAP_NEGATIVE_X_ARB",0
+_1501:
+	db	"GL_TEXTURE_CUBE_MAP_POSITIVE_Y_ARB",0
+_1502:
+	db	"GL_TEXTURE_CUBE_MAP_NEGATIVE_Y_ARB",0
+_1503:
+	db	"GL_TEXTURE_CUBE_MAP_POSITIVE_Z_ARB",0
+_1504:
+	db	"GL_TEXTURE_CUBE_MAP_NEGATIVE_Z_ARB",0
+_1505:
+	db	"GL_PROXY_TEXTURE_CUBE_MAP_ARB",0
+_1506:
+	db	"GL_MAX_CUBE_MAP_TEXTURE_SIZE_ARB",0
+_1507:
+	db	"GL_SUBTRACT_ARB",0
+_1508:
+	db	"GL_COMBINE_ARB",0
+_1509:
+	db	"GL_COMBINE_RGB_ARB",0
+_1510:
+	db	"GL_COMBINE_ALPHA_ARB",0
+_1511:
+	db	"GL_RGB_SCALE_ARB",0
+_1512:
+	db	"GL_ADD_SIGNED_ARB",0
+_1513:
+	db	"GL_INTERPOLATE_ARB",0
+_1514:
+	db	"GL_CONSTANT_ARB",0
+_1515:
+	db	"GL_PRIMARY_COLOR_ARB",0
+_1516:
+	db	"GL_PREVIOUS_ARB",0
+_1517:
+	db	"GL_SOURCE0_RGB_ARB",0
+_1518:
+	db	"GL_SOURCE1_RGB_ARB",0
+_1519:
+	db	"GL_SOURCE2_RGB_ARB",0
+_1520:
+	db	"GL_SOURCE0_ALPHA_ARB",0
+_1521:
+	db	"GL_SOURCE1_ALPHA_ARB",0
+_1522:
+	db	"GL_SOURCE2_ALPHA_ARB",0
+_1523:
+	db	"GL_OPERAND0_RGB_ARB",0
+_1524:
+	db	"GL_OPERAND1_RGB_ARB",0
+_1525:
+	db	"GL_OPERAND2_RGB_ARB",0
+_1526:
+	db	"GL_OPERAND0_ALPHA_ARB",0
+_1527:
+	db	"GL_OPERAND1_ALPHA_ARB",0
+_1528:
+	db	"GL_OPERAND2_ALPHA_ARB",0
+_1529:
+	db	"GL_DOT3_RGB_ARB",0
+_1530:
+	db	"GL_DOT3_RGBA_ARB",0
+_1531:
+	db	"GL_RGBA32F_ARB",0
+_1532:
+	db	"GL_RGB32F_ARB",0
+_1533:
+	db	"GL_ALPHA32F_ARB",0
+_1534:
+	db	"GL_INTENSITY32F_ARB",0
+_1535:
+	db	"GL_LUMINANCE32F_ARB",0
+_1536:
+	db	"GL_LUMINANCE_ALPHA32F_ARB",0
+_1537:
+	db	"GL_RGBA16F_ARB",0
+_1538:
+	db	"GL_RGB16F_ARB",0
+_1539:
+	db	"GL_ALPHA16F_ARB",0
+_1540:
+	db	"GL_INTENSITY16F_ARB",0
+_1541:
+	db	"GL_LUMINANCE16F_ARB",0
+_1542:
+	db	"GL_LUMINANCE_ALPHA16F_ARB",0
+_1543:
+	db	"GL_TEXTURE_RED_TYPE_ARB",0
+_1544:
+	db	"GL_TEXTURE_GREEN_TYPE_ARB",0
+_1545:
+	db	"GL_TEXTURE_BLUE_TYPE_ARB",0
+_1546:
+	db	"GL_TEXTURE_ALPHA_TYPE_ARB",0
+_1547:
+	db	"GL_TEXTURE_LUMINANCE_TYPE_ARB",0
+_1548:
+	db	"GL_TEXTURE_INTENSITY_TYPE_ARB",0
+_1549:
+	db	"GL_TEXTURE_DEPTH_TYPE_ARB",0
+_1550:
+	db	"GL_UNSIGNED_NORMALIZED_ARB",0
+_1551:
+	db	"GL_MIRRORED_REPEAT_ARB",0
+_1552:
+	db	"GL_TEXTURE_RECTANGLE_ARB",0
+	align	4
+_1553:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,51,55
+_1554:
+	db	"GL_TEXTURE_BINDING_RECTANGLE_ARB",0
+	align	4
+_1555:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,51,56
+_1556:
+	db	"GL_PROXY_TEXTURE_RECTANGLE_ARB",0
+	align	4
+_1557:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,51,57
+_1558:
+	db	"GL_MAX_RECTANGLE_TEXTURE_SIZE_ARB",0
+	align	4
+_1559:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,52,48
+_1560:
+	db	"GL_RG",0
+	align	4
+_1561:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,51,49,57
+_1562:
+	db	"GL_RG_INTEGER",0
+	align	4
+_1563:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,51,50,48
+_1564:
+	db	"GL_R8",0
+	align	4
+_1565:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,51,50,49
+_1566:
+	db	"GL_R16",0
+	align	4
+_1567:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,51,50,50
+_1568:
+	db	"GL_RG8",0
+	align	4
+_1569:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,51,50,51
+_1570:
+	db	"GL_RG16",0
+	align	4
+_1571:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,51,50,52
+_1572:
+	db	"GL_R16F",0
+	align	4
+_1573:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,51,50,53
+_1574:
+	db	"GL_R32F",0
+	align	4
+_1575:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,51,50,54
+_1576:
+	db	"GL_RG16F",0
+	align	4
+_1577:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,51,50,55
+_1578:
+	db	"GL_RG32F",0
+	align	4
+_1579:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,51,50,56
+_1580:
+	db	"GL_R8I",0
+	align	4
+_1581:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,51,50,57
+_1582:
+	db	"GL_R8UI",0
+	align	4
+_1583:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,51,51,48
+_1584:
+	db	"GL_R16I",0
+	align	4
+_1585:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,51,51,49
+_1586:
+	db	"GL_R16UI",0
+	align	4
+_1587:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,51,51,50
+_1588:
+	db	"GL_R32I",0
+	align	4
+_1589:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,51,51,51
+_1590:
+	db	"GL_R32UI",0
+	align	4
+_1591:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,51,51,52
+_1592:
+	db	"GL_RG8I",0
+	align	4
+_1593:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,51,51,53
+_1594:
+	db	"GL_RG8UI",0
+	align	4
+_1595:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,51,51,54
+_1596:
+	db	"GL_RG16I",0
+	align	4
+_1597:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,51,51,55
+_1598:
+	db	"GL_RG16UI",0
+	align	4
+_1599:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,51,51,56
+_1600:
+	db	"GL_RG32I",0
+	align	4
+_1601:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,51,51,57
+_1602:
+	db	"GL_RG32UI",0
+	align	4
+_1603:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,51,52,48
+_1604:
+	db	"GL_TRANSPOSE_MODELVIEW_MATRIX_ARB",0
+_1605:
+	db	"GL_TRANSPOSE_PROJECTION_MATRIX_ARB",0
+_1606:
+	db	"GL_TRANSPOSE_TEXTURE_MATRIX_ARB",0
+_1607:
+	db	"GL_TRANSPOSE_COLOR_MATRIX_ARB",0
+_1608:
+	db	"GL_VERTEX_ARRAY_BINDING",0
+_1609:
+	db	"GL_MODELVIEW0_ARB",0
+	align	4
+_1610:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	4
+	dw	53,56,56,56
+_1611:
+	db	"GL_MODELVIEW1_ARB",0
+	align	4
+_1612:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,53,56
+_1613:
+	db	"GL_MAX_VERTEX_UNITS_ARB",0
+	align	4
+_1614:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,54,56
+_1615:
+	db	"GL_ACTIVE_VERTEX_UNITS_ARB",0
+	align	4
+_1616:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,54,57
+_1617:
+	db	"GL_WEIGHT_SUM_UNITY_ARB",0
+	align	4
+_1618:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,55,48
+_1619:
+	db	"GL_VERTEX_BLEND_ARB",0
+	align	4
+_1620:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,55,49
+_1621:
+	db	"GL_CURRENT_WEIGHT_ARB",0
+	align	4
+_1622:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,55,50
+_1623:
+	db	"GL_WEIGHT_ARRAY_TYPE_ARB",0
+	align	4
+_1624:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,55,51
+_1625:
+	db	"GL_WEIGHT_ARRAY_STRIDE_ARB",0
+	align	4
+_1626:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,55,52
+_1627:
+	db	"GL_WEIGHT_ARRAY_SIZE_ARB",0
+	align	4
+_1628:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,55,53
+_1629:
+	db	"GL_WEIGHT_ARRAY_POINTER_ARB",0
+	align	4
+_1630:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,55,54
+_1631:
+	db	"GL_WEIGHT_ARRAY_ARB",0
+	align	4
+_1632:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,55,55
+_1633:
+	db	"GL_MODELVIEW2_ARB",0
+	align	4
+_1634:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,57,52
+_1635:
+	db	"GL_MODELVIEW3_ARB",0
+	align	4
+_1636:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,57,53
+_1637:
+	db	"GL_MODELVIEW4_ARB",0
+	align	4
+_1638:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,57,54
+_1639:
+	db	"GL_MODELVIEW5_ARB",0
+	align	4
+_1640:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,57,55
+_1641:
+	db	"GL_MODELVIEW6_ARB",0
+	align	4
+_1642:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,57,56
+_1643:
+	db	"GL_MODELVIEW7_ARB",0
+	align	4
+_1644:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,57,57
+_1645:
+	db	"GL_MODELVIEW8_ARB",0
+	align	4
+_1646:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,48,48
+_1647:
+	db	"GL_MODELVIEW9_ARB",0
+	align	4
+_1648:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,48,49
+_1649:
+	db	"GL_MODELVIEW10_ARB",0
+	align	4
+_1650:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,48,50
+_1651:
+	db	"GL_MODELVIEW11_ARB",0
+	align	4
+_1652:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,48,51
+_1653:
+	db	"GL_MODELVIEW12_ARB",0
+	align	4
+_1654:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,48,52
+_1655:
+	db	"GL_MODELVIEW13_ARB",0
+	align	4
+_1656:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,48,53
+_1657:
+	db	"GL_MODELVIEW14_ARB",0
+	align	4
+_1658:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,48,54
+_1659:
+	db	"GL_MODELVIEW15_ARB",0
+	align	4
+_1660:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,48,55
+_1661:
+	db	"GL_MODELVIEW16_ARB",0
+	align	4
+_1662:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,48,56
+_1663:
+	db	"GL_MODELVIEW17_ARB",0
+	align	4
+_1664:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,48,57
+_1665:
+	db	"GL_MODELVIEW18_ARB",0
+	align	4
+_1666:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,49,48
+_1667:
+	db	"GL_MODELVIEW19_ARB",0
+	align	4
+_1668:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,49,49
+_1669:
+	db	"GL_MODELVIEW20_ARB",0
+	align	4
+_1670:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,49,50
+_1671:
+	db	"GL_MODELVIEW21_ARB",0
+	align	4
+_1672:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,49,51
+_1673:
+	db	"GL_MODELVIEW22_ARB",0
+	align	4
+_1674:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,49,52
+_1675:
+	db	"GL_MODELVIEW23_ARB",0
+	align	4
+_1676:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,49,53
+_1677:
+	db	"GL_MODELVIEW24_ARB",0
+	align	4
+_1678:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,49,54
+_1679:
+	db	"GL_MODELVIEW25_ARB",0
+	align	4
+_1680:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,49,55
+_1681:
+	db	"GL_MODELVIEW26_ARB",0
+	align	4
+_1682:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,49,56
+_1683:
+	db	"GL_MODELVIEW27_ARB",0
+	align	4
+_1684:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,49,57
+_1685:
+	db	"GL_MODELVIEW28_ARB",0
+	align	4
+_1686:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,50,48
+_1687:
+	db	"GL_MODELVIEW29_ARB",0
+	align	4
+_1688:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,50,49
+_1689:
+	db	"GL_MODELVIEW30_ARB",0
+	align	4
+_1690:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,50,50
+_1691:
+	db	"GL_MODELVIEW31_ARB",0
+	align	4
+_1692:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,50,51
+_1693:
+	db	"GL_BUFFER_SIZE_ARB",0
+_1694:
+	db	"GL_BUFFER_USAGE_ARB",0
+_1695:
+	db	"GL_ARRAY_BUFFER_ARB",0
+_1696:
+	db	"GL_ELEMENT_ARRAY_BUFFER_ARB",0
+_1697:
+	db	"GL_ARRAY_BUFFER_BINDING_ARB",0
+_1698:
+	db	"GL_ELEMENT_ARRAY_BUFFER_BINDING_ARB",0
+_1699:
+	db	"GL_VERTEX_ARRAY_BUFFER_BINDING_ARB",0
+_1700:
+	db	"GL_NORMAL_ARRAY_BUFFER_BINDING_ARB",0
+_1701:
+	db	"GL_COLOR_ARRAY_BUFFER_BINDING_ARB",0
+_1702:
+	db	"GL_INDEX_ARRAY_BUFFER_BINDING_ARB",0
+_1703:
+	db	"GL_TEXTURE_COORD_ARRAY_BUFFER_BINDING_ARB",0
+_1704:
+	db	"GL_EDGE_FLAG_ARRAY_BUFFER_BINDING_ARB",0
+_1705:
+	db	"GL_SECONDARY_COLOR_ARRAY_BUFFER_BINDING_ARB",0
+_1706:
+	db	"GL_FOG_COORDINATE_ARRAY_BUFFER_BINDING_ARB",0
+_1707:
+	db	"GL_WEIGHT_ARRAY_BUFFER_BINDING_ARB",0
+_1708:
+	db	"GL_VERTEX_ATTRIB_ARRAY_BUFFER_BINDING_ARB",0
+_1709:
+	db	"GL_READ_ONLY_ARB",0
+_1710:
+	db	"GL_WRITE_ONLY_ARB",0
+_1711:
+	db	"GL_READ_WRITE_ARB",0
+_1712:
+	db	"GL_BUFFER_ACCESS_ARB",0
+_1713:
+	db	"GL_BUFFER_MAPPED_ARB",0
+_1714:
+	db	"GL_BUFFER_MAP_POINTER_ARB",0
+_1715:
+	db	"GL_STREAM_DRAW_ARB",0
+_1716:
+	db	"GL_STREAM_READ_ARB",0
+_1717:
+	db	"GL_STREAM_COPY_ARB",0
+_1718:
+	db	"GL_STATIC_DRAW_ARB",0
+_1719:
+	db	"GL_STATIC_READ_ARB",0
+_1720:
+	db	"GL_STATIC_COPY_ARB",0
+_1721:
+	db	"GL_DYNAMIC_DRAW_ARB",0
+_1722:
+	db	"GL_DYNAMIC_READ_ARB",0
+_1723:
+	db	"GL_DYNAMIC_COPY_ARB",0
+_1724:
+	db	"GL_COLOR_SUM_ARB",0
+_1725:
+	db	"GL_VERTEX_PROGRAM_ARB",0
+	align	4
+_1726:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,51,54
+_1727:
+	db	"GL_VERTEX_ATTRIB_ARRAY_ENABLED_ARB",0
+_1728:
+	db	"GL_VERTEX_ATTRIB_ARRAY_SIZE_ARB",0
+_1729:
+	db	"GL_VERTEX_ATTRIB_ARRAY_STRIDE_ARB",0
+_1730:
+	db	"GL_VERTEX_ATTRIB_ARRAY_TYPE_ARB",0
+_1731:
+	db	"GL_CURRENT_VERTEX_ATTRIB_ARB",0
+_1732:
+	db	"GL_PROGRAM_LENGTH_ARB",0
+	align	4
+_1733:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,52,51
+_1734:
+	db	"GL_PROGRAM_STRING_ARB",0
+	align	4
+_1735:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,52,52
+_1736:
+	db	"GL_MAX_PROGRAM_MATRIX_STACK_DEPTH_ARB",0
+	align	4
+_1737:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,53,48
+_1738:
+	db	"GL_MAX_PROGRAM_MATRICES_ARB",0
+	align	4
+_1739:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,53,49
+_1740:
+	db	"GL_CURRENT_MATRIX_STACK_DEPTH_ARB",0
+	align	4
+_1741:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,54,56
+_1742:
+	db	"GL_CURRENT_MATRIX_ARB",0
+	align	4
+_1743:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,54,57
+_1744:
+	db	"GL_VERTEX_PROGRAM_POINT_SIZE_ARB",0
+_1745:
+	db	"GL_VERTEX_PROGRAM_TWO_SIDE_ARB",0
+_1746:
+	db	"GL_VERTEX_ATTRIB_ARRAY_POINTER_ARB",0
+_1747:
+	db	"GL_PROGRAM_ERROR_POSITION_ARB",0
+	align	4
+_1748:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,55,57
+_1749:
+	db	"GL_PROGRAM_BINDING_ARB",0
+	align	4
+_1750:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,50,51
+_1751:
+	db	"GL_MAX_VERTEX_ATTRIBS_ARB",0
+_1752:
+	db	"GL_VERTEX_ATTRIB_ARRAY_NORMALIZED_ARB",0
+_1753:
+	db	"GL_PROGRAM_ERROR_STRING_ARB",0
+	align	4
+_1754:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,51,50
+_1755:
+	db	"GL_PROGRAM_FORMAT_ASCII_ARB",0
+	align	4
+_1756:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,51,51
+_1757:
+	db	"GL_PROGRAM_FORMAT_ARB",0
+	align	4
+_1758:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,51,52
+_1759:
+	db	"GL_PROGRAM_INSTRUCTIONS_ARB",0
+	align	4
+_1760:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,55,54
+_1761:
+	db	"GL_MAX_PROGRAM_INSTRUCTIONS_ARB",0
+	align	4
+_1762:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,55,55
+_1763:
+	db	"GL_PROGRAM_NATIVE_INSTRUCTIONS_ARB",0
+	align	4
+_1764:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,55,56
+_1765:
+	db	"GL_MAX_PROGRAM_NATIVE_INSTRUCTIONS_ARB",0
+	align	4
+_1766:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,55,57
+_1767:
+	db	"GL_PROGRAM_TEMPORARIES_ARB",0
+	align	4
+_1768:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,56,48
+_1769:
+	db	"GL_MAX_PROGRAM_TEMPORARIES_ARB",0
+	align	4
+_1770:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,56,49
+_1771:
+	db	"GL_PROGRAM_NATIVE_TEMPORARIES_ARB",0
+	align	4
+_1772:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,56,50
+_1773:
+	db	"GL_MAX_PROGRAM_NATIVE_TEMPORARIES_ARB",0
+	align	4
+_1774:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,56,51
+_1775:
+	db	"GL_PROGRAM_PARAMETERS_ARB",0
+	align	4
+_1776:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,56,52
+_1777:
+	db	"GL_MAX_PROGRAM_PARAMETERS_ARB",0
+	align	4
+_1778:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,56,53
+_1779:
+	db	"GL_PROGRAM_NATIVE_PARAMETERS_ARB",0
+	align	4
+_1780:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,56,54
+_1781:
+	db	"GL_MAX_PROGRAM_NATIVE_PARAMETERS_ARB",0
+	align	4
+_1782:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,56,55
+_1783:
+	db	"GL_PROGRAM_ATTRIBS_ARB",0
+	align	4
+_1784:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,56,56
+_1785:
+	db	"GL_MAX_PROGRAM_ATTRIBS_ARB",0
+	align	4
+_1786:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,56,57
+_1787:
+	db	"GL_PROGRAM_NATIVE_ATTRIBS_ARB",0
+	align	4
+_1788:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,57,48
+_1789:
+	db	"GL_MAX_PROGRAM_NATIVE_ATTRIBS_ARB",0
+	align	4
+_1790:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,57,49
+_1791:
+	db	"GL_PROGRAM_ADDRESS_REGISTERS_ARB",0
+	align	4
+_1792:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,57,50
+_1793:
+	db	"GL_MAX_PROGRAM_ADDRESS_REGISTERS_ARB",0
+	align	4
+_1794:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,57,51
+_1795:
+	db	"GL_PROGRAM_NATIVE_ADDRESS_REGISTERS_ARB",0
+	align	4
+_1796:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,57,52
+_1797:
+	db	"GL_MAX_PROGRAM_NATIVE_ADDRESS_REGISTERS_ARB",0
+	align	4
+_1798:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,57,53
+_1799:
+	db	"GL_MAX_PROGRAM_LOCAL_PARAMETERS_ARB",0
+	align	4
+_1800:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,57,54
+_1801:
+	db	"GL_MAX_PROGRAM_ENV_PARAMETERS_ARB",0
+	align	4
+_1802:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,57,55
+_1803:
+	db	"GL_PROGRAM_UNDER_NATIVE_LIMITS_ARB",0
+	align	4
+_1804:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,57,56
+_1805:
+	db	"GL_TRANSPOSE_CURRENT_MATRIX_ARB",0
+	align	4
+_1806:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,57,57
+_1807:
+	db	"GL_MATRIX0_ARB",0
+	align	4
+_1808:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,48,56
+_1809:
+	db	"GL_MATRIX1_ARB",0
+	align	4
+_1810:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,48,57
+_1811:
+	db	"GL_MATRIX2_ARB",0
+	align	4
+_1812:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,49,48
+_1813:
+	db	"GL_MATRIX3_ARB",0
+	align	4
+_1814:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,49,49
+_1815:
+	db	"GL_MATRIX4_ARB",0
+	align	4
+_1816:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,49,50
+_1817:
+	db	"GL_MATRIX5_ARB",0
+	align	4
+_1818:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,49,51
+_1819:
+	db	"GL_MATRIX6_ARB",0
+	align	4
+_1820:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,49,52
+_1821:
+	db	"GL_MATRIX7_ARB",0
+	align	4
+_1822:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,49,53
+_1823:
+	db	"GL_MATRIX8_ARB",0
+	align	4
+_1824:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,49,54
+_1825:
+	db	"GL_MATRIX9_ARB",0
+	align	4
+_1826:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,49,55
+_1827:
+	db	"GL_MATRIX10_ARB",0
+	align	4
+_1828:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,49,56
+_1829:
+	db	"GL_MATRIX11_ARB",0
+	align	4
+_1830:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,49,57
+_1831:
+	db	"GL_MATRIX12_ARB",0
+	align	4
+_1832:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,50,48
+_1833:
+	db	"GL_MATRIX13_ARB",0
+	align	4
+_1834:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,50,49
+_1835:
+	db	"GL_MATRIX14_ARB",0
+	align	4
+_1836:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,50,50
+_1837:
+	db	"GL_MATRIX15_ARB",0
+	align	4
+_1838:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,50,51
+_1839:
+	db	"GL_MATRIX16_ARB",0
+	align	4
+_1840:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,50,52
+_1841:
+	db	"GL_MATRIX17_ARB",0
+	align	4
+_1842:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,50,53
+_1843:
+	db	"GL_MATRIX18_ARB",0
+	align	4
+_1844:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,50,54
+_1845:
+	db	"GL_MATRIX19_ARB",0
+	align	4
+_1846:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,50,55
+_1847:
+	db	"GL_MATRIX20_ARB",0
+	align	4
+_1848:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,50,56
+_1849:
+	db	"GL_MATRIX21_ARB",0
+	align	4
+_1850:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,50,57
+_1851:
+	db	"GL_MATRIX22_ARB",0
+	align	4
+_1852:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,51,48
+_1853:
+	db	"GL_MATRIX23_ARB",0
+	align	4
+_1854:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,51,49
+_1855:
+	db	"GL_MATRIX24_ARB",0
+	align	4
+_1856:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,51,50
+_1857:
+	db	"GL_MATRIX25_ARB",0
+	align	4
+_1858:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,51,51
+_1859:
+	db	"GL_MATRIX26_ARB",0
+	align	4
+_1860:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,51,52
+_1861:
+	db	"GL_MATRIX27_ARB",0
+	align	4
+_1862:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,51,53
+_1863:
+	db	"GL_MATRIX28_ARB",0
+	align	4
+_1864:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,51,54
+_1865:
+	db	"GL_MATRIX29_ARB",0
+	align	4
+_1866:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,51,55
+_1867:
+	db	"GL_MATRIX30_ARB",0
+	align	4
+_1868:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,51,56
+_1869:
+	db	"GL_MATRIX31_ARB",0
+	align	4
+_1870:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,51,57
+_1871:
+	db	"GL_VERTEX_SHADER_ARB",0
+_1872:
+	db	"GL_MAX_VERTEX_UNIFORM_COMPONENTS_ARB",0
+_1873:
+	db	"GL_MAX_VARYING_FLOATS_ARB",0
+_1874:
+	db	"GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS_ARB",0
+_1875:
+	db	"GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS_ARB",0
+_1876:
+	db	"GL_OBJECT_ACTIVE_ATTRIBUTES_ARB",0
+_1877:
+	db	"GL_OBJECT_ACTIVE_ATTRIBUTE_MAX_LENGTH_ARB",0
+_1878:
+	db	"GL_TEXTURE_POINT_MODE_ATIX",0
+	align	4
+_1879:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	50,52,55,53,50
+_1880:
+	db	"GL_TEXTURE_POINT_ONE_COORD_ATIX",0
+	align	4
+_1881:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	50,52,55,53,51
+_1882:
+	db	"GL_TEXTURE_POINT_SPRITE_ATIX",0
+	align	4
+_1883:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	50,52,55,53,52
+_1884:
+	db	"GL_POINT_SPRITE_CULL_MODE_ATIX",0
+	align	4
+_1885:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	50,52,55,53,53
+_1886:
+	db	"GL_POINT_SPRITE_CULL_CENTER_ATIX",0
+	align	4
+_1887:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	50,52,55,53,54
+_1888:
+	db	"GL_POINT_SPRITE_CULL_CLIP_ATIX",0
+	align	4
+_1889:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	50,52,55,53,55
+_1890:
+	db	"GL_MODULATE_ADD_ATIX",0
+	align	4
+_1891:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,50,56
+_1892:
+	db	"GL_MODULATE_SIGNED_ADD_ATIX",0
+	align	4
+_1893:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,50,57
+_1894:
+	db	"GL_MODULATE_SUBTRACT_ATIX",0
+	align	4
+_1895:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,51,48
+_1896:
+	db	"GL_SECONDARY_COLOR_ATIX",0
+	align	4
+_1897:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,51,49
+_1898:
+	db	"GL_TEXTURE_OUTPUT_RGB_ATIX",0
+	align	4
+_1899:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,51,50
+_1900:
+	db	"GL_TEXTURE_OUTPUT_ALPHA_ATIX",0
+	align	4
+_1901:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,51,51
+_1902:
+	db	"GL_OUTPUT_POINT_SIZE_ATIX",0
+	align	4
+_1903:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	50,52,56,52,54
+_1904:
+	db	"GL_MAX_DRAW_BUFFERS_ATI",0
+_1905:
+	db	"GL_DRAW_BUFFER0_ATI",0
+_1906:
+	db	"GL_DRAW_BUFFER1_ATI",0
+_1907:
+	db	"GL_DRAW_BUFFER2_ATI",0
+_1908:
+	db	"GL_DRAW_BUFFER3_ATI",0
+_1909:
+	db	"GL_DRAW_BUFFER4_ATI",0
+_1910:
+	db	"GL_DRAW_BUFFER5_ATI",0
+_1911:
+	db	"GL_DRAW_BUFFER6_ATI",0
+_1912:
+	db	"GL_DRAW_BUFFER7_ATI",0
+_1913:
+	db	"GL_DRAW_BUFFER8_ATI",0
+_1914:
+	db	"GL_DRAW_BUFFER9_ATI",0
+_1915:
+	db	"GL_DRAW_BUFFER10_ATI",0
+_1916:
+	db	"GL_DRAW_BUFFER11_ATI",0
+_1917:
+	db	"GL_DRAW_BUFFER12_ATI",0
+_1918:
+	db	"GL_DRAW_BUFFER13_ATI",0
+_1919:
+	db	"GL_DRAW_BUFFER14_ATI",0
+_1920:
+	db	"GL_DRAW_BUFFER15_ATI",0
+_1921:
+	db	"GL_ELEMENT_ARRAY_ATI",0
+_1922:
+	db	"GL_ELEMENT_ARRAY_TYPE_ATI",0
+_1923:
+	db	"GL_ELEMENT_ARRAY_POINTER_ATI",0
+_1924:
+	db	"GL_BUMP_ROT_MATRIX_ATI",0
+	align	4
+_1925:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,55,55
+_1926:
+	db	"GL_BUMP_ROT_MATRIX_SIZE_ATI",0
+	align	4
+_1927:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,55,56
+_1928:
+	db	"GL_BUMP_NUM_TEX_UNITS_ATI",0
+	align	4
+_1929:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,55,57
+_1930:
+	db	"GL_BUMP_TEX_UNITS_ATI",0
+	align	4
+_1931:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,56,48
+_1932:
+	db	"GL_DUDV_ATI",0
+	align	4
+_1933:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,56,49
+_1934:
+	db	"GL_DU8DV8_ATI",0
+	align	4
+_1935:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,56,50
+_1936:
+	db	"GL_BUMP_ENVMAP_ATI",0
+	align	4
+_1937:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,56,51
+_1938:
+	db	"GL_BUMP_TARGET_ATI",0
+	align	4
+_1939:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,56,52
+_1940:
+	db	"GL_RED_BIT_ATI",0
+_1941:
+	db	"GL_2X_BIT_ATI",0
+_1942:
+	db	"GL_4X_BIT_ATI",0
+_1943:
+	db	"GL_GREEN_BIT_ATI",0
+_1944:
+	db	"GL_COMP_BIT_ATI",0
+_1945:
+	db	"GL_BLUE_BIT_ATI",0
+_1946:
+	db	"GL_8X_BIT_ATI",0
+_1947:
+	db	"GL_NEGATE_BIT_ATI",0
+_1948:
+	db	"GL_BIAS_BIT_ATI",0
+_1949:
+	db	"GL_HALF_BIT_ATI",0
+_1950:
+	db	"GL_QUARTER_BIT_ATI",0
+_1951:
+	db	"GL_EIGHTH_BIT_ATI",0
+_1952:
+	db	"GL_SATURATE_BIT_ATI",0
+	align	4
+_1953:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	54,52
+_1954:
+	db	"GL_FRAGMENT_SHADER_ATI",0
+	align	4
+_1955:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,49,48,52
+_1956:
+	db	"GL_REG_0_ATI",0
+	align	4
+_1957:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,49,48,53
+_1958:
+	db	"GL_REG_1_ATI",0
+	align	4
+_1959:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,49,48,54
+_1960:
+	db	"GL_REG_2_ATI",0
+	align	4
+_1961:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,49,48,55
+_1962:
+	db	"GL_REG_3_ATI",0
+	align	4
+_1963:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,49,48,56
+_1964:
+	db	"GL_REG_4_ATI",0
+	align	4
+_1965:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,49,48,57
+_1966:
+	db	"GL_REG_5_ATI",0
+	align	4
+_1967:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,49,49,48
+_1968:
+	db	"GL_CON_0_ATI",0
+	align	4
+_1969:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,49,51,55
+_1970:
+	db	"GL_CON_1_ATI",0
+	align	4
+_1971:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,49,51,56
+_1972:
+	db	"GL_CON_2_ATI",0
+	align	4
+_1973:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,49,51,57
+_1974:
+	db	"GL_CON_3_ATI",0
+	align	4
+_1975:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,49,52,48
+_1976:
+	db	"GL_CON_4_ATI",0
+	align	4
+_1977:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,49,52,49
+_1978:
+	db	"GL_CON_5_ATI",0
+	align	4
+_1979:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,49,52,50
+_1980:
+	db	"GL_CON_6_ATI",0
+	align	4
+_1981:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,49,52,51
+_1982:
+	db	"GL_CON_7_ATI",0
+	align	4
+_1983:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,49,52,52
+_1984:
+	db	"GL_MOV_ATI",0
+	align	4
+_1985:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,49,54,57
+_1986:
+	db	"GL_ADD_ATI",0
+	align	4
+_1987:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,49,55,49
+_1988:
+	db	"GL_MUL_ATI",0
+	align	4
+_1989:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,49,55,50
+_1990:
+	db	"GL_SUB_ATI",0
+	align	4
+_1991:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,49,55,51
+_1992:
+	db	"GL_DOT3_ATI",0
+	align	4
+_1993:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,49,55,52
+_1994:
+	db	"GL_DOT4_ATI",0
+	align	4
+_1995:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,49,55,53
+_1996:
+	db	"GL_MAD_ATI",0
+	align	4
+_1997:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,49,55,54
+_1998:
+	db	"GL_LERP_ATI",0
+	align	4
+_1999:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,49,55,55
+_2000:
+	db	"GL_CND_ATI",0
+	align	4
+_2001:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,49,55,56
+_2002:
+	db	"GL_CND0_ATI",0
+	align	4
+_2003:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,49,55,57
+_2004:
+	db	"GL_DOT2_ADD_ATI",0
+	align	4
+_2005:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,49,56,48
+_2006:
+	db	"GL_SECONDARY_INTERPOLATOR_ATI",0
+	align	4
+_2007:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,49,56,49
+_2008:
+	db	"GL_NUM_FRAGMENT_REGISTERS_ATI",0
+	align	4
+_2009:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,49,56,50
+_2010:
+	db	"GL_NUM_FRAGMENT_CONSTANTS_ATI",0
+	align	4
+_2011:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,49,56,51
+_2012:
+	db	"GL_NUM_PASSES_ATI",0
+	align	4
+_2013:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,49,56,52
+_2014:
+	db	"GL_NUM_INSTRUCTIONS_PER_PASS_ATI",0
+	align	4
+_2015:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,49,56,53
+_2016:
+	db	"GL_NUM_INSTRUCTIONS_TOTAL_ATI",0
+	align	4
+_2017:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,49,56,54
+_2018:
+	db	"GL_NUM_INPUT_INTERPOLATOR_COMPONENTS_ATI",0
+	align	4
+_2019:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,49,56,55
+_2020:
+	db	"GL_NUM_LOOPBACK_COMPONENTS_ATI",0
+	align	4
+_2021:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,49,56,56
+_2022:
+	db	"GL_COLOR_ALPHA_PAIRING_ATI",0
+	align	4
+_2023:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,49,56,57
+_2024:
+	db	"GL_SWIZZLE_STR_ATI",0
+	align	4
+_2025:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,49,57,48
+_2026:
+	db	"GL_SWIZZLE_STQ_ATI",0
+	align	4
+_2027:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,49,57,49
+_2028:
+	db	"GL_SWIZZLE_STR_DR_ATI",0
+	align	4
+_2029:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,49,57,50
+_2030:
+	db	"GL_SWIZZLE_STQ_DQ_ATI",0
+	align	4
+_2031:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,49,57,51
+_2032:
+	db	"GL_SWIZZLE_STRQ_ATI",0
+	align	4
+_2033:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,49,57,52
+_2034:
+	db	"GL_SWIZZLE_STRQ_DQ_ATI",0
+	align	4
+_2035:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,49,57,53
+_2036:
+	db	"GL_PN_TRIANGLES_ATI",0
+	align	4
+_2037:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,48,48
+_2038:
+	db	"GL_MAX_PN_TRIANGLES_TESSELATION_LEVEL_ATI",0
+	align	4
+_2039:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,48,49
+_2040:
+	db	"GL_PN_TRIANGLES_POINT_MODE_ATI",0
+	align	4
+_2041:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,48,50
+_2042:
+	db	"GL_PN_TRIANGLES_NORMAL_MODE_ATI",0
+	align	4
+_2043:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,48,51
+_2044:
+	db	"GL_PN_TRIANGLES_TESSELATION_LEVEL_ATI",0
+	align	4
+_2045:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,48,52
+_2046:
+	db	"GL_PN_TRIANGLES_POINT_MODE_LINEAR_ATI",0
+	align	4
+_2047:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,48,53
+_2048:
+	db	"GL_PN_TRIANGLES_POINT_MODE_CUBIC_ATI",0
+	align	4
+_2049:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,48,54
+_2050:
+	db	"GL_PN_TRIANGLES_NORMAL_MODE_LINEAR_ATI",0
+	align	4
+_2051:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,48,55
+_2052:
+	db	"GL_PN_TRIANGLES_NORMAL_MODE_QUADRATIC_ATI",0
+	align	4
+_2053:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,48,56
+_2054:
+	db	"GL_STENCIL_BACK_FUNC_ATI",0
+_2055:
+	db	"GL_STENCIL_BACK_FAIL_ATI",0
+_2056:
+	db	"GL_STENCIL_BACK_PASS_DEPTH_FAIL_ATI",0
+_2057:
+	db	"GL_STENCIL_BACK_PASS_DEPTH_PASS_ATI",0
+_2058:
+	db	"GL_TEXT_FRAGMENT_SHADER_ATI",0
+	align	4
+_2059:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,50,56,48
+_2060:
+	db	"GL_COMPRESSED_LUMINANCE_ALPHA_3DC_ATI",0
+	align	4
+_2061:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,55,49
+_2062:
+	db	"GL_MODULATE_ADD_ATI",0
+_2063:
+	db	"GL_MODULATE_SIGNED_ADD_ATI",0
+_2064:
+	db	"GL_MODULATE_SUBTRACT_ATI",0
+_2065:
+	db	"GL_RGBA_FLOAT32_ATI",0
+_2066:
+	db	"GL_RGB_FLOAT32_ATI",0
+_2067:
+	db	"GL_ALPHA_FLOAT32_ATI",0
+_2068:
+	db	"GL_INTENSITY_FLOAT32_ATI",0
+_2069:
+	db	"GL_LUMINANCE_FLOAT32_ATI",0
+_2070:
+	db	"GL_LUMINANCE_ALPHA_FLOAT32_ATI",0
+_2071:
+	db	"GL_RGBA_FLOAT16_ATI",0
+_2072:
+	db	"GL_RGB_FLOAT16_ATI",0
+_2073:
+	db	"GL_ALPHA_FLOAT16_ATI",0
+_2074:
+	db	"GL_INTENSITY_FLOAT16_ATI",0
+_2075:
+	db	"GL_LUMINANCE_FLOAT16_ATI",0
+_2076:
+	db	"GL_LUMINANCE_ALPHA_FLOAT16_ATI",0
+_2077:
+	db	"GL_MIRROR_CLAMP_ATI",0
+	align	4
+_2078:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,50,54
+_2079:
+	db	"GL_MIRROR_CLAMP_TO_EDGE_ATI",0
+	align	4
+_2080:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,50,55
+_2081:
+	db	"GL_STATIC_ATI",0
+	align	4
+_2082:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,53,54
+_2083:
+	db	"GL_DYNAMIC_ATI",0
+	align	4
+_2084:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,53,55
+_2085:
+	db	"GL_PRESERVE_ATI",0
+	align	4
+_2086:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,53,56
+_2087:
+	db	"GL_DISCARD_ATI",0
+	align	4
+_2088:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,53,57
+_2089:
+	db	"GL_OBJECT_BUFFER_SIZE_ATI",0
+_2090:
+	db	"GL_OBJECT_BUFFER_USAGE_ATI",0
+_2091:
+	db	"GL_ARRAY_OBJECT_BUFFER_ATI",0
+	align	4
+_2092:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,54,50
+_2093:
+	db	"GL_ARRAY_OBJECT_OFFSET_ATI",0
+	align	4
+_2094:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,54,51
+_2095:
+	db	"GL_MAX_VERTEX_STREAMS_ATI",0
+	align	4
+_2096:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,54,55
+_2097:
+	db	"GL_VERTEX_SOURCE_ATI",0
+	align	4
+_2098:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,54,56
+_2099:
+	db	"GL_VERTEX_STREAM0_ATI",0
+	align	4
+_2100:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,54,57
+_2101:
+	db	"GL_VERTEX_STREAM1_ATI",0
+	align	4
+_2102:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,55,48
+_2103:
+	db	"GL_VERTEX_STREAM2_ATI",0
+	align	4
+_2104:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,55,49
+_2105:
+	db	"GL_VERTEX_STREAM3_ATI",0
+	align	4
+_2106:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,55,50
+_2107:
+	db	"GL_VERTEX_STREAM4_ATI",0
+	align	4
+_2108:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,55,51
+_2109:
+	db	"GL_VERTEX_STREAM5_ATI",0
+	align	4
+_2110:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,55,52
+_2111:
+	db	"GL_VERTEX_STREAM6_ATI",0
+	align	4
+_2112:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,55,53
+_2113:
+	db	"GL_VERTEX_STREAM7_ATI",0
+	align	4
+_2114:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,55,54
+_2115:
+	db	"GL_422_EXT",0
+	align	4
+_2116:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,55,50
+_2117:
+	db	"GL_422_REV_EXT",0
+	align	4
+_2118:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,55,51
+_2119:
+	db	"GL_422_AVERAGE_EXT",0
+	align	4
+_2120:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,55,52
+_2121:
+	db	"GL_422_REV_AVERAGE_EXT",0
+	align	4
+_2122:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,55,53
+_2123:
+	db	"GL_CG_VERTEX_SHADER_EXT",0
+	align	4
+_2124:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,56,54
+_2125:
+	db	"GL_CG_FRAGMENT_SHADER_EXT",0
+	align	4
+_2126:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,56,55
+_2127:
+	db	"GL_ABGR_EXT",0
+	align	4
+_2128:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,55,54,56
+_2129:
+	db	"GL_BGR_EXT",0
+_2130:
+	db	"GL_BGRA_EXT",0
+_2131:
+	db	"GL_MAX_VERTEX_BINDABLE_UNIFORMS_EXT",0
+	align	4
+_2132:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,51,50,50
+_2133:
+	db	"GL_MAX_FRAGMENT_BINDABLE_UNIFORMS_EXT",0
+	align	4
+_2134:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,51,50,51
+_2135:
+	db	"GL_MAX_GEOMETRY_BINDABLE_UNIFORMS_EXT",0
+	align	4
+_2136:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,51,50,52
+_2137:
+	db	"GL_MAX_BINDABLE_UNIFORM_SIZE_EXT",0
+	align	4
+_2138:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,51,51,51
+_2139:
+	db	"GL_UNIFORM_BUFFER_EXT",0
+	align	4
+_2140:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,51,51,52
+_2141:
+	db	"GL_UNIFORM_BUFFER_BINDING_EXT",0
+	align	4
+_2142:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,51,51,53
+_2143:
+	db	"GL_CONSTANT_COLOR_EXT",0
+_2144:
+	db	"GL_ONE_MINUS_CONSTANT_COLOR_EXT",0
+_2145:
+	db	"GL_CONSTANT_ALPHA_EXT",0
+_2146:
+	db	"GL_ONE_MINUS_CONSTANT_ALPHA_EXT",0
+_2147:
+	db	"GL_BLEND_COLOR_EXT",0
+_2148:
+	db	"GL_BLEND_EQUATION_RGB_EXT",0
+_2149:
+	db	"GL_BLEND_EQUATION_ALPHA_EXT",0
+_2150:
+	db	"GL_BLEND_DST_RGB_EXT",0
+_2151:
+	db	"GL_BLEND_SRC_RGB_EXT",0
+_2152:
+	db	"GL_BLEND_DST_ALPHA_EXT",0
+_2153:
+	db	"GL_BLEND_SRC_ALPHA_EXT",0
+_2154:
+	db	"GL_FUNC_ADD_EXT",0
+_2155:
+	db	"GL_MIN_EXT",0
+_2156:
+	db	"GL_MAX_EXT",0
+_2157:
+	db	"GL_BLEND_EQUATION_EXT",0
+_2158:
+	db	"GL_FUNC_SUBTRACT_EXT",0
+_2159:
+	db	"GL_FUNC_REVERSE_SUBTRACT_EXT",0
+_2160:
+	db	"GL_CLIP_VOLUME_CLIPPING_HINT_EXT",0
+	align	4
+_2161:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,48,48,56
+_2162:
+	db	"GL_CMYK_EXT",0
+	align	4
+_2163:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,55,56,48
+_2164:
+	db	"GL_CMYKA_EXT",0
+	align	4
+_2165:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,55,56,49
+_2166:
+	db	"GL_PACK_CMYK_HINT_EXT",0
+	align	4
+_2167:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,55,56,50
+_2168:
+	db	"GL_UNPACK_CMYK_HINT_EXT",0
+	align	4
+_2169:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,55,56,51
+_2170:
+	db	"GL_ARRAY_ELEMENT_LOCK_FIRST_EXT",0
+	align	4
+_2171:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,49,57,50
+_2172:
+	db	"GL_ARRAY_ELEMENT_LOCK_COUNT_EXT",0
+	align	4
+_2173:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,49,57,51
+_2174:
+	db	"GL_CONVOLUTION_1D_EXT",0
+_2175:
+	db	"GL_CONVOLUTION_2D_EXT",0
+_2176:
+	db	"GL_SEPARABLE_2D_EXT",0
+_2177:
+	db	"GL_CONVOLUTION_BORDER_MODE_EXT",0
+_2178:
+	db	"GL_CONVOLUTION_FILTER_SCALE_EXT",0
+_2179:
+	db	"GL_CONVOLUTION_FILTER_BIAS_EXT",0
+_2180:
+	db	"GL_REDUCE_EXT",0
+_2181:
+	db	"GL_CONVOLUTION_FORMAT_EXT",0
+_2182:
+	db	"GL_CONVOLUTION_WIDTH_EXT",0
+_2183:
+	db	"GL_CONVOLUTION_HEIGHT_EXT",0
+_2184:
+	db	"GL_MAX_CONVOLUTION_WIDTH_EXT",0
+_2185:
+	db	"GL_MAX_CONVOLUTION_HEIGHT_EXT",0
+_2186:
+	db	"GL_POST_CONVOLUTION_RED_SCALE_EXT",0
+_2187:
+	db	"GL_POST_CONVOLUTION_GREEN_SCALE_EXT",0
+_2188:
+	db	"GL_POST_CONVOLUTION_BLUE_SCALE_EXT",0
+_2189:
+	db	"GL_POST_CONVOLUTION_ALPHA_SCALE_EXT",0
+_2190:
+	db	"GL_POST_CONVOLUTION_RED_BIAS_EXT",0
+_2191:
+	db	"GL_POST_CONVOLUTION_GREEN_BIAS_EXT",0
+_2192:
+	db	"GL_POST_CONVOLUTION_BLUE_BIAS_EXT",0
+_2193:
+	db	"GL_POST_CONVOLUTION_ALPHA_BIAS_EXT",0
+_2194:
+	db	"GL_TANGENT_ARRAY_EXT",0
+	align	4
+_2195:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,56,52,57
+_2196:
+	db	"GL_BINORMAL_ARRAY_EXT",0
+	align	4
+_2197:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,56,53,48
+_2198:
+	db	"GL_CURRENT_TANGENT_EXT",0
+	align	4
+_2199:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,56,53,49
+_2200:
+	db	"GL_CURRENT_BINORMAL_EXT",0
+	align	4
+_2201:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,56,53,50
+_2202:
+	db	"GL_TANGENT_ARRAY_TYPE_EXT",0
+	align	4
+_2203:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,56,53,52
+_2204:
+	db	"GL_TANGENT_ARRAY_STRIDE_EXT",0
+	align	4
+_2205:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,56,53,53
+_2206:
+	db	"GL_BINORMAL_ARRAY_TYPE_EXT",0
+	align	4
+_2207:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,56,53,54
+_2208:
+	db	"GL_BINORMAL_ARRAY_STRIDE_EXT",0
+	align	4
+_2209:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,56,53,55
+_2210:
+	db	"GL_TANGENT_ARRAY_POINTER_EXT",0
+	align	4
+_2211:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,56,53,56
+_2212:
+	db	"GL_BINORMAL_ARRAY_POINTER_EXT",0
+	align	4
+_2213:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,56,53,57
+_2214:
+	db	"GL_MAP1_TANGENT_EXT",0
+	align	4
+_2215:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,56,54,48
+_2216:
+	db	"GL_MAP2_TANGENT_EXT",0
+	align	4
+_2217:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,56,54,49
+_2218:
+	db	"GL_MAP1_BINORMAL_EXT",0
+	align	4
+_2219:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,56,54,50
+_2220:
+	db	"GL_MAP2_BINORMAL_EXT",0
+	align	4
+_2221:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,56,54,51
+_2222:
+	db	"GL_DEPTH_BOUNDS_TEST_EXT",0
+	align	4
+_2223:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,54,48
+_2224:
+	db	"GL_DEPTH_BOUNDS_EXT",0
+	align	4
+_2225:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,54,49
+_2226:
+	db	"GL_PROGRAM_MATRIX_EXT",0
+	align	4
+_2227:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,51,57,55
+_2228:
+	db	"GL_TRANSPOSE_PROGRAM_MATRIX_EXT",0
+	align	4
+_2229:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,51,57,56
+_2230:
+	db	"GL_PROGRAM_MATRIX_STACK_DEPTH_EXT",0
+	align	4
+_2231:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,51,57,57
+_2232:
+	db	"GL_FOG_COORDINATE_SOURCE_EXT",0
+_2233:
+	db	"GL_FOG_COORDINATE_EXT",0
+_2234:
+	db	"GL_FRAGMENT_DEPTH_EXT",0
+_2235:
+	db	"GL_CURRENT_FOG_COORDINATE_EXT",0
+_2236:
+	db	"GL_FOG_COORDINATE_ARRAY_TYPE_EXT",0
+_2237:
+	db	"GL_FOG_COORDINATE_ARRAY_STRIDE_EXT",0
+_2238:
+	db	"GL_FOG_COORDINATE_ARRAY_POINTER_EXT",0
+_2239:
+	db	"GL_FOG_COORDINATE_ARRAY_EXT",0
+_2240:
+	db	"GL_FRAGMENT_LIGHTING_EXT",0
+	align	4
+_2241:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,55,57,50
+_2242:
+	db	"GL_FRAGMENT_COLOR_MATERIAL_EXT",0
+	align	4
+_2243:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,55,57,51
+_2244:
+	db	"GL_FRAGMENT_COLOR_MATERIAL_FACE_EXT",0
+	align	4
+_2245:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,55,57,52
+_2246:
+	db	"GL_FRAGMENT_COLOR_MATERIAL_PARAMETER_EXT",0
+	align	4
+_2247:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,55,57,53
+_2248:
+	db	"GL_MAX_FRAGMENT_LIGHTS_EXT",0
+	align	4
+_2249:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,55,57,54
+_2250:
+	db	"GL_MAX_ACTIVE_LIGHTS_EXT",0
+	align	4
+_2251:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,55,57,55
+_2252:
+	db	"GL_CURRENT_RASTER_NORMAL_EXT",0
+	align	4
+_2253:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,55,57,56
+_2254:
+	db	"GL_LIGHT_ENV_MODE_EXT",0
+	align	4
+_2255:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,55,57,57
+_2256:
+	db	"GL_FRAGMENT_LIGHT_MODEL_LOCAL_VIEWER_EXT",0
+	align	4
+_2257:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,56,48,48
+_2258:
+	db	"GL_FRAGMENT_LIGHT_MODEL_TWO_SIDE_EXT",0
+	align	4
+_2259:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,56,48,49
+_2260:
+	db	"GL_FRAGMENT_LIGHT_MODEL_AMBIENT_EXT",0
+	align	4
+_2261:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,56,48,50
+_2262:
+	db	"GL_FRAGMENT_LIGHT_MODEL_NORMAL_INTERPOLATION_EXT",0
+	align	4
+_2263:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,56,48,51
+_2264:
+	db	"GL_FRAGMENT_LIGHT0_EXT",0
+	align	4
+_2265:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,56,48,52
+_2266:
+	db	"GL_FRAGMENT_LIGHT7_EXT",0
+	align	4
+_2267:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,56,49,49
+_2268:
+	db	"GL_DRAW_FRAMEBUFFER_BINDING_EXT",0
+_2269:
+	db	"GL_READ_FRAMEBUFFER_EXT",0
+_2270:
+	db	"GL_DRAW_FRAMEBUFFER_EXT",0
+_2271:
+	db	"GL_READ_FRAMEBUFFER_BINDING_EXT",0
+_2272:
+	db	"GL_RENDERBUFFER_SAMPLES_EXT",0
+_2273:
+	db	"GL_FRAMEBUFFER_INCOMPLETE_MULTISAMPLE_EXT",0
+_2274:
+	db	"GL_MAX_SAMPLES_EXT",0
+_2275:
+	db	"GL_INVALID_FRAMEBUFFER_OPERATION_EXT",0
+_2276:
+	db	"GL_MAX_RENDERBUFFER_SIZE_EXT",0
+_2277:
+	db	"GL_FRAMEBUFFER_BINDING_EXT",0
+_2278:
+	db	"GL_RENDERBUFFER_BINDING_EXT",0
+_2279:
+	db	"GL_FRAMEBUFFER_ATTACHMENT_OBJECT_TYPE_EXT",0
+_2280:
+	db	"GL_FRAMEBUFFER_ATTACHMENT_OBJECT_NAME_EXT",0
+_2281:
+	db	"GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_LEVEL_EXT",0
+_2282:
+	db	"GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_CUBE_MAP_FACE_EXT",0
+_2283:
+	db	"GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_3D_ZOFFSET_EXT",0
+_2284:
+	db	"GL_FRAMEBUFFER_COMPLETE_EXT",0
+_2285:
+	db	"GL_FRAMEBUFFER_INCOMPLETE_ATTACHMENT_EXT",0
+_2286:
+	db	"GL_FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT_EXT",0
+_2287:
+	db	"GL_FRAMEBUFFER_INCOMPLETE_DIMENSIONS_EXT",0
+	align	4
+_2288:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,48,53,55
+_2289:
+	db	"GL_FRAMEBUFFER_INCOMPLETE_FORMATS_EXT",0
+	align	4
+_2290:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,48,53,56
+_2291:
+	db	"GL_FRAMEBUFFER_INCOMPLETE_DRAW_BUFFER_EXT",0
+_2292:
+	db	"GL_FRAMEBUFFER_INCOMPLETE_READ_BUFFER_EXT",0
+_2293:
+	db	"GL_FRAMEBUFFER_UNSUPPORTED_EXT",0
+_2294:
+	db	"GL_MAX_COLOR_ATTACHMENTS_EXT",0
+_2295:
+	db	"GL_COLOR_ATTACHMENT0_EXT",0
+_2296:
+	db	"GL_COLOR_ATTACHMENT1_EXT",0
+_2297:
+	db	"GL_COLOR_ATTACHMENT2_EXT",0
+_2298:
+	db	"GL_COLOR_ATTACHMENT3_EXT",0
+_2299:
+	db	"GL_COLOR_ATTACHMENT4_EXT",0
+_2300:
+	db	"GL_COLOR_ATTACHMENT5_EXT",0
+_2301:
+	db	"GL_COLOR_ATTACHMENT6_EXT",0
+_2302:
+	db	"GL_COLOR_ATTACHMENT7_EXT",0
+_2303:
+	db	"GL_COLOR_ATTACHMENT8_EXT",0
+_2304:
+	db	"GL_COLOR_ATTACHMENT9_EXT",0
+_2305:
+	db	"GL_COLOR_ATTACHMENT10_EXT",0
+_2306:
+	db	"GL_COLOR_ATTACHMENT11_EXT",0
+_2307:
+	db	"GL_COLOR_ATTACHMENT12_EXT",0
+_2308:
+	db	"GL_COLOR_ATTACHMENT13_EXT",0
+_2309:
+	db	"GL_COLOR_ATTACHMENT14_EXT",0
+_2310:
+	db	"GL_COLOR_ATTACHMENT15_EXT",0
+_2311:
+	db	"GL_DEPTH_ATTACHMENT_EXT",0
+_2312:
+	db	"GL_STENCIL_ATTACHMENT_EXT",0
+_2313:
+	db	"GL_FRAMEBUFFER_EXT",0
+_2314:
+	db	"GL_RENDERBUFFER_EXT",0
+_2315:
+	db	"GL_RENDERBUFFER_WIDTH_EXT",0
+_2316:
+	db	"GL_RENDERBUFFER_HEIGHT_EXT",0
+_2317:
+	db	"GL_RENDERBUFFER_INTERNAL_FORMAT_EXT",0
+_2318:
+	db	"GL_STENCIL_INDEX1_EXT",0
+_2319:
+	db	"GL_STENCIL_INDEX4_EXT",0
+_2320:
+	db	"GL_STENCIL_INDEX8_EXT",0
+_2321:
+	db	"GL_STENCIL_INDEX16_EXT",0
+_2322:
+	db	"GL_RENDERBUFFER_RED_SIZE_EXT",0
+_2323:
+	db	"GL_RENDERBUFFER_GREEN_SIZE_EXT",0
+_2324:
+	db	"GL_RENDERBUFFER_BLUE_SIZE_EXT",0
+_2325:
+	db	"GL_RENDERBUFFER_ALPHA_SIZE_EXT",0
+_2326:
+	db	"GL_RENDERBUFFER_DEPTH_SIZE_EXT",0
+_2327:
+	db	"GL_RENDERBUFFER_STENCIL_SIZE_EXT",0
+_2328:
+	db	"GL_FRAMEBUFFER_SRGB_EXT",0
+_2329:
+	db	"GL_FRAMEBUFFER_SRGB_CAPABLE_EXT",0
+	align	4
+_2330:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,56,50
+_2331:
+	db	"GL_LINES_ADJACENCY_EXT",0
+_2332:
+	db	"GL_LINE_STRIP_ADJACENCY_EXT",0
+_2333:
+	db	"GL_TRIANGLES_ADJACENCY_EXT",0
+_2334:
+	db	"GL_TRIANGLE_STRIP_ADJACENCY_EXT",0
+_2335:
+	db	"GL_PROGRAM_POINT_SIZE_EXT",0
+_2336:
+	db	"GL_MAX_VARYING_COMPONENTS_EXT",0
+_2337:
+	db	"GL_MAX_GEOMETRY_TEXTURE_IMAGE_UNITS_EXT",0
+_2338:
+	db	"GL_FRAMEBUFFER_ATTACHMENT_TEXTURE_LAYER_EXT",0
+_2339:
+	db	"GL_FRAMEBUFFER_ATTACHMENT_LAYERED_EXT",0
+_2340:
+	db	"GL_FRAMEBUFFER_INCOMPLETE_LAYER_TARGETS_EXT",0
+_2341:
+	db	"GL_FRAMEBUFFER_INCOMPLETE_LAYER_COUNT_EXT",0
+_2342:
+	db	"GL_GEOMETRY_SHADER_EXT",0
+_2343:
+	db	"GL_GEOMETRY_VERTICES_OUT_EXT",0
+_2344:
+	db	"GL_GEOMETRY_INPUT_TYPE_EXT",0
+_2345:
+	db	"GL_GEOMETRY_OUTPUT_TYPE_EXT",0
+_2346:
+	db	"GL_MAX_GEOMETRY_VARYING_COMPONENTS_EXT",0
+_2347:
+	db	"GL_MAX_VERTEX_VARYING_COMPONENTS_EXT",0
+_2348:
+	db	"GL_MAX_GEOMETRY_UNIFORM_COMPONENTS_EXT",0
+_2349:
+	db	"GL_MAX_GEOMETRY_OUTPUT_VERTICES_EXT",0
+_2350:
+	db	"GL_MAX_GEOMETRY_TOTAL_OUTPUT_COMPONENTS_EXT",0
+_2351:
+	db	"GL_VERTEX_ATTRIB_ARRAY_INTEGER_EXT",0
+_2352:
+	db	"GL_SAMPLER_1D_ARRAY_EXT",0
+_2353:
+	db	"GL_SAMPLER_2D_ARRAY_EXT",0
+_2354:
+	db	"GL_SAMPLER_BUFFER_EXT",0
+	align	4
+_2355:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,57,48
+_2356:
+	db	"GL_SAMPLER_1D_ARRAY_SHADOW_EXT",0
+_2357:
+	db	"GL_SAMPLER_2D_ARRAY_SHADOW_EXT",0
+_2358:
+	db	"GL_SAMPLER_CUBE_SHADOW_EXT",0
+_2359:
+	db	"GL_UNSIGNED_INT_VEC2_EXT",0
+_2360:
+	db	"GL_UNSIGNED_INT_VEC3_EXT",0
+_2361:
+	db	"GL_UNSIGNED_INT_VEC4_EXT",0
+_2362:
+	db	"GL_INT_SAMPLER_1D_EXT",0
+_2363:
+	db	"GL_INT_SAMPLER_2D_EXT",0
+_2364:
+	db	"GL_INT_SAMPLER_3D_EXT",0
+_2365:
+	db	"GL_INT_SAMPLER_CUBE_EXT",0
+_2366:
+	db	"GL_INT_SAMPLER_2D_RECT_EXT",0
+	align	4
+_2367:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,51,48,49
+_2368:
+	db	"GL_INT_SAMPLER_1D_ARRAY_EXT",0
+_2369:
+	db	"GL_INT_SAMPLER_2D_ARRAY_EXT",0
+_2370:
+	db	"GL_INT_SAMPLER_BUFFER_EXT",0
+	align	4
+_2371:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,51,48,52
+_2372:
+	db	"GL_UNSIGNED_INT_SAMPLER_1D_EXT",0
+_2373:
+	db	"GL_UNSIGNED_INT_SAMPLER_2D_EXT",0
+_2374:
+	db	"GL_UNSIGNED_INT_SAMPLER_3D_EXT",0
+_2375:
+	db	"GL_UNSIGNED_INT_SAMPLER_CUBE_EXT",0
+_2376:
+	db	"GL_UNSIGNED_INT_SAMPLER_2D_RECT_EXT",0
+	align	4
+_2377:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,51,48,57
+_2378:
+	db	"GL_UNSIGNED_INT_SAMPLER_1D_ARRAY_EXT",0
+_2379:
+	db	"GL_UNSIGNED_INT_SAMPLER_2D_ARRAY_EXT",0
+_2380:
+	db	"GL_UNSIGNED_INT_SAMPLER_BUFFER_EXT",0
+	align	4
+_2381:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,51,49,50
+_2382:
+	db	"GL_HISTOGRAM_EXT",0
+_2383:
+	db	"GL_PROXY_HISTOGRAM_EXT",0
+_2384:
+	db	"GL_HISTOGRAM_WIDTH_EXT",0
+_2385:
+	db	"GL_HISTOGRAM_FORMAT_EXT",0
+_2386:
+	db	"GL_HISTOGRAM_RED_SIZE_EXT",0
+_2387:
+	db	"GL_HISTOGRAM_GREEN_SIZE_EXT",0
+_2388:
+	db	"GL_HISTOGRAM_BLUE_SIZE_EXT",0
+_2389:
+	db	"GL_HISTOGRAM_ALPHA_SIZE_EXT",0
+_2390:
+	db	"GL_HISTOGRAM_LUMINANCE_SIZE_EXT",0
+_2391:
+	db	"GL_HISTOGRAM_SINK_EXT",0
+_2392:
+	db	"GL_MINMAX_EXT",0
+_2393:
+	db	"GL_MINMAX_FORMAT_EXT",0
+_2394:
+	db	"GL_MINMAX_SINK_EXT",0
+_2395:
+	db	"GL_FRAGMENT_MATERIAL_EXT",0
+	align	4
+_2396:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,54,48,57
+_2397:
+	db	"GL_FRAGMENT_NORMAL_EXT",0
+	align	4
+_2398:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,54,49,48
+_2399:
+	db	"GL_FRAGMENT_COLOR_EXT",0
+	align	4
+_2400:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,54,49,50
+_2401:
+	db	"GL_ATTENUATION_EXT",0
+	align	4
+_2402:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,54,49,51
+_2403:
+	db	"GL_SHADOW_ATTENUATION_EXT",0
+	align	4
+_2404:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,54,49,52
+_2405:
+	db	"GL_TEXTURE_APPLICATION_MODE_EXT",0
+	align	4
+_2406:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,54,49,53
+_2407:
+	db	"GL_TEXTURE_LIGHT_EXT",0
+	align	4
+_2408:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,54,49,54
+_2409:
+	db	"GL_TEXTURE_MATERIAL_FACE_EXT",0
+	align	4
+_2410:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,54,49,55
+_2411:
+	db	"GL_TEXTURE_MATERIAL_PARAMETER_EXT",0
+	align	4
+_2412:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,54,49,56
+_2413:
+	db	"GL_MULTISAMPLE_EXT",0
+_2414:
+	db	"GL_SAMPLE_ALPHA_TO_MASK_EXT",0
+_2415:
+	db	"GL_SAMPLE_ALPHA_TO_ONE_EXT",0
+_2416:
+	db	"GL_SAMPLE_MASK_EXT",0
+_2417:
+	db	"GL_1PASS_EXT",0
+	align	4
+_2418:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,50,57
+_2419:
+	db	"GL_2PASS_0_EXT",0
+	align	4
+_2420:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,51,48
+_2421:
+	db	"GL_2PASS_1_EXT",0
+	align	4
+_2422:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,51,49
+_2423:
+	db	"GL_4PASS_0_EXT",0
+	align	4
+_2424:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,51,50
+_2425:
+	db	"GL_4PASS_1_EXT",0
+	align	4
+_2426:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,51,51
+_2427:
+	db	"GL_4PASS_2_EXT",0
+	align	4
+_2428:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,51,52
+_2429:
+	db	"GL_4PASS_3_EXT",0
+	align	4
+_2430:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,51,53
+_2431:
+	db	"GL_SAMPLE_BUFFERS_EXT",0
+_2432:
+	db	"GL_SAMPLES_EXT",0
+_2433:
+	db	"GL_SAMPLE_MASK_VALUE_EXT",0
+_2434:
+	db	"GL_SAMPLE_MASK_INVERT_EXT",0
+_2435:
+	db	"GL_SAMPLE_PATTERN_EXT",0
+	align	4
+_2436:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,52,48
+_2437:
+	db	"GL_MULTISAMPLE_BIT_EXT",0
+_2438:
+	db	"GL_DEPTH_STENCIL_EXT",0
+_2439:
+	db	"GL_UNSIGNED_INT_24_8_EXT",0
+_2440:
+	db	"GL_DEPTH24_STENCIL8_EXT",0
+_2441:
+	db	"GL_TEXTURE_STENCIL_SIZE_EXT",0
+_2442:
+	db	"GL_R11F_G11F_B10F_EXT",0
+_2443:
+	db	"GL_UNSIGNED_INT_10F_11F_11F_REV_EXT",0
+_2444:
+	db	"GL_RGBA_SIGNED_COMPONENTS_EXT",0
+	align	4
+_2445:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,57,48,48
+_2446:
+	db	"GL_UNSIGNED_BYTE_3_3_2_EXT",0
+_2447:
+	db	"GL_UNSIGNED_SHORT_4_4_4_4_EXT",0
+_2448:
+	db	"GL_UNSIGNED_SHORT_5_5_5_1_EXT",0
+_2449:
+	db	"GL_UNSIGNED_INT_8_8_8_8_EXT",0
+_2450:
+	db	"GL_UNSIGNED_INT_10_10_10_2_EXT",0
+_2451:
+	db	"GL_TEXTURE_3D_EXT",0
+_2452:
+	db	"GL_PROXY_TEXTURE_3D_EXT",0
+_2453:
+	db	"GL_COLOR_TABLE_FORMAT_EXT",0
+_2454:
+	db	"GL_COLOR_TABLE_WIDTH_EXT",0
+_2455:
+	db	"GL_COLOR_TABLE_RED_SIZE_EXT",0
+_2456:
+	db	"GL_COLOR_TABLE_GREEN_SIZE_EXT",0
+_2457:
+	db	"GL_COLOR_TABLE_BLUE_SIZE_EXT",0
+_2458:
+	db	"GL_COLOR_TABLE_ALPHA_SIZE_EXT",0
+_2459:
+	db	"GL_COLOR_TABLE_LUMINANCE_SIZE_EXT",0
+_2460:
+	db	"GL_COLOR_TABLE_INTENSITY_SIZE_EXT",0
+_2461:
+	db	"GL_TEXTURE_INDEX_SIZE_EXT",0
+	align	4
+_2462:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,48,48,53
+_2463:
+	db	"GL_PIXEL_PACK_BUFFER_EXT",0
+_2464:
+	db	"GL_PIXEL_UNPACK_BUFFER_EXT",0
+_2465:
+	db	"GL_PIXEL_PACK_BUFFER_BINDING_EXT",0
+_2466:
+	db	"GL_PIXEL_UNPACK_BUFFER_BINDING_EXT",0
+_2467:
+	db	"GL_PIXEL_TRANSFORM_2D_EXT",0
+	align	4
+_2468:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,53,56,52
+_2469:
+	db	"GL_PIXEL_MAG_FILTER_EXT",0
+	align	4
+_2470:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,53,56,53
+_2471:
+	db	"GL_PIXEL_MIN_FILTER_EXT",0
+	align	4
+_2472:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,53,56,54
+_2473:
+	db	"GL_PIXEL_CUBIC_WEIGHT_EXT",0
+	align	4
+_2474:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,53,56,55
+_2475:
+	db	"GL_CUBIC_EXT",0
+	align	4
+_2476:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,53,56,56
+_2477:
+	db	"GL_AVERAGE_EXT",0
+	align	4
+_2478:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,53,56,57
+_2479:
+	db	"GL_PIXEL_TRANSFORM_2D_STACK_DEPTH_EXT",0
+	align	4
+_2480:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,53,57,48
+_2481:
+	db	"GL_MAX_PIXEL_TRANSFORM_2D_STACK_DEPTH_EXT",0
+	align	4
+_2482:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,53,57,49
+_2483:
+	db	"GL_PIXEL_TRANSFORM_2D_MATRIX_EXT",0
+	align	4
+_2484:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,53,57,50
+_2485:
+	db	"GL_POINT_SIZE_MIN_EXT",0
+_2486:
+	db	"GL_POINT_SIZE_MAX_EXT",0
+_2487:
+	db	"GL_POINT_FADE_THRESHOLD_SIZE_EXT",0
+_2488:
+	db	"GL_DISTANCE_ATTENUATION_EXT",0
+_2489:
+	db	"GL_POLYGON_OFFSET_EXT",0
+	align	4
+_2490:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,50,51
+_2491:
+	db	"GL_POLYGON_OFFSET_FACTOR_EXT",0
+	align	4
+_2492:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,50,52
+_2493:
+	db	"GL_POLYGON_OFFSET_BIAS_EXT",0
+	align	4
+_2494:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,50,53
+_2495:
+	db	"GL_RESCALE_NORMAL_EXT",0
+_2496:
+	db	"GL_COLOR_SUM_EXT",0
+_2497:
+	db	"GL_CURRENT_SECONDARY_COLOR_EXT",0
+_2498:
+	db	"GL_SECONDARY_COLOR_ARRAY_SIZE_EXT",0
+_2499:
+	db	"GL_SECONDARY_COLOR_ARRAY_TYPE_EXT",0
+_2500:
+	db	"GL_SECONDARY_COLOR_ARRAY_STRIDE_EXT",0
+_2501:
+	db	"GL_SECONDARY_COLOR_ARRAY_POINTER_EXT",0
+_2502:
+	db	"GL_SECONDARY_COLOR_ARRAY_EXT",0
+_2503:
+	db	"GL_LIGHT_MODEL_COLOR_CONTROL_EXT",0
+_2504:
+	db	"GL_SINGLE_COLOR_EXT",0
+_2505:
+	db	"GL_SEPARATE_SPECULAR_COLOR_EXT",0
+_2506:
+	db	"GL_SHARED_TEXTURE_PALETTE_EXT",0
+	align	4
+_2507:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,50,55,53
+_2508:
+	db	"GL_STENCIL_TAG_BITS_EXT",0
+	align	4
+_2509:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,53,56
+_2510:
+	db	"GL_STENCIL_CLEAR_TAG_VALUE_EXT",0
+	align	4
+_2511:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,53,57
+_2512:
+	db	"GL_STENCIL_TEST_TWO_SIDE_EXT",0
+	align	4
+_2513:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,56,56
+_2514:
+	db	"GL_ACTIVE_STENCIL_FACE_EXT",0
+	align	4
+_2515:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,56,57
+_2516:
+	db	"GL_INCR_WRAP_EXT",0
+_2517:
+	db	"GL_DECR_WRAP_EXT",0
+_2518:
+	db	"GL_ALPHA4_EXT",0
+	align	4
+_2519:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,50,55
+_2520:
+	db	"GL_ALPHA8_EXT",0
+	align	4
+_2521:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,50,56
+_2522:
+	db	"GL_ALPHA12_EXT",0
+	align	4
+_2523:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,50,57
+_2524:
+	db	"GL_ALPHA16_EXT",0
+	align	4
+_2525:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,51,48
+_2526:
+	db	"GL_LUMINANCE4_EXT",0
+	align	4
+_2527:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,51,49
+_2528:
+	db	"GL_LUMINANCE8_EXT",0
+	align	4
+_2529:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,51,50
+_2530:
+	db	"GL_LUMINANCE12_EXT",0
+	align	4
+_2531:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,51,51
+_2532:
+	db	"GL_LUMINANCE16_EXT",0
+	align	4
+_2533:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,51,52
+_2534:
+	db	"GL_LUMINANCE4_ALPHA4_EXT",0
+	align	4
+_2535:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,51,53
+_2536:
+	db	"GL_LUMINANCE6_ALPHA2_EXT",0
+	align	4
+_2537:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,51,54
+_2538:
+	db	"GL_LUMINANCE8_ALPHA8_EXT",0
+	align	4
+_2539:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,51,55
+_2540:
+	db	"GL_LUMINANCE12_ALPHA4_EXT",0
+	align	4
+_2541:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,51,56
+_2542:
+	db	"GL_LUMINANCE12_ALPHA12_EXT",0
+	align	4
+_2543:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,51,57
+_2544:
+	db	"GL_LUMINANCE16_ALPHA16_EXT",0
+	align	4
+_2545:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,52,48
+_2546:
+	db	"GL_INTENSITY_EXT",0
+	align	4
+_2547:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,52,49
+_2548:
+	db	"GL_INTENSITY4_EXT",0
+	align	4
+_2549:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,52,50
+_2550:
+	db	"GL_INTENSITY8_EXT",0
+	align	4
+_2551:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,52,51
+_2552:
+	db	"GL_INTENSITY12_EXT",0
+	align	4
+_2553:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,52,52
+_2554:
+	db	"GL_INTENSITY16_EXT",0
+	align	4
+_2555:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,52,53
+_2556:
+	db	"GL_RGB2_EXT",0
+	align	4
+_2557:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,52,54
+_2558:
+	db	"GL_RGB4_EXT",0
+	align	4
+_2559:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,52,55
+_2560:
+	db	"GL_RGB5_EXT",0
+	align	4
+_2561:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,52,56
+_2562:
+	db	"GL_RGB8_EXT",0
+	align	4
+_2563:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,52,57
+_2564:
+	db	"GL_RGB10_EXT",0
+	align	4
+_2565:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,53,48
+_2566:
+	db	"GL_RGB12_EXT",0
+	align	4
+_2567:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,53,49
+_2568:
+	db	"GL_RGB16_EXT",0
+	align	4
+_2569:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,53,50
+_2570:
+	db	"GL_RGBA2_EXT",0
+	align	4
+_2571:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,53,51
+_2572:
+	db	"GL_RGBA4_EXT",0
+	align	4
+_2573:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,53,52
+_2574:
+	db	"GL_RGB5_A1_EXT",0
+	align	4
+_2575:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,53,53
+_2576:
+	db	"GL_RGBA8_EXT",0
+	align	4
+_2577:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,53,54
+_2578:
+	db	"GL_RGB10_A2_EXT",0
+	align	4
+_2579:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,53,55
+_2580:
+	db	"GL_RGBA12_EXT",0
+	align	4
+_2581:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,53,56
+_2582:
+	db	"GL_RGBA16_EXT",0
+	align	4
+_2583:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,53,57
+_2584:
+	db	"GL_TEXTURE_RED_SIZE_EXT",0
+	align	4
+_2585:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,54,48
+_2586:
+	db	"GL_TEXTURE_GREEN_SIZE_EXT",0
+	align	4
+_2587:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,54,49
+_2588:
+	db	"GL_TEXTURE_BLUE_SIZE_EXT",0
+	align	4
+_2589:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,54,50
+_2590:
+	db	"GL_TEXTURE_ALPHA_SIZE_EXT",0
+	align	4
+_2591:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,54,51
+_2592:
+	db	"GL_TEXTURE_LUMINANCE_SIZE_EXT",0
+	align	4
+_2593:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,54,52
+_2594:
+	db	"GL_TEXTURE_INTENSITY_SIZE_EXT",0
+	align	4
+_2595:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,54,53
+_2596:
+	db	"GL_REPLACE_EXT",0
+	align	4
+_2597:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,54,54
+_2598:
+	db	"GL_PROXY_TEXTURE_1D_EXT",0
+	align	4
+_2599:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,54,55
+_2600:
+	db	"GL_PROXY_TEXTURE_2D_EXT",0
+	align	4
+_2601:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,54,56
+_2602:
+	db	"GL_PACK_SKIP_IMAGES_EXT",0
+_2603:
+	db	"GL_PACK_IMAGE_HEIGHT_EXT",0
+_2604:
+	db	"GL_UNPACK_SKIP_IMAGES_EXT",0
+_2605:
+	db	"GL_UNPACK_IMAGE_HEIGHT_EXT",0
+_2606:
+	db	"GL_TEXTURE_DEPTH_EXT",0
+_2607:
+	db	"GL_TEXTURE_WRAP_R_EXT",0
+_2608:
+	db	"GL_MAX_3D_TEXTURE_SIZE_EXT",0
+_2609:
+	db	"GL_COMPARE_REF_DEPTH_TO_TEXTURE_EXT",0
+_2610:
+	db	"GL_MAX_ARRAY_TEXTURE_LAYERS_EXT",0
+_2611:
+	db	"GL_TEXTURE_1D_ARRAY_EXT",0
+_2612:
+	db	"GL_PROXY_TEXTURE_1D_ARRAY_EXT",0
+_2613:
+	db	"GL_TEXTURE_2D_ARRAY_EXT",0
+_2614:
+	db	"GL_PROXY_TEXTURE_2D_ARRAY_EXT",0
+_2615:
+	db	"GL_TEXTURE_BINDING_1D_ARRAY_EXT",0
+_2616:
+	db	"GL_TEXTURE_BINDING_2D_ARRAY_EXT",0
+_2617:
+	db	"GL_TEXTURE_BUFFER_EXT",0
+_2618:
+	db	"GL_MAX_TEXTURE_BUFFER_SIZE_EXT",0
+_2619:
+	db	"GL_TEXTURE_BINDING_BUFFER_EXT",0
+_2620:
+	db	"GL_TEXTURE_BUFFER_DATA_STORE_BINDING_EXT",0
+_2621:
+	db	"GL_TEXTURE_BUFFER_FORMAT_EXT",0
+_2622:
+	db	"GL_COMPRESSED_RGB_S3TC_DXT1_EXT",0
+	align	4
+_2623:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,55,55,54
+_2624:
+	db	"GL_COMPRESSED_RGBA_S3TC_DXT1_EXT",0
+	align	4
+_2625:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,55,55,55
+_2626:
+	db	"GL_COMPRESSED_LUMINANCE_LATC1_EXT",0
+	align	4
+_2627:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,57,53,50
+_2628:
+	db	"GL_COMPRESSED_SIGNED_LUMINANCE_LATC1_EXT",0
+	align	4
+_2629:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,57,53,51
+_2630:
+	db	"GL_COMPRESSED_LUMINANCE_ALPHA_LATC2_EXT",0
+	align	4
+_2631:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,57,53,52
+_2632:
+	db	"GL_COMPRESSED_SIGNED_LUMINANCE_ALPHA_LATC2_EXT",0
+	align	4
+_2633:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,57,53,53
+_2634:
+	db	"GL_COMPRESSED_RED_RGTC1_EXT",0
+_2635:
+	db	"GL_COMPRESSED_SIGNED_RED_RGTC1_EXT",0
+_2636:
+	db	"GL_COMPRESSED_RED_GREEN_RGTC2_EXT",0
+_2637:
+	db	"GL_COMPRESSED_SIGNED_RED_GREEN_RGTC2_EXT",0
+_2638:
+	db	"GL_COMPRESSED_RGBA_S3TC_DXT3_EXT",0
+	align	4
+_2639:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,55,55,56
+_2640:
+	db	"GL_COMPRESSED_RGBA_S3TC_DXT5_EXT",0
+	align	4
+_2641:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,55,55,57
+_2642:
+	db	"GL_NORMAL_MAP_EXT",0
+_2643:
+	db	"GL_REFLECTION_MAP_EXT",0
+_2644:
+	db	"GL_TEXTURE_CUBE_MAP_EXT",0
+_2645:
+	db	"GL_TEXTURE_BINDING_CUBE_MAP_EXT",0
+_2646:
+	db	"GL_TEXTURE_CUBE_MAP_POSITIVE_X_EXT",0
+_2647:
+	db	"GL_TEXTURE_CUBE_MAP_NEGATIVE_X_EXT",0
+_2648:
+	db	"GL_TEXTURE_CUBE_MAP_POSITIVE_Y_EXT",0
+_2649:
+	db	"GL_TEXTURE_CUBE_MAP_NEGATIVE_Y_EXT",0
+_2650:
+	db	"GL_TEXTURE_CUBE_MAP_POSITIVE_Z_EXT",0
+_2651:
+	db	"GL_TEXTURE_CUBE_MAP_NEGATIVE_Z_EXT",0
+_2652:
+	db	"GL_PROXY_TEXTURE_CUBE_MAP_EXT",0
+_2653:
+	db	"GL_MAX_CUBE_MAP_TEXTURE_SIZE_EXT",0
+_2654:
+	db	"GL_CLAMP_TO_EDGE_EXT",0
+_2655:
+	db	"GL_TEXTURE_ENV0_EXT",0
+	align	4
+_2656:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	1
+	dw	48
+_2657:
+	db	"GL_ENV_BLEND_EXT",0
+_2658:
+	db	"GL_TEXTURE_ENV_SHIFT_EXT",0
+_2659:
+	db	"GL_ENV_REPLACE_EXT",0
+_2660:
+	db	"GL_ENV_ADD_EXT",0
+_2661:
+	db	"GL_ENV_SUBTRACT_EXT",0
+_2662:
+	db	"GL_TEXTURE_ENV_MODE_ALPHA_EXT",0
+_2663:
+	db	"GL_ENV_REVERSE_SUBTRACT_EXT",0
+_2664:
+	db	"GL_ENV_REVERSE_BLEND_EXT",0
+_2665:
+	db	"GL_ENV_COPY_EXT",0
+_2666:
+	db	"GL_ENV_MODULATE_EXT",0
+_2667:
+	db	"GL_COMBINE_EXT",0
+_2668:
+	db	"GL_COMBINE_RGB_EXT",0
+_2669:
+	db	"GL_COMBINE_ALPHA_EXT",0
+_2670:
+	db	"GL_RGB_SCALE_EXT",0
+_2671:
+	db	"GL_ADD_SIGNED_EXT",0
+_2672:
+	db	"GL_INTERPOLATE_EXT",0
+_2673:
+	db	"GL_CONSTANT_EXT",0
+_2674:
+	db	"GL_PRIMARY_COLOR_EXT",0
+_2675:
+	db	"GL_PREVIOUS_EXT",0
+_2676:
+	db	"GL_SOURCE0_RGB_EXT",0
+_2677:
+	db	"GL_SOURCE1_RGB_EXT",0
+_2678:
+	db	"GL_SOURCE2_RGB_EXT",0
+_2679:
+	db	"GL_SOURCE0_ALPHA_EXT",0
+_2680:
+	db	"GL_SOURCE1_ALPHA_EXT",0
+_2681:
+	db	"GL_SOURCE2_ALPHA_EXT",0
+_2682:
+	db	"GL_OPERAND0_RGB_EXT",0
+_2683:
+	db	"GL_OPERAND1_RGB_EXT",0
+_2684:
+	db	"GL_OPERAND2_RGB_EXT",0
+_2685:
+	db	"GL_OPERAND0_ALPHA_EXT",0
+_2686:
+	db	"GL_OPERAND1_ALPHA_EXT",0
+_2687:
+	db	"GL_OPERAND2_ALPHA_EXT",0
+_2688:
+	db	"GL_DOT3_RGB_EXT",0
+	align	4
+_2689:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,50,52
+_2690:
+	db	"GL_DOT3_RGBA_EXT",0
+	align	4
+_2691:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,50,53
+_2692:
+	db	"GL_TEXTURE_MAX_ANISOTROPY_EXT",0
+	align	4
+_2693:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,52,54
+_2694:
+	db	"GL_MAX_TEXTURE_MAX_ANISOTROPY_EXT",0
+	align	4
+_2695:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,52,55
+_2696:
+	db	"GL_RGBA32UI_EXT",0
+_2697:
+	db	"GL_RGB32UI_EXT",0
+_2698:
+	db	"GL_ALPHA32UI_EXT",0
+	align	4
+_2699:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,49,48
+_2700:
+	db	"GL_INTENSITY32UI_EXT",0
+	align	4
+_2701:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,49,49
+_2702:
+	db	"GL_LUMINANCE32UI_EXT",0
+	align	4
+_2703:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,49,50
+_2704:
+	db	"GL_LUMINANCE_ALPHA32UI_EXT",0
+	align	4
+_2705:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,49,51
+_2706:
+	db	"GL_RGBA16UI_EXT",0
+_2707:
+	db	"GL_RGB16UI_EXT",0
+_2708:
+	db	"GL_ALPHA16UI_EXT",0
+	align	4
+_2709:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,49,54
+_2710:
+	db	"GL_INTENSITY16UI_EXT",0
+	align	4
+_2711:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,49,55
+_2712:
+	db	"GL_LUMINANCE16UI_EXT",0
+	align	4
+_2713:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,49,56
+_2714:
+	db	"GL_LUMINANCE_ALPHA16UI_EXT",0
+	align	4
+_2715:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,49,57
+_2716:
+	db	"GL_RGBA8UI_EXT",0
+_2717:
+	db	"GL_RGB8UI_EXT",0
+_2718:
+	db	"GL_ALPHA8UI_EXT",0
+	align	4
+_2719:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,50,50
+_2720:
+	db	"GL_INTENSITY8UI_EXT",0
+	align	4
+_2721:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,50,51
+_2722:
+	db	"GL_LUMINANCE8UI_EXT",0
+	align	4
+_2723:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,50,52
+_2724:
+	db	"GL_LUMINANCE_ALPHA8UI_EXT",0
+	align	4
+_2725:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,50,53
+_2726:
+	db	"GL_RGBA32I_EXT",0
+_2727:
+	db	"GL_RGB32I_EXT",0
+_2728:
+	db	"GL_ALPHA32I_EXT",0
+	align	4
+_2729:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,50,56
+_2730:
+	db	"GL_INTENSITY32I_EXT",0
+	align	4
+_2731:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,50,57
+_2732:
+	db	"GL_LUMINANCE32I_EXT",0
+	align	4
+_2733:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,51,48
+_2734:
+	db	"GL_LUMINANCE_ALPHA32I_EXT",0
+	align	4
+_2735:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,51,49
+_2736:
+	db	"GL_RGBA16I_EXT",0
+_2737:
+	db	"GL_RGB16I_EXT",0
+_2738:
+	db	"GL_ALPHA16I_EXT",0
+	align	4
+_2739:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,51,52
+_2740:
+	db	"GL_INTENSITY16I_EXT",0
+	align	4
+_2741:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,51,53
+_2742:
+	db	"GL_LUMINANCE16I_EXT",0
+	align	4
+_2743:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,51,54
+_2744:
+	db	"GL_LUMINANCE_ALPHA16I_EXT",0
+	align	4
+_2745:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,51,55
+_2746:
+	db	"GL_RGBA8I_EXT",0
+_2747:
+	db	"GL_RGB8I_EXT",0
+_2748:
+	db	"GL_ALPHA8I_EXT",0
+	align	4
+_2749:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,52,48
+_2750:
+	db	"GL_INTENSITY8I_EXT",0
+	align	4
+_2751:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,52,49
+_2752:
+	db	"GL_LUMINANCE8I_EXT",0
+	align	4
+_2753:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,52,50
+_2754:
+	db	"GL_LUMINANCE_ALPHA8I_EXT",0
+	align	4
+_2755:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,52,51
+_2756:
+	db	"GL_RED_INTEGER_EXT",0
+_2757:
+	db	"GL_GREEN_INTEGER_EXT",0
+_2758:
+	db	"GL_BLUE_INTEGER_EXT",0
+_2759:
+	db	"GL_ALPHA_INTEGER_EXT",0
+_2760:
+	db	"GL_RGB_INTEGER_EXT",0
+_2761:
+	db	"GL_RGBA_INTEGER_EXT",0
+_2762:
+	db	"GL_BGR_INTEGER_EXT",0
+_2763:
+	db	"GL_BGRA_INTEGER_EXT",0
+_2764:
+	db	"GL_LUMINANCE_INTEGER_EXT",0
+	align	4
+_2765:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,53,50
+_2766:
+	db	"GL_LUMINANCE_ALPHA_INTEGER_EXT",0
+	align	4
+_2767:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,53,51
+_2768:
+	db	"GL_RGBA_INTEGER_MODE_EXT",0
+	align	4
+_2769:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,53,52
+_2770:
+	db	"GL_MAX_TEXTURE_LOD_BIAS_EXT",0
+_2771:
+	db	"GL_TEXTURE_FILTER_CONTROL_EXT",0
+_2772:
+	db	"GL_TEXTURE_LOD_BIAS_EXT",0
+_2773:
+	db	"GL_MIRROR_CLAMP_EXT",0
+_2774:
+	db	"GL_MIRROR_CLAMP_TO_EDGE_EXT",0
+_2775:
+	db	"GL_MIRROR_CLAMP_TO_BORDER_EXT",0
+	align	4
+_2776:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,57,48
+_2777:
+	db	"GL_TEXTURE_PRIORITY_EXT",0
+	align	4
+_2778:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,55,48
+_2779:
+	db	"GL_TEXTURE_RESIDENT_EXT",0
+	align	4
+_2780:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,55,49
+_2781:
+	db	"GL_TEXTURE_1D_BINDING_EXT",0
+	align	4
+_2782:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,55,50
+_2783:
+	db	"GL_TEXTURE_2D_BINDING_EXT",0
+	align	4
+_2784:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,55,51
+_2785:
+	db	"GL_TEXTURE_3D_BINDING_EXT",0
+_2786:
+	db	"GL_PERTURB_EXT",0
+	align	4
+_2787:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,50,50
+_2788:
+	db	"GL_TEXTURE_NORMAL_EXT",0
+	align	4
+_2789:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,50,51
+_2790:
+	db	"GL_TEXTURE_RECTANGLE_EXT",0
+_2791:
+	db	"GL_TEXTURE_BINDING_RECTANGLE_EXT",0
+_2792:
+	db	"GL_PROXY_TEXTURE_RECTANGLE_EXT",0
+_2793:
+	db	"GL_MAX_RECTANGLE_TEXTURE_SIZE_EXT",0
+_2794:
+	db	"GL_SRGB_EXT",0
+_2795:
+	db	"GL_SRGB8_EXT",0
+_2796:
+	db	"GL_SRGB_ALPHA_EXT",0
+_2797:
+	db	"GL_SRGB8_ALPHA8_EXT",0
+_2798:
+	db	"GL_SLUMINANCE_ALPHA_EXT",0
+_2799:
+	db	"GL_SLUMINANCE8_ALPHA8_EXT",0
+_2800:
+	db	"GL_SLUMINANCE_EXT",0
+_2801:
+	db	"GL_SLUMINANCE8_EXT",0
+_2802:
+	db	"GL_COMPRESSED_SRGB_EXT",0
+_2803:
+	db	"GL_COMPRESSED_SRGB_ALPHA_EXT",0
+_2804:
+	db	"GL_COMPRESSED_SLUMINANCE_EXT",0
+_2805:
+	db	"GL_COMPRESSED_SLUMINANCE_ALPHA_EXT",0
+_2806:
+	db	"GL_COMPRESSED_SRGB_S3TC_DXT1_EXT",0
+	align	4
+_2807:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,57,49,54
+_2808:
+	db	"GL_COMPRESSED_SRGB_ALPHA_S3TC_DXT1_EXT",0
+	align	4
+_2809:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,57,49,55
+_2810:
+	db	"GL_COMPRESSED_SRGB_ALPHA_S3TC_DXT3_EXT",0
+	align	4
+_2811:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,57,49,56
+_2812:
+	db	"GL_COMPRESSED_SRGB_ALPHA_S3TC_DXT5_EXT",0
+	align	4
+_2813:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,57,49,57
+_2814:
+	db	"GL_RGB9_E5_EXT",0
+_2815:
+	db	"GL_UNSIGNED_INT_5_9_9_9_REV_EXT",0
+_2816:
+	db	"GL_TEXTURE_SHARED_SIZE_EXT",0
+_2817:
+	db	"GL_TEXTURE_SWIZZLE_R_EXT",0
+	align	4
+_2818:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,52,49,56
+_2819:
+	db	"GL_TEXTURE_SWIZZLE_G_EXT",0
+	align	4
+_2820:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,52,49,57
+_2821:
+	db	"GL_TEXTURE_SWIZZLE_B_EXT",0
+	align	4
+_2822:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,52,50,48
+_2823:
+	db	"GL_TEXTURE_SWIZZLE_A_EXT",0
+	align	4
+_2824:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,52,50,49
+_2825:
+	db	"GL_TEXTURE_SWIZZLE_RGBA_EXT",0
+	align	4
+_2826:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,52,50,50
+_2827:
+	db	"GL_TIME_ELAPSED_EXT",0
+	align	4
+_2828:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,48,55
+_2829:
+	db	"GL_TRANSFORM_FEEDBACK_VARYING_MAX_LENGTH_EXT",0
+_2830:
+	db	"GL_TRANSFORM_FEEDBACK_BUFFER_MODE_EXT",0
+_2831:
+	db	"GL_MAX_TRANSFORM_FEEDBACK_SEPARATE_COMPONENTS_EXT",0
+_2832:
+	db	"GL_TRANSFORM_FEEDBACK_VARYINGS_EXT",0
+_2833:
+	db	"GL_TRANSFORM_FEEDBACK_BUFFER_START_EXT",0
+_2834:
+	db	"GL_TRANSFORM_FEEDBACK_BUFFER_SIZE_EXT",0
+_2835:
+	db	"GL_PRIMITIVES_GENERATED_EXT",0
+_2836:
+	db	"GL_TRANSFORM_FEEDBACK_PRIMITIVES_WRITTEN_EXT",0
+_2837:
+	db	"GL_RASTERIZER_DISCARD_EXT",0
+_2838:
+	db	"GL_MAX_TRANSFORM_FEEDBACK_INTERLEAVED_COMPONENTS_EXT",0
+_2839:
+	db	"GL_MAX_TRANSFORM_FEEDBACK_SEPARATE_ATTRIBS_EXT",0
+_2840:
+	db	"GL_INTERLEAVED_ATTRIBS_EXT",0
+_2841:
+	db	"GL_SEPARATE_ATTRIBS_EXT",0
+_2842:
+	db	"GL_TRANSFORM_FEEDBACK_BUFFER_EXT",0
+_2843:
+	db	"GL_TRANSFORM_FEEDBACK_BUFFER_BINDING_EXT",0
+_2844:
+	db	"GL_DOUBLE_EXT",0
+	align	4
+_2845:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	4
+	dw	53,49,51,48
+_2846:
+	db	"GL_VERTEX_ARRAY_EXT",0
+	align	4
+_2847:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,56,52
+_2848:
+	db	"GL_NORMAL_ARRAY_EXT",0
+	align	4
+_2849:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,56,53
+_2850:
+	db	"GL_COLOR_ARRAY_EXT",0
+	align	4
+_2851:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,56,54
+_2852:
+	db	"GL_INDEX_ARRAY_EXT",0
+	align	4
+_2853:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,56,55
+_2854:
+	db	"GL_TEXTURE_COORD_ARRAY_EXT",0
+	align	4
+_2855:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,56,56
+_2856:
+	db	"GL_EDGE_FLAG_ARRAY_EXT",0
+	align	4
+_2857:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,56,57
+_2858:
+	db	"GL_VERTEX_ARRAY_SIZE_EXT",0
+	align	4
+_2859:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,57,48
+_2860:
+	db	"GL_VERTEX_ARRAY_TYPE_EXT",0
+	align	4
+_2861:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,57,49
+_2862:
+	db	"GL_VERTEX_ARRAY_STRIDE_EXT",0
+	align	4
+_2863:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,57,50
+_2864:
+	db	"GL_VERTEX_ARRAY_COUNT_EXT",0
+	align	4
+_2865:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,57,51
+_2866:
+	db	"GL_NORMAL_ARRAY_TYPE_EXT",0
+	align	4
+_2867:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,57,52
+_2868:
+	db	"GL_NORMAL_ARRAY_STRIDE_EXT",0
+	align	4
+_2869:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,57,53
+_2870:
+	db	"GL_NORMAL_ARRAY_COUNT_EXT",0
+	align	4
+_2871:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,57,54
+_2872:
+	db	"GL_COLOR_ARRAY_SIZE_EXT",0
+	align	4
+_2873:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,57,55
+_2874:
+	db	"GL_COLOR_ARRAY_TYPE_EXT",0
+	align	4
+_2875:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,57,56
+_2876:
+	db	"GL_COLOR_ARRAY_STRIDE_EXT",0
+	align	4
+_2877:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,56,57,57
+_2878:
+	db	"GL_COLOR_ARRAY_COUNT_EXT",0
+	align	4
+_2879:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,48,48
+_2880:
+	db	"GL_INDEX_ARRAY_TYPE_EXT",0
+	align	4
+_2881:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,48,49
+_2882:
+	db	"GL_INDEX_ARRAY_STRIDE_EXT",0
+	align	4
+_2883:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,48,50
+_2884:
+	db	"GL_INDEX_ARRAY_COUNT_EXT",0
+	align	4
+_2885:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,48,51
+_2886:
+	db	"GL_TEXTURE_COORD_ARRAY_SIZE_EXT",0
+	align	4
+_2887:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,48,52
+_2888:
+	db	"GL_TEXTURE_COORD_ARRAY_TYPE_EXT",0
+	align	4
+_2889:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,48,53
+_2890:
+	db	"GL_TEXTURE_COORD_ARRAY_STRIDE_EXT",0
+	align	4
+_2891:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,48,54
+_2892:
+	db	"GL_TEXTURE_COORD_ARRAY_COUNT_EXT",0
+	align	4
+_2893:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,48,55
+_2894:
+	db	"GL_EDGE_FLAG_ARRAY_STRIDE_EXT",0
+	align	4
+_2895:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,48,56
+_2896:
+	db	"GL_EDGE_FLAG_ARRAY_COUNT_EXT",0
+	align	4
+_2897:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,48,57
+_2898:
+	db	"GL_VERTEX_ARRAY_POINTER_EXT",0
+	align	4
+_2899:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,49,48
+_2900:
+	db	"GL_NORMAL_ARRAY_POINTER_EXT",0
+	align	4
+_2901:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,49,49
+_2902:
+	db	"GL_COLOR_ARRAY_POINTER_EXT",0
+	align	4
+_2903:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,49,50
+_2904:
+	db	"GL_INDEX_ARRAY_POINTER_EXT",0
+	align	4
+_2905:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,49,51
+_2906:
+	db	"GL_TEXTURE_COORD_ARRAY_POINTER_EXT",0
+	align	4
+_2907:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,49,52
+_2908:
+	db	"GL_EDGE_FLAG_ARRAY_POINTER_EXT",0
+	align	4
+_2909:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,49,53
+_2910:
+	db	"GL_VERTEX_SHADER_EXT",0
+	align	4
+_2911:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,56,56
+_2912:
+	db	"GL_VERTEX_SHADER_BINDING_EXT",0
+	align	4
+_2913:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,56,57
+_2914:
+	db	"GL_OP_INDEX_EXT",0
+	align	4
+_2915:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,57,48
+_2916:
+	db	"GL_OP_NEGATE_EXT",0
+	align	4
+_2917:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,57,49
+_2918:
+	db	"GL_OP_DOT3_EXT",0
+	align	4
+_2919:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,57,50
+_2920:
+	db	"GL_OP_DOT4_EXT",0
+	align	4
+_2921:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,57,51
+_2922:
+	db	"GL_OP_MUL_EXT",0
+	align	4
+_2923:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,57,52
+_2924:
+	db	"GL_OP_ADD_EXT",0
+	align	4
+_2925:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,57,53
+_2926:
+	db	"GL_OP_MADD_EXT",0
+	align	4
+_2927:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,57,54
+_2928:
+	db	"GL_OP_FRAC_EXT",0
+	align	4
+_2929:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,57,55
+_2930:
+	db	"GL_OP_MAX_EXT",0
+	align	4
+_2931:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,57,56
+_2932:
+	db	"GL_OP_MIN_EXT",0
+	align	4
+_2933:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,57,57
+_2934:
+	db	"GL_OP_SET_GE_EXT",0
+	align	4
+_2935:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,48,48
+_2936:
+	db	"GL_OP_SET_LT_EXT",0
+	align	4
+_2937:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,48,49
+_2938:
+	db	"GL_OP_CLAMP_EXT",0
+	align	4
+_2939:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,48,50
+_2940:
+	db	"GL_OP_FLOOR_EXT",0
+	align	4
+_2941:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,48,51
+_2942:
+	db	"GL_OP_ROUND_EXT",0
+	align	4
+_2943:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,48,52
+_2944:
+	db	"GL_OP_EXP_BASE_2_EXT",0
+	align	4
+_2945:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,48,53
+_2946:
+	db	"GL_OP_LOG_BASE_2_EXT",0
+	align	4
+_2947:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,48,54
+_2948:
+	db	"GL_OP_POWER_EXT",0
+	align	4
+_2949:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,48,55
+_2950:
+	db	"GL_OP_RECIP_EXT",0
+	align	4
+_2951:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,48,56
+_2952:
+	db	"GL_OP_RECIP_SQRT_EXT",0
+	align	4
+_2953:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,48,57
+_2954:
+	db	"GL_OP_SUB_EXT",0
+	align	4
+_2955:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,49,48
+_2956:
+	db	"GL_OP_CROSS_PRODUCT_EXT",0
+	align	4
+_2957:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,49,49
+_2958:
+	db	"GL_OP_MULTIPLY_MATRIX_EXT",0
+	align	4
+_2959:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,49,50
+_2960:
+	db	"GL_OP_MOV_EXT",0
+	align	4
+_2961:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,49,51
+_2962:
+	db	"GL_OUTPUT_VERTEX_EXT",0
+	align	4
+_2963:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,49,52
+_2964:
+	db	"GL_OUTPUT_COLOR0_EXT",0
+	align	4
+_2965:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,49,53
+_2966:
+	db	"GL_OUTPUT_COLOR1_EXT",0
+	align	4
+_2967:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,49,54
+_2968:
+	db	"GL_OUTPUT_TEXTURE_COORD0_EXT",0
+	align	4
+_2969:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,49,55
+_2970:
+	db	"GL_OUTPUT_TEXTURE_COORD1_EXT",0
+	align	4
+_2971:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,49,56
+_2972:
+	db	"GL_OUTPUT_TEXTURE_COORD2_EXT",0
+	align	4
+_2973:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,49,57
+_2974:
+	db	"GL_OUTPUT_TEXTURE_COORD3_EXT",0
+	align	4
+_2975:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,50,48
+_2976:
+	db	"GL_OUTPUT_TEXTURE_COORD4_EXT",0
+	align	4
+_2977:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,50,49
+_2978:
+	db	"GL_OUTPUT_TEXTURE_COORD5_EXT",0
+	align	4
+_2979:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,50,50
+_2980:
+	db	"GL_OUTPUT_TEXTURE_COORD6_EXT",0
+	align	4
+_2981:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,50,51
+_2982:
+	db	"GL_OUTPUT_TEXTURE_COORD7_EXT",0
+	align	4
+_2983:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,50,52
+_2984:
+	db	"GL_OUTPUT_TEXTURE_COORD8_EXT",0
+	align	4
+_2985:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,50,53
+_2986:
+	db	"GL_OUTPUT_TEXTURE_COORD9_EXT",0
+	align	4
+_2987:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,50,54
+_2988:
+	db	"GL_OUTPUT_TEXTURE_COORD10_EXT",0
+	align	4
+_2989:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,50,55
+_2990:
+	db	"GL_OUTPUT_TEXTURE_COORD11_EXT",0
+	align	4
+_2991:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,50,56
+_2992:
+	db	"GL_OUTPUT_TEXTURE_COORD12_EXT",0
+	align	4
+_2993:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,50,57
+_2994:
+	db	"GL_OUTPUT_TEXTURE_COORD13_EXT",0
+	align	4
+_2995:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,51,48
+_2996:
+	db	"GL_OUTPUT_TEXTURE_COORD14_EXT",0
+	align	4
+_2997:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,51,49
+_2998:
+	db	"GL_OUTPUT_TEXTURE_COORD15_EXT",0
+	align	4
+_2999:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,51,50
+_3000:
+	db	"GL_OUTPUT_TEXTURE_COORD16_EXT",0
+	align	4
+_3001:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,51,51
+_3002:
+	db	"GL_OUTPUT_TEXTURE_COORD17_EXT",0
+	align	4
+_3003:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,51,52
+_3004:
+	db	"GL_OUTPUT_TEXTURE_COORD18_EXT",0
+	align	4
+_3005:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,51,53
+_3006:
+	db	"GL_OUTPUT_TEXTURE_COORD19_EXT",0
+	align	4
+_3007:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,51,54
+_3008:
+	db	"GL_OUTPUT_TEXTURE_COORD20_EXT",0
+	align	4
+_3009:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,51,55
+_3010:
+	db	"GL_OUTPUT_TEXTURE_COORD21_EXT",0
+	align	4
+_3011:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,51,56
+_3012:
+	db	"GL_OUTPUT_TEXTURE_COORD22_EXT",0
+	align	4
+_3013:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,51,57
+_3014:
+	db	"GL_OUTPUT_TEXTURE_COORD23_EXT",0
+	align	4
+_3015:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,52,48
+_3016:
+	db	"GL_OUTPUT_TEXTURE_COORD24_EXT",0
+	align	4
+_3017:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,52,49
+_3018:
+	db	"GL_OUTPUT_TEXTURE_COORD25_EXT",0
+	align	4
+_3019:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,52,50
+_3020:
+	db	"GL_OUTPUT_TEXTURE_COORD26_EXT",0
+	align	4
+_3021:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,52,51
+_3022:
+	db	"GL_OUTPUT_TEXTURE_COORD27_EXT",0
+	align	4
+_3023:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,52,52
+_3024:
+	db	"GL_OUTPUT_TEXTURE_COORD28_EXT",0
+	align	4
+_3025:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,52,53
+_3026:
+	db	"GL_OUTPUT_TEXTURE_COORD29_EXT",0
+	align	4
+_3027:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,52,54
+_3028:
+	db	"GL_OUTPUT_TEXTURE_COORD30_EXT",0
+	align	4
+_3029:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,52,55
+_3030:
+	db	"GL_OUTPUT_TEXTURE_COORD31_EXT",0
+	align	4
+_3031:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,52,56
+_3032:
+	db	"GL_OUTPUT_FOG_EXT",0
+	align	4
+_3033:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,52,57
+_3034:
+	db	"GL_SCALAR_EXT",0
+	align	4
+_3035:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,53,48
+_3036:
+	db	"GL_VECTOR_EXT",0
+	align	4
+_3037:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,53,49
+_3038:
+	db	"GL_MATRIX_EXT",0
+	align	4
+_3039:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,53,50
+_3040:
+	db	"GL_VARIANT_EXT",0
+	align	4
+_3041:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,53,51
+_3042:
+	db	"GL_INVARIANT_EXT",0
+	align	4
+_3043:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,53,52
+_3044:
+	db	"GL_LOCAL_CONSTANT_EXT",0
+	align	4
+_3045:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,53,53
+_3046:
+	db	"GL_LOCAL_EXT",0
+	align	4
+_3047:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,53,54
+_3048:
+	db	"GL_MAX_VERTEX_SHADER_INSTRUCTIONS_EXT",0
+	align	4
+_3049:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,53,55
+_3050:
+	db	"GL_MAX_VERTEX_SHADER_VARIANTS_EXT",0
+	align	4
+_3051:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,53,56
+_3052:
+	db	"GL_MAX_VERTEX_SHADER_INVARIANTS_EXT",0
+	align	4
+_3053:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,53,57
+_3054:
+	db	"GL_MAX_VERTEX_SHADER_LOCAL_CONSTANTS_EXT",0
+	align	4
+_3055:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,54,48
+_3056:
+	db	"GL_MAX_VERTEX_SHADER_LOCALS_EXT",0
+	align	4
+_3057:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,54,49
+_3058:
+	db	"GL_MAX_OPTIMIZED_VERTEX_SHADER_INSTRUCTIONS_EXT",0
+	align	4
+_3059:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,54,50
+_3060:
+	db	"GL_MAX_OPTIMIZED_VERTEX_SHADER_VARIANTS_EXT",0
+	align	4
+_3061:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,54,51
+_3062:
+	db	"GL_MAX_OPTIMIZED_VERTEX_SHADER_INVARIANTS_EXT",0
+	align	4
+_3063:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,54,52
+_3064:
+	db	"GL_MAX_OPTIMIZED_VERTEX_SHADER_LOCAL_CONSTANTS_EXT",0
+	align	4
+_3065:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,54,53
+_3066:
+	db	"GL_MAX_OPTIMIZED_VERTEX_SHADER_LOCALS_EXT",0
+	align	4
+_3067:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,54,54
+_3068:
+	db	"GL_VERTEX_SHADER_INSTRUCTIONS_EXT",0
+	align	4
+_3069:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,54,55
+_3070:
+	db	"GL_VERTEX_SHADER_VARIANTS_EXT",0
+	align	4
+_3071:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,54,56
+_3072:
+	db	"GL_VERTEX_SHADER_INVARIANTS_EXT",0
+	align	4
+_3073:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,54,57
+_3074:
+	db	"GL_VERTEX_SHADER_LOCAL_CONSTANTS_EXT",0
+	align	4
+_3075:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,55,48
+_3076:
+	db	"GL_VERTEX_SHADER_LOCALS_EXT",0
+	align	4
+_3077:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,55,49
+_3078:
+	db	"GL_VERTEX_SHADER_OPTIMIZED_EXT",0
+	align	4
+_3079:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,55,50
+_3080:
+	db	"GL_X_EXT",0
+	align	4
+_3081:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,55,51
+_3082:
+	db	"GL_Y_EXT",0
+	align	4
+_3083:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,55,52
+_3084:
+	db	"GL_Z_EXT",0
+	align	4
+_3085:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,55,53
+_3086:
+	db	"GL_W_EXT",0
+	align	4
+_3087:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,55,54
+_3088:
+	db	"GL_NEGATIVE_X_EXT",0
+	align	4
+_3089:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,55,55
+_3090:
+	db	"GL_NEGATIVE_Y_EXT",0
+	align	4
+_3091:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,55,56
+_3092:
+	db	"GL_NEGATIVE_Z_EXT",0
+	align	4
+_3093:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,55,57
+_3094:
+	db	"GL_NEGATIVE_W_EXT",0
+	align	4
+_3095:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,56,48
+_3096:
+	db	"GL_ZERO_EXT",0
+	align	4
+_3097:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,56,49
+_3098:
+	db	"GL_ONE_EXT",0
+	align	4
+_3099:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,56,50
+_3100:
+	db	"GL_NEGATIVE_ONE_EXT",0
+	align	4
+_3101:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,56,51
+_3102:
+	db	"GL_NORMALIZED_RANGE_EXT",0
+	align	4
+_3103:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,56,52
+_3104:
+	db	"GL_FULL_RANGE_EXT",0
+	align	4
+_3105:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,56,53
+_3106:
+	db	"GL_CURRENT_VERTEX_EXT",0
+	align	4
+_3107:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,56,54
+_3108:
+	db	"GL_MVP_MATRIX_EXT",0
+	align	4
+_3109:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,56,55
+_3110:
+	db	"GL_VARIANT_VALUE_EXT",0
+	align	4
+_3111:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,56,56
+_3112:
+	db	"GL_VARIANT_DATATYPE_EXT",0
+	align	4
+_3113:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,56,57
+_3114:
+	db	"GL_VARIANT_ARRAY_STRIDE_EXT",0
+	align	4
+_3115:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,57,48
+_3116:
+	db	"GL_VARIANT_ARRAY_TYPE_EXT",0
+	align	4
+_3117:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,57,49
+_3118:
+	db	"GL_VARIANT_ARRAY_EXT",0
+	align	4
+_3119:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,57,50
+_3120:
+	db	"GL_VARIANT_ARRAY_POINTER_EXT",0
+	align	4
+_3121:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,57,51
+_3122:
+	db	"GL_INVARIANT_VALUE_EXT",0
+	align	4
+_3123:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,57,52
+_3124:
+	db	"GL_INVARIANT_DATATYPE_EXT",0
+	align	4
+_3125:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,57,53
+_3126:
+	db	"GL_LOCAL_CONSTANT_VALUE_EXT",0
+	align	4
+_3127:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,57,54
+_3128:
+	db	"GL_LOCAL_CONSTANT_DATATYPE_EXT",0
+	align	4
+_3129:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,55,57,55
+_3130:
+	db	"GL_MODELVIEW0_STACK_DEPTH_EXT",0
+	align	4
+_3131:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	4
+	dw	50,57,55,57
+_3132:
+	db	"GL_MODELVIEW0_MATRIX_EXT",0
+	align	4
+_3133:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	4
+	dw	50,57,56,50
+_3134:
+	db	"GL_MODELVIEW0_EXT",0
+_3135:
+	db	"GL_MODELVIEW1_STACK_DEPTH_EXT",0
+	align	4
+_3136:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,53,48
+_3137:
+	db	"GL_MODELVIEW1_MATRIX_EXT",0
+	align	4
+_3138:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,53,52
+_3139:
+	db	"GL_VERTEX_WEIGHTING_EXT",0
+	align	4
+_3140:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,53,55
+_3141:
+	db	"GL_MODELVIEW1_EXT",0
+_3142:
+	db	"GL_CURRENT_VERTEX_WEIGHT_EXT",0
+	align	4
+_3143:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,53,57
+_3144:
+	db	"GL_VERTEX_WEIGHT_ARRAY_EXT",0
+	align	4
+_3145:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,54,48
+_3146:
+	db	"GL_VERTEX_WEIGHT_ARRAY_SIZE_EXT",0
+	align	4
+_3147:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,54,49
+_3148:
+	db	"GL_VERTEX_WEIGHT_ARRAY_TYPE_EXT",0
+	align	4
+_3149:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,54,50
+_3150:
+	db	"GL_VERTEX_WEIGHT_ARRAY_STRIDE_EXT",0
+	align	4
+_3151:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,54,51
+_3152:
+	db	"GL_VERTEX_WEIGHT_ARRAY_POINTER_EXT",0
+	align	4
+_3153:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,54,52
+_3154:
+	db	"GL_OCCLUSION_TEST_HP",0
+	align	4
+_3155:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,49,50,53
+_3156:
+	db	"GL_OCCLUSION_TEST_RESULT_HP",0
+	align	4
+_3157:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,49,50,54
+_3158:
+	db	"GL_CULL_VERTEX_IBM",0
+	align	4
+_3159:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	6
+	dw	49,48,51,48,53,48
+_3160:
+	db	"GL_RASTER_POSITION_UNCLIPPED_IBM",0
+	align	4
+_3161:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	6
+	dw	49,48,51,48,49,48
+_3162:
+	db	"GL_ALL_STATIC_DATA_IBM",0
+	align	4
+_3163:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	6
+	dw	49,48,51,48,54,48
+_3164:
+	db	"GL_STATIC_VERTEX_ARRAY_IBM",0
+	align	4
+_3165:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	6
+	dw	49,48,51,48,54,49
+_3166:
+	db	"GL_MIRRORED_REPEAT_IBM",0
+_3167:
+	db	"GL_VERTEX_ARRAY_LIST_IBM",0
+	align	4
+_3168:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	6
+	dw	49,48,51,48,55,48
+_3169:
+	db	"GL_NORMAL_ARRAY_LIST_IBM",0
+	align	4
+_3170:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	6
+	dw	49,48,51,48,55,49
+_3171:
+	db	"GL_COLOR_ARRAY_LIST_IBM",0
+	align	4
+_3172:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	6
+	dw	49,48,51,48,55,50
+_3173:
+	db	"GL_INDEX_ARRAY_LIST_IBM",0
+	align	4
+_3174:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	6
+	dw	49,48,51,48,55,51
+_3175:
+	db	"GL_TEXTURE_COORD_ARRAY_LIST_IBM",0
+	align	4
+_3176:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	6
+	dw	49,48,51,48,55,52
+_3177:
+	db	"GL_EDGE_FLAG_ARRAY_LIST_IBM",0
+	align	4
+_3178:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	6
+	dw	49,48,51,48,55,53
+_3179:
+	db	"GL_FOG_COORDINATE_ARRAY_LIST_IBM",0
+	align	4
+_3180:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	6
+	dw	49,48,51,48,55,54
+_3181:
+	db	"GL_SECONDARY_COLOR_ARRAY_LIST_IBM",0
+	align	4
+_3182:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	6
+	dw	49,48,51,48,55,55
+_3183:
+	db	"GL_VERTEX_ARRAY_LIST_STRIDE_IBM",0
+	align	4
+_3184:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	6
+	dw	49,48,51,48,56,48
+_3185:
+	db	"GL_NORMAL_ARRAY_LIST_STRIDE_IBM",0
+	align	4
+_3186:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	6
+	dw	49,48,51,48,56,49
+_3187:
+	db	"GL_COLOR_ARRAY_LIST_STRIDE_IBM",0
+	align	4
+_3188:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	6
+	dw	49,48,51,48,56,50
+_3189:
+	db	"GL_INDEX_ARRAY_LIST_STRIDE_IBM",0
+	align	4
+_3190:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	6
+	dw	49,48,51,48,56,51
+_3191:
+	db	"GL_TEXTURE_COORD_ARRAY_LIST_STRIDE_IBM",0
+	align	4
+_3192:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	6
+	dw	49,48,51,48,56,52
+_3193:
+	db	"GL_EDGE_FLAG_ARRAY_LIST_STRIDE_IBM",0
+	align	4
+_3194:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	6
+	dw	49,48,51,48,56,53
+_3195:
+	db	"GL_FOG_COORDINATE_ARRAY_LIST_STRIDE_IBM",0
+	align	4
+_3196:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	6
+	dw	49,48,51,48,56,54
+_3197:
+	db	"GL_SECONDARY_COLOR_ARRAY_LIST_STRIDE_IBM",0
+	align	4
+_3198:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	6
+	dw	49,48,51,48,56,55
+_3199:
+	db	"GL_RED_MIN_CLAMP_INGR",0
+	align	4
+_3200:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,52,52
+_3201:
+	db	"GL_GREEN_MIN_CLAMP_INGR",0
+	align	4
+_3202:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,52,53
+_3203:
+	db	"GL_BLUE_MIN_CLAMP_INGR",0
+	align	4
+_3204:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,52,54
+_3205:
+	db	"GL_ALPHA_MIN_CLAMP_INGR",0
+	align	4
+_3206:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,52,55
+_3207:
+	db	"GL_RED_MAX_CLAMP_INGR",0
+	align	4
+_3208:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,52,56
+_3209:
+	db	"GL_GREEN_MAX_CLAMP_INGR",0
+	align	4
+_3210:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,52,57
+_3211:
+	db	"GL_BLUE_MAX_CLAMP_INGR",0
+	align	4
+_3212:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,53,48
+_3213:
+	db	"GL_ALPHA_MAX_CLAMP_INGR",0
+	align	4
+_3214:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,53,49
+_3215:
+	db	"GL_INTERLACE_READ_INGR",0
+	align	4
+_3216:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,53,50
+_3217:
+	db	"GL_PARALLEL_ARRAYS_INTEL",0
+	align	4
+_3218:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,55,56,48
+_3219:
+	db	"GL_VERTEX_ARRAY_PARALLEL_POINTERS_INTEL",0
+	align	4
+_3220:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,55,56,49
+_3221:
+	db	"GL_NORMAL_ARRAY_PARALLEL_POINTERS_INTEL",0
+	align	4
+_3222:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,55,56,50
+_3223:
+	db	"GL_COLOR_ARRAY_PARALLEL_POINTERS_INTEL",0
+	align	4
+_3224:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,55,56,51
+_3225:
+	db	"GL_TEXTURE_COORD_ARRAY_PARALLEL_POINTERS_INTEL",0
+	align	4
+_3226:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,55,56,52
+_3227:
+	db	"GL_KTX_FRONT_REGION",0
+_3228:
+	db	"GL_KTX_BACK_REGION",0
+_3229:
+	db	"GL_KTX_Z_REGION",0
+_3230:
+	db	"GL_KTX_STENCIL_REGION",0
+	align	4
+_3231:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	1
+	dw	51
+_3232:
+	db	"GL_TEXTURE_1D_STACK_MESAX",0
+	align	4
+_3233:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,52,57
+_3234:
+	db	"GL_TEXTURE_2D_STACK_MESAX",0
+	align	4
+_3235:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,53,48
+_3236:
+	db	"GL_PROXY_TEXTURE_1D_STACK_MESAX",0
+	align	4
+_3237:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,53,49
+_3238:
+	db	"GL_PROXY_TEXTURE_2D_STACK_MESAX",0
+	align	4
+_3239:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,53,50
+_3240:
+	db	"GL_TEXTURE_1D_STACK_BINDING_MESAX",0
+	align	4
+_3241:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,53,51
+_3242:
+	db	"GL_TEXTURE_2D_STACK_BINDING_MESAX",0
+	align	4
+_3243:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,53,52
+_3244:
+	db	"GL_PACK_INVERT_MESA",0
+	align	4
+_3245:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,52,56
+_3246:
+	db	"GL_UNSIGNED_SHORT_8_8_MESA",0
+_3247:
+	db	"GL_UNSIGNED_SHORT_8_8_REV_MESA",0
+_3248:
+	db	"GL_YCBCR_MESA",0
+	align	4
+_3249:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,54,52,55
+_3250:
+	db	"GL_QUERY_WAIT_NV",0
+_3251:
+	db	"GL_QUERY_NO_WAIT_NV",0
+_3252:
+	db	"GL_QUERY_BY_REGION_WAIT_NV",0
+_3253:
+	db	"GL_QUERY_BY_REGION_NO_WAIT_NV",0
+_3254:
+	db	"GL_DEPTH_STENCIL_TO_RGBA_NV",0
+	align	4
+_3255:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,50,54
+_3256:
+	db	"GL_DEPTH_STENCIL_TO_BGRA_NV",0
+	align	4
+_3257:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,50,55
+_3258:
+	db	"GL_DEPTH_COMPONENT32F_NV",0
+	align	4
+_3259:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,54,55
+_3260:
+	db	"GL_DEPTH32F_STENCIL8_NV",0
+	align	4
+_3261:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,54,56
+_3262:
+	db	"GL_FLOAT_32_UNSIGNED_INT_24_8_REV_NV",0
+_3263:
+	db	"GL_DEPTH_BUFFER_FLOAT_MODE_NV",0
+	align	4
+_3264:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,55,49
+_3265:
+	db	"GL_DEPTH_CLAMP_NV",0
+	align	4
+_3266:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,56,51
+_3267:
+	db	"GL_SAMPLE_COUNT_BITS_NV",0
+_3268:
+	db	"GL_CURRENT_SAMPLE_COUNT_QUERY_NV",0
+_3269:
+	db	"GL_QUERY_RESULT_NV",0
+_3270:
+	db	"GL_QUERY_RESULT_AVAILABLE_NV",0
+_3271:
+	db	"GL_SAMPLE_COUNT_NV",0
+_3272:
+	db	"GL_EVAL_2D_NV",0
+	align	4
+_3273:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,57,54
+_3274:
+	db	"GL_EVAL_TRIANGULAR_2D_NV",0
+	align	4
+_3275:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,57,55
+_3276:
+	db	"GL_MAP_TESSELLATION_NV",0
+	align	4
+_3277:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,57,56
+_3278:
+	db	"GL_MAP_ATTRIB_U_ORDER_NV",0
+	align	4
+_3279:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,57,57
+_3280:
+	db	"GL_MAP_ATTRIB_V_ORDER_NV",0
+	align	4
+_3281:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,48,48
+_3282:
+	db	"GL_EVAL_FRACTIONAL_TESSELLATION_NV",0
+	align	4
+_3283:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,48,49
+_3284:
+	db	"GL_EVAL_VERTEX_ATTRIB0_NV",0
+	align	4
+_3285:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,48,50
+_3286:
+	db	"GL_EVAL_VERTEX_ATTRIB1_NV",0
+	align	4
+_3287:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,48,51
+_3288:
+	db	"GL_EVAL_VERTEX_ATTRIB2_NV",0
+	align	4
+_3289:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,48,52
+_3290:
+	db	"GL_EVAL_VERTEX_ATTRIB3_NV",0
+	align	4
+_3291:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,48,53
+_3292:
+	db	"GL_EVAL_VERTEX_ATTRIB4_NV",0
+	align	4
+_3293:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,48,54
+_3294:
+	db	"GL_EVAL_VERTEX_ATTRIB5_NV",0
+	align	4
+_3295:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,48,55
+_3296:
+	db	"GL_EVAL_VERTEX_ATTRIB6_NV",0
+	align	4
+_3297:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,48,56
+_3298:
+	db	"GL_EVAL_VERTEX_ATTRIB7_NV",0
+	align	4
+_3299:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,48,57
+_3300:
+	db	"GL_EVAL_VERTEX_ATTRIB8_NV",0
+	align	4
+_3301:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,49,48
+_3302:
+	db	"GL_EVAL_VERTEX_ATTRIB9_NV",0
+	align	4
+_3303:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,49,49
+_3304:
+	db	"GL_EVAL_VERTEX_ATTRIB10_NV",0
+	align	4
+_3305:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,49,50
+_3306:
+	db	"GL_EVAL_VERTEX_ATTRIB11_NV",0
+	align	4
+_3307:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,49,51
+_3308:
+	db	"GL_EVAL_VERTEX_ATTRIB12_NV",0
+	align	4
+_3309:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,49,52
+_3310:
+	db	"GL_EVAL_VERTEX_ATTRIB13_NV",0
+	align	4
+_3311:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,49,53
+_3312:
+	db	"GL_EVAL_VERTEX_ATTRIB14_NV",0
+	align	4
+_3313:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,49,54
+_3314:
+	db	"GL_EVAL_VERTEX_ATTRIB15_NV",0
+	align	4
+_3315:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,49,55
+_3316:
+	db	"GL_MAX_MAP_TESSELLATION_NV",0
+	align	4
+_3317:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,49,56
+_3318:
+	db	"GL_MAX_RATIONAL_EVAL_ORDER_NV",0
+	align	4
+_3319:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,49,57
+_3320:
+	db	"GL_SAMPLE_POSITION_NV",0
+	align	4
+_3321:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,52,51,50
+_3322:
+	db	"GL_SAMPLE_MASK_NV",0
+	align	4
+_3323:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,52,51,51
+_3324:
+	db	"GL_SAMPLE_MASK_VALUE_NV",0
+	align	4
+_3325:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,52,51,52
+_3326:
+	db	"GL_TEXTURE_BINDING_RENDERBUFFER_NV",0
+	align	4
+_3327:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,52,51,53
+_3328:
+	db	"GL_TEXTURE_RENDERBUFFER_DATA_STORE_BINDING_NV",0
+	align	4
+_3329:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,52,51,54
+_3330:
+	db	"GL_TEXTURE_RENDERBUFFER_NV",0
+	align	4
+_3331:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,52,51,55
+_3332:
+	db	"GL_SAMPLER_RENDERBUFFER_NV",0
+	align	4
+_3333:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,52,51,56
+_3334:
+	db	"GL_INT_SAMPLER_RENDERBUFFER_NV",0
+	align	4
+_3335:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,52,51,57
+_3336:
+	db	"GL_UNSIGNED_INT_SAMPLER_RENDERBUFFER_NV",0
+	align	4
+_3337:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,52,52,48
+_3338:
+	db	"GL_MAX_SAMPLE_MASK_WORDS_NV",0
+	align	4
+_3339:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,52,52,49
+_3340:
+	db	"GL_ALL_COMPLETED_NV",0
+	align	4
+_3341:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,51,52
+_3342:
+	db	"GL_FENCE_STATUS_NV",0
+	align	4
+_3343:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,51,53
+_3344:
+	db	"GL_FENCE_CONDITION_NV",0
+	align	4
+_3345:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,51,54
+_3346:
+	db	"GL_FLOAT_R_NV",0
+	align	4
+_3347:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,52,52
+_3348:
+	db	"GL_FLOAT_RG_NV",0
+	align	4
+_3349:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,52,53
+_3350:
+	db	"GL_FLOAT_RGB_NV",0
+	align	4
+_3351:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,52,54
+_3352:
+	db	"GL_FLOAT_RGBA_NV",0
+	align	4
+_3353:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,52,55
+_3354:
+	db	"GL_FLOAT_R16_NV",0
+	align	4
+_3355:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,52,56
+_3356:
+	db	"GL_FLOAT_R32_NV",0
+	align	4
+_3357:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,52,57
+_3358:
+	db	"GL_FLOAT_RG16_NV",0
+	align	4
+_3359:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,53,48
+_3360:
+	db	"GL_FLOAT_RG32_NV",0
+	align	4
+_3361:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,53,49
+_3362:
+	db	"GL_FLOAT_RGB16_NV",0
+	align	4
+_3363:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,53,50
+_3364:
+	db	"GL_FLOAT_RGB32_NV",0
+	align	4
+_3365:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,53,51
+_3366:
+	db	"GL_FLOAT_RGBA16_NV",0
+	align	4
+_3367:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,53,52
+_3368:
+	db	"GL_FLOAT_RGBA32_NV",0
+	align	4
+_3369:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,53,53
+_3370:
+	db	"GL_TEXTURE_FLOAT_COMPONENTS_NV",0
+	align	4
+_3371:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,53,54
+_3372:
+	db	"GL_FLOAT_CLEAR_COLOR_VALUE_NV",0
+	align	4
+_3373:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,53,55
+_3374:
+	db	"GL_FLOAT_RGBA_MODE_NV",0
+	align	4
+_3375:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,53,56
+_3376:
+	db	"GL_FOG_DISTANCE_MODE_NV",0
+	align	4
+_3377:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,51,56
+_3378:
+	db	"GL_EYE_RADIAL_NV",0
+	align	4
+_3379:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,51,57
+_3380:
+	db	"GL_EYE_PLANE_ABSOLUTE_NV",0
+	align	4
+_3381:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,52,48
+_3382:
+	db	"GL_MAX_FRAGMENT_PROGRAM_LOCAL_PARAMETERS_NV",0
+	align	4
+_3383:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,50,48
+_3384:
+	db	"GL_FRAGMENT_PROGRAM_NV",0
+	align	4
+_3385:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,50,56
+_3386:
+	db	"GL_MAX_TEXTURE_COORDS_NV",0
+_3387:
+	db	"GL_MAX_TEXTURE_IMAGE_UNITS_NV",0
+_3388:
+	db	"GL_FRAGMENT_PROGRAM_BINDING_NV",0
+	align	4
+_3389:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,51,49
+_3390:
+	db	"GL_PROGRAM_ERROR_STRING_NV",0
+_3391:
+	db	"GL_MAX_PROGRAM_EXEC_INSTRUCTIONS_NV",0
+	align	4
+_3392:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,54,48
+_3393:
+	db	"GL_MAX_PROGRAM_CALL_DEPTH_NV",0
+	align	4
+_3394:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,54,49
+_3395:
+	db	"GL_MAX_PROGRAM_IF_DEPTH_NV",0
+	align	4
+_3396:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,54,50
+_3397:
+	db	"GL_MAX_PROGRAM_LOOP_DEPTH_NV",0
+	align	4
+_3398:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,54,51
+_3399:
+	db	"GL_MAX_PROGRAM_LOOP_COUNT_NV",0
+	align	4
+_3400:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,54,52
+_3401:
+	db	"GL_RENDERBUFFER_COVERAGE_SAMPLES_NV",0
+_3402:
+	db	"GL_RENDERBUFFER_COLOR_SAMPLES_NV",0
+	align	4
+_3403:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,51,54,56
+_3404:
+	db	"GL_MAX_MULTISAMPLE_COVERAGE_MODES_NV",0
+	align	4
+_3405:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,51,54,57
+_3406:
+	db	"GL_MULTISAMPLE_COVERAGE_MODES_NV",0
+	align	4
+_3407:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,51,55,48
+_3408:
+	db	"GL_GEOMETRY_PROGRAM_NV",0
+	align	4
+_3409:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,56,55,56
+_3410:
+	db	"GL_MAX_PROGRAM_OUTPUT_VERTICES_NV",0
+	align	4
+_3411:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,56,55,57
+_3412:
+	db	"GL_MAX_PROGRAM_TOTAL_OUTPUT_COMPONENTS_NV",0
+	align	4
+_3413:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,56,56,48
+_3414:
+	db	"GL_MIN_PROGRAM_TEXEL_OFFSET_NV",0
+_3415:
+	db	"GL_MAX_PROGRAM_TEXEL_OFFSET_NV",0
+_3416:
+	db	"GL_PROGRAM_ATTRIB_COMPONENTS_NV",0
+	align	4
+_3417:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,55,56
+_3418:
+	db	"GL_PROGRAM_RESULT_COMPONENTS_NV",0
+	align	4
+_3419:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,55,57
+_3420:
+	db	"GL_MAX_PROGRAM_ATTRIB_COMPONENTS_NV",0
+	align	4
+_3421:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,56,48
+_3422:
+	db	"GL_MAX_PROGRAM_RESULT_COMPONENTS_NV",0
+	align	4
+_3423:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,48,56,49
+_3424:
+	db	"GL_MAX_PROGRAM_GENERIC_ATTRIBS_NV",0
+	align	4
+_3425:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,54,49
+_3426:
+	db	"GL_MAX_PROGRAM_GENERIC_RESULTS_NV",0
+	align	4
+_3427:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,54,50
+_3428:
+	db	"GL_HALF_FLOAT_NV",0
+_3429:
+	db	"GL_MAX_SHININESS_NV",0
+	align	4
+_3430:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,53,50
+_3431:
+	db	"GL_MAX_SPOT_EXPONENT_NV",0
+	align	4
+_3432:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,53,51
+_3433:
+	db	"GL_MULTISAMPLE_FILTER_HINT_NV",0
+	align	4
+_3434:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,48,48
+_3435:
+	db	"GL_PIXEL_COUNTER_BITS_NV",0
+_3436:
+	db	"GL_CURRENT_OCCLUSION_QUERY_ID_NV",0
+_3437:
+	db	"GL_PIXEL_COUNT_NV",0
+_3438:
+	db	"GL_PIXEL_COUNT_AVAILABLE_NV",0
+_3439:
+	db	"GL_DEPTH_STENCIL_NV",0
+_3440:
+	db	"GL_UNSIGNED_INT_24_8_NV",0
+_3441:
+	db	"GL_MAX_PROGRAM_PARAMETER_BUFFER_BINDINGS_NV",0
+	align	4
+_3442:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,53,54
+_3443:
+	db	"GL_MAX_PROGRAM_PARAMETER_BUFFER_SIZE_NV",0
+	align	4
+_3444:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,53,55
+_3445:
+	db	"GL_VERTEX_PROGRAM_PARAMETER_BUFFER_NV",0
+	align	4
+_3446:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,53,56
+_3447:
+	db	"GL_GEOMETRY_PROGRAM_PARAMETER_BUFFER_NV",0
+	align	4
+_3448:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,53,57
+_3449:
+	db	"GL_FRAGMENT_PROGRAM_PARAMETER_BUFFER_NV",0
+	align	4
+_3450:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,50,54,48
+_3451:
+	db	"GL_WRITE_PIXEL_DATA_RANGE_NV",0
+	align	4
+_3452:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,51,54
+_3453:
+	db	"GL_READ_PIXEL_DATA_RANGE_NV",0
+	align	4
+_3454:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,51,55
+_3455:
+	db	"GL_WRITE_PIXEL_DATA_RANGE_LENGTH_NV",0
+	align	4
+_3456:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,51,56
+_3457:
+	db	"GL_READ_PIXEL_DATA_RANGE_LENGTH_NV",0
+	align	4
+_3458:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,51,57
+_3459:
+	db	"GL_WRITE_PIXEL_DATA_RANGE_POINTER_NV",0
+	align	4
+_3460:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,52,48
+_3461:
+	db	"GL_READ_PIXEL_DATA_RANGE_POINTER_NV",0
+	align	4
+_3462:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,52,49
+_3463:
+	db	"GL_POINT_SPRITE_NV",0
+_3464:
+	db	"GL_COORD_REPLACE_NV",0
+_3465:
+	db	"GL_POINT_SPRITE_R_MODE_NV",0
+	align	4
+_3466:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,49,53
+_3467:
+	db	"GL_FRAME_NV",0
+	align	4
+_3468:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,51,57,48
+_3469:
+	db	"GL_FIELDS_NV",0
+	align	4
+_3470:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,51,57,49
+_3471:
+	db	"GL_CURRENT_TIME_NV",0
+	align	4
+_3472:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,51,57,50
+_3473:
+	db	"GL_NUM_FILL_STREAMS_NV",0
+	align	4
+_3474:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,51,57,51
+_3475:
+	db	"GL_PRESENT_TIME_NV",0
+	align	4
+_3476:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,51,57,52
+_3477:
+	db	"GL_PRESENT_DURATION_NV",0
+	align	4
+_3478:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,54,51,57,53
+_3479:
+	db	"GL_PRIMITIVE_RESTART_NV",0
+	align	4
+_3480:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,51,54
+_3481:
+	db	"GL_PRIMITIVE_RESTART_INDEX_NV",0
+	align	4
+_3482:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,51,55
+_3483:
+	db	"GL_REGISTER_COMBINERS_NV",0
+	align	4
+_3484:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,56,50
+_3485:
+	db	"GL_VARIABLE_A_NV",0
+	align	4
+_3486:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,56,51
+_3487:
+	db	"GL_VARIABLE_B_NV",0
+	align	4
+_3488:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,56,52
+_3489:
+	db	"GL_VARIABLE_C_NV",0
+	align	4
+_3490:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,56,53
+_3491:
+	db	"GL_VARIABLE_D_NV",0
+	align	4
+_3492:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,56,54
+_3493:
+	db	"GL_VARIABLE_E_NV",0
+	align	4
+_3494:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,56,55
+_3495:
+	db	"GL_VARIABLE_F_NV",0
+	align	4
+_3496:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,56,56
+_3497:
+	db	"GL_VARIABLE_G_NV",0
+	align	4
+_3498:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,56,57
+_3499:
+	db	"GL_CONSTANT_COLOR0_NV",0
+	align	4
+_3500:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,57,48
+_3501:
+	db	"GL_CONSTANT_COLOR1_NV",0
+	align	4
+_3502:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,57,49
+_3503:
+	db	"GL_PRIMARY_COLOR_NV",0
+	align	4
+_3504:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,57,50
+_3505:
+	db	"GL_SECONDARY_COLOR_NV",0
+	align	4
+_3506:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,57,51
+_3507:
+	db	"GL_SPARE0_NV",0
+	align	4
+_3508:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,57,52
+_3509:
+	db	"GL_SPARE1_NV",0
+	align	4
+_3510:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,57,53
+_3511:
+	db	"GL_DISCARD_NV",0
+	align	4
+_3512:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,57,54
+_3513:
+	db	"GL_E_TIMES_F_NV",0
+	align	4
+_3514:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,57,55
+_3515:
+	db	"GL_SPARE0_PLUS_SECONDARY_COLOR_NV",0
+	align	4
+_3516:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,57,56
+_3517:
+	db	"GL_UNSIGNED_IDENTITY_NV",0
+	align	4
+_3518:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,48,50
+_3519:
+	db	"GL_UNSIGNED_INVERT_NV",0
+	align	4
+_3520:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,48,51
+_3521:
+	db	"GL_EXPAND_NORMAL_NV",0
+	align	4
+_3522:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,48,52
+_3523:
+	db	"GL_EXPAND_NEGATE_NV",0
+	align	4
+_3524:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,48,53
+_3525:
+	db	"GL_HALF_BIAS_NORMAL_NV",0
+	align	4
+_3526:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,48,54
+_3527:
+	db	"GL_HALF_BIAS_NEGATE_NV",0
+	align	4
+_3528:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,48,55
+_3529:
+	db	"GL_SIGNED_IDENTITY_NV",0
+	align	4
+_3530:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,48,56
+_3531:
+	db	"GL_SIGNED_NEGATE_NV",0
+	align	4
+_3532:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,48,57
+_3533:
+	db	"GL_SCALE_BY_TWO_NV",0
+	align	4
+_3534:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,49,48
+_3535:
+	db	"GL_SCALE_BY_FOUR_NV",0
+	align	4
+_3536:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,49,49
+_3537:
+	db	"GL_SCALE_BY_ONE_HALF_NV",0
+	align	4
+_3538:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,49,50
+_3539:
+	db	"GL_BIAS_BY_NEGATIVE_ONE_HALF_NV",0
+	align	4
+_3540:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,49,51
+_3541:
+	db	"GL_COMBINER_INPUT_NV",0
+	align	4
+_3542:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,49,52
+_3543:
+	db	"GL_COMBINER_MAPPING_NV",0
+	align	4
+_3544:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,49,53
+_3545:
+	db	"GL_COMBINER_COMPONENT_USAGE_NV",0
+	align	4
+_3546:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,49,54
+_3547:
+	db	"GL_COMBINER_AB_DOT_PRODUCT_NV",0
+	align	4
+_3548:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,49,55
+_3549:
+	db	"GL_COMBINER_CD_DOT_PRODUCT_NV",0
+	align	4
+_3550:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,49,56
+_3551:
+	db	"GL_COMBINER_MUX_SUM_NV",0
+	align	4
+_3552:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,49,57
+_3553:
+	db	"GL_COMBINER_SCALE_NV",0
+	align	4
+_3554:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,50,48
+_3555:
+	db	"GL_COMBINER_BIAS_NV",0
+	align	4
+_3556:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,50,49
+_3557:
+	db	"GL_COMBINER_AB_OUTPUT_NV",0
+	align	4
+_3558:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,50,50
+_3559:
+	db	"GL_COMBINER_CD_OUTPUT_NV",0
+	align	4
+_3560:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,50,51
+_3561:
+	db	"GL_COMBINER_SUM_OUTPUT_NV",0
+	align	4
+_3562:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,50,52
+_3563:
+	db	"GL_MAX_GENERAL_COMBINERS_NV",0
+	align	4
+_3564:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,50,53
+_3565:
+	db	"GL_NUM_GENERAL_COMBINERS_NV",0
+	align	4
+_3566:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,50,54
+_3567:
+	db	"GL_COLOR_SUM_CLAMP_NV",0
+	align	4
+_3568:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,50,55
+_3569:
+	db	"GL_COMBINER0_NV",0
+	align	4
+_3570:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,50,56
+_3571:
+	db	"GL_COMBINER1_NV",0
+	align	4
+_3572:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,50,57
+_3573:
+	db	"GL_COMBINER2_NV",0
+	align	4
+_3574:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,51,48
+_3575:
+	db	"GL_COMBINER3_NV",0
+	align	4
+_3576:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,51,49
+_3577:
+	db	"GL_COMBINER4_NV",0
+	align	4
+_3578:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,51,50
+_3579:
+	db	"GL_COMBINER5_NV",0
+	align	4
+_3580:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,51,51
+_3581:
+	db	"GL_COMBINER6_NV",0
+	align	4
+_3582:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,51,52
+_3583:
+	db	"GL_COMBINER7_NV",0
+	align	4
+_3584:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,51,53
+_3585:
+	db	"GL_PER_STAGE_CONSTANTS_NV",0
+	align	4
+_3586:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,48,49
+_3587:
+	db	"GL_EMBOSS_LIGHT_NV",0
+	align	4
+_3588:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,52,49
+_3589:
+	db	"GL_EMBOSS_CONSTANT_NV",0
+	align	4
+_3590:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,52,50
+_3591:
+	db	"GL_EMBOSS_MAP_NV",0
+	align	4
+_3592:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,52,51
+_3593:
+	db	"GL_NORMAL_MAP_NV",0
+_3594:
+	db	"GL_REFLECTION_MAP_NV",0
+_3595:
+	db	"GL_COMBINE4_NV",0
+	align	4
+_3596:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,53,49
+_3597:
+	db	"GL_SOURCE3_RGB_NV",0
+	align	4
+_3598:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,55,57
+_3599:
+	db	"GL_SOURCE3_ALPHA_NV",0
+	align	4
+_3600:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,56,55
+_3601:
+	db	"GL_OPERAND3_RGB_NV",0
+	align	4
+_3602:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,49,57,53
+_3603:
+	db	"GL_OPERAND3_ALPHA_NV",0
+	align	4
+_3604:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,48,51
+_3605:
+	db	"GL_TEXTURE_UNSIGNED_REMAP_MODE_NV",0
+	align	4
+_3606:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,53,57
+_3607:
+	db	"GL_TEXTURE_RECTANGLE_NV",0
+_3608:
+	db	"GL_TEXTURE_BINDING_RECTANGLE_NV",0
+_3609:
+	db	"GL_PROXY_TEXTURE_RECTANGLE_NV",0
+_3610:
+	db	"GL_MAX_RECTANGLE_TEXTURE_SIZE_NV",0
+_3611:
+	db	"GL_OFFSET_TEXTURE_RECTANGLE_NV",0
+	align	4
+_3612:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,56,48
+_3613:
+	db	"GL_OFFSET_TEXTURE_RECTANGLE_SCALE_NV",0
+	align	4
+_3614:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,56,49
+_3615:
+	db	"GL_DOT_PRODUCT_TEXTURE_RECTANGLE_NV",0
+	align	4
+_3616:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,56,50
+_3617:
+	db	"GL_RGBA_UNSIGNED_DOT_PRODUCT_MAPPING_NV",0
+	align	4
+_3618:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,50,49
+_3619:
+	db	"GL_UNSIGNED_INT_S8_S8_8_8_NV",0
+	align	4
+_3620:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,50,50
+_3621:
+	db	"GL_UNSIGNED_INT_8_8_S8_S8_REV_NV",0
+	align	4
+_3622:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,50,51
+_3623:
+	db	"GL_DSDT_MAG_INTENSITY_NV",0
+	align	4
+_3624:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,50,52
+_3625:
+	db	"GL_SHADER_CONSISTENT_NV",0
+	align	4
+_3626:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,50,53
+_3627:
+	db	"GL_TEXTURE_SHADER_NV",0
+	align	4
+_3628:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,50,54
+_3629:
+	db	"GL_SHADER_OPERATION_NV",0
+	align	4
+_3630:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,50,55
+_3631:
+	db	"GL_CULL_MODES_NV",0
+	align	4
+_3632:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,50,56
+_3633:
+	db	"GL_OFFSET_TEXTURE_2D_MATRIX_NV",0
+	align	4
+_3634:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,50,57
+_3635:
+	db	"GL_OFFSET_TEXTURE_MATRIX_NV",0
+_3636:
+	db	"GL_OFFSET_TEXTURE_2D_SCALE_NV",0
+	align	4
+_3637:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,51,48
+_3638:
+	db	"GL_OFFSET_TEXTURE_SCALE_NV",0
+_3639:
+	db	"GL_OFFSET_TEXTURE_BIAS_NV",0
+	align	4
+_3640:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,51,49
+_3641:
+	db	"GL_OFFSET_TEXTURE_2D_BIAS_NV",0
+_3642:
+	db	"GL_PREVIOUS_TEXTURE_INPUT_NV",0
+	align	4
+_3643:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,51,50
+_3644:
+	db	"GL_CONST_EYE_NV",0
+	align	4
+_3645:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,51,51
+_3646:
+	db	"GL_PASS_THROUGH_NV",0
+	align	4
+_3647:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,51,52
+_3648:
+	db	"GL_CULL_FRAGMENT_NV",0
+	align	4
+_3649:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,51,53
+_3650:
+	db	"GL_OFFSET_TEXTURE_2D_NV",0
+	align	4
+_3651:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,51,54
+_3652:
+	db	"GL_DEPENDENT_AR_TEXTURE_2D_NV",0
+	align	4
+_3653:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,51,55
+_3654:
+	db	"GL_DEPENDENT_GB_TEXTURE_2D_NV",0
+	align	4
+_3655:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,51,56
+_3656:
+	db	"GL_DOT_PRODUCT_NV",0
+	align	4
+_3657:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,52,48
+_3658:
+	db	"GL_DOT_PRODUCT_DEPTH_REPLACE_NV",0
+	align	4
+_3659:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,52,49
+_3660:
+	db	"GL_DOT_PRODUCT_TEXTURE_2D_NV",0
+	align	4
+_3661:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,52,50
+_3662:
+	db	"GL_DOT_PRODUCT_TEXTURE_CUBE_MAP_NV",0
+	align	4
+_3663:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,52,52
+_3664:
+	db	"GL_DOT_PRODUCT_DIFFUSE_CUBE_MAP_NV",0
+	align	4
+_3665:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,52,53
+_3666:
+	db	"GL_DOT_PRODUCT_REFLECT_CUBE_MAP_NV",0
+	align	4
+_3667:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,52,54
+_3668:
+	db	"GL_DOT_PRODUCT_CONST_EYE_REFLECT_CUBE_MAP_NV",0
+	align	4
+_3669:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,52,55
+_3670:
+	db	"GL_HILO_NV",0
+	align	4
+_3671:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,52,56
+_3672:
+	db	"GL_DSDT_NV",0
+	align	4
+_3673:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,52,57
+_3674:
+	db	"GL_DSDT_MAG_NV",0
+	align	4
+_3675:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,53,48
+_3676:
+	db	"GL_DSDT_MAG_VIB_NV",0
+	align	4
+_3677:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,53,49
+_3678:
+	db	"GL_HILO16_NV",0
+	align	4
+_3679:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,53,50
+_3680:
+	db	"GL_SIGNED_HILO_NV",0
+	align	4
+_3681:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,53,51
+_3682:
+	db	"GL_SIGNED_HILO16_NV",0
+	align	4
+_3683:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,53,52
+_3684:
+	db	"GL_SIGNED_RGBA_NV",0
+	align	4
+_3685:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,53,53
+_3686:
+	db	"GL_SIGNED_RGBA8_NV",0
+	align	4
+_3687:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,53,54
+_3688:
+	db	"GL_SIGNED_RGB_NV",0
+	align	4
+_3689:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,53,56
+_3690:
+	db	"GL_SIGNED_RGB8_NV",0
+	align	4
+_3691:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,53,57
+_3692:
+	db	"GL_SIGNED_LUMINANCE_NV",0
+	align	4
+_3693:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,54,49
+_3694:
+	db	"GL_SIGNED_LUMINANCE8_NV",0
+	align	4
+_3695:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,54,50
+_3696:
+	db	"GL_SIGNED_LUMINANCE_ALPHA_NV",0
+	align	4
+_3697:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,54,51
+_3698:
+	db	"GL_SIGNED_LUMINANCE8_ALPHA8_NV",0
+	align	4
+_3699:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,54,52
+_3700:
+	db	"GL_SIGNED_ALPHA_NV",0
+	align	4
+_3701:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,54,53
+_3702:
+	db	"GL_SIGNED_ALPHA8_NV",0
+	align	4
+_3703:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,54,54
+_3704:
+	db	"GL_SIGNED_INTENSITY_NV",0
+	align	4
+_3705:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,54,55
+_3706:
+	db	"GL_SIGNED_INTENSITY8_NV",0
+	align	4
+_3707:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,54,56
+_3708:
+	db	"GL_DSDT8_NV",0
+	align	4
+_3709:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,54,57
+_3710:
+	db	"GL_DSDT8_MAG8_NV",0
+	align	4
+_3711:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,55,48
+_3712:
+	db	"GL_DSDT8_MAG8_INTENSITY8_NV",0
+	align	4
+_3713:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,55,49
+_3714:
+	db	"GL_SIGNED_RGB_UNSIGNED_ALPHA_NV",0
+	align	4
+_3715:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,55,50
+_3716:
+	db	"GL_SIGNED_RGB8_UNSIGNED_ALPHA8_NV",0
+	align	4
+_3717:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,55,51
+_3718:
+	db	"GL_HI_SCALE_NV",0
+	align	4
+_3719:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,55,52
+_3720:
+	db	"GL_LO_SCALE_NV",0
+	align	4
+_3721:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,55,53
+_3722:
+	db	"GL_DS_SCALE_NV",0
+	align	4
+_3723:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,55,54
+_3724:
+	db	"GL_DT_SCALE_NV",0
+	align	4
+_3725:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,55,55
+_3726:
+	db	"GL_MAGNITUDE_SCALE_NV",0
+	align	4
+_3727:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,55,56
+_3728:
+	db	"GL_VIBRANCE_SCALE_NV",0
+	align	4
+_3729:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,55,57
+_3730:
+	db	"GL_HI_BIAS_NV",0
+	align	4
+_3731:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,56,48
+_3732:
+	db	"GL_LO_BIAS_NV",0
+	align	4
+_3733:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,56,49
+_3734:
+	db	"GL_DS_BIAS_NV",0
+	align	4
+_3735:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,56,50
+_3736:
+	db	"GL_DT_BIAS_NV",0
+	align	4
+_3737:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,56,51
+_3738:
+	db	"GL_MAGNITUDE_BIAS_NV",0
+	align	4
+_3739:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,56,52
+_3740:
+	db	"GL_VIBRANCE_BIAS_NV",0
+	align	4
+_3741:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,56,53
+_3742:
+	db	"GL_TEXTURE_BORDER_VALUES_NV",0
+	align	4
+_3743:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,56,54
+_3744:
+	db	"GL_TEXTURE_HI_SIZE_NV",0
+	align	4
+_3745:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,56,55
+_3746:
+	db	"GL_TEXTURE_LO_SIZE_NV",0
+	align	4
+_3747:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,56,56
+_3748:
+	db	"GL_TEXTURE_DS_SIZE_NV",0
+	align	4
+_3749:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,56,57
+_3750:
+	db	"GL_TEXTURE_DT_SIZE_NV",0
+	align	4
+_3751:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,57,48
+_3752:
+	db	"GL_TEXTURE_MAG_SIZE_NV",0
+	align	4
+_3753:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,57,49
+_3754:
+	db	"GL_DOT_PRODUCT_TEXTURE_3D_NV",0
+	align	4
+_3755:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,53,52,51
+_3756:
+	db	"GL_OFFSET_PROJECTIVE_TEXTURE_2D_NV",0
+	align	4
+_3757:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,57,54
+_3758:
+	db	"GL_OFFSET_PROJECTIVE_TEXTURE_2D_SCALE_NV",0
+	align	4
+_3759:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,57,55
+_3760:
+	db	"GL_OFFSET_PROJECTIVE_TEXTURE_RECTANGLE_NV",0
+	align	4
+_3761:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,57,56
+_3762:
+	db	"GL_OFFSET_PROJECTIVE_TEXTURE_RECTANGLE_SCALE_NV",0
+	align	4
+_3763:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,56,57,57
+_3764:
+	db	"GL_OFFSET_HILO_TEXTURE_2D_NV",0
+	align	4
+_3765:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,48,48
+_3766:
+	db	"GL_OFFSET_HILO_TEXTURE_RECTANGLE_NV",0
+	align	4
+_3767:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,48,49
+_3768:
+	db	"GL_OFFSET_HILO_PROJECTIVE_TEXTURE_2D_NV",0
+	align	4
+_3769:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,48,50
+_3770:
+	db	"GL_OFFSET_HILO_PROJECTIVE_TEXTURE_RECTANGLE_NV",0
+	align	4
+_3771:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,48,51
+_3772:
+	db	"GL_DEPENDENT_HILO_TEXTURE_2D_NV",0
+	align	4
+_3773:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,48,52
+_3774:
+	db	"GL_DEPENDENT_RGB_TEXTURE_3D_NV",0
+	align	4
+_3775:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,48,53
+_3776:
+	db	"GL_DEPENDENT_RGB_TEXTURE_CUBE_MAP_NV",0
+	align	4
+_3777:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,48,54
+_3778:
+	db	"GL_DOT_PRODUCT_PASS_THROUGH_NV",0
+	align	4
+_3779:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,48,55
+_3780:
+	db	"GL_DOT_PRODUCT_TEXTURE_1D_NV",0
+	align	4
+_3781:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,48,56
+_3782:
+	db	"GL_DOT_PRODUCT_AFFINE_DEPTH_REPLACE_NV",0
+	align	4
+_3783:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,48,57
+_3784:
+	db	"GL_HILO8_NV",0
+	align	4
+_3785:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,49,48
+_3786:
+	db	"GL_SIGNED_HILO8_NV",0
+	align	4
+_3787:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,49,49
+_3788:
+	db	"GL_FORCE_BLUE_TO_ONE_NV",0
+	align	4
+_3789:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,57,49,50
+_3790:
+	db	"GL_BACK_PRIMARY_COLOR_NV",0
+	align	4
+_3791:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,57,53,57
+_3792:
+	db	"GL_BACK_SECONDARY_COLOR_NV",0
+	align	4
+_3793:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,57,54,48
+_3794:
+	db	"GL_TEXTURE_COORD_NV",0
+	align	4
+_3795:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,57,54,49
+_3796:
+	db	"GL_CLIP_DISTANCE_NV",0
+	align	4
+_3797:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,57,54,50
+_3798:
+	db	"GL_VERTEX_ID_NV",0
+	align	4
+_3799:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,57,54,51
+_3800:
+	db	"GL_PRIMITIVE_ID_NV",0
+	align	4
+_3801:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,57,54,52
+_3802:
+	db	"GL_GENERIC_ATTRIB_NV",0
+	align	4
+_3803:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,57,54,53
+_3804:
+	db	"GL_TRANSFORM_FEEDBACK_ATTRIBS_NV",0
+	align	4
+_3805:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,57,54,54
+_3806:
+	db	"GL_TRANSFORM_FEEDBACK_BUFFER_MODE_NV",0
+_3807:
+	db	"GL_MAX_TRANSFORM_FEEDBACK_SEPARATE_COMPONENTS_NV",0
+_3808:
+	db	"GL_ACTIVE_VARYINGS_NV",0
+	align	4
+_3809:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,57,54,57
+_3810:
+	db	"GL_ACTIVE_VARYING_MAX_LENGTH_NV",0
+	align	4
+_3811:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,57,55,48
+_3812:
+	db	"GL_TRANSFORM_FEEDBACK_VARYINGS_NV",0
+_3813:
+	db	"GL_TRANSFORM_FEEDBACK_BUFFER_START_NV",0
+_3814:
+	db	"GL_TRANSFORM_FEEDBACK_BUFFER_SIZE_NV",0
+_3815:
+	db	"GL_TRANSFORM_FEEDBACK_RECORD_NV",0
+	align	4
+_3816:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,57,55,52
+_3817:
+	db	"GL_PRIMITIVES_GENERATED_NV",0
+_3818:
+	db	"GL_TRANSFORM_FEEDBACK_PRIMITIVES_WRITTEN_NV",0
+_3819:
+	db	"GL_RASTERIZER_DISCARD_NV",0
+_3820:
+	db	"GL_MAX_TRANSFORM_FEEDBACK_INTERLEAVED_COMPONENTS_NV",0
+_3821:
+	db	"GL_MAX_TRANSFORM_FEEDBACK_SEPARATE_ATTRIBS_NV",0
+_3822:
+	db	"GL_INTERLEAVED_ATTRIBS_NV",0
+_3823:
+	db	"GL_SEPARATE_ATTRIBS_NV",0
+_3824:
+	db	"GL_TRANSFORM_FEEDBACK_BUFFER_NV",0
+_3825:
+	db	"GL_TRANSFORM_FEEDBACK_BUFFER_BINDING_NV",0
+_3826:
+	db	"GL_VERTEX_ARRAY_RANGE_NV",0
+_3827:
+	db	"GL_VERTEX_ARRAY_RANGE_LENGTH_NV",0
+_3828:
+	db	"GL_VERTEX_ARRAY_RANGE_VALID_NV",0
+_3829:
+	db	"GL_MAX_VERTEX_ARRAY_RANGE_ELEMENT_NV",0
+_3830:
+	db	"GL_VERTEX_ARRAY_RANGE_POINTER_NV",0
+_3831:
+	db	"GL_VERTEX_ARRAY_RANGE_WITHOUT_FLUSH_NV",0
+	align	4
+_3832:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,48,57,57
+_3833:
+	db	"GL_VERTEX_PROGRAM_NV",0
+_3834:
+	db	"GL_VERTEX_STATE_PROGRAM_NV",0
+	align	4
+_3835:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,51,55
+_3836:
+	db	"GL_ATTRIB_ARRAY_SIZE_NV",0
+_3837:
+	db	"GL_ATTRIB_ARRAY_STRIDE_NV",0
+_3838:
+	db	"GL_ATTRIB_ARRAY_TYPE_NV",0
+_3839:
+	db	"GL_CURRENT_ATTRIB_NV",0
+_3840:
+	db	"GL_PROGRAM_LENGTH_NV",0
+_3841:
+	db	"GL_PROGRAM_STRING_NV",0
+_3842:
+	db	"GL_MODELVIEW_PROJECTION_NV",0
+	align	4
+_3843:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,52,53
+_3844:
+	db	"GL_IDENTITY_NV",0
+	align	4
+_3845:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,52,54
+_3846:
+	db	"GL_INVERSE_NV",0
+	align	4
+_3847:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,52,55
+_3848:
+	db	"GL_TRANSPOSE_NV",0
+	align	4
+_3849:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,52,56
+_3850:
+	db	"GL_INVERSE_TRANSPOSE_NV",0
+	align	4
+_3851:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,52,57
+_3852:
+	db	"GL_MAX_TRACK_MATRIX_STACK_DEPTH_NV",0
+_3853:
+	db	"GL_MAX_TRACK_MATRICES_NV",0
+_3854:
+	db	"GL_MATRIX0_NV",0
+	align	4
+_3855:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,53,50
+_3856:
+	db	"GL_MATRIX1_NV",0
+	align	4
+_3857:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,53,51
+_3858:
+	db	"GL_MATRIX2_NV",0
+	align	4
+_3859:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,53,52
+_3860:
+	db	"GL_MATRIX3_NV",0
+	align	4
+_3861:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,53,53
+_3862:
+	db	"GL_MATRIX4_NV",0
+	align	4
+_3863:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,53,54
+_3864:
+	db	"GL_MATRIX5_NV",0
+	align	4
+_3865:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,53,55
+_3866:
+	db	"GL_MATRIX6_NV",0
+	align	4
+_3867:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,53,56
+_3868:
+	db	"GL_MATRIX7_NV",0
+	align	4
+_3869:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,53,57
+_3870:
+	db	"GL_CURRENT_MATRIX_STACK_DEPTH_NV",0
+_3871:
+	db	"GL_CURRENT_MATRIX_NV",0
+_3872:
+	db	"GL_VERTEX_PROGRAM_POINT_SIZE_NV",0
+_3873:
+	db	"GL_VERTEX_PROGRAM_TWO_SIDE_NV",0
+_3874:
+	db	"GL_PROGRAM_PARAMETER_NV",0
+	align	4
+_3875:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,55,50
+_3876:
+	db	"GL_ATTRIB_ARRAY_POINTER_NV",0
+_3877:
+	db	"GL_PROGRAM_TARGET_NV",0
+	align	4
+_3878:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,55,52
+_3879:
+	db	"GL_PROGRAM_RESIDENT_NV",0
+	align	4
+_3880:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,55,53
+_3881:
+	db	"GL_TRACK_MATRIX_NV",0
+	align	4
+_3882:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,55,54
+_3883:
+	db	"GL_TRACK_MATRIX_TRANSFORM_NV",0
+	align	4
+_3884:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,55,55
+_3885:
+	db	"GL_VERTEX_PROGRAM_BINDING_NV",0
+	align	4
+_3886:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,55,56
+_3887:
+	db	"GL_PROGRAM_ERROR_POSITION_NV",0
+_3888:
+	db	"GL_VERTEX_ATTRIB_ARRAY0_NV",0
+	align	4
+_3889:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,56,52
+_3890:
+	db	"GL_VERTEX_ATTRIB_ARRAY1_NV",0
+	align	4
+_3891:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,56,53
+_3892:
+	db	"GL_VERTEX_ATTRIB_ARRAY2_NV",0
+	align	4
+_3893:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,56,54
+_3894:
+	db	"GL_VERTEX_ATTRIB_ARRAY3_NV",0
+	align	4
+_3895:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,56,55
+_3896:
+	db	"GL_VERTEX_ATTRIB_ARRAY4_NV",0
+	align	4
+_3897:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,56,56
+_3898:
+	db	"GL_VERTEX_ATTRIB_ARRAY5_NV",0
+	align	4
+_3899:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,56,57
+_3900:
+	db	"GL_VERTEX_ATTRIB_ARRAY6_NV",0
+	align	4
+_3901:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,57,48
+_3902:
+	db	"GL_VERTEX_ATTRIB_ARRAY7_NV",0
+	align	4
+_3903:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,57,49
+_3904:
+	db	"GL_VERTEX_ATTRIB_ARRAY8_NV",0
+	align	4
+_3905:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,57,50
+_3906:
+	db	"GL_VERTEX_ATTRIB_ARRAY9_NV",0
+	align	4
+_3907:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,57,51
+_3908:
+	db	"GL_VERTEX_ATTRIB_ARRAY10_NV",0
+	align	4
+_3909:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,57,52
+_3910:
+	db	"GL_VERTEX_ATTRIB_ARRAY11_NV",0
+	align	4
+_3911:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,57,53
+_3912:
+	db	"GL_VERTEX_ATTRIB_ARRAY12_NV",0
+	align	4
+_3913:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,57,54
+_3914:
+	db	"GL_VERTEX_ATTRIB_ARRAY13_NV",0
+	align	4
+_3915:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,57,55
+_3916:
+	db	"GL_VERTEX_ATTRIB_ARRAY14_NV",0
+	align	4
+_3917:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,57,56
+_3918:
+	db	"GL_VERTEX_ATTRIB_ARRAY15_NV",0
+	align	4
+_3919:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,57,57
+_3920:
+	db	"GL_MAP1_VERTEX_ATTRIB0_4_NV",0
+	align	4
+_3921:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,48,48
+_3922:
+	db	"GL_MAP1_VERTEX_ATTRIB1_4_NV",0
+	align	4
+_3923:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,48,49
+_3924:
+	db	"GL_MAP1_VERTEX_ATTRIB2_4_NV",0
+	align	4
+_3925:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,48,50
+_3926:
+	db	"GL_MAP1_VERTEX_ATTRIB3_4_NV",0
+	align	4
+_3927:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,48,51
+_3928:
+	db	"GL_MAP1_VERTEX_ATTRIB4_4_NV",0
+	align	4
+_3929:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,48,52
+_3930:
+	db	"GL_MAP1_VERTEX_ATTRIB5_4_NV",0
+	align	4
+_3931:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,48,53
+_3932:
+	db	"GL_MAP1_VERTEX_ATTRIB6_4_NV",0
+	align	4
+_3933:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,48,54
+_3934:
+	db	"GL_MAP1_VERTEX_ATTRIB7_4_NV",0
+	align	4
+_3935:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,48,55
+_3936:
+	db	"GL_MAP1_VERTEX_ATTRIB8_4_NV",0
+	align	4
+_3937:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,48,56
+_3938:
+	db	"GL_MAP1_VERTEX_ATTRIB9_4_NV",0
+	align	4
+_3939:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,48,57
+_3940:
+	db	"GL_MAP1_VERTEX_ATTRIB10_4_NV",0
+	align	4
+_3941:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,49,48
+_3942:
+	db	"GL_MAP1_VERTEX_ATTRIB11_4_NV",0
+	align	4
+_3943:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,49,49
+_3944:
+	db	"GL_MAP1_VERTEX_ATTRIB12_4_NV",0
+	align	4
+_3945:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,49,50
+_3946:
+	db	"GL_MAP1_VERTEX_ATTRIB13_4_NV",0
+	align	4
+_3947:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,49,51
+_3948:
+	db	"GL_MAP1_VERTEX_ATTRIB14_4_NV",0
+	align	4
+_3949:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,49,52
+_3950:
+	db	"GL_MAP1_VERTEX_ATTRIB15_4_NV",0
+	align	4
+_3951:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,49,53
+_3952:
+	db	"GL_MAP2_VERTEX_ATTRIB0_4_NV",0
+	align	4
+_3953:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,49,54
+_3954:
+	db	"GL_MAP2_VERTEX_ATTRIB1_4_NV",0
+	align	4
+_3955:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,49,55
+_3956:
+	db	"GL_MAP2_VERTEX_ATTRIB2_4_NV",0
+	align	4
+_3957:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,49,56
+_3958:
+	db	"GL_MAP2_VERTEX_ATTRIB3_4_NV",0
+	align	4
+_3959:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,49,57
+_3960:
+	db	"GL_MAP2_VERTEX_ATTRIB4_4_NV",0
+	align	4
+_3961:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,50,48
+_3962:
+	db	"GL_MAP2_VERTEX_ATTRIB5_4_NV",0
+	align	4
+_3963:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,50,49
+_3964:
+	db	"GL_MAP2_VERTEX_ATTRIB6_4_NV",0
+	align	4
+_3965:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,50,50
+_3966:
+	db	"GL_MAP2_VERTEX_ATTRIB7_4_NV",0
+_3967:
+	db	"GL_MAP2_VERTEX_ATTRIB8_4_NV",0
+	align	4
+_3968:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,50,52
+_3969:
+	db	"GL_MAP2_VERTEX_ATTRIB9_4_NV",0
+	align	4
+_3970:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,50,53
+_3971:
+	db	"GL_MAP2_VERTEX_ATTRIB10_4_NV",0
+	align	4
+_3972:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,50,54
+_3973:
+	db	"GL_MAP2_VERTEX_ATTRIB11_4_NV",0
+	align	4
+_3974:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,50,55
+_3975:
+	db	"GL_MAP2_VERTEX_ATTRIB12_4_NV",0
+	align	4
+_3976:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,50,56
+_3977:
+	db	"GL_MAP2_VERTEX_ATTRIB13_4_NV",0
+	align	4
+_3978:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,50,57
+_3979:
+	db	"GL_MAP2_VERTEX_ATTRIB14_4_NV",0
+	align	4
+_3980:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,51,48
+_3981:
+	db	"GL_MAP2_VERTEX_ATTRIB15_4_NV",0
+	align	4
+_3982:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,52,51,49
+_3983:
+	db	"GL_PALETTE4_RGB8_OES",0
+	align	4
+_3984:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,55,50,56
+_3985:
+	db	"GL_PALETTE4_RGBA8_OES",0
+	align	4
+_3986:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,55,50,57
+_3987:
+	db	"GL_PALETTE4_R5_G6_B5_OES",0
+	align	4
+_3988:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,55,51,48
+_3989:
+	db	"GL_PALETTE4_RGBA4_OES",0
+	align	4
+_3990:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,55,51,49
+_3991:
+	db	"GL_PALETTE4_RGB5_A1_OES",0
+	align	4
+_3992:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,55,51,50
+_3993:
+	db	"GL_PALETTE8_RGB8_OES",0
+	align	4
+_3994:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,55,51,51
+_3995:
+	db	"GL_PALETTE8_RGBA8_OES",0
+	align	4
+_3996:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,55,51,52
+_3997:
+	db	"GL_PALETTE8_R5_G6_B5_OES",0
+	align	4
+_3998:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,55,51,53
+_3999:
+	db	"GL_PALETTE8_RGBA4_OES",0
+	align	4
+_4000:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,55,51,54
+_4001:
+	db	"GL_PALETTE8_RGB5_A1_OES",0
+	align	4
+_4002:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,55,51,55
+_4003:
+	db	"GL_IMPLEMENTATION_COLOR_READ_TYPE_OES",0
+	align	4
+_4004:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,55,51,56
+_4005:
+	db	"GL_IMPLEMENTATION_COLOR_READ_FORMAT_OES",0
+	align	4
+_4006:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,55,51,57
+_4007:
+	db	"GL_INTERLACE_OML",0
+	align	4
+_4008:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,50,48,48
+_4009:
+	db	"GL_INTERLACE_READ_OML",0
+	align	4
+_4010:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,50,48,49
+_4011:
+	db	"GL_PACK_RESAMPLE_OML",0
+	align	4
+_4012:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,50,48,52
+_4013:
+	db	"GL_UNPACK_RESAMPLE_OML",0
+	align	4
+_4014:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,50,48,53
+_4015:
+	db	"GL_RESAMPLE_REPLICATE_OML",0
+	align	4
+_4016:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,50,48,54
+_4017:
+	db	"GL_RESAMPLE_ZERO_FILL_OML",0
+	align	4
+_4018:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,50,48,55
+_4019:
+	db	"GL_RESAMPLE_AVERAGE_OML",0
+	align	4
+_4020:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,50,48,56
+_4021:
+	db	"GL_RESAMPLE_DECIMATE_OML",0
+	align	4
+_4022:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,50,48,57
+_4023:
+	db	"GL_FORMAT_SUBSAMPLE_24_24_OML",0
+	align	4
+_4024:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,50,48,50
+_4025:
+	db	"GL_FORMAT_SUBSAMPLE_244_244_OML",0
+	align	4
+_4026:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,53,50,48,51
+_4027:
+	db	"GL_PREFER_DOUBLEBUFFER_HINT_PGI",0
+	align	4
+_4028:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	6
+	dw	49,48,55,48,48,48
+_4029:
+	db	"GL_CONSERVE_MEMORY_HINT_PGI",0
+	align	4
+_4030:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	6
+	dw	49,48,55,48,48,53
+_4031:
+	db	"GL_RECLAIM_MEMORY_HINT_PGI",0
+	align	4
+_4032:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	6
+	dw	49,48,55,48,48,54
+_4033:
+	db	"GL_NATIVE_GRAPHICS_HANDLE_PGI",0
+	align	4
+_4034:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	6
+	dw	49,48,55,48,49,48
+_4035:
+	db	"GL_NATIVE_GRAPHICS_BEGIN_HINT_PGI",0
+	align	4
+_4036:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	6
+	dw	49,48,55,48,49,49
+_4037:
+	db	"GL_NATIVE_GRAPHICS_END_HINT_PGI",0
+	align	4
+_4038:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	6
+	dw	49,48,55,48,49,50
+_4039:
+	db	"GL_ALWAYS_FAST_HINT_PGI",0
+	align	4
+_4040:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	6
+	dw	49,48,55,48,50,48
+_4041:
+	db	"GL_ALWAYS_SOFT_HINT_PGI",0
+	align	4
+_4042:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	6
+	dw	49,48,55,48,50,49
+_4043:
+	db	"GL_ALLOW_DRAW_OBJ_HINT_PGI",0
+	align	4
+_4044:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	6
+	dw	49,48,55,48,50,50
+_4045:
+	db	"GL_ALLOW_DRAW_WIN_HINT_PGI",0
+	align	4
+_4046:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	6
+	dw	49,48,55,48,50,51
+_4047:
+	db	"GL_ALLOW_DRAW_FRG_HINT_PGI",0
+	align	4
+_4048:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	6
+	dw	49,48,55,48,50,52
+_4049:
+	db	"GL_ALLOW_DRAW_MEM_HINT_PGI",0
+	align	4
+_4050:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	6
+	dw	49,48,55,48,50,53
+_4051:
+	db	"GL_STRICT_DEPTHFUNC_HINT_PGI",0
+	align	4
+_4052:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	6
+	dw	49,48,55,48,51,48
+_4053:
+	db	"GL_STRICT_LIGHTING_HINT_PGI",0
+	align	4
+_4054:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	6
+	dw	49,48,55,48,51,49
+_4055:
+	db	"GL_STRICT_SCISSOR_HINT_PGI",0
+	align	4
+_4056:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	6
+	dw	49,48,55,48,51,50
+_4057:
+	db	"GL_FULL_STIPPLE_HINT_PGI",0
+	align	4
+_4058:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	6
+	dw	49,48,55,48,51,51
+_4059:
+	db	"GL_CLIP_NEAR_HINT_PGI",0
+	align	4
+_4060:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	6
+	dw	49,48,55,48,52,48
+_4061:
+	db	"GL_CLIP_FAR_HINT_PGI",0
+	align	4
+_4062:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	6
+	dw	49,48,55,48,52,49
+_4063:
+	db	"GL_WIDE_LINE_HINT_PGI",0
+	align	4
+_4064:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	6
+	dw	49,48,55,48,52,50
+_4065:
+	db	"GL_BACK_NORMALS_HINT_PGI",0
+	align	4
+_4066:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	6
+	dw	49,48,55,48,52,51
+_4067:
+	db	"GL_VERTEX23_BIT_PGI",0
+_4068:
+	db	"GL_VERTEX4_BIT_PGI",0
+_4069:
+	db	"GL_COLOR3_BIT_PGI",0
+	align	4
+_4070:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	54,53,53,51,54
+_4071:
+	db	"GL_COLOR4_BIT_PGI",0
+	align	4
+_4072:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	6
+	dw	49,51,49,48,55,50
+_4073:
+	db	"GL_EDGEFLAG_BIT_PGI",0
+	align	4
+_4074:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	6
+	dw	50,54,50,49,52,52
+_4075:
+	db	"GL_INDEX_BIT_PGI",0
+	align	4
+_4076:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	6
+	dw	53,50,52,50,56,56
+_4077:
+	db	"GL_MAT_AMBIENT_BIT_PGI",0
+	align	4
+_4078:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	7
+	dw	49,48,52,56,53,55,54
+_4079:
+	db	"GL_VERTEX_DATA_HINT_PGI",0
+	align	4
+_4080:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	6
+	dw	49,48,55,48,53,48
+_4081:
+	db	"GL_VERTEX_CONSISTENT_HINT_PGI",0
+	align	4
+_4082:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	6
+	dw	49,48,55,48,53,49
+_4083:
+	db	"GL_MATERIAL_SIDE_HINT_PGI",0
+	align	4
+_4084:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	6
+	dw	49,48,55,48,53,50
+_4085:
+	db	"GL_MAX_VERTEX_HINT_PGI",0
+	align	4
+_4086:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	6
+	dw	49,48,55,48,53,51
+_4087:
+	db	"GL_MAT_AMBIENT_AND_DIFFUSE_BIT_PGI",0
+	align	4
+_4088:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	7
+	dw	50,48,57,55,49,53,50
+_4089:
+	db	"GL_MAT_DIFFUSE_BIT_PGI",0
+	align	4
+_4090:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	7
+	dw	52,49,57,52,51,48,52
+_4091:
+	db	"GL_MAT_EMISSION_BIT_PGI",0
+	align	4
+_4092:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	7
+	dw	56,51,56,56,54,48,56
+_4093:
+	db	"GL_MAT_COLOR_INDEXES_BIT_PGI",0
+	align	4
+_4094:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	8
+	dw	49,54,55,55,55,50,49,54
+_4095:
+	db	"GL_MAT_SHININESS_BIT_PGI",0
+	align	4
+_4096:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	8
+	dw	51,51,53,53,52,52,51,50
+_4097:
+	db	"GL_MAT_SPECULAR_BIT_PGI",0
+	align	4
+_4098:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	8
+	dw	54,55,49,48,56,56,54,52
+_4099:
+	db	"GL_NORMAL_BIT_PGI",0
+	align	4
+_4100:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	9
+	dw	49,51,52,50,49,55,55,50,56
+_4101:
+	db	"GL_TEXCOORD1_BIT_PGI",0
+	align	4
+_4102:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	9
+	dw	50,54,56,52,51,53,52,53,54
+_4103:
+	db	"GL_TEXCOORD2_BIT_PGI",0
+_4104:
+	db	"GL_TEXCOORD3_BIT_PGI",0
+	align	4
+_4105:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	10
+	dw	49,48,55,51,55,52,49,56,50,52
+_4106:
+	db	"GL_TEXCOORD4_BIT_PGI",0
+	align	4
+_4107:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,49,52,55,52,56,51,54,52,56
+_4108:
+	db	"GL_SCREEN_COORDINATES_REND",0
+	align	4
+_4109:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,57,51,54
+_4110:
+	db	"GL_INVERTED_SCREEN_W_REND",0
+	align	4
+_4111:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,57,51,55
+_4112:
+	db	"GL_RGB_S3TC",0
+	align	4
+_4113:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,54,57,54
+_4114:
+	db	"GL_RGB4_S3TC",0
+	align	4
+_4115:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,54,57,55
+_4116:
+	db	"GL_RGBA_S3TC",0
+	align	4
+_4117:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,54,57,56
+_4118:
+	db	"GL_RGBA4_S3TC",0
+	align	4
+_4119:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,54,57,57
+_4120:
+	db	"GL_RGBA_DXT5_S3TC",0
+	align	4
+_4121:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,55,48,48
+_4122:
+	db	"GL_RGBA4_DXT5_S3TC",0
+	align	4
+_4123:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,55,48,49
+_4124:
+	db	"GL_EXTENDED_RANGE_SGIS",0
+	align	4
+_4125:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,49,51
+_4126:
+	db	"GL_MIN_RED_SGIS",0
+	align	4
+_4127:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,49,52
+_4128:
+	db	"GL_MAX_RED_SGIS",0
+	align	4
+_4129:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,49,53
+_4130:
+	db	"GL_MIN_GREEN_SGIS",0
+	align	4
+_4131:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,49,54
+_4132:
+	db	"GL_MAX_GREEN_SGIS",0
+	align	4
+_4133:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,49,55
+_4134:
+	db	"GL_MIN_BLUE_SGIS",0
+	align	4
+_4135:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,49,56
+_4136:
+	db	"GL_MAX_BLUE_SGIS",0
+	align	4
+_4137:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,49,57
+_4138:
+	db	"GL_MIN_ALPHA_SGIS",0
+	align	4
+_4139:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,50,48
+_4140:
+	db	"GL_MAX_ALPHA_SGIS",0
+	align	4
+_4141:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,50,49
+_4142:
+	db	"GL_GENERATE_MIPMAP_SGIS",0
+_4143:
+	db	"GL_GENERATE_MIPMAP_HINT_SGIS",0
+_4144:
+	db	"GL_MULTISAMPLE_SGIS",0
+_4145:
+	db	"GL_SAMPLE_ALPHA_TO_MASK_SGIS",0
+_4146:
+	db	"GL_SAMPLE_ALPHA_TO_ONE_SGIS",0
+_4147:
+	db	"GL_SAMPLE_MASK_SGIS",0
+_4148:
+	db	"GL_1PASS_SGIS",0
+_4149:
+	db	"GL_2PASS_0_SGIS",0
+_4150:
+	db	"GL_2PASS_1_SGIS",0
+_4151:
+	db	"GL_4PASS_0_SGIS",0
+_4152:
+	db	"GL_4PASS_1_SGIS",0
+_4153:
+	db	"GL_4PASS_2_SGIS",0
+_4154:
+	db	"GL_4PASS_3_SGIS",0
+_4155:
+	db	"GL_SAMPLE_BUFFERS_SGIS",0
+_4156:
+	db	"GL_SAMPLES_SGIS",0
+_4157:
+	db	"GL_SAMPLE_MASK_VALUE_SGIS",0
+_4158:
+	db	"GL_SAMPLE_MASK_INVERT_SGIS",0
+_4159:
+	db	"GL_SAMPLE_PATTERN_SGIS",0
+_4160:
+	db	"GL_EYE_DISTANCE_TO_POINT_SGIS",0
+	align	4
+_4161:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,50,54,52
+_4162:
+	db	"GL_OBJECT_DISTANCE_TO_POINT_SGIS",0
+	align	4
+_4163:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,50,54,53
+_4164:
+	db	"GL_EYE_DISTANCE_TO_LINE_SGIS",0
+	align	4
+_4165:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,50,54,54
+_4166:
+	db	"GL_OBJECT_DISTANCE_TO_LINE_SGIS",0
+	align	4
+_4167:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,50,54,55
+_4168:
+	db	"GL_EYE_POINT_SGIS",0
+	align	4
+_4169:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,50,54,56
+_4170:
+	db	"GL_OBJECT_POINT_SGIS",0
+	align	4
+_4171:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,50,54,57
+_4172:
+	db	"GL_EYE_LINE_SGIS",0
+	align	4
+_4173:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,50,55,48
+_4174:
+	db	"GL_OBJECT_LINE_SGIS",0
+	align	4
+_4175:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,50,55,49
+_4176:
+	db	"GL_CLAMP_TO_BORDER_SGIS",0
+_4177:
+	db	"GL_CLAMP_TO_EDGE_SGIS",0
+_4178:
+	db	"GL_TEXTURE_MIN_LOD_SGIS",0
+_4179:
+	db	"GL_TEXTURE_MAX_LOD_SGIS",0
+_4180:
+	db	"GL_TEXTURE_BASE_LEVEL_SGIS",0
+_4181:
+	db	"GL_TEXTURE_MAX_LEVEL_SGIS",0
+_4182:
+	db	"GL_ASYNC_MARKER_SGIX",0
+	align	4
+_4183:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,53,55,55
+_4184:
+	db	"GL_ASYNC_HISTOGRAM_SGIX",0
+	align	4
+_4185:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,53,56,48
+_4186:
+	db	"GL_MAX_ASYNC_HISTOGRAM_SGIX",0
+	align	4
+_4187:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,53,56,49
+_4188:
+	db	"GL_ASYNC_TEX_IMAGE_SGIX",0
+	align	4
+_4189:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,54,50,56
+_4190:
+	db	"GL_ASYNC_DRAW_PIXELS_SGIX",0
+	align	4
+_4191:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,54,50,57
+_4192:
+	db	"GL_ASYNC_READ_PIXELS_SGIX",0
+	align	4
+_4193:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,54,51,48
+_4194:
+	db	"GL_MAX_ASYNC_TEX_IMAGE_SGIX",0
+	align	4
+_4195:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,54,51,49
+_4196:
+	db	"GL_MAX_ASYNC_DRAW_PIXELS_SGIX",0
+	align	4
+_4197:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,54,51,50
+_4198:
+	db	"GL_MAX_ASYNC_READ_PIXELS_SGIX",0
+	align	4
+_4199:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,54,51,51
+_4200:
+	db	"GL_ALPHA_MIN_SGIX",0
+	align	4
+_4201:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,53,54,56
+_4202:
+	db	"GL_ALPHA_MAX_SGIX",0
+	align	4
+_4203:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,53,54,57
+_4204:
+	db	"GL_CONVOLUTION_HINT_SGIX",0
+	align	4
+_4205:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,53,53,56
+_4206:
+	db	"GL_DEPTH_COMPONENT16_SGIX",0
+_4207:
+	db	"GL_DEPTH_COMPONENT24_SGIX",0
+_4208:
+	db	"GL_DEPTH_COMPONENT32_SGIX",0
+_4209:
+	db	"GL_FOG_OFFSET_SGIX",0
+	align	4
+_4210:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,49,55,54
+_4211:
+	db	"GL_FOG_OFFSET_VALUE_SGIX",0
+	align	4
+_4212:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,49,55,55
+_4213:
+	db	"GL_TEXTURE_FOG_SGIX",0
+_4214:
+	db	"GL_FOG_PATCHY_FACTOR_SGIX",0
+_4215:
+	db	"GL_FRAGMENT_FOG_SGIX",0
+_4216:
+	db	"GL_INTERLACE_SGIX",0
+	align	4
+_4217:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,49,54
+_4218:
+	db	"GL_PACK_RESAMPLE_SGIX",0
+	align	4
+_4219:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,56,51,56
+_4220:
+	db	"GL_UNPACK_RESAMPLE_SGIX",0
+	align	4
+_4221:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,56,51,57
+_4222:
+	db	"GL_RESAMPLE_DECIMATE_SGIX",0
+	align	4
+_4223:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,56,52,48
+_4224:
+	db	"GL_RESAMPLE_REPLICATE_SGIX",0
+	align	4
+_4225:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,56,52,51
+_4226:
+	db	"GL_RESAMPLE_ZERO_FILL_SGIX",0
+	align	4
+_4227:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,56,52,52
+_4228:
+	db	"GL_TEXTURE_COMPARE_SGIX",0
+	align	4
+_4229:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,49,55,56
+_4230:
+	db	"GL_TEXTURE_COMPARE_OPERATOR_SGIX",0
+	align	4
+_4231:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,49,55,57
+_4232:
+	db	"GL_TEXTURE_LEQUAL_R_SGIX",0
+	align	4
+_4233:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,49,56,48
+_4234:
+	db	"GL_TEXTURE_GEQUAL_R_SGIX",0
+	align	4
+_4235:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,49,56,49
+_4236:
+	db	"GL_SHADOW_AMBIENT_SGIX",0
+_4237:
+	db	"GL_TEXTURE_MAX_CLAMP_S_SGIX",0
+	align	4
+_4238:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,54,52,49
+_4239:
+	db	"GL_TEXTURE_MAX_CLAMP_T_SGIX",0
+	align	4
+_4240:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,54,52,50
+_4241:
+	db	"GL_TEXTURE_MAX_CLAMP_R_SGIX",0
+	align	4
+_4242:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,54,52,51
+_4243:
+	db	"GL_TEXTURE_MULTI_BUFFER_HINT_SGIX",0
+	align	4
+_4244:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,48,55,48
+_4245:
+	db	"GL_RGB_SIGNED_SGIX",0
+	align	4
+_4246:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,55,50
+_4247:
+	db	"GL_RGBA_SIGNED_SGIX",0
+	align	4
+_4248:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,55,51
+_4249:
+	db	"GL_ALPHA_SIGNED_SGIX",0
+	align	4
+_4250:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,55,52
+_4251:
+	db	"GL_LUMINANCE_SIGNED_SGIX",0
+	align	4
+_4252:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,55,53
+_4253:
+	db	"GL_INTENSITY_SIGNED_SGIX",0
+	align	4
+_4254:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,55,54
+_4255:
+	db	"GL_LUMINANCE_ALPHA_SIGNED_SGIX",0
+	align	4
+_4256:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,55,55
+_4257:
+	db	"GL_RGB16_SIGNED_SGIX",0
+	align	4
+_4258:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,55,56
+_4259:
+	db	"GL_RGBA16_SIGNED_SGIX",0
+	align	4
+_4260:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,55,57
+_4261:
+	db	"GL_ALPHA16_SIGNED_SGIX",0
+	align	4
+_4262:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,56,48
+_4263:
+	db	"GL_LUMINANCE16_SIGNED_SGIX",0
+	align	4
+_4264:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,56,49
+_4265:
+	db	"GL_INTENSITY16_SIGNED_SGIX",0
+	align	4
+_4266:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,56,50
+_4267:
+	db	"GL_LUMINANCE16_ALPHA16_SIGNED_SGIX",0
+	align	4
+_4268:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,56,51
+_4269:
+	db	"GL_RGB_EXTENDED_RANGE_SGIX",0
+	align	4
+_4270:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,56,52
+_4271:
+	db	"GL_RGBA_EXTENDED_RANGE_SGIX",0
+	align	4
+_4272:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,56,53
+_4273:
+	db	"GL_ALPHA_EXTENDED_RANGE_SGIX",0
+	align	4
+_4274:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,56,54
+_4275:
+	db	"GL_LUMINANCE_EXTENDED_RANGE_SGIX",0
+	align	4
+_4276:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,56,55
+_4277:
+	db	"GL_INTENSITY_EXTENDED_RANGE_SGIX",0
+	align	4
+_4278:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,56,56
+_4279:
+	db	"GL_LUMINANCE_ALPHA_EXTENDED_RANGE_SGIX",0
+	align	4
+_4280:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,56,57
+_4281:
+	db	"GL_RGB16_EXTENDED_RANGE_SGIX",0
+	align	4
+_4282:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,57,48
+_4283:
+	db	"GL_RGBA16_EXTENDED_RANGE_SGIX",0
+	align	4
+_4284:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,57,49
+_4285:
+	db	"GL_ALPHA16_EXTENDED_RANGE_SGIX",0
+	align	4
+_4286:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,57,50
+_4287:
+	db	"GL_LUMINANCE16_EXTENDED_RANGE_SGIX",0
+	align	4
+_4288:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,57,51
+_4289:
+	db	"GL_INTENSITY16_EXTENDED_RANGE_SGIX",0
+	align	4
+_4290:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,57,52
+_4291:
+	db	"GL_LUMINANCE16_ALPHA16_EXTENDED_RANGE_SGIX",0
+	align	4
+_4292:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,57,53
+_4293:
+	db	"GL_MIN_LUMINANCE_SGIS",0
+	align	4
+_4294:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,57,54
+_4295:
+	db	"GL_MAX_LUMINANCE_SGIS",0
+	align	4
+_4296:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,57,55
+_4297:
+	db	"GL_MIN_INTENSITY_SGIS",0
+	align	4
+_4298:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,57,56
+_4299:
+	db	"GL_MAX_INTENSITY_SGIS",0
+	align	4
+_4300:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,57,57
+_4301:
+	db	"GL_POST_TEXTURE_FILTER_BIAS_SGIX",0
+	align	4
+_4302:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,49,52,53
+_4303:
+	db	"GL_POST_TEXTURE_FILTER_SCALE_SGIX",0
+	align	4
+_4304:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,49,52,54
+_4305:
+	db	"GL_POST_TEXTURE_FILTER_BIAS_RANGE_SGIX",0
+	align	4
+_4306:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,49,52,55
+_4307:
+	db	"GL_POST_TEXTURE_FILTER_SCALE_RANGE_SGIX",0
+	align	4
+_4308:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,49,52,56
+_4309:
+	db	"GL_VERTEX_PRECLIP_SGIX",0
+	align	4
+_4310:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,55,55,52
+_4311:
+	db	"GL_VERTEX_PRECLIP_HINT_SGIX",0
+	align	4
+_4312:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,55,55,53
+_4313:
+	db	"GL_COLOR_MATRIX_SGI",0
+_4314:
+	db	"GL_COLOR_MATRIX_STACK_DEPTH_SGI",0
+_4315:
+	db	"GL_MAX_COLOR_MATRIX_STACK_DEPTH_SGI",0
+_4316:
+	db	"GL_POST_COLOR_MATRIX_RED_SCALE_SGI",0
+_4317:
+	db	"GL_POST_COLOR_MATRIX_GREEN_SCALE_SGI",0
+_4318:
+	db	"GL_POST_COLOR_MATRIX_BLUE_SCALE_SGI",0
+_4319:
+	db	"GL_POST_COLOR_MATRIX_ALPHA_SCALE_SGI",0
+_4320:
+	db	"GL_POST_COLOR_MATRIX_RED_BIAS_SGI",0
+_4321:
+	db	"GL_POST_COLOR_MATRIX_GREEN_BIAS_SGI",0
+_4322:
+	db	"GL_POST_COLOR_MATRIX_BLUE_BIAS_SGI",0
+_4323:
+	db	"GL_POST_COLOR_MATRIX_ALPHA_BIAS_SGI",0
+_4324:
+	db	"GL_COLOR_TABLE_SGI",0
+_4325:
+	db	"GL_POST_CONVOLUTION_COLOR_TABLE_SGI",0
+_4326:
+	db	"GL_POST_COLOR_MATRIX_COLOR_TABLE_SGI",0
+_4327:
+	db	"GL_PROXY_COLOR_TABLE_SGI",0
+_4328:
+	db	"GL_PROXY_POST_CONVOLUTION_COLOR_TABLE_SGI",0
+_4329:
+	db	"GL_PROXY_POST_COLOR_MATRIX_COLOR_TABLE_SGI",0
+_4330:
+	db	"GL_COLOR_TABLE_SCALE_SGI",0
+_4331:
+	db	"GL_COLOR_TABLE_BIAS_SGI",0
+_4332:
+	db	"GL_COLOR_TABLE_FORMAT_SGI",0
+_4333:
+	db	"GL_COLOR_TABLE_WIDTH_SGI",0
+_4334:
+	db	"GL_COLOR_TABLE_RED_SIZE_SGI",0
+_4335:
+	db	"GL_COLOR_TABLE_GREEN_SIZE_SGI",0
+_4336:
+	db	"GL_COLOR_TABLE_BLUE_SIZE_SGI",0
+_4337:
+	db	"GL_COLOR_TABLE_ALPHA_SIZE_SGI",0
+_4338:
+	db	"GL_COLOR_TABLE_LUMINANCE_SIZE_SGI",0
+_4339:
+	db	"GL_COLOR_TABLE_INTENSITY_SIZE_SGI",0
+_4340:
+	db	"GL_TEXTURE_COLOR_TABLE_SGI",0
+	align	4
+_4341:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,53,54
+_4342:
+	db	"GL_PROXY_TEXTURE_COLOR_TABLE_SGI",0
+	align	4
+_4343:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,57,53,55
+_4344:
+	db	"GL_UNPACK_CONSTANT_DATA_SUNX",0
+	align	4
+_4345:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,50,51,55
+_4346:
+	db	"GL_TEXTURE_CONSTANT_DATA_SUNX",0
+	align	4
+_4347:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,50,51,56
+_4348:
+	db	"GL_WRAP_BORDER_SUN",0
+	align	4
+_4349:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,50,51,54
+_4350:
+	db	"GL_GLOBAL_ALPHA_SUN",0
+	align	4
+_4351:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,50,52,49
+_4352:
+	db	"GL_GLOBAL_ALPHA_FACTOR_SUN",0
+	align	4
+_4353:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,50,52,50
+_4354:
+	db	"GL_QUAD_MESH_SUN",0
+	align	4
+_4355:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,50,52
+_4356:
+	db	"GL_TRIANGLE_MESH_SUN",0
+	align	4
+_4357:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,51,50,53
+_4358:
+	db	"GL_SLICE_ACCUM_SUN",0
+	align	4
+_4359:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,53,50
+_4360:
+	db	"GL_RESTART_SUN",0
+_4361:
+	db	"GL_REPLACE_MIDDLE_SUN",0
+_4362:
+	db	"GL_REPLACE_OLDEST_SUN",0
+_4363:
+	db	"GL_TRIANGLE_LIST_SUN",0
+	align	4
+_4364:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,50,51,57
+_4365:
+	db	"GL_REPLACEMENT_CODE_SUN",0
+	align	4
+_4366:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,50,52,48
+_4367:
+	db	"GL_REPLACEMENT_CODE_ARRAY_SUN",0
+	align	4
+_4368:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,52,48
+_4369:
+	db	"GL_REPLACEMENT_CODE_ARRAY_TYPE_SUN",0
+	align	4
+_4370:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,52,49
+_4371:
+	db	"GL_REPLACEMENT_CODE_ARRAY_STRIDE_SUN",0
+	align	4
+_4372:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,52,50
+_4373:
+	db	"GL_REPLACEMENT_CODE_ARRAY_POINTER_SUN",0
+	align	4
+_4374:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,52,51
+_4375:
+	db	"GL_R1UI_V3F_SUN",0
+	align	4
+_4376:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,52,52
+_4377:
+	db	"GL_R1UI_C4UB_V3F_SUN",0
+	align	4
+_4378:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,52,53
+_4379:
+	db	"GL_R1UI_C3F_V3F_SUN",0
+	align	4
+_4380:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,52,54
+_4381:
+	db	"GL_R1UI_N3F_V3F_SUN",0
+	align	4
+_4382:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,52,55
+_4383:
+	db	"GL_R1UI_C4F_N3F_V3F_SUN",0
+	align	4
+_4384:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,52,56
+_4385:
+	db	"GL_R1UI_T2F_V3F_SUN",0
+	align	4
+_4386:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,52,57
+_4387:
+	db	"GL_R1UI_T2F_N3F_V3F_SUN",0
+	align	4
+_4388:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,53,48
+_4389:
+	db	"GL_R1UI_T2F_C4F_N3F_V3F_SUN",0
+	align	4
+_4390:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,52,50,53,49
+_4391:
+	db	"GL_PHONG_WIN",0
+	align	4
+_4392:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,48,48,50
+_4393:
+	db	"GL_PHONG_HINT_WIN",0
+	align	4
+_4394:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,48,48,51
+_4395:
+	db	"GL_FOG_SPECULAR_TEXTURE_WIN",0
+	align	4
+_4396:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,51,48,48,52
+_4397:
+	db	"GL_VERSION_1_1",0
+_4398:
+	db	"b",0
+_4399:
+	db	"glCopyTexSubImage3D",0
+_4400:
+	db	"(i,i,i,i,i,i,i,i,i)i",0
+_4401:
+	db	"glDrawRangeElements",0
+_4402:
+	db	"(i,i,i,i,i,*b)i",0
+_4403:
+	db	"glTexImage3D",0
+_4404:
+	db	"(i,i,i,i,i,i,i,i,i,*b)i",0
+_4405:
+	db	"glTexSubImage3D",0
+_4406:
+	db	"(i,i,i,i,i,i,i,i,i,i,*b)i",0
+_4407:
+	db	"GL_VERSION_1_2",0
+_4408:
+	db	"glActiveTexture",0
+_4409:
+	db	"(i)i",0
+_4410:
+	db	"glClientActiveTexture",0
+_4411:
+	db	"glCompressedTexImage1D",0
+_4412:
+	db	"(i,i,i,i,i,i,*b)i",0
+_4413:
+	db	"glCompressedTexImage2D",0
+_4414:
+	db	"(i,i,i,i,i,i,i,*b)i",0
+_4415:
+	db	"glCompressedTexImage3D",0
+_4416:
+	db	"(i,i,i,i,i,i,i,i,*b)i",0
+_4417:
+	db	"glCompressedTexSubImage1D",0
+_4418:
+	db	"glCompressedTexSubImage2D",0
+_4419:
+	db	"glCompressedTexSubImage3D",0
+_4420:
+	db	"glGetCompressedTexImage",0
+_4421:
+	db	"(i,i,*b)i",0
+_4422:
+	db	"glLoadTransposeMatrixd",0
+_4423:
+	db	"(*d)i",0
+_4424:
+	db	"glLoadTransposeMatrixf",0
+_4425:
+	db	"(*f)i",0
+_4426:
+	db	"glMultTransposeMatrixd",0
+_4427:
+	db	"glMultTransposeMatrixf",0
+_4428:
+	db	"glMultiTexCoord1d",0
+_4429:
+	db	"(i,d)i",0
+_4430:
+	db	"glMultiTexCoord1dv",0
+_4431:
+	db	"(i,*d)i",0
+_4432:
+	db	"glMultiTexCoord1f",0
+_4433:
+	db	"(i,f)i",0
+_4434:
+	db	"glMultiTexCoord1fv",0
+_4435:
+	db	"(i,*f)i",0
+_4436:
+	db	"glMultiTexCoord1i",0
+_4437:
+	db	"(i,i)i",0
+_4438:
+	db	"glMultiTexCoord1iv",0
+_4439:
+	db	"(i,*i)i",0
+_4440:
+	db	"glMultiTexCoord1s",0
+_4441:
+	db	"(i,s)i",0
+_4442:
+	db	"glMultiTexCoord1sv",0
+_4443:
+	db	"(i,*s)i",0
+_4444:
+	db	"glMultiTexCoord2d",0
+_4445:
+	db	"(i,d,d)i",0
+_4446:
+	db	"glMultiTexCoord2dv",0
+_4447:
+	db	"glMultiTexCoord2f",0
+_4448:
+	db	"(i,f,f)i",0
+_4449:
+	db	"glMultiTexCoord2fv",0
+_4450:
+	db	"glMultiTexCoord2i",0
+_4451:
+	db	"(i,i,i)i",0
+_4452:
+	db	"glMultiTexCoord2iv",0
+_4453:
+	db	"glMultiTexCoord2s",0
+_4454:
+	db	"(i,s,s)i",0
+_4455:
+	db	"glMultiTexCoord2sv",0
+_4456:
+	db	"glMultiTexCoord3d",0
+_4457:
+	db	"(i,d,d,d)i",0
+_4458:
+	db	"glMultiTexCoord3dv",0
+_4459:
+	db	"glMultiTexCoord3f",0
+_4460:
+	db	"(i,f,f,f)i",0
+_4461:
+	db	"glMultiTexCoord3fv",0
+_4462:
+	db	"glMultiTexCoord3i",0
+_4463:
+	db	"(i,i,i,i)i",0
+_4464:
+	db	"glMultiTexCoord3iv",0
+_4465:
+	db	"glMultiTexCoord3s",0
+_4466:
+	db	"(i,s,s,s)i",0
+_4467:
+	db	"glMultiTexCoord3sv",0
+_4468:
+	db	"glMultiTexCoord4d",0
+_4469:
+	db	"(i,d,d,d,d)i",0
+_4470:
+	db	"glMultiTexCoord4dv",0
+_4471:
+	db	"glMultiTexCoord4f",0
+_4472:
+	db	"(i,f,f,f,f)i",0
+_4473:
+	db	"glMultiTexCoord4fv",0
+_4474:
+	db	"glMultiTexCoord4i",0
+_4475:
+	db	"(i,i,i,i,i)i",0
+_4476:
+	db	"glMultiTexCoord4iv",0
+_4477:
+	db	"glMultiTexCoord4s",0
+_4478:
+	db	"(i,s,s,s,s)i",0
+_4479:
+	db	"glMultiTexCoord4sv",0
+_4480:
+	db	"glSampleCoverage",0
+_4481:
+	db	"(f,b)i",0
+_4482:
+	db	"GL_VERSION_1_3",0
+_4483:
+	db	"glBlendColor",0
+_4484:
+	db	"(f,f,f,f)i",0
+_4485:
+	db	"glBlendEquation",0
+_4486:
+	db	"glBlendFuncSeparate",0
+_4487:
+	db	"glFogCoordPointer",0
+_4488:
+	db	"glFogCoordd",0
+_4489:
+	db	"(d)i",0
+_4490:
+	db	"glFogCoorddv",0
+_4491:
+	db	"glFogCoordf",0
+_4492:
+	db	"(f)i",0
+_4493:
+	db	"glFogCoordfv",0
+_4494:
+	db	"glMultiDrawArrays",0
+_4495:
+	db	"(i,*i,*i,i)i",0
+_4496:
+	db	"glMultiDrawElements",0
+_4497:
+	db	"(i,*i,i,**b,i)i",0
+_4498:
+	db	"glPointParameterf",0
+_4499:
+	db	"glPointParameterfv",0
+_4500:
+	db	"glPointParameteri",0
+_4501:
+	db	"glPointParameteriv",0
+_4502:
+	db	"glSecondaryColor3b",0
+_4503:
+	db	"(b,b,b)i",0
+_4504:
+	db	"glSecondaryColor3bv",0
+_4505:
+	db	"(*b)i",0
+_4506:
+	db	"glSecondaryColor3d",0
+_4507:
+	db	"(d,d,d)i",0
+_4508:
+	db	"glSecondaryColor3dv",0
+_4509:
+	db	"glSecondaryColor3f",0
+_4510:
+	db	"(f,f,f)i",0
+_4511:
+	db	"glSecondaryColor3fv",0
+_4512:
+	db	"glSecondaryColor3i",0
+_4513:
+	db	"glSecondaryColor3iv",0
+_4514:
+	db	"(*i)i",0
+_4515:
+	db	"glSecondaryColor3s",0
+_4516:
+	db	"(s,s,s)i",0
+_4517:
+	db	"glSecondaryColor3sv",0
+_4518:
+	db	"(*s)i",0
+_4519:
+	db	"glSecondaryColor3ub",0
+_4520:
+	db	"glSecondaryColor3ubv",0
+_4521:
+	db	"glSecondaryColor3ui",0
+_4522:
+	db	"glSecondaryColor3uiv",0
+_4523:
+	db	"glSecondaryColor3us",0
+_4524:
+	db	"glSecondaryColor3usv",0
+_4525:
+	db	"glSecondaryColorPointer",0
+_4526:
+	db	"(i,i,i,*b)i",0
+_4527:
+	db	"glWindowPos2d",0
+_4528:
+	db	"(d,d)i",0
+_4529:
+	db	"glWindowPos2dv",0
+_4530:
+	db	"glWindowPos2f",0
+_4531:
+	db	"(f,f)i",0
+_4532:
+	db	"glWindowPos2fv",0
+_4533:
+	db	"glWindowPos2i",0
+_4534:
+	db	"glWindowPos2iv",0
+_4535:
+	db	"glWindowPos2s",0
+_4536:
+	db	"(s,s)i",0
+_4537:
+	db	"glWindowPos2sv",0
+_4538:
+	db	"glWindowPos3d",0
+_4539:
+	db	"glWindowPos3dv",0
+_4540:
+	db	"glWindowPos3f",0
+_4541:
+	db	"glWindowPos3fv",0
+_4542:
+	db	"glWindowPos3i",0
+_4543:
+	db	"glWindowPos3iv",0
+_4544:
+	db	"glWindowPos3s",0
+_4545:
+	db	"glWindowPos3sv",0
+_4546:
+	db	"GL_VERSION_1_4",0
+_4547:
+	db	"glBeginQuery",0
+_4548:
+	db	"glBindBuffer",0
+_4549:
+	db	"glBufferData",0
+_4550:
+	db	"(i,i,*b,i)i",0
+_4551:
+	db	"glBufferSubData",0
+_4552:
+	db	"glDeleteBuffers",0
+_4553:
+	db	"glDeleteQueries",0
+_4554:
+	db	"glEndQuery",0
+_4555:
+	db	"glGenBuffers",0
+_4556:
+	db	"glGenQueries",0
+_4557:
+	db	"glGetBufferParameteriv",0
+_4558:
+	db	"(i,i,*i)i",0
+_4559:
+	db	"glGetBufferPointerv",0
+_4560:
+	db	"(i,i,**b)i",0
+_4561:
+	db	"glGetBufferSubData",0
+_4562:
+	db	"glGetQueryObjectiv",0
+_4563:
+	db	"glGetQueryObjectuiv",0
+_4564:
+	db	"glGetQueryiv",0
+_4565:
+	db	"glIsBuffer",0
+_4566:
+	db	"(i)b",0
+_4567:
+	db	"glIsQuery",0
+_4568:
+	db	"glMapBuffer",0
+_4569:
+	db	"(i,i)*b",0
+_4570:
+	db	"glUnmapBuffer",0
+_4571:
+	db	"GL_VERSION_1_5",0
+_4572:
+	db	"glAttachShader",0
+_4573:
+	db	"glBindAttribLocation",0
+_4574:
+	db	"glBlendEquationSeparate",0
+_4575:
+	db	"glCompileShader",0
+_4576:
+	db	"glCreateProgram",0
+_4577:
+	db	"()i",0
+_4578:
+	db	"glCreateShader",0
+_4579:
+	db	"glDeleteProgram",0
+_4580:
+	db	"glDeleteShader",0
+_4581:
+	db	"glDetachShader",0
+_4582:
+	db	"glDisableVertexAttribArray",0
+_4583:
+	db	"glDrawBuffers",0
+_4584:
+	db	"glEnableVertexAttribArray",0
+_4585:
+	db	"glGetActiveAttrib",0
+_4586:
+	db	"(i,i,i,*i,*i,*i,*b)i",0
+_4587:
+	db	"glGetActiveUniform",0
+_4588:
+	db	"glGetAttachedShaders",0
+_4589:
+	db	"(i,i,*i,*i)i",0
+_4590:
+	db	"glGetAttribLocation",0
+_4591:
+	db	"(i,*b)i",0
+_4592:
+	db	"glGetProgramInfoLog",0
+_4593:
+	db	"(i,i,*i,*b)i",0
+_4594:
+	db	"glGetProgramiv",0
+_4595:
+	db	"glGetShaderInfoLog",0
+_4596:
+	db	"glGetShaderSource",0
+_4597:
+	db	"glGetShaderiv",0
+_4598:
+	db	"glGetUniformLocation",0
+_4599:
+	db	"glGetUniformfv",0
+_4600:
+	db	"(i,i,*f)i",0
+_4601:
+	db	"glGetUniformiv",0
+_4602:
+	db	"glGetVertexAttribPointerv",0
+_4603:
+	db	"glGetVertexAttribdv",0
+_4604:
+	db	"(i,i,*d)i",0
+_4605:
+	db	"glGetVertexAttribfv",0
+_4606:
+	db	"glGetVertexAttribiv",0
+_4607:
+	db	"glIsProgram",0
+_4608:
+	db	"glIsShader",0
+_4609:
+	db	"glLinkProgram",0
+_4610:
+	db	"glShaderSource",0
+_4611:
+	db	"(i,i,**b,*i)i",0
+_4612:
+	db	"glStencilFuncSeparate",0
+_4613:
+	db	"glStencilMaskSeparate",0
+_4614:
+	db	"glStencilOpSeparate",0
+_4615:
+	db	"glUniform1f",0
+_4616:
+	db	"glUniform1fv",0
+_4617:
+	db	"glUniform1i",0
+_4618:
+	db	"glUniform1iv",0
+_4619:
+	db	"glUniform2f",0
+_4620:
+	db	"glUniform2fv",0
+_4621:
+	db	"glUniform2i",0
+_4622:
+	db	"glUniform2iv",0
+_4623:
+	db	"glUniform3f",0
+_4624:
+	db	"glUniform3fv",0
+_4625:
+	db	"glUniform3i",0
+_4626:
+	db	"glUniform3iv",0
+_4627:
+	db	"glUniform4f",0
+_4628:
+	db	"glUniform4fv",0
+_4629:
+	db	"glUniform4i",0
+_4630:
+	db	"glUniform4iv",0
+_4631:
+	db	"glUniformMatrix2fv",0
+_4632:
+	db	"(i,i,b,*f)i",0
+_4633:
+	db	"glUniformMatrix3fv",0
+_4634:
+	db	"glUniformMatrix4fv",0
+_4635:
+	db	"glUseProgram",0
+_4636:
+	db	"glValidateProgram",0
+_4637:
+	db	"glVertexAttrib1d",0
+_4638:
+	db	"glVertexAttrib1dv",0
+_4639:
+	db	"glVertexAttrib1f",0
+_4640:
+	db	"glVertexAttrib1fv",0
+_4641:
+	db	"glVertexAttrib1s",0
+_4642:
+	db	"glVertexAttrib1sv",0
+_4643:
+	db	"glVertexAttrib2d",0
+_4644:
+	db	"glVertexAttrib2dv",0
+_4645:
+	db	"glVertexAttrib2f",0
+_4646:
+	db	"glVertexAttrib2fv",0
+_4647:
+	db	"glVertexAttrib2s",0
+_4648:
+	db	"glVertexAttrib2sv",0
+_4649:
+	db	"glVertexAttrib3d",0
+_4650:
+	db	"glVertexAttrib3dv",0
+_4651:
+	db	"glVertexAttrib3f",0
+_4652:
+	db	"glVertexAttrib3fv",0
+_4653:
+	db	"glVertexAttrib3s",0
+_4654:
+	db	"glVertexAttrib3sv",0
+_4655:
+	db	"glVertexAttrib4Nbv",0
+_4656:
+	db	"glVertexAttrib4Niv",0
+_4657:
+	db	"glVertexAttrib4Nsv",0
+_4658:
+	db	"glVertexAttrib4Nub",0
+_4659:
+	db	"(i,b,b,b,b)i",0
+_4660:
+	db	"glVertexAttrib4Nubv",0
+_4661:
+	db	"glVertexAttrib4Nuiv",0
+_4662:
+	db	"glVertexAttrib4Nusv",0
+_4663:
+	db	"glVertexAttrib4bv",0
+_4664:
+	db	"glVertexAttrib4d",0
+_4665:
+	db	"glVertexAttrib4dv",0
+_4666:
+	db	"glVertexAttrib4f",0
+_4667:
+	db	"glVertexAttrib4fv",0
+_4668:
+	db	"glVertexAttrib4iv",0
+_4669:
+	db	"glVertexAttrib4s",0
+_4670:
+	db	"glVertexAttrib4sv",0
+_4671:
+	db	"glVertexAttrib4ubv",0
+_4672:
+	db	"glVertexAttrib4uiv",0
+_4673:
+	db	"glVertexAttrib4usv",0
+_4674:
+	db	"glVertexAttribPointer",0
+_4675:
+	db	"(i,i,i,b,i,*b)i",0
+_4676:
+	db	"GL_VERSION_2_0",0
+_4677:
+	db	"glUniformMatrix2x3fv",0
+_4678:
+	db	"glUniformMatrix2x4fv",0
+_4679:
+	db	"glUniformMatrix3x2fv",0
+_4680:
+	db	"glUniformMatrix3x4fv",0
+_4681:
+	db	"glUniformMatrix4x2fv",0
+_4682:
+	db	"glUniformMatrix4x3fv",0
+_4683:
+	db	"GL_VERSION_2_1",0
+_4684:
+	db	"glBeginConditionalRender",0
+_4685:
+	db	"glBeginTransformFeedback",0
+_4686:
+	db	"glBindBufferBase",0
+_4687:
+	db	"glBindBufferRange",0
+_4688:
+	db	"glBindFragDataLocation",0
+_4689:
+	db	"glClampColor",0
+_4690:
+	db	"glClearBufferfi",0
+_4691:
+	db	"(i,i,f,i)i",0
+_4692:
+	db	"glClearBufferfv",0
+_4693:
+	db	"glClearBufferiv",0
+_4694:
+	db	"glClearBufferuiv",0
+_4695:
+	db	"glColorMaski",0
+_4696:
+	db	"glDisablei",0
+_4697:
+	db	"glEnablei",0
+_4698:
+	db	"glEndConditionalRender",0
+_4699:
+	db	"glEndTransformFeedback",0
+_4700:
+	db	"glGetBooleani_v",0
+_4701:
+	db	"glGetFragDataLocation",0
+_4702:
+	db	"glGetIntegeri_v",0
+_4703:
+	db	"glGetStringi",0
+_4704:
+	db	"glGetTexParameterIiv",0
+_4705:
+	db	"glGetTexParameterIuiv",0
+_4706:
+	db	"glGetTransformFeedbackVarying",0
+_4707:
+	db	"glGetUniformuiv",0
+_4708:
+	db	"glGetVertexAttribIiv",0
+_4709:
+	db	"glGetVertexAttribIuiv",0
+_4710:
+	db	"glIsEnabledi",0
+_4711:
+	db	"(i,i)b",0
+_4712:
+	db	"glTexParameterIiv",0
+_4713:
+	db	"glTexParameterIuiv",0
+_4714:
+	db	"glTransformFeedbackVaryings",0
+_4715:
+	db	"(i,i,*i,i)i",0
+_4716:
+	db	"glUniform1ui",0
+_4717:
+	db	"glUniform1uiv",0
+_4718:
+	db	"glUniform2ui",0
+_4719:
+	db	"glUniform2uiv",0
+_4720:
+	db	"glUniform3ui",0
+_4721:
+	db	"glUniform3uiv",0
+_4722:
+	db	"glUniform4ui",0
+_4723:
+	db	"glUniform4uiv",0
+_4724:
+	db	"glVertexAttribI1i",0
+_4725:
+	db	"glVertexAttribI1iv",0
+_4726:
+	db	"glVertexAttribI1ui",0
+_4727:
+	db	"glVertexAttribI1uiv",0
+_4728:
+	db	"glVertexAttribI2i",0
+_4729:
+	db	"glVertexAttribI2iv",0
+_4730:
+	db	"glVertexAttribI2ui",0
+_4731:
+	db	"glVertexAttribI2uiv",0
+_4732:
+	db	"glVertexAttribI3i",0
+_4733:
+	db	"glVertexAttribI3iv",0
+_4734:
+	db	"glVertexAttribI3ui",0
+_4735:
+	db	"glVertexAttribI3uiv",0
+_4736:
+	db	"glVertexAttribI4bv",0
+_4737:
+	db	"glVertexAttribI4i",0
+_4738:
+	db	"glVertexAttribI4iv",0
+_4739:
+	db	"glVertexAttribI4sv",0
+_4740:
+	db	"glVertexAttribI4ubv",0
+_4741:
+	db	"glVertexAttribI4ui",0
+_4742:
+	db	"glVertexAttribI4uiv",0
+_4743:
+	db	"glVertexAttribI4usv",0
+_4744:
+	db	"glVertexAttribIPointer",0
+_4745:
+	db	"(i,i,i,i,*b)i",0
+_4746:
+	db	"GL_VERSION_3_0",0
+_4747:
+	db	"GL_3DFX_multisample",0
+_4748:
+	db	"glTbufferMask3DFX",0
+_4749:
+	db	"GL_3DFX_tbuffer",0
+_4750:
+	db	"GL_3DFX_texture_compression_FXT1",0
+_4751:
+	db	"GL_APPLE_client_storage",0
+_4752:
+	db	"glDrawElementArrayAPPLE",0
+_4753:
+	db	"glDrawRangeElementArrayAPPLE",0
+_4754:
+	db	"glElementPointerAPPLE",0
+_4755:
+	db	"glMultiDrawElementArrayAPPLE",0
+_4756:
+	db	"glMultiDrawRangeElementArrayAPPLE",0
+_4757:
+	db	"(i,i,i,*i,*i,i)i",0
+_4758:
+	db	"GL_APPLE_element_array",0
+_4759:
+	db	"glDeleteFencesAPPLE",0
+_4760:
+	db	"glFinishFenceAPPLE",0
+_4761:
+	db	"glFinishObjectAPPLE",0
+_4762:
+	db	"glGenFencesAPPLE",0
+_4763:
+	db	"glIsFenceAPPLE",0
+_4764:
+	db	"glSetFenceAPPLE",0
+_4765:
+	db	"glTestFenceAPPLE",0
+_4766:
+	db	"glTestObjectAPPLE",0
+_4767:
+	db	"GL_APPLE_fence",0
+_4768:
+	db	"GL_APPLE_float_pixels",0
+_4769:
+	db	"glBufferParameteriAPPLE",0
+_4770:
+	db	"glFlushMappedBufferRangeAPPLE",0
+_4771:
+	db	"GL_APPLE_flush_buffer_range",0
+_4772:
+	db	"GL_APPLE_pixel_buffer",0
+_4773:
+	db	"GL_APPLE_specular_vector",0
+_4774:
+	db	"glGetTexParameterPointervAPPLE",0
+_4775:
+	db	"glTextureRangeAPPLE",0
+_4776:
+	db	"GL_APPLE_texture_range",0
+_4777:
+	db	"GL_APPLE_transform_hint",0
+_4778:
+	db	"glBindVertexArrayAPPLE",0
+_4779:
+	db	"glDeleteVertexArraysAPPLE",0
+_4780:
+	db	"glGenVertexArraysAPPLE",0
+_4781:
+	db	"glIsVertexArrayAPPLE",0
+_4782:
+	db	"GL_APPLE_vertex_array_object",0
+_4783:
+	db	"glFlushVertexArrayRangeAPPLE",0
+_4784:
+	db	"glVertexArrayParameteriAPPLE",0
+_4785:
+	db	"glVertexArrayRangeAPPLE",0
+_4786:
+	db	"GL_APPLE_vertex_array_range",0
+_4787:
+	db	"GL_APPLE_ycbcr_422",0
+_4788:
+	db	"glClampColorARB",0
+_4789:
+	db	"GL_ARB_color_buffer_float",0
+_4790:
+	db	"GL_ARB_depth_buffer_float",0
+_4791:
+	db	"GL_ARB_depth_texture",0
+_4792:
+	db	"glDrawBuffersARB",0
+_4793:
+	db	"GL_ARB_draw_buffers",0
+_4794:
+	db	"glDrawArraysInstancedARB",0
+_4795:
+	db	"glDrawElementsInstancedARB",0
+_4796:
+	db	"(i,i,i,*b,i)i",0
+_4797:
+	db	"GL_ARB_draw_instanced",0
+_4798:
+	db	"GL_ARB_fragment_program",0
+_4799:
+	db	"GL_ARB_fragment_program_shadow",0
+_4800:
+	db	"GL_ARB_fragment_shader",0
+_4801:
+	db	"glBindFramebuffer",0
+_4802:
+	db	"glBindRenderbuffer",0
+_4803:
+	db	"glBlitFramebuffer",0
+_4804:
+	db	"(i,i,i,i,i,i,i,i,i,i)i",0
+_4805:
+	db	"glCheckFramebufferStatus",0
+_4806:
+	db	"glDeleteFramebuffers",0
+_4807:
+	db	"glDeleteRenderbuffers",0
+_4808:
+	db	"glFramebufferRenderbuffer",0
+_4809:
+	db	"glFramebufferTexturLayer",0
+_4810:
+	db	"glFramebufferTexture1D",0
+_4811:
+	db	"glFramebufferTexture2D",0
+_4812:
+	db	"glFramebufferTexture3D",0
+_4813:
+	db	"(i,i,i,i,i,i)i",0
+_4814:
+	db	"glGenFramebuffers",0
+_4815:
+	db	"glGenRenderbuffers",0
+_4816:
+	db	"glGenerateMipmap",0
+_4817:
+	db	"glGetFramebufferAttachmentParameteriv",0
+_4818:
+	db	"(i,i,i,*i)i",0
+_4819:
+	db	"glGetRenderbufferParameteriv",0
+_4820:
+	db	"glIsFramebuffer",0
+_4821:
+	db	"glIsRenderbuffer",0
+_4822:
+	db	"glRenderbufferStorage",0
+_4823:
+	db	"glRenderbufferStorageMultisample",0
+_4824:
+	db	"GL_ARB_framebuffer_object",0
+_4825:
+	db	"GL_ARB_framebuffer_sRGB",0
+_4826:
+	db	"glFramebufferTextureARB",0
+_4827:
+	db	"glFramebufferTextureFaceARB",0
+_4828:
+	db	"glFramebufferTextureLayerARB",0
+_4829:
+	db	"glProgramParameteriARB",0
+_4830:
+	db	"GL_ARB_geometry_shader4",0
+_4831:
+	db	"GL_ARB_half_float_pixel",0
+_4832:
+	db	"GL_ARB_half_float_vertex",0
+_4833:
+	db	"glColorSubTable",0
+_4834:
+	db	"glColorTable",0
+_4835:
+	db	"glColorTableParameterfv",0
+_4836:
+	db	"glColorTableParameteriv",0
+_4837:
+	db	"glConvolutionFilter1D",0
+_4838:
+	db	"glConvolutionFilter2D",0
+_4839:
+	db	"glConvolutionParameterf",0
+_4840:
+	db	"(i,i,f)i",0
+_4841:
+	db	"glConvolutionParameterfv",0
+_4842:
+	db	"glConvolutionParameteri",0
+_4843:
+	db	"glConvolutionParameteriv",0
+_4844:
+	db	"glCopyColorSubTable",0
+_4845:
+	db	"glCopyColorTable",0
+_4846:
+	db	"glCopyConvolutionFilter1D",0
+_4847:
+	db	"glCopyConvolutionFilter2D",0
+_4848:
+	db	"glGetColorTable",0
+_4849:
+	db	"glGetColorTableParameterfv",0
+_4850:
+	db	"glGetColorTableParameteriv",0
+_4851:
+	db	"glGetConvolutionFilter",0
+_4852:
+	db	"glGetConvolutionParameterfv",0
+_4853:
+	db	"glGetConvolutionParameteriv",0
+_4854:
+	db	"glGetHistogram",0
+_4855:
+	db	"(i,b,i,i,*b)i",0
+_4856:
+	db	"glGetHistogramParameterfv",0
+_4857:
+	db	"glGetHistogramParameteriv",0
+_4858:
+	db	"glGetMinmax",0
+_4859:
+	db	"glGetMinmaxParameterfv",0
+_4860:
+	db	"glGetMinmaxParameteriv",0
+_4861:
+	db	"glGetSeparableFilter",0
+_4862:
+	db	"(i,i,i,*b,*b,*b)i",0
+_4863:
+	db	"glHistogram",0
+_4864:
+	db	"(i,i,i,b)i",0
+_4865:
+	db	"glMinmax",0
+_4866:
+	db	"(i,i,b)i",0
+_4867:
+	db	"glResetHistogram",0
+_4868:
+	db	"glResetMinmax",0
+_4869:
+	db	"glSeparableFilter2D",0
+_4870:
+	db	"(i,i,i,i,i,i,*b,*b)i",0
+_4871:
+	db	"GL_ARB_imaging",0
+_4872:
+	db	"glVertexAttribDivisorARB",0
+_4873:
+	db	"GL_ARB_instanced_arrays",0
+_4874:
+	db	"glFlushMappedBufferRange",0
+_4875:
+	db	"glMapBufferRange",0
+_4876:
+	db	"(i,i,i,i)*b",0
+_4877:
+	db	"GL_ARB_map_buffer_range",0
+_4878:
+	db	"glCurrentPaletteMatrixARB",0
+_4879:
+	db	"glMatrixIndexPointerARB",0
+_4880:
+	db	"glMatrixIndexubvARB",0
+_4881:
+	db	"glMatrixIndexuivARB",0
+_4882:
+	db	"glMatrixIndexusvARB",0
+_4883:
+	db	"GL_ARB_matrix_palette",0
+_4884:
+	db	"glSampleCoverageARB",0
+_4885:
+	db	"GL_ARB_multisample",0
+_4886:
+	db	"glActiveTextureARB",0
+_4887:
+	db	"glClientActiveTextureARB",0
+_4888:
+	db	"glMultiTexCoord1dARB",0
+_4889:
+	db	"glMultiTexCoord1dvARB",0
+_4890:
+	db	"glMultiTexCoord1fARB",0
+_4891:
+	db	"glMultiTexCoord1fvARB",0
+_4892:
+	db	"glMultiTexCoord1iARB",0
+_4893:
+	db	"glMultiTexCoord1ivARB",0
+_4894:
+	db	"glMultiTexCoord1sARB",0
+_4895:
+	db	"glMultiTexCoord1svARB",0
+_4896:
+	db	"glMultiTexCoord2dARB",0
+_4897:
+	db	"glMultiTexCoord2dvARB",0
+_4898:
+	db	"glMultiTexCoord2fARB",0
+_4899:
+	db	"glMultiTexCoord2fvARB",0
+_4900:
+	db	"glMultiTexCoord2iARB",0
+_4901:
+	db	"glMultiTexCoord2ivARB",0
+_4902:
+	db	"glMultiTexCoord2sARB",0
+_4903:
+	db	"glMultiTexCoord2svARB",0
+_4904:
+	db	"glMultiTexCoord3dARB",0
+_4905:
+	db	"glMultiTexCoord3dvARB",0
+_4906:
+	db	"glMultiTexCoord3fARB",0
+_4907:
+	db	"glMultiTexCoord3fvARB",0
+_4908:
+	db	"glMultiTexCoord3iARB",0
+_4909:
+	db	"glMultiTexCoord3ivARB",0
+_4910:
+	db	"glMultiTexCoord3sARB",0
+_4911:
+	db	"glMultiTexCoord3svARB",0
+_4912:
+	db	"glMultiTexCoord4dARB",0
+_4913:
+	db	"glMultiTexCoord4dvARB",0
+_4914:
+	db	"glMultiTexCoord4fARB",0
+_4915:
+	db	"glMultiTexCoord4fvARB",0
+_4916:
+	db	"glMultiTexCoord4iARB",0
+_4917:
+	db	"glMultiTexCoord4ivARB",0
+_4918:
+	db	"glMultiTexCoord4sARB",0
+_4919:
+	db	"glMultiTexCoord4svARB",0
+_4920:
+	db	"GL_ARB_multitexture",0
+_4921:
+	db	"glBeginQueryARB",0
+_4922:
+	db	"glDeleteQueriesARB",0
+_4923:
+	db	"glEndQueryARB",0
+_4924:
+	db	"glGenQueriesARB",0
+_4925:
+	db	"glGetQueryObjectivARB",0
+_4926:
+	db	"glGetQueryObjectuivARB",0
+_4927:
+	db	"glGetQueryivARB",0
+_4928:
+	db	"glIsQueryARB",0
+_4929:
+	db	"GL_ARB_occlusion_query",0
+_4930:
+	db	"GL_ARB_pixel_buffer_object",0
+_4931:
+	db	"glPointParameterfARB",0
+_4932:
+	db	"glPointParameterfvARB",0
+_4933:
+	db	"GL_ARB_point_parameters",0
+_4934:
+	db	"GL_ARB_point_sprite",0
+_4935:
+	db	"glAttachObjectARB",0
+_4936:
+	db	"glCompileShaderARB",0
+_4937:
+	db	"glCreateProgramObjectARB",0
+_4938:
+	db	"glCreateShaderObjectARB",0
+_4939:
+	db	"glDeleteObjectARB",0
+_4940:
+	db	"glDetachObjectARB",0
+_4941:
+	db	"glGetActiveUniformARB",0
+_4942:
+	db	"glGetAttachedObjectsARB",0
+_4943:
+	db	"glGetHandleARB",0
+_4944:
+	db	"glGetInfoLogARB",0
+_4945:
+	db	"glGetObjectParameterfvARB",0
+_4946:
+	db	"glGetObjectParameterivARB",0
+_4947:
+	db	"glGetShaderSourceARB",0
+_4948:
+	db	"glGetUniformLocationARB",0
+_4949:
+	db	"glGetUniformfvARB",0
+_4950:
+	db	"glGetUniformivARB",0
+_4951:
+	db	"glLinkProgramARB",0
+_4952:
+	db	"glShaderSourceARB",0
+_4953:
+	db	"glUniform1fARB",0
+_4954:
+	db	"glUniform1fvARB",0
+_4955:
+	db	"glUniform1iARB",0
+_4956:
+	db	"glUniform1ivARB",0
+_4957:
+	db	"glUniform2fARB",0
+_4958:
+	db	"glUniform2fvARB",0
+_4959:
+	db	"glUniform2iARB",0
+_4960:
+	db	"glUniform2ivARB",0
+_4961:
+	db	"glUniform3fARB",0
+_4962:
+	db	"glUniform3fvARB",0
+_4963:
+	db	"glUniform3iARB",0
+_4964:
+	db	"glUniform3ivARB",0
+_4965:
+	db	"glUniform4fARB",0
+_4966:
+	db	"glUniform4fvARB",0
+_4967:
+	db	"glUniform4iARB",0
+_4968:
+	db	"glUniform4ivARB",0
+_4969:
+	db	"glUniformMatrix2fvARB",0
+_4970:
+	db	"glUniformMatrix3fvARB",0
+_4971:
+	db	"glUniformMatrix4fvARB",0
+_4972:
+	db	"glUseProgramObjectARB",0
+_4973:
+	db	"glValidateProgramARB",0
+_4974:
+	db	"GL_ARB_shader_objects",0
+_4975:
+	db	"GL_ARB_shading_language_100",0
+_4976:
+	db	"GL_ARB_shadow",0
+_4977:
+	db	"GL_ARB_shadow_ambient",0
+_4978:
+	db	"GL_ARB_texture_border_clamp",0
+_4979:
+	db	"glTexBufferARB",0
+_4980:
+	db	"GL_ARB_texture_buffer_object",0
+_4981:
+	db	"glCompressedTexImage1DARB",0
+_4982:
+	db	"glCompressedTexImage2DARB",0
+_4983:
+	db	"glCompressedTexImage3DARB",0
+_4984:
+	db	"glCompressedTexSubImage1DARB",0
+_4985:
+	db	"glCompressedTexSubImage2DARB",0
+_4986:
+	db	"glCompressedTexSubImage3DARB",0
+_4987:
+	db	"glGetCompressedTexImageARB",0
+_4988:
+	db	"GL_ARB_texture_compression",0
+_4989:
+	db	"GL_ARB_texture_compression_rgtc",0
+_4990:
+	db	"GL_ARB_texture_cube_map",0
+_4991:
+	db	"GL_ARB_texture_env_add",0
+_4992:
+	db	"GL_ARB_texture_env_combine",0
+_4993:
+	db	"GL_ARB_texture_env_crossbar",0
+_4994:
+	db	"GL_ARB_texture_env_dot3",0
+_4995:
+	db	"GL_ARB_texture_float",0
+_4996:
+	db	"GL_ARB_texture_mirrored_repeat",0
+_4997:
+	db	"GL_ARB_texture_non_power_of_two",0
+_4998:
+	db	"GL_ARB_texture_rectangle",0
+_4999:
+	db	"GL_ARB_texture_rg",0
+_5000:
+	db	"glLoadTransposeMatrixdARB",0
+_5001:
+	db	"glLoadTransposeMatrixfARB",0
+_5002:
+	db	"glMultTransposeMatrixdARB",0
+_5003:
+	db	"glMultTransposeMatrixfARB",0
+_5004:
+	db	"GL_ARB_transpose_matrix",0
+_5005:
+	db	"glBindVertexArray",0
+_5006:
+	db	"glDeleteVertexArrays",0
+_5007:
+	db	"glGenVertexArrays",0
+_5008:
+	db	"glIsVertexArray",0
+_5009:
+	db	"GL_ARB_vertex_array_object",0
+_5010:
+	db	"glVertexBlendARB",0
+_5011:
+	db	"glWeightPointerARB",0
+_5012:
+	db	"glWeightbvARB",0
+_5013:
+	db	"glWeightdvARB",0
+_5014:
+	db	"glWeightfvARB",0
+_5015:
+	db	"glWeightivARB",0
+_5016:
+	db	"glWeightsvARB",0
+_5017:
+	db	"glWeightubvARB",0
+_5018:
+	db	"glWeightuivARB",0
+_5019:
+	db	"glWeightusvARB",0
+_5020:
+	db	"GL_ARB_vertex_blend",0
+_5021:
+	db	"glBindBufferARB",0
+_5022:
+	db	"glBufferDataARB",0
+_5023:
+	db	"glBufferSubDataARB",0
+_5024:
+	db	"glDeleteBuffersARB",0
+_5025:
+	db	"glGenBuffersARB",0
+_5026:
+	db	"glGetBufferParameterivARB",0
+_5027:
+	db	"glGetBufferPointervARB",0
+_5028:
+	db	"glGetBufferSubDataARB",0
+_5029:
+	db	"glIsBufferARB",0
+_5030:
+	db	"glMapBufferARB",0
+_5031:
+	db	"glUnmapBufferARB",0
+_5032:
+	db	"GL_ARB_vertex_buffer_object",0
+_5033:
+	db	"glBindProgramARB",0
+_5034:
+	db	"glDeleteProgramsARB",0
+_5035:
+	db	"glDisableVertexAttribArrayARB",0
+_5036:
+	db	"glEnableVertexAttribArrayARB",0
+_5037:
+	db	"glGenProgramsARB",0
+_5038:
+	db	"glGetProgramEnvParameterdvARB",0
+_5039:
+	db	"glGetProgramEnvParameterfvARB",0
+_5040:
+	db	"glGetProgramLocalParameterdvARB",0
+_5041:
+	db	"glGetProgramLocalParameterfvARB",0
+_5042:
+	db	"glGetProgramStringARB",0
+_5043:
+	db	"glGetProgramivARB",0
+_5044:
+	db	"glGetVertexAttribPointervARB",0
+_5045:
+	db	"glGetVertexAttribdvARB",0
+_5046:
+	db	"glGetVertexAttribfvARB",0
+_5047:
+	db	"glGetVertexAttribivARB",0
+_5048:
+	db	"glIsProgramARB",0
+_5049:
+	db	"glProgramEnvParameter4dARB",0
+_5050:
+	db	"(i,i,d,d,d,d)i",0
+_5051:
+	db	"glProgramEnvParameter4dvARB",0
+_5052:
+	db	"glProgramEnvParameter4fARB",0
+_5053:
+	db	"(i,i,f,f,f,f)i",0
+_5054:
+	db	"glProgramEnvParameter4fvARB",0
+_5055:
+	db	"glProgramLocalParameter4dARB",0
+_5056:
+	db	"glProgramLocalParameter4dvARB",0
+_5057:
+	db	"glProgramLocalParameter4fARB",0
+_5058:
+	db	"glProgramLocalParameter4fvARB",0
+_5059:
+	db	"glProgramStringARB",0
+_5060:
+	db	"glVertexAttrib1dARB",0
+_5061:
+	db	"glVertexAttrib1dvARB",0
+_5062:
+	db	"glVertexAttrib1fARB",0
+_5063:
+	db	"glVertexAttrib1fvARB",0
+_5064:
+	db	"glVertexAttrib1sARB",0
+_5065:
+	db	"glVertexAttrib1svARB",0
+_5066:
+	db	"glVertexAttrib2dARB",0
+_5067:
+	db	"glVertexAttrib2dvARB",0
+_5068:
+	db	"glVertexAttrib2fARB",0
+_5069:
+	db	"glVertexAttrib2fvARB",0
+_5070:
+	db	"glVertexAttrib2sARB",0
+_5071:
+	db	"glVertexAttrib2svARB",0
+_5072:
+	db	"glVertexAttrib3dARB",0
+_5073:
+	db	"glVertexAttrib3dvARB",0
+_5074:
+	db	"glVertexAttrib3fARB",0
+_5075:
+	db	"glVertexAttrib3fvARB",0
+_5076:
+	db	"glVertexAttrib3sARB",0
+_5077:
+	db	"glVertexAttrib3svARB",0
+_5078:
+	db	"glVertexAttrib4NbvARB",0
+_5079:
+	db	"glVertexAttrib4NivARB",0
+_5080:
+	db	"glVertexAttrib4NsvARB",0
+_5081:
+	db	"glVertexAttrib4NubARB",0
+_5082:
+	db	"glVertexAttrib4NubvARB",0
+_5083:
+	db	"glVertexAttrib4NuivARB",0
+_5084:
+	db	"glVertexAttrib4NusvARB",0
+_5085:
+	db	"glVertexAttrib4bvARB",0
+_5086:
+	db	"glVertexAttrib4dARB",0
+_5087:
+	db	"glVertexAttrib4dvARB",0
+_5088:
+	db	"glVertexAttrib4fARB",0
+_5089:
+	db	"glVertexAttrib4fvARB",0
+_5090:
+	db	"glVertexAttrib4ivARB",0
+_5091:
+	db	"glVertexAttrib4sARB",0
+_5092:
+	db	"glVertexAttrib4svARB",0
+_5093:
+	db	"glVertexAttrib4ubvARB",0
+_5094:
+	db	"glVertexAttrib4uivARB",0
+_5095:
+	db	"glVertexAttrib4usvARB",0
+_5096:
+	db	"glVertexAttribPointerARB",0
+_5097:
+	db	"GL_ARB_vertex_program",0
+_5098:
+	db	"glBindAttribLocationARB",0
+_5099:
+	db	"glGetActiveAttribARB",0
+_5100:
+	db	"glGetAttribLocationARB",0
+_5101:
+	db	"GL_ARB_vertex_shader",0
+_5102:
+	db	"glWindowPos2dARB",0
+_5103:
+	db	"glWindowPos2dvARB",0
+_5104:
+	db	"glWindowPos2fARB",0
+_5105:
+	db	"glWindowPos2fvARB",0
+_5106:
+	db	"glWindowPos2iARB",0
+_5107:
+	db	"glWindowPos2ivARB",0
+_5108:
+	db	"glWindowPos2sARB",0
+_5109:
+	db	"glWindowPos2svARB",0
+_5110:
+	db	"glWindowPos3dARB",0
+_5111:
+	db	"glWindowPos3dvARB",0
+_5112:
+	db	"glWindowPos3fARB",0
+_5113:
+	db	"glWindowPos3fvARB",0
+_5114:
+	db	"glWindowPos3iARB",0
+_5115:
+	db	"glWindowPos3ivARB",0
+_5116:
+	db	"glWindowPos3sARB",0
+_5117:
+	db	"glWindowPos3svARB",0
+_5118:
+	db	"GL_ARB_window_pos",0
+_5119:
+	db	"GL_ATIX_point_sprites",0
+_5120:
+	db	"GL_ATIX_texture_env_combine3",0
+_5121:
+	db	"GL_ATIX_texture_env_route",0
+_5122:
+	db	"GL_ATIX_vertex_shader_output_point_size",0
+_5123:
+	db	"glDrawBuffersATI",0
+_5124:
+	db	"GL_ATI_draw_buffers",0
+_5125:
+	db	"glDrawElementArrayATI",0
+_5126:
+	db	"glDrawRangeElementArrayATI",0
+_5127:
+	db	"glElementPointerATI",0
+_5128:
+	db	"GL_ATI_element_array",0
+_5129:
+	db	"glGetTexBumpParameterfvATI",0
+_5130:
+	db	"glGetTexBumpParameterivATI",0
+_5131:
+	db	"glTexBumpParameterfvATI",0
+_5132:
+	db	"glTexBumpParameterivATI",0
+_5133:
+	db	"GL_ATI_envmap_bumpmap",0
+_5134:
+	db	"glAlphaFragmentOp1ATI",0
+_5135:
+	db	"glAlphaFragmentOp2ATI",0
+_5136:
+	db	"glAlphaFragmentOp3ATI",0
+_5137:
+	db	"(i,i,i,i,i,i,i,i,i,i,i,i)i",0
+_5138:
+	db	"glBeginFragmentShaderATI",0
+_5139:
+	db	"glBindFragmentShaderATI",0
+_5140:
+	db	"glColorFragmentOp1ATI",0
+_5141:
+	db	"(i,i,i,i,i,i,i)i",0
+_5142:
+	db	"glColorFragmentOp2ATI",0
+_5143:
+	db	"glColorFragmentOp3ATI",0
+_5144:
+	db	"(i,i,i,i,i,i,i,i,i,i,i,i,i)i",0
+_5145:
+	db	"glDeleteFragmentShaderATI",0
+_5146:
+	db	"glEndFragmentShaderATI",0
+_5147:
+	db	"glGenFragmentShadersATI",0
+_5148:
+	db	"glPassTexCoordATI",0
+_5149:
+	db	"glSampleMapATI",0
+_5150:
+	db	"glSetFragmentShaderConstantATI",0
+_5151:
+	db	"GL_ATI_fragment_shader",0
+_5152:
+	db	"glMapObjectBufferATI",0
+_5153:
+	db	"(i)*b",0
+_5154:
+	db	"glUnmapObjectBufferATI",0
+_5155:
+	db	"GL_ATI_map_object_buffer",0
+_5156:
+	db	"GL_ATI_pn_triangles",0
+_5157:
+	db	"glStencilFuncSeparateATI",0
+_5158:
+	db	"glStencilOpSeparateATI",0
+_5159:
+	db	"GL_ATI_separate_stencil",0
+_5160:
+	db	"GL_ATI_shader_texture_lod",0
+_5161:
+	db	"GL_ATI_text_fragment_shader",0
+_5162:
+	db	"GL_ATI_texture_compression_3dc",0
+_5163:
+	db	"GL_ATI_texture_env_combine3",0
+_5164:
+	db	"GL_ATI_texture_float",0
+_5165:
+	db	"GL_ATI_texture_mirror_once",0
+_5166:
+	db	"glArrayObjectATI",0
+_5167:
+	db	"glFreeObjectBufferATI",0
+_5168:
+	db	"glGetArrayObjectfvATI",0
+_5169:
+	db	"glGetArrayObjectivATI",0
+_5170:
+	db	"glGetObjectBufferfvATI",0
+_5171:
+	db	"glGetObjectBufferivATI",0
+_5172:
+	db	"glGetVariantArrayObjectfvATI",0
+_5173:
+	db	"glGetVariantArrayObjectivATI",0
+_5174:
+	db	"glIsObjectBufferATI",0
+_5175:
+	db	"glNewObjectBufferATI",0
+_5176:
+	db	"(i,*b,i)i",0
+_5177:
+	db	"glUpdateObjectBufferATI",0
+_5178:
+	db	"glVariantArrayObjectATI",0
+_5179:
+	db	"GL_ATI_vertex_array_object",0
+_5180:
+	db	"glGetVertexAttribArrayObjectfvATI",0
+_5181:
+	db	"glGetVertexAttribArrayObjectivATI",0
+_5182:
+	db	"glVertexAttribArrayObjectATI",0
+_5183:
+	db	"(i,i,i,b,i,i,i)i",0
+_5184:
+	db	"GL_ATI_vertex_attrib_array_object",0
+_5185:
+	db	"glClientActiveVertexStreamATI",0
+_5186:
+	db	"glNormalStream3bATI",0
+_5187:
+	db	"(i,b,b,b)i",0
+_5188:
+	db	"glNormalStream3bvATI",0
+_5189:
+	db	"glNormalStream3dATI",0
+_5190:
+	db	"glNormalStream3dvATI",0
+_5191:
+	db	"glNormalStream3fATI",0
+_5192:
+	db	"glNormalStream3fvATI",0
+_5193:
+	db	"glNormalStream3iATI",0
+_5194:
+	db	"glNormalStream3ivATI",0
+_5195:
+	db	"glNormalStream3sATI",0
+_5196:
+	db	"glNormalStream3svATI",0
+_5197:
+	db	"glVertexBlendEnvfATI",0
+_5198:
+	db	"glVertexBlendEnviATI",0
+_5199:
+	db	"glVertexStream2dATI",0
+_5200:
+	db	"glVertexStream2dvATI",0
+_5201:
+	db	"glVertexStream2fATI",0
+_5202:
+	db	"glVertexStream2fvATI",0
+_5203:
+	db	"glVertexStream2iATI",0
+_5204:
+	db	"glVertexStream2ivATI",0
+_5205:
+	db	"glVertexStream2sATI",0
+_5206:
+	db	"glVertexStream2svATI",0
+_5207:
+	db	"glVertexStream3dATI",0
+_5208:
+	db	"glVertexStream3dvATI",0
+_5209:
+	db	"glVertexStream3fATI",0
+_5210:
+	db	"glVertexStream3fvATI",0
+_5211:
+	db	"glVertexStream3iATI",0
+_5212:
+	db	"glVertexStream3ivATI",0
+_5213:
+	db	"glVertexStream3sATI",0
+_5214:
+	db	"glVertexStream3svATI",0
+_5215:
+	db	"glVertexStream4dATI",0
+_5216:
+	db	"glVertexStream4dvATI",0
+_5217:
+	db	"glVertexStream4fATI",0
+_5218:
+	db	"glVertexStream4fvATI",0
+_5219:
+	db	"glVertexStream4iATI",0
+_5220:
+	db	"glVertexStream4ivATI",0
+_5221:
+	db	"glVertexStream4sATI",0
+_5222:
+	db	"glVertexStream4svATI",0
+_5223:
+	db	"GL_ATI_vertex_streams",0
+_5224:
+	db	"GL_EXT_422_pixels",0
+_5225:
+	db	"GL_EXT_Cg_shader",0
+_5226:
+	db	"GL_EXT_abgr",0
+_5227:
+	db	"GL_EXT_bgra",0
+_5228:
+	db	"glGetUniformBufferSizeEXT",0
+_5229:
+	db	"glGetUniformOffsetEXT",0
+_5230:
+	db	"glUniformBufferEXT",0
+_5231:
+	db	"GL_EXT_bindable_uniform",0
+_5232:
+	db	"glBlendColorEXT",0
+_5233:
+	db	"GL_EXT_blend_color",0
+_5234:
+	db	"glBlendEquationSeparateEXT",0
+_5235:
+	db	"GL_EXT_blend_equation_separate",0
+_5236:
+	db	"glBlendFuncSeparateEXT",0
+_5237:
+	db	"GL_EXT_blend_func_separate",0
+_5238:
+	db	"GL_EXT_blend_logic_op",0
+_5239:
+	db	"glBlendEquationEXT",0
+_5240:
+	db	"GL_EXT_blend_minmax",0
+_5241:
+	db	"GL_EXT_blend_subtract",0
+_5242:
+	db	"GL_EXT_clip_volume_hint",0
+_5243:
+	db	"GL_EXT_cmyka",0
+_5244:
+	db	"glColorSubTableEXT",0
+_5245:
+	db	"glCopyColorSubTableEXT",0
+_5246:
+	db	"GL_EXT_color_subtable",0
+_5247:
+	db	"glLockArraysEXT",0
+_5248:
+	db	"glUnlockArraysEXT",0
+_5249:
+	db	"GL_EXT_compiled_vertex_array",0
+_5250:
+	db	"glConvolutionFilter1DEXT",0
+_5251:
+	db	"glConvolutionFilter2DEXT",0
+_5252:
+	db	"glConvolutionParameterfEXT",0
+_5253:
+	db	"glConvolutionParameterfvEXT",0
+_5254:
+	db	"glConvolutionParameteriEXT",0
+_5255:
+	db	"glConvolutionParameterivEXT",0
+_5256:
+	db	"glCopyConvolutionFilter1DEXT",0
+_5257:
+	db	"glCopyConvolutionFilter2DEXT",0
+_5258:
+	db	"glGetConvolutionFilterEXT",0
+_5259:
+	db	"glGetConvolutionParameterfvEXT",0
+_5260:
+	db	"glGetConvolutionParameterivEXT",0
+_5261:
+	db	"glGetSeparableFilterEXT",0
+_5262:
+	db	"glSeparableFilter2DEXT",0
+_5263:
+	db	"GL_EXT_convolution",0
+_5264:
+	db	"glBinormalPointerEXT",0
+_5265:
+	db	"glTangentPointerEXT",0
+_5266:
+	db	"GL_EXT_coordinate_frame",0
+_5267:
+	db	"glCopyTexImage1DEXT",0
+_5268:
+	db	"glCopyTexImage2DEXT",0
+_5269:
+	db	"(i,i,i,i,i,i,i,i)i",0
+_5270:
+	db	"glCopyTexSubImage1DEXT",0
+_5271:
+	db	"glCopyTexSubImage2DEXT",0
+_5272:
+	db	"glCopyTexSubImage3DEXT",0
+_5273:
+	db	"GL_EXT_copy_texture",0
+_5274:
+	db	"glCullParameterdvEXT",0
+_5275:
+	db	"glCullParameterfvEXT",0
+_5276:
+	db	"GL_EXT_cull_vertex",0
+_5277:
+	db	"glDepthBoundsEXT",0
+_5278:
+	db	"GL_EXT_depth_bounds_test",0
+_5279:
+	db	"glBindMultiTextureEXT",0
+_5280:
+	db	"glCheckNamedFramebufferStatusEXT",0
+_5281:
+	db	"glClientAttribDefaultEXT",0
+_5282:
+	db	"glCompressedMultiTexImage1DEXT",0
+_5283:
+	db	"glCompressedMultiTexImage2DEXT",0
+_5284:
+	db	"glCompressedMultiTexImage3DEXT",0
+_5285:
+	db	"glCompressedMultiTexSubImage1DEXT",0
+_5286:
+	db	"glCompressedMultiTexSubImage2DEXT",0
+_5287:
+	db	"glCompressedMultiTexSubImage3DEXT",0
+_5288:
+	db	"(i,i,i,i,i,i,i,i,i,i,i,*b)i",0
+_5289:
+	db	"glCompressedTextureImage1DEXT",0
+_5290:
+	db	"glCompressedTextureImage2DEXT",0
+_5291:
+	db	"glCompressedTextureImage3DEXT",0
+_5292:
+	db	"glCompressedTextureSubImage1DEXT",0
+_5293:
+	db	"glCompressedTextureSubImage2DEXT",0
+_5294:
+	db	"glCompressedTextureSubImage3DEXT",0
+_5295:
+	db	"glCopyMultiTexImage1DEXT",0
+_5296:
+	db	"glCopyMultiTexImage2DEXT",0
+_5297:
+	db	"glCopyMultiTexSubImage1DEXT",0
+_5298:
+	db	"glCopyMultiTexSubImage2DEXT",0
+_5299:
+	db	"glCopyMultiTexSubImage3DEXT",0
+_5300:
+	db	"glCopyTextureImage1DEXT",0
+_5301:
+	db	"glCopyTextureImage2DEXT",0
+_5302:
+	db	"glCopyTextureSubImage1DEXT",0
+_5303:
+	db	"glCopyTextureSubImage2DEXT",0
+_5304:
+	db	"glCopyTextureSubImage3DEXT",0
+_5305:
+	db	"glDisableClientStateIndexedEXT",0
+_5306:
+	db	"glEnableClientStateIndexedEXT",0
+_5307:
+	db	"glFramebufferDrawBufferEXT",0
+_5308:
+	db	"glFramebufferDrawBuffersEXT",0
+_5309:
+	db	"glFramebufferReadBufferEXT",0
+_5310:
+	db	"glGenerateMultiTexMipmapEXT",0
+_5311:
+	db	"glGenerateTextureMipmapEXT",0
+_5312:
+	db	"glGetCompressedMultiTexImageEXT",0
+_5313:
+	db	"glGetCompressedTextureImageEXT",0
+_5314:
+	db	"glGetDoubleIndexedvEXT",0
+_5315:
+	db	"glGetFloatIndexedvEXT",0
+_5316:
+	db	"glGetFramebufferParameterivEXT",0
+_5317:
+	db	"glGetMultiTexEnvfvEXT",0
+_5318:
+	db	"(i,i,i,*f)i",0
+_5319:
+	db	"glGetMultiTexEnvivEXT",0
+_5320:
+	db	"glGetMultiTexGendvEXT",0
+_5321:
+	db	"(i,i,i,*d)i",0
+_5322:
+	db	"glGetMultiTexGenfvEXT",0
+_5323:
+	db	"glGetMultiTexGenivEXT",0
+_5324:
+	db	"glGetMultiTexImageEXT",0
+_5325:
+	db	"glGetMultiTexLevelParameterfvEXT",0
+_5326:
+	db	"(i,i,i,i,*f)i",0
+_5327:
+	db	"glGetMultiTexLevelParameterivEXT",0
+_5328:
+	db	"(i,i,i,i,*i)i",0
+_5329:
+	db	"glGetMultiTexParameterIivEXT",0
+_5330:
+	db	"glGetMultiTexParameterIuivEXT",0
+_5331:
+	db	"glGetMultiTexParameterfvEXT",0
+_5332:
+	db	"glGetMultiTexParameterivEXT",0
+_5333:
+	db	"glGetNamedBufferParameterivEXT",0
+_5334:
+	db	"glGetNamedBufferPointervEXT",0
+_5335:
+	db	"glGetNamedBufferSubDataEXT",0
+_5336:
+	db	"glGetNamedFramebufferAttachmentParameterivEXT",0
+_5337:
+	db	"glGetNamedProgramLocalParameterIivEXT",0
+_5338:
+	db	"glGetNamedProgramLocalParameterIuivEXT",0
+_5339:
+	db	"glGetNamedProgramLocalParameterdvEXT",0
+_5340:
+	db	"glGetNamedProgramLocalParameterfvEXT",0
+_5341:
+	db	"glGetNamedProgramStringEXT",0
+_5342:
+	db	"glGetNamedProgramivEXT",0
+_5343:
+	db	"glGetNamedRenderbufferParameterivEXT",0
+_5344:
+	db	"glGetPointerIndexedvEXT",0
+_5345:
+	db	"glGetTextureImageEXT",0
+_5346:
+	db	"glGetTextureLevelParameterfvEXT",0
+_5347:
+	db	"glGetTextureLevelParameterivEXT",0
+_5348:
+	db	"glGetTextureParameterIivEXT",0
+_5349:
+	db	"glGetTextureParameterIuivEXT",0
+_5350:
+	db	"glGetTextureParameterfvEXT",0
+_5351:
+	db	"glGetTextureParameterivEXT",0
+_5352:
+	db	"glMapNamedBufferEXT",0
+_5353:
+	db	"glMatrixFrustumEXT",0
+_5354:
+	db	"(i,d,d,d,d,d,d)i",0
+_5355:
+	db	"glMatrixLoadIdentityEXT",0
+_5356:
+	db	"glMatrixLoadTransposedEXT",0
+_5357:
+	db	"glMatrixLoadTransposefEXT",0
+_5358:
+	db	"glMatrixLoaddEXT",0
+_5359:
+	db	"glMatrixLoadfEXT",0
+_5360:
+	db	"glMatrixMultTransposedEXT",0
+_5361:
+	db	"glMatrixMultTransposefEXT",0
+_5362:
+	db	"glMatrixMultdEXT",0
+_5363:
+	db	"glMatrixMultfEXT",0
+_5364:
+	db	"glMatrixOrthoEXT",0
+_5365:
+	db	"glMatrixPopEXT",0
+_5366:
+	db	"glMatrixPushEXT",0
+_5367:
+	db	"glMatrixRotatedEXT",0
+_5368:
+	db	"glMatrixRotatefEXT",0
+_5369:
+	db	"glMatrixScaledEXT",0
+_5370:
+	db	"glMatrixScalefEXT",0
+_5371:
+	db	"glMatrixTranslatedEXT",0
+_5372:
+	db	"glMatrixTranslatefEXT",0
+_5373:
+	db	"glMultiTexBufferEXT",0
+_5374:
+	db	"glMultiTexCoordPointerEXT",0
+_5375:
+	db	"glMultiTexEnvfEXT",0
+_5376:
+	db	"(i,i,i,f)i",0
+_5377:
+	db	"glMultiTexEnvfvEXT",0
+_5378:
+	db	"glMultiTexEnviEXT",0
+_5379:
+	db	"glMultiTexEnvivEXT",0
+_5380:
+	db	"glMultiTexGendEXT",0
+_5381:
+	db	"(i,i,i,d)i",0
+_5382:
+	db	"glMultiTexGendvEXT",0
+_5383:
+	db	"glMultiTexGenfEXT",0
+_5384:
+	db	"glMultiTexGenfvEXT",0
+_5385:
+	db	"glMultiTexGeniEXT",0
+_5386:
+	db	"glMultiTexGenivEXT",0
+_5387:
+	db	"glMultiTexImage1DEXT",0
+_5388:
+	db	"glMultiTexImage2DEXT",0
+_5389:
+	db	"glMultiTexImage3DEXT",0
+_5390:
+	db	"glMultiTexParameterIivEXT",0
+_5391:
+	db	"glMultiTexParameterIuivEXT",0
+_5392:
+	db	"glMultiTexParameterfEXT",0
+_5393:
+	db	"glMultiTexParameterfvEXT",0
+_5394:
+	db	"glMultiTexParameteriEXT",0
+_5395:
+	db	"glMultiTexParameterivEXT",0
+_5396:
+	db	"glMultiTexRenderbufferEXT",0
+_5397:
+	db	"glMultiTexSubImage1DEXT",0
+_5398:
+	db	"glMultiTexSubImage2DEXT",0
+_5399:
+	db	"glMultiTexSubImage3DEXT",0
+_5400:
+	db	"glNamedBufferDataEXT",0
+_5401:
+	db	"glNamedBufferSubDataEXT",0
+_5402:
+	db	"glNamedFramebufferRenderbufferEXT",0
+_5403:
+	db	"glNamedFramebufferTexture1DEXT",0
+_5404:
+	db	"glNamedFramebufferTexture2DEXT",0
+_5405:
+	db	"glNamedFramebufferTexture3DEXT",0
+_5406:
+	db	"glNamedFramebufferTextureEXT",0
+_5407:
+	db	"glNamedFramebufferTextureFaceEXT",0
+_5408:
+	db	"glNamedFramebufferTextureLayerEXT",0
+_5409:
+	db	"glNamedProgramLocalParameter4dEXT",0
+_5410:
+	db	"(i,i,i,d,d,d,d)i",0
+_5411:
+	db	"glNamedProgramLocalParameter4dvEXT",0
+_5412:
+	db	"glNamedProgramLocalParameter4fEXT",0
+_5413:
+	db	"(i,i,i,f,f,f,f)i",0
+_5414:
+	db	"glNamedProgramLocalParameter4fvEXT",0
+_5415:
+	db	"glNamedProgramLocalParameterI4iEXT",0
+_5416:
+	db	"glNamedProgramLocalParameterI4ivEXT",0
+_5417:
+	db	"glNamedProgramLocalParameterI4uiEXT",0
+_5418:
+	db	"glNamedProgramLocalParameterI4uivEXT",0
+_5419:
+	db	"glNamedProgramLocalParameters4fvEXT",0
+_5420:
+	db	"glNamedProgramLocalParametersI4ivEXT",0
+_5421:
+	db	"glNamedProgramLocalParametersI4uivEXT",0
+_5422:
+	db	"glNamedProgramStringEXT",0
+_5423:
+	db	"glNamedRenderbufferStorageEXT",0
+_5424:
+	db	"glNamedRenderbufferStorageMultisampleCoverageEXT",0
+_5425:
+	db	"glNamedRenderbufferStorageMultisampleEXT",0
+_5426:
+	db	"glProgramUniform1fEXT",0
+_5427:
+	db	"glProgramUniform1fvEXT",0
+_5428:
+	db	"glProgramUniform1iEXT",0
+_5429:
+	db	"glProgramUniform1ivEXT",0
+_5430:
+	db	"glProgramUniform1uiEXT",0
+_5431:
+	db	"glProgramUniform1uivEXT",0
+_5432:
+	db	"glProgramUniform2fEXT",0
+_5433:
+	db	"(i,i,f,f)i",0
+_5434:
+	db	"glProgramUniform2fvEXT",0
+_5435:
+	db	"glProgramUniform2iEXT",0
+_5436:
+	db	"glProgramUniform2ivEXT",0
+_5437:
+	db	"glProgramUniform2uiEXT",0
+_5438:
+	db	"glProgramUniform2uivEXT",0
+_5439:
+	db	"glProgramUniform3fEXT",0
+_5440:
+	db	"(i,i,f,f,f)i",0
+_5441:
+	db	"glProgramUniform3fvEXT",0
+_5442:
+	db	"glProgramUniform3iEXT",0
+_5443:
+	db	"glProgramUniform3ivEXT",0
+_5444:
+	db	"glProgramUniform3uiEXT",0
+_5445:
+	db	"glProgramUniform3uivEXT",0
+_5446:
+	db	"glProgramUniform4fEXT",0
+_5447:
+	db	"glProgramUniform4fvEXT",0
+_5448:
+	db	"glProgramUniform4iEXT",0
+_5449:
+	db	"glProgramUniform4ivEXT",0
+_5450:
+	db	"glProgramUniform4uiEXT",0
+_5451:
+	db	"glProgramUniform4uivEXT",0
+_5452:
+	db	"glProgramUniformMatrix2fvEXT",0
+_5453:
+	db	"(i,i,i,b,*f)i",0
+_5454:
+	db	"glProgramUniformMatrix2x3fvEXT",0
+_5455:
+	db	"glProgramUniformMatrix2x4fvEXT",0
+_5456:
+	db	"glProgramUniformMatrix3fvEXT",0
+_5457:
+	db	"glProgramUniformMatrix3x2fvEXT",0
+_5458:
+	db	"glProgramUniformMatrix3x4fvEXT",0
+_5459:
+	db	"glProgramUniformMatrix4fvEXT",0
+_5460:
+	db	"glProgramUniformMatrix4x2fvEXT",0
+_5461:
+	db	"glProgramUniformMatrix4x3fvEXT",0
+_5462:
+	db	"glPushClientAttribDefaultEXT",0
+_5463:
+	db	"glTextureBufferEXT",0
+_5464:
+	db	"glTextureImage1DEXT",0
+_5465:
+	db	"glTextureImage2DEXT",0
+_5466:
+	db	"glTextureImage3DEXT",0
+_5467:
+	db	"glTextureParameterIivEXT",0
+_5468:
+	db	"glTextureParameterIuivEXT",0
+_5469:
+	db	"glTextureParameterfEXT",0
+_5470:
+	db	"glTextureParameterfvEXT",0
+_5471:
+	db	"glTextureParameteriEXT",0
+_5472:
+	db	"glTextureParameterivEXT",0
+_5473:
+	db	"glTextureRenderbufferEXT",0
+_5474:
+	db	"glTextureSubImage1DEXT",0
+_5475:
+	db	"glTextureSubImage2DEXT",0
+_5476:
+	db	"glTextureSubImage3DEXT",0
+_5477:
+	db	"glUnmapNamedBufferEXT",0
+_5478:
+	db	"GL_EXT_direct_state_access",0
+_5479:
+	db	"glColorMaskIndexedEXT",0
+_5480:
+	db	"glDisableIndexedEXT",0
+_5481:
+	db	"glEnableIndexedEXT",0
+_5482:
+	db	"glGetBooleanIndexedvEXT",0
+_5483:
+	db	"glGetIntegerIndexedvEXT",0
+_5484:
+	db	"glIsEnabledIndexedEXT",0
+_5485:
+	db	"GL_EXT_draw_buffers2",0
+_5486:
+	db	"glDrawArraysInstancedEXT",0
+_5487:
+	db	"glDrawElementsInstancedEXT",0
+_5488:
+	db	"GL_EXT_draw_instanced",0
+_5489:
+	db	"glDrawRangeElementsEXT",0
+_5490:
+	db	"GL_EXT_draw_range_elements",0
+_5491:
+	db	"glFogCoordPointerEXT",0
+_5492:
+	db	"glFogCoorddEXT",0
+_5493:
+	db	"glFogCoorddvEXT",0
+_5494:
+	db	"glFogCoordfEXT",0
+_5495:
+	db	"glFogCoordfvEXT",0
+_5496:
+	db	"GL_EXT_fog_coord",0
+_5497:
+	db	"glFragmentColorMaterialEXT",0
+_5498:
+	db	"glFragmentLightModelfEXT",0
+_5499:
+	db	"glFragmentLightModelfvEXT",0
+_5500:
+	db	"glFragmentLightModeliEXT",0
+_5501:
+	db	"glFragmentLightModelivEXT",0
+_5502:
+	db	"glFragmentLightfEXT",0
+_5503:
+	db	"glFragmentLightfvEXT",0
+_5504:
+	db	"glFragmentLightiEXT",0
+_5505:
+	db	"glFragmentLightivEXT",0
+_5506:
+	db	"glFragmentMaterialfEXT",0
+_5507:
+	db	"glFragmentMaterialfvEXT",0
+_5508:
+	db	"glFragmentMaterialiEXT",0
+_5509:
+	db	"glFragmentMaterialivEXT",0
+_5510:
+	db	"glGetFragmentLightfvEXT",0
+_5511:
+	db	"glGetFragmentLightivEXT",0
+_5512:
+	db	"glGetFragmentMaterialfvEXT",0
+_5513:
+	db	"glGetFragmentMaterialivEXT",0
+_5514:
+	db	"glLightEnviEXT",0
+_5515:
+	db	"GL_EXT_fragment_lighting",0
+_5516:
+	db	"glBlitFramebufferEXT",0
+_5517:
+	db	"GL_EXT_framebuffer_blit",0
+_5518:
+	db	"glRenderbufferStorageMultisampleEXT",0
+_5519:
+	db	"GL_EXT_framebuffer_multisample",0
+_5520:
+	db	"glBindFramebufferEXT",0
+_5521:
+	db	"glBindRenderbufferEXT",0
+_5522:
+	db	"glCheckFramebufferStatusEXT",0
+_5523:
+	db	"glDeleteFramebuffersEXT",0
+_5524:
+	db	"glDeleteRenderbuffersEXT",0
+_5525:
+	db	"glFramebufferRenderbufferEXT",0
+_5526:
+	db	"glFramebufferTexture1DEXT",0
+_5527:
+	db	"glFramebufferTexture2DEXT",0
+_5528:
+	db	"glFramebufferTexture3DEXT",0
+_5529:
+	db	"glGenFramebuffersEXT",0
+_5530:
+	db	"glGenRenderbuffersEXT",0
+_5531:
+	db	"glGenerateMipmapEXT",0
+_5532:
+	db	"glGetFramebufferAttachmentParameterivEXT",0
+_5533:
+	db	"glGetRenderbufferParameterivEXT",0
+_5534:
+	db	"glIsFramebufferEXT",0
+_5535:
+	db	"glIsRenderbufferEXT",0
+_5536:
+	db	"glRenderbufferStorageEXT",0
+_5537:
+	db	"GL_EXT_framebuffer_object",0
+_5538:
+	db	"GL_EXT_framebuffer_sRGB",0
+_5539:
+	db	"glFramebufferTextureEXT",0
+_5540:
+	db	"glFramebufferTextureFaceEXT",0
+_5541:
+	db	"glFramebufferTextureLayerEXT",0
+_5542:
+	db	"glProgramParameteriEXT",0
+_5543:
+	db	"GL_EXT_geometry_shader4",0
+_5544:
+	db	"glProgramEnvParameters4fvEXT",0
+_5545:
+	db	"glProgramLocalParameters4fvEXT",0
+_5546:
+	db	"GL_EXT_gpu_program_parameters",0
+_5547:
+	db	"glBindFragDataLocationEXT",0
+_5548:
+	db	"glGetFragDataLocationEXT",0
+_5549:
+	db	"glGetUniformuivEXT",0
+_5550:
+	db	"glGetVertexAttribIivEXT",0
+_5551:
+	db	"glGetVertexAttribIuivEXT",0
+_5552:
+	db	"glUniform1uiEXT",0
+_5553:
+	db	"glUniform1uivEXT",0
+_5554:
+	db	"glUniform2uiEXT",0
+_5555:
+	db	"glUniform2uivEXT",0
+_5556:
+	db	"glUniform3uiEXT",0
+_5557:
+	db	"glUniform3uivEXT",0
+_5558:
+	db	"glUniform4uiEXT",0
+_5559:
+	db	"glUniform4uivEXT",0
+_5560:
+	db	"glVertexAttribI1iEXT",0
+_5561:
+	db	"glVertexAttribI1ivEXT",0
+_5562:
+	db	"glVertexAttribI1uiEXT",0
+_5563:
+	db	"glVertexAttribI1uivEXT",0
+_5564:
+	db	"glVertexAttribI2iEXT",0
+_5565:
+	db	"glVertexAttribI2ivEXT",0
+_5566:
+	db	"glVertexAttribI2uiEXT",0
+_5567:
+	db	"glVertexAttribI2uivEXT",0
+_5568:
+	db	"glVertexAttribI3iEXT",0
+_5569:
+	db	"glVertexAttribI3ivEXT",0
+_5570:
+	db	"glVertexAttribI3uiEXT",0
+_5571:
+	db	"glVertexAttribI3uivEXT",0
+_5572:
+	db	"glVertexAttribI4bvEXT",0
+_5573:
+	db	"glVertexAttribI4iEXT",0
+_5574:
+	db	"glVertexAttribI4ivEXT",0
+_5575:
+	db	"glVertexAttribI4svEXT",0
+_5576:
+	db	"glVertexAttribI4ubvEXT",0
+_5577:
+	db	"glVertexAttribI4uiEXT",0
+_5578:
+	db	"glVertexAttribI4uivEXT",0
+_5579:
+	db	"glVertexAttribI4usvEXT",0
+_5580:
+	db	"glVertexAttribIPointerEXT",0
+_5581:
+	db	"GL_EXT_gpu_shader4",0
+_5582:
+	db	"glGetHistogramEXT",0
+_5583:
+	db	"glGetHistogramParameterfvEXT",0
+_5584:
+	db	"glGetHistogramParameterivEXT",0
+_5585:
+	db	"glGetMinmaxEXT",0
+_5586:
+	db	"glGetMinmaxParameterfvEXT",0
+_5587:
+	db	"glGetMinmaxParameterivEXT",0
+_5588:
+	db	"glHistogramEXT",0
+_5589:
+	db	"glMinmaxEXT",0
+_5590:
+	db	"glResetHistogramEXT",0
+_5591:
+	db	"glResetMinmaxEXT",0
+_5592:
+	db	"GL_EXT_histogram",0
+_5593:
+	db	"GL_EXT_index_array_formats",0
+_5594:
+	db	"glIndexFuncEXT",0
+_5595:
+	db	"GL_EXT_index_func",0
+_5596:
+	db	"glIndexMaterialEXT",0
+_5597:
+	db	"GL_EXT_index_material",0
+_5598:
+	db	"GL_EXT_index_texture",0
+_5599:
+	db	"glApplyTextureEXT",0
+_5600:
+	db	"glTextureLightEXT",0
+_5601:
+	db	"glTextureMaterialEXT",0
+_5602:
+	db	"GL_EXT_light_texture",0
+_5603:
+	db	"GL_EXT_misc_attribute",0
+_5604:
+	db	"glMultiDrawArraysEXT",0
+_5605:
+	db	"glMultiDrawElementsEXT",0
+_5606:
+	db	"GL_EXT_multi_draw_arrays",0
+_5607:
+	db	"glSampleMaskEXT",0
+_5608:
+	db	"glSamplePatternEXT",0
+_5609:
+	db	"GL_EXT_multisample",0
+_5610:
+	db	"GL_EXT_packed_depth_stencil",0
+_5611:
+	db	"GL_EXT_packed_float",0
+_5612:
+	db	"GL_EXT_packed_pixels",0
+_5613:
+	db	"glColorTableEXT",0
+_5614:
+	db	"glGetColorTableEXT",0
+_5615:
+	db	"glGetColorTableParameterfvEXT",0
+_5616:
+	db	"glGetColorTableParameterivEXT",0
+_5617:
+	db	"GL_EXT_paletted_texture",0
+_5618:
+	db	"GL_EXT_pixel_buffer_object",0
+_5619:
+	db	"glGetPixelTransformParameterfvEXT",0
+_5620:
+	db	"glGetPixelTransformParameterivEXT",0
+_5621:
+	db	"glPixelTransformParameterfEXT",0
+_5622:
+	db	"glPixelTransformParameterfvEXT",0
+_5623:
+	db	"glPixelTransformParameteriEXT",0
+_5624:
+	db	"glPixelTransformParameterivEXT",0
+_5625:
+	db	"GL_EXT_pixel_transform",0
+_5626:
+	db	"GL_EXT_pixel_transform_color_table",0
+_5627:
+	db	"glPointParameterfEXT",0
+_5628:
+	db	"glPointParameterfvEXT",0
+_5629:
+	db	"GL_EXT_point_parameters",0
+_5630:
+	db	"glPolygonOffsetEXT",0
+_5631:
+	db	"GL_EXT_polygon_offset",0
+_5632:
+	db	"GL_EXT_rescale_normal",0
+_5633:
+	db	"glBeginSceneEXT",0
+_5634:
+	db	"glEndSceneEXT",0
+_5635:
+	db	"GL_EXT_scene_marker",0
+_5636:
+	db	"glSecondaryColor3bEXT",0
+_5637:
+	db	"glSecondaryColor3bvEXT",0
+_5638:
+	db	"glSecondaryColor3dEXT",0
+_5639:
+	db	"glSecondaryColor3dvEXT",0
+_5640:
+	db	"glSecondaryColor3fEXT",0
+_5641:
+	db	"glSecondaryColor3fvEXT",0
+_5642:
+	db	"glSecondaryColor3iEXT",0
+_5643:
+	db	"glSecondaryColor3ivEXT",0
+_5644:
+	db	"glSecondaryColor3sEXT",0
+_5645:
+	db	"glSecondaryColor3svEXT",0
+_5646:
+	db	"glSecondaryColor3ubEXT",0
+_5647:
+	db	"glSecondaryColor3ubvEXT",0
+_5648:
+	db	"glSecondaryColor3uiEXT",0
+_5649:
+	db	"glSecondaryColor3uivEXT",0
+_5650:
+	db	"glSecondaryColor3usEXT",0
+_5651:
+	db	"glSecondaryColor3usvEXT",0
+_5652:
+	db	"glSecondaryColorPointerEXT",0
+_5653:
+	db	"GL_EXT_secondary_color",0
+_5654:
+	db	"GL_EXT_separate_specular_color",0
+_5655:
+	db	"GL_EXT_shadow_funcs",0
+_5656:
+	db	"GL_EXT_shared_texture_palette",0
+_5657:
+	db	"GL_EXT_stencil_clear_tag",0
+_5658:
+	db	"glActiveStencilFaceEXT",0
+_5659:
+	db	"GL_EXT_stencil_two_side",0
+_5660:
+	db	"GL_EXT_stencil_wrap",0
+_5661:
+	db	"glTexSubImage1DEXT",0
+_5662:
+	db	"glTexSubImage2DEXT",0
+_5663:
+	db	"glTexSubImage3DEXT",0
+_5664:
+	db	"GL_EXT_subtexture",0
+_5665:
+	db	"GL_EXT_texture",0
+_5666:
+	db	"glTexImage3DEXT",0
+_5667:
+	db	"GL_EXT_texture3D",0
+_5668:
+	db	"GL_EXT_texture_array",0
+_5669:
+	db	"glTexBufferEXT",0
+_5670:
+	db	"GL_EXT_texture_buffer_object",0
+_5671:
+	db	"GL_EXT_texture_compression_dxt1",0
+_5672:
+	db	"GL_EXT_texture_compression_latc",0
+_5673:
+	db	"GL_EXT_texture_compression_rgtc",0
+_5674:
+	db	"GL_EXT_texture_compression_s3tc",0
+_5675:
+	db	"GL_EXT_texture_cube_map",0
+_5676:
+	db	"GL_EXT_texture_edge_clamp",0
+_5677:
+	db	"GL_EXT_texture_env",0
+_5678:
+	db	"GL_EXT_texture_env_add",0
+_5679:
+	db	"GL_EXT_texture_env_combine",0
+_5680:
+	db	"GL_EXT_texture_env_dot3",0
+_5681:
+	db	"GL_EXT_texture_filter_anisotropic",0
+_5682:
+	db	"glClearColorIiEXT",0
+_5683:
+	db	"glClearColorIuiEXT",0
+_5684:
+	db	"glGetTexParameterIivEXT",0
+_5685:
+	db	"glGetTexParameterIuivEXT",0
+_5686:
+	db	"glTexParameterIivEXT",0
+_5687:
+	db	"glTexParameterIuivEXT",0
+_5688:
+	db	"GL_EXT_texture_integer",0
+_5689:
+	db	"GL_EXT_texture_lod_bias",0
+_5690:
+	db	"GL_EXT_texture_mirror_clamp",0
+_5691:
+	db	"glAreTexturesResidentEXT",0
+_5692:
+	db	"(i,*i,*b)b",0
+_5693:
+	db	"glBindTextureEXT",0
+_5694:
+	db	"glDeleteTexturesEXT",0
+_5695:
+	db	"glGenTexturesEXT",0
+_5696:
+	db	"glIsTextureEXT",0
+_5697:
+	db	"glPrioritizeTexturesEXT",0
+_5698:
+	db	"(i,*i,*f)i",0
+_5699:
+	db	"GL_EXT_texture_object",0
+_5700:
+	db	"glTextureNormalEXT",0
+_5701:
+	db	"GL_EXT_texture_perturb_normal",0
+_5702:
+	db	"GL_EXT_texture_rectangle",0
+_5703:
+	db	"GL_EXT_texture_sRGB",0
+_5704:
+	db	"GL_EXT_texture_shared_exponent",0
+_5705:
+	db	"GL_EXT_texture_swizzle",0
+_5706:
+	db	"glGetQueryObjecti64vEXT",0
+_5707:
+	db	"(i,i,*l)i",0
+_5708:
+	db	"glGetQueryObjectui64vEXT",0
+_5709:
+	db	"GL_EXT_timer_query",0
+_5710:
+	db	"glBeginTransformFeedbackEXT",0
+_5711:
+	db	"glBindBufferBaseEXT",0
+_5712:
+	db	"glBindBufferOffsetEXT",0
+_5713:
+	db	"glBindBufferRangeEXT",0
+_5714:
+	db	"glEndTransformFeedbackEXT",0
+_5715:
+	db	"glGetTransformFeedbackVaryingEXT",0
+_5716:
+	db	"glTransformFeedbackVaryingsEXT",0
+_5717:
+	db	"(i,i,**b,i)i",0
+_5718:
+	db	"GL_EXT_transform_feedback",0
+_5719:
+	db	"glArrayElementEXT",0
+_5720:
+	db	"glColorPointerEXT",0
+_5721:
+	db	"glDrawArraysEXT",0
+_5722:
+	db	"glEdgeFlagPointerEXT",0
+_5723:
+	db	"glGetPointervEXT",0
+_5724:
+	db	"(i,**b)i",0
+_5725:
+	db	"glIndexPointerEXT",0
+_5726:
+	db	"glNormalPointerEXT",0
+_5727:
+	db	"glTexCoordPointerEXT",0
+_5728:
+	db	"glVertexPointerEXT",0
+_5729:
+	db	"GL_EXT_vertex_array",0
+_5730:
+	db	"GL_EXT_vertex_array_bgra",0
+_5731:
+	db	"glBeginVertexShaderEXT",0
+_5732:
+	db	"glBindLightParameterEXT",0
+_5733:
+	db	"glBindMaterialParameterEXT",0
+_5734:
+	db	"glBindParameterEXT",0
+_5735:
+	db	"glBindTexGenParameterEXT",0
+_5736:
+	db	"glBindTextureUnitParameterEXT",0
+_5737:
+	db	"glBindVertexShaderEXT",0
+_5738:
+	db	"glDeleteVertexShaderEXT",0
+_5739:
+	db	"glDisableVariantClientStateEXT",0
+_5740:
+	db	"glEnableVariantClientStateEXT",0
+_5741:
+	db	"glEndVertexShaderEXT",0
+_5742:
+	db	"glExtractComponentEXT",0
+_5743:
+	db	"glGenSymbolsEXT",0
+_5744:
+	db	"glGenVertexShadersEXT",0
+_5745:
+	db	"glGetInvariantBooleanvEXT",0
+_5746:
+	db	"glGetInvariantFloatvEXT",0
+_5747:
+	db	"glGetInvariantIntegervEXT",0
+_5748:
+	db	"glGetLocalConstantBooleanvEXT",0
+_5749:
+	db	"glGetLocalConstantFloatvEXT",0
+_5750:
+	db	"glGetLocalConstantIntegervEXT",0
+_5751:
+	db	"glGetVariantBooleanvEXT",0
+_5752:
+	db	"glGetVariantFloatvEXT",0
+_5753:
+	db	"glGetVariantIntegervEXT",0
+_5754:
+	db	"glGetVariantPointervEXT",0
+_5755:
+	db	"glInsertComponentEXT",0
+_5756:
+	db	"glIsVariantEnabledEXT",0
+_5757:
+	db	"glSetInvariantEXT",0
+_5758:
+	db	"glSetLocalConstantEXT",0
+_5759:
+	db	"glShaderOp1EXT",0
+_5760:
+	db	"glShaderOp2EXT",0
+_5761:
+	db	"glShaderOp3EXT",0
+_5762:
+	db	"glSwizzleEXT",0
+_5763:
+	db	"glVariantPointerEXT",0
+_5764:
+	db	"glVariantbvEXT",0
+_5765:
+	db	"glVariantdvEXT",0
+_5766:
+	db	"glVariantfvEXT",0
+_5767:
+	db	"glVariantivEXT",0
+_5768:
+	db	"glVariantsvEXT",0
+_5769:
+	db	"glVariantubvEXT",0
+_5770:
+	db	"glVariantuivEXT",0
+_5771:
+	db	"glVariantusvEXT",0
+_5772:
+	db	"glWriteMaskEXT",0
+_5773:
+	db	"GL_EXT_vertex_shader",0
+_5774:
+	db	"glVertexWeightPointerEXT",0
+_5775:
+	db	"glVertexWeightfEXT",0
+_5776:
+	db	"glVertexWeightfvEXT",0
+_5777:
+	db	"GL_EXT_vertex_weighting",0
+_5778:
+	db	"glFrameTerminatorGREMEDY",0
+_5779:
+	db	"GL_GREMEDY_frame_terminator",0
+_5780:
+	db	"glStringMarkerGREMEDY",0
+_5781:
+	db	"GL_GREMEDY_string_marker",0
+_5782:
+	db	"GL_HP_convolution_border_modes",0
+_5783:
+	db	"glGetImageTransformParameterfvHP",0
+_5784:
+	db	"glGetImageTransformParameterivHP",0
+_5785:
+	db	"glImageTransformParameterfHP",0
+_5786:
+	db	"glImageTransformParameterfvHP",0
+_5787:
+	db	"glImageTransformParameteriHP",0
+_5788:
+	db	"glImageTransformParameterivHP",0
+_5789:
+	db	"GL_HP_image_transform",0
+_5790:
+	db	"GL_HP_occlusion_test",0
+_5791:
+	db	"GL_HP_texture_lighting",0
+_5792:
+	db	"GL_IBM_cull_vertex",0
+_5793:
+	db	"glMultiModeDrawArraysIBM",0
+_5794:
+	db	"(*i,*i,*i,i,i)i",0
+_5795:
+	db	"glMultiModeDrawElementsIBM",0
+_5796:
+	db	"(*i,*i,i,**b,i,i)i",0
+_5797:
+	db	"GL_IBM_multimode_draw_arrays",0
+_5798:
+	db	"GL_IBM_rasterpos_clip",0
+_5799:
+	db	"GL_IBM_static_data",0
+_5800:
+	db	"GL_IBM_texture_mirrored_repeat",0
+_5801:
+	db	"glColorPointerListIBM",0
+_5802:
+	db	"(i,i,i,**b,i)i",0
+_5803:
+	db	"glEdgeFlagPointerListIBM",0
+_5804:
+	db	"(i,**b,i)i",0
+_5805:
+	db	"glFogCoordPointerListIBM",0
+_5806:
+	db	"glIndexPointerListIBM",0
+_5807:
+	db	"glNormalPointerListIBM",0
+_5808:
+	db	"glSecondaryColorPointerListIBM",0
+_5809:
+	db	"glTexCoordPointerListIBM",0
+_5810:
+	db	"glVertexPointerListIBM",0
+_5811:
+	db	"GL_IBM_vertex_array_lists",0
+_5812:
+	db	"GL_INGR_color_clamp",0
+_5813:
+	db	"GL_INGR_interlace_read",0
+_5814:
+	db	"glColorPointervINTEL",0
+_5815:
+	db	"glNormalPointervINTEL",0
+_5816:
+	db	"glTexCoordPointervINTEL",0
+_5817:
+	db	"glVertexPointervINTEL",0
+_5818:
+	db	"GL_INTEL_parallel_arrays",0
+_5819:
+	db	"glTexScissorFuncINTEL",0
+_5820:
+	db	"glTexScissorINTEL",0
+_5821:
+	db	"GL_INTEL_texture_scissor",0
+_5822:
+	db	"glBufferRegionEnabledEXT",0
+_5823:
+	db	"glDeleteBufferRegionEXT",0
+_5824:
+	db	"glDrawBufferRegionEXT",0
+_5825:
+	db	"glNewBufferRegionEXT",0
+_5826:
+	db	"glReadBufferRegionEXT",0
+_5827:
+	db	"GL_KTX_buffer_region",0
+_5828:
+	db	"GL_MESAX_texture_stack",0
+_5829:
+	db	"GL_MESA_pack_invert",0
+_5830:
+	db	"glResizeBuffersMESA",0
+_5831:
+	db	"GL_MESA_resize_buffers",0
+_5832:
+	db	"glWindowPos2dMESA",0
+_5833:
+	db	"glWindowPos2dvMESA",0
+_5834:
+	db	"glWindowPos2fMESA",0
+_5835:
+	db	"glWindowPos2fvMESA",0
+_5836:
+	db	"glWindowPos2iMESA",0
+_5837:
+	db	"glWindowPos2ivMESA",0
+_5838:
+	db	"glWindowPos2sMESA",0
+_5839:
+	db	"glWindowPos2svMESA",0
+_5840:
+	db	"glWindowPos3dMESA",0
+_5841:
+	db	"glWindowPos3dvMESA",0
+_5842:
+	db	"glWindowPos3fMESA",0
+_5843:
+	db	"glWindowPos3fvMESA",0
+_5844:
+	db	"glWindowPos3iMESA",0
+_5845:
+	db	"glWindowPos3ivMESA",0
+_5846:
+	db	"glWindowPos3sMESA",0
+_5847:
+	db	"glWindowPos3svMESA",0
+_5848:
+	db	"glWindowPos4dMESA",0
+_5849:
+	db	"(d,d,d,d)i",0
+_5850:
+	db	"glWindowPos4dvMESA",0
+_5851:
+	db	"glWindowPos4fMESA",0
+_5852:
+	db	"glWindowPos4fvMESA",0
+_5853:
+	db	"glWindowPos4iMESA",0
+_5854:
+	db	"glWindowPos4ivMESA",0
+_5855:
+	db	"glWindowPos4sMESA",0
+_5856:
+	db	"(s,s,s,s)i",0
+_5857:
+	db	"glWindowPos4svMESA",0
+_5858:
+	db	"GL_MESA_window_pos",0
+_5859:
+	db	"GL_MESA_ycbcr_texture",0
+_5860:
+	db	"GL_NV_blend_square",0
+_5861:
+	db	"glBeginConditionalRenderNV",0
+_5862:
+	db	"glEndConditionalRenderNV",0
+_5863:
+	db	"GL_NV_conditional_render",0
+_5864:
+	db	"GL_NV_copy_depth_to_color",0
+_5865:
+	db	"glClearDepthdNV",0
+_5866:
+	db	"glDepthBoundsdNV",0
+_5867:
+	db	"glDepthRangedNV",0
+_5868:
+	db	"GL_NV_depth_buffer_float",0
+_5869:
+	db	"GL_NV_depth_clamp",0
+_5870:
+	db	"GL_NV_depth_range_unclamped",0
+_5871:
+	db	"glEvalMapsNV",0
+_5872:
+	db	"glGetMapAttribParameterfvNV",0
+_5873:
+	db	"glGetMapAttribParameterivNV",0
+_5874:
+	db	"glGetMapControlPointsNV",0
+_5875:
+	db	"(i,i,i,i,i,b,*b)i",0
+_5876:
+	db	"glGetMapParameterfvNV",0
+_5877:
+	db	"glGetMapParameterivNV",0
+_5878:
+	db	"glMapControlPointsNV",0
+_5879:
+	db	"(i,i,i,i,i,i,i,b,*b)i",0
+_5880:
+	db	"glMapParameterfvNV",0
+_5881:
+	db	"glMapParameterivNV",0
+_5882:
+	db	"GL_NV_evaluators",0
+_5883:
+	db	"glGetMultisamplefvNV",0
+_5884:
+	db	"glSampleMaskIndexedNV",0
+_5885:
+	db	"glTexRenderbufferNV",0
+_5886:
+	db	"GL_NV_explicit_multisample",0
+_5887:
+	db	"glDeleteFencesNV",0
+_5888:
+	db	"glFinishFenceNV",0
+_5889:
+	db	"glGenFencesNV",0
+_5890:
+	db	"glGetFenceivNV",0
+_5891:
+	db	"glIsFenceNV",0
+_5892:
+	db	"glSetFenceNV",0
+_5893:
+	db	"glTestFenceNV",0
+_5894:
+	db	"GL_NV_fence",0
+_5895:
+	db	"GL_NV_float_buffer",0
+_5896:
+	db	"GL_NV_fog_distance",0
+_5897:
+	db	"glGetProgramNamedParameterdvNV",0
+_5898:
+	db	"(i,i,*b,*d)i",0
+_5899:
+	db	"glGetProgramNamedParameterfvNV",0
+_5900:
+	db	"(i,i,*b,*f)i",0
+_5901:
+	db	"glProgramNamedParameter4dNV",0
+_5902:
+	db	"(i,i,*b,d,d,d,d)i",0
+_5903:
+	db	"glProgramNamedParameter4dvNV",0
+_5904:
+	db	"glProgramNamedParameter4fNV",0
+_5905:
+	db	"(i,i,*b,f,f,f,f)i",0
+_5906:
+	db	"glProgramNamedParameter4fvNV",0
+_5907:
+	db	"GL_NV_fragment_program",0
+_5908:
+	db	"GL_NV_fragment_program2",0
+_5909:
+	db	"GL_NV_fragment_program4",0
+_5910:
+	db	"GL_NV_fragment_program_option",0
+_5911:
+	db	"glRenderbufferStorageMultisampleCoverageNV",0
+_5912:
+	db	"GL_NV_framebuffer_multisample_coverage",0
+_5913:
+	db	"glProgramVertexLimitNV",0
+_5914:
+	db	"GL_NV_geometry_program4",0
+_5915:
+	db	"GL_NV_geometry_shader4",0
+_5916:
+	db	"glProgramEnvParameterI4iNV",0
+_5917:
+	db	"glProgramEnvParameterI4ivNV",0
+_5918:
+	db	"glProgramEnvParameterI4uiNV",0
+_5919:
+	db	"glProgramEnvParameterI4uivNV",0
+_5920:
+	db	"glProgramEnvParametersI4ivNV",0
+_5921:
+	db	"glProgramEnvParametersI4uivNV",0
+_5922:
+	db	"glProgramLocalParameterI4iNV",0
+_5923:
+	db	"glProgramLocalParameterI4ivNV",0
+_5924:
+	db	"glProgramLocalParameterI4uiNV",0
+_5925:
+	db	"glProgramLocalParameterI4uivNV",0
+_5926:
+	db	"glProgramLocalParametersI4ivNV",0
+_5927:
+	db	"glProgramLocalParametersI4uivNV",0
+_5928:
+	db	"GL_NV_gpu_program4",0
+_5929:
+	db	"glColor3hNV",0
+_5930:
+	db	"glColor3hvNV",0
+_5931:
+	db	"glColor4hNV",0
+_5932:
+	db	"glColor4hvNV",0
+_5933:
+	db	"glFogCoordhNV",0
+_5934:
+	db	"(s)i",0
+_5935:
+	db	"glFogCoordhvNV",0
+_5936:
+	db	"glMultiTexCoord1hNV",0
+_5937:
+	db	"glMultiTexCoord1hvNV",0
+_5938:
+	db	"glMultiTexCoord2hNV",0
+_5939:
+	db	"glMultiTexCoord2hvNV",0
+_5940:
+	db	"glMultiTexCoord3hNV",0
+_5941:
+	db	"glMultiTexCoord3hvNV",0
+_5942:
+	db	"glMultiTexCoord4hNV",0
+_5943:
+	db	"glMultiTexCoord4hvNV",0
+_5944:
+	db	"glNormal3hNV",0
+_5945:
+	db	"glNormal3hvNV",0
+_5946:
+	db	"glSecondaryColor3hNV",0
+_5947:
+	db	"glSecondaryColor3hvNV",0
+_5948:
+	db	"glTexCoord1hNV",0
+_5949:
+	db	"glTexCoord1hvNV",0
+_5950:
+	db	"glTexCoord2hNV",0
+_5951:
+	db	"glTexCoord2hvNV",0
+_5952:
+	db	"glTexCoord3hNV",0
+_5953:
+	db	"glTexCoord3hvNV",0
+_5954:
+	db	"glTexCoord4hNV",0
+_5955:
+	db	"glTexCoord4hvNV",0
+_5956:
+	db	"glVertex2hNV",0
+_5957:
+	db	"glVertex2hvNV",0
+_5958:
+	db	"glVertex3hNV",0
+_5959:
+	db	"glVertex3hvNV",0
+_5960:
+	db	"glVertex4hNV",0
+_5961:
+	db	"glVertex4hvNV",0
+_5962:
+	db	"glVertexAttrib1hNV",0
+_5963:
+	db	"glVertexAttrib1hvNV",0
+_5964:
+	db	"glVertexAttrib2hNV",0
+_5965:
+	db	"glVertexAttrib2hvNV",0
+_5966:
+	db	"glVertexAttrib3hNV",0
+_5967:
+	db	"glVertexAttrib3hvNV",0
+_5968:
+	db	"glVertexAttrib4hNV",0
+_5969:
+	db	"glVertexAttrib4hvNV",0
+_5970:
+	db	"glVertexAttribs1hvNV",0
+_5971:
+	db	"(i,i,*s)i",0
+_5972:
+	db	"glVertexAttribs2hvNV",0
+_5973:
+	db	"glVertexAttribs3hvNV",0
+_5974:
+	db	"glVertexAttribs4hvNV",0
+_5975:
+	db	"glVertexWeighthNV",0
+_5976:
+	db	"glVertexWeighthvNV",0
+_5977:
+	db	"GL_NV_half_float",0
+_5978:
+	db	"GL_NV_light_max_exponent",0
+_5979:
+	db	"GL_NV_multisample_filter_hint",0
+_5980:
+	db	"glBeginOcclusionQueryNV",0
+_5981:
+	db	"glDeleteOcclusionQueriesNV",0
+_5982:
+	db	"glEndOcclusionQueryNV",0
+_5983:
+	db	"glGenOcclusionQueriesNV",0
+_5984:
+	db	"glGetOcclusionQueryivNV",0
+_5985:
+	db	"glGetOcclusionQueryuivNV",0
+_5986:
+	db	"glIsOcclusionQueryNV",0
+_5987:
+	db	"GL_NV_occlusion_query",0
+_5988:
+	db	"GL_NV_packed_depth_stencil",0
+_5989:
+	db	"glProgramBufferParametersIivNV",0
+_5990:
+	db	"glProgramBufferParametersIuivNV",0
+_5991:
+	db	"glProgramBufferParametersfvNV",0
+_5992:
+	db	"GL_NV_parameter_buffer_object",0
+_5993:
+	db	"glFlushPixelDataRangeNV",0
+_5994:
+	db	"glPixelDataRangeNV",0
+_5995:
+	db	"GL_NV_pixel_data_range",0
+_5996:
+	db	"glPointParameteriNV",0
+_5997:
+	db	"glPointParameterivNV",0
+_5998:
+	db	"GL_NV_point_sprite",0
+_5999:
+	db	"glGetVideoi64vNV",0
+_6000:
+	db	"glGetVideoivNV",0
+_6001:
+	db	"glGetVideoui64vNV",0
+_6002:
+	db	"glGetVideouivNV",0
+_6003:
+	db	"glPresentFrameDualFillNV",0
+_6004:
+	db	"(i,l,i,i,i,i,i,i,i,i,i,i,i)i",0
+_6005:
+	db	"glPresentFrameKeyedNV",0
+_6006:
+	db	"(i,l,i,i,i,i,i,i,i,i,i)i",0
+_6007:
+	db	"glVideoParameterivNV",0
+_6008:
+	db	"GL_NV_present_video",0
+_6009:
+	db	"glPrimitiveRestartIndexNV",0
+_6010:
+	db	"glPrimitiveRestartNV",0
+_6011:
+	db	"GL_NV_primitive_restart",0
+_6012:
+	db	"glCombinerInputNV",0
+_6013:
+	db	"glCombinerOutputNV",0
+_6014:
+	db	"(i,i,i,i,i,i,i,b,b,b)i",0
+_6015:
+	db	"glCombinerParameterfNV",0
+_6016:
+	db	"glCombinerParameterfvNV",0
+_6017:
+	db	"glCombinerParameteriNV",0
+_6018:
+	db	"glCombinerParameterivNV",0
+_6019:
+	db	"glFinalCombinerInputNV",0
+_6020:
+	db	"glGetCombinerInputParameterfvNV",0
+_6021:
+	db	"glGetCombinerInputParameterivNV",0
+_6022:
+	db	"glGetCombinerOutputParameterfvNV",0
+_6023:
+	db	"glGetCombinerOutputParameterivNV",0
+_6024:
+	db	"glGetFinalCombinerInputParameterfvNV",0
+_6025:
+	db	"glGetFinalCombinerInputParameterivNV",0
+_6026:
+	db	"GL_NV_register_combiners",0
+_6027:
+	db	"glCombinerStageParameterfvNV",0
+_6028:
+	db	"glGetCombinerStageParameterfvNV",0
+_6029:
+	db	"GL_NV_register_combiners2",0
+_6030:
+	db	"GL_NV_texgen_emboss",0
+_6031:
+	db	"GL_NV_texgen_reflection",0
+_6032:
+	db	"GL_NV_texture_compression_vtc",0
+_6033:
+	db	"GL_NV_texture_env_combine4",0
+_6034:
+	db	"GL_NV_texture_expand_normal",0
+_6035:
+	db	"GL_NV_texture_rectangle",0
+_6036:
+	db	"GL_NV_texture_shader",0
+_6037:
+	db	"GL_NV_texture_shader2",0
+_6038:
+	db	"GL_NV_texture_shader3",0
+_6039:
+	db	"glActiveVaryingNV",0
+_6040:
+	db	"glBeginTransformFeedbackNV",0
+_6041:
+	db	"glBindBufferBaseNV",0
+_6042:
+	db	"glBindBufferOffsetNV",0
+_6043:
+	db	"glBindBufferRangeNV",0
+_6044:
+	db	"glEndTransformFeedbackNV",0
+_6045:
+	db	"glGetActiveVaryingNV",0
+_6046:
+	db	"glGetTransformFeedbackVaryingNV",0
+_6047:
+	db	"glGetVaryingLocationNV",0
+_6048:
+	db	"glTransformFeedbackAttribsNV",0
+_6049:
+	db	"(i,*i,i)i",0
+_6050:
+	db	"glTransformFeedbackVaryingsNV",0
+_6051:
+	db	"GL_NV_transform_feedback",0
+_6052:
+	db	"glFlushVertexArrayRangeNV",0
+_6053:
+	db	"glVertexArrayRangeNV",0
+_6054:
+	db	"GL_NV_vertex_array_range",0
+_6055:
+	db	"GL_NV_vertex_array_range2",0
+_6056:
+	db	"glAreProgramsResidentNV",0
+_6057:
+	db	"glBindProgramNV",0
+_6058:
+	db	"glDeleteProgramsNV",0
+_6059:
+	db	"glExecuteProgramNV",0
+_6060:
+	db	"glGenProgramsNV",0
+_6061:
+	db	"glGetProgramParameterdvNV",0
+_6062:
+	db	"glGetProgramParameterfvNV",0
+_6063:
+	db	"glGetProgramStringNV",0
+_6064:
+	db	"glGetProgramivNV",0
+_6065:
+	db	"glGetTrackMatrixivNV",0
+_6066:
+	db	"glGetVertexAttribPointervNV",0
+_6067:
+	db	"glGetVertexAttribdvNV",0
+_6068:
+	db	"glGetVertexAttribfvNV",0
+_6069:
+	db	"glGetVertexAttribivNV",0
+_6070:
+	db	"glIsProgramNV",0
+_6071:
+	db	"glLoadProgramNV",0
+_6072:
+	db	"glProgramParameter4dNV",0
+_6073:
+	db	"glProgramParameter4dvNV",0
+_6074:
+	db	"glProgramParameter4fNV",0
+_6075:
+	db	"glProgramParameter4fvNV",0
+_6076:
+	db	"glProgramParameters4dvNV",0
+_6077:
+	db	"glProgramParameters4fvNV",0
+_6078:
+	db	"glRequestResidentProgramsNV",0
+_6079:
+	db	"glTrackMatrixNV",0
+_6080:
+	db	"glVertexAttrib1dNV",0
+_6081:
+	db	"glVertexAttrib1dvNV",0
+_6082:
+	db	"glVertexAttrib1fNV",0
+_6083:
+	db	"glVertexAttrib1fvNV",0
+_6084:
+	db	"glVertexAttrib1sNV",0
+_6085:
+	db	"glVertexAttrib1svNV",0
+_6086:
+	db	"glVertexAttrib2dNV",0
+_6087:
+	db	"glVertexAttrib2dvNV",0
+_6088:
+	db	"glVertexAttrib2fNV",0
+_6089:
+	db	"glVertexAttrib2fvNV",0
+_6090:
+	db	"glVertexAttrib2sNV",0
+_6091:
+	db	"glVertexAttrib2svNV",0
+_6092:
+	db	"glVertexAttrib3dNV",0
+_6093:
+	db	"glVertexAttrib3dvNV",0
+_6094:
+	db	"glVertexAttrib3fNV",0
+_6095:
+	db	"glVertexAttrib3fvNV",0
+_6096:
+	db	"glVertexAttrib3sNV",0
+_6097:
+	db	"glVertexAttrib3svNV",0
+_6098:
+	db	"glVertexAttrib4dNV",0
+_6099:
+	db	"glVertexAttrib4dvNV",0
+_6100:
+	db	"glVertexAttrib4fNV",0
+_6101:
+	db	"glVertexAttrib4fvNV",0
+_6102:
+	db	"glVertexAttrib4sNV",0
+_6103:
+	db	"glVertexAttrib4svNV",0
+_6104:
+	db	"glVertexAttrib4ubNV",0
+_6105:
+	db	"glVertexAttrib4ubvNV",0
+_6106:
+	db	"glVertexAttribPointerNV",0
+_6107:
+	db	"glVertexAttribs1dvNV",0
+_6108:
+	db	"glVertexAttribs1fvNV",0
+_6109:
+	db	"glVertexAttribs1svNV",0
+_6110:
+	db	"glVertexAttribs2dvNV",0
+_6111:
+	db	"glVertexAttribs2fvNV",0
+_6112:
+	db	"glVertexAttribs2svNV",0
+_6113:
+	db	"glVertexAttribs3dvNV",0
+_6114:
+	db	"glVertexAttribs3fvNV",0
+_6115:
+	db	"glVertexAttribs3svNV",0
+_6116:
+	db	"glVertexAttribs4dvNV",0
+_6117:
+	db	"glVertexAttribs4fvNV",0
+_6118:
+	db	"glVertexAttribs4svNV",0
+_6119:
+	db	"glVertexAttribs4ubvNV",0
+_6120:
+	db	"GL_NV_vertex_program",0
+_6121:
+	db	"GL_NV_vertex_program1_1",0
+_6122:
+	db	"GL_NV_vertex_program2",0
+_6123:
+	db	"GL_NV_vertex_program2_option",0
+_6124:
+	db	"GL_NV_vertex_program3",0
+_6125:
+	db	"GL_NV_vertex_program4",0
+_6126:
+	db	"GL_OES_byte_coordinates",0
+_6127:
+	db	"GL_OES_compressed_paletted_texture",0
+_6128:
+	db	"GL_OES_read_format",0
+_6129:
+	db	"glClearDepthfOES",0
+_6130:
+	db	"glClipPlanefOES",0
+_6131:
+	db	"glDepthRangefOES",0
+_6132:
+	db	"glFrustumfOES",0
+_6133:
+	db	"(f,f,f,f,f,f)i",0
+_6134:
+	db	"glGetClipPlanefOES",0
+_6135:
+	db	"glOrthofOES",0
+_6136:
+	db	"GL_OES_single_precision",0
+_6137:
+	db	"GL_OML_interlace",0
+_6138:
+	db	"GL_OML_resample",0
+_6139:
+	db	"GL_OML_subsample",0
+_6140:
+	db	"GL_PGI_misc_hints",0
+_6141:
+	db	"GL_PGI_vertex_hints",0
+_6142:
+	db	"GL_REND_screen_coordinates",0
+_6143:
+	db	"GL_S3_s3tc",0
+_6144:
+	db	"GL_SGIS_color_range",0
+_6145:
+	db	"glDetailTexFuncSGIS",0
+_6146:
+	db	"glGetDetailTexFuncSGIS",0
+_6147:
+	db	"GL_SGIS_detail_texture",0
+_6148:
+	db	"glFogFuncSGIS",0
+_6149:
+	db	"glGetFogFuncSGIS",0
+_6150:
+	db	"GL_SGIS_fog_function",0
+_6151:
+	db	"GL_SGIS_generate_mipmap",0
+_6152:
+	db	"glSampleMaskSGIS",0
+_6153:
+	db	"glSamplePatternSGIS",0
+_6154:
+	db	"GL_SGIS_multisample",0
+_6155:
+	db	"GL_SGIS_pixel_texture",0
+_6156:
+	db	"GL_SGIS_point_line_texgen",0
+_6157:
+	db	"glGetSharpenTexFuncSGIS",0
+_6158:
+	db	"glSharpenTexFuncSGIS",0
+_6159:
+	db	"GL_SGIS_sharpen_texture",0
+_6160:
+	db	"glTexImage4DSGIS",0
+_6161:
+	db	"glTexSubImage4DSGIS",0
+_6162:
+	db	"(i,i,i,i,i,i,i,i,i,i,i,i,*b)i",0
+_6163:
+	db	"GL_SGIS_texture4D",0
+_6164:
+	db	"GL_SGIS_texture_border_clamp",0
+_6165:
+	db	"GL_SGIS_texture_edge_clamp",0
+_6166:
+	db	"glGetTexFilterFuncSGIS",0
+_6167:
+	db	"glTexFilterFuncSGIS",0
+_6168:
+	db	"GL_SGIS_texture_filter4",0
+_6169:
+	db	"GL_SGIS_texture_lod",0
+_6170:
+	db	"GL_SGIS_texture_select",0
+_6171:
+	db	"glAsyncMarkerSGIX",0
+_6172:
+	db	"glDeleteAsyncMarkersSGIX",0
+_6173:
+	db	"glFinishAsyncSGIX",0
+_6174:
+	db	"glGenAsyncMarkersSGIX",0
+_6175:
+	db	"glIsAsyncMarkerSGIX",0
+_6176:
+	db	"glPollAsyncSGIX",0
+_6177:
+	db	"GL_SGIX_async",0
+_6178:
+	db	"GL_SGIX_async_histogram",0
+_6179:
+	db	"GL_SGIX_async_pixel",0
+_6180:
+	db	"GL_SGIX_blend_alpha_minmax",0
+_6181:
+	db	"GL_SGIX_clipmap",0
+_6182:
+	db	"GL_SGIX_convolution_accuracy",0
+_6183:
+	db	"GL_SGIX_depth_texture",0
+_6184:
+	db	"glFlushRasterSGIX",0
+_6185:
+	db	"GL_SGIX_flush_raster",0
+_6186:
+	db	"GL_SGIX_fog_offset",0
+_6187:
+	db	"glTextureFogSGIX",0
+_6188:
+	db	"GL_SGIX_fog_texture",0
+_6189:
+	db	"glFragmentColorMaterialSGIX",0
+_6190:
+	db	"glFragmentLightModelfSGIX",0
+_6191:
+	db	"glFragmentLightModelfvSGIX",0
+_6192:
+	db	"glFragmentLightModeliSGIX",0
+_6193:
+	db	"glFragmentLightModelivSGIX",0
+_6194:
+	db	"glFragmentLightfSGIX",0
+_6195:
+	db	"glFragmentLightfvSGIX",0
+_6196:
+	db	"glFragmentLightiSGIX",0
+_6197:
+	db	"glFragmentLightivSGIX",0
+_6198:
+	db	"glFragmentMaterialfSGIX",0
+_6199:
+	db	"glFragmentMaterialfvSGIX",0
+_6200:
+	db	"glFragmentMaterialiSGIX",0
+_6201:
+	db	"glFragmentMaterialivSGIX",0
+_6202:
+	db	"glGetFragmentLightfvSGIX",0
+_6203:
+	db	"glGetFragmentLightivSGIX",0
+_6204:
+	db	"glGetFragmentMaterialfvSGIX",0
+_6205:
+	db	"glGetFragmentMaterialivSGIX",0
+_6206:
+	db	"GL_SGIX_fragment_specular_lighting",0
+_6207:
+	db	"glFrameZoomSGIX",0
+_6208:
+	db	"GL_SGIX_framezoom",0
+_6209:
+	db	"GL_SGIX_interlace",0
+_6210:
+	db	"GL_SGIX_ir_instrument1",0
+_6211:
+	db	"GL_SGIX_list_priority",0
+_6212:
+	db	"glPixelTexGenSGIX",0
+_6213:
+	db	"GL_SGIX_pixel_texture",0
+_6214:
+	db	"GL_SGIX_pixel_texture_bits",0
+_6215:
+	db	"glReferencePlaneSGIX",0
+_6216:
+	db	"GL_SGIX_reference_plane",0
+_6217:
+	db	"GL_SGIX_resample",0
+_6218:
+	db	"GL_SGIX_shadow",0
+_6219:
+	db	"GL_SGIX_shadow_ambient",0
+_6220:
+	db	"glSpriteParameterfSGIX",0
+_6221:
+	db	"glSpriteParameterfvSGIX",0
+_6222:
+	db	"glSpriteParameteriSGIX",0
+_6223:
+	db	"glSpriteParameterivSGIX",0
+_6224:
+	db	"GL_SGIX_sprite",0
+_6225:
+	db	"glTagSampleBufferSGIX",0
+_6226:
+	db	"GL_SGIX_tag_sample_buffer",0
+_6227:
+	db	"GL_SGIX_texture_add_env",0
+_6228:
+	db	"GL_SGIX_texture_coordinate_clamp",0
+_6229:
+	db	"GL_SGIX_texture_lod_bias",0
+_6230:
+	db	"GL_SGIX_texture_multi_buffer",0
+_6231:
+	db	"GL_SGIX_texture_range",0
+_6232:
+	db	"GL_SGIX_texture_scale_bias",0
+_6233:
+	db	"GL_SGIX_vertex_preclip",0
+_6234:
+	db	"GL_SGIX_vertex_preclip_hint",0
+_6235:
+	db	"GL_SGIX_ycrcb",0
+_6236:
+	db	"GL_SGI_color_matrix",0
+_6237:
+	db	"glColorTableParameterfvSGI",0
+_6238:
+	db	"glColorTableParameterivSGI",0
+_6239:
+	db	"glColorTableSGI",0
+_6240:
+	db	"glCopyColorTableSGI",0
+_6241:
+	db	"glGetColorTableParameterfvSGI",0
+_6242:
+	db	"glGetColorTableParameterivSGI",0
+_6243:
+	db	"glGetColorTableSGI",0
+_6244:
+	db	"GL_SGI_color_table",0
+_6245:
+	db	"GL_SGI_texture_color_table",0
+_6246:
+	db	"glFinishTextureSUNX",0
+_6247:
+	db	"GL_SUNX_constant_data",0
+_6248:
+	db	"GL_SUN_convolution_border_modes",0
+_6249:
+	db	"glGlobalAlphaFactorbSUN",0
+_6250:
+	db	"(b)i",0
+_6251:
+	db	"glGlobalAlphaFactordSUN",0
+_6252:
+	db	"glGlobalAlphaFactorfSUN",0
+_6253:
+	db	"glGlobalAlphaFactoriSUN",0
+_6254:
+	db	"glGlobalAlphaFactorsSUN",0
+_6255:
+	db	"glGlobalAlphaFactorubSUN",0
+_6256:
+	db	"glGlobalAlphaFactoruiSUN",0
+_6257:
+	db	"glGlobalAlphaFactorusSUN",0
+_6258:
+	db	"GL_SUN_global_alpha",0
+_6259:
+	db	"GL_SUN_mesh_array",0
+_6260:
+	db	"glReadVideoPixelsSUN",0
+_6261:
+	db	"GL_SUN_read_video_pixels",0
+_6262:
+	db	"GL_SUN_slice_accum",0
+_6263:
+	db	"glReplacementCodePointerSUN",0
+_6264:
+	db	"glReplacementCodeubSUN",0
+_6265:
+	db	"glReplacementCodeubvSUN",0
+_6266:
+	db	"glReplacementCodeuiSUN",0
+_6267:
+	db	"glReplacementCodeuivSUN",0
+_6268:
+	db	"glReplacementCodeusSUN",0
+_6269:
+	db	"glReplacementCodeusvSUN",0
+_6270:
+	db	"GL_SUN_triangle_list",0
+_6271:
+	db	"glColor3fVertex3fSUN",0
+_6272:
+	db	"glColor3fVertex3fvSUN",0
+_6273:
+	db	"(*f,*f)i",0
+_6274:
+	db	"glColor4fNormal3fVertex3fSUN",0
+_6275:
+	db	"(f,f,f,f,f,f,f,f,f,f)i",0
+_6276:
+	db	"glColor4fNormal3fVertex3fvSUN",0
+_6277:
+	db	"(*f,*f,*f)i",0
+_6278:
+	db	"glColor4ubVertex2fSUN",0
+_6279:
+	db	"(b,b,b,b,f,f)i",0
+_6280:
+	db	"glColor4ubVertex2fvSUN",0
+_6281:
+	db	"(*b,*f)i",0
+_6282:
+	db	"glColor4ubVertex3fSUN",0
+_6283:
+	db	"(b,b,b,b,f,f,f)i",0
+_6284:
+	db	"glColor4ubVertex3fvSUN",0
+_6285:
+	db	"glNormal3fVertex3fSUN",0
+_6286:
+	db	"glNormal3fVertex3fvSUN",0
+_6287:
+	db	"glReplacementCodeuiColor3fVertex3fSUN",0
+_6288:
+	db	"(i,f,f,f,f,f,f)i",0
+_6289:
+	db	"glReplacementCodeuiColor3fVertex3fvSUN",0
+_6290:
+	db	"(*i,*f,*f)i",0
+_6291:
+	db	"glReplacementCodeuiColor4fNormal3fVertex3fSUN",0
+_6292:
+	db	"(i,f,f,f,f,f,f,f,f,f,f)i",0
+_6293:
+	db	"glReplacementCodeuiColor4fNormal3fVertex3fvSUN",0
+_6294:
+	db	"(*i,*f,*f,*f)i",0
+_6295:
+	db	"glReplacementCodeuiColor4ubVertex3fSUN",0
+_6296:
+	db	"(i,b,b,b,b,f,f,f)i",0
+_6297:
+	db	"glReplacementCodeuiColor4ubVertex3fvSUN",0
+_6298:
+	db	"(*i,*b,*f)i",0
+_6299:
+	db	"glReplacementCodeuiNormal3fVertex3fSUN",0
+_6300:
+	db	"glReplacementCodeuiNormal3fVertex3fvSUN",0
+_6301:
+	db	"glReplacementCodeuiTexCoord2fColor4fNormal3fVertex3fSUN",0
+_6302:
+	db	"(i,f,f,f,f,f,f,f,f,f,f,f,f)i",0
+_6303:
+	db	"glReplacementCodeuiTexCoord2fColor4fNormal3fVertex3fvSUN",0
+_6304:
+	db	"(*i,*f,*f,*f,*f)i",0
+_6305:
+	db	"glReplacementCodeuiTexCoord2fNormal3fVertex3fSUN",0
+_6306:
+	db	"(i,f,f,f,f,f,f,f,f)i",0
+_6307:
+	db	"glReplacementCodeuiTexCoord2fNormal3fVertex3fvSUN",0
+_6308:
+	db	"glReplacementCodeuiTexCoord2fVertex3fSUN",0
+_6309:
+	db	"(i,f,f,f,f,f)i",0
+_6310:
+	db	"glReplacementCodeuiTexCoord2fVertex3fvSUN",0
+_6311:
+	db	"glReplacementCodeuiVertex3fSUN",0
+_6312:
+	db	"glReplacementCodeuiVertex3fvSUN",0
+_6313:
+	db	"(*i,*f)i",0
+_6314:
+	db	"glTexCoord2fColor3fVertex3fSUN",0
+_6315:
+	db	"(f,f,f,f,f,f,f,f)i",0
+_6316:
+	db	"glTexCoord2fColor3fVertex3fvSUN",0
+_6317:
+	db	"glTexCoord2fColor4fNormal3fVertex3fSUN",0
+_6318:
+	db	"(f,f,f,f,f,f,f,f,f,f,f,f)i",0
+_6319:
+	db	"glTexCoord2fColor4fNormal3fVertex3fvSUN",0
+_6320:
+	db	"(*f,*f,*f,*f)i",0
+_6321:
+	db	"glTexCoord2fColor4ubVertex3fSUN",0
+_6322:
+	db	"(f,f,b,b,b,b,f,f,f)i",0
+_6323:
+	db	"glTexCoord2fColor4ubVertex3fvSUN",0
+_6324:
+	db	"(*f,*b,*f)i",0
+_6325:
+	db	"glTexCoord2fNormal3fVertex3fSUN",0
+_6326:
+	db	"glTexCoord2fNormal3fVertex3fvSUN",0
+_6327:
+	db	"glTexCoord2fVertex3fSUN",0
+_6328:
+	db	"(f,f,f,f,f)i",0
+_6329:
+	db	"glTexCoord2fVertex3fvSUN",0
+_6330:
+	db	"glTexCoord4fColor4fNormal3fVertex4fSUN",0
+_6331:
+	db	"(f,f,f,f,f,f,f,f,f,f,f,f,f,f,f)i",0
+_6332:
+	db	"glTexCoord4fColor4fNormal3fVertex4fvSUN",0
+_6333:
+	db	"glTexCoord4fVertex4fSUN",0
+_6334:
+	db	"glTexCoord4fVertex4fvSUN",0
+_6335:
+	db	"GL_SUN_vertex",0
+_6336:
+	db	"GL_WIN_phong_shading",0
+_6337:
+	db	"GL_WIN_specular_fog",0
+_6338:
+	db	"glAddSwapHintRectWIN",0
+_6339:
+	db	"GL_WIN_swap_hint",0
+	align	4
+_3:
+	dd	1
+	dd	_4
+	dd	1
+	dd	_5
+	dd	_6
+	dd	_7
+	dd	1
+	dd	_8
+	dd	_6
+	dd	_9
+	dd	1
+	dd	_10
+	dd	_6
+	dd	_11
+	dd	1
+	dd	_12
+	dd	_6
+	dd	_13
+	dd	1
+	dd	_14
+	dd	_6
+	dd	_15
+	dd	1
+	dd	_16
+	dd	_6
+	dd	_17
+	dd	1
+	dd	_18
+	dd	_6
+	dd	_19
+	dd	1
+	dd	_20
+	dd	_6
+	dd	_21
+	dd	1
+	dd	_22
+	dd	_6
+	dd	_23
+	dd	1
+	dd	_24
+	dd	_6
+	dd	_25
+	dd	1
+	dd	_26
+	dd	_6
+	dd	_27
+	dd	1
+	dd	_28
+	dd	_6
+	dd	_29
+	dd	1
+	dd	_30
+	dd	_6
+	dd	_31
+	dd	1
+	dd	_32
+	dd	_6
+	dd	_33
+	dd	1
+	dd	_34
+	dd	_6
+	dd	_35
+	dd	1
+	dd	_36
+	dd	_6
+	dd	_37
+	dd	1
+	dd	_38
+	dd	_6
+	dd	_39
+	dd	1
+	dd	_40
+	dd	_6
+	dd	_41
+	dd	1
+	dd	_42
+	dd	_6
+	dd	_43
+	dd	1
+	dd	_44
+	dd	_6
+	dd	_45
+	dd	1
+	dd	_46
+	dd	_6
+	dd	_47
+	dd	1
+	dd	_48
+	dd	_6
+	dd	_49
+	dd	1
+	dd	_50
+	dd	_6
+	dd	_51
+	dd	1
+	dd	_52
+	dd	_6
+	dd	_53
+	dd	1
+	dd	_54
+	dd	_6
+	dd	_55
+	dd	1
+	dd	_56
+	dd	_6
+	dd	_57
+	dd	1
+	dd	_58
+	dd	_6
+	dd	_59
+	dd	1
+	dd	_60
+	dd	_6
+	dd	_61
+	dd	1
+	dd	_62
+	dd	_6
+	dd	_63
+	dd	1
+	dd	_64
+	dd	_6
+	dd	_65
+	dd	1
+	dd	_66
+	dd	_6
+	dd	_67
+	dd	1
+	dd	_68
+	dd	_6
+	dd	_69
+	dd	1
+	dd	_70
+	dd	_6
+	dd	_71
+	dd	1
+	dd	_72
+	dd	_6
+	dd	_73
+	dd	1
+	dd	_74
+	dd	_6
+	dd	_75
+	dd	1
+	dd	_76
+	dd	_6
+	dd	_77
+	dd	1
+	dd	_78
+	dd	_6
+	dd	_79
+	dd	1
+	dd	_80
+	dd	_6
+	dd	_81
+	dd	1
+	dd	_82
+	dd	_6
+	dd	_83
+	dd	1
+	dd	_84
+	dd	_6
+	dd	_85
+	dd	1
+	dd	_86
+	dd	_6
+	dd	_87
+	dd	1
+	dd	_88
+	dd	_6
+	dd	_89
+	dd	1
+	dd	_90
+	dd	_6
+	dd	_91
+	dd	1
+	dd	_92
+	dd	_6
+	dd	_93
+	dd	1
+	dd	_94
+	dd	_6
+	dd	_95
+	dd	1
+	dd	_96
+	dd	_6
+	dd	_97
+	dd	1
+	dd	_98
+	dd	_6
+	dd	_99
+	dd	1
+	dd	_100
+	dd	_6
+	dd	_101
+	dd	1
+	dd	_102
+	dd	_6
+	dd	_103
+	dd	1
+	dd	_104
+	dd	_6
+	dd	_105
+	dd	1
+	dd	_106
+	dd	_6
+	dd	_107
+	dd	1
+	dd	_108
+	dd	_6
+	dd	_109
+	dd	1
+	dd	_110
+	dd	_6
+	dd	_111
+	dd	1
+	dd	_112
+	dd	_6
+	dd	_113
+	dd	1
+	dd	_114
+	dd	_6
+	dd	_115
+	dd	1
+	dd	_116
+	dd	_6
+	dd	_117
+	dd	1
+	dd	_118
+	dd	_6
+	dd	_119
+	dd	1
+	dd	_120
+	dd	_6
+	dd	_121
+	dd	1
+	dd	_122
+	dd	_6
+	dd	_123
+	dd	1
+	dd	_124
+	dd	_6
+	dd	_125
+	dd	1
+	dd	_126
+	dd	_6
+	dd	_127
+	dd	1
+	dd	_128
+	dd	_6
+	dd	_129
+	dd	1
+	dd	_130
+	dd	_6
+	dd	_131
+	dd	1
+	dd	_132
+	dd	_6
+	dd	_133
+	dd	1
+	dd	_134
+	dd	_6
+	dd	_135
+	dd	1
+	dd	_136
+	dd	_6
+	dd	_137
+	dd	1
+	dd	_138
+	dd	_6
+	dd	_139
+	dd	1
+	dd	_140
+	dd	_6
+	dd	_141
+	dd	1
+	dd	_142
+	dd	_6
+	dd	_143
+	dd	1
+	dd	_144
+	dd	_6
+	dd	_145
+	dd	1
+	dd	_146
+	dd	_6
+	dd	_147
+	dd	1
+	dd	_148
+	dd	_6
+	dd	_149
+	dd	1
+	dd	_150
+	dd	_6
+	dd	_151
+	dd	1
+	dd	_152
+	dd	_6
+	dd	_153
+	dd	1
+	dd	_154
+	dd	_6
+	dd	_155
+	dd	1
+	dd	_156
+	dd	_6
+	dd	_157
+	dd	1
+	dd	_158
+	dd	_6
+	dd	_159
+	dd	1
+	dd	_160
+	dd	_6
+	dd	_161
+	dd	1
+	dd	_162
+	dd	_6
+	dd	_163
+	dd	1
+	dd	_164
+	dd	_6
+	dd	_165
+	dd	1
+	dd	_166
+	dd	_6
+	dd	_167
+	dd	1
+	dd	_168
+	dd	_6
+	dd	_169
+	dd	1
+	dd	_170
+	dd	_6
+	dd	_171
+	dd	1
+	dd	_172
+	dd	_6
+	dd	_173
+	dd	1
+	dd	_174
+	dd	_6
+	dd	_175
+	dd	1
+	dd	_176
+	dd	_6
+	dd	_177
+	dd	1
+	dd	_178
+	dd	_6
+	dd	_179
+	dd	1
+	dd	_180
+	dd	_6
+	dd	_181
+	dd	1
+	dd	_182
+	dd	_6
+	dd	_183
+	dd	1
+	dd	_184
+	dd	_6
+	dd	_185
+	dd	1
+	dd	_186
+	dd	_6
+	dd	_187
+	dd	1
+	dd	_188
+	dd	_6
+	dd	_189
+	dd	1
+	dd	_190
+	dd	_6
+	dd	_191
+	dd	1
+	dd	_192
+	dd	_6
+	dd	_193
+	dd	1
+	dd	_194
+	dd	_6
+	dd	_195
+	dd	1
+	dd	_196
+	dd	_6
+	dd	_197
+	dd	1
+	dd	_198
+	dd	_6
+	dd	_199
+	dd	1
+	dd	_200
+	dd	_6
+	dd	_201
+	dd	1
+	dd	_202
+	dd	_6
+	dd	_203
+	dd	1
+	dd	_204
+	dd	_6
+	dd	_205
+	dd	1
+	dd	_206
+	dd	_6
+	dd	_207
+	dd	1
+	dd	_208
+	dd	_6
+	dd	_209
+	dd	1
+	dd	_210
+	dd	_6
+	dd	_211
+	dd	1
+	dd	_212
+	dd	_6
+	dd	_213
+	dd	1
+	dd	_214
+	dd	_6
+	dd	_215
+	dd	1
+	dd	_216
+	dd	_6
+	dd	_217
+	dd	1
+	dd	_218
+	dd	_6
+	dd	_219
+	dd	1
+	dd	_220
+	dd	_6
+	dd	_221
+	dd	1
+	dd	_222
+	dd	_6
+	dd	_223
+	dd	1
+	dd	_224
+	dd	_6
+	dd	_225
+	dd	1
+	dd	_226
+	dd	_6
+	dd	_227
+	dd	1
+	dd	_228
+	dd	_6
+	dd	_229
+	dd	1
+	dd	_230
+	dd	_6
+	dd	_231
+	dd	1
+	dd	_232
+	dd	_6
+	dd	_233
+	dd	1
+	dd	_234
+	dd	_6
+	dd	_235
+	dd	1
+	dd	_236
+	dd	_6
+	dd	_237
+	dd	1
+	dd	_238
+	dd	_6
+	dd	_239
+	dd	1
+	dd	_240
+	dd	_6
+	dd	_241
+	dd	1
+	dd	_242
+	dd	_6
+	dd	_243
+	dd	1
+	dd	_244
+	dd	_6
+	dd	_245
+	dd	1
+	dd	_246
+	dd	_6
+	dd	_247
+	dd	1
+	dd	_248
+	dd	_6
+	dd	_249
+	dd	1
+	dd	_250
+	dd	_6
+	dd	_251
+	dd	1
+	dd	_252
+	dd	_6
+	dd	_253
+	dd	1
+	dd	_254
+	dd	_6
+	dd	_255
+	dd	1
+	dd	_256
+	dd	_6
+	dd	_257
+	dd	1
+	dd	_258
+	dd	_6
+	dd	_259
+	dd	1
+	dd	_260
+	dd	_6
+	dd	_261
+	dd	1
+	dd	_262
+	dd	_6
+	dd	_263
+	dd	1
+	dd	_264
+	dd	_6
+	dd	_265
+	dd	1
+	dd	_266
+	dd	_6
+	dd	_267
+	dd	1
+	dd	_268
+	dd	_6
+	dd	_269
+	dd	1
+	dd	_270
+	dd	_6
+	dd	_271
+	dd	1
+	dd	_272
+	dd	_6
+	dd	_273
+	dd	1
+	dd	_274
+	dd	_6
+	dd	_275
+	dd	1
+	dd	_276
+	dd	_6
+	dd	_277
+	dd	1
+	dd	_278
+	dd	_6
+	dd	_279
+	dd	1
+	dd	_280
+	dd	_6
+	dd	_281
+	dd	1
+	dd	_282
+	dd	_6
+	dd	_283
+	dd	1
+	dd	_284
+	dd	_6
+	dd	_285
+	dd	1
+	dd	_286
+	dd	_6
+	dd	_287
+	dd	1
+	dd	_288
+	dd	_6
+	dd	_289
+	dd	1
+	dd	_290
+	dd	_6
+	dd	_291
+	dd	1
+	dd	_292
+	dd	_6
+	dd	_293
+	dd	1
+	dd	_294
+	dd	_6
+	dd	_295
+	dd	1
+	dd	_296
+	dd	_6
+	dd	_297
+	dd	1
+	dd	_298
+	dd	_6
+	dd	_299
+	dd	1
+	dd	_300
+	dd	_6
+	dd	_301
+	dd	1
+	dd	_302
+	dd	_6
+	dd	_303
+	dd	1
+	dd	_304
+	dd	_6
+	dd	_305
+	dd	1
+	dd	_306
+	dd	_6
+	dd	_307
+	dd	1
+	dd	_308
+	dd	_6
+	dd	_309
+	dd	1
+	dd	_310
+	dd	_6
+	dd	_311
+	dd	1
+	dd	_312
+	dd	_6
+	dd	_313
+	dd	1
+	dd	_314
+	dd	_6
+	dd	_315
+	dd	1
+	dd	_316
+	dd	_6
+	dd	_317
+	dd	1
+	dd	_318
+	dd	_6
+	dd	_319
+	dd	1
+	dd	_320
+	dd	_6
+	dd	_321
+	dd	1
+	dd	_322
+	dd	_6
+	dd	_323
+	dd	1
+	dd	_324
+	dd	_6
+	dd	_325
+	dd	1
+	dd	_326
+	dd	_6
+	dd	_327
+	dd	1
+	dd	_328
+	dd	_6
+	dd	_329
+	dd	1
+	dd	_330
+	dd	_6
+	dd	_331
+	dd	1
+	dd	_332
+	dd	_6
+	dd	_333
+	dd	1
+	dd	_334
+	dd	_6
+	dd	_335
+	dd	1
+	dd	_336
+	dd	_6
+	dd	_337
+	dd	1
+	dd	_338
+	dd	_6
+	dd	_339
+	dd	1
+	dd	_340
+	dd	_6
+	dd	_341
+	dd	1
+	dd	_342
+	dd	_6
+	dd	_343
+	dd	1
+	dd	_344
+	dd	_6
+	dd	_345
+	dd	1
+	dd	_346
+	dd	_6
+	dd	_347
+	dd	1
+	dd	_348
+	dd	_6
+	dd	_349
+	dd	1
+	dd	_350
+	dd	_6
+	dd	_351
+	dd	1
+	dd	_352
+	dd	_6
+	dd	_353
+	dd	1
+	dd	_354
+	dd	_6
+	dd	_355
+	dd	1
+	dd	_356
+	dd	_6
+	dd	_357
+	dd	1
+	dd	_358
+	dd	_6
+	dd	_359
+	dd	1
+	dd	_360
+	dd	_6
+	dd	_361
+	dd	1
+	dd	_362
+	dd	_6
+	dd	_363
+	dd	1
+	dd	_364
+	dd	_6
+	dd	_365
+	dd	1
+	dd	_366
+	dd	_6
+	dd	_367
+	dd	1
+	dd	_368
+	dd	_6
+	dd	_369
+	dd	1
+	dd	_370
+	dd	_6
+	dd	_371
+	dd	1
+	dd	_372
+	dd	_6
+	dd	_373
+	dd	1
+	dd	_374
+	dd	_6
+	dd	_375
+	dd	1
+	dd	_376
+	dd	_6
+	dd	_377
+	dd	1
+	dd	_378
+	dd	_6
+	dd	_379
+	dd	1
+	dd	_380
+	dd	_6
+	dd	_381
+	dd	1
+	dd	_382
+	dd	_6
+	dd	_383
+	dd	1
+	dd	_384
+	dd	_6
+	dd	_385
+	dd	1
+	dd	_386
+	dd	_6
+	dd	_387
+	dd	1
+	dd	_388
+	dd	_6
+	dd	_389
+	dd	1
+	dd	_390
+	dd	_6
+	dd	_391
+	dd	1
+	dd	_392
+	dd	_6
+	dd	_393
+	dd	1
+	dd	_394
+	dd	_6
+	dd	_395
+	dd	1
+	dd	_396
+	dd	_6
+	dd	_397
+	dd	1
+	dd	_398
+	dd	_6
+	dd	_399
+	dd	1
+	dd	_400
+	dd	_6
+	dd	_401
+	dd	1
+	dd	_402
+	dd	_6
+	dd	_403
+	dd	1
+	dd	_404
+	dd	_6
+	dd	_405
+	dd	1
+	dd	_406
+	dd	_6
+	dd	_407
+	dd	1
+	dd	_408
+	dd	_6
+	dd	_409
+	dd	1
+	dd	_410
+	dd	_6
+	dd	_411
+	dd	1
+	dd	_412
+	dd	_6
+	dd	_413
+	dd	1
+	dd	_414
+	dd	_6
+	dd	_415
+	dd	1
+	dd	_416
+	dd	_6
+	dd	_417
+	dd	1
+	dd	_418
+	dd	_6
+	dd	_419
+	dd	1
+	dd	_420
+	dd	_6
+	dd	_421
+	dd	1
+	dd	_422
+	dd	_6
+	dd	_423
+	dd	1
+	dd	_424
+	dd	_6
+	dd	_425
+	dd	1
+	dd	_426
+	dd	_6
+	dd	_427
+	dd	1
+	dd	_428
+	dd	_6
+	dd	_429
+	dd	1
+	dd	_430
+	dd	_6
+	dd	_431
+	dd	1
+	dd	_432
+	dd	_6
+	dd	_433
+	dd	1
+	dd	_434
+	dd	_6
+	dd	_435
+	dd	1
+	dd	_436
+	dd	_6
+	dd	_437
+	dd	1
+	dd	_438
+	dd	_6
+	dd	_439
+	dd	1
+	dd	_440
+	dd	_6
+	dd	_441
+	dd	1
+	dd	_442
+	dd	_6
+	dd	_443
+	dd	1
+	dd	_444
+	dd	_6
+	dd	_445
+	dd	1
+	dd	_446
+	dd	_6
+	dd	_447
+	dd	1
+	dd	_448
+	dd	_6
+	dd	_449
+	dd	1
+	dd	_450
+	dd	_6
+	dd	_451
+	dd	1
+	dd	_452
+	dd	_6
+	dd	_453
+	dd	1
+	dd	_454
+	dd	_6
+	dd	_455
+	dd	1
+	dd	_456
+	dd	_6
+	dd	_457
+	dd	1
+	dd	_458
+	dd	_6
+	dd	_459
+	dd	1
+	dd	_460
+	dd	_6
+	dd	_461
+	dd	1
+	dd	_462
+	dd	_6
+	dd	_463
+	dd	1
+	dd	_464
+	dd	_6
+	dd	_465
+	dd	1
+	dd	_466
+	dd	_6
+	dd	_467
+	dd	1
+	dd	_468
+	dd	_6
+	dd	_469
+	dd	1
+	dd	_470
+	dd	_6
+	dd	_471
+	dd	1
+	dd	_472
+	dd	_6
+	dd	_473
+	dd	1
+	dd	_474
+	dd	_6
+	dd	_475
+	dd	1
+	dd	_476
+	dd	_6
+	dd	_477
+	dd	1
+	dd	_478
+	dd	_6
+	dd	_479
+	dd	1
+	dd	_480
+	dd	_6
+	dd	_481
+	dd	1
+	dd	_482
+	dd	_6
+	dd	_483
+	dd	1
+	dd	_484
+	dd	_6
+	dd	_485
+	dd	1
+	dd	_486
+	dd	_6
+	dd	_487
+	dd	1
+	dd	_488
+	dd	_6
+	dd	_489
+	dd	1
+	dd	_490
+	dd	_6
+	dd	_491
+	dd	1
+	dd	_492
+	dd	_6
+	dd	_493
+	dd	1
+	dd	_494
+	dd	_6
+	dd	_495
+	dd	1
+	dd	_496
+	dd	_6
+	dd	_497
+	dd	1
+	dd	_498
+	dd	_6
+	dd	_499
+	dd	1
+	dd	_500
+	dd	_6
+	dd	_501
+	dd	1
+	dd	_502
+	dd	_6
+	dd	_503
+	dd	1
+	dd	_504
+	dd	_6
+	dd	_505
+	dd	1
+	dd	_506
+	dd	_6
+	dd	_507
+	dd	1
+	dd	_508
+	dd	_6
+	dd	_509
+	dd	1
+	dd	_510
+	dd	_6
+	dd	_511
+	dd	1
+	dd	_512
+	dd	_6
+	dd	_513
+	dd	1
+	dd	_514
+	dd	_6
+	dd	_515
+	dd	1
+	dd	_516
+	dd	_6
+	dd	_517
+	dd	1
+	dd	_518
+	dd	_6
+	dd	_519
+	dd	1
+	dd	_520
+	dd	_6
+	dd	_521
+	dd	1
+	dd	_522
+	dd	_6
+	dd	_523
+	dd	1
+	dd	_524
+	dd	_6
+	dd	_525
+	dd	1
+	dd	_526
+	dd	_6
+	dd	_527
+	dd	1
+	dd	_528
+	dd	_6
+	dd	_529
+	dd	1
+	dd	_530
+	dd	_6
+	dd	_531
+	dd	1
+	dd	_532
+	dd	_6
+	dd	_533
+	dd	1
+	dd	_534
+	dd	_6
+	dd	_535
+	dd	1
+	dd	_536
+	dd	_6
+	dd	_537
+	dd	1
+	dd	_538
+	dd	_6
+	dd	_539
+	dd	1
+	dd	_540
+	dd	_6
+	dd	_541
+	dd	1
+	dd	_542
+	dd	_6
+	dd	_543
+	dd	1
+	dd	_544
+	dd	_6
+	dd	_545
+	dd	1
+	dd	_546
+	dd	_6
+	dd	_547
+	dd	1
+	dd	_548
+	dd	_6
+	dd	_549
+	dd	1
+	dd	_550
+	dd	_6
+	dd	_551
+	dd	1
+	dd	_552
+	dd	_6
+	dd	_553
+	dd	1
+	dd	_554
+	dd	_6
+	dd	_555
+	dd	1
+	dd	_556
+	dd	_6
+	dd	_557
+	dd	1
+	dd	_558
+	dd	_6
+	dd	_559
+	dd	1
+	dd	_560
+	dd	_6
+	dd	_561
+	dd	1
+	dd	_562
+	dd	_6
+	dd	_563
+	dd	1
+	dd	_564
+	dd	_6
+	dd	_565
+	dd	1
+	dd	_566
+	dd	_6
+	dd	_567
+	dd	1
+	dd	_568
+	dd	_6
+	dd	_569
+	dd	1
+	dd	_570
+	dd	_6
+	dd	_571
+	dd	1
+	dd	_572
+	dd	_6
+	dd	_573
+	dd	1
+	dd	_574
+	dd	_6
+	dd	_575
+	dd	1
+	dd	_576
+	dd	_6
+	dd	_577
+	dd	1
+	dd	_578
+	dd	_6
+	dd	_579
+	dd	1
+	dd	_580
+	dd	_6
+	dd	_581
+	dd	1
+	dd	_582
+	dd	_6
+	dd	_583
+	dd	1
+	dd	_584
+	dd	_6
+	dd	_585
+	dd	1
+	dd	_586
+	dd	_6
+	dd	_587
+	dd	1
+	dd	_588
+	dd	_6
+	dd	_589
+	dd	1
+	dd	_590
+	dd	_6
+	dd	_591
+	dd	1
+	dd	_592
+	dd	_6
+	dd	_593
+	dd	1
+	dd	_594
+	dd	_6
+	dd	_595
+	dd	1
+	dd	_596
+	dd	_6
+	dd	_597
+	dd	1
+	dd	_598
+	dd	_6
+	dd	_599
+	dd	1
+	dd	_600
+	dd	_6
+	dd	_601
+	dd	1
+	dd	_602
+	dd	_6
+	dd	_603
+	dd	1
+	dd	_604
+	dd	_6
+	dd	_605
+	dd	1
+	dd	_606
+	dd	_6
+	dd	_607
+	dd	1
+	dd	_608
+	dd	_6
+	dd	_609
+	dd	1
+	dd	_610
+	dd	_6
+	dd	_611
+	dd	1
+	dd	_612
+	dd	_6
+	dd	_613
+	dd	1
+	dd	_614
+	dd	_6
+	dd	_615
+	dd	1
+	dd	_616
+	dd	_6
+	dd	_617
+	dd	1
+	dd	_618
+	dd	_6
+	dd	_619
+	dd	1
+	dd	_620
+	dd	_6
+	dd	_621
+	dd	1
+	dd	_622
+	dd	_6
+	dd	_623
+	dd	1
+	dd	_624
+	dd	_6
+	dd	_625
+	dd	1
+	dd	_626
+	dd	_6
+	dd	_627
+	dd	1
+	dd	_628
+	dd	_6
+	dd	_629
+	dd	1
+	dd	_630
+	dd	_6
+	dd	_631
+	dd	1
+	dd	_632
+	dd	_6
+	dd	_633
+	dd	1
+	dd	_634
+	dd	_6
+	dd	_635
+	dd	1
+	dd	_636
+	dd	_6
+	dd	_637
+	dd	1
+	dd	_638
+	dd	_6
+	dd	_639
+	dd	1
+	dd	_640
+	dd	_6
+	dd	_641
+	dd	1
+	dd	_642
+	dd	_6
+	dd	_643
+	dd	1
+	dd	_644
+	dd	_6
+	dd	_645
+	dd	1
+	dd	_646
+	dd	_6
+	dd	_647
+	dd	1
+	dd	_648
+	dd	_6
+	dd	_649
+	dd	1
+	dd	_650
+	dd	_6
+	dd	_651
+	dd	1
+	dd	_652
+	dd	_6
+	dd	_653
+	dd	1
+	dd	_654
+	dd	_6
+	dd	_655
+	dd	1
+	dd	_656
+	dd	_6
+	dd	_657
+	dd	1
+	dd	_658
+	dd	_6
+	dd	_659
+	dd	1
+	dd	_660
+	dd	_6
+	dd	_661
+	dd	1
+	dd	_662
+	dd	_6
+	dd	_663
+	dd	1
+	dd	_664
+	dd	_6
+	dd	_665
+	dd	1
+	dd	_666
+	dd	_6
+	dd	_667
+	dd	1
+	dd	_668
+	dd	_6
+	dd	_669
+	dd	1
+	dd	_670
+	dd	_6
+	dd	_671
+	dd	1
+	dd	_672
+	dd	_6
+	dd	_673
+	dd	1
+	dd	_674
+	dd	_6
+	dd	_675
+	dd	1
+	dd	_676
+	dd	_6
+	dd	_677
+	dd	1
+	dd	_678
+	dd	_6
+	dd	_679
+	dd	1
+	dd	_680
+	dd	_6
+	dd	_681
+	dd	1
+	dd	_682
+	dd	_6
+	dd	_683
+	dd	1
+	dd	_684
+	dd	_6
+	dd	_685
+	dd	1
+	dd	_686
+	dd	_6
+	dd	_687
+	dd	1
+	dd	_688
+	dd	_6
+	dd	_689
+	dd	1
+	dd	_690
+	dd	_6
+	dd	_691
+	dd	1
+	dd	_692
+	dd	_6
+	dd	_693
+	dd	1
+	dd	_694
+	dd	_6
+	dd	_695
+	dd	1
+	dd	_696
+	dd	_6
+	dd	_697
+	dd	1
+	dd	_698
+	dd	_6
+	dd	_699
+	dd	1
+	dd	_700
+	dd	_6
+	dd	_701
+	dd	1
+	dd	_702
+	dd	_6
+	dd	_703
+	dd	1
+	dd	_704
+	dd	_6
+	dd	_705
+	dd	1
+	dd	_706
+	dd	_6
+	dd	_707
+	dd	1
+	dd	_708
+	dd	_6
+	dd	_709
+	dd	1
+	dd	_710
+	dd	_6
+	dd	_711
+	dd	1
+	dd	_712
+	dd	_6
+	dd	_713
+	dd	1
+	dd	_714
+	dd	_6
+	dd	_715
+	dd	1
+	dd	_716
+	dd	_6
+	dd	_717
+	dd	1
+	dd	_718
+	dd	_6
+	dd	_719
+	dd	1
+	dd	_720
+	dd	_6
+	dd	_721
+	dd	1
+	dd	_722
+	dd	_6
+	dd	_723
+	dd	1
+	dd	_724
+	dd	_6
+	dd	_725
+	dd	1
+	dd	_726
+	dd	_6
+	dd	_727
+	dd	1
+	dd	_728
+	dd	_6
+	dd	_729
+	dd	1
+	dd	_730
+	dd	_6
+	dd	_731
+	dd	1
+	dd	_732
+	dd	_6
+	dd	_733
+	dd	1
+	dd	_734
+	dd	_6
+	dd	_735
+	dd	1
+	dd	_736
+	dd	_6
+	dd	_737
+	dd	1
+	dd	_738
+	dd	_6
+	dd	_739
+	dd	1
+	dd	_740
+	dd	_6
+	dd	_741
+	dd	1
+	dd	_742
+	dd	_6
+	dd	_743
+	dd	1
+	dd	_744
+	dd	_6
+	dd	_745
+	dd	1
+	dd	_746
+	dd	_6
+	dd	_747
+	dd	1
+	dd	_748
+	dd	_6
+	dd	_749
+	dd	1
+	dd	_750
+	dd	_6
+	dd	_751
+	dd	1
+	dd	_752
+	dd	_6
+	dd	_753
+	dd	1
+	dd	_754
+	dd	_6
+	dd	_755
+	dd	1
+	dd	_756
+	dd	_6
+	dd	_757
+	dd	1
+	dd	_758
+	dd	_6
+	dd	_759
+	dd	1
+	dd	_760
+	dd	_6
+	dd	_761
+	dd	1
+	dd	_762
+	dd	_6
+	dd	_763
+	dd	1
+	dd	_764
+	dd	_6
+	dd	_765
+	dd	1
+	dd	_766
+	dd	_6
+	dd	_767
+	dd	1
+	dd	_768
+	dd	_6
+	dd	_769
+	dd	1
+	dd	_770
+	dd	_6
+	dd	_771
+	dd	1
+	dd	_772
+	dd	_6
+	dd	_773
+	dd	1
+	dd	_774
+	dd	_6
+	dd	_775
+	dd	1
+	dd	_776
+	dd	_6
+	dd	_777
+	dd	1
+	dd	_778
+	dd	_6
+	dd	_779
+	dd	1
+	dd	_780
+	dd	_6
+	dd	_781
+	dd	1
+	dd	_782
+	dd	_6
+	dd	_783
+	dd	1
+	dd	_784
+	dd	_6
+	dd	_785
+	dd	1
+	dd	_786
+	dd	_6
+	dd	_787
+	dd	1
+	dd	_788
+	dd	_6
+	dd	_789
+	dd	1
+	dd	_790
+	dd	_6
+	dd	_791
+	dd	1
+	dd	_792
+	dd	_6
+	dd	_793
+	dd	1
+	dd	_794
+	dd	_6
+	dd	_795
+	dd	1
+	dd	_796
+	dd	_6
+	dd	_797
+	dd	1
+	dd	_798
+	dd	_6
+	dd	_799
+	dd	1
+	dd	_800
+	dd	_6
+	dd	_801
+	dd	1
+	dd	_802
+	dd	_6
+	dd	_803
+	dd	1
+	dd	_804
+	dd	_6
+	dd	_805
+	dd	1
+	dd	_806
+	dd	_6
+	dd	_807
+	dd	1
+	dd	_808
+	dd	_6
+	dd	_809
+	dd	1
+	dd	_810
+	dd	_6
+	dd	_811
+	dd	1
+	dd	_812
+	dd	_6
+	dd	_813
+	dd	1
+	dd	_814
+	dd	_6
+	dd	_815
+	dd	1
+	dd	_816
+	dd	_6
+	dd	_817
+	dd	1
+	dd	_818
+	dd	_6
+	dd	_819
+	dd	1
+	dd	_820
+	dd	_6
+	dd	_821
+	dd	1
+	dd	_822
+	dd	_6
+	dd	_823
+	dd	1
+	dd	_824
+	dd	_6
+	dd	_825
+	dd	1
+	dd	_826
+	dd	_6
+	dd	_827
+	dd	1
+	dd	_828
+	dd	_6
+	dd	_829
+	dd	1
+	dd	_830
+	dd	_6
+	dd	_831
+	dd	1
+	dd	_832
+	dd	_6
+	dd	_833
+	dd	1
+	dd	_834
+	dd	_6
+	dd	_835
+	dd	1
+	dd	_836
+	dd	_6
+	dd	_837
+	dd	1
+	dd	_838
+	dd	_6
+	dd	_839
+	dd	1
+	dd	_840
+	dd	_6
+	dd	_841
+	dd	1
+	dd	_842
+	dd	_6
+	dd	_843
+	dd	1
+	dd	_844
+	dd	_6
+	dd	_845
+	dd	1
+	dd	_846
+	dd	_6
+	dd	_279
+	dd	1
+	dd	_847
+	dd	_6
+	dd	_848
+	dd	1
+	dd	_849
+	dd	_6
+	dd	_850
+	dd	1
+	dd	_851
+	dd	_6
+	dd	_852
+	dd	1
+	dd	_853
+	dd	_6
+	dd	_854
+	dd	1
+	dd	_855
+	dd	_6
+	dd	_856
+	dd	1
+	dd	_857
+	dd	_6
+	dd	_858
+	dd	1
+	dd	_859
+	dd	_6
+	dd	_860
+	dd	1
+	dd	_861
+	dd	_6
+	dd	_862
+	dd	1
+	dd	_863
+	dd	_6
+	dd	_864
+	dd	1
+	dd	_865
+	dd	_6
+	dd	_661
+	dd	1
+	dd	_866
+	dd	_6
+	dd	_663
+	dd	1
+	dd	_867
+	dd	_6
+	dd	_868
+	dd	1
+	dd	_869
+	dd	_6
+	dd	_870
+	dd	1
+	dd	_871
+	dd	_6
+	dd	_872
+	dd	1
+	dd	_873
+	dd	_6
+	dd	_874
+	dd	1
+	dd	_875
+	dd	_6
+	dd	_665
+	dd	1
+	dd	_876
+	dd	_6
+	dd	_667
+	dd	1
+	dd	_877
+	dd	_6
+	dd	_878
+	dd	1
+	dd	_879
+	dd	_6
+	dd	_880
+	dd	1
+	dd	_881
+	dd	_6
+	dd	_882
+	dd	1
+	dd	_883
+	dd	_6
+	dd	_884
+	dd	1
+	dd	_885
+	dd	_6
+	dd	_886
+	dd	1
+	dd	_887
+	dd	_6
+	dd	_888
+	dd	1
+	dd	_889
+	dd	_6
+	dd	_890
+	dd	1
+	dd	_891
+	dd	_6
+	dd	_892
+	dd	1
+	dd	_893
+	dd	_6
+	dd	_894
+	dd	1
+	dd	_895
+	dd	_6
+	dd	_896
+	dd	1
+	dd	_897
+	dd	_6
+	dd	_898
+	dd	1
+	dd	_899
+	dd	_6
+	dd	_900
+	dd	1
+	dd	_901
+	dd	_6
+	dd	_902
+	dd	1
+	dd	_903
+	dd	_6
+	dd	_904
+	dd	1
+	dd	_905
+	dd	_6
+	dd	_906
+	dd	1
+	dd	_907
+	dd	_6
+	dd	_908
+	dd	1
+	dd	_909
+	dd	_6
+	dd	_910
+	dd	1
+	dd	_911
+	dd	_6
+	dd	_912
+	dd	1
+	dd	_913
+	dd	_6
+	dd	_914
+	dd	1
+	dd	_915
+	dd	_6
+	dd	_916
+	dd	1
+	dd	_917
+	dd	_6
+	dd	_918
+	dd	1
+	dd	_919
+	dd	_6
+	dd	_920
+	dd	1
+	dd	_921
+	dd	_6
+	dd	_922
+	dd	1
+	dd	_923
+	dd	_6
+	dd	_924
+	dd	1
+	dd	_925
+	dd	_6
+	dd	_926
+	dd	1
+	dd	_927
+	dd	_6
+	dd	_928
+	dd	1
+	dd	_929
+	dd	_6
+	dd	_677
+	dd	1
+	dd	_930
+	dd	_6
+	dd	_679
+	dd	1
+	dd	_931
+	dd	_6
+	dd	_681
+	dd	1
+	dd	_932
+	dd	_6
+	dd	_683
+	dd	1
+	dd	_933
+	dd	_6
+	dd	_934
+	dd	1
+	dd	_935
+	dd	_6
+	dd	_936
+	dd	1
+	dd	_937
+	dd	_6
+	dd	_938
+	dd	1
+	dd	_939
+	dd	_6
+	dd	_301
+	dd	1
+	dd	_940
+	dd	_6
+	dd	_303
+	dd	1
+	dd	_941
+	dd	_6
+	dd	_305
+	dd	1
+	dd	_942
+	dd	_6
+	dd	_349
+	dd	1
+	dd	_943
+	dd	_6
+	dd	_351
+	dd	1
+	dd	_944
+	dd	_6
+	dd	_455
+	dd	1
+	dd	_945
+	dd	_6
+	dd	_457
+	dd	1
+	dd	_946
+	dd	_6
+	dd	_459
+	dd	1
+	dd	_947
+	dd	_6
+	dd	_461
+	dd	1
+	dd	_948
+	dd	_6
+	dd	_463
+	dd	1
+	dd	_949
+	dd	_6
+	dd	_465
+	dd	1
+	dd	_950
+	dd	_6
+	dd	_467
+	dd	1
+	dd	_951
+	dd	_6
+	dd	_469
+	dd	1
+	dd	_952
+	dd	_6
+	dd	_471
+	dd	1
+	dd	_953
+	dd	_6
+	dd	_473
+	dd	1
+	dd	_954
+	dd	_6
+	dd	_475
+	dd	1
+	dd	_955
+	dd	_6
+	dd	_477
+	dd	1
+	dd	_956
+	dd	_6
+	dd	_479
+	dd	1
+	dd	_957
+	dd	_6
+	dd	_481
+	dd	1
+	dd	_958
+	dd	_6
+	dd	_483
+	dd	1
+	dd	_959
+	dd	_6
+	dd	_485
+	dd	1
+	dd	_960
+	dd	_6
+	dd	_487
+	dd	1
+	dd	_961
+	dd	_6
+	dd	_962
+	dd	1
+	dd	_963
+	dd	_6
+	dd	_964
+	dd	1
+	dd	_965
+	dd	_6
+	dd	_966
+	dd	1
+	dd	_967
+	dd	_6
+	dd	_968
+	dd	1
+	dd	_969
+	dd	_6
+	dd	_970
+	dd	1
+	dd	_971
+	dd	_6
+	dd	_972
+	dd	1
+	dd	_973
+	dd	_6
+	dd	_974
+	dd	1
+	dd	_975
+	dd	_6
+	dd	_976
+	dd	1
+	dd	_977
+	dd	_6
+	dd	_978
+	dd	1
+	dd	_979
+	dd	_6
+	dd	_980
+	dd	1
+	dd	_981
+	dd	_6
+	dd	_982
+	dd	1
+	dd	_983
+	dd	_6
+	dd	_984
+	dd	1
+	dd	_985
+	dd	_6
+	dd	_986
+	dd	1
+	dd	_987
+	dd	_6
+	dd	_499
+	dd	1
+	dd	_988
+	dd	_6
+	dd	_501
+	dd	1
+	dd	_989
+	dd	_6
+	dd	_503
+	dd	1
+	dd	_990
+	dd	_6
+	dd	_507
+	dd	1
+	dd	_991
+	dd	_6
+	dd	_579
+	dd	1
+	dd	_992
+	dd	_6
+	dd	_993
+	dd	1
+	dd	_994
+	dd	_6
+	dd	_995
+	dd	1
+	dd	_996
+	dd	_6
+	dd	_997
+	dd	1
+	dd	_998
+	dd	_6
+	dd	_999
+	dd	1
+	dd	_1000
+	dd	_6
+	dd	_1001
+	dd	1
+	dd	_1002
+	dd	_6
+	dd	_1003
+	dd	1
+	dd	_1004
+	dd	_6
+	dd	_1005
+	dd	1
+	dd	_1006
+	dd	_6
+	dd	_1007
+	dd	1
+	dd	_1008
+	dd	_6
+	dd	_1009
+	dd	1
+	dd	_1010
+	dd	_6
+	dd	_1011
+	dd	1
+	dd	_1012
+	dd	_6
+	dd	_1013
+	dd	1
+	dd	_1014
+	dd	_6
+	dd	_1015
+	dd	1
+	dd	_1016
+	dd	_6
+	dd	_1017
+	dd	1
+	dd	_1018
+	dd	_6
+	dd	_1019
+	dd	1
+	dd	_1020
+	dd	_6
+	dd	_1021
+	dd	1
+	dd	_1022
+	dd	_6
+	dd	_1023
+	dd	1
+	dd	_1024
+	dd	_6
+	dd	_1025
+	dd	1
+	dd	_1026
+	dd	_6
+	dd	_1027
+	dd	1
+	dd	_1028
+	dd	_6
+	dd	_1029
+	dd	1
+	dd	_1030
+	dd	_6
+	dd	_1029
+	dd	1
+	dd	_1031
+	dd	_6
+	dd	_1032
+	dd	1
+	dd	_1033
+	dd	_6
+	dd	_1034
+	dd	1
+	dd	_1035
+	dd	_6
+	dd	_1036
+	dd	1
+	dd	_1037
+	dd	_6
+	dd	_1038
+	dd	1
+	dd	_1039
+	dd	_6
+	dd	_1040
+	dd	1
+	dd	_1041
+	dd	_6
+	dd	_1042
+	dd	1
+	dd	_1043
+	dd	_6
+	dd	_1044
+	dd	1
+	dd	_1045
+	dd	_6
+	dd	_1046
+	dd	1
+	dd	_1047
+	dd	_6
+	dd	_1048
+	dd	1
+	dd	_1049
+	dd	_6
+	dd	_1050
+	dd	1
+	dd	_1051
+	dd	_6
+	dd	_1052
+	dd	1
+	dd	_1053
+	dd	_6
+	dd	_1054
+	dd	1
+	dd	_1055
+	dd	_6
+	dd	_1056
+	dd	1
+	dd	_1057
+	dd	_6
+	dd	_1058
+	dd	1
+	dd	_1059
+	dd	_6
+	dd	_1060
+	dd	1
+	dd	_1061
+	dd	_6
+	dd	_1062
+	dd	1
+	dd	_1063
+	dd	_6
+	dd	_1064
+	dd	1
+	dd	_1065
+	dd	_6
+	dd	_1066
+	dd	1
+	dd	_1067
+	dd	_6
+	dd	_1068
+	dd	1
+	dd	_1069
+	dd	_6
+	dd	_1070
+	dd	1
+	dd	_1071
+	dd	_6
+	dd	_1072
+	dd	1
+	dd	_1073
+	dd	_6
+	dd	_1074
+	dd	1
+	dd	_1075
+	dd	_6
+	dd	_1076
+	dd	1
+	dd	_1077
+	dd	_6
+	dd	_1078
+	dd	1
+	dd	_1079
+	dd	_6
+	dd	_1080
+	dd	1
+	dd	_1081
+	dd	_6
+	dd	_1082
+	dd	1
+	dd	_1083
+	dd	_6
+	dd	_1084
+	dd	1
+	dd	_1085
+	dd	_6
+	dd	_1086
+	dd	1
+	dd	_1087
+	dd	_6
+	dd	_1088
+	dd	1
+	dd	_1089
+	dd	_6
+	dd	_1090
+	dd	1
+	dd	_1091
+	dd	_6
+	dd	_1092
+	dd	1
+	dd	_1093
+	dd	_6
+	dd	_1094
+	dd	1
+	dd	_1095
+	dd	_6
+	dd	_1096
+	dd	1
+	dd	_1097
+	dd	_6
+	dd	_1098
+	dd	1
+	dd	_1099
+	dd	_6
+	dd	_1100
+	dd	1
+	dd	_1101
+	dd	_6
+	dd	_1102
+	dd	1
+	dd	_1103
+	dd	_6
+	dd	_1104
+	dd	1
+	dd	_1105
+	dd	_6
+	dd	_1106
+	dd	1
+	dd	_1107
+	dd	_6
+	dd	_1108
+	dd	1
+	dd	_1109
+	dd	_6
+	dd	_1110
+	dd	1
+	dd	_1111
+	dd	_6
+	dd	_1112
+	dd	1
+	dd	_1113
+	dd	_6
+	dd	_1114
+	dd	1
+	dd	_1115
+	dd	_6
+	dd	_1116
+	dd	1
+	dd	_1117
+	dd	_6
+	dd	_1118
+	dd	1
+	dd	_1119
+	dd	_6
+	dd	_1120
+	dd	1
+	dd	_1121
+	dd	_6
+	dd	_1122
+	dd	1
+	dd	_1123
+	dd	_6
+	dd	_1124
+	dd	1
+	dd	_1125
+	dd	_6
+	dd	_1126
+	dd	1
+	dd	_1127
+	dd	_6
+	dd	_1128
+	dd	1
+	dd	_1129
+	dd	_6
+	dd	_1130
+	dd	1
+	dd	_1131
+	dd	_6
+	dd	_1132
+	dd	1
+	dd	_1133
+	dd	_6
+	dd	_1134
+	dd	1
+	dd	_1135
+	dd	_6
+	dd	_1136
+	dd	1
+	dd	_1137
+	dd	_6
+	dd	_1138
+	dd	1
+	dd	_1139
+	dd	_6
+	dd	_1140
+	dd	1
+	dd	_1141
+	dd	_6
+	dd	_1142
+	dd	1
+	dd	_1143
+	dd	_6
+	dd	_1144
+	dd	1
+	dd	_1145
+	dd	_6
+	dd	_441
+	dd	1
+	dd	_1146
+	dd	_6
+	dd	_1147
+	dd	1
+	dd	_1148
+	dd	_6
+	dd	_1149
+	dd	1
+	dd	_1150
+	dd	_6
+	dd	_1151
+	dd	1
+	dd	_1152
+	dd	_6
+	dd	_1153
+	dd	1
+	dd	_1154
+	dd	_6
+	dd	_1155
+	dd	1
+	dd	_1156
+	dd	_6
+	dd	_1157
+	dd	1
+	dd	_1158
+	dd	_6
+	dd	_1159
+	dd	1
+	dd	_1160
+	dd	_6
+	dd	_1161
+	dd	1
+	dd	_1162
+	dd	_6
+	dd	_1163
+	dd	1
+	dd	_1164
+	dd	_6
+	dd	_1165
+	dd	1
+	dd	_1166
+	dd	_6
+	dd	_1167
+	dd	1
+	dd	_1168
+	dd	_6
+	dd	_1169
+	dd	1
+	dd	_1170
+	dd	_6
+	dd	_1171
+	dd	1
+	dd	_1172
+	dd	_6
+	dd	_864
+	dd	1
+	dd	_1173
+	dd	_6
+	dd	_864
+	dd	1
+	dd	_1174
+	dd	_6
+	dd	_1175
+	dd	1
+	dd	_1176
+	dd	_6
+	dd	_1177
+	dd	1
+	dd	_1178
+	dd	_6
+	dd	_1179
+	dd	1
+	dd	_1180
+	dd	_6
+	dd	_1181
+	dd	1
+	dd	_1182
+	dd	_6
+	dd	_1183
+	dd	1
+	dd	_1184
+	dd	_6
+	dd	_1185
+	dd	1
+	dd	_1186
+	dd	_6
+	dd	_1187
+	dd	1
+	dd	_1188
+	dd	_6
+	dd	_1189
+	dd	1
+	dd	_1190
+	dd	_6
+	dd	_1191
+	dd	1
+	dd	_1192
+	dd	_6
+	dd	_1193
+	dd	1
+	dd	_1194
+	dd	_6
+	dd	_1195
+	dd	1
+	dd	_1196
+	dd	_6
+	dd	_1197
+	dd	1
+	dd	_1198
+	dd	_6
+	dd	_1199
+	dd	1
+	dd	_1200
+	dd	_6
+	dd	_1201
+	dd	1
+	dd	_1202
+	dd	_6
+	dd	_1203
+	dd	1
+	dd	_1204
+	dd	_6
+	dd	_1205
+	dd	1
+	dd	_1206
+	dd	_6
+	dd	_1207
+	dd	1
+	dd	_1208
+	dd	_6
+	dd	_1209
+	dd	1
+	dd	_1210
+	dd	_6
+	dd	_1211
+	dd	1
+	dd	_1212
+	dd	_6
+	dd	_1213
+	dd	1
+	dd	_1214
+	dd	_6
+	dd	_1215
+	dd	1
+	dd	_1216
+	dd	_6
+	dd	_1217
+	dd	1
+	dd	_1218
+	dd	_6
+	dd	_1219
+	dd	1
+	dd	_1220
+	dd	_6
+	dd	_1221
+	dd	1
+	dd	_1222
+	dd	_6
+	dd	_1223
+	dd	1
+	dd	_1224
+	dd	_6
+	dd	_1225
+	dd	1
+	dd	_1226
+	dd	_6
+	dd	_1227
+	dd	1
+	dd	_1228
+	dd	_6
+	dd	_1229
+	dd	1
+	dd	_1230
+	dd	_6
+	dd	_1231
+	dd	1
+	dd	_1232
+	dd	_6
+	dd	_1233
+	dd	1
+	dd	_1234
+	dd	_6
+	dd	_1235
+	dd	1
+	dd	_1236
+	dd	_6
+	dd	_1237
+	dd	1
+	dd	_1238
+	dd	_6
+	dd	_1239
+	dd	1
+	dd	_1240
+	dd	_6
+	dd	_1241
+	dd	1
+	dd	_1242
+	dd	_6
+	dd	_1243
+	dd	1
+	dd	_1244
+	dd	_6
+	dd	_1245
+	dd	1
+	dd	_1246
+	dd	_6
+	dd	_1247
+	dd	1
+	dd	_1248
+	dd	_6
+	dd	_1249
+	dd	1
+	dd	_1250
+	dd	_6
+	dd	_1251
+	dd	1
+	dd	_1252
+	dd	_6
+	dd	_1253
+	dd	1
+	dd	_1254
+	dd	_6
+	dd	_1255
+	dd	1
+	dd	_1256
+	dd	_6
+	dd	_1257
+	dd	1
+	dd	_1258
+	dd	_6
+	dd	_1259
+	dd	1
+	dd	_1260
+	dd	_6
+	dd	_1261
+	dd	1
+	dd	_1262
+	dd	_6
+	dd	_1263
+	dd	1
+	dd	_1264
+	dd	_6
+	dd	_1265
+	dd	1
+	dd	_1266
+	dd	_6
+	dd	_1267
+	dd	1
+	dd	_1268
+	dd	_6
+	dd	_1269
+	dd	1
+	dd	_1270
+	dd	_6
+	dd	_1271
+	dd	1
+	dd	_1272
+	dd	_6
+	dd	_1273
+	dd	1
+	dd	_1274
+	dd	_6
+	dd	_1275
+	dd	1
+	dd	_1276
+	dd	_6
+	dd	_1277
+	dd	1
+	dd	_1278
+	dd	_6
+	dd	_1279
+	dd	1
+	dd	_1280
+	dd	_6
+	dd	_1281
+	dd	1
+	dd	_1282
+	dd	_6
+	dd	_1283
+	dd	1
+	dd	_1284
+	dd	_6
+	dd	_1285
+	dd	1
+	dd	_1286
+	dd	_6
+	dd	_1287
+	dd	1
+	dd	_1288
+	dd	_6
+	dd	_1289
+	dd	1
+	dd	_1290
+	dd	_6
+	dd	_1291
+	dd	1
+	dd	_1292
+	dd	_6
+	dd	_1293
+	dd	1
+	dd	_1294
+	dd	_6
+	dd	_1295
+	dd	1
+	dd	_1296
+	dd	_6
+	dd	_1297
+	dd	1
+	dd	_1298
+	dd	_6
+	dd	_1299
+	dd	1
+	dd	_1300
+	dd	_6
+	dd	_1301
+	dd	1
+	dd	_1302
+	dd	_6
+	dd	_1303
+	dd	1
+	dd	_1304
+	dd	_6
+	dd	_1305
+	dd	1
+	dd	_1306
+	dd	_6
+	dd	_1307
+	dd	1
+	dd	_1308
+	dd	_6
+	dd	_1309
+	dd	1
+	dd	_1310
+	dd	_6
+	dd	_1311
+	dd	1
+	dd	_1312
+	dd	_6
+	dd	_1313
+	dd	1
+	dd	_1314
+	dd	_6
+	dd	_1315
+	dd	1
+	dd	_1316
+	dd	_6
+	dd	_1317
+	dd	1
+	dd	_1318
+	dd	_6
+	dd	_1319
+	dd	1
+	dd	_1320
+	dd	_6
+	dd	_1321
+	dd	1
+	dd	_1322
+	dd	_6
+	dd	_1323
+	dd	1
+	dd	_1324
+	dd	_6
+	dd	_1325
+	dd	1
+	dd	_1326
+	dd	_6
+	dd	_1327
+	dd	1
+	dd	_1328
+	dd	_6
+	dd	_1329
+	dd	1
+	dd	_1330
+	dd	_6
+	dd	_643
+	dd	1
+	dd	_1331
+	dd	_6
+	dd	_1332
+	dd	1
+	dd	_1333
+	dd	_6
+	dd	_1334
+	dd	1
+	dd	_1335
+	dd	_6
+	dd	_1336
+	dd	1
+	dd	_1337
+	dd	_6
+	dd	_1338
+	dd	1
+	dd	_1339
+	dd	_6
+	dd	_1340
+	dd	1
+	dd	_1341
+	dd	_6
+	dd	_1342
+	dd	1
+	dd	_1343
+	dd	_6
+	dd	_1344
+	dd	1
+	dd	_1345
+	dd	_6
+	dd	_1346
+	dd	1
+	dd	_1347
+	dd	_6
+	dd	_1348
+	dd	1
+	dd	_1349
+	dd	_6
+	dd	_1350
+	dd	1
+	dd	_1351
+	dd	_6
+	dd	_1352
+	dd	1
+	dd	_1353
+	dd	_6
+	dd	_1354
+	dd	1
+	dd	_1355
+	dd	_6
+	dd	_1356
+	dd	1
+	dd	_1357
+	dd	_6
+	dd	_1358
+	dd	1
+	dd	_1359
+	dd	_6
+	dd	_1360
+	dd	1
+	dd	_1361
+	dd	_6
+	dd	_89
+	dd	1
+	dd	_1362
+	dd	_6
+	dd	_91
+	dd	1
+	dd	_1363
+	dd	_6
+	dd	_93
+	dd	1
+	dd	_1364
+	dd	_6
+	dd	_95
+	dd	1
+	dd	_1365
+	dd	_6
+	dd	_97
+	dd	1
+	dd	_1366
+	dd	_6
+	dd	_99
+	dd	1
+	dd	_1367
+	dd	_6
+	dd	_101
+	dd	1
+	dd	_1368
+	dd	_6
+	dd	_103
+	dd	1
+	dd	_1369
+	dd	_6
+	dd	_279
+	dd	1
+	dd	_1370
+	dd	_6
+	dd	_107
+	dd	1
+	dd	_1371
+	dd	_6
+	dd	_109
+	dd	1
+	dd	_1372
+	dd	_6
+	dd	_111
+	dd	1
+	dd	_1373
+	dd	_6
+	dd	_113
+	dd	1
+	dd	_1374
+	dd	_6
+	dd	_115
+	dd	1
+	dd	_1375
+	dd	_6
+	dd	_117
+	dd	1
+	dd	_1376
+	dd	_6
+	dd	_119
+	dd	1
+	dd	_1377
+	dd	_6
+	dd	_121
+	dd	1
+	dd	_1378
+	dd	_6
+	dd	_123
+	dd	1
+	dd	_1379
+	dd	_6
+	dd	_125
+	dd	1
+	dd	_1380
+	dd	_6
+	dd	_127
+	dd	1
+	dd	_1381
+	dd	_6
+	dd	_129
+	dd	1
+	dd	_1382
+	dd	_6
+	dd	_131
+	dd	1
+	dd	_1383
+	dd	_6
+	dd	_133
+	dd	1
+	dd	_1384
+	dd	_6
+	dd	_135
+	dd	1
+	dd	_1385
+	dd	_6
+	dd	_137
+	dd	1
+	dd	_1386
+	dd	_6
+	dd	_139
+	dd	1
+	dd	_1387
+	dd	_6
+	dd	_141
+	dd	1
+	dd	_1388
+	dd	_6
+	dd	_143
+	dd	1
+	dd	_1389
+	dd	_6
+	dd	_145
+	dd	1
+	dd	_1390
+	dd	_6
+	dd	_147
+	dd	1
+	dd	_1391
+	dd	_6
+	dd	_149
+	dd	1
+	dd	_1392
+	dd	_6
+	dd	_151
+	dd	1
+	dd	_1393
+	dd	_6
+	dd	_153
+	dd	1
+	dd	_1394
+	dd	_6
+	dd	_155
+	dd	1
+	dd	_1395
+	dd	_6
+	dd	_157
+	dd	1
+	dd	_1396
+	dd	_6
+	dd	_159
+	dd	1
+	dd	_1397
+	dd	_6
+	dd	_161
+	dd	1
+	dd	_1398
+	dd	_6
+	dd	_163
+	dd	1
+	dd	_1399
+	dd	_6
+	dd	_165
+	dd	1
+	dd	_1400
+	dd	_6
+	dd	_167
+	dd	1
+	dd	_1401
+	dd	_6
+	dd	_169
+	dd	1
+	dd	_1402
+	dd	_6
+	dd	_171
+	dd	1
+	dd	_1403
+	dd	_6
+	dd	_173
+	dd	1
+	dd	_1404
+	dd	_6
+	dd	_175
+	dd	1
+	dd	_1405
+	dd	_6
+	dd	_363
+	dd	1
+	dd	_1406
+	dd	_6
+	dd	_365
+	dd	1
+	dd	_1407
+	dd	_6
+	dd	_367
+	dd	1
+	dd	_1408
+	dd	_6
+	dd	_369
+	dd	1
+	dd	_1409
+	dd	_6
+	dd	_429
+	dd	1
+	dd	_1410
+	dd	_6
+	dd	_599
+	dd	1
+	dd	_1411
+	dd	_6
+	dd	_601
+	dd	1
+	dd	_1412
+	dd	_6
+	dd	_603
+	dd	1
+	dd	_1413
+	dd	_6
+	dd	_605
+	dd	1
+	dd	_1414
+	dd	_6
+	dd	_289
+	dd	1
+	dd	_1415
+	dd	_6
+	dd	_291
+	dd	1
+	dd	_1416
+	dd	_6
+	dd	_293
+	dd	1
+	dd	_1417
+	dd	_6
+	dd	_295
+	dd	1
+	dd	_1418
+	dd	_6
+	dd	_491
+	dd	1
+	dd	_1419
+	dd	_6
+	dd	_493
+	dd	1
+	dd	_1420
+	dd	_6
+	dd	_1421
+	dd	1
+	dd	_1422
+	dd	_6
+	dd	_1423
+	dd	1
+	dd	_1424
+	dd	_6
+	dd	_1425
+	dd	1
+	dd	_1426
+	dd	_6
+	dd	_517
+	dd	1
+	dd	_1427
+	dd	_6
+	dd	_519
+	dd	1
+	dd	_1428
+	dd	_6
+	dd	_521
+	dd	1
+	dd	_1429
+	dd	_6
+	dd	_523
+	dd	1
+	dd	_1430
+	dd	_6
+	dd	_525
+	dd	1
+	dd	_1431
+	dd	_6
+	dd	_527
+	dd	1
+	dd	_1432
+	dd	_6
+	dd	_529
+	dd	1
+	dd	_1433
+	dd	_6
+	dd	_531
+	dd	1
+	dd	_1434
+	dd	_6
+	dd	_533
+	dd	1
+	dd	_1435
+	dd	_6
+	dd	_535
+	dd	1
+	dd	_1436
+	dd	_6
+	dd	_537
+	dd	1
+	dd	_1437
+	dd	_6
+	dd	_539
+	dd	1
+	dd	_1438
+	dd	_6
+	dd	_541
+	dd	1
+	dd	_1439
+	dd	_6
+	dd	_543
+	dd	1
+	dd	_1440
+	dd	_6
+	dd	_545
+	dd	1
+	dd	_1441
+	dd	_6
+	dd	_547
+	dd	1
+	dd	_1442
+	dd	_6
+	dd	_549
+	dd	1
+	dd	_1443
+	dd	_6
+	dd	_551
+	dd	1
+	dd	_1444
+	dd	_6
+	dd	_553
+	dd	1
+	dd	_1445
+	dd	_6
+	dd	_555
+	dd	1
+	dd	_1446
+	dd	_6
+	dd	_1447
+	dd	1
+	dd	_1448
+	dd	_6
+	dd	_1449
+	dd	1
+	dd	_1450
+	dd	_6
+	dd	_557
+	dd	1
+	dd	_1451
+	dd	_6
+	dd	_559
+	dd	1
+	dd	_1452
+	dd	_6
+	dd	_561
+	dd	1
+	dd	_1453
+	dd	_6
+	dd	_563
+	dd	1
+	dd	_1454
+	dd	_6
+	dd	_565
+	dd	1
+	dd	_1455
+	dd	_6
+	dd	_567
+	dd	1
+	dd	_1456
+	dd	_6
+	dd	_569
+	dd	1
+	dd	_1457
+	dd	_6
+	dd	_571
+	dd	1
+	dd	_1458
+	dd	_6
+	dd	_573
+	dd	1
+	dd	_1459
+	dd	_6
+	dd	_581
+	dd	1
+	dd	_1460
+	dd	_6
+	dd	_353
+	dd	1
+	dd	_1461
+	dd	_6
+	dd	_355
+	dd	1
+	dd	_1462
+	dd	_6
+	dd	_357
+	dd	1
+	dd	_1463
+	dd	_6
+	dd	_1464
+	dd	1
+	dd	_1465
+	dd	_6
+	dd	_105
+	dd	1
+	dd	_1466
+	dd	_6
+	dd	_1467
+	dd	1
+	dd	_1468
+	dd	_6
+	dd	_1469
+	dd	1
+	dd	_1470
+	dd	_6
+	dd	_1471
+	dd	1
+	dd	_1472
+	dd	_6
+	dd	_1473
+	dd	1
+	dd	_1474
+	dd	_6
+	dd	_1475
+	dd	1
+	dd	_1476
+	dd	_6
+	dd	_187
+	dd	1
+	dd	_1477
+	dd	_6
+	dd	_189
+	dd	1
+	dd	_1478
+	dd	_6
+	dd	_191
+	dd	1
+	dd	_1479
+	dd	_6
+	dd	_193
+	dd	1
+	dd	_1480
+	dd	_6
+	dd	_195
+	dd	1
+	dd	_1481
+	dd	_6
+	dd	_197
+	dd	1
+	dd	_1482
+	dd	_6
+	dd	_199
+	dd	1
+	dd	_1483
+	dd	_6
+	dd	_267
+	dd	1
+	dd	_1484
+	dd	_6
+	dd	_269
+	dd	1
+	dd	_1485
+	dd	_6
+	dd	_271
+	dd	1
+	dd	_1486
+	dd	_6
+	dd	_273
+	dd	1
+	dd	_1487
+	dd	_6
+	dd	_1488
+	dd	1
+	dd	_1489
+	dd	_6
+	dd	_1490
+	dd	1
+	dd	_1491
+	dd	_6
+	dd	_1492
+	dd	1
+	dd	_1493
+	dd	_6
+	dd	_1494
+	dd	1
+	dd	_1495
+	dd	_6
+	dd	_201
+	dd	1
+	dd	_1496
+	dd	_6
+	dd	_203
+	dd	1
+	dd	_1497
+	dd	_6
+	dd	_205
+	dd	1
+	dd	_1498
+	dd	_6
+	dd	_207
+	dd	1
+	dd	_1499
+	dd	_6
+	dd	_209
+	dd	1
+	dd	_1500
+	dd	_6
+	dd	_211
+	dd	1
+	dd	_1501
+	dd	_6
+	dd	_213
+	dd	1
+	dd	_1502
+	dd	_6
+	dd	_215
+	dd	1
+	dd	_1503
+	dd	_6
+	dd	_217
+	dd	1
+	dd	_1504
+	dd	_6
+	dd	_219
+	dd	1
+	dd	_1505
+	dd	_6
+	dd	_221
+	dd	1
+	dd	_1506
+	dd	_6
+	dd	_223
+	dd	1
+	dd	_1507
+	dd	_6
+	dd	_185
+	dd	1
+	dd	_1508
+	dd	_6
+	dd	_225
+	dd	1
+	dd	_1509
+	dd	_6
+	dd	_227
+	dd	1
+	dd	_1510
+	dd	_6
+	dd	_229
+	dd	1
+	dd	_1511
+	dd	_6
+	dd	_231
+	dd	1
+	dd	_1512
+	dd	_6
+	dd	_233
+	dd	1
+	dd	_1513
+	dd	_6
+	dd	_235
+	dd	1
+	dd	_1514
+	dd	_6
+	dd	_237
+	dd	1
+	dd	_1515
+	dd	_6
+	dd	_239
+	dd	1
+	dd	_1516
+	dd	_6
+	dd	_241
+	dd	1
+	dd	_1517
+	dd	_6
+	dd	_243
+	dd	1
+	dd	_1518
+	dd	_6
+	dd	_245
+	dd	1
+	dd	_1519
+	dd	_6
+	dd	_247
+	dd	1
+	dd	_1520
+	dd	_6
+	dd	_249
+	dd	1
+	dd	_1521
+	dd	_6
+	dd	_251
+	dd	1
+	dd	_1522
+	dd	_6
+	dd	_253
+	dd	1
+	dd	_1523
+	dd	_6
+	dd	_255
+	dd	1
+	dd	_1524
+	dd	_6
+	dd	_257
+	dd	1
+	dd	_1525
+	dd	_6
+	dd	_259
+	dd	1
+	dd	_1526
+	dd	_6
+	dd	_261
+	dd	1
+	dd	_1527
+	dd	_6
+	dd	_263
+	dd	1
+	dd	_1528
+	dd	_6
+	dd	_265
+	dd	1
+	dd	_1529
+	dd	_6
+	dd	_275
+	dd	1
+	dd	_1530
+	dd	_6
+	dd	_277
+	dd	1
+	dd	_1531
+	dd	_6
+	dd	_661
+	dd	1
+	dd	_1532
+	dd	_6
+	dd	_663
+	dd	1
+	dd	_1533
+	dd	_6
+	dd	_868
+	dd	1
+	dd	_1534
+	dd	_6
+	dd	_870
+	dd	1
+	dd	_1535
+	dd	_6
+	dd	_872
+	dd	1
+	dd	_1536
+	dd	_6
+	dd	_874
+	dd	1
+	dd	_1537
+	dd	_6
+	dd	_665
+	dd	1
+	dd	_1538
+	dd	_6
+	dd	_667
+	dd	1
+	dd	_1539
+	dd	_6
+	dd	_878
+	dd	1
+	dd	_1540
+	dd	_6
+	dd	_880
+	dd	1
+	dd	_1541
+	dd	_6
+	dd	_882
+	dd	1
+	dd	_1542
+	dd	_6
+	dd	_884
+	dd	1
+	dd	_1543
+	dd	_6
+	dd	_685
+	dd	1
+	dd	_1544
+	dd	_6
+	dd	_687
+	dd	1
+	dd	_1545
+	dd	_6
+	dd	_689
+	dd	1
+	dd	_1546
+	dd	_6
+	dd	_691
+	dd	1
+	dd	_1547
+	dd	_6
+	dd	_693
+	dd	1
+	dd	_1548
+	dd	_6
+	dd	_695
+	dd	1
+	dd	_1549
+	dd	_6
+	dd	_697
+	dd	1
+	dd	_1550
+	dd	_6
+	dd	_699
+	dd	1
+	dd	_1551
+	dd	_6
+	dd	_307
+	dd	1
+	dd	_1552
+	dd	_6
+	dd	_1553
+	dd	1
+	dd	_1554
+	dd	_6
+	dd	_1555
+	dd	1
+	dd	_1556
+	dd	_6
+	dd	_1557
+	dd	1
+	dd	_1558
+	dd	_6
+	dd	_1559
+	dd	1
+	dd	_1560
+	dd	_6
+	dd	_1561
+	dd	1
+	dd	_1562
+	dd	_6
+	dd	_1563
+	dd	1
+	dd	_1564
+	dd	_6
+	dd	_1565
+	dd	1
+	dd	_1566
+	dd	_6
+	dd	_1567
+	dd	1
+	dd	_1568
+	dd	_6
+	dd	_1569
+	dd	1
+	dd	_1570
+	dd	_6
+	dd	_1571
+	dd	1
+	dd	_1572
+	dd	_6
+	dd	_1573
+	dd	1
+	dd	_1574
+	dd	_6
+	dd	_1575
+	dd	1
+	dd	_1576
+	dd	_6
+	dd	_1577
+	dd	1
+	dd	_1578
+	dd	_6
+	dd	_1579
+	dd	1
+	dd	_1580
+	dd	_6
+	dd	_1581
+	dd	1
+	dd	_1582
+	dd	_6
+	dd	_1583
+	dd	1
+	dd	_1584
+	dd	_6
+	dd	_1585
+	dd	1
+	dd	_1586
+	dd	_6
+	dd	_1587
+	dd	1
+	dd	_1588
+	dd	_6
+	dd	_1589
+	dd	1
+	dd	_1590
+	dd	_6
+	dd	_1591
+	dd	1
+	dd	_1592
+	dd	_6
+	dd	_1593
+	dd	1
+	dd	_1594
+	dd	_6
+	dd	_1595
+	dd	1
+	dd	_1596
+	dd	_6
+	dd	_1597
+	dd	1
+	dd	_1598
+	dd	_6
+	dd	_1599
+	dd	1
+	dd	_1600
+	dd	_6
+	dd	_1601
+	dd	1
+	dd	_1602
+	dd	_6
+	dd	_1603
+	dd	1
+	dd	_1604
+	dd	_6
+	dd	_177
+	dd	1
+	dd	_1605
+	dd	_6
+	dd	_179
+	dd	1
+	dd	_1606
+	dd	_6
+	dd	_181
+	dd	1
+	dd	_1607
+	dd	_6
+	dd	_183
+	dd	1
+	dd	_1608
+	dd	_6
+	dd	_910
+	dd	1
+	dd	_1609
+	dd	_6
+	dd	_1610
+	dd	1
+	dd	_1611
+	dd	_6
+	dd	_1612
+	dd	1
+	dd	_1613
+	dd	_6
+	dd	_1614
+	dd	1
+	dd	_1615
+	dd	_6
+	dd	_1616
+	dd	1
+	dd	_1617
+	dd	_6
+	dd	_1618
+	dd	1
+	dd	_1619
+	dd	_6
+	dd	_1620
+	dd	1
+	dd	_1621
+	dd	_6
+	dd	_1622
+	dd	1
+	dd	_1623
+	dd	_6
+	dd	_1624
+	dd	1
+	dd	_1625
+	dd	_6
+	dd	_1626
+	dd	1
+	dd	_1627
+	dd	_6
+	dd	_1628
+	dd	1
+	dd	_1629
+	dd	_6
+	dd	_1630
+	dd	1
+	dd	_1631
+	dd	_6
+	dd	_1632
+	dd	1
+	dd	_1633
+	dd	_6
+	dd	_1634
+	dd	1
+	dd	_1635
+	dd	_6
+	dd	_1636
+	dd	1
+	dd	_1637
+	dd	_6
+	dd	_1638
+	dd	1
+	dd	_1639
+	dd	_6
+	dd	_1640
+	dd	1
+	dd	_1641
+	dd	_6
+	dd	_1642
+	dd	1
+	dd	_1643
+	dd	_6
+	dd	_1644
+	dd	1
+	dd	_1645
+	dd	_6
+	dd	_1646
+	dd	1
+	dd	_1647
+	dd	_6
+	dd	_1648
+	dd	1
+	dd	_1649
+	dd	_6
+	dd	_1650
+	dd	1
+	dd	_1651
+	dd	_6
+	dd	_1652
+	dd	1
+	dd	_1653
+	dd	_6
+	dd	_1654
+	dd	1
+	dd	_1655
+	dd	_6
+	dd	_1656
+	dd	1
+	dd	_1657
+	dd	_6
+	dd	_1658
+	dd	1
+	dd	_1659
+	dd	_6
+	dd	_1660
+	dd	1
+	dd	_1661
+	dd	_6
+	dd	_1662
+	dd	1
+	dd	_1663
+	dd	_6
+	dd	_1664
+	dd	1
+	dd	_1665
+	dd	_6
+	dd	_1666
+	dd	1
+	dd	_1667
+	dd	_6
+	dd	_1668
+	dd	1
+	dd	_1669
+	dd	_6
+	dd	_1670
+	dd	1
+	dd	_1671
+	dd	_6
+	dd	_1672
+	dd	1
+	dd	_1673
+	dd	_6
+	dd	_1674
+	dd	1
+	dd	_1675
+	dd	_6
+	dd	_1676
+	dd	1
+	dd	_1677
+	dd	_6
+	dd	_1678
+	dd	1
+	dd	_1679
+	dd	_6
+	dd	_1680
+	dd	1
+	dd	_1681
+	dd	_6
+	dd	_1682
+	dd	1
+	dd	_1683
+	dd	_6
+	dd	_1684
+	dd	1
+	dd	_1685
+	dd	_6
+	dd	_1686
+	dd	1
+	dd	_1687
+	dd	_6
+	dd	_1688
+	dd	1
+	dd	_1689
+	dd	_6
+	dd	_1690
+	dd	1
+	dd	_1691
+	dd	_6
+	dd	_1692
+	dd	1
+	dd	_1693
+	dd	_6
+	dd	_359
+	dd	1
+	dd	_1694
+	dd	_6
+	dd	_361
+	dd	1
+	dd	_1695
+	dd	_6
+	dd	_371
+	dd	1
+	dd	_1696
+	dd	_6
+	dd	_373
+	dd	1
+	dd	_1697
+	dd	_6
+	dd	_375
+	dd	1
+	dd	_1698
+	dd	_6
+	dd	_377
+	dd	1
+	dd	_1699
+	dd	_6
+	dd	_379
+	dd	1
+	dd	_1700
+	dd	_6
+	dd	_381
+	dd	1
+	dd	_1701
+	dd	_6
+	dd	_383
+	dd	1
+	dd	_1702
+	dd	_6
+	dd	_385
+	dd	1
+	dd	_1703
+	dd	_6
+	dd	_387
+	dd	1
+	dd	_1704
+	dd	_6
+	dd	_389
+	dd	1
+	dd	_1705
+	dd	_6
+	dd	_391
+	dd	1
+	dd	_1706
+	dd	_6
+	dd	_393
+	dd	1
+	dd	_1707
+	dd	_6
+	dd	_395
+	dd	1
+	dd	_1708
+	dd	_6
+	dd	_397
+	dd	1
+	dd	_1709
+	dd	_6
+	dd	_399
+	dd	1
+	dd	_1710
+	dd	_6
+	dd	_401
+	dd	1
+	dd	_1711
+	dd	_6
+	dd	_403
+	dd	1
+	dd	_1712
+	dd	_6
+	dd	_405
+	dd	1
+	dd	_1713
+	dd	_6
+	dd	_407
+	dd	1
+	dd	_1714
+	dd	_6
+	dd	_409
+	dd	1
+	dd	_1715
+	dd	_6
+	dd	_411
+	dd	1
+	dd	_1716
+	dd	_6
+	dd	_413
+	dd	1
+	dd	_1717
+	dd	_6
+	dd	_415
+	dd	1
+	dd	_1718
+	dd	_6
+	dd	_417
+	dd	1
+	dd	_1719
+	dd	_6
+	dd	_419
+	dd	1
+	dd	_1720
+	dd	_6
+	dd	_421
+	dd	1
+	dd	_1721
+	dd	_6
+	dd	_423
+	dd	1
+	dd	_1722
+	dd	_6
+	dd	_425
+	dd	1
+	dd	_1723
+	dd	_6
+	dd	_427
+	dd	1
+	dd	_1724
+	dd	_6
+	dd	_325
+	dd	1
+	dd	_1725
+	dd	_6
+	dd	_1726
+	dd	1
+	dd	_1727
+	dd	_6
+	dd	_431
+	dd	1
+	dd	_1728
+	dd	_6
+	dd	_433
+	dd	1
+	dd	_1729
+	dd	_6
+	dd	_435
+	dd	1
+	dd	_1730
+	dd	_6
+	dd	_437
+	dd	1
+	dd	_1731
+	dd	_6
+	dd	_439
+	dd	1
+	dd	_1732
+	dd	_6
+	dd	_1733
+	dd	1
+	dd	_1734
+	dd	_6
+	dd	_1735
+	dd	1
+	dd	_1736
+	dd	_6
+	dd	_1737
+	dd	1
+	dd	_1738
+	dd	_6
+	dd	_1739
+	dd	1
+	dd	_1740
+	dd	_6
+	dd	_1741
+	dd	1
+	dd	_1742
+	dd	_6
+	dd	_1743
+	dd	1
+	dd	_1744
+	dd	_6
+	dd	_441
+	dd	1
+	dd	_1745
+	dd	_6
+	dd	_443
+	dd	1
+	dd	_1746
+	dd	_6
+	dd	_445
+	dd	1
+	dd	_1747
+	dd	_6
+	dd	_1748
+	dd	1
+	dd	_1749
+	dd	_6
+	dd	_1750
+	dd	1
+	dd	_1751
+	dd	_6
+	dd	_495
+	dd	1
+	dd	_1752
+	dd	_6
+	dd	_497
+	dd	1
+	dd	_1753
+	dd	_6
+	dd	_1754
+	dd	1
+	dd	_1755
+	dd	_6
+	dd	_1756
+	dd	1
+	dd	_1757
+	dd	_6
+	dd	_1758
+	dd	1
+	dd	_1759
+	dd	_6
+	dd	_1760
+	dd	1
+	dd	_1761
+	dd	_6
+	dd	_1762
+	dd	1
+	dd	_1763
+	dd	_6
+	dd	_1764
+	dd	1
+	dd	_1765
+	dd	_6
+	dd	_1766
+	dd	1
+	dd	_1767
+	dd	_6
+	dd	_1768
+	dd	1
+	dd	_1769
+	dd	_6
+	dd	_1770
+	dd	1
+	dd	_1771
+	dd	_6
+	dd	_1772
+	dd	1
+	dd	_1773
+	dd	_6
+	dd	_1774
+	dd	1
+	dd	_1775
+	dd	_6
+	dd	_1776
+	dd	1
+	dd	_1777
+	dd	_6
+	dd	_1778
+	dd	1
+	dd	_1779
+	dd	_6
+	dd	_1780
+	dd	1
+	dd	_1781
+	dd	_6
+	dd	_1782
+	dd	1
+	dd	_1783
+	dd	_6
+	dd	_1784
+	dd	1
+	dd	_1785
+	dd	_6
+	dd	_1786
+	dd	1
+	dd	_1787
+	dd	_6
+	dd	_1788
+	dd	1
+	dd	_1789
+	dd	_6
+	dd	_1790
+	dd	1
+	dd	_1791
+	dd	_6
+	dd	_1792
+	dd	1
+	dd	_1793
+	dd	_6
+	dd	_1794
+	dd	1
+	dd	_1795
+	dd	_6
+	dd	_1796
+	dd	1
+	dd	_1797
+	dd	_6
+	dd	_1798
+	dd	1
+	dd	_1799
+	dd	_6
+	dd	_1800
+	dd	1
+	dd	_1801
+	dd	_6
+	dd	_1802
+	dd	1
+	dd	_1803
+	dd	_6
+	dd	_1804
+	dd	1
+	dd	_1805
+	dd	_6
+	dd	_1806
+	dd	1
+	dd	_1807
+	dd	_6
+	dd	_1808
+	dd	1
+	dd	_1809
+	dd	_6
+	dd	_1810
+	dd	1
+	dd	_1811
+	dd	_6
+	dd	_1812
+	dd	1
+	dd	_1813
+	dd	_6
+	dd	_1814
+	dd	1
+	dd	_1815
+	dd	_6
+	dd	_1816
+	dd	1
+	dd	_1817
+	dd	_6
+	dd	_1818
+	dd	1
+	dd	_1819
+	dd	_6
+	dd	_1820
+	dd	1
+	dd	_1821
+	dd	_6
+	dd	_1822
+	dd	1
+	dd	_1823
+	dd	_6
+	dd	_1824
+	dd	1
+	dd	_1825
+	dd	_6
+	dd	_1826
+	dd	1
+	dd	_1827
+	dd	_6
+	dd	_1828
+	dd	1
+	dd	_1829
+	dd	_6
+	dd	_1830
+	dd	1
+	dd	_1831
+	dd	_6
+	dd	_1832
+	dd	1
+	dd	_1833
+	dd	_6
+	dd	_1834
+	dd	1
+	dd	_1835
+	dd	_6
+	dd	_1836
+	dd	1
+	dd	_1837
+	dd	_6
+	dd	_1838
+	dd	1
+	dd	_1839
+	dd	_6
+	dd	_1840
+	dd	1
+	dd	_1841
+	dd	_6
+	dd	_1842
+	dd	1
+	dd	_1843
+	dd	_6
+	dd	_1844
+	dd	1
+	dd	_1845
+	dd	_6
+	dd	_1846
+	dd	1
+	dd	_1847
+	dd	_6
+	dd	_1848
+	dd	1
+	dd	_1849
+	dd	_6
+	dd	_1850
+	dd	1
+	dd	_1851
+	dd	_6
+	dd	_1852
+	dd	1
+	dd	_1853
+	dd	_6
+	dd	_1854
+	dd	1
+	dd	_1855
+	dd	_6
+	dd	_1856
+	dd	1
+	dd	_1857
+	dd	_6
+	dd	_1858
+	dd	1
+	dd	_1859
+	dd	_6
+	dd	_1860
+	dd	1
+	dd	_1861
+	dd	_6
+	dd	_1862
+	dd	1
+	dd	_1863
+	dd	_6
+	dd	_1864
+	dd	1
+	dd	_1865
+	dd	_6
+	dd	_1866
+	dd	1
+	dd	_1867
+	dd	_6
+	dd	_1868
+	dd	1
+	dd	_1869
+	dd	_6
+	dd	_1870
+	dd	1
+	dd	_1871
+	dd	_6
+	dd	_505
+	dd	1
+	dd	_1872
+	dd	_6
+	dd	_509
+	dd	1
+	dd	_1873
+	dd	_6
+	dd	_511
+	dd	1
+	dd	_1874
+	dd	_6
+	dd	_513
+	dd	1
+	dd	_1875
+	dd	_6
+	dd	_515
+	dd	1
+	dd	_1876
+	dd	_6
+	dd	_575
+	dd	1
+	dd	_1877
+	dd	_6
+	dd	_577
+	dd	1
+	dd	_1878
+	dd	_6
+	dd	_1879
+	dd	1
+	dd	_1880
+	dd	_6
+	dd	_1881
+	dd	1
+	dd	_1882
+	dd	_6
+	dd	_1883
+	dd	1
+	dd	_1884
+	dd	_6
+	dd	_1885
+	dd	1
+	dd	_1886
+	dd	_6
+	dd	_1887
+	dd	1
+	dd	_1888
+	dd	_6
+	dd	_1889
+	dd	1
+	dd	_1890
+	dd	_6
+	dd	_1891
+	dd	1
+	dd	_1892
+	dd	_6
+	dd	_1893
+	dd	1
+	dd	_1894
+	dd	_6
+	dd	_1895
+	dd	1
+	dd	_1896
+	dd	_6
+	dd	_1897
+	dd	1
+	dd	_1898
+	dd	_6
+	dd	_1899
+	dd	1
+	dd	_1900
+	dd	_6
+	dd	_1901
+	dd	1
+	dd	_1902
+	dd	_6
+	dd	_1903
+	dd	1
+	dd	_1904
+	dd	_6
+	dd	_455
+	dd	1
+	dd	_1905
+	dd	_6
+	dd	_457
+	dd	1
+	dd	_1906
+	dd	_6
+	dd	_459
+	dd	1
+	dd	_1907
+	dd	_6
+	dd	_461
+	dd	1
+	dd	_1908
+	dd	_6
+	dd	_463
+	dd	1
+	dd	_1909
+	dd	_6
+	dd	_465
+	dd	1
+	dd	_1910
+	dd	_6
+	dd	_467
+	dd	1
+	dd	_1911
+	dd	_6
+	dd	_469
+	dd	1
+	dd	_1912
+	dd	_6
+	dd	_471
+	dd	1
+	dd	_1913
+	dd	_6
+	dd	_473
+	dd	1
+	dd	_1914
+	dd	_6
+	dd	_475
+	dd	1
+	dd	_1915
+	dd	_6
+	dd	_477
+	dd	1
+	dd	_1916
+	dd	_6
+	dd	_479
+	dd	1
+	dd	_1917
+	dd	_6
+	dd	_481
+	dd	1
+	dd	_1918
+	dd	_6
+	dd	_483
+	dd	1
+	dd	_1919
+	dd	_6
+	dd	_485
+	dd	1
+	dd	_1920
+	dd	_6
+	dd	_487
+	dd	1
+	dd	_1921
+	dd	_6
+	dd	_854
+	dd	1
+	dd	_1922
+	dd	_6
+	dd	_856
+	dd	1
+	dd	_1923
+	dd	_6
+	dd	_858
+	dd	1
+	dd	_1924
+	dd	_6
+	dd	_1925
+	dd	1
+	dd	_1926
+	dd	_6
+	dd	_1927
+	dd	1
+	dd	_1928
+	dd	_6
+	dd	_1929
+	dd	1
+	dd	_1930
+	dd	_6
+	dd	_1931
+	dd	1
+	dd	_1932
+	dd	_6
+	dd	_1933
+	dd	1
+	dd	_1934
+	dd	_6
+	dd	_1935
+	dd	1
+	dd	_1936
+	dd	_6
+	dd	_1937
+	dd	1
+	dd	_1938
+	dd	_6
+	dd	_1939
+	dd	1
+	dd	_1940
+	dd	_6
+	dd	_643
+	dd	1
+	dd	_1941
+	dd	_6
+	dd	_643
+	dd	1
+	dd	_1942
+	dd	_6
+	dd	_1332
+	dd	1
+	dd	_1943
+	dd	_6
+	dd	_1332
+	dd	1
+	dd	_1944
+	dd	_6
+	dd	_1332
+	dd	1
+	dd	_1945
+	dd	_6
+	dd	_1334
+	dd	1
+	dd	_1946
+	dd	_6
+	dd	_1334
+	dd	1
+	dd	_1947
+	dd	_6
+	dd	_1334
+	dd	1
+	dd	_1948
+	dd	_6
+	dd	_1336
+	dd	1
+	dd	_1949
+	dd	_6
+	dd	_1336
+	dd	1
+	dd	_1950
+	dd	_6
+	dd	_1338
+	dd	1
+	dd	_1951
+	dd	_6
+	dd	_1340
+	dd	1
+	dd	_1952
+	dd	_6
+	dd	_1953
+	dd	1
+	dd	_1954
+	dd	_6
+	dd	_1955
+	dd	1
+	dd	_1956
+	dd	_6
+	dd	_1957
+	dd	1
+	dd	_1958
+	dd	_6
+	dd	_1959
+	dd	1
+	dd	_1960
+	dd	_6
+	dd	_1961
+	dd	1
+	dd	_1962
+	dd	_6
+	dd	_1963
+	dd	1
+	dd	_1964
+	dd	_6
+	dd	_1965
+	dd	1
+	dd	_1966
+	dd	_6
+	dd	_1967
+	dd	1
+	dd	_1968
+	dd	_6
+	dd	_1969
+	dd	1
+	dd	_1970
+	dd	_6
+	dd	_1971
+	dd	1
+	dd	_1972
+	dd	_6
+	dd	_1973
+	dd	1
+	dd	_1974
+	dd	_6
+	dd	_1975
+	dd	1
+	dd	_1976
+	dd	_6
+	dd	_1977
+	dd	1
+	dd	_1978
+	dd	_6
+	dd	_1979
+	dd	1
+	dd	_1980
+	dd	_6
+	dd	_1981
+	dd	1
+	dd	_1982
+	dd	_6
+	dd	_1983
+	dd	1
+	dd	_1984
+	dd	_6
+	dd	_1985
+	dd	1
+	dd	_1986
+	dd	_6
+	dd	_1987
+	dd	1
+	dd	_1988
+	dd	_6
+	dd	_1989
+	dd	1
+	dd	_1990
+	dd	_6
+	dd	_1991
+	dd	1
+	dd	_1992
+	dd	_6
+	dd	_1993
+	dd	1
+	dd	_1994
+	dd	_6
+	dd	_1995
+	dd	1
+	dd	_1996
+	dd	_6
+	dd	_1997
+	dd	1
+	dd	_1998
+	dd	_6
+	dd	_1999
+	dd	1
+	dd	_2000
+	dd	_6
+	dd	_2001
+	dd	1
+	dd	_2002
+	dd	_6
+	dd	_2003
+	dd	1
+	dd	_2004
+	dd	_6
+	dd	_2005
+	dd	1
+	dd	_2006
+	dd	_6
+	dd	_2007
+	dd	1
+	dd	_2008
+	dd	_6
+	dd	_2009
+	dd	1
+	dd	_2010
+	dd	_6
+	dd	_2011
+	dd	1
+	dd	_2012
+	dd	_6
+	dd	_2013
+	dd	1
+	dd	_2014
+	dd	_6
+	dd	_2015
+	dd	1
+	dd	_2016
+	dd	_6
+	dd	_2017
+	dd	1
+	dd	_2018
+	dd	_6
+	dd	_2019
+	dd	1
+	dd	_2020
+	dd	_6
+	dd	_2021
+	dd	1
+	dd	_2022
+	dd	_6
+	dd	_2023
+	dd	1
+	dd	_2024
+	dd	_6
+	dd	_2025
+	dd	1
+	dd	_2026
+	dd	_6
+	dd	_2027
+	dd	1
+	dd	_2028
+	dd	_6
+	dd	_2029
+	dd	1
+	dd	_2030
+	dd	_6
+	dd	_2031
+	dd	1
+	dd	_2032
+	dd	_6
+	dd	_2033
+	dd	1
+	dd	_2034
+	dd	_6
+	dd	_2035
+	dd	1
+	dd	_2036
+	dd	_6
+	dd	_2037
+	dd	1
+	dd	_2038
+	dd	_6
+	dd	_2039
+	dd	1
+	dd	_2040
+	dd	_6
+	dd	_2041
+	dd	1
+	dd	_2042
+	dd	_6
+	dd	_2043
+	dd	1
+	dd	_2044
+	dd	_6
+	dd	_2045
+	dd	1
+	dd	_2046
+	dd	_6
+	dd	_2047
+	dd	1
+	dd	_2048
+	dd	_6
+	dd	_2049
+	dd	1
+	dd	_2050
+	dd	_6
+	dd	_2051
+	dd	1
+	dd	_2052
+	dd	_6
+	dd	_2053
+	dd	1
+	dd	_2054
+	dd	_6
+	dd	_447
+	dd	1
+	dd	_2055
+	dd	_6
+	dd	_449
+	dd	1
+	dd	_2056
+	dd	_6
+	dd	_451
+	dd	1
+	dd	_2057
+	dd	_6
+	dd	_453
+	dd	1
+	dd	_2058
+	dd	_6
+	dd	_2059
+	dd	1
+	dd	_2060
+	dd	_6
+	dd	_2061
+	dd	1
+	dd	_2062
+	dd	_6
+	dd	_1891
+	dd	1
+	dd	_2063
+	dd	_6
+	dd	_1893
+	dd	1
+	dd	_2064
+	dd	_6
+	dd	_1895
+	dd	1
+	dd	_2065
+	dd	_6
+	dd	_661
+	dd	1
+	dd	_2066
+	dd	_6
+	dd	_663
+	dd	1
+	dd	_2067
+	dd	_6
+	dd	_868
+	dd	1
+	dd	_2068
+	dd	_6
+	dd	_870
+	dd	1
+	dd	_2069
+	dd	_6
+	dd	_872
+	dd	1
+	dd	_2070
+	dd	_6
+	dd	_874
+	dd	1
+	dd	_2071
+	dd	_6
+	dd	_665
+	dd	1
+	dd	_2072
+	dd	_6
+	dd	_667
+	dd	1
+	dd	_2073
+	dd	_6
+	dd	_878
+	dd	1
+	dd	_2074
+	dd	_6
+	dd	_880
+	dd	1
+	dd	_2075
+	dd	_6
+	dd	_882
+	dd	1
+	dd	_2076
+	dd	_6
+	dd	_884
+	dd	1
+	dd	_2077
+	dd	_6
+	dd	_2078
+	dd	1
+	dd	_2079
+	dd	_6
+	dd	_2080
+	dd	1
+	dd	_2081
+	dd	_6
+	dd	_2082
+	dd	1
+	dd	_2083
+	dd	_6
+	dd	_2084
+	dd	1
+	dd	_2085
+	dd	_6
+	dd	_2086
+	dd	1
+	dd	_2087
+	dd	_6
+	dd	_2088
+	dd	1
+	dd	_2089
+	dd	_6
+	dd	_359
+	dd	1
+	dd	_2090
+	dd	_6
+	dd	_361
+	dd	1
+	dd	_2091
+	dd	_6
+	dd	_2092
+	dd	1
+	dd	_2093
+	dd	_6
+	dd	_2094
+	dd	1
+	dd	_2095
+	dd	_6
+	dd	_2096
+	dd	1
+	dd	_2097
+	dd	_6
+	dd	_2098
+	dd	1
+	dd	_2099
+	dd	_6
+	dd	_2100
+	dd	1
+	dd	_2101
+	dd	_6
+	dd	_2102
+	dd	1
+	dd	_2103
+	dd	_6
+	dd	_2104
+	dd	1
+	dd	_2105
+	dd	_6
+	dd	_2106
+	dd	1
+	dd	_2107
+	dd	_6
+	dd	_2108
+	dd	1
+	dd	_2109
+	dd	_6
+	dd	_2110
+	dd	1
+	dd	_2111
+	dd	_6
+	dd	_2112
+	dd	1
+	dd	_2113
+	dd	_6
+	dd	_2114
+	dd	1
+	dd	_2115
+	dd	_6
+	dd	_2116
+	dd	1
+	dd	_2117
+	dd	_6
+	dd	_2118
+	dd	1
+	dd	_2119
+	dd	_6
+	dd	_2120
+	dd	1
+	dd	_2121
+	dd	_6
+	dd	_2122
+	dd	1
+	dd	_2123
+	dd	_6
+	dd	_2124
+	dd	1
+	dd	_2125
+	dd	_6
+	dd	_2126
+	dd	1
+	dd	_2127
+	dd	_6
+	dd	_2128
+	dd	1
+	dd	_2129
+	dd	_6
+	dd	_47
+	dd	1
+	dd	_2130
+	dd	_6
+	dd	_49
+	dd	1
+	dd	_2131
+	dd	_6
+	dd	_2132
+	dd	1
+	dd	_2133
+	dd	_6
+	dd	_2134
+	dd	1
+	dd	_2135
+	dd	_6
+	dd	_2136
+	dd	1
+	dd	_2137
+	dd	_6
+	dd	_2138
+	dd	1
+	dd	_2139
+	dd	_6
+	dd	_2140
+	dd	1
+	dd	_2141
+	dd	_6
+	dd	_2142
+	dd	1
+	dd	_2143
+	dd	_6
+	dd	_1175
+	dd	1
+	dd	_2144
+	dd	_6
+	dd	_1177
+	dd	1
+	dd	_2145
+	dd	_6
+	dd	_1179
+	dd	1
+	dd	_2146
+	dd	_6
+	dd	_1181
+	dd	1
+	dd	_2147
+	dd	_6
+	dd	_1183
+	dd	1
+	dd	_2148
+	dd	_6
+	dd	_1191
+	dd	1
+	dd	_2149
+	dd	_6
+	dd	_489
+	dd	1
+	dd	_2150
+	dd	_6
+	dd	_281
+	dd	1
+	dd	_2151
+	dd	_6
+	dd	_283
+	dd	1
+	dd	_2152
+	dd	_6
+	dd	_285
+	dd	1
+	dd	_2153
+	dd	_6
+	dd	_287
+	dd	1
+	dd	_2154
+	dd	_6
+	dd	_1185
+	dd	1
+	dd	_2155
+	dd	_6
+	dd	_1187
+	dd	1
+	dd	_2156
+	dd	_6
+	dd	_1189
+	dd	1
+	dd	_2157
+	dd	_6
+	dd	_1191
+	dd	1
+	dd	_2158
+	dd	_6
+	dd	_1193
+	dd	1
+	dd	_2159
+	dd	_6
+	dd	_1195
+	dd	1
+	dd	_2160
+	dd	_6
+	dd	_2161
+	dd	1
+	dd	_2162
+	dd	_6
+	dd	_2163
+	dd	1
+	dd	_2164
+	dd	_6
+	dd	_2165
+	dd	1
+	dd	_2166
+	dd	_6
+	dd	_2167
+	dd	1
+	dd	_2168
+	dd	_6
+	dd	_2169
+	dd	1
+	dd	_2170
+	dd	_6
+	dd	_2171
+	dd	1
+	dd	_2172
+	dd	_6
+	dd	_2173
+	dd	1
+	dd	_2174
+	dd	_6
+	dd	_1197
+	dd	1
+	dd	_2175
+	dd	_6
+	dd	_1199
+	dd	1
+	dd	_2176
+	dd	_6
+	dd	_1201
+	dd	1
+	dd	_2177
+	dd	_6
+	dd	_1203
+	dd	1
+	dd	_2178
+	dd	_6
+	dd	_1205
+	dd	1
+	dd	_2179
+	dd	_6
+	dd	_1207
+	dd	1
+	dd	_2180
+	dd	_6
+	dd	_1209
+	dd	1
+	dd	_2181
+	dd	_6
+	dd	_1211
+	dd	1
+	dd	_2182
+	dd	_6
+	dd	_1213
+	dd	1
+	dd	_2183
+	dd	_6
+	dd	_1215
+	dd	1
+	dd	_2184
+	dd	_6
+	dd	_1217
+	dd	1
+	dd	_2185
+	dd	_6
+	dd	_1219
+	dd	1
+	dd	_2186
+	dd	_6
+	dd	_1221
+	dd	1
+	dd	_2187
+	dd	_6
+	dd	_1223
+	dd	1
+	dd	_2188
+	dd	_6
+	dd	_1225
+	dd	1
+	dd	_2189
+	dd	_6
+	dd	_1227
+	dd	1
+	dd	_2190
+	dd	_6
+	dd	_1229
+	dd	1
+	dd	_2191
+	dd	_6
+	dd	_1231
+	dd	1
+	dd	_2192
+	dd	_6
+	dd	_1233
+	dd	1
+	dd	_2193
+	dd	_6
+	dd	_1235
+	dd	1
+	dd	_2194
+	dd	_6
+	dd	_2195
+	dd	1
+	dd	_2196
+	dd	_6
+	dd	_2197
+	dd	1
+	dd	_2198
+	dd	_6
+	dd	_2199
+	dd	1
+	dd	_2200
+	dd	_6
+	dd	_2201
+	dd	1
+	dd	_2202
+	dd	_6
+	dd	_2203
+	dd	1
+	dd	_2204
+	dd	_6
+	dd	_2205
+	dd	1
+	dd	_2206
+	dd	_6
+	dd	_2207
+	dd	1
+	dd	_2208
+	dd	_6
+	dd	_2209
+	dd	1
+	dd	_2210
+	dd	_6
+	dd	_2211
+	dd	1
+	dd	_2212
+	dd	_6
+	dd	_2213
+	dd	1
+	dd	_2214
+	dd	_6
+	dd	_2215
+	dd	1
+	dd	_2216
+	dd	_6
+	dd	_2217
+	dd	1
+	dd	_2218
+	dd	_6
+	dd	_2219
+	dd	1
+	dd	_2220
+	dd	_6
+	dd	_2221
+	dd	1
+	dd	_2222
+	dd	_6
+	dd	_2223
+	dd	1
+	dd	_2224
+	dd	_6
+	dd	_2225
+	dd	1
+	dd	_2226
+	dd	_6
+	dd	_2227
+	dd	1
+	dd	_2228
+	dd	_6
+	dd	_2229
+	dd	1
+	dd	_2230
+	dd	_6
+	dd	_2231
+	dd	1
+	dd	_2232
+	dd	_6
+	dd	_309
+	dd	1
+	dd	_2233
+	dd	_6
+	dd	_311
+	dd	1
+	dd	_2234
+	dd	_6
+	dd	_313
+	dd	1
+	dd	_2235
+	dd	_6
+	dd	_315
+	dd	1
+	dd	_2236
+	dd	_6
+	dd	_317
+	dd	1
+	dd	_2237
+	dd	_6
+	dd	_319
+	dd	1
+	dd	_2238
+	dd	_6
+	dd	_321
+	dd	1
+	dd	_2239
+	dd	_6
+	dd	_323
+	dd	1
+	dd	_2240
+	dd	_6
+	dd	_2241
+	dd	1
+	dd	_2242
+	dd	_6
+	dd	_2243
+	dd	1
+	dd	_2244
+	dd	_6
+	dd	_2245
+	dd	1
+	dd	_2246
+	dd	_6
+	dd	_2247
+	dd	1
+	dd	_2248
+	dd	_6
+	dd	_2249
+	dd	1
+	dd	_2250
+	dd	_6
+	dd	_2251
+	dd	1
+	dd	_2252
+	dd	_6
+	dd	_2253
+	dd	1
+	dd	_2254
+	dd	_6
+	dd	_2255
+	dd	1
+	dd	_2256
+	dd	_6
+	dd	_2257
+	dd	1
+	dd	_2258
+	dd	_6
+	dd	_2259
+	dd	1
+	dd	_2260
+	dd	_6
+	dd	_2261
+	dd	1
+	dd	_2262
+	dd	_6
+	dd	_2263
+	dd	1
+	dd	_2264
+	dd	_6
+	dd	_2265
+	dd	1
+	dd	_2266
+	dd	_6
+	dd	_2267
+	dd	1
+	dd	_2268
+	dd	_6
+	dd	_1029
+	dd	1
+	dd	_2269
+	dd	_6
+	dd	_1034
+	dd	1
+	dd	_2270
+	dd	_6
+	dd	_1036
+	dd	1
+	dd	_2271
+	dd	_6
+	dd	_1038
+	dd	1
+	dd	_2272
+	dd	_6
+	dd	_1040
+	dd	1
+	dd	_2273
+	dd	_6
+	dd	_1132
+	dd	1
+	dd	_2274
+	dd	_6
+	dd	_1134
+	dd	1
+	dd	_2275
+	dd	_6
+	dd	_993
+	dd	1
+	dd	_2276
+	dd	_6
+	dd	_1019
+	dd	1
+	dd	_2277
+	dd	_6
+	dd	_1029
+	dd	1
+	dd	_2278
+	dd	_6
+	dd	_1032
+	dd	1
+	dd	_2279
+	dd	_6
+	dd	_1042
+	dd	1
+	dd	_2280
+	dd	_6
+	dd	_1044
+	dd	1
+	dd	_2281
+	dd	_6
+	dd	_1046
+	dd	1
+	dd	_2282
+	dd	_6
+	dd	_1048
+	dd	1
+	dd	_2283
+	dd	_6
+	dd	_1050
+	dd	1
+	dd	_2284
+	dd	_6
+	dd	_1052
+	dd	1
+	dd	_2285
+	dd	_6
+	dd	_1054
+	dd	1
+	dd	_2286
+	dd	_6
+	dd	_1056
+	dd	1
+	dd	_2287
+	dd	_6
+	dd	_2288
+	dd	1
+	dd	_2289
+	dd	_6
+	dd	_2290
+	dd	1
+	dd	_2291
+	dd	_6
+	dd	_1058
+	dd	1
+	dd	_2292
+	dd	_6
+	dd	_1060
+	dd	1
+	dd	_2293
+	dd	_6
+	dd	_1062
+	dd	1
+	dd	_2294
+	dd	_6
+	dd	_1064
+	dd	1
+	dd	_2295
+	dd	_6
+	dd	_1066
+	dd	1
+	dd	_2296
+	dd	_6
+	dd	_1068
+	dd	1
+	dd	_2297
+	dd	_6
+	dd	_1070
+	dd	1
+	dd	_2298
+	dd	_6
+	dd	_1072
+	dd	1
+	dd	_2299
+	dd	_6
+	dd	_1074
+	dd	1
+	dd	_2300
+	dd	_6
+	dd	_1076
+	dd	1
+	dd	_2301
+	dd	_6
+	dd	_1078
+	dd	1
+	dd	_2302
+	dd	_6
+	dd	_1080
+	dd	1
+	dd	_2303
+	dd	_6
+	dd	_1082
+	dd	1
+	dd	_2304
+	dd	_6
+	dd	_1084
+	dd	1
+	dd	_2305
+	dd	_6
+	dd	_1086
+	dd	1
+	dd	_2306
+	dd	_6
+	dd	_1088
+	dd	1
+	dd	_2307
+	dd	_6
+	dd	_1090
+	dd	1
+	dd	_2308
+	dd	_6
+	dd	_1092
+	dd	1
+	dd	_2309
+	dd	_6
+	dd	_1094
+	dd	1
+	dd	_2310
+	dd	_6
+	dd	_1096
+	dd	1
+	dd	_2311
+	dd	_6
+	dd	_1098
+	dd	1
+	dd	_2312
+	dd	_6
+	dd	_1100
+	dd	1
+	dd	_2313
+	dd	_6
+	dd	_1102
+	dd	1
+	dd	_2314
+	dd	_6
+	dd	_1104
+	dd	1
+	dd	_2315
+	dd	_6
+	dd	_1106
+	dd	1
+	dd	_2316
+	dd	_6
+	dd	_1108
+	dd	1
+	dd	_2317
+	dd	_6
+	dd	_1110
+	dd	1
+	dd	_2318
+	dd	_6
+	dd	_1112
+	dd	1
+	dd	_2319
+	dd	_6
+	dd	_1114
+	dd	1
+	dd	_2320
+	dd	_6
+	dd	_1116
+	dd	1
+	dd	_2321
+	dd	_6
+	dd	_1118
+	dd	1
+	dd	_2322
+	dd	_6
+	dd	_1120
+	dd	1
+	dd	_2323
+	dd	_6
+	dd	_1122
+	dd	1
+	dd	_2324
+	dd	_6
+	dd	_1124
+	dd	1
+	dd	_2325
+	dd	_6
+	dd	_1126
+	dd	1
+	dd	_2326
+	dd	_6
+	dd	_1128
+	dd	1
+	dd	_2327
+	dd	_6
+	dd	_1130
+	dd	1
+	dd	_2328
+	dd	_6
+	dd	_1136
+	dd	1
+	dd	_2329
+	dd	_6
+	dd	_2330
+	dd	1
+	dd	_2331
+	dd	_6
+	dd	_1138
+	dd	1
+	dd	_2332
+	dd	_6
+	dd	_1140
+	dd	1
+	dd	_2333
+	dd	_6
+	dd	_1142
+	dd	1
+	dd	_2334
+	dd	_6
+	dd	_1144
+	dd	1
+	dd	_2335
+	dd	_6
+	dd	_441
+	dd	1
+	dd	_2336
+	dd	_6
+	dd	_511
+	dd	1
+	dd	_2337
+	dd	_6
+	dd	_1147
+	dd	1
+	dd	_2338
+	dd	_6
+	dd	_1050
+	dd	1
+	dd	_2339
+	dd	_6
+	dd	_1149
+	dd	1
+	dd	_2340
+	dd	_6
+	dd	_1151
+	dd	1
+	dd	_2341
+	dd	_6
+	dd	_1153
+	dd	1
+	dd	_2342
+	dd	_6
+	dd	_1155
+	dd	1
+	dd	_2343
+	dd	_6
+	dd	_1157
+	dd	1
+	dd	_2344
+	dd	_6
+	dd	_1159
+	dd	1
+	dd	_2345
+	dd	_6
+	dd	_1161
+	dd	1
+	dd	_2346
+	dd	_6
+	dd	_1163
+	dd	1
+	dd	_2347
+	dd	_6
+	dd	_1165
+	dd	1
+	dd	_2348
+	dd	_6
+	dd	_1167
+	dd	1
+	dd	_2349
+	dd	_6
+	dd	_1169
+	dd	1
+	dd	_2350
+	dd	_6
+	dd	_1171
+	dd	1
+	dd	_2351
+	dd	_6
+	dd	_669
+	dd	1
+	dd	_2352
+	dd	_6
+	dd	_793
+	dd	1
+	dd	_2353
+	dd	_6
+	dd	_795
+	dd	1
+	dd	_2354
+	dd	_6
+	dd	_2355
+	dd	1
+	dd	_2356
+	dd	_6
+	dd	_797
+	dd	1
+	dd	_2357
+	dd	_6
+	dd	_799
+	dd	1
+	dd	_2358
+	dd	_6
+	dd	_801
+	dd	1
+	dd	_2359
+	dd	_6
+	dd	_803
+	dd	1
+	dd	_2360
+	dd	_6
+	dd	_805
+	dd	1
+	dd	_2361
+	dd	_6
+	dd	_807
+	dd	1
+	dd	_2362
+	dd	_6
+	dd	_809
+	dd	1
+	dd	_2363
+	dd	_6
+	dd	_811
+	dd	1
+	dd	_2364
+	dd	_6
+	dd	_813
+	dd	1
+	dd	_2365
+	dd	_6
+	dd	_815
+	dd	1
+	dd	_2366
+	dd	_6
+	dd	_2367
+	dd	1
+	dd	_2368
+	dd	_6
+	dd	_817
+	dd	1
+	dd	_2369
+	dd	_6
+	dd	_819
+	dd	1
+	dd	_2370
+	dd	_6
+	dd	_2371
+	dd	1
+	dd	_2372
+	dd	_6
+	dd	_821
+	dd	1
+	dd	_2373
+	dd	_6
+	dd	_823
+	dd	1
+	dd	_2374
+	dd	_6
+	dd	_825
+	dd	1
+	dd	_2375
+	dd	_6
+	dd	_827
+	dd	1
+	dd	_2376
+	dd	_6
+	dd	_2377
+	dd	1
+	dd	_2378
+	dd	_6
+	dd	_829
+	dd	1
+	dd	_2379
+	dd	_6
+	dd	_831
+	dd	1
+	dd	_2380
+	dd	_6
+	dd	_2381
+	dd	1
+	dd	_2382
+	dd	_6
+	dd	_1237
+	dd	1
+	dd	_2383
+	dd	_6
+	dd	_1239
+	dd	1
+	dd	_2384
+	dd	_6
+	dd	_1241
+	dd	1
+	dd	_2385
+	dd	_6
+	dd	_1243
+	dd	1
+	dd	_2386
+	dd	_6
+	dd	_1245
+	dd	1
+	dd	_2387
+	dd	_6
+	dd	_1247
+	dd	1
+	dd	_2388
+	dd	_6
+	dd	_1249
+	dd	1
+	dd	_2389
+	dd	_6
+	dd	_1251
+	dd	1
+	dd	_2390
+	dd	_6
+	dd	_1253
+	dd	1
+	dd	_2391
+	dd	_6
+	dd	_1255
+	dd	1
+	dd	_2392
+	dd	_6
+	dd	_1257
+	dd	1
+	dd	_2393
+	dd	_6
+	dd	_1259
+	dd	1
+	dd	_2394
+	dd	_6
+	dd	_1261
+	dd	1
+	dd	_2395
+	dd	_6
+	dd	_2396
+	dd	1
+	dd	_2397
+	dd	_6
+	dd	_2398
+	dd	1
+	dd	_2399
+	dd	_6
+	dd	_2400
+	dd	1
+	dd	_2401
+	dd	_6
+	dd	_2402
+	dd	1
+	dd	_2403
+	dd	_6
+	dd	_2404
+	dd	1
+	dd	_2405
+	dd	_6
+	dd	_2406
+	dd	1
+	dd	_2407
+	dd	_6
+	dd	_2408
+	dd	1
+	dd	_2409
+	dd	_6
+	dd	_2410
+	dd	1
+	dd	_2411
+	dd	_6
+	dd	_2412
+	dd	1
+	dd	_2413
+	dd	_6
+	dd	_89
+	dd	1
+	dd	_2414
+	dd	_6
+	dd	_91
+	dd	1
+	dd	_2415
+	dd	_6
+	dd	_93
+	dd	1
+	dd	_2416
+	dd	_6
+	dd	_95
+	dd	1
+	dd	_2417
+	dd	_6
+	dd	_2418
+	dd	1
+	dd	_2419
+	dd	_6
+	dd	_2420
+	dd	1
+	dd	_2421
+	dd	_6
+	dd	_2422
+	dd	1
+	dd	_2423
+	dd	_6
+	dd	_2424
+	dd	1
+	dd	_2425
+	dd	_6
+	dd	_2426
+	dd	1
+	dd	_2427
+	dd	_6
+	dd	_2428
+	dd	1
+	dd	_2429
+	dd	_6
+	dd	_2430
+	dd	1
+	dd	_2431
+	dd	_6
+	dd	_97
+	dd	1
+	dd	_2432
+	dd	_6
+	dd	_99
+	dd	1
+	dd	_2433
+	dd	_6
+	dd	_101
+	dd	1
+	dd	_2434
+	dd	_6
+	dd	_103
+	dd	1
+	dd	_2435
+	dd	_6
+	dd	_2436
+	dd	1
+	dd	_2437
+	dd	_6
+	dd	_279
+	dd	1
+	dd	_2438
+	dd	_6
+	dd	_1021
+	dd	1
+	dd	_2439
+	dd	_6
+	dd	_1023
+	dd	1
+	dd	_2440
+	dd	_6
+	dd	_1025
+	dd	1
+	dd	_2441
+	dd	_6
+	dd	_1027
+	dd	1
+	dd	_2442
+	dd	_6
+	dd	_713
+	dd	1
+	dd	_2443
+	dd	_6
+	dd	_715
+	dd	1
+	dd	_2444
+	dd	_6
+	dd	_2445
+	dd	1
+	dd	_2446
+	dd	_6
+	dd	_15
+	dd	1
+	dd	_2447
+	dd	_6
+	dd	_17
+	dd	1
+	dd	_2448
+	dd	_6
+	dd	_19
+	dd	1
+	dd	_2449
+	dd	_6
+	dd	_21
+	dd	1
+	dd	_2450
+	dd	_6
+	dd	_23
+	dd	1
+	dd	_2451
+	dd	_6
+	dd	_37
+	dd	1
+	dd	_2452
+	dd	_6
+	dd	_39
+	dd	1
+	dd	_2453
+	dd	_6
+	dd	_1303
+	dd	1
+	dd	_2454
+	dd	_6
+	dd	_1305
+	dd	1
+	dd	_2455
+	dd	_6
+	dd	_1307
+	dd	1
+	dd	_2456
+	dd	_6
+	dd	_1309
+	dd	1
+	dd	_2457
+	dd	_6
+	dd	_1311
+	dd	1
+	dd	_2458
+	dd	_6
+	dd	_1313
+	dd	1
+	dd	_2459
+	dd	_6
+	dd	_1315
+	dd	1
+	dd	_2460
+	dd	_6
+	dd	_1317
+	dd	1
+	dd	_2461
+	dd	_6
+	dd	_2462
+	dd	1
+	dd	_2463
+	dd	_6
+	dd	_599
+	dd	1
+	dd	_2464
+	dd	_6
+	dd	_601
+	dd	1
+	dd	_2465
+	dd	_6
+	dd	_603
+	dd	1
+	dd	_2466
+	dd	_6
+	dd	_605
+	dd	1
+	dd	_2467
+	dd	_6
+	dd	_2468
+	dd	1
+	dd	_2469
+	dd	_6
+	dd	_2470
+	dd	1
+	dd	_2471
+	dd	_6
+	dd	_2472
+	dd	1
+	dd	_2473
+	dd	_6
+	dd	_2474
+	dd	1
+	dd	_2475
+	dd	_6
+	dd	_2476
+	dd	1
+	dd	_2477
+	dd	_6
+	dd	_2478
+	dd	1
+	dd	_2479
+	dd	_6
+	dd	_2480
+	dd	1
+	dd	_2481
+	dd	_6
+	dd	_2482
+	dd	1
+	dd	_2483
+	dd	_6
+	dd	_2484
+	dd	1
+	dd	_2485
+	dd	_6
+	dd	_289
+	dd	1
+	dd	_2486
+	dd	_6
+	dd	_291
+	dd	1
+	dd	_2487
+	dd	_6
+	dd	_293
+	dd	1
+	dd	_2488
+	dd	_6
+	dd	_295
+	dd	1
+	dd	_2489
+	dd	_6
+	dd	_2490
+	dd	1
+	dd	_2491
+	dd	_6
+	dd	_2492
+	dd	1
+	dd	_2493
+	dd	_6
+	dd	_2494
+	dd	1
+	dd	_2495
+	dd	_6
+	dd	_25
+	dd	1
+	dd	_2496
+	dd	_6
+	dd	_325
+	dd	1
+	dd	_2497
+	dd	_6
+	dd	_327
+	dd	1
+	dd	_2498
+	dd	_6
+	dd	_329
+	dd	1
+	dd	_2499
+	dd	_6
+	dd	_331
+	dd	1
+	dd	_2500
+	dd	_6
+	dd	_333
+	dd	1
+	dd	_2501
+	dd	_6
+	dd	_335
+	dd	1
+	dd	_2502
+	dd	_6
+	dd	_337
+	dd	1
+	dd	_2503
+	dd	_6
+	dd	_65
+	dd	1
+	dd	_2504
+	dd	_6
+	dd	_67
+	dd	1
+	dd	_2505
+	dd	_6
+	dd	_69
+	dd	1
+	dd	_2506
+	dd	_6
+	dd	_2507
+	dd	1
+	dd	_2508
+	dd	_6
+	dd	_2509
+	dd	1
+	dd	_2510
+	dd	_6
+	dd	_2511
+	dd	1
+	dd	_2512
+	dd	_6
+	dd	_2513
+	dd	1
+	dd	_2514
+	dd	_6
+	dd	_2515
+	dd	1
+	dd	_2516
+	dd	_6
+	dd	_345
+	dd	1
+	dd	_2517
+	dd	_6
+	dd	_347
+	dd	1
+	dd	_2518
+	dd	_6
+	dd	_2519
+	dd	1
+	dd	_2520
+	dd	_6
+	dd	_2521
+	dd	1
+	dd	_2522
+	dd	_6
+	dd	_2523
+	dd	1
+	dd	_2524
+	dd	_6
+	dd	_2525
+	dd	1
+	dd	_2526
+	dd	_6
+	dd	_2527
+	dd	1
+	dd	_2528
+	dd	_6
+	dd	_2529
+	dd	1
+	dd	_2530
+	dd	_6
+	dd	_2531
+	dd	1
+	dd	_2532
+	dd	_6
+	dd	_2533
+	dd	1
+	dd	_2534
+	dd	_6
+	dd	_2535
+	dd	1
+	dd	_2536
+	dd	_6
+	dd	_2537
+	dd	1
+	dd	_2538
+	dd	_6
+	dd	_2539
+	dd	1
+	dd	_2540
+	dd	_6
+	dd	_2541
+	dd	1
+	dd	_2542
+	dd	_6
+	dd	_2543
+	dd	1
+	dd	_2544
+	dd	_6
+	dd	_2545
+	dd	1
+	dd	_2546
+	dd	_6
+	dd	_2547
+	dd	1
+	dd	_2548
+	dd	_6
+	dd	_2549
+	dd	1
+	dd	_2550
+	dd	_6
+	dd	_2551
+	dd	1
+	dd	_2552
+	dd	_6
+	dd	_2553
+	dd	1
+	dd	_2554
+	dd	_6
+	dd	_2555
+	dd	1
+	dd	_2556
+	dd	_6
+	dd	_2557
+	dd	1
+	dd	_2558
+	dd	_6
+	dd	_2559
+	dd	1
+	dd	_2560
+	dd	_6
+	dd	_2561
+	dd	1
+	dd	_2562
+	dd	_6
+	dd	_2563
+	dd	1
+	dd	_2564
+	dd	_6
+	dd	_2565
+	dd	1
+	dd	_2566
+	dd	_6
+	dd	_2567
+	dd	1
+	dd	_2568
+	dd	_6
+	dd	_2569
+	dd	1
+	dd	_2570
+	dd	_6
+	dd	_2571
+	dd	1
+	dd	_2572
+	dd	_6
+	dd	_2573
+	dd	1
+	dd	_2574
+	dd	_6
+	dd	_2575
+	dd	1
+	dd	_2576
+	dd	_6
+	dd	_2577
+	dd	1
+	dd	_2578
+	dd	_6
+	dd	_2579
+	dd	1
+	dd	_2580
+	dd	_6
+	dd	_2581
+	dd	1
+	dd	_2582
+	dd	_6
+	dd	_2583
+	dd	1
+	dd	_2584
+	dd	_6
+	dd	_2585
+	dd	1
+	dd	_2586
+	dd	_6
+	dd	_2587
+	dd	1
+	dd	_2588
+	dd	_6
+	dd	_2589
+	dd	1
+	dd	_2590
+	dd	_6
+	dd	_2591
+	dd	1
+	dd	_2592
+	dd	_6
+	dd	_2593
+	dd	1
+	dd	_2594
+	dd	_6
+	dd	_2595
+	dd	1
+	dd	_2596
+	dd	_6
+	dd	_2597
+	dd	1
+	dd	_2598
+	dd	_6
+	dd	_2599
+	dd	1
+	dd	_2600
+	dd	_6
+	dd	_2601
+	dd	1
+	dd	_2602
+	dd	_6
+	dd	_29
+	dd	1
+	dd	_2603
+	dd	_6
+	dd	_31
+	dd	1
+	dd	_2604
+	dd	_6
+	dd	_33
+	dd	1
+	dd	_2605
+	dd	_6
+	dd	_35
+	dd	1
+	dd	_2606
+	dd	_6
+	dd	_41
+	dd	1
+	dd	_2607
+	dd	_6
+	dd	_43
+	dd	1
+	dd	_2608
+	dd	_6
+	dd	_45
+	dd	1
+	dd	_2609
+	dd	_6
+	dd	_357
+	dd	1
+	dd	_2610
+	dd	_6
+	dd	_671
+	dd	1
+	dd	_2611
+	dd	_6
+	dd	_701
+	dd	1
+	dd	_2612
+	dd	_6
+	dd	_703
+	dd	1
+	dd	_2613
+	dd	_6
+	dd	_705
+	dd	1
+	dd	_2614
+	dd	_6
+	dd	_707
+	dd	1
+	dd	_2615
+	dd	_6
+	dd	_709
+	dd	1
+	dd	_2616
+	dd	_6
+	dd	_711
+	dd	1
+	dd	_2617
+	dd	_6
+	dd	_1467
+	dd	1
+	dd	_2618
+	dd	_6
+	dd	_1469
+	dd	1
+	dd	_2619
+	dd	_6
+	dd	_1471
+	dd	1
+	dd	_2620
+	dd	_6
+	dd	_1473
+	dd	1
+	dd	_2621
+	dd	_6
+	dd	_1475
+	dd	1
+	dd	_2622
+	dd	_6
+	dd	_2623
+	dd	1
+	dd	_2624
+	dd	_6
+	dd	_2625
+	dd	1
+	dd	_2626
+	dd	_6
+	dd	_2627
+	dd	1
+	dd	_2628
+	dd	_6
+	dd	_2629
+	dd	1
+	dd	_2630
+	dd	_6
+	dd	_2631
+	dd	1
+	dd	_2632
+	dd	_6
+	dd	_2633
+	dd	1
+	dd	_2634
+	dd	_6
+	dd	_1488
+	dd	1
+	dd	_2635
+	dd	_6
+	dd	_1490
+	dd	1
+	dd	_2636
+	dd	_6
+	dd	_1492
+	dd	1
+	dd	_2637
+	dd	_6
+	dd	_1494
+	dd	1
+	dd	_2638
+	dd	_6
+	dd	_2639
+	dd	1
+	dd	_2640
+	dd	_6
+	dd	_2641
+	dd	1
+	dd	_2642
+	dd	_6
+	dd	_201
+	dd	1
+	dd	_2643
+	dd	_6
+	dd	_203
+	dd	1
+	dd	_2644
+	dd	_6
+	dd	_205
+	dd	1
+	dd	_2645
+	dd	_6
+	dd	_207
+	dd	1
+	dd	_2646
+	dd	_6
+	dd	_209
+	dd	1
+	dd	_2647
+	dd	_6
+	dd	_211
+	dd	1
+	dd	_2648
+	dd	_6
+	dd	_213
+	dd	1
+	dd	_2649
+	dd	_6
+	dd	_215
+	dd	1
+	dd	_2650
+	dd	_6
+	dd	_217
+	dd	1
+	dd	_2651
+	dd	_6
+	dd	_219
+	dd	1
+	dd	_2652
+	dd	_6
+	dd	_221
+	dd	1
+	dd	_2653
+	dd	_6
+	dd	_223
+	dd	1
+	dd	_2654
+	dd	_6
+	dd	_55
+	dd	1
+	dd	_2655
+	dd	_6
+	dd	_2656
+	dd	1
+	dd	_2657
+	dd	_6
+	dd	_2656
+	dd	1
+	dd	_2658
+	dd	_6
+	dd	_2656
+	dd	1
+	dd	_2659
+	dd	_6
+	dd	_2656
+	dd	1
+	dd	_2660
+	dd	_6
+	dd	_2656
+	dd	1
+	dd	_2661
+	dd	_6
+	dd	_2656
+	dd	1
+	dd	_2662
+	dd	_6
+	dd	_2656
+	dd	1
+	dd	_2663
+	dd	_6
+	dd	_2656
+	dd	1
+	dd	_2664
+	dd	_6
+	dd	_2656
+	dd	1
+	dd	_2665
+	dd	_6
+	dd	_2656
+	dd	1
+	dd	_2666
+	dd	_6
+	dd	_2656
+	dd	1
+	dd	_2667
+	dd	_6
+	dd	_225
+	dd	1
+	dd	_2668
+	dd	_6
+	dd	_227
+	dd	1
+	dd	_2669
+	dd	_6
+	dd	_229
+	dd	1
+	dd	_2670
+	dd	_6
+	dd	_231
+	dd	1
+	dd	_2671
+	dd	_6
+	dd	_233
+	dd	1
+	dd	_2672
+	dd	_6
+	dd	_235
+	dd	1
+	dd	_2673
+	dd	_6
+	dd	_237
+	dd	1
+	dd	_2674
+	dd	_6
+	dd	_239
+	dd	1
+	dd	_2675
+	dd	_6
+	dd	_241
+	dd	1
+	dd	_2676
+	dd	_6
+	dd	_243
+	dd	1
+	dd	_2677
+	dd	_6
+	dd	_245
+	dd	1
+	dd	_2678
+	dd	_6
+	dd	_247
+	dd	1
+	dd	_2679
+	dd	_6
+	dd	_249
+	dd	1
+	dd	_2680
+	dd	_6
+	dd	_251
+	dd	1
+	dd	_2681
+	dd	_6
+	dd	_253
+	dd	1
+	dd	_2682
+	dd	_6
+	dd	_255
+	dd	1
+	dd	_2683
+	dd	_6
+	dd	_257
+	dd	1
+	dd	_2684
+	dd	_6
+	dd	_259
+	dd	1
+	dd	_2685
+	dd	_6
+	dd	_261
+	dd	1
+	dd	_2686
+	dd	_6
+	dd	_263
+	dd	1
+	dd	_2687
+	dd	_6
+	dd	_265
+	dd	1
+	dd	_2688
+	dd	_6
+	dd	_2689
+	dd	1
+	dd	_2690
+	dd	_6
+	dd	_2691
+	dd	1
+	dd	_2692
+	dd	_6
+	dd	_2693
+	dd	1
+	dd	_2694
+	dd	_6
+	dd	_2695
+	dd	1
+	dd	_2696
+	dd	_6
+	dd	_753
+	dd	1
+	dd	_2697
+	dd	_6
+	dd	_755
+	dd	1
+	dd	_2698
+	dd	_6
+	dd	_2699
+	dd	1
+	dd	_2700
+	dd	_6
+	dd	_2701
+	dd	1
+	dd	_2702
+	dd	_6
+	dd	_2703
+	dd	1
+	dd	_2704
+	dd	_6
+	dd	_2705
+	dd	1
+	dd	_2706
+	dd	_6
+	dd	_757
+	dd	1
+	dd	_2707
+	dd	_6
+	dd	_759
+	dd	1
+	dd	_2708
+	dd	_6
+	dd	_2709
+	dd	1
+	dd	_2710
+	dd	_6
+	dd	_2711
+	dd	1
+	dd	_2712
+	dd	_6
+	dd	_2713
+	dd	1
+	dd	_2714
+	dd	_6
+	dd	_2715
+	dd	1
+	dd	_2716
+	dd	_6
+	dd	_761
+	dd	1
+	dd	_2717
+	dd	_6
+	dd	_763
+	dd	1
+	dd	_2718
+	dd	_6
+	dd	_2719
+	dd	1
+	dd	_2720
+	dd	_6
+	dd	_2721
+	dd	1
+	dd	_2722
+	dd	_6
+	dd	_2723
+	dd	1
+	dd	_2724
+	dd	_6
+	dd	_2725
+	dd	1
+	dd	_2726
+	dd	_6
+	dd	_765
+	dd	1
+	dd	_2727
+	dd	_6
+	dd	_767
+	dd	1
+	dd	_2728
+	dd	_6
+	dd	_2729
+	dd	1
+	dd	_2730
+	dd	_6
+	dd	_2731
+	dd	1
+	dd	_2732
+	dd	_6
+	dd	_2733
+	dd	1
+	dd	_2734
+	dd	_6
+	dd	_2735
+	dd	1
+	dd	_2736
+	dd	_6
+	dd	_769
+	dd	1
+	dd	_2737
+	dd	_6
+	dd	_771
+	dd	1
+	dd	_2738
+	dd	_6
+	dd	_2739
+	dd	1
+	dd	_2740
+	dd	_6
+	dd	_2741
+	dd	1
+	dd	_2742
+	dd	_6
+	dd	_2743
+	dd	1
+	dd	_2744
+	dd	_6
+	dd	_2745
+	dd	1
+	dd	_2746
+	dd	_6
+	dd	_773
+	dd	1
+	dd	_2747
+	dd	_6
+	dd	_775
+	dd	1
+	dd	_2748
+	dd	_6
+	dd	_2749
+	dd	1
+	dd	_2750
+	dd	_6
+	dd	_2751
+	dd	1
+	dd	_2752
+	dd	_6
+	dd	_2753
+	dd	1
+	dd	_2754
+	dd	_6
+	dd	_2755
+	dd	1
+	dd	_2756
+	dd	_6
+	dd	_777
+	dd	1
+	dd	_2757
+	dd	_6
+	dd	_779
+	dd	1
+	dd	_2758
+	dd	_6
+	dd	_781
+	dd	1
+	dd	_2759
+	dd	_6
+	dd	_783
+	dd	1
+	dd	_2760
+	dd	_6
+	dd	_785
+	dd	1
+	dd	_2761
+	dd	_6
+	dd	_787
+	dd	1
+	dd	_2762
+	dd	_6
+	dd	_789
+	dd	1
+	dd	_2763
+	dd	_6
+	dd	_791
+	dd	1
+	dd	_2764
+	dd	_6
+	dd	_2765
+	dd	1
+	dd	_2766
+	dd	_6
+	dd	_2767
+	dd	1
+	dd	_2768
+	dd	_6
+	dd	_2769
+	dd	1
+	dd	_2770
+	dd	_6
+	dd	_339
+	dd	1
+	dd	_2771
+	dd	_6
+	dd	_341
+	dd	1
+	dd	_2772
+	dd	_6
+	dd	_343
+	dd	1
+	dd	_2773
+	dd	_6
+	dd	_2078
+	dd	1
+	dd	_2774
+	dd	_6
+	dd	_2080
+	dd	1
+	dd	_2775
+	dd	_6
+	dd	_2776
+	dd	1
+	dd	_2777
+	dd	_6
+	dd	_2778
+	dd	1
+	dd	_2779
+	dd	_6
+	dd	_2780
+	dd	1
+	dd	_2781
+	dd	_6
+	dd	_2782
+	dd	1
+	dd	_2783
+	dd	_6
+	dd	_2784
+	dd	1
+	dd	_2785
+	dd	_6
+	dd	_27
+	dd	1
+	dd	_2786
+	dd	_6
+	dd	_2787
+	dd	1
+	dd	_2788
+	dd	_6
+	dd	_2789
+	dd	1
+	dd	_2790
+	dd	_6
+	dd	_1553
+	dd	1
+	dd	_2791
+	dd	_6
+	dd	_1555
+	dd	1
+	dd	_2792
+	dd	_6
+	dd	_1557
+	dd	1
+	dd	_2793
+	dd	_6
+	dd	_1559
+	dd	1
+	dd	_2794
+	dd	_6
+	dd	_619
+	dd	1
+	dd	_2795
+	dd	_6
+	dd	_621
+	dd	1
+	dd	_2796
+	dd	_6
+	dd	_623
+	dd	1
+	dd	_2797
+	dd	_6
+	dd	_625
+	dd	1
+	dd	_2798
+	dd	_6
+	dd	_627
+	dd	1
+	dd	_2799
+	dd	_6
+	dd	_629
+	dd	1
+	dd	_2800
+	dd	_6
+	dd	_631
+	dd	1
+	dd	_2801
+	dd	_6
+	dd	_633
+	dd	1
+	dd	_2802
+	dd	_6
+	dd	_635
+	dd	1
+	dd	_2803
+	dd	_6
+	dd	_637
+	dd	1
+	dd	_2804
+	dd	_6
+	dd	_639
+	dd	1
+	dd	_2805
+	dd	_6
+	dd	_641
+	dd	1
+	dd	_2806
+	dd	_6
+	dd	_2807
+	dd	1
+	dd	_2808
+	dd	_6
+	dd	_2809
+	dd	1
+	dd	_2810
+	dd	_6
+	dd	_2811
+	dd	1
+	dd	_2812
+	dd	_6
+	dd	_2813
+	dd	1
+	dd	_2814
+	dd	_6
+	dd	_717
+	dd	1
+	dd	_2815
+	dd	_6
+	dd	_719
+	dd	1
+	dd	_2816
+	dd	_6
+	dd	_721
+	dd	1
+	dd	_2817
+	dd	_6
+	dd	_2818
+	dd	1
+	dd	_2819
+	dd	_6
+	dd	_2820
+	dd	1
+	dd	_2821
+	dd	_6
+	dd	_2822
+	dd	1
+	dd	_2823
+	dd	_6
+	dd	_2824
+	dd	1
+	dd	_2825
+	dd	_6
+	dd	_2826
+	dd	1
+	dd	_2827
+	dd	_6
+	dd	_2828
+	dd	1
+	dd	_2829
+	dd	_6
+	dd	_723
+	dd	1
+	dd	_2830
+	dd	_6
+	dd	_725
+	dd	1
+	dd	_2831
+	dd	_6
+	dd	_727
+	dd	1
+	dd	_2832
+	dd	_6
+	dd	_729
+	dd	1
+	dd	_2833
+	dd	_6
+	dd	_731
+	dd	1
+	dd	_2834
+	dd	_6
+	dd	_733
+	dd	1
+	dd	_2835
+	dd	_6
+	dd	_735
+	dd	1
+	dd	_2836
+	dd	_6
+	dd	_737
+	dd	1
+	dd	_2837
+	dd	_6
+	dd	_739
+	dd	1
+	dd	_2838
+	dd	_6
+	dd	_741
+	dd	1
+	dd	_2839
+	dd	_6
+	dd	_743
+	dd	1
+	dd	_2840
+	dd	_6
+	dd	_745
+	dd	1
+	dd	_2841
+	dd	_6
+	dd	_747
+	dd	1
+	dd	_2842
+	dd	_6
+	dd	_749
+	dd	1
+	dd	_2843
+	dd	_6
+	dd	_751
+	dd	1
+	dd	_2844
+	dd	_6
+	dd	_2845
+	dd	1
+	dd	_2846
+	dd	_6
+	dd	_2847
+	dd	1
+	dd	_2848
+	dd	_6
+	dd	_2849
+	dd	1
+	dd	_2850
+	dd	_6
+	dd	_2851
+	dd	1
+	dd	_2852
+	dd	_6
+	dd	_2853
+	dd	1
+	dd	_2854
+	dd	_6
+	dd	_2855
+	dd	1
+	dd	_2856
+	dd	_6
+	dd	_2857
+	dd	1
+	dd	_2858
+	dd	_6
+	dd	_2859
+	dd	1
+	dd	_2860
+	dd	_6
+	dd	_2861
+	dd	1
+	dd	_2862
+	dd	_6
+	dd	_2863
+	dd	1
+	dd	_2864
+	dd	_6
+	dd	_2865
+	dd	1
+	dd	_2866
+	dd	_6
+	dd	_2867
+	dd	1
+	dd	_2868
+	dd	_6
+	dd	_2869
+	dd	1
+	dd	_2870
+	dd	_6
+	dd	_2871
+	dd	1
+	dd	_2872
+	dd	_6
+	dd	_2873
+	dd	1
+	dd	_2874
+	dd	_6
+	dd	_2875
+	dd	1
+	dd	_2876
+	dd	_6
+	dd	_2877
+	dd	1
+	dd	_2878
+	dd	_6
+	dd	_2879
+	dd	1
+	dd	_2880
+	dd	_6
+	dd	_2881
+	dd	1
+	dd	_2882
+	dd	_6
+	dd	_2883
+	dd	1
+	dd	_2884
+	dd	_6
+	dd	_2885
+	dd	1
+	dd	_2886
+	dd	_6
+	dd	_2887
+	dd	1
+	dd	_2888
+	dd	_6
+	dd	_2889
+	dd	1
+	dd	_2890
+	dd	_6
+	dd	_2891
+	dd	1
+	dd	_2892
+	dd	_6
+	dd	_2893
+	dd	1
+	dd	_2894
+	dd	_6
+	dd	_2895
+	dd	1
+	dd	_2896
+	dd	_6
+	dd	_2897
+	dd	1
+	dd	_2898
+	dd	_6
+	dd	_2899
+	dd	1
+	dd	_2900
+	dd	_6
+	dd	_2901
+	dd	1
+	dd	_2902
+	dd	_6
+	dd	_2903
+	dd	1
+	dd	_2904
+	dd	_6
+	dd	_2905
+	dd	1
+	dd	_2906
+	dd	_6
+	dd	_2907
+	dd	1
+	dd	_2908
+	dd	_6
+	dd	_2909
+	dd	1
+	dd	_2910
+	dd	_6
+	dd	_2911
+	dd	1
+	dd	_2912
+	dd	_6
+	dd	_2913
+	dd	1
+	dd	_2914
+	dd	_6
+	dd	_2915
+	dd	1
+	dd	_2916
+	dd	_6
+	dd	_2917
+	dd	1
+	dd	_2918
+	dd	_6
+	dd	_2919
+	dd	1
+	dd	_2920
+	dd	_6
+	dd	_2921
+	dd	1
+	dd	_2922
+	dd	_6
+	dd	_2923
+	dd	1
+	dd	_2924
+	dd	_6
+	dd	_2925
+	dd	1
+	dd	_2926
+	dd	_6
+	dd	_2927
+	dd	1
+	dd	_2928
+	dd	_6
+	dd	_2929
+	dd	1
+	dd	_2930
+	dd	_6
+	dd	_2931
+	dd	1
+	dd	_2932
+	dd	_6
+	dd	_2933
+	dd	1
+	dd	_2934
+	dd	_6
+	dd	_2935
+	dd	1
+	dd	_2936
+	dd	_6
+	dd	_2937
+	dd	1
+	dd	_2938
+	dd	_6
+	dd	_2939
+	dd	1
+	dd	_2940
+	dd	_6
+	dd	_2941
+	dd	1
+	dd	_2942
+	dd	_6
+	dd	_2943
+	dd	1
+	dd	_2944
+	dd	_6
+	dd	_2945
+	dd	1
+	dd	_2946
+	dd	_6
+	dd	_2947
+	dd	1
+	dd	_2948
+	dd	_6
+	dd	_2949
+	dd	1
+	dd	_2950
+	dd	_6
+	dd	_2951
+	dd	1
+	dd	_2952
+	dd	_6
+	dd	_2953
+	dd	1
+	dd	_2954
+	dd	_6
+	dd	_2955
+	dd	1
+	dd	_2956
+	dd	_6
+	dd	_2957
+	dd	1
+	dd	_2958
+	dd	_6
+	dd	_2959
+	dd	1
+	dd	_2960
+	dd	_6
+	dd	_2961
+	dd	1
+	dd	_2962
+	dd	_6
+	dd	_2963
+	dd	1
+	dd	_2964
+	dd	_6
+	dd	_2965
+	dd	1
+	dd	_2966
+	dd	_6
+	dd	_2967
+	dd	1
+	dd	_2968
+	dd	_6
+	dd	_2969
+	dd	1
+	dd	_2970
+	dd	_6
+	dd	_2971
+	dd	1
+	dd	_2972
+	dd	_6
+	dd	_2973
+	dd	1
+	dd	_2974
+	dd	_6
+	dd	_2975
+	dd	1
+	dd	_2976
+	dd	_6
+	dd	_2977
+	dd	1
+	dd	_2978
+	dd	_6
+	dd	_2979
+	dd	1
+	dd	_2980
+	dd	_6
+	dd	_2981
+	dd	1
+	dd	_2982
+	dd	_6
+	dd	_2983
+	dd	1
+	dd	_2984
+	dd	_6
+	dd	_2985
+	dd	1
+	dd	_2986
+	dd	_6
+	dd	_2987
+	dd	1
+	dd	_2988
+	dd	_6
+	dd	_2989
+	dd	1
+	dd	_2990
+	dd	_6
+	dd	_2991
+	dd	1
+	dd	_2992
+	dd	_6
+	dd	_2993
+	dd	1
+	dd	_2994
+	dd	_6
+	dd	_2995
+	dd	1
+	dd	_2996
+	dd	_6
+	dd	_2997
+	dd	1
+	dd	_2998
+	dd	_6
+	dd	_2999
+	dd	1
+	dd	_3000
+	dd	_6
+	dd	_3001
+	dd	1
+	dd	_3002
+	dd	_6
+	dd	_3003
+	dd	1
+	dd	_3004
+	dd	_6
+	dd	_3005
+	dd	1
+	dd	_3006
+	dd	_6
+	dd	_3007
+	dd	1
+	dd	_3008
+	dd	_6
+	dd	_3009
+	dd	1
+	dd	_3010
+	dd	_6
+	dd	_3011
+	dd	1
+	dd	_3012
+	dd	_6
+	dd	_3013
+	dd	1
+	dd	_3014
+	dd	_6
+	dd	_3015
+	dd	1
+	dd	_3016
+	dd	_6
+	dd	_3017
+	dd	1
+	dd	_3018
+	dd	_6
+	dd	_3019
+	dd	1
+	dd	_3020
+	dd	_6
+	dd	_3021
+	dd	1
+	dd	_3022
+	dd	_6
+	dd	_3023
+	dd	1
+	dd	_3024
+	dd	_6
+	dd	_3025
+	dd	1
+	dd	_3026
+	dd	_6
+	dd	_3027
+	dd	1
+	dd	_3028
+	dd	_6
+	dd	_3029
+	dd	1
+	dd	_3030
+	dd	_6
+	dd	_3031
+	dd	1
+	dd	_3032
+	dd	_6
+	dd	_3033
+	dd	1
+	dd	_3034
+	dd	_6
+	dd	_3035
+	dd	1
+	dd	_3036
+	dd	_6
+	dd	_3037
+	dd	1
+	dd	_3038
+	dd	_6
+	dd	_3039
+	dd	1
+	dd	_3040
+	dd	_6
+	dd	_3041
+	dd	1
+	dd	_3042
+	dd	_6
+	dd	_3043
+	dd	1
+	dd	_3044
+	dd	_6
+	dd	_3045
+	dd	1
+	dd	_3046
+	dd	_6
+	dd	_3047
+	dd	1
+	dd	_3048
+	dd	_6
+	dd	_3049
+	dd	1
+	dd	_3050
+	dd	_6
+	dd	_3051
+	dd	1
+	dd	_3052
+	dd	_6
+	dd	_3053
+	dd	1
+	dd	_3054
+	dd	_6
+	dd	_3055
+	dd	1
+	dd	_3056
+	dd	_6
+	dd	_3057
+	dd	1
+	dd	_3058
+	dd	_6
+	dd	_3059
+	dd	1
+	dd	_3060
+	dd	_6
+	dd	_3061
+	dd	1
+	dd	_3062
+	dd	_6
+	dd	_3063
+	dd	1
+	dd	_3064
+	dd	_6
+	dd	_3065
+	dd	1
+	dd	_3066
+	dd	_6
+	dd	_3067
+	dd	1
+	dd	_3068
+	dd	_6
+	dd	_3069
+	dd	1
+	dd	_3070
+	dd	_6
+	dd	_3071
+	dd	1
+	dd	_3072
+	dd	_6
+	dd	_3073
+	dd	1
+	dd	_3074
+	dd	_6
+	dd	_3075
+	dd	1
+	dd	_3076
+	dd	_6
+	dd	_3077
+	dd	1
+	dd	_3078
+	dd	_6
+	dd	_3079
+	dd	1
+	dd	_3080
+	dd	_6
+	dd	_3081
+	dd	1
+	dd	_3082
+	dd	_6
+	dd	_3083
+	dd	1
+	dd	_3084
+	dd	_6
+	dd	_3085
+	dd	1
+	dd	_3086
+	dd	_6
+	dd	_3087
+	dd	1
+	dd	_3088
+	dd	_6
+	dd	_3089
+	dd	1
+	dd	_3090
+	dd	_6
+	dd	_3091
+	dd	1
+	dd	_3092
+	dd	_6
+	dd	_3093
+	dd	1
+	dd	_3094
+	dd	_6
+	dd	_3095
+	dd	1
+	dd	_3096
+	dd	_6
+	dd	_3097
+	dd	1
+	dd	_3098
+	dd	_6
+	dd	_3099
+	dd	1
+	dd	_3100
+	dd	_6
+	dd	_3101
+	dd	1
+	dd	_3102
+	dd	_6
+	dd	_3103
+	dd	1
+	dd	_3104
+	dd	_6
+	dd	_3105
+	dd	1
+	dd	_3106
+	dd	_6
+	dd	_3107
+	dd	1
+	dd	_3108
+	dd	_6
+	dd	_3109
+	dd	1
+	dd	_3110
+	dd	_6
+	dd	_3111
+	dd	1
+	dd	_3112
+	dd	_6
+	dd	_3113
+	dd	1
+	dd	_3114
+	dd	_6
+	dd	_3115
+	dd	1
+	dd	_3116
+	dd	_6
+	dd	_3117
+	dd	1
+	dd	_3118
+	dd	_6
+	dd	_3119
+	dd	1
+	dd	_3120
+	dd	_6
+	dd	_3121
+	dd	1
+	dd	_3122
+	dd	_6
+	dd	_3123
+	dd	1
+	dd	_3124
+	dd	_6
+	dd	_3125
+	dd	1
+	dd	_3126
+	dd	_6
+	dd	_3127
+	dd	1
+	dd	_3128
+	dd	_6
+	dd	_3129
+	dd	1
+	dd	_3130
+	dd	_6
+	dd	_3131
+	dd	1
+	dd	_3132
+	dd	_6
+	dd	_3133
+	dd	1
+	dd	_3134
+	dd	_6
+	dd	_1610
+	dd	1
+	dd	_3135
+	dd	_6
+	dd	_3136
+	dd	1
+	dd	_3137
+	dd	_6
+	dd	_3138
+	dd	1
+	dd	_3139
+	dd	_6
+	dd	_3140
+	dd	1
+	dd	_3141
+	dd	_6
+	dd	_1612
+	dd	1
+	dd	_3142
+	dd	_6
+	dd	_3143
+	dd	1
+	dd	_3144
+	dd	_6
+	dd	_3145
+	dd	1
+	dd	_3146
+	dd	_6
+	dd	_3147
+	dd	1
+	dd	_3148
+	dd	_6
+	dd	_3149
+	dd	1
+	dd	_3150
+	dd	_6
+	dd	_3151
+	dd	1
+	dd	_3152
+	dd	_6
+	dd	_3153
+	dd	1
+	dd	_3154
+	dd	_6
+	dd	_3155
+	dd	1
+	dd	_3156
+	dd	_6
+	dd	_3157
+	dd	1
+	dd	_3158
+	dd	_6
+	dd	_3159
+	dd	1
+	dd	_3160
+	dd	_6
+	dd	_3161
+	dd	1
+	dd	_3162
+	dd	_6
+	dd	_3163
+	dd	1
+	dd	_3164
+	dd	_6
+	dd	_3165
+	dd	1
+	dd	_3166
+	dd	_6
+	dd	_307
+	dd	1
+	dd	_3167
+	dd	_6
+	dd	_3168
+	dd	1
+	dd	_3169
+	dd	_6
+	dd	_3170
+	dd	1
+	dd	_3171
+	dd	_6
+	dd	_3172
+	dd	1
+	dd	_3173
+	dd	_6
+	dd	_3174
+	dd	1
+	dd	_3175
+	dd	_6
+	dd	_3176
+	dd	1
+	dd	_3177
+	dd	_6
+	dd	_3178
+	dd	1
+	dd	_3179
+	dd	_6
+	dd	_3180
+	dd	1
+	dd	_3181
+	dd	_6
+	dd	_3182
+	dd	1
+	dd	_3183
+	dd	_6
+	dd	_3184
+	dd	1
+	dd	_3185
+	dd	_6
+	dd	_3186
+	dd	1
+	dd	_3187
+	dd	_6
+	dd	_3188
+	dd	1
+	dd	_3189
+	dd	_6
+	dd	_3190
+	dd	1
+	dd	_3191
+	dd	_6
+	dd	_3192
+	dd	1
+	dd	_3193
+	dd	_6
+	dd	_3194
+	dd	1
+	dd	_3195
+	dd	_6
+	dd	_3196
+	dd	1
+	dd	_3197
+	dd	_6
+	dd	_3198
+	dd	1
+	dd	_3199
+	dd	_6
+	dd	_3200
+	dd	1
+	dd	_3201
+	dd	_6
+	dd	_3202
+	dd	1
+	dd	_3203
+	dd	_6
+	dd	_3204
+	dd	1
+	dd	_3205
+	dd	_6
+	dd	_3206
+	dd	1
+	dd	_3207
+	dd	_6
+	dd	_3208
+	dd	1
+	dd	_3209
+	dd	_6
+	dd	_3210
+	dd	1
+	dd	_3211
+	dd	_6
+	dd	_3212
+	dd	1
+	dd	_3213
+	dd	_6
+	dd	_3214
+	dd	1
+	dd	_3215
+	dd	_6
+	dd	_3216
+	dd	1
+	dd	_3217
+	dd	_6
+	dd	_3218
+	dd	1
+	dd	_3219
+	dd	_6
+	dd	_3220
+	dd	1
+	dd	_3221
+	dd	_6
+	dd	_3222
+	dd	1
+	dd	_3223
+	dd	_6
+	dd	_3224
+	dd	1
+	dd	_3225
+	dd	_6
+	dd	_3226
+	dd	1
+	dd	_3227
+	dd	_6
+	dd	_2656
+	dd	1
+	dd	_3228
+	dd	_6
+	dd	_643
+	dd	1
+	dd	_3229
+	dd	_6
+	dd	_1332
+	dd	1
+	dd	_3230
+	dd	_6
+	dd	_3231
+	dd	1
+	dd	_3232
+	dd	_6
+	dd	_3233
+	dd	1
+	dd	_3234
+	dd	_6
+	dd	_3235
+	dd	1
+	dd	_3236
+	dd	_6
+	dd	_3237
+	dd	1
+	dd	_3238
+	dd	_6
+	dd	_3239
+	dd	1
+	dd	_3240
+	dd	_6
+	dd	_3241
+	dd	1
+	dd	_3242
+	dd	_6
+	dd	_3243
+	dd	1
+	dd	_3244
+	dd	_6
+	dd	_3245
+	dd	1
+	dd	_3246
+	dd	_6
+	dd	_924
+	dd	1
+	dd	_3247
+	dd	_6
+	dd	_926
+	dd	1
+	dd	_3248
+	dd	_6
+	dd	_3249
+	dd	1
+	dd	_3250
+	dd	_6
+	dd	_833
+	dd	1
+	dd	_3251
+	dd	_6
+	dd	_835
+	dd	1
+	dd	_3252
+	dd	_6
+	dd	_837
+	dd	1
+	dd	_3253
+	dd	_6
+	dd	_839
+	dd	1
+	dd	_3254
+	dd	_6
+	dd	_3255
+	dd	1
+	dd	_3256
+	dd	_6
+	dd	_3257
+	dd	1
+	dd	_3258
+	dd	_6
+	dd	_3259
+	dd	1
+	dd	_3260
+	dd	_6
+	dd	_3261
+	dd	1
+	dd	_3262
+	dd	_6
+	dd	_938
+	dd	1
+	dd	_3263
+	dd	_6
+	dd	_3264
+	dd	1
+	dd	_3265
+	dd	_6
+	dd	_3266
+	dd	1
+	dd	_3267
+	dd	_6
+	dd	_363
+	dd	1
+	dd	_3268
+	dd	_6
+	dd	_365
+	dd	1
+	dd	_3269
+	dd	_6
+	dd	_367
+	dd	1
+	dd	_3270
+	dd	_6
+	dd	_369
+	dd	1
+	dd	_3271
+	dd	_6
+	dd	_429
+	dd	1
+	dd	_3272
+	dd	_6
+	dd	_3273
+	dd	1
+	dd	_3274
+	dd	_6
+	dd	_3275
+	dd	1
+	dd	_3276
+	dd	_6
+	dd	_3277
+	dd	1
+	dd	_3278
+	dd	_6
+	dd	_3279
+	dd	1
+	dd	_3280
+	dd	_6
+	dd	_3281
+	dd	1
+	dd	_3282
+	dd	_6
+	dd	_3283
+	dd	1
+	dd	_3284
+	dd	_6
+	dd	_3285
+	dd	1
+	dd	_3286
+	dd	_6
+	dd	_3287
+	dd	1
+	dd	_3288
+	dd	_6
+	dd	_3289
+	dd	1
+	dd	_3290
+	dd	_6
+	dd	_3291
+	dd	1
+	dd	_3292
+	dd	_6
+	dd	_3293
+	dd	1
+	dd	_3294
+	dd	_6
+	dd	_3295
+	dd	1
+	dd	_3296
+	dd	_6
+	dd	_3297
+	dd	1
+	dd	_3298
+	dd	_6
+	dd	_3299
+	dd	1
+	dd	_3300
+	dd	_6
+	dd	_3301
+	dd	1
+	dd	_3302
+	dd	_6
+	dd	_3303
+	dd	1
+	dd	_3304
+	dd	_6
+	dd	_3305
+	dd	1
+	dd	_3306
+	dd	_6
+	dd	_3307
+	dd	1
+	dd	_3308
+	dd	_6
+	dd	_3309
+	dd	1
+	dd	_3310
+	dd	_6
+	dd	_3311
+	dd	1
+	dd	_3312
+	dd	_6
+	dd	_3313
+	dd	1
+	dd	_3314
+	dd	_6
+	dd	_3315
+	dd	1
+	dd	_3316
+	dd	_6
+	dd	_3317
+	dd	1
+	dd	_3318
+	dd	_6
+	dd	_3319
+	dd	1
+	dd	_3320
+	dd	_6
+	dd	_3321
+	dd	1
+	dd	_3322
+	dd	_6
+	dd	_3323
+	dd	1
+	dd	_3324
+	dd	_6
+	dd	_3325
+	dd	1
+	dd	_3326
+	dd	_6
+	dd	_3327
+	dd	1
+	dd	_3328
+	dd	_6
+	dd	_3329
+	dd	1
+	dd	_3330
+	dd	_6
+	dd	_3331
+	dd	1
+	dd	_3332
+	dd	_6
+	dd	_3333
+	dd	1
+	dd	_3334
+	dd	_6
+	dd	_3335
+	dd	1
+	dd	_3336
+	dd	_6
+	dd	_3337
+	dd	1
+	dd	_3338
+	dd	_6
+	dd	_3339
+	dd	1
+	dd	_3340
+	dd	_6
+	dd	_3341
+	dd	1
+	dd	_3342
+	dd	_6
+	dd	_3343
+	dd	1
+	dd	_3344
+	dd	_6
+	dd	_3345
+	dd	1
+	dd	_3346
+	dd	_6
+	dd	_3347
+	dd	1
+	dd	_3348
+	dd	_6
+	dd	_3349
+	dd	1
+	dd	_3350
+	dd	_6
+	dd	_3351
+	dd	1
+	dd	_3352
+	dd	_6
+	dd	_3353
+	dd	1
+	dd	_3354
+	dd	_6
+	dd	_3355
+	dd	1
+	dd	_3356
+	dd	_6
+	dd	_3357
+	dd	1
+	dd	_3358
+	dd	_6
+	dd	_3359
+	dd	1
+	dd	_3360
+	dd	_6
+	dd	_3361
+	dd	1
+	dd	_3362
+	dd	_6
+	dd	_3363
+	dd	1
+	dd	_3364
+	dd	_6
+	dd	_3365
+	dd	1
+	dd	_3366
+	dd	_6
+	dd	_3367
+	dd	1
+	dd	_3368
+	dd	_6
+	dd	_3369
+	dd	1
+	dd	_3370
+	dd	_6
+	dd	_3371
+	dd	1
+	dd	_3372
+	dd	_6
+	dd	_3373
+	dd	1
+	dd	_3374
+	dd	_6
+	dd	_3375
+	dd	1
+	dd	_3376
+	dd	_6
+	dd	_3377
+	dd	1
+	dd	_3378
+	dd	_6
+	dd	_3379
+	dd	1
+	dd	_3380
+	dd	_6
+	dd	_3381
+	dd	1
+	dd	_3382
+	dd	_6
+	dd	_3383
+	dd	1
+	dd	_3384
+	dd	_6
+	dd	_3385
+	dd	1
+	dd	_3386
+	dd	_6
+	dd	_499
+	dd	1
+	dd	_3387
+	dd	_6
+	dd	_501
+	dd	1
+	dd	_3388
+	dd	_6
+	dd	_3389
+	dd	1
+	dd	_3390
+	dd	_6
+	dd	_1754
+	dd	1
+	dd	_3391
+	dd	_6
+	dd	_3392
+	dd	1
+	dd	_3393
+	dd	_6
+	dd	_3394
+	dd	1
+	dd	_3395
+	dd	_6
+	dd	_3396
+	dd	1
+	dd	_3397
+	dd	_6
+	dd	_3398
+	dd	1
+	dd	_3399
+	dd	_6
+	dd	_3400
+	dd	1
+	dd	_3401
+	dd	_6
+	dd	_1040
+	dd	1
+	dd	_3402
+	dd	_6
+	dd	_3403
+	dd	1
+	dd	_3404
+	dd	_6
+	dd	_3405
+	dd	1
+	dd	_3406
+	dd	_6
+	dd	_3407
+	dd	1
+	dd	_3408
+	dd	_6
+	dd	_3409
+	dd	1
+	dd	_3410
+	dd	_6
+	dd	_3411
+	dd	1
+	dd	_3412
+	dd	_6
+	dd	_3413
+	dd	1
+	dd	_3414
+	dd	_6
+	dd	_673
+	dd	1
+	dd	_3415
+	dd	_6
+	dd	_675
+	dd	1
+	dd	_3416
+	dd	_6
+	dd	_3417
+	dd	1
+	dd	_3418
+	dd	_6
+	dd	_3419
+	dd	1
+	dd	_3420
+	dd	_6
+	dd	_3421
+	dd	1
+	dd	_3422
+	dd	_6
+	dd	_3423
+	dd	1
+	dd	_3424
+	dd	_6
+	dd	_3425
+	dd	1
+	dd	_3426
+	dd	_6
+	dd	_3427
+	dd	1
+	dd	_3428
+	dd	_6
+	dd	_864
+	dd	1
+	dd	_3429
+	dd	_6
+	dd	_3430
+	dd	1
+	dd	_3431
+	dd	_6
+	dd	_3432
+	dd	1
+	dd	_3433
+	dd	_6
+	dd	_3434
+	dd	1
+	dd	_3435
+	dd	_6
+	dd	_363
+	dd	1
+	dd	_3436
+	dd	_6
+	dd	_365
+	dd	1
+	dd	_3437
+	dd	_6
+	dd	_367
+	dd	1
+	dd	_3438
+	dd	_6
+	dd	_369
+	dd	1
+	dd	_3439
+	dd	_6
+	dd	_1021
+	dd	1
+	dd	_3440
+	dd	_6
+	dd	_1023
+	dd	1
+	dd	_3441
+	dd	_6
+	dd	_3442
+	dd	1
+	dd	_3443
+	dd	_6
+	dd	_3444
+	dd	1
+	dd	_3445
+	dd	_6
+	dd	_3446
+	dd	1
+	dd	_3447
+	dd	_6
+	dd	_3448
+	dd	1
+	dd	_3449
+	dd	_6
+	dd	_3450
+	dd	1
+	dd	_3451
+	dd	_6
+	dd	_3452
+	dd	1
+	dd	_3453
+	dd	_6
+	dd	_3454
+	dd	1
+	dd	_3455
+	dd	_6
+	dd	_3456
+	dd	1
+	dd	_3457
+	dd	_6
+	dd	_3458
+	dd	1
+	dd	_3459
+	dd	_6
+	dd	_3460
+	dd	1
+	dd	_3461
+	dd	_6
+	dd	_3462
+	dd	1
+	dd	_3463
+	dd	_6
+	dd	_491
+	dd	1
+	dd	_3464
+	dd	_6
+	dd	_493
+	dd	1
+	dd	_3465
+	dd	_6
+	dd	_3466
+	dd	1
+	dd	_3467
+	dd	_6
+	dd	_3468
+	dd	1
+	dd	_3469
+	dd	_6
+	dd	_3470
+	dd	1
+	dd	_3471
+	dd	_6
+	dd	_3472
+	dd	1
+	dd	_3473
+	dd	_6
+	dd	_3474
+	dd	1
+	dd	_3475
+	dd	_6
+	dd	_3476
+	dd	1
+	dd	_3477
+	dd	_6
+	dd	_3478
+	dd	1
+	dd	_3479
+	dd	_6
+	dd	_3480
+	dd	1
+	dd	_3481
+	dd	_6
+	dd	_3482
+	dd	1
+	dd	_3483
+	dd	_6
+	dd	_3484
+	dd	1
+	dd	_3485
+	dd	_6
+	dd	_3486
+	dd	1
+	dd	_3487
+	dd	_6
+	dd	_3488
+	dd	1
+	dd	_3489
+	dd	_6
+	dd	_3490
+	dd	1
+	dd	_3491
+	dd	_6
+	dd	_3492
+	dd	1
+	dd	_3493
+	dd	_6
+	dd	_3494
+	dd	1
+	dd	_3495
+	dd	_6
+	dd	_3496
+	dd	1
+	dd	_3497
+	dd	_6
+	dd	_3498
+	dd	1
+	dd	_3499
+	dd	_6
+	dd	_3500
+	dd	1
+	dd	_3501
+	dd	_6
+	dd	_3502
+	dd	1
+	dd	_3503
+	dd	_6
+	dd	_3504
+	dd	1
+	dd	_3505
+	dd	_6
+	dd	_3506
+	dd	1
+	dd	_3507
+	dd	_6
+	dd	_3508
+	dd	1
+	dd	_3509
+	dd	_6
+	dd	_3510
+	dd	1
+	dd	_3511
+	dd	_6
+	dd	_3512
+	dd	1
+	dd	_3513
+	dd	_6
+	dd	_3514
+	dd	1
+	dd	_3515
+	dd	_6
+	dd	_3516
+	dd	1
+	dd	_3517
+	dd	_6
+	dd	_3518
+	dd	1
+	dd	_3519
+	dd	_6
+	dd	_3520
+	dd	1
+	dd	_3521
+	dd	_6
+	dd	_3522
+	dd	1
+	dd	_3523
+	dd	_6
+	dd	_3524
+	dd	1
+	dd	_3525
+	dd	_6
+	dd	_3526
+	dd	1
+	dd	_3527
+	dd	_6
+	dd	_3528
+	dd	1
+	dd	_3529
+	dd	_6
+	dd	_3530
+	dd	1
+	dd	_3531
+	dd	_6
+	dd	_3532
+	dd	1
+	dd	_3533
+	dd	_6
+	dd	_3534
+	dd	1
+	dd	_3535
+	dd	_6
+	dd	_3536
+	dd	1
+	dd	_3537
+	dd	_6
+	dd	_3538
+	dd	1
+	dd	_3539
+	dd	_6
+	dd	_3540
+	dd	1
+	dd	_3541
+	dd	_6
+	dd	_3542
+	dd	1
+	dd	_3543
+	dd	_6
+	dd	_3544
+	dd	1
+	dd	_3545
+	dd	_6
+	dd	_3546
+	dd	1
+	dd	_3547
+	dd	_6
+	dd	_3548
+	dd	1
+	dd	_3549
+	dd	_6
+	dd	_3550
+	dd	1
+	dd	_3551
+	dd	_6
+	dd	_3552
+	dd	1
+	dd	_3553
+	dd	_6
+	dd	_3554
+	dd	1
+	dd	_3555
+	dd	_6
+	dd	_3556
+	dd	1
+	dd	_3557
+	dd	_6
+	dd	_3558
+	dd	1
+	dd	_3559
+	dd	_6
+	dd	_3560
+	dd	1
+	dd	_3561
+	dd	_6
+	dd	_3562
+	dd	1
+	dd	_3563
+	dd	_6
+	dd	_3564
+	dd	1
+	dd	_3565
+	dd	_6
+	dd	_3566
+	dd	1
+	dd	_3567
+	dd	_6
+	dd	_3568
+	dd	1
+	dd	_3569
+	dd	_6
+	dd	_3570
+	dd	1
+	dd	_3571
+	dd	_6
+	dd	_3572
+	dd	1
+	dd	_3573
+	dd	_6
+	dd	_3574
+	dd	1
+	dd	_3575
+	dd	_6
+	dd	_3576
+	dd	1
+	dd	_3577
+	dd	_6
+	dd	_3578
+	dd	1
+	dd	_3579
+	dd	_6
+	dd	_3580
+	dd	1
+	dd	_3581
+	dd	_6
+	dd	_3582
+	dd	1
+	dd	_3583
+	dd	_6
+	dd	_3584
+	dd	1
+	dd	_3585
+	dd	_6
+	dd	_3586
+	dd	1
+	dd	_3587
+	dd	_6
+	dd	_3588
+	dd	1
+	dd	_3589
+	dd	_6
+	dd	_3590
+	dd	1
+	dd	_3591
+	dd	_6
+	dd	_3592
+	dd	1
+	dd	_3593
+	dd	_6
+	dd	_201
+	dd	1
+	dd	_3594
+	dd	_6
+	dd	_203
+	dd	1
+	dd	_3595
+	dd	_6
+	dd	_3596
+	dd	1
+	dd	_3597
+	dd	_6
+	dd	_3598
+	dd	1
+	dd	_3599
+	dd	_6
+	dd	_3600
+	dd	1
+	dd	_3601
+	dd	_6
+	dd	_3602
+	dd	1
+	dd	_3603
+	dd	_6
+	dd	_3604
+	dd	1
+	dd	_3605
+	dd	_6
+	dd	_3606
+	dd	1
+	dd	_3607
+	dd	_6
+	dd	_1553
+	dd	1
+	dd	_3608
+	dd	_6
+	dd	_1555
+	dd	1
+	dd	_3609
+	dd	_6
+	dd	_1557
+	dd	1
+	dd	_3610
+	dd	_6
+	dd	_1559
+	dd	1
+	dd	_3611
+	dd	_6
+	dd	_3612
+	dd	1
+	dd	_3613
+	dd	_6
+	dd	_3614
+	dd	1
+	dd	_3615
+	dd	_6
+	dd	_3616
+	dd	1
+	dd	_3617
+	dd	_6
+	dd	_3618
+	dd	1
+	dd	_3619
+	dd	_6
+	dd	_3620
+	dd	1
+	dd	_3621
+	dd	_6
+	dd	_3622
+	dd	1
+	dd	_3623
+	dd	_6
+	dd	_3624
+	dd	1
+	dd	_3625
+	dd	_6
+	dd	_3626
+	dd	1
+	dd	_3627
+	dd	_6
+	dd	_3628
+	dd	1
+	dd	_3629
+	dd	_6
+	dd	_3630
+	dd	1
+	dd	_3631
+	dd	_6
+	dd	_3632
+	dd	1
+	dd	_3633
+	dd	_6
+	dd	_3634
+	dd	1
+	dd	_3635
+	dd	_6
+	dd	_3634
+	dd	1
+	dd	_3636
+	dd	_6
+	dd	_3637
+	dd	1
+	dd	_3638
+	dd	_6
+	dd	_3637
+	dd	1
+	dd	_3639
+	dd	_6
+	dd	_3640
+	dd	1
+	dd	_3641
+	dd	_6
+	dd	_3640
+	dd	1
+	dd	_3642
+	dd	_6
+	dd	_3643
+	dd	1
+	dd	_3644
+	dd	_6
+	dd	_3645
+	dd	1
+	dd	_3646
+	dd	_6
+	dd	_3647
+	dd	1
+	dd	_3648
+	dd	_6
+	dd	_3649
+	dd	1
+	dd	_3650
+	dd	_6
+	dd	_3651
+	dd	1
+	dd	_3652
+	dd	_6
+	dd	_3653
+	dd	1
+	dd	_3654
+	dd	_6
+	dd	_3655
+	dd	1
+	dd	_3656
+	dd	_6
+	dd	_3657
+	dd	1
+	dd	_3658
+	dd	_6
+	dd	_3659
+	dd	1
+	dd	_3660
+	dd	_6
+	dd	_3661
+	dd	1
+	dd	_3662
+	dd	_6
+	dd	_3663
+	dd	1
+	dd	_3664
+	dd	_6
+	dd	_3665
+	dd	1
+	dd	_3666
+	dd	_6
+	dd	_3667
+	dd	1
+	dd	_3668
+	dd	_6
+	dd	_3669
+	dd	1
+	dd	_3670
+	dd	_6
+	dd	_3671
+	dd	1
+	dd	_3672
+	dd	_6
+	dd	_3673
+	dd	1
+	dd	_3674
+	dd	_6
+	dd	_3675
+	dd	1
+	dd	_3676
+	dd	_6
+	dd	_3677
+	dd	1
+	dd	_3678
+	dd	_6
+	dd	_3679
+	dd	1
+	dd	_3680
+	dd	_6
+	dd	_3681
+	dd	1
+	dd	_3682
+	dd	_6
+	dd	_3683
+	dd	1
+	dd	_3684
+	dd	_6
+	dd	_3685
+	dd	1
+	dd	_3686
+	dd	_6
+	dd	_3687
+	dd	1
+	dd	_3688
+	dd	_6
+	dd	_3689
+	dd	1
+	dd	_3690
+	dd	_6
+	dd	_3691
+	dd	1
+	dd	_3692
+	dd	_6
+	dd	_3693
+	dd	1
+	dd	_3694
+	dd	_6
+	dd	_3695
+	dd	1
+	dd	_3696
+	dd	_6
+	dd	_3697
+	dd	1
+	dd	_3698
+	dd	_6
+	dd	_3699
+	dd	1
+	dd	_3700
+	dd	_6
+	dd	_3701
+	dd	1
+	dd	_3702
+	dd	_6
+	dd	_3703
+	dd	1
+	dd	_3704
+	dd	_6
+	dd	_3705
+	dd	1
+	dd	_3706
+	dd	_6
+	dd	_3707
+	dd	1
+	dd	_3708
+	dd	_6
+	dd	_3709
+	dd	1
+	dd	_3710
+	dd	_6
+	dd	_3711
+	dd	1
+	dd	_3712
+	dd	_6
+	dd	_3713
+	dd	1
+	dd	_3714
+	dd	_6
+	dd	_3715
+	dd	1
+	dd	_3716
+	dd	_6
+	dd	_3717
+	dd	1
+	dd	_3718
+	dd	_6
+	dd	_3719
+	dd	1
+	dd	_3720
+	dd	_6
+	dd	_3721
+	dd	1
+	dd	_3722
+	dd	_6
+	dd	_3723
+	dd	1
+	dd	_3724
+	dd	_6
+	dd	_3725
+	dd	1
+	dd	_3726
+	dd	_6
+	dd	_3727
+	dd	1
+	dd	_3728
+	dd	_6
+	dd	_3729
+	dd	1
+	dd	_3730
+	dd	_6
+	dd	_3731
+	dd	1
+	dd	_3732
+	dd	_6
+	dd	_3733
+	dd	1
+	dd	_3734
+	dd	_6
+	dd	_3735
+	dd	1
+	dd	_3736
+	dd	_6
+	dd	_3737
+	dd	1
+	dd	_3738
+	dd	_6
+	dd	_3739
+	dd	1
+	dd	_3740
+	dd	_6
+	dd	_3741
+	dd	1
+	dd	_3742
+	dd	_6
+	dd	_3743
+	dd	1
+	dd	_3744
+	dd	_6
+	dd	_3745
+	dd	1
+	dd	_3746
+	dd	_6
+	dd	_3747
+	dd	1
+	dd	_3748
+	dd	_6
+	dd	_3749
+	dd	1
+	dd	_3750
+	dd	_6
+	dd	_3751
+	dd	1
+	dd	_3752
+	dd	_6
+	dd	_3753
+	dd	1
+	dd	_3754
+	dd	_6
+	dd	_3755
+	dd	1
+	dd	_3756
+	dd	_6
+	dd	_3757
+	dd	1
+	dd	_3758
+	dd	_6
+	dd	_3759
+	dd	1
+	dd	_3760
+	dd	_6
+	dd	_3761
+	dd	1
+	dd	_3762
+	dd	_6
+	dd	_3763
+	dd	1
+	dd	_3764
+	dd	_6
+	dd	_3765
+	dd	1
+	dd	_3766
+	dd	_6
+	dd	_3767
+	dd	1
+	dd	_3768
+	dd	_6
+	dd	_3769
+	dd	1
+	dd	_3770
+	dd	_6
+	dd	_3771
+	dd	1
+	dd	_3772
+	dd	_6
+	dd	_3773
+	dd	1
+	dd	_3774
+	dd	_6
+	dd	_3775
+	dd	1
+	dd	_3776
+	dd	_6
+	dd	_3777
+	dd	1
+	dd	_3778
+	dd	_6
+	dd	_3779
+	dd	1
+	dd	_3780
+	dd	_6
+	dd	_3781
+	dd	1
+	dd	_3782
+	dd	_6
+	dd	_3783
+	dd	1
+	dd	_3784
+	dd	_6
+	dd	_3785
+	dd	1
+	dd	_3786
+	dd	_6
+	dd	_3787
+	dd	1
+	dd	_3788
+	dd	_6
+	dd	_3789
+	dd	1
+	dd	_3790
+	dd	_6
+	dd	_3791
+	dd	1
+	dd	_3792
+	dd	_6
+	dd	_3793
+	dd	1
+	dd	_3794
+	dd	_6
+	dd	_3795
+	dd	1
+	dd	_3796
+	dd	_6
+	dd	_3797
+	dd	1
+	dd	_3798
+	dd	_6
+	dd	_3799
+	dd	1
+	dd	_3800
+	dd	_6
+	dd	_3801
+	dd	1
+	dd	_3802
+	dd	_6
+	dd	_3803
+	dd	1
+	dd	_3804
+	dd	_6
+	dd	_3805
+	dd	1
+	dd	_3806
+	dd	_6
+	dd	_725
+	dd	1
+	dd	_3807
+	dd	_6
+	dd	_727
+	dd	1
+	dd	_3808
+	dd	_6
+	dd	_3809
+	dd	1
+	dd	_3810
+	dd	_6
+	dd	_3811
+	dd	1
+	dd	_3812
+	dd	_6
+	dd	_729
+	dd	1
+	dd	_3813
+	dd	_6
+	dd	_731
+	dd	1
+	dd	_3814
+	dd	_6
+	dd	_733
+	dd	1
+	dd	_3815
+	dd	_6
+	dd	_3816
+	dd	1
+	dd	_3817
+	dd	_6
+	dd	_735
+	dd	1
+	dd	_3818
+	dd	_6
+	dd	_737
+	dd	1
+	dd	_3819
+	dd	_6
+	dd	_739
+	dd	1
+	dd	_3820
+	dd	_6
+	dd	_741
+	dd	1
+	dd	_3821
+	dd	_6
+	dd	_743
+	dd	1
+	dd	_3822
+	dd	_6
+	dd	_745
+	dd	1
+	dd	_3823
+	dd	_6
+	dd	_747
+	dd	1
+	dd	_3824
+	dd	_6
+	dd	_749
+	dd	1
+	dd	_3825
+	dd	_6
+	dd	_751
+	dd	1
+	dd	_3826
+	dd	_6
+	dd	_912
+	dd	1
+	dd	_3827
+	dd	_6
+	dd	_914
+	dd	1
+	dd	_3828
+	dd	_6
+	dd	_916
+	dd	1
+	dd	_3829
+	dd	_6
+	dd	_918
+	dd	1
+	dd	_3830
+	dd	_6
+	dd	_920
+	dd	1
+	dd	_3831
+	dd	_6
+	dd	_3832
+	dd	1
+	dd	_3833
+	dd	_6
+	dd	_1726
+	dd	1
+	dd	_3834
+	dd	_6
+	dd	_3835
+	dd	1
+	dd	_3836
+	dd	_6
+	dd	_433
+	dd	1
+	dd	_3837
+	dd	_6
+	dd	_435
+	dd	1
+	dd	_3838
+	dd	_6
+	dd	_437
+	dd	1
+	dd	_3839
+	dd	_6
+	dd	_439
+	dd	1
+	dd	_3840
+	dd	_6
+	dd	_1733
+	dd	1
+	dd	_3841
+	dd	_6
+	dd	_1735
+	dd	1
+	dd	_3842
+	dd	_6
+	dd	_3843
+	dd	1
+	dd	_3844
+	dd	_6
+	dd	_3845
+	dd	1
+	dd	_3846
+	dd	_6
+	dd	_3847
+	dd	1
+	dd	_3848
+	dd	_6
+	dd	_3849
+	dd	1
+	dd	_3850
+	dd	_6
+	dd	_3851
+	dd	1
+	dd	_3852
+	dd	_6
+	dd	_1737
+	dd	1
+	dd	_3853
+	dd	_6
+	dd	_1739
+	dd	1
+	dd	_3854
+	dd	_6
+	dd	_3855
+	dd	1
+	dd	_3856
+	dd	_6
+	dd	_3857
+	dd	1
+	dd	_3858
+	dd	_6
+	dd	_3859
+	dd	1
+	dd	_3860
+	dd	_6
+	dd	_3861
+	dd	1
+	dd	_3862
+	dd	_6
+	dd	_3863
+	dd	1
+	dd	_3864
+	dd	_6
+	dd	_3865
+	dd	1
+	dd	_3866
+	dd	_6
+	dd	_3867
+	dd	1
+	dd	_3868
+	dd	_6
+	dd	_3869
+	dd	1
+	dd	_3870
+	dd	_6
+	dd	_1741
+	dd	1
+	dd	_3871
+	dd	_6
+	dd	_1743
+	dd	1
+	dd	_3872
+	dd	_6
+	dd	_441
+	dd	1
+	dd	_3873
+	dd	_6
+	dd	_443
+	dd	1
+	dd	_3874
+	dd	_6
+	dd	_3875
+	dd	1
+	dd	_3876
+	dd	_6
+	dd	_445
+	dd	1
+	dd	_3877
+	dd	_6
+	dd	_3878
+	dd	1
+	dd	_3879
+	dd	_6
+	dd	_3880
+	dd	1
+	dd	_3881
+	dd	_6
+	dd	_3882
+	dd	1
+	dd	_3883
+	dd	_6
+	dd	_3884
+	dd	1
+	dd	_3885
+	dd	_6
+	dd	_3886
+	dd	1
+	dd	_3887
+	dd	_6
+	dd	_1748
+	dd	1
+	dd	_3888
+	dd	_6
+	dd	_3889
+	dd	1
+	dd	_3890
+	dd	_6
+	dd	_3891
+	dd	1
+	dd	_3892
+	dd	_6
+	dd	_3893
+	dd	1
+	dd	_3894
+	dd	_6
+	dd	_3895
+	dd	1
+	dd	_3896
+	dd	_6
+	dd	_3897
+	dd	1
+	dd	_3898
+	dd	_6
+	dd	_3899
+	dd	1
+	dd	_3900
+	dd	_6
+	dd	_3901
+	dd	1
+	dd	_3902
+	dd	_6
+	dd	_3903
+	dd	1
+	dd	_3904
+	dd	_6
+	dd	_3905
+	dd	1
+	dd	_3906
+	dd	_6
+	dd	_3907
+	dd	1
+	dd	_3908
+	dd	_6
+	dd	_3909
+	dd	1
+	dd	_3910
+	dd	_6
+	dd	_3911
+	dd	1
+	dd	_3912
+	dd	_6
+	dd	_3913
+	dd	1
+	dd	_3914
+	dd	_6
+	dd	_3915
+	dd	1
+	dd	_3916
+	dd	_6
+	dd	_3917
+	dd	1
+	dd	_3918
+	dd	_6
+	dd	_3919
+	dd	1
+	dd	_3920
+	dd	_6
+	dd	_3921
+	dd	1
+	dd	_3922
+	dd	_6
+	dd	_3923
+	dd	1
+	dd	_3924
+	dd	_6
+	dd	_3925
+	dd	1
+	dd	_3926
+	dd	_6
+	dd	_3927
+	dd	1
+	dd	_3928
+	dd	_6
+	dd	_3929
+	dd	1
+	dd	_3930
+	dd	_6
+	dd	_3931
+	dd	1
+	dd	_3932
+	dd	_6
+	dd	_3933
+	dd	1
+	dd	_3934
+	dd	_6
+	dd	_3935
+	dd	1
+	dd	_3936
+	dd	_6
+	dd	_3937
+	dd	1
+	dd	_3938
+	dd	_6
+	dd	_3939
+	dd	1
+	dd	_3940
+	dd	_6
+	dd	_3941
+	dd	1
+	dd	_3942
+	dd	_6
+	dd	_3943
+	dd	1
+	dd	_3944
+	dd	_6
+	dd	_3945
+	dd	1
+	dd	_3946
+	dd	_6
+	dd	_3947
+	dd	1
+	dd	_3948
+	dd	_6
+	dd	_3949
+	dd	1
+	dd	_3950
+	dd	_6
+	dd	_3951
+	dd	1
+	dd	_3952
+	dd	_6
+	dd	_3953
+	dd	1
+	dd	_3954
+	dd	_6
+	dd	_3955
+	dd	1
+	dd	_3956
+	dd	_6
+	dd	_3957
+	dd	1
+	dd	_3958
+	dd	_6
+	dd	_3959
+	dd	1
+	dd	_3960
+	dd	_6
+	dd	_3961
+	dd	1
+	dd	_3962
+	dd	_6
+	dd	_3963
+	dd	1
+	dd	_3964
+	dd	_6
+	dd	_3965
+	dd	1
+	dd	_3966
+	dd	_6
+	dd	_1750
+	dd	1
+	dd	_3967
+	dd	_6
+	dd	_3968
+	dd	1
+	dd	_3969
+	dd	_6
+	dd	_3970
+	dd	1
+	dd	_3971
+	dd	_6
+	dd	_3972
+	dd	1
+	dd	_3973
+	dd	_6
+	dd	_3974
+	dd	1
+	dd	_3975
+	dd	_6
+	dd	_3976
+	dd	1
+	dd	_3977
+	dd	_6
+	dd	_3978
+	dd	1
+	dd	_3979
+	dd	_6
+	dd	_3980
+	dd	1
+	dd	_3981
+	dd	_6
+	dd	_3982
+	dd	1
+	dd	_3983
+	dd	_6
+	dd	_3984
+	dd	1
+	dd	_3985
+	dd	_6
+	dd	_3986
+	dd	1
+	dd	_3987
+	dd	_6
+	dd	_3988
+	dd	1
+	dd	_3989
+	dd	_6
+	dd	_3990
+	dd	1
+	dd	_3991
+	dd	_6
+	dd	_3992
+	dd	1
+	dd	_3993
+	dd	_6
+	dd	_3994
+	dd	1
+	dd	_3995
+	dd	_6
+	dd	_3996
+	dd	1
+	dd	_3997
+	dd	_6
+	dd	_3998
+	dd	1
+	dd	_3999
+	dd	_6
+	dd	_4000
+	dd	1
+	dd	_4001
+	dd	_6
+	dd	_4002
+	dd	1
+	dd	_4003
+	dd	_6
+	dd	_4004
+	dd	1
+	dd	_4005
+	dd	_6
+	dd	_4006
+	dd	1
+	dd	_4007
+	dd	_6
+	dd	_4008
+	dd	1
+	dd	_4009
+	dd	_6
+	dd	_4010
+	dd	1
+	dd	_4011
+	dd	_6
+	dd	_4012
+	dd	1
+	dd	_4013
+	dd	_6
+	dd	_4014
+	dd	1
+	dd	_4015
+	dd	_6
+	dd	_4016
+	dd	1
+	dd	_4017
+	dd	_6
+	dd	_4018
+	dd	1
+	dd	_4019
+	dd	_6
+	dd	_4020
+	dd	1
+	dd	_4021
+	dd	_6
+	dd	_4022
+	dd	1
+	dd	_4023
+	dd	_6
+	dd	_4024
+	dd	1
+	dd	_4025
+	dd	_6
+	dd	_4026
+	dd	1
+	dd	_4027
+	dd	_6
+	dd	_4028
+	dd	1
+	dd	_4029
+	dd	_6
+	dd	_4030
+	dd	1
+	dd	_4031
+	dd	_6
+	dd	_4032
+	dd	1
+	dd	_4033
+	dd	_6
+	dd	_4034
+	dd	1
+	dd	_4035
+	dd	_6
+	dd	_4036
+	dd	1
+	dd	_4037
+	dd	_6
+	dd	_4038
+	dd	1
+	dd	_4039
+	dd	_6
+	dd	_4040
+	dd	1
+	dd	_4041
+	dd	_6
+	dd	_4042
+	dd	1
+	dd	_4043
+	dd	_6
+	dd	_4044
+	dd	1
+	dd	_4045
+	dd	_6
+	dd	_4046
+	dd	1
+	dd	_4047
+	dd	_6
+	dd	_4048
+	dd	1
+	dd	_4049
+	dd	_6
+	dd	_4050
+	dd	1
+	dd	_4051
+	dd	_6
+	dd	_4052
+	dd	1
+	dd	_4053
+	dd	_6
+	dd	_4054
+	dd	1
+	dd	_4055
+	dd	_6
+	dd	_4056
+	dd	1
+	dd	_4057
+	dd	_6
+	dd	_4058
+	dd	1
+	dd	_4059
+	dd	_6
+	dd	_4060
+	dd	1
+	dd	_4061
+	dd	_6
+	dd	_4062
+	dd	1
+	dd	_4063
+	dd	_6
+	dd	_4064
+	dd	1
+	dd	_4065
+	dd	_6
+	dd	_4066
+	dd	1
+	dd	_4067
+	dd	_6
+	dd	_1334
+	dd	1
+	dd	_4068
+	dd	_6
+	dd	_1336
+	dd	1
+	dd	_4069
+	dd	_6
+	dd	_4070
+	dd	1
+	dd	_4071
+	dd	_6
+	dd	_4072
+	dd	1
+	dd	_4073
+	dd	_6
+	dd	_4074
+	dd	1
+	dd	_4075
+	dd	_6
+	dd	_4076
+	dd	1
+	dd	_4077
+	dd	_6
+	dd	_4078
+	dd	1
+	dd	_4079
+	dd	_6
+	dd	_4080
+	dd	1
+	dd	_4081
+	dd	_6
+	dd	_4082
+	dd	1
+	dd	_4083
+	dd	_6
+	dd	_4084
+	dd	1
+	dd	_4085
+	dd	_6
+	dd	_4086
+	dd	1
+	dd	_4087
+	dd	_6
+	dd	_4088
+	dd	1
+	dd	_4089
+	dd	_6
+	dd	_4090
+	dd	1
+	dd	_4091
+	dd	_6
+	dd	_4092
+	dd	1
+	dd	_4093
+	dd	_6
+	dd	_4094
+	dd	1
+	dd	_4095
+	dd	_6
+	dd	_4096
+	dd	1
+	dd	_4097
+	dd	_6
+	dd	_4098
+	dd	1
+	dd	_4099
+	dd	_6
+	dd	_4100
+	dd	1
+	dd	_4101
+	dd	_6
+	dd	_4102
+	dd	1
+	dd	_4103
+	dd	_6
+	dd	_279
+	dd	1
+	dd	_4104
+	dd	_6
+	dd	_4105
+	dd	1
+	dd	_4106
+	dd	_6
+	dd	_4107
+	dd	1
+	dd	_4108
+	dd	_6
+	dd	_4109
+	dd	1
+	dd	_4110
+	dd	_6
+	dd	_4111
+	dd	1
+	dd	_4112
+	dd	_6
+	dd	_4113
+	dd	1
+	dd	_4114
+	dd	_6
+	dd	_4115
+	dd	1
+	dd	_4116
+	dd	_6
+	dd	_4117
+	dd	1
+	dd	_4118
+	dd	_6
+	dd	_4119
+	dd	1
+	dd	_4120
+	dd	_6
+	dd	_4121
+	dd	1
+	dd	_4122
+	dd	_6
+	dd	_4123
+	dd	1
+	dd	_4124
+	dd	_6
+	dd	_4125
+	dd	1
+	dd	_4126
+	dd	_6
+	dd	_4127
+	dd	1
+	dd	_4128
+	dd	_6
+	dd	_4129
+	dd	1
+	dd	_4130
+	dd	_6
+	dd	_4131
+	dd	1
+	dd	_4132
+	dd	_6
+	dd	_4133
+	dd	1
+	dd	_4134
+	dd	_6
+	dd	_4135
+	dd	1
+	dd	_4136
+	dd	_6
+	dd	_4137
+	dd	1
+	dd	_4138
+	dd	_6
+	dd	_4139
+	dd	1
+	dd	_4140
+	dd	_6
+	dd	_4141
+	dd	1
+	dd	_4142
+	dd	_6
+	dd	_297
+	dd	1
+	dd	_4143
+	dd	_6
+	dd	_299
+	dd	1
+	dd	_4144
+	dd	_6
+	dd	_89
+	dd	1
+	dd	_4145
+	dd	_6
+	dd	_91
+	dd	1
+	dd	_4146
+	dd	_6
+	dd	_93
+	dd	1
+	dd	_4147
+	dd	_6
+	dd	_95
+	dd	1
+	dd	_4148
+	dd	_6
+	dd	_2418
+	dd	1
+	dd	_4149
+	dd	_6
+	dd	_2420
+	dd	1
+	dd	_4150
+	dd	_6
+	dd	_2422
+	dd	1
+	dd	_4151
+	dd	_6
+	dd	_2424
+	dd	1
+	dd	_4152
+	dd	_6
+	dd	_2426
+	dd	1
+	dd	_4153
+	dd	_6
+	dd	_2428
+	dd	1
+	dd	_4154
+	dd	_6
+	dd	_2430
+	dd	1
+	dd	_4155
+	dd	_6
+	dd	_97
+	dd	1
+	dd	_4156
+	dd	_6
+	dd	_99
+	dd	1
+	dd	_4157
+	dd	_6
+	dd	_101
+	dd	1
+	dd	_4158
+	dd	_6
+	dd	_103
+	dd	1
+	dd	_4159
+	dd	_6
+	dd	_2436
+	dd	1
+	dd	_4160
+	dd	_6
+	dd	_4161
+	dd	1
+	dd	_4162
+	dd	_6
+	dd	_4163
+	dd	1
+	dd	_4164
+	dd	_6
+	dd	_4165
+	dd	1
+	dd	_4166
+	dd	_6
+	dd	_4167
+	dd	1
+	dd	_4168
+	dd	_6
+	dd	_4169
+	dd	1
+	dd	_4170
+	dd	_6
+	dd	_4171
+	dd	1
+	dd	_4172
+	dd	_6
+	dd	_4173
+	dd	1
+	dd	_4174
+	dd	_6
+	dd	_4175
+	dd	1
+	dd	_4176
+	dd	_6
+	dd	_105
+	dd	1
+	dd	_4177
+	dd	_6
+	dd	_55
+	dd	1
+	dd	_4178
+	dd	_6
+	dd	_57
+	dd	1
+	dd	_4179
+	dd	_6
+	dd	_59
+	dd	1
+	dd	_4180
+	dd	_6
+	dd	_61
+	dd	1
+	dd	_4181
+	dd	_6
+	dd	_63
+	dd	1
+	dd	_4182
+	dd	_6
+	dd	_4183
+	dd	1
+	dd	_4184
+	dd	_6
+	dd	_4185
+	dd	1
+	dd	_4186
+	dd	_6
+	dd	_4187
+	dd	1
+	dd	_4188
+	dd	_6
+	dd	_4189
+	dd	1
+	dd	_4190
+	dd	_6
+	dd	_4191
+	dd	1
+	dd	_4192
+	dd	_6
+	dd	_4193
+	dd	1
+	dd	_4194
+	dd	_6
+	dd	_4195
+	dd	1
+	dd	_4196
+	dd	_6
+	dd	_4197
+	dd	1
+	dd	_4198
+	dd	_6
+	dd	_4199
+	dd	1
+	dd	_4200
+	dd	_6
+	dd	_4201
+	dd	1
+	dd	_4202
+	dd	_6
+	dd	_4203
+	dd	1
+	dd	_4204
+	dd	_6
+	dd	_4205
+	dd	1
+	dd	_4206
+	dd	_6
+	dd	_301
+	dd	1
+	dd	_4207
+	dd	_6
+	dd	_303
+	dd	1
+	dd	_4208
+	dd	_6
+	dd	_305
+	dd	1
+	dd	_4209
+	dd	_6
+	dd	_4210
+	dd	1
+	dd	_4211
+	dd	_6
+	dd	_4212
+	dd	1
+	dd	_4213
+	dd	_6
+	dd	_2656
+	dd	1
+	dd	_4214
+	dd	_6
+	dd	_2656
+	dd	1
+	dd	_4215
+	dd	_6
+	dd	_2656
+	dd	1
+	dd	_4216
+	dd	_6
+	dd	_4217
+	dd	1
+	dd	_4218
+	dd	_6
+	dd	_4219
+	dd	1
+	dd	_4220
+	dd	_6
+	dd	_4221
+	dd	1
+	dd	_4222
+	dd	_6
+	dd	_4223
+	dd	1
+	dd	_4224
+	dd	_6
+	dd	_4225
+	dd	1
+	dd	_4226
+	dd	_6
+	dd	_4227
+	dd	1
+	dd	_4228
+	dd	_6
+	dd	_4229
+	dd	1
+	dd	_4230
+	dd	_6
+	dd	_4231
+	dd	1
+	dd	_4232
+	dd	_6
+	dd	_4233
+	dd	1
+	dd	_4234
+	dd	_6
+	dd	_4235
+	dd	1
+	dd	_4236
+	dd	_6
+	dd	_1464
+	dd	1
+	dd	_4237
+	dd	_6
+	dd	_4238
+	dd	1
+	dd	_4239
+	dd	_6
+	dd	_4240
+	dd	1
+	dd	_4241
+	dd	_6
+	dd	_4242
+	dd	1
+	dd	_4243
+	dd	_6
+	dd	_4244
+	dd	1
+	dd	_4245
+	dd	_6
+	dd	_4246
+	dd	1
+	dd	_4247
+	dd	_6
+	dd	_4248
+	dd	1
+	dd	_4249
+	dd	_6
+	dd	_4250
+	dd	1
+	dd	_4251
+	dd	_6
+	dd	_4252
+	dd	1
+	dd	_4253
+	dd	_6
+	dd	_4254
+	dd	1
+	dd	_4255
+	dd	_6
+	dd	_4256
+	dd	1
+	dd	_4257
+	dd	_6
+	dd	_4258
+	dd	1
+	dd	_4259
+	dd	_6
+	dd	_4260
+	dd	1
+	dd	_4261
+	dd	_6
+	dd	_4262
+	dd	1
+	dd	_4263
+	dd	_6
+	dd	_4264
+	dd	1
+	dd	_4265
+	dd	_6
+	dd	_4266
+	dd	1
+	dd	_4267
+	dd	_6
+	dd	_4268
+	dd	1
+	dd	_4269
+	dd	_6
+	dd	_4270
+	dd	1
+	dd	_4271
+	dd	_6
+	dd	_4272
+	dd	1
+	dd	_4273
+	dd	_6
+	dd	_4274
+	dd	1
+	dd	_4275
+	dd	_6
+	dd	_4276
+	dd	1
+	dd	_4277
+	dd	_6
+	dd	_4278
+	dd	1
+	dd	_4279
+	dd	_6
+	dd	_4280
+	dd	1
+	dd	_4281
+	dd	_6
+	dd	_4282
+	dd	1
+	dd	_4283
+	dd	_6
+	dd	_4284
+	dd	1
+	dd	_4285
+	dd	_6
+	dd	_4286
+	dd	1
+	dd	_4287
+	dd	_6
+	dd	_4288
+	dd	1
+	dd	_4289
+	dd	_6
+	dd	_4290
+	dd	1
+	dd	_4291
+	dd	_6
+	dd	_4292
+	dd	1
+	dd	_4293
+	dd	_6
+	dd	_4294
+	dd	1
+	dd	_4295
+	dd	_6
+	dd	_4296
+	dd	1
+	dd	_4297
+	dd	_6
+	dd	_4298
+	dd	1
+	dd	_4299
+	dd	_6
+	dd	_4300
+	dd	1
+	dd	_4301
+	dd	_6
+	dd	_4302
+	dd	1
+	dd	_4303
+	dd	_6
+	dd	_4304
+	dd	1
+	dd	_4305
+	dd	_6
+	dd	_4306
+	dd	1
+	dd	_4307
+	dd	_6
+	dd	_4308
+	dd	1
+	dd	_4309
+	dd	_6
+	dd	_4310
+	dd	1
+	dd	_4311
+	dd	_6
+	dd	_4312
+	dd	1
+	dd	_4313
+	dd	_6
+	dd	_1265
+	dd	1
+	dd	_4314
+	dd	_6
+	dd	_1267
+	dd	1
+	dd	_4315
+	dd	_6
+	dd	_1269
+	dd	1
+	dd	_4316
+	dd	_6
+	dd	_1271
+	dd	1
+	dd	_4317
+	dd	_6
+	dd	_1273
+	dd	1
+	dd	_4318
+	dd	_6
+	dd	_1275
+	dd	1
+	dd	_4319
+	dd	_6
+	dd	_1277
+	dd	1
+	dd	_4320
+	dd	_6
+	dd	_1279
+	dd	1
+	dd	_4321
+	dd	_6
+	dd	_1281
+	dd	1
+	dd	_4322
+	dd	_6
+	dd	_1283
+	dd	1
+	dd	_4323
+	dd	_6
+	dd	_1285
+	dd	1
+	dd	_4324
+	dd	_6
+	dd	_1287
+	dd	1
+	dd	_4325
+	dd	_6
+	dd	_1289
+	dd	1
+	dd	_4326
+	dd	_6
+	dd	_1291
+	dd	1
+	dd	_4327
+	dd	_6
+	dd	_1293
+	dd	1
+	dd	_4328
+	dd	_6
+	dd	_1295
+	dd	1
+	dd	_4329
+	dd	_6
+	dd	_1297
+	dd	1
+	dd	_4330
+	dd	_6
+	dd	_1299
+	dd	1
+	dd	_4331
+	dd	_6
+	dd	_1301
+	dd	1
+	dd	_4332
+	dd	_6
+	dd	_1303
+	dd	1
+	dd	_4333
+	dd	_6
+	dd	_1305
+	dd	1
+	dd	_4334
+	dd	_6
+	dd	_1307
+	dd	1
+	dd	_4335
+	dd	_6
+	dd	_1309
+	dd	1
+	dd	_4336
+	dd	_6
+	dd	_1311
+	dd	1
+	dd	_4337
+	dd	_6
+	dd	_1313
+	dd	1
+	dd	_4338
+	dd	_6
+	dd	_1315
+	dd	1
+	dd	_4339
+	dd	_6
+	dd	_1317
+	dd	1
+	dd	_4340
+	dd	_6
+	dd	_4341
+	dd	1
+	dd	_4342
+	dd	_6
+	dd	_4343
+	dd	1
+	dd	_4344
+	dd	_6
+	dd	_4345
+	dd	1
+	dd	_4346
+	dd	_6
+	dd	_4347
+	dd	1
+	dd	_4348
+	dd	_6
+	dd	_4349
+	dd	1
+	dd	_4350
+	dd	_6
+	dd	_4351
+	dd	1
+	dd	_4352
+	dd	_6
+	dd	_4353
+	dd	1
+	dd	_4354
+	dd	_6
+	dd	_4355
+	dd	1
+	dd	_4356
+	dd	_6
+	dd	_4357
+	dd	1
+	dd	_4358
+	dd	_6
+	dd	_4359
+	dd	1
+	dd	_4360
+	dd	_6
+	dd	_643
+	dd	1
+	dd	_4361
+	dd	_6
+	dd	_1332
+	dd	1
+	dd	_4362
+	dd	_6
+	dd	_3231
+	dd	1
+	dd	_4363
+	dd	_6
+	dd	_4364
+	dd	1
+	dd	_4365
+	dd	_6
+	dd	_4366
+	dd	1
+	dd	_4367
+	dd	_6
+	dd	_4368
+	dd	1
+	dd	_4369
+	dd	_6
+	dd	_4370
+	dd	1
+	dd	_4371
+	dd	_6
+	dd	_4372
+	dd	1
+	dd	_4373
+	dd	_6
+	dd	_4374
+	dd	1
+	dd	_4375
+	dd	_6
+	dd	_4376
+	dd	1
+	dd	_4377
+	dd	_6
+	dd	_4378
+	dd	1
+	dd	_4379
+	dd	_6
+	dd	_4380
+	dd	1
+	dd	_4381
+	dd	_6
+	dd	_4382
+	dd	1
+	dd	_4383
+	dd	_6
+	dd	_4384
+	dd	1
+	dd	_4385
+	dd	_6
+	dd	_4386
+	dd	1
+	dd	_4387
+	dd	_6
+	dd	_4388
+	dd	1
+	dd	_4389
+	dd	_6
+	dd	_4390
+	dd	1
+	dd	_4391
+	dd	_6
+	dd	_4392
+	dd	1
+	dd	_4393
+	dd	_6
+	dd	_4394
+	dd	1
+	dd	_4395
+	dd	_6
+	dd	_4396
+	dd	4
+	dd	_4397
+	dd	_4398
+	dd	___GLEW_VERSION_1_1
+	dd	4
+	dd	_4399
+	dd	_4400
+	dd	___glewCopyTexSubImage3D
+	dd	4
+	dd	_4401
+	dd	_4402
+	dd	___glewDrawRangeElements
+	dd	4
+	dd	_4403
+	dd	_4404
+	dd	___glewTexImage3D
+	dd	4
+	dd	_4405
+	dd	_4406
+	dd	___glewTexSubImage3D
+	dd	4
+	dd	_4407
+	dd	_4398
+	dd	___GLEW_VERSION_1_2
+	dd	4
+	dd	_4408
+	dd	_4409
+	dd	___glewActiveTexture
+	dd	4
+	dd	_4410
+	dd	_4409
+	dd	___glewClientActiveTexture
+	dd	4
+	dd	_4411
+	dd	_4412
+	dd	___glewCompressedTexImage1D
+	dd	4
+	dd	_4413
+	dd	_4414
+	dd	___glewCompressedTexImage2D
+	dd	4
+	dd	_4415
+	dd	_4416
+	dd	___glewCompressedTexImage3D
+	dd	4
+	dd	_4417
+	dd	_4412
+	dd	___glewCompressedTexSubImage1D
+	dd	4
+	dd	_4418
+	dd	_4416
+	dd	___glewCompressedTexSubImage2D
+	dd	4
+	dd	_4419
+	dd	_4406
+	dd	___glewCompressedTexSubImage3D
+	dd	4
+	dd	_4420
+	dd	_4421
+	dd	___glewGetCompressedTexImage
+	dd	4
+	dd	_4422
+	dd	_4423
+	dd	___glewLoadTransposeMatrixd
+	dd	4
+	dd	_4424
+	dd	_4425
+	dd	___glewLoadTransposeMatrixf
+	dd	4
+	dd	_4426
+	dd	_4423
+	dd	___glewMultTransposeMatrixd
+	dd	4
+	dd	_4427
+	dd	_4425
+	dd	___glewMultTransposeMatrixf
+	dd	4
+	dd	_4428
+	dd	_4429
+	dd	___glewMultiTexCoord1d
+	dd	4
+	dd	_4430
+	dd	_4431
+	dd	___glewMultiTexCoord1dv
+	dd	4
+	dd	_4432
+	dd	_4433
+	dd	___glewMultiTexCoord1f
+	dd	4
+	dd	_4434
+	dd	_4435
+	dd	___glewMultiTexCoord1fv
+	dd	4
+	dd	_4436
+	dd	_4437
+	dd	___glewMultiTexCoord1i
+	dd	4
+	dd	_4438
+	dd	_4439
+	dd	___glewMultiTexCoord1iv
+	dd	4
+	dd	_4440
+	dd	_4441
+	dd	___glewMultiTexCoord1s
+	dd	4
+	dd	_4442
+	dd	_4443
+	dd	___glewMultiTexCoord1sv
+	dd	4
+	dd	_4444
+	dd	_4445
+	dd	___glewMultiTexCoord2d
+	dd	4
+	dd	_4446
+	dd	_4431
+	dd	___glewMultiTexCoord2dv
+	dd	4
+	dd	_4447
+	dd	_4448
+	dd	___glewMultiTexCoord2f
+	dd	4
+	dd	_4449
+	dd	_4435
+	dd	___glewMultiTexCoord2fv
+	dd	4
+	dd	_4450
+	dd	_4451
+	dd	___glewMultiTexCoord2i
+	dd	4
+	dd	_4452
+	dd	_4439
+	dd	___glewMultiTexCoord2iv
+	dd	4
+	dd	_4453
+	dd	_4454
+	dd	___glewMultiTexCoord2s
+	dd	4
+	dd	_4455
+	dd	_4443
+	dd	___glewMultiTexCoord2sv
+	dd	4
+	dd	_4456
+	dd	_4457
+	dd	___glewMultiTexCoord3d
+	dd	4
+	dd	_4458
+	dd	_4431
+	dd	___glewMultiTexCoord3dv
+	dd	4
+	dd	_4459
+	dd	_4460
+	dd	___glewMultiTexCoord3f
+	dd	4
+	dd	_4461
+	dd	_4435
+	dd	___glewMultiTexCoord3fv
+	dd	4
+	dd	_4462
+	dd	_4463
+	dd	___glewMultiTexCoord3i
+	dd	4
+	dd	_4464
+	dd	_4439
+	dd	___glewMultiTexCoord3iv
+	dd	4
+	dd	_4465
+	dd	_4466
+	dd	___glewMultiTexCoord3s
+	dd	4
+	dd	_4467
+	dd	_4443
+	dd	___glewMultiTexCoord3sv
+	dd	4
+	dd	_4468
+	dd	_4469
+	dd	___glewMultiTexCoord4d
+	dd	4
+	dd	_4470
+	dd	_4431
+	dd	___glewMultiTexCoord4dv
+	dd	4
+	dd	_4471
+	dd	_4472
+	dd	___glewMultiTexCoord4f
+	dd	4
+	dd	_4473
+	dd	_4435
+	dd	___glewMultiTexCoord4fv
+	dd	4
+	dd	_4474
+	dd	_4475
+	dd	___glewMultiTexCoord4i
+	dd	4
+	dd	_4476
+	dd	_4439
+	dd	___glewMultiTexCoord4iv
+	dd	4
+	dd	_4477
+	dd	_4478
+	dd	___glewMultiTexCoord4s
+	dd	4
+	dd	_4479
+	dd	_4443
+	dd	___glewMultiTexCoord4sv
+	dd	4
+	dd	_4480
+	dd	_4481
+	dd	___glewSampleCoverage
+	dd	4
+	dd	_4482
+	dd	_4398
+	dd	___GLEW_VERSION_1_3
+	dd	4
+	dd	_4483
+	dd	_4484
+	dd	___glewBlendColor
+	dd	4
+	dd	_4485
+	dd	_4409
+	dd	___glewBlendEquation
+	dd	4
+	dd	_4486
+	dd	_4463
+	dd	___glewBlendFuncSeparate
+	dd	4
+	dd	_4487
+	dd	_4421
+	dd	___glewFogCoordPointer
+	dd	4
+	dd	_4488
+	dd	_4489
+	dd	___glewFogCoordd
+	dd	4
+	dd	_4490
+	dd	_4423
+	dd	___glewFogCoorddv
+	dd	4
+	dd	_4491
+	dd	_4492
+	dd	___glewFogCoordf
+	dd	4
+	dd	_4493
+	dd	_4425
+	dd	___glewFogCoordfv
+	dd	4
+	dd	_4494
+	dd	_4495
+	dd	___glewMultiDrawArrays
+	dd	4
+	dd	_4496
+	dd	_4497
+	dd	___glewMultiDrawElements
+	dd	4
+	dd	_4498
+	dd	_4433
+	dd	___glewPointParameterf
+	dd	4
+	dd	_4499
+	dd	_4435
+	dd	___glewPointParameterfv
+	dd	4
+	dd	_4500
+	dd	_4437
+	dd	___glewPointParameteri
+	dd	4
+	dd	_4501
+	dd	_4439
+	dd	___glewPointParameteriv
+	dd	4
+	dd	_4502
+	dd	_4503
+	dd	___glewSecondaryColor3b
+	dd	4
+	dd	_4504
+	dd	_4505
+	dd	___glewSecondaryColor3bv
+	dd	4
+	dd	_4506
+	dd	_4507
+	dd	___glewSecondaryColor3d
+	dd	4
+	dd	_4508
+	dd	_4423
+	dd	___glewSecondaryColor3dv
+	dd	4
+	dd	_4509
+	dd	_4510
+	dd	___glewSecondaryColor3f
+	dd	4
+	dd	_4511
+	dd	_4425
+	dd	___glewSecondaryColor3fv
+	dd	4
+	dd	_4512
+	dd	_4451
+	dd	___glewSecondaryColor3i
+	dd	4
+	dd	_4513
+	dd	_4514
+	dd	___glewSecondaryColor3iv
+	dd	4
+	dd	_4515
+	dd	_4516
+	dd	___glewSecondaryColor3s
+	dd	4
+	dd	_4517
+	dd	_4518
+	dd	___glewSecondaryColor3sv
+	dd	4
+	dd	_4519
+	dd	_4503
+	dd	___glewSecondaryColor3ub
+	dd	4
+	dd	_4520
+	dd	_4505
+	dd	___glewSecondaryColor3ubv
+	dd	4
+	dd	_4521
+	dd	_4451
+	dd	___glewSecondaryColor3ui
+	dd	4
+	dd	_4522
+	dd	_4514
+	dd	___glewSecondaryColor3uiv
+	dd	4
+	dd	_4523
+	dd	_4516
+	dd	___glewSecondaryColor3us
+	dd	4
+	dd	_4524
+	dd	_4518
+	dd	___glewSecondaryColor3usv
+	dd	4
+	dd	_4525
+	dd	_4526
+	dd	___glewSecondaryColorPointer
+	dd	4
+	dd	_4527
+	dd	_4528
+	dd	___glewWindowPos2d
+	dd	4
+	dd	_4529
+	dd	_4423
+	dd	___glewWindowPos2dv
+	dd	4
+	dd	_4530
+	dd	_4531
+	dd	___glewWindowPos2f
+	dd	4
+	dd	_4532
+	dd	_4425
+	dd	___glewWindowPos2fv
+	dd	4
+	dd	_4533
+	dd	_4437
+	dd	___glewWindowPos2i
+	dd	4
+	dd	_4534
+	dd	_4514
+	dd	___glewWindowPos2iv
+	dd	4
+	dd	_4535
+	dd	_4536
+	dd	___glewWindowPos2s
+	dd	4
+	dd	_4537
+	dd	_4518
+	dd	___glewWindowPos2sv
+	dd	4
+	dd	_4538
+	dd	_4507
+	dd	___glewWindowPos3d
+	dd	4
+	dd	_4539
+	dd	_4423
+	dd	___glewWindowPos3dv
+	dd	4
+	dd	_4540
+	dd	_4510
+	dd	___glewWindowPos3f
+	dd	4
+	dd	_4541
+	dd	_4425
+	dd	___glewWindowPos3fv
+	dd	4
+	dd	_4542
+	dd	_4451
+	dd	___glewWindowPos3i
+	dd	4
+	dd	_4543
+	dd	_4514
+	dd	___glewWindowPos3iv
+	dd	4
+	dd	_4544
+	dd	_4516
+	dd	___glewWindowPos3s
+	dd	4
+	dd	_4545
+	dd	_4518
+	dd	___glewWindowPos3sv
+	dd	4
+	dd	_4546
+	dd	_4398
+	dd	___GLEW_VERSION_1_4
+	dd	4
+	dd	_4547
+	dd	_4437
+	dd	___glewBeginQuery
+	dd	4
+	dd	_4548
+	dd	_4437
+	dd	___glewBindBuffer
+	dd	4
+	dd	_4549
+	dd	_4550
+	dd	___glewBufferData
+	dd	4
+	dd	_4551
+	dd	_4526
+	dd	___glewBufferSubData
+	dd	4
+	dd	_4552
+	dd	_4439
+	dd	___glewDeleteBuffers
+	dd	4
+	dd	_4553
+	dd	_4439
+	dd	___glewDeleteQueries
+	dd	4
+	dd	_4554
+	dd	_4409
+	dd	___glewEndQuery
+	dd	4
+	dd	_4555
+	dd	_4439
+	dd	___glewGenBuffers
+	dd	4
+	dd	_4556
+	dd	_4439
+	dd	___glewGenQueries
+	dd	4
+	dd	_4557
+	dd	_4558
+	dd	___glewGetBufferParameteriv
+	dd	4
+	dd	_4559
+	dd	_4560
+	dd	___glewGetBufferPointerv
+	dd	4
+	dd	_4561
+	dd	_4526
+	dd	___glewGetBufferSubData
+	dd	4
+	dd	_4562
+	dd	_4558
+	dd	___glewGetQueryObjectiv
+	dd	4
+	dd	_4563
+	dd	_4558
+	dd	___glewGetQueryObjectuiv
+	dd	4
+	dd	_4564
+	dd	_4558
+	dd	___glewGetQueryiv
+	dd	4
+	dd	_4565
+	dd	_4566
+	dd	___glewIsBuffer
+	dd	4
+	dd	_4567
+	dd	_4566
+	dd	___glewIsQuery
+	dd	4
+	dd	_4568
+	dd	_4569
+	dd	___glewMapBuffer
+	dd	4
+	dd	_4570
+	dd	_4566
+	dd	___glewUnmapBuffer
+	dd	4
+	dd	_4571
+	dd	_4398
+	dd	___GLEW_VERSION_1_5
+	dd	4
+	dd	_4572
+	dd	_4437
+	dd	___glewAttachShader
+	dd	4
+	dd	_4573
+	dd	_4421
+	dd	___glewBindAttribLocation
+	dd	4
+	dd	_4574
+	dd	_4437
+	dd	___glewBlendEquationSeparate
+	dd	4
+	dd	_4575
+	dd	_4409
+	dd	___glewCompileShader
+	dd	4
+	dd	_4576
+	dd	_4577
+	dd	___glewCreateProgram
+	dd	4
+	dd	_4578
+	dd	_4409
+	dd	___glewCreateShader
+	dd	4
+	dd	_4579
+	dd	_4409
+	dd	___glewDeleteProgram
+	dd	4
+	dd	_4580
+	dd	_4409
+	dd	___glewDeleteShader
+	dd	4
+	dd	_4581
+	dd	_4437
+	dd	___glewDetachShader
+	dd	4
+	dd	_4582
+	dd	_4409
+	dd	___glewDisableVertexAttribArray
+	dd	4
+	dd	_4583
+	dd	_4439
+	dd	___glewDrawBuffers
+	dd	4
+	dd	_4584
+	dd	_4409
+	dd	___glewEnableVertexAttribArray
+	dd	4
+	dd	_4585
+	dd	_4586
+	dd	___glewGetActiveAttrib
+	dd	4
+	dd	_4587
+	dd	_4586
+	dd	___glewGetActiveUniform
+	dd	4
+	dd	_4588
+	dd	_4589
+	dd	___glewGetAttachedShaders
+	dd	4
+	dd	_4590
+	dd	_4591
+	dd	___glewGetAttribLocation
+	dd	4
+	dd	_4592
+	dd	_4593
+	dd	___glewGetProgramInfoLog
+	dd	4
+	dd	_4594
+	dd	_4558
+	dd	___glewGetProgramiv
+	dd	4
+	dd	_4595
+	dd	_4593
+	dd	___glewGetShaderInfoLog
+	dd	4
+	dd	_4596
+	dd	_4593
+	dd	___glewGetShaderSource
+	dd	4
+	dd	_4597
+	dd	_4558
+	dd	___glewGetShaderiv
+	dd	4
+	dd	_4598
+	dd	_4591
+	dd	___glewGetUniformLocation
+	dd	4
+	dd	_4599
+	dd	_4600
+	dd	___glewGetUniformfv
+	dd	4
+	dd	_4601
+	dd	_4558
+	dd	___glewGetUniformiv
+	dd	4
+	dd	_4602
+	dd	_4421
+	dd	___glewGetVertexAttribPointerv
+	dd	4
+	dd	_4603
+	dd	_4604
+	dd	___glewGetVertexAttribdv
+	dd	4
+	dd	_4605
+	dd	_4600
+	dd	___glewGetVertexAttribfv
+	dd	4
+	dd	_4606
+	dd	_4558
+	dd	___glewGetVertexAttribiv
+	dd	4
+	dd	_4607
+	dd	_4566
+	dd	___glewIsProgram
+	dd	4
+	dd	_4608
+	dd	_4566
+	dd	___glewIsShader
+	dd	4
+	dd	_4609
+	dd	_4409
+	dd	___glewLinkProgram
+	dd	4
+	dd	_4610
+	dd	_4611
+	dd	___glewShaderSource
+	dd	4
+	dd	_4612
+	dd	_4463
+	dd	___glewStencilFuncSeparate
+	dd	4
+	dd	_4613
+	dd	_4437
+	dd	___glewStencilMaskSeparate
+	dd	4
+	dd	_4614
+	dd	_4463
+	dd	___glewStencilOpSeparate
+	dd	4
+	dd	_4615
+	dd	_4433
+	dd	___glewUniform1f
+	dd	4
+	dd	_4616
+	dd	_4600
+	dd	___glewUniform1fv
+	dd	4
+	dd	_4617
+	dd	_4437
+	dd	___glewUniform1i
+	dd	4
+	dd	_4618
+	dd	_4558
+	dd	___glewUniform1iv
+	dd	4
+	dd	_4619
+	dd	_4448
+	dd	___glewUniform2f
+	dd	4
+	dd	_4620
+	dd	_4600
+	dd	___glewUniform2fv
+	dd	4
+	dd	_4621
+	dd	_4451
+	dd	___glewUniform2i
+	dd	4
+	dd	_4622
+	dd	_4558
+	dd	___glewUniform2iv
+	dd	4
+	dd	_4623
+	dd	_4460
+	dd	___glewUniform3f
+	dd	4
+	dd	_4624
+	dd	_4600
+	dd	___glewUniform3fv
+	dd	4
+	dd	_4625
+	dd	_4463
+	dd	___glewUniform3i
+	dd	4
+	dd	_4626
+	dd	_4558
+	dd	___glewUniform3iv
+	dd	4
+	dd	_4627
+	dd	_4472
+	dd	___glewUniform4f
+	dd	4
+	dd	_4628
+	dd	_4600
+	dd	___glewUniform4fv
+	dd	4
+	dd	_4629
+	dd	_4475
+	dd	___glewUniform4i
+	dd	4
+	dd	_4630
+	dd	_4558
+	dd	___glewUniform4iv
+	dd	4
+	dd	_4631
+	dd	_4632
+	dd	___glewUniformMatrix2fv
+	dd	4
+	dd	_4633
+	dd	_4632
+	dd	___glewUniformMatrix3fv
+	dd	4
+	dd	_4634
+	dd	_4632
+	dd	___glewUniformMatrix4fv
+	dd	4
+	dd	_4635
+	dd	_4409
+	dd	___glewUseProgram
+	dd	4
+	dd	_4636
+	dd	_4409
+	dd	___glewValidateProgram
+	dd	4
+	dd	_4637
+	dd	_4429
+	dd	___glewVertexAttrib1d
+	dd	4
+	dd	_4638
+	dd	_4431
+	dd	___glewVertexAttrib1dv
+	dd	4
+	dd	_4639
+	dd	_4433
+	dd	___glewVertexAttrib1f
+	dd	4
+	dd	_4640
+	dd	_4435
+	dd	___glewVertexAttrib1fv
+	dd	4
+	dd	_4641
+	dd	_4441
+	dd	___glewVertexAttrib1s
+	dd	4
+	dd	_4642
+	dd	_4443
+	dd	___glewVertexAttrib1sv
+	dd	4
+	dd	_4643
+	dd	_4445
+	dd	___glewVertexAttrib2d
+	dd	4
+	dd	_4644
+	dd	_4431
+	dd	___glewVertexAttrib2dv
+	dd	4
+	dd	_4645
+	dd	_4448
+	dd	___glewVertexAttrib2f
+	dd	4
+	dd	_4646
+	dd	_4435
+	dd	___glewVertexAttrib2fv
+	dd	4
+	dd	_4647
+	dd	_4454
+	dd	___glewVertexAttrib2s
+	dd	4
+	dd	_4648
+	dd	_4443
+	dd	___glewVertexAttrib2sv
+	dd	4
+	dd	_4649
+	dd	_4457
+	dd	___glewVertexAttrib3d
+	dd	4
+	dd	_4650
+	dd	_4431
+	dd	___glewVertexAttrib3dv
+	dd	4
+	dd	_4651
+	dd	_4460
+	dd	___glewVertexAttrib3f
+	dd	4
+	dd	_4652
+	dd	_4435
+	dd	___glewVertexAttrib3fv
+	dd	4
+	dd	_4653
+	dd	_4466
+	dd	___glewVertexAttrib3s
+	dd	4
+	dd	_4654
+	dd	_4443
+	dd	___glewVertexAttrib3sv
+	dd	4
+	dd	_4655
+	dd	_4591
+	dd	___glewVertexAttrib4Nbv
+	dd	4
+	dd	_4656
+	dd	_4439
+	dd	___glewVertexAttrib4Niv
+	dd	4
+	dd	_4657
+	dd	_4443
+	dd	___glewVertexAttrib4Nsv
+	dd	4
+	dd	_4658
+	dd	_4659
+	dd	___glewVertexAttrib4Nub
+	dd	4
+	dd	_4660
+	dd	_4591
+	dd	___glewVertexAttrib4Nubv
+	dd	4
+	dd	_4661
+	dd	_4439
+	dd	___glewVertexAttrib4Nuiv
+	dd	4
+	dd	_4662
+	dd	_4443
+	dd	___glewVertexAttrib4Nusv
+	dd	4
+	dd	_4663
+	dd	_4591
+	dd	___glewVertexAttrib4bv
+	dd	4
+	dd	_4664
+	dd	_4469
+	dd	___glewVertexAttrib4d
+	dd	4
+	dd	_4665
+	dd	_4431
+	dd	___glewVertexAttrib4dv
+	dd	4
+	dd	_4666
+	dd	_4472
+	dd	___glewVertexAttrib4f
+	dd	4
+	dd	_4667
+	dd	_4435
+	dd	___glewVertexAttrib4fv
+	dd	4
+	dd	_4668
+	dd	_4439
+	dd	___glewVertexAttrib4iv
+	dd	4
+	dd	_4669
+	dd	_4478
+	dd	___glewVertexAttrib4s
+	dd	4
+	dd	_4670
+	dd	_4443
+	dd	___glewVertexAttrib4sv
+	dd	4
+	dd	_4671
+	dd	_4591
+	dd	___glewVertexAttrib4ubv
+	dd	4
+	dd	_4672
+	dd	_4439
+	dd	___glewVertexAttrib4uiv
+	dd	4
+	dd	_4673
+	dd	_4443
+	dd	___glewVertexAttrib4usv
+	dd	4
+	dd	_4674
+	dd	_4675
+	dd	___glewVertexAttribPointer
+	dd	4
+	dd	_4676
+	dd	_4398
+	dd	___GLEW_VERSION_2_0
+	dd	4
+	dd	_4677
+	dd	_4632
+	dd	___glewUniformMatrix2x3fv
+	dd	4
+	dd	_4678
+	dd	_4632
+	dd	___glewUniformMatrix2x4fv
+	dd	4
+	dd	_4679
+	dd	_4632
+	dd	___glewUniformMatrix3x2fv
+	dd	4
+	dd	_4680
+	dd	_4632
+	dd	___glewUniformMatrix3x4fv
+	dd	4
+	dd	_4681
+	dd	_4632
+	dd	___glewUniformMatrix4x2fv
+	dd	4
+	dd	_4682
+	dd	_4632
+	dd	___glewUniformMatrix4x3fv
+	dd	4
+	dd	_4683
+	dd	_4398
+	dd	___GLEW_VERSION_2_1
+	dd	4
+	dd	_4684
+	dd	_4437
+	dd	___glewBeginConditionalRender
+	dd	4
+	dd	_4685
+	dd	_4409
+	dd	___glewBeginTransformFeedback
+	dd	4
+	dd	_4686
+	dd	_4451
+	dd	___glewBindBufferBase
+	dd	4
+	dd	_4687
+	dd	_4475
+	dd	___glewBindBufferRange
+	dd	4
+	dd	_4688
+	dd	_4421
+	dd	___glewBindFragDataLocation
+	dd	4
+	dd	_4689
+	dd	_4437
+	dd	___glewClampColor
+	dd	4
+	dd	_4690
+	dd	_4691
+	dd	___glewClearBufferfi
+	dd	4
+	dd	_4692
+	dd	_4600
+	dd	___glewClearBufferfv
+	dd	4
+	dd	_4693
+	dd	_4558
+	dd	___glewClearBufferiv
+	dd	4
+	dd	_4694
+	dd	_4558
+	dd	___glewClearBufferuiv
+	dd	4
+	dd	_4695
+	dd	_4659
+	dd	___glewColorMaski
+	dd	4
+	dd	_4696
+	dd	_4437
+	dd	___glewDisablei
+	dd	4
+	dd	_4697
+	dd	_4437
+	dd	___glewEnablei
+	dd	4
+	dd	_4698
+	dd	_4577
+	dd	___glewEndConditionalRender
+	dd	4
+	dd	_4699
+	dd	_4577
+	dd	___glewEndTransformFeedback
+	dd	4
+	dd	_4700
+	dd	_4421
+	dd	___glewGetBooleani_v
+	dd	4
+	dd	_4701
+	dd	_4591
+	dd	___glewGetFragDataLocation
+	dd	4
+	dd	_4702
+	dd	_4558
+	dd	___glewGetIntegeri_v
+	dd	4
+	dd	_4703
+	dd	_4569
+	dd	___glewGetStringi
+	dd	4
+	dd	_4704
+	dd	_4558
+	dd	___glewGetTexParameterIiv
+	dd	4
+	dd	_4705
+	dd	_4558
+	dd	___glewGetTexParameterIuiv
+	dd	4
+	dd	_4706
+	dd	_4558
+	dd	___glewGetTransformFeedbackVarying
+	dd	4
+	dd	_4707
+	dd	_4558
+	dd	___glewGetUniformuiv
+	dd	4
+	dd	_4708
+	dd	_4558
+	dd	___glewGetVertexAttribIiv
+	dd	4
+	dd	_4709
+	dd	_4558
+	dd	___glewGetVertexAttribIuiv
+	dd	4
+	dd	_4710
+	dd	_4711
+	dd	___glewIsEnabledi
+	dd	4
+	dd	_4712
+	dd	_4558
+	dd	___glewTexParameterIiv
+	dd	4
+	dd	_4713
+	dd	_4558
+	dd	___glewTexParameterIuiv
+	dd	4
+	dd	_4714
+	dd	_4715
+	dd	___glewTransformFeedbackVaryings
+	dd	4
+	dd	_4716
+	dd	_4437
+	dd	___glewUniform1ui
+	dd	4
+	dd	_4717
+	dd	_4558
+	dd	___glewUniform1uiv
+	dd	4
+	dd	_4718
+	dd	_4451
+	dd	___glewUniform2ui
+	dd	4
+	dd	_4719
+	dd	_4558
+	dd	___glewUniform2uiv
+	dd	4
+	dd	_4720
+	dd	_4463
+	dd	___glewUniform3ui
+	dd	4
+	dd	_4721
+	dd	_4558
+	dd	___glewUniform3uiv
+	dd	4
+	dd	_4722
+	dd	_4475
+	dd	___glewUniform4ui
+	dd	4
+	dd	_4723
+	dd	_4558
+	dd	___glewUniform4uiv
+	dd	4
+	dd	_4724
+	dd	_4437
+	dd	___glewVertexAttribI1i
+	dd	4
+	dd	_4725
+	dd	_4439
+	dd	___glewVertexAttribI1iv
+	dd	4
+	dd	_4726
+	dd	_4437
+	dd	___glewVertexAttribI1ui
+	dd	4
+	dd	_4727
+	dd	_4439
+	dd	___glewVertexAttribI1uiv
+	dd	4
+	dd	_4728
+	dd	_4451
+	dd	___glewVertexAttribI2i
+	dd	4
+	dd	_4729
+	dd	_4439
+	dd	___glewVertexAttribI2iv
+	dd	4
+	dd	_4730
+	dd	_4451
+	dd	___glewVertexAttribI2ui
+	dd	4
+	dd	_4731
+	dd	_4439
+	dd	___glewVertexAttribI2uiv
+	dd	4
+	dd	_4732
+	dd	_4463
+	dd	___glewVertexAttribI3i
+	dd	4
+	dd	_4733
+	dd	_4439
+	dd	___glewVertexAttribI3iv
+	dd	4
+	dd	_4734
+	dd	_4463
+	dd	___glewVertexAttribI3ui
+	dd	4
+	dd	_4735
+	dd	_4439
+	dd	___glewVertexAttribI3uiv
+	dd	4
+	dd	_4736
+	dd	_4591
+	dd	___glewVertexAttribI4bv
+	dd	4
+	dd	_4737
+	dd	_4475
+	dd	___glewVertexAttribI4i
+	dd	4
+	dd	_4738
+	dd	_4439
+	dd	___glewVertexAttribI4iv
+	dd	4
+	dd	_4739
+	dd	_4443
+	dd	___glewVertexAttribI4sv
+	dd	4
+	dd	_4740
+	dd	_4591
+	dd	___glewVertexAttribI4ubv
+	dd	4
+	dd	_4741
+	dd	_4475
+	dd	___glewVertexAttribI4ui
+	dd	4
+	dd	_4742
+	dd	_4439
+	dd	___glewVertexAttribI4uiv
+	dd	4
+	dd	_4743
+	dd	_4443
+	dd	___glewVertexAttribI4usv
+	dd	4
+	dd	_4744
+	dd	_4745
+	dd	___glewVertexAttribIPointer
+	dd	4
+	dd	_4746
+	dd	_4398
+	dd	___GLEW_VERSION_3_0
+	dd	4
+	dd	_4747
+	dd	_4398
+	dd	___GLEW_3DFX_multisample
+	dd	4
+	dd	_4748
+	dd	_4409
+	dd	___glewTbufferMask3DFX
+	dd	4
+	dd	_4749
+	dd	_4398
+	dd	___GLEW_3DFX_tbuffer
+	dd	4
+	dd	_4750
+	dd	_4398
+	dd	___GLEW_3DFX_texture_compression_FXT1
+	dd	4
+	dd	_4751
+	dd	_4398
+	dd	___GLEW_APPLE_client_storage
+	dd	4
+	dd	_4752
+	dd	_4451
+	dd	___glewDrawElementArrayAPPLE
+	dd	4
+	dd	_4753
+	dd	_4475
+	dd	___glewDrawRangeElementArrayAPPLE
+	dd	4
+	dd	_4754
+	dd	_4591
+	dd	___glewElementPointerAPPLE
+	dd	4
+	dd	_4755
+	dd	_4495
+	dd	___glewMultiDrawElementArrayAPPLE
+	dd	4
+	dd	_4756
+	dd	_4757
+	dd	___glewMultiDrawRangeElementArrayAPPLE
+	dd	4
+	dd	_4758
+	dd	_4398
+	dd	___GLEW_APPLE_element_array
+	dd	4
+	dd	_4759
+	dd	_4439
+	dd	___glewDeleteFencesAPPLE
+	dd	4
+	dd	_4760
+	dd	_4409
+	dd	___glewFinishFenceAPPLE
+	dd	4
+	dd	_4761
+	dd	_4437
+	dd	___glewFinishObjectAPPLE
+	dd	4
+	dd	_4762
+	dd	_4439
+	dd	___glewGenFencesAPPLE
+	dd	4
+	dd	_4763
+	dd	_4566
+	dd	___glewIsFenceAPPLE
+	dd	4
+	dd	_4764
+	dd	_4409
+	dd	___glewSetFenceAPPLE
+	dd	4
+	dd	_4765
+	dd	_4566
+	dd	___glewTestFenceAPPLE
+	dd	4
+	dd	_4766
+	dd	_4711
+	dd	___glewTestObjectAPPLE
+	dd	4
+	dd	_4767
+	dd	_4398
+	dd	___GLEW_APPLE_fence
+	dd	4
+	dd	_4768
+	dd	_4398
+	dd	___GLEW_APPLE_float_pixels
+	dd	4
+	dd	_4769
+	dd	_4451
+	dd	___glewBufferParameteriAPPLE
+	dd	4
+	dd	_4770
+	dd	_4451
+	dd	___glewFlushMappedBufferRangeAPPLE
+	dd	4
+	dd	_4771
+	dd	_4398
+	dd	___GLEW_APPLE_flush_buffer_range
+	dd	4
+	dd	_4772
+	dd	_4398
+	dd	___GLEW_APPLE_pixel_buffer
+	dd	4
+	dd	_4773
+	dd	_4398
+	dd	___GLEW_APPLE_specular_vector
+	dd	4
+	dd	_4774
+	dd	_4560
+	dd	___glewGetTexParameterPointervAPPLE
+	dd	4
+	dd	_4775
+	dd	_4421
+	dd	___glewTextureRangeAPPLE
+	dd	4
+	dd	_4776
+	dd	_4398
+	dd	___GLEW_APPLE_texture_range
+	dd	4
+	dd	_4777
+	dd	_4398
+	dd	___GLEW_APPLE_transform_hint
+	dd	4
+	dd	_4778
+	dd	_4409
+	dd	___glewBindVertexArrayAPPLE
+	dd	4
+	dd	_4779
+	dd	_4439
+	dd	___glewDeleteVertexArraysAPPLE
+	dd	4
+	dd	_4780
+	dd	_4439
+	dd	___glewGenVertexArraysAPPLE
+	dd	4
+	dd	_4781
+	dd	_4566
+	dd	___glewIsVertexArrayAPPLE
+	dd	4
+	dd	_4782
+	dd	_4398
+	dd	___GLEW_APPLE_vertex_array_object
+	dd	4
+	dd	_4783
+	dd	_4591
+	dd	___glewFlushVertexArrayRangeAPPLE
+	dd	4
+	dd	_4784
+	dd	_4437
+	dd	___glewVertexArrayParameteriAPPLE
+	dd	4
+	dd	_4785
+	dd	_4591
+	dd	___glewVertexArrayRangeAPPLE
+	dd	4
+	dd	_4786
+	dd	_4398
+	dd	___GLEW_APPLE_vertex_array_range
+	dd	4
+	dd	_4787
+	dd	_4398
+	dd	___GLEW_APPLE_ycbcr_422
+	dd	4
+	dd	_4788
+	dd	_4437
+	dd	___glewClampColorARB
+	dd	4
+	dd	_4789
+	dd	_4398
+	dd	___GLEW_ARB_color_buffer_float
+	dd	4
+	dd	_4790
+	dd	_4398
+	dd	___GLEW_ARB_depth_buffer_float
+	dd	4
+	dd	_4791
+	dd	_4398
+	dd	___GLEW_ARB_depth_texture
+	dd	4
+	dd	_4792
+	dd	_4439
+	dd	___glewDrawBuffersARB
+	dd	4
+	dd	_4793
+	dd	_4398
+	dd	___GLEW_ARB_draw_buffers
+	dd	4
+	dd	_4794
+	dd	_4463
+	dd	___glewDrawArraysInstancedARB
+	dd	4
+	dd	_4795
+	dd	_4796
+	dd	___glewDrawElementsInstancedARB
+	dd	4
+	dd	_4797
+	dd	_4398
+	dd	___GLEW_ARB_draw_instanced
+	dd	4
+	dd	_4798
+	dd	_4398
+	dd	___GLEW_ARB_fragment_program
+	dd	4
+	dd	_4799
+	dd	_4398
+	dd	___GLEW_ARB_fragment_program_shadow
+	dd	4
+	dd	_4800
+	dd	_4398
+	dd	___GLEW_ARB_fragment_shader
+	dd	4
+	dd	_4801
+	dd	_4437
+	dd	___glewBindFramebuffer
+	dd	4
+	dd	_4802
+	dd	_4437
+	dd	___glewBindRenderbuffer
+	dd	4
+	dd	_4803
+	dd	_4804
+	dd	___glewBlitFramebuffer
+	dd	4
+	dd	_4805
+	dd	_4409
+	dd	___glewCheckFramebufferStatus
+	dd	4
+	dd	_4806
+	dd	_4439
+	dd	___glewDeleteFramebuffers
+	dd	4
+	dd	_4807
+	dd	_4439
+	dd	___glewDeleteRenderbuffers
+	dd	4
+	dd	_4808
+	dd	_4463
+	dd	___glewFramebufferRenderbuffer
+	dd	4
+	dd	_4809
+	dd	_4475
+	dd	___glewFramebufferTexturLayer
+	dd	4
+	dd	_4810
+	dd	_4475
+	dd	___glewFramebufferTexture1D
+	dd	4
+	dd	_4811
+	dd	_4475
+	dd	___glewFramebufferTexture2D
+	dd	4
+	dd	_4812
+	dd	_4813
+	dd	___glewFramebufferTexture3D
+	dd	4
+	dd	_4814
+	dd	_4439
+	dd	___glewGenFramebuffers
+	dd	4
+	dd	_4815
+	dd	_4439
+	dd	___glewGenRenderbuffers
+	dd	4
+	dd	_4816
+	dd	_4409
+	dd	___glewGenerateMipmap
+	dd	4
+	dd	_4817
+	dd	_4818
+	dd	___glewGetFramebufferAttachmentParameteriv
+	dd	4
+	dd	_4819
+	dd	_4558
+	dd	___glewGetRenderbufferParameteriv
+	dd	4
+	dd	_4820
+	dd	_4566
+	dd	___glewIsFramebuffer
+	dd	4
+	dd	_4821
+	dd	_4566
+	dd	___glewIsRenderbuffer
+	dd	4
+	dd	_4822
+	dd	_4463
+	dd	___glewRenderbufferStorage
+	dd	4
+	dd	_4823
+	dd	_4475
+	dd	___glewRenderbufferStorageMultisample
+	dd	4
+	dd	_4824
+	dd	_4398
+	dd	___GLEW_ARB_framebuffer_object
+	dd	4
+	dd	_4825
+	dd	_4398
+	dd	___GLEW_ARB_framebuffer_sRGB
+	dd	4
+	dd	_4826
+	dd	_4463
+	dd	___glewFramebufferTextureARB
+	dd	4
+	dd	_4827
+	dd	_4475
+	dd	___glewFramebufferTextureFaceARB
+	dd	4
+	dd	_4828
+	dd	_4475
+	dd	___glewFramebufferTextureLayerARB
+	dd	4
+	dd	_4829
+	dd	_4451
+	dd	___glewProgramParameteriARB
+	dd	4
+	dd	_4830
+	dd	_4398
+	dd	___GLEW_ARB_geometry_shader4
+	dd	4
+	dd	_4831
+	dd	_4398
+	dd	___GLEW_ARB_half_float_pixel
+	dd	4
+	dd	_4832
+	dd	_4398
+	dd	___GLEW_ARB_half_float_vertex
+	dd	4
+	dd	_4833
+	dd	_4402
+	dd	___glewColorSubTable
+	dd	4
+	dd	_4834
+	dd	_4402
+	dd	___glewColorTable
+	dd	4
+	dd	_4835
+	dd	_4600
+	dd	___glewColorTableParameterfv
+	dd	4
+	dd	_4836
+	dd	_4558
+	dd	___glewColorTableParameteriv
+	dd	4
+	dd	_4837
+	dd	_4402
+	dd	___glewConvolutionFilter1D
+	dd	4
+	dd	_4838
+	dd	_4412
+	dd	___glewConvolutionFilter2D
+	dd	4
+	dd	_4839
+	dd	_4840
+	dd	___glewConvolutionParameterf
+	dd	4
+	dd	_4841
+	dd	_4600
+	dd	___glewConvolutionParameterfv
+	dd	4
+	dd	_4842
+	dd	_4451
+	dd	___glewConvolutionParameteri
+	dd	4
+	dd	_4843
+	dd	_4558
+	dd	___glewConvolutionParameteriv
+	dd	4
+	dd	_4844
+	dd	_4475
+	dd	___glewCopyColorSubTable
+	dd	4
+	dd	_4845
+	dd	_4475
+	dd	___glewCopyColorTable
+	dd	4
+	dd	_4846
+	dd	_4475
+	dd	___glewCopyConvolutionFilter1D
+	dd	4
+	dd	_4847
+	dd	_4813
+	dd	___glewCopyConvolutionFilter2D
+	dd	4
+	dd	_4848
+	dd	_4526
+	dd	___glewGetColorTable
+	dd	4
+	dd	_4849
+	dd	_4600
+	dd	___glewGetColorTableParameterfv
+	dd	4
+	dd	_4850
+	dd	_4558
+	dd	___glewGetColorTableParameteriv
+	dd	4
+	dd	_4851
+	dd	_4526
+	dd	___glewGetConvolutionFilter
+	dd	4
+	dd	_4852
+	dd	_4600
+	dd	___glewGetConvolutionParameterfv
+	dd	4
+	dd	_4853
+	dd	_4558
+	dd	___glewGetConvolutionParameteriv
+	dd	4
+	dd	_4854
+	dd	_4855
+	dd	___glewGetHistogram
+	dd	4
+	dd	_4856
+	dd	_4600
+	dd	___glewGetHistogramParameterfv
+	dd	4
+	dd	_4857
+	dd	_4558
+	dd	___glewGetHistogramParameteriv
+	dd	4
+	dd	_4858
+	dd	_4855
+	dd	___glewGetMinmax
+	dd	4
+	dd	_4859
+	dd	_4600
+	dd	___glewGetMinmaxParameterfv
+	dd	4
+	dd	_4860
+	dd	_4558
+	dd	___glewGetMinmaxParameteriv
+	dd	4
+	dd	_4861
+	dd	_4862
+	dd	___glewGetSeparableFilter
+	dd	4
+	dd	_4863
+	dd	_4864
+	dd	___glewHistogram
+	dd	4
+	dd	_4865
+	dd	_4866
+	dd	___glewMinmax
+	dd	4
+	dd	_4867
+	dd	_4409
+	dd	___glewResetHistogram
+	dd	4
+	dd	_4868
+	dd	_4409
+	dd	___glewResetMinmax
+	dd	4
+	dd	_4869
+	dd	_4870
+	dd	___glewSeparableFilter2D
+	dd	4
+	dd	_4871
+	dd	_4398
+	dd	___GLEW_ARB_imaging
+	dd	4
+	dd	_4872
+	dd	_4437
+	dd	___glewVertexAttribDivisorARB
+	dd	4
+	dd	_4873
+	dd	_4398
+	dd	___GLEW_ARB_instanced_arrays
+	dd	4
+	dd	_4874
+	dd	_4451
+	dd	___glewFlushMappedBufferRange
+	dd	4
+	dd	_4875
+	dd	_4876
+	dd	___glewMapBufferRange
+	dd	4
+	dd	_4877
+	dd	_4398
+	dd	___GLEW_ARB_map_buffer_range
+	dd	4
+	dd	_4878
+	dd	_4409
+	dd	___glewCurrentPaletteMatrixARB
+	dd	4
+	dd	_4879
+	dd	_4526
+	dd	___glewMatrixIndexPointerARB
+	dd	4
+	dd	_4880
+	dd	_4591
+	dd	___glewMatrixIndexubvARB
+	dd	4
+	dd	_4881
+	dd	_4439
+	dd	___glewMatrixIndexuivARB
+	dd	4
+	dd	_4882
+	dd	_4443
+	dd	___glewMatrixIndexusvARB
+	dd	4
+	dd	_4883
+	dd	_4398
+	dd	___GLEW_ARB_matrix_palette
+	dd	4
+	dd	_4884
+	dd	_4481
+	dd	___glewSampleCoverageARB
+	dd	4
+	dd	_4885
+	dd	_4398
+	dd	___GLEW_ARB_multisample
+	dd	4
+	dd	_4886
+	dd	_4409
+	dd	___glewActiveTextureARB
+	dd	4
+	dd	_4887
+	dd	_4409
+	dd	___glewClientActiveTextureARB
+	dd	4
+	dd	_4888
+	dd	_4429
+	dd	___glewMultiTexCoord1dARB
+	dd	4
+	dd	_4889
+	dd	_4431
+	dd	___glewMultiTexCoord1dvARB
+	dd	4
+	dd	_4890
+	dd	_4433
+	dd	___glewMultiTexCoord1fARB
+	dd	4
+	dd	_4891
+	dd	_4435
+	dd	___glewMultiTexCoord1fvARB
+	dd	4
+	dd	_4892
+	dd	_4437
+	dd	___glewMultiTexCoord1iARB
+	dd	4
+	dd	_4893
+	dd	_4439
+	dd	___glewMultiTexCoord1ivARB
+	dd	4
+	dd	_4894
+	dd	_4441
+	dd	___glewMultiTexCoord1sARB
+	dd	4
+	dd	_4895
+	dd	_4443
+	dd	___glewMultiTexCoord1svARB
+	dd	4
+	dd	_4896
+	dd	_4445
+	dd	___glewMultiTexCoord2dARB
+	dd	4
+	dd	_4897
+	dd	_4431
+	dd	___glewMultiTexCoord2dvARB
+	dd	4
+	dd	_4898
+	dd	_4448
+	dd	___glewMultiTexCoord2fARB
+	dd	4
+	dd	_4899
+	dd	_4435
+	dd	___glewMultiTexCoord2fvARB
+	dd	4
+	dd	_4900
+	dd	_4451
+	dd	___glewMultiTexCoord2iARB
+	dd	4
+	dd	_4901
+	dd	_4439
+	dd	___glewMultiTexCoord2ivARB
+	dd	4
+	dd	_4902
+	dd	_4454
+	dd	___glewMultiTexCoord2sARB
+	dd	4
+	dd	_4903
+	dd	_4443
+	dd	___glewMultiTexCoord2svARB
+	dd	4
+	dd	_4904
+	dd	_4457
+	dd	___glewMultiTexCoord3dARB
+	dd	4
+	dd	_4905
+	dd	_4431
+	dd	___glewMultiTexCoord3dvARB
+	dd	4
+	dd	_4906
+	dd	_4460
+	dd	___glewMultiTexCoord3fARB
+	dd	4
+	dd	_4907
+	dd	_4435
+	dd	___glewMultiTexCoord3fvARB
+	dd	4
+	dd	_4908
+	dd	_4463
+	dd	___glewMultiTexCoord3iARB
+	dd	4
+	dd	_4909
+	dd	_4439
+	dd	___glewMultiTexCoord3ivARB
+	dd	4
+	dd	_4910
+	dd	_4466
+	dd	___glewMultiTexCoord3sARB
+	dd	4
+	dd	_4911
+	dd	_4443
+	dd	___glewMultiTexCoord3svARB
+	dd	4
+	dd	_4912
+	dd	_4469
+	dd	___glewMultiTexCoord4dARB
+	dd	4
+	dd	_4913
+	dd	_4431
+	dd	___glewMultiTexCoord4dvARB
+	dd	4
+	dd	_4914
+	dd	_4472
+	dd	___glewMultiTexCoord4fARB
+	dd	4
+	dd	_4915
+	dd	_4435
+	dd	___glewMultiTexCoord4fvARB
+	dd	4
+	dd	_4916
+	dd	_4475
+	dd	___glewMultiTexCoord4iARB
+	dd	4
+	dd	_4917
+	dd	_4439
+	dd	___glewMultiTexCoord4ivARB
+	dd	4
+	dd	_4918
+	dd	_4478
+	dd	___glewMultiTexCoord4sARB
+	dd	4
+	dd	_4919
+	dd	_4443
+	dd	___glewMultiTexCoord4svARB
+	dd	4
+	dd	_4920
+	dd	_4398
+	dd	___GLEW_ARB_multitexture
+	dd	4
+	dd	_4921
+	dd	_4437
+	dd	___glewBeginQueryARB
+	dd	4
+	dd	_4922
+	dd	_4439
+	dd	___glewDeleteQueriesARB
+	dd	4
+	dd	_4923
+	dd	_4409
+	dd	___glewEndQueryARB
+	dd	4
+	dd	_4924
+	dd	_4439
+	dd	___glewGenQueriesARB
+	dd	4
+	dd	_4925
+	dd	_4558
+	dd	___glewGetQueryObjectivARB
+	dd	4
+	dd	_4926
+	dd	_4558
+	dd	___glewGetQueryObjectuivARB
+	dd	4
+	dd	_4927
+	dd	_4558
+	dd	___glewGetQueryivARB
+	dd	4
+	dd	_4928
+	dd	_4566
+	dd	___glewIsQueryARB
+	dd	4
+	dd	_4929
+	dd	_4398
+	dd	___GLEW_ARB_occlusion_query
+	dd	4
+	dd	_4930
+	dd	_4398
+	dd	___GLEW_ARB_pixel_buffer_object
+	dd	4
+	dd	_4931
+	dd	_4433
+	dd	___glewPointParameterfARB
+	dd	4
+	dd	_4932
+	dd	_4435
+	dd	___glewPointParameterfvARB
+	dd	4
+	dd	_4933
+	dd	_4398
+	dd	___GLEW_ARB_point_parameters
+	dd	4
+	dd	_4934
+	dd	_4398
+	dd	___GLEW_ARB_point_sprite
+	dd	4
+	dd	_4935
+	dd	_4437
+	dd	___glewAttachObjectARB
+	dd	4
+	dd	_4936
+	dd	_4409
+	dd	___glewCompileShaderARB
+	dd	4
+	dd	_4937
+	dd	_4577
+	dd	___glewCreateProgramObjectARB
+	dd	4
+	dd	_4938
+	dd	_4409
+	dd	___glewCreateShaderObjectARB
+	dd	4
+	dd	_4939
+	dd	_4409
+	dd	___glewDeleteObjectARB
+	dd	4
+	dd	_4940
+	dd	_4437
+	dd	___glewDetachObjectARB
+	dd	4
+	dd	_4941
+	dd	_4586
+	dd	___glewGetActiveUniformARB
+	dd	4
+	dd	_4942
+	dd	_4589
+	dd	___glewGetAttachedObjectsARB
+	dd	4
+	dd	_4943
+	dd	_4409
+	dd	___glewGetHandleARB
+	dd	4
+	dd	_4944
+	dd	_4593
+	dd	___glewGetInfoLogARB
+	dd	4
+	dd	_4945
+	dd	_4600
+	dd	___glewGetObjectParameterfvARB
+	dd	4
+	dd	_4946
+	dd	_4558
+	dd	___glewGetObjectParameterivARB
+	dd	4
+	dd	_4947
+	dd	_4593
+	dd	___glewGetShaderSourceARB
+	dd	4
+	dd	_4948
+	dd	_4591
+	dd	___glewGetUniformLocationARB
+	dd	4
+	dd	_4949
+	dd	_4600
+	dd	___glewGetUniformfvARB
+	dd	4
+	dd	_4950
+	dd	_4558
+	dd	___glewGetUniformivARB
+	dd	4
+	dd	_4951
+	dd	_4409
+	dd	___glewLinkProgramARB
+	dd	4
+	dd	_4952
+	dd	_4611
+	dd	___glewShaderSourceARB
+	dd	4
+	dd	_4953
+	dd	_4433
+	dd	___glewUniform1fARB
+	dd	4
+	dd	_4954
+	dd	_4600
+	dd	___glewUniform1fvARB
+	dd	4
+	dd	_4955
+	dd	_4437
+	dd	___glewUniform1iARB
+	dd	4
+	dd	_4956
+	dd	_4558
+	dd	___glewUniform1ivARB
+	dd	4
+	dd	_4957
+	dd	_4448
+	dd	___glewUniform2fARB
+	dd	4
+	dd	_4958
+	dd	_4600
+	dd	___glewUniform2fvARB
+	dd	4
+	dd	_4959
+	dd	_4451
+	dd	___glewUniform2iARB
+	dd	4
+	dd	_4960
+	dd	_4558
+	dd	___glewUniform2ivARB
+	dd	4
+	dd	_4961
+	dd	_4460
+	dd	___glewUniform3fARB
+	dd	4
+	dd	_4962
+	dd	_4600
+	dd	___glewUniform3fvARB
+	dd	4
+	dd	_4963
+	dd	_4463
+	dd	___glewUniform3iARB
+	dd	4
+	dd	_4964
+	dd	_4558
+	dd	___glewUniform3ivARB
+	dd	4
+	dd	_4965
+	dd	_4472
+	dd	___glewUniform4fARB
+	dd	4
+	dd	_4966
+	dd	_4600
+	dd	___glewUniform4fvARB
+	dd	4
+	dd	_4967
+	dd	_4475
+	dd	___glewUniform4iARB
+	dd	4
+	dd	_4968
+	dd	_4558
+	dd	___glewUniform4ivARB
+	dd	4
+	dd	_4969
+	dd	_4632
+	dd	___glewUniformMatrix2fvARB
+	dd	4
+	dd	_4970
+	dd	_4632
+	dd	___glewUniformMatrix3fvARB
+	dd	4
+	dd	_4971
+	dd	_4632
+	dd	___glewUniformMatrix4fvARB
+	dd	4
+	dd	_4972
+	dd	_4409
+	dd	___glewUseProgramObjectARB
+	dd	4
+	dd	_4973
+	dd	_4409
+	dd	___glewValidateProgramARB
+	dd	4
+	dd	_4974
+	dd	_4398
+	dd	___GLEW_ARB_shader_objects
+	dd	4
+	dd	_4975
+	dd	_4398
+	dd	___GLEW_ARB_shading_language_100
+	dd	4
+	dd	_4976
+	dd	_4398
+	dd	___GLEW_ARB_shadow
+	dd	4
+	dd	_4977
+	dd	_4398
+	dd	___GLEW_ARB_shadow_ambient
+	dd	4
+	dd	_4978
+	dd	_4398
+	dd	___GLEW_ARB_texture_border_clamp
+	dd	4
+	dd	_4979
+	dd	_4451
+	dd	___glewTexBufferARB
+	dd	4
+	dd	_4980
+	dd	_4398
+	dd	___GLEW_ARB_texture_buffer_object
+	dd	4
+	dd	_4981
+	dd	_4412
+	dd	___glewCompressedTexImage1DARB
+	dd	4
+	dd	_4982
+	dd	_4414
+	dd	___glewCompressedTexImage2DARB
+	dd	4
+	dd	_4983
+	dd	_4416
+	dd	___glewCompressedTexImage3DARB
+	dd	4
+	dd	_4984
+	dd	_4412
+	dd	___glewCompressedTexSubImage1DARB
+	dd	4
+	dd	_4985
+	dd	_4416
+	dd	___glewCompressedTexSubImage2DARB
+	dd	4
+	dd	_4986
+	dd	_4406
+	dd	___glewCompressedTexSubImage3DARB
+	dd	4
+	dd	_4987
+	dd	_4421
+	dd	___glewGetCompressedTexImageARB
+	dd	4
+	dd	_4988
+	dd	_4398
+	dd	___GLEW_ARB_texture_compression
+	dd	4
+	dd	_4989
+	dd	_4398
+	dd	___GLEW_ARB_texture_compression_rgtc
+	dd	4
+	dd	_4990
+	dd	_4398
+	dd	___GLEW_ARB_texture_cube_map
+	dd	4
+	dd	_4991
+	dd	_4398
+	dd	___GLEW_ARB_texture_env_add
+	dd	4
+	dd	_4992
+	dd	_4398
+	dd	___GLEW_ARB_texture_env_combine
+	dd	4
+	dd	_4993
+	dd	_4398
+	dd	___GLEW_ARB_texture_env_crossbar
+	dd	4
+	dd	_4994
+	dd	_4398
+	dd	___GLEW_ARB_texture_env_dot3
+	dd	4
+	dd	_4995
+	dd	_4398
+	dd	___GLEW_ARB_texture_float
+	dd	4
+	dd	_4996
+	dd	_4398
+	dd	___GLEW_ARB_texture_mirrored_repeat
+	dd	4
+	dd	_4997
+	dd	_4398
+	dd	___GLEW_ARB_texture_non_power_of_two
+	dd	4
+	dd	_4998
+	dd	_4398
+	dd	___GLEW_ARB_texture_rectangle
+	dd	4
+	dd	_4999
+	dd	_4398
+	dd	___GLEW_ARB_texture_rg
+	dd	4
+	dd	_5000
+	dd	_4423
+	dd	___glewLoadTransposeMatrixdARB
+	dd	4
+	dd	_5001
+	dd	_4425
+	dd	___glewLoadTransposeMatrixfARB
+	dd	4
+	dd	_5002
+	dd	_4423
+	dd	___glewMultTransposeMatrixdARB
+	dd	4
+	dd	_5003
+	dd	_4425
+	dd	___glewMultTransposeMatrixfARB
+	dd	4
+	dd	_5004
+	dd	_4398
+	dd	___GLEW_ARB_transpose_matrix
+	dd	4
+	dd	_5005
+	dd	_4409
+	dd	___glewBindVertexArray
+	dd	4
+	dd	_5006
+	dd	_4439
+	dd	___glewDeleteVertexArrays
+	dd	4
+	dd	_5007
+	dd	_4439
+	dd	___glewGenVertexArrays
+	dd	4
+	dd	_5008
+	dd	_4566
+	dd	___glewIsVertexArray
+	dd	4
+	dd	_5009
+	dd	_4398
+	dd	___GLEW_ARB_vertex_array_object
+	dd	4
+	dd	_5010
+	dd	_4409
+	dd	___glewVertexBlendARB
+	dd	4
+	dd	_5011
+	dd	_4526
+	dd	___glewWeightPointerARB
+	dd	4
+	dd	_5012
+	dd	_4591
+	dd	___glewWeightbvARB
+	dd	4
+	dd	_5013
+	dd	_4431
+	dd	___glewWeightdvARB
+	dd	4
+	dd	_5014
+	dd	_4435
+	dd	___glewWeightfvARB
+	dd	4
+	dd	_5015
+	dd	_4439
+	dd	___glewWeightivARB
+	dd	4
+	dd	_5016
+	dd	_4443
+	dd	___glewWeightsvARB
+	dd	4
+	dd	_5017
+	dd	_4591
+	dd	___glewWeightubvARB
+	dd	4
+	dd	_5018
+	dd	_4439
+	dd	___glewWeightuivARB
+	dd	4
+	dd	_5019
+	dd	_4443
+	dd	___glewWeightusvARB
+	dd	4
+	dd	_5020
+	dd	_4398
+	dd	___GLEW_ARB_vertex_blend
+	dd	4
+	dd	_5021
+	dd	_4437
+	dd	___glewBindBufferARB
+	dd	4
+	dd	_5022
+	dd	_4550
+	dd	___glewBufferDataARB
+	dd	4
+	dd	_5023
+	dd	_4526
+	dd	___glewBufferSubDataARB
+	dd	4
+	dd	_5024
+	dd	_4439
+	dd	___glewDeleteBuffersARB
+	dd	4
+	dd	_5025
+	dd	_4439
+	dd	___glewGenBuffersARB
+	dd	4
+	dd	_5026
+	dd	_4558
+	dd	___glewGetBufferParameterivARB
+	dd	4
+	dd	_5027
+	dd	_4560
+	dd	___glewGetBufferPointervARB
+	dd	4
+	dd	_5028
+	dd	_4526
+	dd	___glewGetBufferSubDataARB
+	dd	4
+	dd	_5029
+	dd	_4566
+	dd	___glewIsBufferARB
+	dd	4
+	dd	_5030
+	dd	_4569
+	dd	___glewMapBufferARB
+	dd	4
+	dd	_5031
+	dd	_4566
+	dd	___glewUnmapBufferARB
+	dd	4
+	dd	_5032
+	dd	_4398
+	dd	___GLEW_ARB_vertex_buffer_object
+	dd	4
+	dd	_5033
+	dd	_4437
+	dd	___glewBindProgramARB
+	dd	4
+	dd	_5034
+	dd	_4439
+	dd	___glewDeleteProgramsARB
+	dd	4
+	dd	_5035
+	dd	_4409
+	dd	___glewDisableVertexAttribArrayARB
+	dd	4
+	dd	_5036
+	dd	_4409
+	dd	___glewEnableVertexAttribArrayARB
+	dd	4
+	dd	_5037
+	dd	_4439
+	dd	___glewGenProgramsARB
+	dd	4
+	dd	_5038
+	dd	_4604
+	dd	___glewGetProgramEnvParameterdvARB
+	dd	4
+	dd	_5039
+	dd	_4600
+	dd	___glewGetProgramEnvParameterfvARB
+	dd	4
+	dd	_5040
+	dd	_4604
+	dd	___glewGetProgramLocalParameterdvARB
+	dd	4
+	dd	_5041
+	dd	_4600
+	dd	___glewGetProgramLocalParameterfvARB
+	dd	4
+	dd	_5042
+	dd	_4421
+	dd	___glewGetProgramStringARB
+	dd	4
+	dd	_5043
+	dd	_4558
+	dd	___glewGetProgramivARB
+	dd	4
+	dd	_5044
+	dd	_4560
+	dd	___glewGetVertexAttribPointervARB
+	dd	4
+	dd	_5045
+	dd	_4604
+	dd	___glewGetVertexAttribdvARB
+	dd	4
+	dd	_5046
+	dd	_4600
+	dd	___glewGetVertexAttribfvARB
+	dd	4
+	dd	_5047
+	dd	_4558
+	dd	___glewGetVertexAttribivARB
+	dd	4
+	dd	_5048
+	dd	_4566
+	dd	___glewIsProgramARB
+	dd	4
+	dd	_5049
+	dd	_5050
+	dd	___glewProgramEnvParameter4dARB
+	dd	4
+	dd	_5051
+	dd	_4604
+	dd	___glewProgramEnvParameter4dvARB
+	dd	4
+	dd	_5052
+	dd	_5053
+	dd	___glewProgramEnvParameter4fARB
+	dd	4
+	dd	_5054
+	dd	_4600
+	dd	___glewProgramEnvParameter4fvARB
+	dd	4
+	dd	_5055
+	dd	_5050
+	dd	___glewProgramLocalParameter4dARB
+	dd	4
+	dd	_5056
+	dd	_4604
+	dd	___glewProgramLocalParameter4dvARB
+	dd	4
+	dd	_5057
+	dd	_5053
+	dd	___glewProgramLocalParameter4fARB
+	dd	4
+	dd	_5058
+	dd	_4600
+	dd	___glewProgramLocalParameter4fvARB
+	dd	4
+	dd	_5059
+	dd	_4526
+	dd	___glewProgramStringARB
+	dd	4
+	dd	_5060
+	dd	_4429
+	dd	___glewVertexAttrib1dARB
+	dd	4
+	dd	_5061
+	dd	_4431
+	dd	___glewVertexAttrib1dvARB
+	dd	4
+	dd	_5062
+	dd	_4433
+	dd	___glewVertexAttrib1fARB
+	dd	4
+	dd	_5063
+	dd	_4435
+	dd	___glewVertexAttrib1fvARB
+	dd	4
+	dd	_5064
+	dd	_4441
+	dd	___glewVertexAttrib1sARB
+	dd	4
+	dd	_5065
+	dd	_4443
+	dd	___glewVertexAttrib1svARB
+	dd	4
+	dd	_5066
+	dd	_4445
+	dd	___glewVertexAttrib2dARB
+	dd	4
+	dd	_5067
+	dd	_4431
+	dd	___glewVertexAttrib2dvARB
+	dd	4
+	dd	_5068
+	dd	_4448
+	dd	___glewVertexAttrib2fARB
+	dd	4
+	dd	_5069
+	dd	_4435
+	dd	___glewVertexAttrib2fvARB
+	dd	4
+	dd	_5070
+	dd	_4454
+	dd	___glewVertexAttrib2sARB
+	dd	4
+	dd	_5071
+	dd	_4443
+	dd	___glewVertexAttrib2svARB
+	dd	4
+	dd	_5072
+	dd	_4457
+	dd	___glewVertexAttrib3dARB
+	dd	4
+	dd	_5073
+	dd	_4431
+	dd	___glewVertexAttrib3dvARB
+	dd	4
+	dd	_5074
+	dd	_4460
+	dd	___glewVertexAttrib3fARB
+	dd	4
+	dd	_5075
+	dd	_4435
+	dd	___glewVertexAttrib3fvARB
+	dd	4
+	dd	_5076
+	dd	_4466
+	dd	___glewVertexAttrib3sARB
+	dd	4
+	dd	_5077
+	dd	_4443
+	dd	___glewVertexAttrib3svARB
+	dd	4
+	dd	_5078
+	dd	_4591
+	dd	___glewVertexAttrib4NbvARB
+	dd	4
+	dd	_5079
+	dd	_4439
+	dd	___glewVertexAttrib4NivARB
+	dd	4
+	dd	_5080
+	dd	_4443
+	dd	___glewVertexAttrib4NsvARB
+	dd	4
+	dd	_5081
+	dd	_4659
+	dd	___glewVertexAttrib4NubARB
+	dd	4
+	dd	_5082
+	dd	_4591
+	dd	___glewVertexAttrib4NubvARB
+	dd	4
+	dd	_5083
+	dd	_4439
+	dd	___glewVertexAttrib4NuivARB
+	dd	4
+	dd	_5084
+	dd	_4443
+	dd	___glewVertexAttrib4NusvARB
+	dd	4
+	dd	_5085
+	dd	_4591
+	dd	___glewVertexAttrib4bvARB
+	dd	4
+	dd	_5086
+	dd	_4469
+	dd	___glewVertexAttrib4dARB
+	dd	4
+	dd	_5087
+	dd	_4431
+	dd	___glewVertexAttrib4dvARB
+	dd	4
+	dd	_5088
+	dd	_4472
+	dd	___glewVertexAttrib4fARB
+	dd	4
+	dd	_5089
+	dd	_4435
+	dd	___glewVertexAttrib4fvARB
+	dd	4
+	dd	_5090
+	dd	_4439
+	dd	___glewVertexAttrib4ivARB
+	dd	4
+	dd	_5091
+	dd	_4478
+	dd	___glewVertexAttrib4sARB
+	dd	4
+	dd	_5092
+	dd	_4443
+	dd	___glewVertexAttrib4svARB
+	dd	4
+	dd	_5093
+	dd	_4591
+	dd	___glewVertexAttrib4ubvARB
+	dd	4
+	dd	_5094
+	dd	_4439
+	dd	___glewVertexAttrib4uivARB
+	dd	4
+	dd	_5095
+	dd	_4443
+	dd	___glewVertexAttrib4usvARB
+	dd	4
+	dd	_5096
+	dd	_4675
+	dd	___glewVertexAttribPointerARB
+	dd	4
+	dd	_5097
+	dd	_4398
+	dd	___GLEW_ARB_vertex_program
+	dd	4
+	dd	_5098
+	dd	_4421
+	dd	___glewBindAttribLocationARB
+	dd	4
+	dd	_5099
+	dd	_4586
+	dd	___glewGetActiveAttribARB
+	dd	4
+	dd	_5100
+	dd	_4591
+	dd	___glewGetAttribLocationARB
+	dd	4
+	dd	_5101
+	dd	_4398
+	dd	___GLEW_ARB_vertex_shader
+	dd	4
+	dd	_5102
+	dd	_4528
+	dd	___glewWindowPos2dARB
+	dd	4
+	dd	_5103
+	dd	_4423
+	dd	___glewWindowPos2dvARB
+	dd	4
+	dd	_5104
+	dd	_4531
+	dd	___glewWindowPos2fARB
+	dd	4
+	dd	_5105
+	dd	_4425
+	dd	___glewWindowPos2fvARB
+	dd	4
+	dd	_5106
+	dd	_4437
+	dd	___glewWindowPos2iARB
+	dd	4
+	dd	_5107
+	dd	_4514
+	dd	___glewWindowPos2ivARB
+	dd	4
+	dd	_5108
+	dd	_4536
+	dd	___glewWindowPos2sARB
+	dd	4
+	dd	_5109
+	dd	_4518
+	dd	___glewWindowPos2svARB
+	dd	4
+	dd	_5110
+	dd	_4507
+	dd	___glewWindowPos3dARB
+	dd	4
+	dd	_5111
+	dd	_4423
+	dd	___glewWindowPos3dvARB
+	dd	4
+	dd	_5112
+	dd	_4510
+	dd	___glewWindowPos3fARB
+	dd	4
+	dd	_5113
+	dd	_4425
+	dd	___glewWindowPos3fvARB
+	dd	4
+	dd	_5114
+	dd	_4451
+	dd	___glewWindowPos3iARB
+	dd	4
+	dd	_5115
+	dd	_4514
+	dd	___glewWindowPos3ivARB
+	dd	4
+	dd	_5116
+	dd	_4516
+	dd	___glewWindowPos3sARB
+	dd	4
+	dd	_5117
+	dd	_4518
+	dd	___glewWindowPos3svARB
+	dd	4
+	dd	_5118
+	dd	_4398
+	dd	___GLEW_ARB_window_pos
+	dd	4
+	dd	_5119
+	dd	_4398
+	dd	___GLEW_ATIX_point_sprites
+	dd	4
+	dd	_5120
+	dd	_4398
+	dd	___GLEW_ATIX_texture_env_combine3
+	dd	4
+	dd	_5121
+	dd	_4398
+	dd	___GLEW_ATIX_texture_env_route
+	dd	4
+	dd	_5122
+	dd	_4398
+	dd	___GLEW_ATIX_vertex_shader_output_point_size
+	dd	4
+	dd	_5123
+	dd	_4439
+	dd	___glewDrawBuffersATI
+	dd	4
+	dd	_5124
+	dd	_4398
+	dd	___GLEW_ATI_draw_buffers
+	dd	4
+	dd	_5125
+	dd	_4437
+	dd	___glewDrawElementArrayATI
+	dd	4
+	dd	_5126
+	dd	_4463
+	dd	___glewDrawRangeElementArrayATI
+	dd	4
+	dd	_5127
+	dd	_4591
+	dd	___glewElementPointerATI
+	dd	4
+	dd	_5128
+	dd	_4398
+	dd	___GLEW_ATI_element_array
+	dd	4
+	dd	_5129
+	dd	_4435
+	dd	___glewGetTexBumpParameterfvATI
+	dd	4
+	dd	_5130
+	dd	_4439
+	dd	___glewGetTexBumpParameterivATI
+	dd	4
+	dd	_5131
+	dd	_4435
+	dd	___glewTexBumpParameterfvATI
+	dd	4
+	dd	_5132
+	dd	_4439
+	dd	___glewTexBumpParameterivATI
+	dd	4
+	dd	_5133
+	dd	_4398
+	dd	___GLEW_ATI_envmap_bumpmap
+	dd	4
+	dd	_5134
+	dd	_4813
+	dd	___glewAlphaFragmentOp1ATI
+	dd	4
+	dd	_5135
+	dd	_4400
+	dd	___glewAlphaFragmentOp2ATI
+	dd	4
+	dd	_5136
+	dd	_5137
+	dd	___glewAlphaFragmentOp3ATI
+	dd	4
+	dd	_5138
+	dd	_4577
+	dd	___glewBeginFragmentShaderATI
+	dd	4
+	dd	_5139
+	dd	_4409
+	dd	___glewBindFragmentShaderATI
+	dd	4
+	dd	_5140
+	dd	_5141
+	dd	___glewColorFragmentOp1ATI
+	dd	4
+	dd	_5142
+	dd	_4804
+	dd	___glewColorFragmentOp2ATI
+	dd	4
+	dd	_5143
+	dd	_5144
+	dd	___glewColorFragmentOp3ATI
+	dd	4
+	dd	_5145
+	dd	_4409
+	dd	___glewDeleteFragmentShaderATI
+	dd	4
+	dd	_5146
+	dd	_4577
+	dd	___glewEndFragmentShaderATI
+	dd	4
+	dd	_5147
+	dd	_4409
+	dd	___glewGenFragmentShadersATI
+	dd	4
+	dd	_5148
+	dd	_4451
+	dd	___glewPassTexCoordATI
+	dd	4
+	dd	_5149
+	dd	_4451
+	dd	___glewSampleMapATI
+	dd	4
+	dd	_5150
+	dd	_4435
+	dd	___glewSetFragmentShaderConstantATI
+	dd	4
+	dd	_5151
+	dd	_4398
+	dd	___GLEW_ATI_fragment_shader
+	dd	4
+	dd	_5152
+	dd	_5153
+	dd	___glewMapObjectBufferATI
+	dd	4
+	dd	_5154
+	dd	_4409
+	dd	___glewUnmapObjectBufferATI
+	dd	4
+	dd	_5155
+	dd	_4398
+	dd	___GLEW_ATI_map_object_buffer
+	dd	4
+	dd	_5156
+	dd	_4398
+	dd	___GLEW_ATI_pn_triangles
+	dd	4
+	dd	_5157
+	dd	_4463
+	dd	___glewStencilFuncSeparateATI
+	dd	4
+	dd	_5158
+	dd	_4463
+	dd	___glewStencilOpSeparateATI
+	dd	4
+	dd	_5159
+	dd	_4398
+	dd	___GLEW_ATI_separate_stencil
+	dd	4
+	dd	_5160
+	dd	_4398
+	dd	___GLEW_ATI_shader_texture_lod
+	dd	4
+	dd	_5161
+	dd	_4398
+	dd	___GLEW_ATI_text_fragment_shader
+	dd	4
+	dd	_5162
+	dd	_4398
+	dd	___GLEW_ATI_texture_compression_3dc
+	dd	4
+	dd	_5163
+	dd	_4398
+	dd	___GLEW_ATI_texture_env_combine3
+	dd	4
+	dd	_5164
+	dd	_4398
+	dd	___GLEW_ATI_texture_float
+	dd	4
+	dd	_5165
+	dd	_4398
+	dd	___GLEW_ATI_texture_mirror_once
+	dd	4
+	dd	_5166
+	dd	_4813
+	dd	___glewArrayObjectATI
+	dd	4
+	dd	_5167
+	dd	_4409
+	dd	___glewFreeObjectBufferATI
+	dd	4
+	dd	_5168
+	dd	_4600
+	dd	___glewGetArrayObjectfvATI
+	dd	4
+	dd	_5169
+	dd	_4558
+	dd	___glewGetArrayObjectivATI
+	dd	4
+	dd	_5170
+	dd	_4600
+	dd	___glewGetObjectBufferfvATI
+	dd	4
+	dd	_5171
+	dd	_4558
+	dd	___glewGetObjectBufferivATI
+	dd	4
+	dd	_5172
+	dd	_4600
+	dd	___glewGetVariantArrayObjectfvATI
+	dd	4
+	dd	_5173
+	dd	_4558
+	dd	___glewGetVariantArrayObjectivATI
+	dd	4
+	dd	_5174
+	dd	_4566
+	dd	___glewIsObjectBufferATI
+	dd	4
+	dd	_5175
+	dd	_5176
+	dd	___glewNewObjectBufferATI
+	dd	4
+	dd	_5177
+	dd	_4796
+	dd	___glewUpdateObjectBufferATI
+	dd	4
+	dd	_5178
+	dd	_4475
+	dd	___glewVariantArrayObjectATI
+	dd	4
+	dd	_5179
+	dd	_4398
+	dd	___GLEW_ATI_vertex_array_object
+	dd	4
+	dd	_5180
+	dd	_4600
+	dd	___glewGetVertexAttribArrayObjectfvATI
+	dd	4
+	dd	_5181
+	dd	_4558
+	dd	___glewGetVertexAttribArrayObjectivATI
+	dd	4
+	dd	_5182
+	dd	_5183
+	dd	___glewVertexAttribArrayObjectATI
+	dd	4
+	dd	_5184
+	dd	_4398
+	dd	___GLEW_ATI_vertex_attrib_array_object
+	dd	4
+	dd	_5185
+	dd	_4409
+	dd	___glewClientActiveVertexStreamATI
+	dd	4
+	dd	_5186
+	dd	_5187
+	dd	___glewNormalStream3bATI
+	dd	4
+	dd	_5188
+	dd	_4591
+	dd	___glewNormalStream3bvATI
+	dd	4
+	dd	_5189
+	dd	_4457
+	dd	___glewNormalStream3dATI
+	dd	4
+	dd	_5190
+	dd	_4431
+	dd	___glewNormalStream3dvATI
+	dd	4
+	dd	_5191
+	dd	_4460
+	dd	___glewNormalStream3fATI
+	dd	4
+	dd	_5192
+	dd	_4435
+	dd	___glewNormalStream3fvATI
+	dd	4
+	dd	_5193
+	dd	_4463
+	dd	___glewNormalStream3iATI
+	dd	4
+	dd	_5194
+	dd	_4439
+	dd	___glewNormalStream3ivATI
+	dd	4
+	dd	_5195
+	dd	_4466
+	dd	___glewNormalStream3sATI
+	dd	4
+	dd	_5196
+	dd	_4443
+	dd	___glewNormalStream3svATI
+	dd	4
+	dd	_5197
+	dd	_4433
+	dd	___glewVertexBlendEnvfATI
+	dd	4
+	dd	_5198
+	dd	_4437
+	dd	___glewVertexBlendEnviATI
+	dd	4
+	dd	_5199
+	dd	_4445
+	dd	___glewVertexStream2dATI
+	dd	4
+	dd	_5200
+	dd	_4431
+	dd	___glewVertexStream2dvATI
+	dd	4
+	dd	_5201
+	dd	_4448
+	dd	___glewVertexStream2fATI
+	dd	4
+	dd	_5202
+	dd	_4435
+	dd	___glewVertexStream2fvATI
+	dd	4
+	dd	_5203
+	dd	_4451
+	dd	___glewVertexStream2iATI
+	dd	4
+	dd	_5204
+	dd	_4439
+	dd	___glewVertexStream2ivATI
+	dd	4
+	dd	_5205
+	dd	_4454
+	dd	___glewVertexStream2sATI
+	dd	4
+	dd	_5206
+	dd	_4443
+	dd	___glewVertexStream2svATI
+	dd	4
+	dd	_5207
+	dd	_4457
+	dd	___glewVertexStream3dATI
+	dd	4
+	dd	_5208
+	dd	_4431
+	dd	___glewVertexStream3dvATI
+	dd	4
+	dd	_5209
+	dd	_4460
+	dd	___glewVertexStream3fATI
+	dd	4
+	dd	_5210
+	dd	_4435
+	dd	___glewVertexStream3fvATI
+	dd	4
+	dd	_5211
+	dd	_4463
+	dd	___glewVertexStream3iATI
+	dd	4
+	dd	_5212
+	dd	_4439
+	dd	___glewVertexStream3ivATI
+	dd	4
+	dd	_5213
+	dd	_4466
+	dd	___glewVertexStream3sATI
+	dd	4
+	dd	_5214
+	dd	_4443
+	dd	___glewVertexStream3svATI
+	dd	4
+	dd	_5215
+	dd	_4469
+	dd	___glewVertexStream4dATI
+	dd	4
+	dd	_5216
+	dd	_4431
+	dd	___glewVertexStream4dvATI
+	dd	4
+	dd	_5217
+	dd	_4472
+	dd	___glewVertexStream4fATI
+	dd	4
+	dd	_5218
+	dd	_4435
+	dd	___glewVertexStream4fvATI
+	dd	4
+	dd	_5219
+	dd	_4475
+	dd	___glewVertexStream4iATI
+	dd	4
+	dd	_5220
+	dd	_4439
+	dd	___glewVertexStream4ivATI
+	dd	4
+	dd	_5221
+	dd	_4478
+	dd	___glewVertexStream4sATI
+	dd	4
+	dd	_5222
+	dd	_4443
+	dd	___glewVertexStream4svATI
+	dd	4
+	dd	_5223
+	dd	_4398
+	dd	___GLEW_ATI_vertex_streams
+	dd	4
+	dd	_5224
+	dd	_4398
+	dd	___GLEW_EXT_422_pixels
+	dd	4
+	dd	_5225
+	dd	_4398
+	dd	___GLEW_EXT_Cg_shader
+	dd	4
+	dd	_5226
+	dd	_4398
+	dd	___GLEW_EXT_abgr
+	dd	4
+	dd	_5227
+	dd	_4398
+	dd	___GLEW_EXT_bgra
+	dd	4
+	dd	_5228
+	dd	_4437
+	dd	___glewGetUniformBufferSizeEXT
+	dd	4
+	dd	_5229
+	dd	_4437
+	dd	___glewGetUniformOffsetEXT
+	dd	4
+	dd	_5230
+	dd	_4451
+	dd	___glewUniformBufferEXT
+	dd	4
+	dd	_5231
+	dd	_4398
+	dd	___GLEW_EXT_bindable_uniform
+	dd	4
+	dd	_5232
+	dd	_4484
+	dd	___glewBlendColorEXT
+	dd	4
+	dd	_5233
+	dd	_4398
+	dd	___GLEW_EXT_blend_color
+	dd	4
+	dd	_5234
+	dd	_4437
+	dd	___glewBlendEquationSeparateEXT
+	dd	4
+	dd	_5235
+	dd	_4398
+	dd	___GLEW_EXT_blend_equation_separate
+	dd	4
+	dd	_5236
+	dd	_4463
+	dd	___glewBlendFuncSeparateEXT
+	dd	4
+	dd	_5237
+	dd	_4398
+	dd	___GLEW_EXT_blend_func_separate
+	dd	4
+	dd	_5238
+	dd	_4398
+	dd	___GLEW_EXT_blend_logic_op
+	dd	4
+	dd	_5239
+	dd	_4409
+	dd	___glewBlendEquationEXT
+	dd	4
+	dd	_5240
+	dd	_4398
+	dd	___GLEW_EXT_blend_minmax
+	dd	4
+	dd	_5241
+	dd	_4398
+	dd	___GLEW_EXT_blend_subtract
+	dd	4
+	dd	_5242
+	dd	_4398
+	dd	___GLEW_EXT_clip_volume_hint
+	dd	4
+	dd	_5243
+	dd	_4398
+	dd	___GLEW_EXT_cmyka
+	dd	4
+	dd	_5244
+	dd	_4402
+	dd	___glewColorSubTableEXT
+	dd	4
+	dd	_5245
+	dd	_4475
+	dd	___glewCopyColorSubTableEXT
+	dd	4
+	dd	_5246
+	dd	_4398
+	dd	___GLEW_EXT_color_subtable
+	dd	4
+	dd	_5247
+	dd	_4437
+	dd	___glewLockArraysEXT
+	dd	4
+	dd	_5248
+	dd	_4577
+	dd	___glewUnlockArraysEXT
+	dd	4
+	dd	_5249
+	dd	_4398
+	dd	___GLEW_EXT_compiled_vertex_array
+	dd	4
+	dd	_5250
+	dd	_4402
+	dd	___glewConvolutionFilter1DEXT
+	dd	4
+	dd	_5251
+	dd	_4412
+	dd	___glewConvolutionFilter2DEXT
+	dd	4
+	dd	_5252
+	dd	_4840
+	dd	___glewConvolutionParameterfEXT
+	dd	4
+	dd	_5253
+	dd	_4600
+	dd	___glewConvolutionParameterfvEXT
+	dd	4
+	dd	_5254
+	dd	_4451
+	dd	___glewConvolutionParameteriEXT
+	dd	4
+	dd	_5255
+	dd	_4558
+	dd	___glewConvolutionParameterivEXT
+	dd	4
+	dd	_5256
+	dd	_4475
+	dd	___glewCopyConvolutionFilter1DEXT
+	dd	4
+	dd	_5257
+	dd	_4813
+	dd	___glewCopyConvolutionFilter2DEXT
+	dd	4
+	dd	_5258
+	dd	_4526
+	dd	___glewGetConvolutionFilterEXT
+	dd	4
+	dd	_5259
+	dd	_4600
+	dd	___glewGetConvolutionParameterfvEXT
+	dd	4
+	dd	_5260
+	dd	_4558
+	dd	___glewGetConvolutionParameterivEXT
+	dd	4
+	dd	_5261
+	dd	_4862
+	dd	___glewGetSeparableFilterEXT
+	dd	4
+	dd	_5262
+	dd	_4870
+	dd	___glewSeparableFilter2DEXT
+	dd	4
+	dd	_5263
+	dd	_4398
+	dd	___GLEW_EXT_convolution
+	dd	4
+	dd	_5264
+	dd	_4421
+	dd	___glewBinormalPointerEXT
+	dd	4
+	dd	_5265
+	dd	_4421
+	dd	___glewTangentPointerEXT
+	dd	4
+	dd	_5266
+	dd	_4398
+	dd	___GLEW_EXT_coordinate_frame
+	dd	4
+	dd	_5267
+	dd	_5141
+	dd	___glewCopyTexImage1DEXT
+	dd	4
+	dd	_5268
+	dd	_5269
+	dd	___glewCopyTexImage2DEXT
+	dd	4
+	dd	_5270
+	dd	_4813
+	dd	___glewCopyTexSubImage1DEXT
+	dd	4
+	dd	_5271
+	dd	_5269
+	dd	___glewCopyTexSubImage2DEXT
+	dd	4
+	dd	_5272
+	dd	_4400
+	dd	___glewCopyTexSubImage3DEXT
+	dd	4
+	dd	_5273
+	dd	_4398
+	dd	___GLEW_EXT_copy_texture
+	dd	4
+	dd	_5274
+	dd	_4431
+	dd	___glewCullParameterdvEXT
+	dd	4
+	dd	_5275
+	dd	_4435
+	dd	___glewCullParameterfvEXT
+	dd	4
+	dd	_5276
+	dd	_4398
+	dd	___GLEW_EXT_cull_vertex
+	dd	4
+	dd	_5277
+	dd	_4528
+	dd	___glewDepthBoundsEXT
+	dd	4
+	dd	_5278
+	dd	_4398
+	dd	___GLEW_EXT_depth_bounds_test
+	dd	4
+	dd	_5279
+	dd	_4451
+	dd	___glewBindMultiTextureEXT
+	dd	4
+	dd	_5280
+	dd	_4437
+	dd	___glewCheckNamedFramebufferStatusEXT
+	dd	4
+	dd	_5281
+	dd	_4409
+	dd	___glewClientAttribDefaultEXT
+	dd	4
+	dd	_5282
+	dd	_4414
+	dd	___glewCompressedMultiTexImage1DEXT
+	dd	4
+	dd	_5283
+	dd	_4416
+	dd	___glewCompressedMultiTexImage2DEXT
+	dd	4
+	dd	_5284
+	dd	_4404
+	dd	___glewCompressedMultiTexImage3DEXT
+	dd	4
+	dd	_5285
+	dd	_4414
+	dd	___glewCompressedMultiTexSubImage1DEXT
+	dd	4
+	dd	_5286
+	dd	_4404
+	dd	___glewCompressedMultiTexSubImage2DEXT
+	dd	4
+	dd	_5287
+	dd	_5288
+	dd	___glewCompressedMultiTexSubImage3DEXT
+	dd	4
+	dd	_5289
+	dd	_4414
+	dd	___glewCompressedTextureImage1DEXT
+	dd	4
+	dd	_5290
+	dd	_4416
+	dd	___glewCompressedTextureImage2DEXT
+	dd	4
+	dd	_5291
+	dd	_4404
+	dd	___glewCompressedTextureImage3DEXT
+	dd	4
+	dd	_5292
+	dd	_4414
+	dd	___glewCompressedTextureSubImage1DEXT
+	dd	4
+	dd	_5293
+	dd	_4404
+	dd	___glewCompressedTextureSubImage2DEXT
+	dd	4
+	dd	_5294
+	dd	_5288
+	dd	___glewCompressedTextureSubImage3DEXT
+	dd	4
+	dd	_5295
+	dd	_5269
+	dd	___glewCopyMultiTexImage1DEXT
+	dd	4
+	dd	_5296
+	dd	_4400
+	dd	___glewCopyMultiTexImage2DEXT
+	dd	4
+	dd	_5297
+	dd	_5141
+	dd	___glewCopyMultiTexSubImage1DEXT
+	dd	4
+	dd	_5298
+	dd	_4400
+	dd	___glewCopyMultiTexSubImage2DEXT
+	dd	4
+	dd	_5299
+	dd	_4804
+	dd	___glewCopyMultiTexSubImage3DEXT
+	dd	4
+	dd	_5300
+	dd	_5269
+	dd	___glewCopyTextureImage1DEXT
+	dd	4
+	dd	_5301
+	dd	_4400
+	dd	___glewCopyTextureImage2DEXT
+	dd	4
+	dd	_5302
+	dd	_5141
+	dd	___glewCopyTextureSubImage1DEXT
+	dd	4
+	dd	_5303
+	dd	_4400
+	dd	___glewCopyTextureSubImage2DEXT
+	dd	4
+	dd	_5304
+	dd	_4804
+	dd	___glewCopyTextureSubImage3DEXT
+	dd	4
+	dd	_5305
+	dd	_4437
+	dd	___glewDisableClientStateIndexedEXT
+	dd	4
+	dd	_5306
+	dd	_4437
+	dd	___glewEnableClientStateIndexedEXT
+	dd	4
+	dd	_5307
+	dd	_4437
+	dd	___glewFramebufferDrawBufferEXT
+	dd	4
+	dd	_5308
+	dd	_4558
+	dd	___glewFramebufferDrawBuffersEXT
+	dd	4
+	dd	_5309
+	dd	_4437
+	dd	___glewFramebufferReadBufferEXT
+	dd	4
+	dd	_5310
+	dd	_4437
+	dd	___glewGenerateMultiTexMipmapEXT
+	dd	4
+	dd	_5311
+	dd	_4437
+	dd	___glewGenerateTextureMipmapEXT
+	dd	4
+	dd	_5312
+	dd	_4526
+	dd	___glewGetCompressedMultiTexImageEXT
+	dd	4
+	dd	_5313
+	dd	_4526
+	dd	___glewGetCompressedTextureImageEXT
+	dd	4
+	dd	_5314
+	dd	_4604
+	dd	___glewGetDoubleIndexedvEXT
+	dd	4
+	dd	_5315
+	dd	_4600
+	dd	___glewGetFloatIndexedvEXT
+	dd	4
+	dd	_5316
+	dd	_4558
+	dd	___glewGetFramebufferParameterivEXT
+	dd	4
+	dd	_5317
+	dd	_5318
+	dd	___glewGetMultiTexEnvfvEXT
+	dd	4
+	dd	_5319
+	dd	_4818
+	dd	___glewGetMultiTexEnvivEXT
+	dd	4
+	dd	_5320
+	dd	_5321
+	dd	___glewGetMultiTexGendvEXT
+	dd	4
+	dd	_5322
+	dd	_5318
+	dd	___glewGetMultiTexGenfvEXT
+	dd	4
+	dd	_5323
+	dd	_4818
+	dd	___glewGetMultiTexGenivEXT
+	dd	4
+	dd	_5324
+	dd	_4402
+	dd	___glewGetMultiTexImageEXT
+	dd	4
+	dd	_5325
+	dd	_5326
+	dd	___glewGetMultiTexLevelParameterfvEXT
+	dd	4
+	dd	_5327
+	dd	_5328
+	dd	___glewGetMultiTexLevelParameterivEXT
+	dd	4
+	dd	_5329
+	dd	_4818
+	dd	___glewGetMultiTexParameterIivEXT
+	dd	4
+	dd	_5330
+	dd	_4818
+	dd	___glewGetMultiTexParameterIuivEXT
+	dd	4
+	dd	_5331
+	dd	_5318
+	dd	___glewGetMultiTexParameterfvEXT
+	dd	4
+	dd	_5332
+	dd	_4818
+	dd	___glewGetMultiTexParameterivEXT
+	dd	4
+	dd	_5333
+	dd	_4558
+	dd	___glewGetNamedBufferParameterivEXT
+	dd	4
+	dd	_5334
+	dd	_4560
+	dd	___glewGetNamedBufferPointervEXT
+	dd	4
+	dd	_5335
+	dd	_4526
+	dd	___glewGetNamedBufferSubDataEXT
+	dd	4
+	dd	_5336
+	dd	_4818
+	dd	___glewGetNamedFramebufferAttachmentParameterivEXT
+	dd	4
+	dd	_5337
+	dd	_4818
+	dd	___glewGetNamedProgramLocalParameterIivEXT
+	dd	4
+	dd	_5338
+	dd	_4818
+	dd	___glewGetNamedProgramLocalParameterIuivEXT
+	dd	4
+	dd	_5339
+	dd	_5321
+	dd	___glewGetNamedProgramLocalParameterdvEXT
+	dd	4
+	dd	_5340
+	dd	_5318
+	dd	___glewGetNamedProgramLocalParameterfvEXT
+	dd	4
+	dd	_5341
+	dd	_4526
+	dd	___glewGetNamedProgramStringEXT
+	dd	4
+	dd	_5342
+	dd	_4818
+	dd	___glewGetNamedProgramivEXT
+	dd	4
+	dd	_5343
+	dd	_4558
+	dd	___glewGetNamedRenderbufferParameterivEXT
+	dd	4
+	dd	_5344
+	dd	_4560
+	dd	___glewGetPointerIndexedvEXT
+	dd	4
+	dd	_5345
+	dd	_4402
+	dd	___glewGetTextureImageEXT
+	dd	4
+	dd	_5346
+	dd	_5326
+	dd	___glewGetTextureLevelParameterfvEXT
+	dd	4
+	dd	_5347
+	dd	_5328
+	dd	___glewGetTextureLevelParameterivEXT
+	dd	4
+	dd	_5348
+	dd	_4818
+	dd	___glewGetTextureParameterIivEXT
+	dd	4
+	dd	_5349
+	dd	_4818
+	dd	___glewGetTextureParameterIuivEXT
+	dd	4
+	dd	_5350
+	dd	_5318
+	dd	___glewGetTextureParameterfvEXT
+	dd	4
+	dd	_5351
+	dd	_4818
+	dd	___glewGetTextureParameterivEXT
+	dd	4
+	dd	_5352
+	dd	_4569
+	dd	___glewMapNamedBufferEXT
+	dd	4
+	dd	_5353
+	dd	_5354
+	dd	___glewMatrixFrustumEXT
+	dd	4
+	dd	_5355
+	dd	_4409
+	dd	___glewMatrixLoadIdentityEXT
+	dd	4
+	dd	_5356
+	dd	_4431
+	dd	___glewMatrixLoadTransposedEXT
+	dd	4
+	dd	_5357
+	dd	_4435
+	dd	___glewMatrixLoadTransposefEXT
+	dd	4
+	dd	_5358
+	dd	_4431
+	dd	___glewMatrixLoaddEXT
+	dd	4
+	dd	_5359
+	dd	_4435
+	dd	___glewMatrixLoadfEXT
+	dd	4
+	dd	_5360
+	dd	_4431
+	dd	___glewMatrixMultTransposedEXT
+	dd	4
+	dd	_5361
+	dd	_4435
+	dd	___glewMatrixMultTransposefEXT
+	dd	4
+	dd	_5362
+	dd	_4431
+	dd	___glewMatrixMultdEXT
+	dd	4
+	dd	_5363
+	dd	_4435
+	dd	___glewMatrixMultfEXT
+	dd	4
+	dd	_5364
+	dd	_5354
+	dd	___glewMatrixOrthoEXT
+	dd	4
+	dd	_5365
+	dd	_4409
+	dd	___glewMatrixPopEXT
+	dd	4
+	dd	_5366
+	dd	_4409
+	dd	___glewMatrixPushEXT
+	dd	4
+	dd	_5367
+	dd	_4469
+	dd	___glewMatrixRotatedEXT
+	dd	4
+	dd	_5368
+	dd	_4472
+	dd	___glewMatrixRotatefEXT
+	dd	4
+	dd	_5369
+	dd	_4457
+	dd	___glewMatrixScaledEXT
+	dd	4
+	dd	_5370
+	dd	_4460
+	dd	___glewMatrixScalefEXT
+	dd	4
+	dd	_5371
+	dd	_4457
+	dd	___glewMatrixTranslatedEXT
+	dd	4
+	dd	_5372
+	dd	_4460
+	dd	___glewMatrixTranslatefEXT
+	dd	4
+	dd	_5373
+	dd	_4463
+	dd	___glewMultiTexBufferEXT
+	dd	4
+	dd	_5374
+	dd	_4745
+	dd	___glewMultiTexCoordPointerEXT
+	dd	4
+	dd	_5375
+	dd	_5376
+	dd	___glewMultiTexEnvfEXT
+	dd	4
+	dd	_5377
+	dd	_5318
+	dd	___glewMultiTexEnvfvEXT
+	dd	4
+	dd	_5378
+	dd	_4463
+	dd	___glewMultiTexEnviEXT
+	dd	4
+	dd	_5379
+	dd	_4818
+	dd	___glewMultiTexEnvivEXT
+	dd	4
+	dd	_5380
+	dd	_5381
+	dd	___glewMultiTexGendEXT
+	dd	4
+	dd	_5382
+	dd	_5321
+	dd	___glewMultiTexGendvEXT
+	dd	4
+	dd	_5383
+	dd	_5376
+	dd	___glewMultiTexGenfEXT
+	dd	4
+	dd	_5384
+	dd	_5318
+	dd	___glewMultiTexGenfvEXT
+	dd	4
+	dd	_5385
+	dd	_4463
+	dd	___glewMultiTexGeniEXT
+	dd	4
+	dd	_5386
+	dd	_4818
+	dd	___glewMultiTexGenivEXT
+	dd	4
+	dd	_5387
+	dd	_4416
+	dd	___glewMultiTexImage1DEXT
+	dd	4
+	dd	_5388
+	dd	_4404
+	dd	___glewMultiTexImage2DEXT
+	dd	4
+	dd	_5389
+	dd	_4406
+	dd	___glewMultiTexImage3DEXT
+	dd	4
+	dd	_5390
+	dd	_4818
+	dd	___glewMultiTexParameterIivEXT
+	dd	4
+	dd	_5391
+	dd	_4818
+	dd	___glewMultiTexParameterIuivEXT
+	dd	4
+	dd	_5392
+	dd	_5376
+	dd	___glewMultiTexParameterfEXT
+	dd	4
+	dd	_5393
+	dd	_5318
+	dd	___glewMultiTexParameterfvEXT
+	dd	4
+	dd	_5394
+	dd	_4463
+	dd	___glewMultiTexParameteriEXT
+	dd	4
+	dd	_5395
+	dd	_4818
+	dd	___glewMultiTexParameterivEXT
+	dd	4
+	dd	_5396
+	dd	_4451
+	dd	___glewMultiTexRenderbufferEXT
+	dd	4
+	dd	_5397
+	dd	_4414
+	dd	___glewMultiTexSubImage1DEXT
+	dd	4
+	dd	_5398
+	dd	_4404
+	dd	___glewMultiTexSubImage2DEXT
+	dd	4
+	dd	_5399
+	dd	_5288
+	dd	___glewMultiTexSubImage3DEXT
+	dd	4
+	dd	_5400
+	dd	_4550
+	dd	___glewNamedBufferDataEXT
+	dd	4
+	dd	_5401
+	dd	_4526
+	dd	___glewNamedBufferSubDataEXT
+	dd	4
+	dd	_5402
+	dd	_4463
+	dd	___glewNamedFramebufferRenderbufferEXT
+	dd	4
+	dd	_5403
+	dd	_4475
+	dd	___glewNamedFramebufferTexture1DEXT
+	dd	4
+	dd	_5404
+	dd	_4475
+	dd	___glewNamedFramebufferTexture2DEXT
+	dd	4
+	dd	_5405
+	dd	_4813
+	dd	___glewNamedFramebufferTexture3DEXT
+	dd	4
+	dd	_5406
+	dd	_4463
+	dd	___glewNamedFramebufferTextureEXT
+	dd	4
+	dd	_5407
+	dd	_4475
+	dd	___glewNamedFramebufferTextureFaceEXT
+	dd	4
+	dd	_5408
+	dd	_4475
+	dd	___glewNamedFramebufferTextureLayerEXT
+	dd	4
+	dd	_5409
+	dd	_5410
+	dd	___glewNamedProgramLocalParameter4dEXT
+	dd	4
+	dd	_5411
+	dd	_5321
+	dd	___glewNamedProgramLocalParameter4dvEXT
+	dd	4
+	dd	_5412
+	dd	_5413
+	dd	___glewNamedProgramLocalParameter4fEXT
+	dd	4
+	dd	_5414
+	dd	_5318
+	dd	___glewNamedProgramLocalParameter4fvEXT
+	dd	4
+	dd	_5415
+	dd	_5141
+	dd	___glewNamedProgramLocalParameterI4iEXT
+	dd	4
+	dd	_5416
+	dd	_4818
+	dd	___glewNamedProgramLocalParameterI4ivEXT
+	dd	4
+	dd	_5417
+	dd	_5141
+	dd	___glewNamedProgramLocalParameterI4uiEXT
+	dd	4
+	dd	_5418
+	dd	_4818
+	dd	___glewNamedProgramLocalParameterI4uivEXT
+	dd	4
+	dd	_5419
+	dd	_5326
+	dd	___glewNamedProgramLocalParameters4fvEXT
+	dd	4
+	dd	_5420
+	dd	_5328
+	dd	___glewNamedProgramLocalParametersI4ivEXT
+	dd	4
+	dd	_5421
+	dd	_5328
+	dd	___glewNamedProgramLocalParametersI4uivEXT
+	dd	4
+	dd	_5422
+	dd	_4745
+	dd	___glewNamedProgramStringEXT
+	dd	4
+	dd	_5423
+	dd	_4463
+	dd	___glewNamedRenderbufferStorageEXT
+	dd	4
+	dd	_5424
+	dd	_4813
+	dd	___glewNamedRenderbufferStorageMultisampleCoverageEXT
+	dd	4
+	dd	_5425
+	dd	_4475
+	dd	___glewNamedRenderbufferStorageMultisampleEXT
+	dd	4
+	dd	_5426
+	dd	_4840
+	dd	___glewProgramUniform1fEXT
+	dd	4
+	dd	_5427
+	dd	_5318
+	dd	___glewProgramUniform1fvEXT
+	dd	4
+	dd	_5428
+	dd	_4451
+	dd	___glewProgramUniform1iEXT
+	dd	4
+	dd	_5429
+	dd	_4818
+	dd	___glewProgramUniform1ivEXT
+	dd	4
+	dd	_5430
+	dd	_4451
+	dd	___glewProgramUniform1uiEXT
+	dd	4
+	dd	_5431
+	dd	_4818
+	dd	___glewProgramUniform1uivEXT
+	dd	4
+	dd	_5432
+	dd	_5433
+	dd	___glewProgramUniform2fEXT
+	dd	4
+	dd	_5434
+	dd	_5318
+	dd	___glewProgramUniform2fvEXT
+	dd	4
+	dd	_5435
+	dd	_4463
+	dd	___glewProgramUniform2iEXT
+	dd	4
+	dd	_5436
+	dd	_4818
+	dd	___glewProgramUniform2ivEXT
+	dd	4
+	dd	_5437
+	dd	_4463
+	dd	___glewProgramUniform2uiEXT
+	dd	4
+	dd	_5438
+	dd	_4818
+	dd	___glewProgramUniform2uivEXT
+	dd	4
+	dd	_5439
+	dd	_5440
+	dd	___glewProgramUniform3fEXT
+	dd	4
+	dd	_5441
+	dd	_5318
+	dd	___glewProgramUniform3fvEXT
+	dd	4
+	dd	_5442
+	dd	_4475
+	dd	___glewProgramUniform3iEXT
+	dd	4
+	dd	_5443
+	dd	_4818
+	dd	___glewProgramUniform3ivEXT
+	dd	4
+	dd	_5444
+	dd	_4475
+	dd	___glewProgramUniform3uiEXT
+	dd	4
+	dd	_5445
+	dd	_4818
+	dd	___glewProgramUniform3uivEXT
+	dd	4
+	dd	_5446
+	dd	_5053
+	dd	___glewProgramUniform4fEXT
+	dd	4
+	dd	_5447
+	dd	_5318
+	dd	___glewProgramUniform4fvEXT
+	dd	4
+	dd	_5448
+	dd	_4813
+	dd	___glewProgramUniform4iEXT
+	dd	4
+	dd	_5449
+	dd	_4818
+	dd	___glewProgramUniform4ivEXT
+	dd	4
+	dd	_5450
+	dd	_4813
+	dd	___glewProgramUniform4uiEXT
+	dd	4
+	dd	_5451
+	dd	_4818
+	dd	___glewProgramUniform4uivEXT
+	dd	4
+	dd	_5452
+	dd	_5453
+	dd	___glewProgramUniformMatrix2fvEXT
+	dd	4
+	dd	_5454
+	dd	_5453
+	dd	___glewProgramUniformMatrix2x3fvEXT
+	dd	4
+	dd	_5455
+	dd	_5453
+	dd	___glewProgramUniformMatrix2x4fvEXT
+	dd	4
+	dd	_5456
+	dd	_5453
+	dd	___glewProgramUniformMatrix3fvEXT
+	dd	4
+	dd	_5457
+	dd	_5453
+	dd	___glewProgramUniformMatrix3x2fvEXT
+	dd	4
+	dd	_5458
+	dd	_5453
+	dd	___glewProgramUniformMatrix3x4fvEXT
+	dd	4
+	dd	_5459
+	dd	_5453
+	dd	___glewProgramUniformMatrix4fvEXT
+	dd	4
+	dd	_5460
+	dd	_5453
+	dd	___glewProgramUniformMatrix4x2fvEXT
+	dd	4
+	dd	_5461
+	dd	_5453
+	dd	___glewProgramUniformMatrix4x3fvEXT
+	dd	4
+	dd	_5462
+	dd	_4409
+	dd	___glewPushClientAttribDefaultEXT
+	dd	4
+	dd	_5463
+	dd	_4463
+	dd	___glewTextureBufferEXT
+	dd	4
+	dd	_5464
+	dd	_4416
+	dd	___glewTextureImage1DEXT
+	dd	4
+	dd	_5465
+	dd	_4404
+	dd	___glewTextureImage2DEXT
+	dd	4
+	dd	_5466
+	dd	_4406
+	dd	___glewTextureImage3DEXT
+	dd	4
+	dd	_5467
+	dd	_4818
+	dd	___glewTextureParameterIivEXT
+	dd	4
+	dd	_5468
+	dd	_4818
+	dd	___glewTextureParameterIuivEXT
+	dd	4
+	dd	_5469
+	dd	_5376
+	dd	___glewTextureParameterfEXT
+	dd	4
+	dd	_5470
+	dd	_5318
+	dd	___glewTextureParameterfvEXT
+	dd	4
+	dd	_5471
+	dd	_4463
+	dd	___glewTextureParameteriEXT
+	dd	4
+	dd	_5472
+	dd	_4818
+	dd	___glewTextureParameterivEXT
+	dd	4
+	dd	_5473
+	dd	_4451
+	dd	___glewTextureRenderbufferEXT
+	dd	4
+	dd	_5474
+	dd	_4414
+	dd	___glewTextureSubImage1DEXT
+	dd	4
+	dd	_5475
+	dd	_4404
+	dd	___glewTextureSubImage2DEXT
+	dd	4
+	dd	_5476
+	dd	_5288
+	dd	___glewTextureSubImage3DEXT
+	dd	4
+	dd	_5477
+	dd	_4566
+	dd	___glewUnmapNamedBufferEXT
+	dd	4
+	dd	_5478
+	dd	_4398
+	dd	___GLEW_EXT_direct_state_access
+	dd	4
+	dd	_5479
+	dd	_4659
+	dd	___glewColorMaskIndexedEXT
+	dd	4
+	dd	_5480
+	dd	_4437
+	dd	___glewDisableIndexedEXT
+	dd	4
+	dd	_5481
+	dd	_4437
+	dd	___glewEnableIndexedEXT
+	dd	4
+	dd	_5482
+	dd	_4421
+	dd	___glewGetBooleanIndexedvEXT
+	dd	4
+	dd	_5483
+	dd	_4558
+	dd	___glewGetIntegerIndexedvEXT
+	dd	4
+	dd	_5484
+	dd	_4711
+	dd	___glewIsEnabledIndexedEXT
+	dd	4
+	dd	_5485
+	dd	_4398
+	dd	___GLEW_EXT_draw_buffers2
+	dd	4
+	dd	_5486
+	dd	_4463
+	dd	___glewDrawArraysInstancedEXT
+	dd	4
+	dd	_5487
+	dd	_4796
+	dd	___glewDrawElementsInstancedEXT
+	dd	4
+	dd	_5488
+	dd	_4398
+	dd	___GLEW_EXT_draw_instanced
+	dd	4
+	dd	_5489
+	dd	_4402
+	dd	___glewDrawRangeElementsEXT
+	dd	4
+	dd	_5490
+	dd	_4398
+	dd	___GLEW_EXT_draw_range_elements
+	dd	4
+	dd	_5491
+	dd	_4421
+	dd	___glewFogCoordPointerEXT
+	dd	4
+	dd	_5492
+	dd	_4489
+	dd	___glewFogCoorddEXT
+	dd	4
+	dd	_5493
+	dd	_4423
+	dd	___glewFogCoorddvEXT
+	dd	4
+	dd	_5494
+	dd	_4492
+	dd	___glewFogCoordfEXT
+	dd	4
+	dd	_5495
+	dd	_4425
+	dd	___glewFogCoordfvEXT
+	dd	4
+	dd	_5496
+	dd	_4398
+	dd	___GLEW_EXT_fog_coord
+	dd	4
+	dd	_5497
+	dd	_4437
+	dd	___glewFragmentColorMaterialEXT
+	dd	4
+	dd	_5498
+	dd	_4433
+	dd	___glewFragmentLightModelfEXT
+	dd	4
+	dd	_5499
+	dd	_4435
+	dd	___glewFragmentLightModelfvEXT
+	dd	4
+	dd	_5500
+	dd	_4437
+	dd	___glewFragmentLightModeliEXT
+	dd	4
+	dd	_5501
+	dd	_4439
+	dd	___glewFragmentLightModelivEXT
+	dd	4
+	dd	_5502
+	dd	_4840
+	dd	___glewFragmentLightfEXT
+	dd	4
+	dd	_5503
+	dd	_4600
+	dd	___glewFragmentLightfvEXT
+	dd	4
+	dd	_5504
+	dd	_4451
+	dd	___glewFragmentLightiEXT
+	dd	4
+	dd	_5505
+	dd	_4558
+	dd	___glewFragmentLightivEXT
+	dd	4
+	dd	_5506
+	dd	_4840
+	dd	___glewFragmentMaterialfEXT
+	dd	4
+	dd	_5507
+	dd	_4600
+	dd	___glewFragmentMaterialfvEXT
+	dd	4
+	dd	_5508
+	dd	_4451
+	dd	___glewFragmentMaterialiEXT
+	dd	4
+	dd	_5509
+	dd	_4558
+	dd	___glewFragmentMaterialivEXT
+	dd	4
+	dd	_5510
+	dd	_4600
+	dd	___glewGetFragmentLightfvEXT
+	dd	4
+	dd	_5511
+	dd	_4558
+	dd	___glewGetFragmentLightivEXT
+	dd	4
+	dd	_5512
+	dd	_4600
+	dd	___glewGetFragmentMaterialfvEXT
+	dd	4
+	dd	_5513
+	dd	_4558
+	dd	___glewGetFragmentMaterialivEXT
+	dd	4
+	dd	_5514
+	dd	_4437
+	dd	___glewLightEnviEXT
+	dd	4
+	dd	_5515
+	dd	_4398
+	dd	___GLEW_EXT_fragment_lighting
+	dd	4
+	dd	_5516
+	dd	_4804
+	dd	___glewBlitFramebufferEXT
+	dd	4
+	dd	_5517
+	dd	_4398
+	dd	___GLEW_EXT_framebuffer_blit
+	dd	4
+	dd	_5518
+	dd	_4475
+	dd	___glewRenderbufferStorageMultisampleEXT
+	dd	4
+	dd	_5519
+	dd	_4398
+	dd	___GLEW_EXT_framebuffer_multisample
+	dd	4
+	dd	_5520
+	dd	_4437
+	dd	___glewBindFramebufferEXT
+	dd	4
+	dd	_5521
+	dd	_4437
+	dd	___glewBindRenderbufferEXT
+	dd	4
+	dd	_5522
+	dd	_4409
+	dd	___glewCheckFramebufferStatusEXT
+	dd	4
+	dd	_5523
+	dd	_4439
+	dd	___glewDeleteFramebuffersEXT
+	dd	4
+	dd	_5524
+	dd	_4439
+	dd	___glewDeleteRenderbuffersEXT
+	dd	4
+	dd	_5525
+	dd	_4463
+	dd	___glewFramebufferRenderbufferEXT
+	dd	4
+	dd	_5526
+	dd	_4475
+	dd	___glewFramebufferTexture1DEXT
+	dd	4
+	dd	_5527
+	dd	_4475
+	dd	___glewFramebufferTexture2DEXT
+	dd	4
+	dd	_5528
+	dd	_4813
+	dd	___glewFramebufferTexture3DEXT
+	dd	4
+	dd	_5529
+	dd	_4439
+	dd	___glewGenFramebuffersEXT
+	dd	4
+	dd	_5530
+	dd	_4439
+	dd	___glewGenRenderbuffersEXT
+	dd	4
+	dd	_5531
+	dd	_4409
+	dd	___glewGenerateMipmapEXT
+	dd	4
+	dd	_5532
+	dd	_4818
+	dd	___glewGetFramebufferAttachmentParameterivEXT
+	dd	4
+	dd	_5533
+	dd	_4558
+	dd	___glewGetRenderbufferParameterivEXT
+	dd	4
+	dd	_5534
+	dd	_4566
+	dd	___glewIsFramebufferEXT
+	dd	4
+	dd	_5535
+	dd	_4566
+	dd	___glewIsRenderbufferEXT
+	dd	4
+	dd	_5536
+	dd	_4463
+	dd	___glewRenderbufferStorageEXT
+	dd	4
+	dd	_5537
+	dd	_4398
+	dd	___GLEW_EXT_framebuffer_object
+	dd	4
+	dd	_5538
+	dd	_4398
+	dd	___GLEW_EXT_framebuffer_sRGB
+	dd	4
+	dd	_5539
+	dd	_4463
+	dd	___glewFramebufferTextureEXT
+	dd	4
+	dd	_5540
+	dd	_4475
+	dd	___glewFramebufferTextureFaceEXT
+	dd	4
+	dd	_5541
+	dd	_4475
+	dd	___glewFramebufferTextureLayerEXT
+	dd	4
+	dd	_5542
+	dd	_4451
+	dd	___glewProgramParameteriEXT
+	dd	4
+	dd	_5543
+	dd	_4398
+	dd	___GLEW_EXT_geometry_shader4
+	dd	4
+	dd	_5544
+	dd	_5318
+	dd	___glewProgramEnvParameters4fvEXT
+	dd	4
+	dd	_5545
+	dd	_5318
+	dd	___glewProgramLocalParameters4fvEXT
+	dd	4
+	dd	_5546
+	dd	_4398
+	dd	___GLEW_EXT_gpu_program_parameters
+	dd	4
+	dd	_5547
+	dd	_4421
+	dd	___glewBindFragDataLocationEXT
+	dd	4
+	dd	_5548
+	dd	_4591
+	dd	___glewGetFragDataLocationEXT
+	dd	4
+	dd	_5549
+	dd	_4558
+	dd	___glewGetUniformuivEXT
+	dd	4
+	dd	_5550
+	dd	_4558
+	dd	___glewGetVertexAttribIivEXT
+	dd	4
+	dd	_5551
+	dd	_4558
+	dd	___glewGetVertexAttribIuivEXT
+	dd	4
+	dd	_5552
+	dd	_4437
+	dd	___glewUniform1uiEXT
+	dd	4
+	dd	_5553
+	dd	_4558
+	dd	___glewUniform1uivEXT
+	dd	4
+	dd	_5554
+	dd	_4451
+	dd	___glewUniform2uiEXT
+	dd	4
+	dd	_5555
+	dd	_4558
+	dd	___glewUniform2uivEXT
+	dd	4
+	dd	_5556
+	dd	_4463
+	dd	___glewUniform3uiEXT
+	dd	4
+	dd	_5557
+	dd	_4558
+	dd	___glewUniform3uivEXT
+	dd	4
+	dd	_5558
+	dd	_4475
+	dd	___glewUniform4uiEXT
+	dd	4
+	dd	_5559
+	dd	_4558
+	dd	___glewUniform4uivEXT
+	dd	4
+	dd	_5560
+	dd	_4437
+	dd	___glewVertexAttribI1iEXT
+	dd	4
+	dd	_5561
+	dd	_4439
+	dd	___glewVertexAttribI1ivEXT
+	dd	4
+	dd	_5562
+	dd	_4437
+	dd	___glewVertexAttribI1uiEXT
+	dd	4
+	dd	_5563
+	dd	_4439
+	dd	___glewVertexAttribI1uivEXT
+	dd	4
+	dd	_5564
+	dd	_4451
+	dd	___glewVertexAttribI2iEXT
+	dd	4
+	dd	_5565
+	dd	_4439
+	dd	___glewVertexAttribI2ivEXT
+	dd	4
+	dd	_5566
+	dd	_4451
+	dd	___glewVertexAttribI2uiEXT
+	dd	4
+	dd	_5567
+	dd	_4439
+	dd	___glewVertexAttribI2uivEXT
+	dd	4
+	dd	_5568
+	dd	_4463
+	dd	___glewVertexAttribI3iEXT
+	dd	4
+	dd	_5569
+	dd	_4439
+	dd	___glewVertexAttribI3ivEXT
+	dd	4
+	dd	_5570
+	dd	_4463
+	dd	___glewVertexAttribI3uiEXT
+	dd	4
+	dd	_5571
+	dd	_4439
+	dd	___glewVertexAttribI3uivEXT
+	dd	4
+	dd	_5572
+	dd	_4591
+	dd	___glewVertexAttribI4bvEXT
+	dd	4
+	dd	_5573
+	dd	_4475
+	dd	___glewVertexAttribI4iEXT
+	dd	4
+	dd	_5574
+	dd	_4439
+	dd	___glewVertexAttribI4ivEXT
+	dd	4
+	dd	_5575
+	dd	_4443
+	dd	___glewVertexAttribI4svEXT
+	dd	4
+	dd	_5576
+	dd	_4591
+	dd	___glewVertexAttribI4ubvEXT
+	dd	4
+	dd	_5577
+	dd	_4475
+	dd	___glewVertexAttribI4uiEXT
+	dd	4
+	dd	_5578
+	dd	_4439
+	dd	___glewVertexAttribI4uivEXT
+	dd	4
+	dd	_5579
+	dd	_4443
+	dd	___glewVertexAttribI4usvEXT
+	dd	4
+	dd	_5580
+	dd	_4745
+	dd	___glewVertexAttribIPointerEXT
+	dd	4
+	dd	_5581
+	dd	_4398
+	dd	___GLEW_EXT_gpu_shader4
+	dd	4
+	dd	_5582
+	dd	_4855
+	dd	___glewGetHistogramEXT
+	dd	4
+	dd	_5583
+	dd	_4600
+	dd	___glewGetHistogramParameterfvEXT
+	dd	4
+	dd	_5584
+	dd	_4558
+	dd	___glewGetHistogramParameterivEXT
+	dd	4
+	dd	_5585
+	dd	_4855
+	dd	___glewGetMinmaxEXT
+	dd	4
+	dd	_5586
+	dd	_4600
+	dd	___glewGetMinmaxParameterfvEXT
+	dd	4
+	dd	_5587
+	dd	_4558
+	dd	___glewGetMinmaxParameterivEXT
+	dd	4
+	dd	_5588
+	dd	_4864
+	dd	___glewHistogramEXT
+	dd	4
+	dd	_5589
+	dd	_4866
+	dd	___glewMinmaxEXT
+	dd	4
+	dd	_5590
+	dd	_4409
+	dd	___glewResetHistogramEXT
+	dd	4
+	dd	_5591
+	dd	_4409
+	dd	___glewResetMinmaxEXT
+	dd	4
+	dd	_5592
+	dd	_4398
+	dd	___GLEW_EXT_histogram
+	dd	4
+	dd	_5593
+	dd	_4398
+	dd	___GLEW_EXT_index_array_formats
+	dd	4
+	dd	_5594
+	dd	_4433
+	dd	___glewIndexFuncEXT
+	dd	4
+	dd	_5595
+	dd	_4398
+	dd	___GLEW_EXT_index_func
+	dd	4
+	dd	_5596
+	dd	_4437
+	dd	___glewIndexMaterialEXT
+	dd	4
+	dd	_5597
+	dd	_4398
+	dd	___GLEW_EXT_index_material
+	dd	4
+	dd	_5598
+	dd	_4398
+	dd	___GLEW_EXT_index_texture
+	dd	4
+	dd	_5599
+	dd	_4409
+	dd	___glewApplyTextureEXT
+	dd	4
+	dd	_5600
+	dd	_4409
+	dd	___glewTextureLightEXT
+	dd	4
+	dd	_5601
+	dd	_4437
+	dd	___glewTextureMaterialEXT
+	dd	4
+	dd	_5602
+	dd	_4398
+	dd	___GLEW_EXT_light_texture
+	dd	4
+	dd	_5603
+	dd	_4398
+	dd	___GLEW_EXT_misc_attribute
+	dd	4
+	dd	_5604
+	dd	_4495
+	dd	___glewMultiDrawArraysEXT
+	dd	4
+	dd	_5605
+	dd	_4497
+	dd	___glewMultiDrawElementsEXT
+	dd	4
+	dd	_5606
+	dd	_4398
+	dd	___GLEW_EXT_multi_draw_arrays
+	dd	4
+	dd	_5607
+	dd	_4481
+	dd	___glewSampleMaskEXT
+	dd	4
+	dd	_5608
+	dd	_4409
+	dd	___glewSamplePatternEXT
+	dd	4
+	dd	_5609
+	dd	_4398
+	dd	___GLEW_EXT_multisample
+	dd	4
+	dd	_5610
+	dd	_4398
+	dd	___GLEW_EXT_packed_depth_stencil
+	dd	4
+	dd	_5611
+	dd	_4398
+	dd	___GLEW_EXT_packed_float
+	dd	4
+	dd	_5612
+	dd	_4398
+	dd	___GLEW_EXT_packed_pixels
+	dd	4
+	dd	_5613
+	dd	_4402
+	dd	___glewColorTableEXT
+	dd	4
+	dd	_5614
+	dd	_4526
+	dd	___glewGetColorTableEXT
+	dd	4
+	dd	_5615
+	dd	_4600
+	dd	___glewGetColorTableParameterfvEXT
+	dd	4
+	dd	_5616
+	dd	_4558
+	dd	___glewGetColorTableParameterivEXT
+	dd	4
+	dd	_5617
+	dd	_4398
+	dd	___GLEW_EXT_paletted_texture
+	dd	4
+	dd	_5618
+	dd	_4398
+	dd	___GLEW_EXT_pixel_buffer_object
+	dd	4
+	dd	_5619
+	dd	_4600
+	dd	___glewGetPixelTransformParameterfvEXT
+	dd	4
+	dd	_5620
+	dd	_4558
+	dd	___glewGetPixelTransformParameterivEXT
+	dd	4
+	dd	_5621
+	dd	_4840
+	dd	___glewPixelTransformParameterfEXT
+	dd	4
+	dd	_5622
+	dd	_4600
+	dd	___glewPixelTransformParameterfvEXT
+	dd	4
+	dd	_5623
+	dd	_4451
+	dd	___glewPixelTransformParameteriEXT
+	dd	4
+	dd	_5624
+	dd	_4558
+	dd	___glewPixelTransformParameterivEXT
+	dd	4
+	dd	_5625
+	dd	_4398
+	dd	___GLEW_EXT_pixel_transform
+	dd	4
+	dd	_5626
+	dd	_4398
+	dd	___GLEW_EXT_pixel_transform_color_table
+	dd	4
+	dd	_5627
+	dd	_4433
+	dd	___glewPointParameterfEXT
+	dd	4
+	dd	_5628
+	dd	_4435
+	dd	___glewPointParameterfvEXT
+	dd	4
+	dd	_5629
+	dd	_4398
+	dd	___GLEW_EXT_point_parameters
+	dd	4
+	dd	_5630
+	dd	_4531
+	dd	___glewPolygonOffsetEXT
+	dd	4
+	dd	_5631
+	dd	_4398
+	dd	___GLEW_EXT_polygon_offset
+	dd	4
+	dd	_5632
+	dd	_4398
+	dd	___GLEW_EXT_rescale_normal
+	dd	4
+	dd	_5633
+	dd	_4577
+	dd	___glewBeginSceneEXT
+	dd	4
+	dd	_5634
+	dd	_4577
+	dd	___glewEndSceneEXT
+	dd	4
+	dd	_5635
+	dd	_4398
+	dd	___GLEW_EXT_scene_marker
+	dd	4
+	dd	_5636
+	dd	_4503
+	dd	___glewSecondaryColor3bEXT
+	dd	4
+	dd	_5637
+	dd	_4505
+	dd	___glewSecondaryColor3bvEXT
+	dd	4
+	dd	_5638
+	dd	_4507
+	dd	___glewSecondaryColor3dEXT
+	dd	4
+	dd	_5639
+	dd	_4423
+	dd	___glewSecondaryColor3dvEXT
+	dd	4
+	dd	_5640
+	dd	_4510
+	dd	___glewSecondaryColor3fEXT
+	dd	4
+	dd	_5641
+	dd	_4425
+	dd	___glewSecondaryColor3fvEXT
+	dd	4
+	dd	_5642
+	dd	_4451
+	dd	___glewSecondaryColor3iEXT
+	dd	4
+	dd	_5643
+	dd	_4514
+	dd	___glewSecondaryColor3ivEXT
+	dd	4
+	dd	_5644
+	dd	_4516
+	dd	___glewSecondaryColor3sEXT
+	dd	4
+	dd	_5645
+	dd	_4518
+	dd	___glewSecondaryColor3svEXT
+	dd	4
+	dd	_5646
+	dd	_4503
+	dd	___glewSecondaryColor3ubEXT
+	dd	4
+	dd	_5647
+	dd	_4505
+	dd	___glewSecondaryColor3ubvEXT
+	dd	4
+	dd	_5648
+	dd	_4451
+	dd	___glewSecondaryColor3uiEXT
+	dd	4
+	dd	_5649
+	dd	_4514
+	dd	___glewSecondaryColor3uivEXT
+	dd	4
+	dd	_5650
+	dd	_4516
+	dd	___glewSecondaryColor3usEXT
+	dd	4
+	dd	_5651
+	dd	_4518
+	dd	___glewSecondaryColor3usvEXT
+	dd	4
+	dd	_5652
+	dd	_4526
+	dd	___glewSecondaryColorPointerEXT
+	dd	4
+	dd	_5653
+	dd	_4398
+	dd	___GLEW_EXT_secondary_color
+	dd	4
+	dd	_5654
+	dd	_4398
+	dd	___GLEW_EXT_separate_specular_color
+	dd	4
+	dd	_5655
+	dd	_4398
+	dd	___GLEW_EXT_shadow_funcs
+	dd	4
+	dd	_5656
+	dd	_4398
+	dd	___GLEW_EXT_shared_texture_palette
+	dd	4
+	dd	_5657
+	dd	_4398
+	dd	___GLEW_EXT_stencil_clear_tag
+	dd	4
+	dd	_5658
+	dd	_4409
+	dd	___glewActiveStencilFaceEXT
+	dd	4
+	dd	_5659
+	dd	_4398
+	dd	___GLEW_EXT_stencil_two_side
+	dd	4
+	dd	_5660
+	dd	_4398
+	dd	___GLEW_EXT_stencil_wrap
+	dd	4
+	dd	_5661
+	dd	_4412
+	dd	___glewTexSubImage1DEXT
+	dd	4
+	dd	_5662
+	dd	_4416
+	dd	___glewTexSubImage2DEXT
+	dd	4
+	dd	_5663
+	dd	_4406
+	dd	___glewTexSubImage3DEXT
+	dd	4
+	dd	_5664
+	dd	_4398
+	dd	___GLEW_EXT_subtexture
+	dd	4
+	dd	_5665
+	dd	_4398
+	dd	___GLEW_EXT_texture
+	dd	4
+	dd	_5666
+	dd	_4404
+	dd	___glewTexImage3DEXT
+	dd	4
+	dd	_5667
+	dd	_4398
+	dd	___GLEW_EXT_texture3D
+	dd	4
+	dd	_5668
+	dd	_4398
+	dd	___GLEW_EXT_texture_array
+	dd	4
+	dd	_5669
+	dd	_4451
+	dd	___glewTexBufferEXT
+	dd	4
+	dd	_5670
+	dd	_4398
+	dd	___GLEW_EXT_texture_buffer_object
+	dd	4
+	dd	_5671
+	dd	_4398
+	dd	___GLEW_EXT_texture_compression_dxt1
+	dd	4
+	dd	_5672
+	dd	_4398
+	dd	___GLEW_EXT_texture_compression_latc
+	dd	4
+	dd	_5673
+	dd	_4398
+	dd	___GLEW_EXT_texture_compression_rgtc
+	dd	4
+	dd	_5674
+	dd	_4398
+	dd	___GLEW_EXT_texture_compression_s3tc
+	dd	4
+	dd	_5675
+	dd	_4398
+	dd	___GLEW_EXT_texture_cube_map
+	dd	4
+	dd	_5676
+	dd	_4398
+	dd	___GLEW_EXT_texture_edge_clamp
+	dd	4
+	dd	_5677
+	dd	_4398
+	dd	___GLEW_EXT_texture_env
+	dd	4
+	dd	_5678
+	dd	_4398
+	dd	___GLEW_EXT_texture_env_add
+	dd	4
+	dd	_5679
+	dd	_4398
+	dd	___GLEW_EXT_texture_env_combine
+	dd	4
+	dd	_5680
+	dd	_4398
+	dd	___GLEW_EXT_texture_env_dot3
+	dd	4
+	dd	_5681
+	dd	_4398
+	dd	___GLEW_EXT_texture_filter_anisotropic
+	dd	4
+	dd	_5682
+	dd	_4463
+	dd	___glewClearColorIiEXT
+	dd	4
+	dd	_5683
+	dd	_4463
+	dd	___glewClearColorIuiEXT
+	dd	4
+	dd	_5684
+	dd	_4558
+	dd	___glewGetTexParameterIivEXT
+	dd	4
+	dd	_5685
+	dd	_4558
+	dd	___glewGetTexParameterIuivEXT
+	dd	4
+	dd	_5686
+	dd	_4558
+	dd	___glewTexParameterIivEXT
+	dd	4
+	dd	_5687
+	dd	_4558
+	dd	___glewTexParameterIuivEXT
+	dd	4
+	dd	_5688
+	dd	_4398
+	dd	___GLEW_EXT_texture_integer
+	dd	4
+	dd	_5689
+	dd	_4398
+	dd	___GLEW_EXT_texture_lod_bias
+	dd	4
+	dd	_5690
+	dd	_4398
+	dd	___GLEW_EXT_texture_mirror_clamp
+	dd	4
+	dd	_5691
+	dd	_5692
+	dd	___glewAreTexturesResidentEXT
+	dd	4
+	dd	_5693
+	dd	_4437
+	dd	___glewBindTextureEXT
+	dd	4
+	dd	_5694
+	dd	_4439
+	dd	___glewDeleteTexturesEXT
+	dd	4
+	dd	_5695
+	dd	_4439
+	dd	___glewGenTexturesEXT
+	dd	4
+	dd	_5696
+	dd	_4566
+	dd	___glewIsTextureEXT
+	dd	4
+	dd	_5697
+	dd	_5698
+	dd	___glewPrioritizeTexturesEXT
+	dd	4
+	dd	_5699
+	dd	_4398
+	dd	___GLEW_EXT_texture_object
+	dd	4
+	dd	_5700
+	dd	_4409
+	dd	___glewTextureNormalEXT
+	dd	4
+	dd	_5701
+	dd	_4398
+	dd	___GLEW_EXT_texture_perturb_normal
+	dd	4
+	dd	_5702
+	dd	_4398
+	dd	___GLEW_EXT_texture_rectangle
+	dd	4
+	dd	_5703
+	dd	_4398
+	dd	___GLEW_EXT_texture_sRGB
+	dd	4
+	dd	_5704
+	dd	_4398
+	dd	___GLEW_EXT_texture_shared_exponent
+	dd	4
+	dd	_5705
+	dd	_4398
+	dd	___GLEW_EXT_texture_swizzle
+	dd	4
+	dd	_5706
+	dd	_5707
+	dd	___glewGetQueryObjecti64vEXT
+	dd	4
+	dd	_5708
+	dd	_5707
+	dd	___glewGetQueryObjectui64vEXT
+	dd	4
+	dd	_5709
+	dd	_4398
+	dd	___GLEW_EXT_timer_query
+	dd	4
+	dd	_5710
+	dd	_4409
+	dd	___glewBeginTransformFeedbackEXT
+	dd	4
+	dd	_5711
+	dd	_4451
+	dd	___glewBindBufferBaseEXT
+	dd	4
+	dd	_5712
+	dd	_4463
+	dd	___glewBindBufferOffsetEXT
+	dd	4
+	dd	_5713
+	dd	_4475
+	dd	___glewBindBufferRangeEXT
+	dd	4
+	dd	_5714
+	dd	_4577
+	dd	___glewEndTransformFeedbackEXT
+	dd	4
+	dd	_5715
+	dd	_4586
+	dd	___glewGetTransformFeedbackVaryingEXT
+	dd	4
+	dd	_5716
+	dd	_5717
+	dd	___glewTransformFeedbackVaryingsEXT
+	dd	4
+	dd	_5718
+	dd	_4398
+	dd	___GLEW_EXT_transform_feedback
+	dd	4
+	dd	_5719
+	dd	_4409
+	dd	___glewArrayElementEXT
+	dd	4
+	dd	_5720
+	dd	_4745
+	dd	___glewColorPointerEXT
+	dd	4
+	dd	_5721
+	dd	_4451
+	dd	___glewDrawArraysEXT
+	dd	4
+	dd	_5722
+	dd	_4421
+	dd	___glewEdgeFlagPointerEXT
+	dd	4
+	dd	_5723
+	dd	_5724
+	dd	___glewGetPointervEXT
+	dd	4
+	dd	_5725
+	dd	_4526
+	dd	___glewIndexPointerEXT
+	dd	4
+	dd	_5726
+	dd	_4526
+	dd	___glewNormalPointerEXT
+	dd	4
+	dd	_5727
+	dd	_4745
+	dd	___glewTexCoordPointerEXT
+	dd	4
+	dd	_5728
+	dd	_4745
+	dd	___glewVertexPointerEXT
+	dd	4
+	dd	_5729
+	dd	_4398
+	dd	___GLEW_EXT_vertex_array
+	dd	4
+	dd	_5730
+	dd	_4398
+	dd	___GLEW_EXT_vertex_array_bgra
+	dd	4
+	dd	_5731
+	dd	_4577
+	dd	___glewBeginVertexShaderEXT
+	dd	4
+	dd	_5732
+	dd	_4437
+	dd	___glewBindLightParameterEXT
+	dd	4
+	dd	_5733
+	dd	_4437
+	dd	___glewBindMaterialParameterEXT
+	dd	4
+	dd	_5734
+	dd	_4409
+	dd	___glewBindParameterEXT
+	dd	4
+	dd	_5735
+	dd	_4451
+	dd	___glewBindTexGenParameterEXT
+	dd	4
+	dd	_5736
+	dd	_4437
+	dd	___glewBindTextureUnitParameterEXT
+	dd	4
+	dd	_5737
+	dd	_4409
+	dd	___glewBindVertexShaderEXT
+	dd	4
+	dd	_5738
+	dd	_4409
+	dd	___glewDeleteVertexShaderEXT
+	dd	4
+	dd	_5739
+	dd	_4409
+	dd	___glewDisableVariantClientStateEXT
+	dd	4
+	dd	_5740
+	dd	_4409
+	dd	___glewEnableVariantClientStateEXT
+	dd	4
+	dd	_5741
+	dd	_4577
+	dd	___glewEndVertexShaderEXT
+	dd	4
+	dd	_5742
+	dd	_4451
+	dd	___glewExtractComponentEXT
+	dd	4
+	dd	_5743
+	dd	_4463
+	dd	___glewGenSymbolsEXT
+	dd	4
+	dd	_5744
+	dd	_4409
+	dd	___glewGenVertexShadersEXT
+	dd	4
+	dd	_5745
+	dd	_4421
+	dd	___glewGetInvariantBooleanvEXT
+	dd	4
+	dd	_5746
+	dd	_4600
+	dd	___glewGetInvariantFloatvEXT
+	dd	4
+	dd	_5747
+	dd	_4558
+	dd	___glewGetInvariantIntegervEXT
+	dd	4
+	dd	_5748
+	dd	_4421
+	dd	___glewGetLocalConstantBooleanvEXT
+	dd	4
+	dd	_5749
+	dd	_4600
+	dd	___glewGetLocalConstantFloatvEXT
+	dd	4
+	dd	_5750
+	dd	_4558
+	dd	___glewGetLocalConstantIntegervEXT
+	dd	4
+	dd	_5751
+	dd	_4421
+	dd	___glewGetVariantBooleanvEXT
+	dd	4
+	dd	_5752
+	dd	_4600
+	dd	___glewGetVariantFloatvEXT
+	dd	4
+	dd	_5753
+	dd	_4558
+	dd	___glewGetVariantIntegervEXT
+	dd	4
+	dd	_5754
+	dd	_4560
+	dd	___glewGetVariantPointervEXT
+	dd	4
+	dd	_5755
+	dd	_4451
+	dd	___glewInsertComponentEXT
+	dd	4
+	dd	_5756
+	dd	_4711
+	dd	___glewIsVariantEnabledEXT
+	dd	4
+	dd	_5757
+	dd	_4421
+	dd	___glewSetInvariantEXT
+	dd	4
+	dd	_5758
+	dd	_4421
+	dd	___glewSetLocalConstantEXT
+	dd	4
+	dd	_5759
+	dd	_4451
+	dd	___glewShaderOp1EXT
+	dd	4
+	dd	_5760
+	dd	_4463
+	dd	___glewShaderOp2EXT
+	dd	4
+	dd	_5761
+	dd	_4475
+	dd	___glewShaderOp3EXT
+	dd	4
+	dd	_5762
+	dd	_4813
+	dd	___glewSwizzleEXT
+	dd	4
+	dd	_5763
+	dd	_4526
+	dd	___glewVariantPointerEXT
+	dd	4
+	dd	_5764
+	dd	_4591
+	dd	___glewVariantbvEXT
+	dd	4
+	dd	_5765
+	dd	_4431
+	dd	___glewVariantdvEXT
+	dd	4
+	dd	_5766
+	dd	_4435
+	dd	___glewVariantfvEXT
+	dd	4
+	dd	_5767
+	dd	_4439
+	dd	___glewVariantivEXT
+	dd	4
+	dd	_5768
+	dd	_4443
+	dd	___glewVariantsvEXT
+	dd	4
+	dd	_5769
+	dd	_4591
+	dd	___glewVariantubvEXT
+	dd	4
+	dd	_5770
+	dd	_4439
+	dd	___glewVariantuivEXT
+	dd	4
+	dd	_5771
+	dd	_4443
+	dd	___glewVariantusvEXT
+	dd	4
+	dd	_5772
+	dd	_4813
+	dd	___glewWriteMaskEXT
+	dd	4
+	dd	_5773
+	dd	_4398
+	dd	___GLEW_EXT_vertex_shader
+	dd	4
+	dd	_5774
+	dd	_4526
+	dd	___glewVertexWeightPointerEXT
+	dd	4
+	dd	_5775
+	dd	_4492
+	dd	___glewVertexWeightfEXT
+	dd	4
+	dd	_5776
+	dd	_4425
+	dd	___glewVertexWeightfvEXT
+	dd	4
+	dd	_5777
+	dd	_4398
+	dd	___GLEW_EXT_vertex_weighting
+	dd	4
+	dd	_5778
+	dd	_4577
+	dd	___glewFrameTerminatorGREMEDY
+	dd	4
+	dd	_5779
+	dd	_4398
+	dd	___GLEW_GREMEDY_frame_terminator
+	dd	4
+	dd	_5780
+	dd	_4591
+	dd	___glewStringMarkerGREMEDY
+	dd	4
+	dd	_5781
+	dd	_4398
+	dd	___GLEW_GREMEDY_string_marker
+	dd	4
+	dd	_5782
+	dd	_4398
+	dd	___GLEW_HP_convolution_border_modes
+	dd	4
+	dd	_5783
+	dd	_4600
+	dd	___glewGetImageTransformParameterfvHP
+	dd	4
+	dd	_5784
+	dd	_4558
+	dd	___glewGetImageTransformParameterivHP
+	dd	4
+	dd	_5785
+	dd	_4840
+	dd	___glewImageTransformParameterfHP
+	dd	4
+	dd	_5786
+	dd	_4600
+	dd	___glewImageTransformParameterfvHP
+	dd	4
+	dd	_5787
+	dd	_4451
+	dd	___glewImageTransformParameteriHP
+	dd	4
+	dd	_5788
+	dd	_4558
+	dd	___glewImageTransformParameterivHP
+	dd	4
+	dd	_5789
+	dd	_4398
+	dd	___GLEW_HP_image_transform
+	dd	4
+	dd	_5790
+	dd	_4398
+	dd	___GLEW_HP_occlusion_test
+	dd	4
+	dd	_5791
+	dd	_4398
+	dd	___GLEW_HP_texture_lighting
+	dd	4
+	dd	_5792
+	dd	_4398
+	dd	___GLEW_IBM_cull_vertex
+	dd	4
+	dd	_5793
+	dd	_5794
+	dd	___glewMultiModeDrawArraysIBM
+	dd	4
+	dd	_5795
+	dd	_5796
+	dd	___glewMultiModeDrawElementsIBM
+	dd	4
+	dd	_5797
+	dd	_4398
+	dd	___GLEW_IBM_multimode_draw_arrays
+	dd	4
+	dd	_5798
+	dd	_4398
+	dd	___GLEW_IBM_rasterpos_clip
+	dd	4
+	dd	_5799
+	dd	_4398
+	dd	___GLEW_IBM_static_data
+	dd	4
+	dd	_5800
+	dd	_4398
+	dd	___GLEW_IBM_texture_mirrored_repeat
+	dd	4
+	dd	_5801
+	dd	_5802
+	dd	___glewColorPointerListIBM
+	dd	4
+	dd	_5803
+	dd	_5804
+	dd	___glewEdgeFlagPointerListIBM
+	dd	4
+	dd	_5805
+	dd	_5717
+	dd	___glewFogCoordPointerListIBM
+	dd	4
+	dd	_5806
+	dd	_5717
+	dd	___glewIndexPointerListIBM
+	dd	4
+	dd	_5807
+	dd	_5717
+	dd	___glewNormalPointerListIBM
+	dd	4
+	dd	_5808
+	dd	_5802
+	dd	___glewSecondaryColorPointerListIBM
+	dd	4
+	dd	_5809
+	dd	_5802
+	dd	___glewTexCoordPointerListIBM
+	dd	4
+	dd	_5810
+	dd	_5802
+	dd	___glewVertexPointerListIBM
+	dd	4
+	dd	_5811
+	dd	_4398
+	dd	___GLEW_IBM_vertex_array_lists
+	dd	4
+	dd	_5812
+	dd	_4398
+	dd	___GLEW_INGR_color_clamp
+	dd	4
+	dd	_5813
+	dd	_4398
+	dd	___GLEW_INGR_interlace_read
+	dd	4
+	dd	_5814
+	dd	_4560
+	dd	___glewColorPointervINTEL
+	dd	4
+	dd	_5815
+	dd	_5724
+	dd	___glewNormalPointervINTEL
+	dd	4
+	dd	_5816
+	dd	_4560
+	dd	___glewTexCoordPointervINTEL
+	dd	4
+	dd	_5817
+	dd	_4560
+	dd	___glewVertexPointervINTEL
+	dd	4
+	dd	_5818
+	dd	_4398
+	dd	___GLEW_INTEL_parallel_arrays
+	dd	4
+	dd	_5819
+	dd	_4451
+	dd	___glewTexScissorFuncINTEL
+	dd	4
+	dd	_5820
+	dd	_4448
+	dd	___glewTexScissorINTEL
+	dd	4
+	dd	_5821
+	dd	_4398
+	dd	___GLEW_INTEL_texture_scissor
+	dd	4
+	dd	_5822
+	dd	_4577
+	dd	___glewBufferRegionEnabledEXT
+	dd	4
+	dd	_5823
+	dd	_4409
+	dd	___glewDeleteBufferRegionEXT
+	dd	4
+	dd	_5824
+	dd	_5141
+	dd	___glewDrawBufferRegionEXT
+	dd	4
+	dd	_5825
+	dd	_4409
+	dd	___glewNewBufferRegionEXT
+	dd	4
+	dd	_5826
+	dd	_4475
+	dd	___glewReadBufferRegionEXT
+	dd	4
+	dd	_5827
+	dd	_4398
+	dd	___GLEW_KTX_buffer_region
+	dd	4
+	dd	_5828
+	dd	_4398
+	dd	___GLEW_MESAX_texture_stack
+	dd	4
+	dd	_5829
+	dd	_4398
+	dd	___GLEW_MESA_pack_invert
+	dd	4
+	dd	_5830
+	dd	_4577
+	dd	___glewResizeBuffersMESA
+	dd	4
+	dd	_5831
+	dd	_4398
+	dd	___GLEW_MESA_resize_buffers
+	dd	4
+	dd	_5832
+	dd	_4528
+	dd	___glewWindowPos2dMESA
+	dd	4
+	dd	_5833
+	dd	_4423
+	dd	___glewWindowPos2dvMESA
+	dd	4
+	dd	_5834
+	dd	_4531
+	dd	___glewWindowPos2fMESA
+	dd	4
+	dd	_5835
+	dd	_4425
+	dd	___glewWindowPos2fvMESA
+	dd	4
+	dd	_5836
+	dd	_4437
+	dd	___glewWindowPos2iMESA
+	dd	4
+	dd	_5837
+	dd	_4514
+	dd	___glewWindowPos2ivMESA
+	dd	4
+	dd	_5838
+	dd	_4536
+	dd	___glewWindowPos2sMESA
+	dd	4
+	dd	_5839
+	dd	_4518
+	dd	___glewWindowPos2svMESA
+	dd	4
+	dd	_5840
+	dd	_4507
+	dd	___glewWindowPos3dMESA
+	dd	4
+	dd	_5841
+	dd	_4423
+	dd	___glewWindowPos3dvMESA
+	dd	4
+	dd	_5842
+	dd	_4510
+	dd	___glewWindowPos3fMESA
+	dd	4
+	dd	_5843
+	dd	_4425
+	dd	___glewWindowPos3fvMESA
+	dd	4
+	dd	_5844
+	dd	_4451
+	dd	___glewWindowPos3iMESA
+	dd	4
+	dd	_5845
+	dd	_4514
+	dd	___glewWindowPos3ivMESA
+	dd	4
+	dd	_5846
+	dd	_4516
+	dd	___glewWindowPos3sMESA
+	dd	4
+	dd	_5847
+	dd	_4518
+	dd	___glewWindowPos3svMESA
+	dd	4
+	dd	_5848
+	dd	_5849
+	dd	___glewWindowPos4dMESA
+	dd	4
+	dd	_5850
+	dd	_4423
+	dd	___glewWindowPos4dvMESA
+	dd	4
+	dd	_5851
+	dd	_4484
+	dd	___glewWindowPos4fMESA
+	dd	4
+	dd	_5852
+	dd	_4425
+	dd	___glewWindowPos4fvMESA
+	dd	4
+	dd	_5853
+	dd	_4463
+	dd	___glewWindowPos4iMESA
+	dd	4
+	dd	_5854
+	dd	_4514
+	dd	___glewWindowPos4ivMESA
+	dd	4
+	dd	_5855
+	dd	_5856
+	dd	___glewWindowPos4sMESA
+	dd	4
+	dd	_5857
+	dd	_4518
+	dd	___glewWindowPos4svMESA
+	dd	4
+	dd	_5858
+	dd	_4398
+	dd	___GLEW_MESA_window_pos
+	dd	4
+	dd	_5859
+	dd	_4398
+	dd	___GLEW_MESA_ycbcr_texture
+	dd	4
+	dd	_5860
+	dd	_4398
+	dd	___GLEW_NV_blend_square
+	dd	4
+	dd	_5861
+	dd	_4437
+	dd	___glewBeginConditionalRenderNV
+	dd	4
+	dd	_5862
+	dd	_4577
+	dd	___glewEndConditionalRenderNV
+	dd	4
+	dd	_5863
+	dd	_4398
+	dd	___GLEW_NV_conditional_render
+	dd	4
+	dd	_5864
+	dd	_4398
+	dd	___GLEW_NV_copy_depth_to_color
+	dd	4
+	dd	_5865
+	dd	_4489
+	dd	___glewClearDepthdNV
+	dd	4
+	dd	_5866
+	dd	_4528
+	dd	___glewDepthBoundsdNV
+	dd	4
+	dd	_5867
+	dd	_4528
+	dd	___glewDepthRangedNV
+	dd	4
+	dd	_5868
+	dd	_4398
+	dd	___GLEW_NV_depth_buffer_float
+	dd	4
+	dd	_5869
+	dd	_4398
+	dd	___GLEW_NV_depth_clamp
+	dd	4
+	dd	_5870
+	dd	_4398
+	dd	___GLEW_NV_depth_range_unclamped
+	dd	4
+	dd	_5871
+	dd	_4437
+	dd	___glewEvalMapsNV
+	dd	4
+	dd	_5872
+	dd	_5318
+	dd	___glewGetMapAttribParameterfvNV
+	dd	4
+	dd	_5873
+	dd	_4818
+	dd	___glewGetMapAttribParameterivNV
+	dd	4
+	dd	_5874
+	dd	_5875
+	dd	___glewGetMapControlPointsNV
+	dd	4
+	dd	_5876
+	dd	_4600
+	dd	___glewGetMapParameterfvNV
+	dd	4
+	dd	_5877
+	dd	_4558
+	dd	___glewGetMapParameterivNV
+	dd	4
+	dd	_5878
+	dd	_5879
+	dd	___glewMapControlPointsNV
+	dd	4
+	dd	_5880
+	dd	_4600
+	dd	___glewMapParameterfvNV
+	dd	4
+	dd	_5881
+	dd	_4558
+	dd	___glewMapParameterivNV
+	dd	4
+	dd	_5882
+	dd	_4398
+	dd	___GLEW_NV_evaluators
+	dd	4
+	dd	_5883
+	dd	_4600
+	dd	___glewGetMultisamplefvNV
+	dd	4
+	dd	_5884
+	dd	_4437
+	dd	___glewSampleMaskIndexedNV
+	dd	4
+	dd	_5885
+	dd	_4437
+	dd	___glewTexRenderbufferNV
+	dd	4
+	dd	_5886
+	dd	_4398
+	dd	___GLEW_NV_explicit_multisample
+	dd	4
+	dd	_5887
+	dd	_4439
+	dd	___glewDeleteFencesNV
+	dd	4
+	dd	_5888
+	dd	_4409
+	dd	___glewFinishFenceNV
+	dd	4
+	dd	_5889
+	dd	_4439
+	dd	___glewGenFencesNV
+	dd	4
+	dd	_5890
+	dd	_4558
+	dd	___glewGetFenceivNV
+	dd	4
+	dd	_5891
+	dd	_4566
+	dd	___glewIsFenceNV
+	dd	4
+	dd	_5892
+	dd	_4437
+	dd	___glewSetFenceNV
+	dd	4
+	dd	_5893
+	dd	_4566
+	dd	___glewTestFenceNV
+	dd	4
+	dd	_5894
+	dd	_4398
+	dd	___GLEW_NV_fence
+	dd	4
+	dd	_5895
+	dd	_4398
+	dd	___GLEW_NV_float_buffer
+	dd	4
+	dd	_5896
+	dd	_4398
+	dd	___GLEW_NV_fog_distance
+	dd	4
+	dd	_5897
+	dd	_5898
+	dd	___glewGetProgramNamedParameterdvNV
+	dd	4
+	dd	_5899
+	dd	_5900
+	dd	___glewGetProgramNamedParameterfvNV
+	dd	4
+	dd	_5901
+	dd	_5902
+	dd	___glewProgramNamedParameter4dNV
+	dd	4
+	dd	_5903
+	dd	_5898
+	dd	___glewProgramNamedParameter4dvNV
+	dd	4
+	dd	_5904
+	dd	_5905
+	dd	___glewProgramNamedParameter4fNV
+	dd	4
+	dd	_5906
+	dd	_5900
+	dd	___glewProgramNamedParameter4fvNV
+	dd	4
+	dd	_5907
+	dd	_4398
+	dd	___GLEW_NV_fragment_program
+	dd	4
+	dd	_5908
+	dd	_4398
+	dd	___GLEW_NV_fragment_program2
+	dd	4
+	dd	_5909
+	dd	_4398
+	dd	___GLEW_NV_fragment_program4
+	dd	4
+	dd	_5910
+	dd	_4398
+	dd	___GLEW_NV_fragment_program_option
+	dd	4
+	dd	_5911
+	dd	_4813
+	dd	___glewRenderbufferStorageMultisampleCoverageNV
+	dd	4
+	dd	_5912
+	dd	_4398
+	dd	___GLEW_NV_framebuffer_multisample_coverage
+	dd	4
+	dd	_5913
+	dd	_4437
+	dd	___glewProgramVertexLimitNV
+	dd	4
+	dd	_5914
+	dd	_4398
+	dd	___GLEW_NV_geometry_program4
+	dd	4
+	dd	_5915
+	dd	_4398
+	dd	___GLEW_NV_geometry_shader4
+	dd	4
+	dd	_5916
+	dd	_4813
+	dd	___glewProgramEnvParameterI4iNV
+	dd	4
+	dd	_5917
+	dd	_4558
+	dd	___glewProgramEnvParameterI4ivNV
+	dd	4
+	dd	_5918
+	dd	_4813
+	dd	___glewProgramEnvParameterI4uiNV
+	dd	4
+	dd	_5919
+	dd	_4558
+	dd	___glewProgramEnvParameterI4uivNV
+	dd	4
+	dd	_5920
+	dd	_4818
+	dd	___glewProgramEnvParametersI4ivNV
+	dd	4
+	dd	_5921
+	dd	_4818
+	dd	___glewProgramEnvParametersI4uivNV
+	dd	4
+	dd	_5922
+	dd	_4813
+	dd	___glewProgramLocalParameterI4iNV
+	dd	4
+	dd	_5923
+	dd	_4558
+	dd	___glewProgramLocalParameterI4ivNV
+	dd	4
+	dd	_5924
+	dd	_4813
+	dd	___glewProgramLocalParameterI4uiNV
+	dd	4
+	dd	_5925
+	dd	_4558
+	dd	___glewProgramLocalParameterI4uivNV
+	dd	4
+	dd	_5926
+	dd	_4818
+	dd	___glewProgramLocalParametersI4ivNV
+	dd	4
+	dd	_5927
+	dd	_4818
+	dd	___glewProgramLocalParametersI4uivNV
+	dd	4
+	dd	_5928
+	dd	_4398
+	dd	___GLEW_NV_gpu_program4
+	dd	4
+	dd	_5929
+	dd	_4516
+	dd	___glewColor3hNV
+	dd	4
+	dd	_5930
+	dd	_4518
+	dd	___glewColor3hvNV
+	dd	4
+	dd	_5931
+	dd	_5856
+	dd	___glewColor4hNV
+	dd	4
+	dd	_5932
+	dd	_4518
+	dd	___glewColor4hvNV
+	dd	4
+	dd	_5933
+	dd	_5934
+	dd	___glewFogCoordhNV
+	dd	4
+	dd	_5935
+	dd	_4518
+	dd	___glewFogCoordhvNV
+	dd	4
+	dd	_5936
+	dd	_4441
+	dd	___glewMultiTexCoord1hNV
+	dd	4
+	dd	_5937
+	dd	_4443
+	dd	___glewMultiTexCoord1hvNV
+	dd	4
+	dd	_5938
+	dd	_4454
+	dd	___glewMultiTexCoord2hNV
+	dd	4
+	dd	_5939
+	dd	_4443
+	dd	___glewMultiTexCoord2hvNV
+	dd	4
+	dd	_5940
+	dd	_4466
+	dd	___glewMultiTexCoord3hNV
+	dd	4
+	dd	_5941
+	dd	_4443
+	dd	___glewMultiTexCoord3hvNV
+	dd	4
+	dd	_5942
+	dd	_4478
+	dd	___glewMultiTexCoord4hNV
+	dd	4
+	dd	_5943
+	dd	_4443
+	dd	___glewMultiTexCoord4hvNV
+	dd	4
+	dd	_5944
+	dd	_4516
+	dd	___glewNormal3hNV
+	dd	4
+	dd	_5945
+	dd	_4518
+	dd	___glewNormal3hvNV
+	dd	4
+	dd	_5946
+	dd	_4516
+	dd	___glewSecondaryColor3hNV
+	dd	4
+	dd	_5947
+	dd	_4518
+	dd	___glewSecondaryColor3hvNV
+	dd	4
+	dd	_5948
+	dd	_5934
+	dd	___glewTexCoord1hNV
+	dd	4
+	dd	_5949
+	dd	_4518
+	dd	___glewTexCoord1hvNV
+	dd	4
+	dd	_5950
+	dd	_4536
+	dd	___glewTexCoord2hNV
+	dd	4
+	dd	_5951
+	dd	_4518
+	dd	___glewTexCoord2hvNV
+	dd	4
+	dd	_5952
+	dd	_4516
+	dd	___glewTexCoord3hNV
+	dd	4
+	dd	_5953
+	dd	_4518
+	dd	___glewTexCoord3hvNV
+	dd	4
+	dd	_5954
+	dd	_5856
+	dd	___glewTexCoord4hNV
+	dd	4
+	dd	_5955
+	dd	_4518
+	dd	___glewTexCoord4hvNV
+	dd	4
+	dd	_5956
+	dd	_4536
+	dd	___glewVertex2hNV
+	dd	4
+	dd	_5957
+	dd	_4518
+	dd	___glewVertex2hvNV
+	dd	4
+	dd	_5958
+	dd	_4516
+	dd	___glewVertex3hNV
+	dd	4
+	dd	_5959
+	dd	_4518
+	dd	___glewVertex3hvNV
+	dd	4
+	dd	_5960
+	dd	_5856
+	dd	___glewVertex4hNV
+	dd	4
+	dd	_5961
+	dd	_4518
+	dd	___glewVertex4hvNV
+	dd	4
+	dd	_5962
+	dd	_4441
+	dd	___glewVertexAttrib1hNV
+	dd	4
+	dd	_5963
+	dd	_4443
+	dd	___glewVertexAttrib1hvNV
+	dd	4
+	dd	_5964
+	dd	_4454
+	dd	___glewVertexAttrib2hNV
+	dd	4
+	dd	_5965
+	dd	_4443
+	dd	___glewVertexAttrib2hvNV
+	dd	4
+	dd	_5966
+	dd	_4466
+	dd	___glewVertexAttrib3hNV
+	dd	4
+	dd	_5967
+	dd	_4443
+	dd	___glewVertexAttrib3hvNV
+	dd	4
+	dd	_5968
+	dd	_4478
+	dd	___glewVertexAttrib4hNV
+	dd	4
+	dd	_5969
+	dd	_4443
+	dd	___glewVertexAttrib4hvNV
+	dd	4
+	dd	_5970
+	dd	_5971
+	dd	___glewVertexAttribs1hvNV
+	dd	4
+	dd	_5972
+	dd	_5971
+	dd	___glewVertexAttribs2hvNV
+	dd	4
+	dd	_5973
+	dd	_5971
+	dd	___glewVertexAttribs3hvNV
+	dd	4
+	dd	_5974
+	dd	_5971
+	dd	___glewVertexAttribs4hvNV
+	dd	4
+	dd	_5975
+	dd	_5934
+	dd	___glewVertexWeighthNV
+	dd	4
+	dd	_5976
+	dd	_4518
+	dd	___glewVertexWeighthvNV
+	dd	4
+	dd	_5977
+	dd	_4398
+	dd	___GLEW_NV_half_float
+	dd	4
+	dd	_5978
+	dd	_4398
+	dd	___GLEW_NV_light_max_exponent
+	dd	4
+	dd	_5979
+	dd	_4398
+	dd	___GLEW_NV_multisample_filter_hint
+	dd	4
+	dd	_5980
+	dd	_4409
+	dd	___glewBeginOcclusionQueryNV
+	dd	4
+	dd	_5981
+	dd	_4439
+	dd	___glewDeleteOcclusionQueriesNV
+	dd	4
+	dd	_5982
+	dd	_4577
+	dd	___glewEndOcclusionQueryNV
+	dd	4
+	dd	_5983
+	dd	_4439
+	dd	___glewGenOcclusionQueriesNV
+	dd	4
+	dd	_5984
+	dd	_4558
+	dd	___glewGetOcclusionQueryivNV
+	dd	4
+	dd	_5985
+	dd	_4558
+	dd	___glewGetOcclusionQueryuivNV
+	dd	4
+	dd	_5986
+	dd	_4566
+	dd	___glewIsOcclusionQueryNV
+	dd	4
+	dd	_5987
+	dd	_4398
+	dd	___GLEW_NV_occlusion_query
+	dd	4
+	dd	_5988
+	dd	_4398
+	dd	___GLEW_NV_packed_depth_stencil
+	dd	4
+	dd	_5989
+	dd	_5328
+	dd	___glewProgramBufferParametersIivNV
+	dd	4
+	dd	_5990
+	dd	_5328
+	dd	___glewProgramBufferParametersIuivNV
+	dd	4
+	dd	_5991
+	dd	_5326
+	dd	___glewProgramBufferParametersfvNV
+	dd	4
+	dd	_5992
+	dd	_4398
+	dd	___GLEW_NV_parameter_buffer_object
+	dd	4
+	dd	_5993
+	dd	_4409
+	dd	___glewFlushPixelDataRangeNV
+	dd	4
+	dd	_5994
+	dd	_4421
+	dd	___glewPixelDataRangeNV
+	dd	4
+	dd	_5995
+	dd	_4398
+	dd	___GLEW_NV_pixel_data_range
+	dd	4
+	dd	_5996
+	dd	_4437
+	dd	___glewPointParameteriNV
+	dd	4
+	dd	_5997
+	dd	_4439
+	dd	___glewPointParameterivNV
+	dd	4
+	dd	_5998
+	dd	_4398
+	dd	___GLEW_NV_point_sprite
+	dd	4
+	dd	_5999
+	dd	_5707
+	dd	___glewGetVideoi64vNV
+	dd	4
+	dd	_6000
+	dd	_4558
+	dd	___glewGetVideoivNV
+	dd	4
+	dd	_6001
+	dd	_5707
+	dd	___glewGetVideoui64vNV
+	dd	4
+	dd	_6002
+	dd	_4558
+	dd	___glewGetVideouivNV
+	dd	4
+	dd	_6003
+	dd	_6004
+	dd	___glewPresentFrameDualFillNV
+	dd	4
+	dd	_6005
+	dd	_6006
+	dd	___glewPresentFrameKeyedNV
+	dd	4
+	dd	_6007
+	dd	_4558
+	dd	___glewVideoParameterivNV
+	dd	4
+	dd	_6008
+	dd	_4398
+	dd	___GLEW_NV_present_video
+	dd	4
+	dd	_6009
+	dd	_4409
+	dd	___glewPrimitiveRestartIndexNV
+	dd	4
+	dd	_6010
+	dd	_4577
+	dd	___glewPrimitiveRestartNV
+	dd	4
+	dd	_6011
+	dd	_4398
+	dd	___GLEW_NV_primitive_restart
+	dd	4
+	dd	_6012
+	dd	_4813
+	dd	___glewCombinerInputNV
+	dd	4
+	dd	_6013
+	dd	_6014
+	dd	___glewCombinerOutputNV
+	dd	4
+	dd	_6015
+	dd	_4433
+	dd	___glewCombinerParameterfNV
+	dd	4
+	dd	_6016
+	dd	_4435
+	dd	___glewCombinerParameterfvNV
+	dd	4
+	dd	_6017
+	dd	_4437
+	dd	___glewCombinerParameteriNV
+	dd	4
+	dd	_6018
+	dd	_4439
+	dd	___glewCombinerParameterivNV
+	dd	4
+	dd	_6019
+	dd	_4463
+	dd	___glewFinalCombinerInputNV
+	dd	4
+	dd	_6020
+	dd	_5326
+	dd	___glewGetCombinerInputParameterfvNV
+	dd	4
+	dd	_6021
+	dd	_5328
+	dd	___glewGetCombinerInputParameterivNV
+	dd	4
+	dd	_6022
+	dd	_5318
+	dd	___glewGetCombinerOutputParameterfvNV
+	dd	4
+	dd	_6023
+	dd	_4818
+	dd	___glewGetCombinerOutputParameterivNV
+	dd	4
+	dd	_6024
+	dd	_4600
+	dd	___glewGetFinalCombinerInputParameterfvNV
+	dd	4
+	dd	_6025
+	dd	_4558
+	dd	___glewGetFinalCombinerInputParameterivNV
+	dd	4
+	dd	_6026
+	dd	_4398
+	dd	___GLEW_NV_register_combiners
+	dd	4
+	dd	_6027
+	dd	_4600
+	dd	___glewCombinerStageParameterfvNV
+	dd	4
+	dd	_6028
+	dd	_4600
+	dd	___glewGetCombinerStageParameterfvNV
+	dd	4
+	dd	_6029
+	dd	_4398
+	dd	___GLEW_NV_register_combiners2
+	dd	4
+	dd	_6030
+	dd	_4398
+	dd	___GLEW_NV_texgen_emboss
+	dd	4
+	dd	_6031
+	dd	_4398
+	dd	___GLEW_NV_texgen_reflection
+	dd	4
+	dd	_6032
+	dd	_4398
+	dd	___GLEW_NV_texture_compression_vtc
+	dd	4
+	dd	_6033
+	dd	_4398
+	dd	___GLEW_NV_texture_env_combine4
+	dd	4
+	dd	_6034
+	dd	_4398
+	dd	___GLEW_NV_texture_expand_normal
+	dd	4
+	dd	_6035
+	dd	_4398
+	dd	___GLEW_NV_texture_rectangle
+	dd	4
+	dd	_6036
+	dd	_4398
+	dd	___GLEW_NV_texture_shader
+	dd	4
+	dd	_6037
+	dd	_4398
+	dd	___GLEW_NV_texture_shader2
+	dd	4
+	dd	_6038
+	dd	_4398
+	dd	___GLEW_NV_texture_shader3
+	dd	4
+	dd	_6039
+	dd	_4591
+	dd	___glewActiveVaryingNV
+	dd	4
+	dd	_6040
+	dd	_4409
+	dd	___glewBeginTransformFeedbackNV
+	dd	4
+	dd	_6041
+	dd	_4451
+	dd	___glewBindBufferBaseNV
+	dd	4
+	dd	_6042
+	dd	_4463
+	dd	___glewBindBufferOffsetNV
+	dd	4
+	dd	_6043
+	dd	_4475
+	dd	___glewBindBufferRangeNV
+	dd	4
+	dd	_6044
+	dd	_4577
+	dd	___glewEndTransformFeedbackNV
+	dd	4
+	dd	_6045
+	dd	_4586
+	dd	___glewGetActiveVaryingNV
+	dd	4
+	dd	_6046
+	dd	_4558
+	dd	___glewGetTransformFeedbackVaryingNV
+	dd	4
+	dd	_6047
+	dd	_4591
+	dd	___glewGetVaryingLocationNV
+	dd	4
+	dd	_6048
+	dd	_6049
+	dd	___glewTransformFeedbackAttribsNV
+	dd	4
+	dd	_6050
+	dd	_4715
+	dd	___glewTransformFeedbackVaryingsNV
+	dd	4
+	dd	_6051
+	dd	_4398
+	dd	___GLEW_NV_transform_feedback
+	dd	4
+	dd	_6052
+	dd	_4577
+	dd	___glewFlushVertexArrayRangeNV
+	dd	4
+	dd	_6053
+	dd	_4591
+	dd	___glewVertexArrayRangeNV
+	dd	4
+	dd	_6054
+	dd	_4398
+	dd	___GLEW_NV_vertex_array_range
+	dd	4
+	dd	_6055
+	dd	_4398
+	dd	___GLEW_NV_vertex_array_range2
+	dd	4
+	dd	_6056
+	dd	_5692
+	dd	___glewAreProgramsResidentNV
+	dd	4
+	dd	_6057
+	dd	_4437
+	dd	___glewBindProgramNV
+	dd	4
+	dd	_6058
+	dd	_4439
+	dd	___glewDeleteProgramsNV
+	dd	4
+	dd	_6059
+	dd	_4600
+	dd	___glewExecuteProgramNV
+	dd	4
+	dd	_6060
+	dd	_4439
+	dd	___glewGenProgramsNV
+	dd	4
+	dd	_6061
+	dd	_5321
+	dd	___glewGetProgramParameterdvNV
+	dd	4
+	dd	_6062
+	dd	_5318
+	dd	___glewGetProgramParameterfvNV
+	dd	4
+	dd	_6063
+	dd	_4421
+	dd	___glewGetProgramStringNV
+	dd	4
+	dd	_6064
+	dd	_4558
+	dd	___glewGetProgramivNV
+	dd	4
+	dd	_6065
+	dd	_4818
+	dd	___glewGetTrackMatrixivNV
+	dd	4
+	dd	_6066
+	dd	_4560
+	dd	___glewGetVertexAttribPointervNV
+	dd	4
+	dd	_6067
+	dd	_4604
+	dd	___glewGetVertexAttribdvNV
+	dd	4
+	dd	_6068
+	dd	_4600
+	dd	___glewGetVertexAttribfvNV
+	dd	4
+	dd	_6069
+	dd	_4558
+	dd	___glewGetVertexAttribivNV
+	dd	4
+	dd	_6070
+	dd	_4566
+	dd	___glewIsProgramNV
+	dd	4
+	dd	_6071
+	dd	_4526
+	dd	___glewLoadProgramNV
+	dd	4
+	dd	_6072
+	dd	_5050
+	dd	___glewProgramParameter4dNV
+	dd	4
+	dd	_6073
+	dd	_4604
+	dd	___glewProgramParameter4dvNV
+	dd	4
+	dd	_6074
+	dd	_5053
+	dd	___glewProgramParameter4fNV
+	dd	4
+	dd	_6075
+	dd	_4600
+	dd	___glewProgramParameter4fvNV
+	dd	4
+	dd	_6076
+	dd	_5321
+	dd	___glewProgramParameters4dvNV
+	dd	4
+	dd	_6077
+	dd	_5318
+	dd	___glewProgramParameters4fvNV
+	dd	4
+	dd	_6078
+	dd	_4439
+	dd	___glewRequestResidentProgramsNV
+	dd	4
+	dd	_6079
+	dd	_4463
+	dd	___glewTrackMatrixNV
+	dd	4
+	dd	_6080
+	dd	_4429
+	dd	___glewVertexAttrib1dNV
+	dd	4
+	dd	_6081
+	dd	_4431
+	dd	___glewVertexAttrib1dvNV
+	dd	4
+	dd	_6082
+	dd	_4433
+	dd	___glewVertexAttrib1fNV
+	dd	4
+	dd	_6083
+	dd	_4435
+	dd	___glewVertexAttrib1fvNV
+	dd	4
+	dd	_6084
+	dd	_4441
+	dd	___glewVertexAttrib1sNV
+	dd	4
+	dd	_6085
+	dd	_4443
+	dd	___glewVertexAttrib1svNV
+	dd	4
+	dd	_6086
+	dd	_4445
+	dd	___glewVertexAttrib2dNV
+	dd	4
+	dd	_6087
+	dd	_4431
+	dd	___glewVertexAttrib2dvNV
+	dd	4
+	dd	_6088
+	dd	_4448
+	dd	___glewVertexAttrib2fNV
+	dd	4
+	dd	_6089
+	dd	_4435
+	dd	___glewVertexAttrib2fvNV
+	dd	4
+	dd	_6090
+	dd	_4454
+	dd	___glewVertexAttrib2sNV
+	dd	4
+	dd	_6091
+	dd	_4443
+	dd	___glewVertexAttrib2svNV
+	dd	4
+	dd	_6092
+	dd	_4457
+	dd	___glewVertexAttrib3dNV
+	dd	4
+	dd	_6093
+	dd	_4431
+	dd	___glewVertexAttrib3dvNV
+	dd	4
+	dd	_6094
+	dd	_4460
+	dd	___glewVertexAttrib3fNV
+	dd	4
+	dd	_6095
+	dd	_4435
+	dd	___glewVertexAttrib3fvNV
+	dd	4
+	dd	_6096
+	dd	_4466
+	dd	___glewVertexAttrib3sNV
+	dd	4
+	dd	_6097
+	dd	_4443
+	dd	___glewVertexAttrib3svNV
+	dd	4
+	dd	_6098
+	dd	_4469
+	dd	___glewVertexAttrib4dNV
+	dd	4
+	dd	_6099
+	dd	_4431
+	dd	___glewVertexAttrib4dvNV
+	dd	4
+	dd	_6100
+	dd	_4472
+	dd	___glewVertexAttrib4fNV
+	dd	4
+	dd	_6101
+	dd	_4435
+	dd	___glewVertexAttrib4fvNV
+	dd	4
+	dd	_6102
+	dd	_4478
+	dd	___glewVertexAttrib4sNV
+	dd	4
+	dd	_6103
+	dd	_4443
+	dd	___glewVertexAttrib4svNV
+	dd	4
+	dd	_6104
+	dd	_4659
+	dd	___glewVertexAttrib4ubNV
+	dd	4
+	dd	_6105
+	dd	_4591
+	dd	___glewVertexAttrib4ubvNV
+	dd	4
+	dd	_6106
+	dd	_4745
+	dd	___glewVertexAttribPointerNV
+	dd	4
+	dd	_6107
+	dd	_4604
+	dd	___glewVertexAttribs1dvNV
+	dd	4
+	dd	_6108
+	dd	_4600
+	dd	___glewVertexAttribs1fvNV
+	dd	4
+	dd	_6109
+	dd	_5971
+	dd	___glewVertexAttribs1svNV
+	dd	4
+	dd	_6110
+	dd	_4604
+	dd	___glewVertexAttribs2dvNV
+	dd	4
+	dd	_6111
+	dd	_4600
+	dd	___glewVertexAttribs2fvNV
+	dd	4
+	dd	_6112
+	dd	_5971
+	dd	___glewVertexAttribs2svNV
+	dd	4
+	dd	_6113
+	dd	_4604
+	dd	___glewVertexAttribs3dvNV
+	dd	4
+	dd	_6114
+	dd	_4600
+	dd	___glewVertexAttribs3fvNV
+	dd	4
+	dd	_6115
+	dd	_5971
+	dd	___glewVertexAttribs3svNV
+	dd	4
+	dd	_6116
+	dd	_4604
+	dd	___glewVertexAttribs4dvNV
+	dd	4
+	dd	_6117
+	dd	_4600
+	dd	___glewVertexAttribs4fvNV
+	dd	4
+	dd	_6118
+	dd	_5971
+	dd	___glewVertexAttribs4svNV
+	dd	4
+	dd	_6119
+	dd	_4421
+	dd	___glewVertexAttribs4ubvNV
+	dd	4
+	dd	_6120
+	dd	_4398
+	dd	___GLEW_NV_vertex_program
+	dd	4
+	dd	_6121
+	dd	_4398
+	dd	___GLEW_NV_vertex_program1_1
+	dd	4
+	dd	_6122
+	dd	_4398
+	dd	___GLEW_NV_vertex_program2
+	dd	4
+	dd	_6123
+	dd	_4398
+	dd	___GLEW_NV_vertex_program2_option
+	dd	4
+	dd	_6124
+	dd	_4398
+	dd	___GLEW_NV_vertex_program3
+	dd	4
+	dd	_6125
+	dd	_4398
+	dd	___GLEW_NV_vertex_program4
+	dd	4
+	dd	_6126
+	dd	_4398
+	dd	___GLEW_OES_byte_coordinates
+	dd	4
+	dd	_6127
+	dd	_4398
+	dd	___GLEW_OES_compressed_paletted_texture
+	dd	4
+	dd	_6128
+	dd	_4398
+	dd	___GLEW_OES_read_format
+	dd	4
+	dd	_6129
+	dd	_4489
+	dd	___glewClearDepthfOES
+	dd	4
+	dd	_6130
+	dd	_4435
+	dd	___glewClipPlanefOES
+	dd	4
+	dd	_6131
+	dd	_4531
+	dd	___glewDepthRangefOES
+	dd	4
+	dd	_6132
+	dd	_6133
+	dd	___glewFrustumfOES
+	dd	4
+	dd	_6134
+	dd	_4435
+	dd	___glewGetClipPlanefOES
+	dd	4
+	dd	_6135
+	dd	_6133
+	dd	___glewOrthofOES
+	dd	4
+	dd	_6136
+	dd	_4398
+	dd	___GLEW_OES_single_precision
+	dd	4
+	dd	_6137
+	dd	_4398
+	dd	___GLEW_OML_interlace
+	dd	4
+	dd	_6138
+	dd	_4398
+	dd	___GLEW_OML_resample
+	dd	4
+	dd	_6139
+	dd	_4398
+	dd	___GLEW_OML_subsample
+	dd	4
+	dd	_6140
+	dd	_4398
+	dd	___GLEW_PGI_misc_hints
+	dd	4
+	dd	_6141
+	dd	_4398
+	dd	___GLEW_PGI_vertex_hints
+	dd	4
+	dd	_6142
+	dd	_4398
+	dd	___GLEW_REND_screen_coordinates
+	dd	4
+	dd	_6143
+	dd	_4398
+	dd	___GLEW_S3_s3tc
+	dd	4
+	dd	_6144
+	dd	_4398
+	dd	___GLEW_SGIS_color_range
+	dd	4
+	dd	_6145
+	dd	_4600
+	dd	___glewDetailTexFuncSGIS
+	dd	4
+	dd	_6146
+	dd	_4435
+	dd	___glewGetDetailTexFuncSGIS
+	dd	4
+	dd	_6147
+	dd	_4398
+	dd	___GLEW_SGIS_detail_texture
+	dd	4
+	dd	_6148
+	dd	_4435
+	dd	___glewFogFuncSGIS
+	dd	4
+	dd	_6149
+	dd	_4425
+	dd	___glewGetFogFuncSGIS
+	dd	4
+	dd	_6150
+	dd	_4398
+	dd	___GLEW_SGIS_fog_function
+	dd	4
+	dd	_6151
+	dd	_4398
+	dd	___GLEW_SGIS_generate_mipmap
+	dd	4
+	dd	_6152
+	dd	_4481
+	dd	___glewSampleMaskSGIS
+	dd	4
+	dd	_6153
+	dd	_4409
+	dd	___glewSamplePatternSGIS
+	dd	4
+	dd	_6154
+	dd	_4398
+	dd	___GLEW_SGIS_multisample
+	dd	4
+	dd	_6155
+	dd	_4398
+	dd	___GLEW_SGIS_pixel_texture
+	dd	4
+	dd	_6156
+	dd	_4398
+	dd	___GLEW_SGIS_point_line_texgen
+	dd	4
+	dd	_6157
+	dd	_4435
+	dd	___glewGetSharpenTexFuncSGIS
+	dd	4
+	dd	_6158
+	dd	_4600
+	dd	___glewSharpenTexFuncSGIS
+	dd	4
+	dd	_6159
+	dd	_4398
+	dd	___GLEW_SGIS_sharpen_texture
+	dd	4
+	dd	_6160
+	dd	_4406
+	dd	___glewTexImage4DSGIS
+	dd	4
+	dd	_6161
+	dd	_6162
+	dd	___glewTexSubImage4DSGIS
+	dd	4
+	dd	_6163
+	dd	_4398
+	dd	___GLEW_SGIS_texture4D
+	dd	4
+	dd	_6164
+	dd	_4398
+	dd	___GLEW_SGIS_texture_border_clamp
+	dd	4
+	dd	_6165
+	dd	_4398
+	dd	___GLEW_SGIS_texture_edge_clamp
+	dd	4
+	dd	_6166
+	dd	_4600
+	dd	___glewGetTexFilterFuncSGIS
+	dd	4
+	dd	_6167
+	dd	_5318
+	dd	___glewTexFilterFuncSGIS
+	dd	4
+	dd	_6168
+	dd	_4398
+	dd	___GLEW_SGIS_texture_filter4
+	dd	4
+	dd	_6169
+	dd	_4398
+	dd	___GLEW_SGIS_texture_lod
+	dd	4
+	dd	_6170
+	dd	_4398
+	dd	___GLEW_SGIS_texture_select
+	dd	4
+	dd	_6171
+	dd	_4409
+	dd	___glewAsyncMarkerSGIX
+	dd	4
+	dd	_6172
+	dd	_4437
+	dd	___glewDeleteAsyncMarkersSGIX
+	dd	4
+	dd	_6173
+	dd	_4514
+	dd	___glewFinishAsyncSGIX
+	dd	4
+	dd	_6174
+	dd	_4409
+	dd	___glewGenAsyncMarkersSGIX
+	dd	4
+	dd	_6175
+	dd	_4566
+	dd	___glewIsAsyncMarkerSGIX
+	dd	4
+	dd	_6176
+	dd	_4514
+	dd	___glewPollAsyncSGIX
+	dd	4
+	dd	_6177
+	dd	_4398
+	dd	___GLEW_SGIX_async
+	dd	4
+	dd	_6178
+	dd	_4398
+	dd	___GLEW_SGIX_async_histogram
+	dd	4
+	dd	_6179
+	dd	_4398
+	dd	___GLEW_SGIX_async_pixel
+	dd	4
+	dd	_6180
+	dd	_4398
+	dd	___GLEW_SGIX_blend_alpha_minmax
+	dd	4
+	dd	_6181
+	dd	_4398
+	dd	___GLEW_SGIX_clipmap
+	dd	4
+	dd	_6182
+	dd	_4398
+	dd	___GLEW_SGIX_convolution_accuracy
+	dd	4
+	dd	_6183
+	dd	_4398
+	dd	___GLEW_SGIX_depth_texture
+	dd	4
+	dd	_6184
+	dd	_4577
+	dd	___glewFlushRasterSGIX
+	dd	4
+	dd	_6185
+	dd	_4398
+	dd	___GLEW_SGIX_flush_raster
+	dd	4
+	dd	_6186
+	dd	_4398
+	dd	___GLEW_SGIX_fog_offset
+	dd	4
+	dd	_6187
+	dd	_4409
+	dd	___glewTextureFogSGIX
+	dd	4
+	dd	_6188
+	dd	_4398
+	dd	___GLEW_SGIX_fog_texture
+	dd	4
+	dd	_6189
+	dd	_4437
+	dd	___glewFragmentColorMaterialSGIX
+	dd	4
+	dd	_6190
+	dd	_4433
+	dd	___glewFragmentLightModelfSGIX
+	dd	4
+	dd	_6191
+	dd	_4435
+	dd	___glewFragmentLightModelfvSGIX
+	dd	4
+	dd	_6192
+	dd	_4437
+	dd	___glewFragmentLightModeliSGIX
+	dd	4
+	dd	_6193
+	dd	_4439
+	dd	___glewFragmentLightModelivSGIX
+	dd	4
+	dd	_6194
+	dd	_4840
+	dd	___glewFragmentLightfSGIX
+	dd	4
+	dd	_6195
+	dd	_4600
+	dd	___glewFragmentLightfvSGIX
+	dd	4
+	dd	_6196
+	dd	_4451
+	dd	___glewFragmentLightiSGIX
+	dd	4
+	dd	_6197
+	dd	_4558
+	dd	___glewFragmentLightivSGIX
+	dd	4
+	dd	_6198
+	dd	_4840
+	dd	___glewFragmentMaterialfSGIX
+	dd	4
+	dd	_6199
+	dd	_4600
+	dd	___glewFragmentMaterialfvSGIX
+	dd	4
+	dd	_6200
+	dd	_4451
+	dd	___glewFragmentMaterialiSGIX
+	dd	4
+	dd	_6201
+	dd	_4558
+	dd	___glewFragmentMaterialivSGIX
+	dd	4
+	dd	_6202
+	dd	_4600
+	dd	___glewGetFragmentLightfvSGIX
+	dd	4
+	dd	_6203
+	dd	_4558
+	dd	___glewGetFragmentLightivSGIX
+	dd	4
+	dd	_6204
+	dd	_4600
+	dd	___glewGetFragmentMaterialfvSGIX
+	dd	4
+	dd	_6205
+	dd	_4558
+	dd	___glewGetFragmentMaterialivSGIX
+	dd	4
+	dd	_6206
+	dd	_4398
+	dd	___GLEW_SGIX_fragment_specular_lighting
+	dd	4
+	dd	_6207
+	dd	_4409
+	dd	___glewFrameZoomSGIX
+	dd	4
+	dd	_6208
+	dd	_4398
+	dd	___GLEW_SGIX_framezoom
+	dd	4
+	dd	_6209
+	dd	_4398
+	dd	___GLEW_SGIX_interlace
+	dd	4
+	dd	_6210
+	dd	_4398
+	dd	___GLEW_SGIX_ir_instrument1
+	dd	4
+	dd	_6211
+	dd	_4398
+	dd	___GLEW_SGIX_list_priority
+	dd	4
+	dd	_6212
+	dd	_4409
+	dd	___glewPixelTexGenSGIX
+	dd	4
+	dd	_6213
+	dd	_4398
+	dd	___GLEW_SGIX_pixel_texture
+	dd	4
+	dd	_6214
+	dd	_4398
+	dd	___GLEW_SGIX_pixel_texture_bits
+	dd	4
+	dd	_6215
+	dd	_4423
+	dd	___glewReferencePlaneSGIX
+	dd	4
+	dd	_6216
+	dd	_4398
+	dd	___GLEW_SGIX_reference_plane
+	dd	4
+	dd	_6217
+	dd	_4398
+	dd	___GLEW_SGIX_resample
+	dd	4
+	dd	_6218
+	dd	_4398
+	dd	___GLEW_SGIX_shadow
+	dd	4
+	dd	_6219
+	dd	_4398
+	dd	___GLEW_SGIX_shadow_ambient
+	dd	4
+	dd	_6220
+	dd	_4433
+	dd	___glewSpriteParameterfSGIX
+	dd	4
+	dd	_6221
+	dd	_4435
+	dd	___glewSpriteParameterfvSGIX
+	dd	4
+	dd	_6222
+	dd	_4437
+	dd	___glewSpriteParameteriSGIX
+	dd	4
+	dd	_6223
+	dd	_4439
+	dd	___glewSpriteParameterivSGIX
+	dd	4
+	dd	_6224
+	dd	_4398
+	dd	___GLEW_SGIX_sprite
+	dd	4
+	dd	_6225
+	dd	_4577
+	dd	___glewTagSampleBufferSGIX
+	dd	4
+	dd	_6226
+	dd	_4398
+	dd	___GLEW_SGIX_tag_sample_buffer
+	dd	4
+	dd	_6227
+	dd	_4398
+	dd	___GLEW_SGIX_texture_add_env
+	dd	4
+	dd	_6228
+	dd	_4398
+	dd	___GLEW_SGIX_texture_coordinate_clamp
+	dd	4
+	dd	_6229
+	dd	_4398
+	dd	___GLEW_SGIX_texture_lod_bias
+	dd	4
+	dd	_6230
+	dd	_4398
+	dd	___GLEW_SGIX_texture_multi_buffer
+	dd	4
+	dd	_6231
+	dd	_4398
+	dd	___GLEW_SGIX_texture_range
+	dd	4
+	dd	_6232
+	dd	_4398
+	dd	___GLEW_SGIX_texture_scale_bias
+	dd	4
+	dd	_6233
+	dd	_4398
+	dd	___GLEW_SGIX_vertex_preclip
+	dd	4
+	dd	_6234
+	dd	_4398
+	dd	___GLEW_SGIX_vertex_preclip_hint
+	dd	4
+	dd	_6235
+	dd	_4398
+	dd	___GLEW_SGIX_ycrcb
+	dd	4
+	dd	_6236
+	dd	_4398
+	dd	___GLEW_SGI_color_matrix
+	dd	4
+	dd	_6237
+	dd	_4600
+	dd	___glewColorTableParameterfvSGI
+	dd	4
+	dd	_6238
+	dd	_4558
+	dd	___glewColorTableParameterivSGI
+	dd	4
+	dd	_6239
+	dd	_4402
+	dd	___glewColorTableSGI
+	dd	4
+	dd	_6240
+	dd	_4475
+	dd	___glewCopyColorTableSGI
+	dd	4
+	dd	_6241
+	dd	_4600
+	dd	___glewGetColorTableParameterfvSGI
+	dd	4
+	dd	_6242
+	dd	_4558
+	dd	___glewGetColorTableParameterivSGI
+	dd	4
+	dd	_6243
+	dd	_4526
+	dd	___glewGetColorTableSGI
+	dd	4
+	dd	_6244
+	dd	_4398
+	dd	___GLEW_SGI_color_table
+	dd	4
+	dd	_6245
+	dd	_4398
+	dd	___GLEW_SGI_texture_color_table
+	dd	4
+	dd	_6246
+	dd	_4577
+	dd	___glewFinishTextureSUNX
+	dd	4
+	dd	_6247
+	dd	_4398
+	dd	___GLEW_SUNX_constant_data
+	dd	4
+	dd	_6248
+	dd	_4398
+	dd	___GLEW_SUN_convolution_border_modes
+	dd	4
+	dd	_6249
+	dd	_6250
+	dd	___glewGlobalAlphaFactorbSUN
+	dd	4
+	dd	_6251
+	dd	_4489
+	dd	___glewGlobalAlphaFactordSUN
+	dd	4
+	dd	_6252
+	dd	_4492
+	dd	___glewGlobalAlphaFactorfSUN
+	dd	4
+	dd	_6253
+	dd	_4409
+	dd	___glewGlobalAlphaFactoriSUN
+	dd	4
+	dd	_6254
+	dd	_5934
+	dd	___glewGlobalAlphaFactorsSUN
+	dd	4
+	dd	_6255
+	dd	_6250
+	dd	___glewGlobalAlphaFactorubSUN
+	dd	4
+	dd	_6256
+	dd	_4409
+	dd	___glewGlobalAlphaFactoruiSUN
+	dd	4
+	dd	_6257
+	dd	_5934
+	dd	___glewGlobalAlphaFactorusSUN
+	dd	4
+	dd	_6258
+	dd	_4398
+	dd	___GLEW_SUN_global_alpha
+	dd	4
+	dd	_6259
+	dd	_4398
+	dd	___GLEW_SUN_mesh_array
+	dd	4
+	dd	_6260
+	dd	_4412
+	dd	___glewReadVideoPixelsSUN
+	dd	4
+	dd	_6261
+	dd	_4398
+	dd	___GLEW_SUN_read_video_pixels
+	dd	4
+	dd	_6262
+	dd	_4398
+	dd	___GLEW_SUN_slice_accum
+	dd	4
+	dd	_6263
+	dd	_4421
+	dd	___glewReplacementCodePointerSUN
+	dd	4
+	dd	_6264
+	dd	_6250
+	dd	___glewReplacementCodeubSUN
+	dd	4
+	dd	_6265
+	dd	_4505
+	dd	___glewReplacementCodeubvSUN
+	dd	4
+	dd	_6266
+	dd	_4409
+	dd	___glewReplacementCodeuiSUN
+	dd	4
+	dd	_6267
+	dd	_4514
+	dd	___glewReplacementCodeuivSUN
+	dd	4
+	dd	_6268
+	dd	_5934
+	dd	___glewReplacementCodeusSUN
+	dd	4
+	dd	_6269
+	dd	_4518
+	dd	___glewReplacementCodeusvSUN
+	dd	4
+	dd	_6270
+	dd	_4398
+	dd	___GLEW_SUN_triangle_list
+	dd	4
+	dd	_6271
+	dd	_6133
+	dd	___glewColor3fVertex3fSUN
+	dd	4
+	dd	_6272
+	dd	_6273
+	dd	___glewColor3fVertex3fvSUN
+	dd	4
+	dd	_6274
+	dd	_6275
+	dd	___glewColor4fNormal3fVertex3fSUN
+	dd	4
+	dd	_6276
+	dd	_6277
+	dd	___glewColor4fNormal3fVertex3fvSUN
+	dd	4
+	dd	_6278
+	dd	_6279
+	dd	___glewColor4ubVertex2fSUN
+	dd	4
+	dd	_6280
+	dd	_6281
+	dd	___glewColor4ubVertex2fvSUN
+	dd	4
+	dd	_6282
+	dd	_6283
+	dd	___glewColor4ubVertex3fSUN
+	dd	4
+	dd	_6284
+	dd	_6281
+	dd	___glewColor4ubVertex3fvSUN
+	dd	4
+	dd	_6285
+	dd	_6133
+	dd	___glewNormal3fVertex3fSUN
+	dd	4
+	dd	_6286
+	dd	_6273
+	dd	___glewNormal3fVertex3fvSUN
+	dd	4
+	dd	_6287
+	dd	_6288
+	dd	___glewReplacementCodeuiColor3fVertex3fSUN
+	dd	4
+	dd	_6289
+	dd	_6290
+	dd	___glewReplacementCodeuiColor3fVertex3fvSUN
+	dd	4
+	dd	_6291
+	dd	_6292
+	dd	___glewReplacementCodeuiColor4fNormal3fVertex3fSUN
+	dd	4
+	dd	_6293
+	dd	_6294
+	dd	___glewReplacementCodeuiColor4fNormal3fVertex3fvSUN
+	dd	4
+	dd	_6295
+	dd	_6296
+	dd	___glewReplacementCodeuiColor4ubVertex3fSUN
+	dd	4
+	dd	_6297
+	dd	_6298
+	dd	___glewReplacementCodeuiColor4ubVertex3fvSUN
+	dd	4
+	dd	_6299
+	dd	_6288
+	dd	___glewReplacementCodeuiNormal3fVertex3fSUN
+	dd	4
+	dd	_6300
+	dd	_6290
+	dd	___glewReplacementCodeuiNormal3fVertex3fvSUN
+	dd	4
+	dd	_6301
+	dd	_6302
+	dd	___glewReplacementCodeuiTexCoord2fColor4fNormal3fVertex3fSUN
+	dd	4
+	dd	_6303
+	dd	_6304
+	dd	___glewReplacementCodeuiTexCoord2fColor4fNormal3fVertex3fvSUN
+	dd	4
+	dd	_6305
+	dd	_6306
+	dd	___glewReplacementCodeuiTexCoord2fNormal3fVertex3fSUN
+	dd	4
+	dd	_6307
+	dd	_6294
+	dd	___glewReplacementCodeuiTexCoord2fNormal3fVertex3fvSUN
+	dd	4
+	dd	_6308
+	dd	_6309
+	dd	___glewReplacementCodeuiTexCoord2fVertex3fSUN
+	dd	4
+	dd	_6310
+	dd	_6290
+	dd	___glewReplacementCodeuiTexCoord2fVertex3fvSUN
+	dd	4
+	dd	_6311
+	dd	_4460
+	dd	___glewReplacementCodeuiVertex3fSUN
+	dd	4
+	dd	_6312
+	dd	_6313
+	dd	___glewReplacementCodeuiVertex3fvSUN
+	dd	4
+	dd	_6314
+	dd	_6315
+	dd	___glewTexCoord2fColor3fVertex3fSUN
+	dd	4
+	dd	_6316
+	dd	_6277
+	dd	___glewTexCoord2fColor3fVertex3fvSUN
+	dd	4
+	dd	_6317
+	dd	_6318
+	dd	___glewTexCoord2fColor4fNormal3fVertex3fSUN
+	dd	4
+	dd	_6319
+	dd	_6320
+	dd	___glewTexCoord2fColor4fNormal3fVertex3fvSUN
+	dd	4
+	dd	_6321
+	dd	_6322
+	dd	___glewTexCoord2fColor4ubVertex3fSUN
+	dd	4
+	dd	_6323
+	dd	_6324
+	dd	___glewTexCoord2fColor4ubVertex3fvSUN
+	dd	4
+	dd	_6325
+	dd	_6315
+	dd	___glewTexCoord2fNormal3fVertex3fSUN
+	dd	4
+	dd	_6326
+	dd	_6277
+	dd	___glewTexCoord2fNormal3fVertex3fvSUN
+	dd	4
+	dd	_6327
+	dd	_6328
+	dd	___glewTexCoord2fVertex3fSUN
+	dd	4
+	dd	_6329
+	dd	_6273
+	dd	___glewTexCoord2fVertex3fvSUN
+	dd	4
+	dd	_6330
+	dd	_6331
+	dd	___glewTexCoord4fColor4fNormal3fVertex4fSUN
+	dd	4
+	dd	_6332
+	dd	_6320
+	dd	___glewTexCoord4fColor4fNormal3fVertex4fvSUN
+	dd	4
+	dd	_6333
+	dd	_6315
+	dd	___glewTexCoord4fVertex4fSUN
+	dd	4
+	dd	_6334
+	dd	_6273
+	dd	___glewTexCoord4fVertex4fvSUN
+	dd	4
+	dd	_6335
+	dd	_4398
+	dd	___GLEW_SUN_vertex
+	dd	4
+	dd	_6336
+	dd	_4398
+	dd	___GLEW_WIN_phong_shading
+	dd	4
+	dd	_6337
+	dd	_4398
+	dd	___GLEW_WIN_specular_fog
+	dd	4
+	dd	_6338
+	dd	_4463
+	dd	___glewAddSwapHintRectWIN
+	dd	4
+	dd	_6339
+	dd	_4398
+	dd	___GLEW_WIN_swap_hint
+	dd	0

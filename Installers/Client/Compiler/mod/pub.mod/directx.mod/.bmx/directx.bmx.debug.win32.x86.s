@@ -1,0 +1,8525 @@
+	format	MS COFF
+	extrn	___bb_blitz_blitz
+	extrn	___bb_directx_d3d
+	extrn	___bb_directx_d3d7
+	extrn	___bb_directx_d3d9
+	extrn	___bb_directx_d3d9x
+	extrn	___bb_directx_dd
+	extrn	___bb_directx_dsound
+	extrn	_bbOnDebugEnterScope
+	extrn	_bbOnDebugLeaveScope
+	extrn	_bbStringClass
+	extrn	_pub_directx_D3DXAssembleShader
+	extrn	_pub_directx_Direct3DCreate9
+	extrn	_pub_directx_DirectDrawCreate
+	extrn	_pub_directx_DirectDrawCreateEx
+	extrn	_pub_directx_DirectDrawEnumerate
+	extrn	_pub_directx_DirectSoundCreate
+	extrn	_pub_directx_IID_IDirect3D7
+	extrn	_pub_directx_IID_IDirect3DHALDevice
+	extrn	_pub_directx_IID_IDirect3DTnLDevice
+	extrn	_pub_directx_IID_IDirectDraw7
+	extrn	_pub_directx_d3d9Lib
+	extrn	_pub_directx_d3dx9Lib
+	extrn	_pub_directx_ddLib
+	public	___bb_directx_directx
+	section	"code" code
+___bb_directx_directx:
+	push	ebp
+	mov	ebp,esp
+	push	ebx
+	cmp	dword [_1435],0
+	je	_1436
+	mov	eax,0
+	pop	ebx
+	mov	esp,ebp
+	pop	ebp
+	ret
+_1436:
+	mov	dword [_1435],1
+	push	ebp
+	push	_18
+	call	dword [_bbOnDebugEnterScope]
+	add	esp,8
+	call	___bb_blitz_blitz
+	call	___bb_directx_dd
+	call	___bb_directx_d3d
+	call	___bb_directx_d3d7
+	call	___bb_directx_d3d9
+	call	___bb_directx_d3d9x
+	call	___bb_directx_dsound
+	mov	ebx,0
+	jmp	_16
+_16:
+	call	dword [_bbOnDebugLeaveScope]
+	mov	eax,ebx
+	pop	ebx
+	mov	esp,ebp
+	pop	ebp
+	ret
+	section	"data" data writeable align 8
+	align	4
+_1435:
+	dd	0
+_19:
+	db	"directx",0
+_20:
+	db	"DIRECTDRAW_VERSION",0
+_21:
+	db	"i",0
+	align	4
+_22:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	4
+	dw	49,55,57,50
+_23:
+	db	"_FACDD",0
+	align	4
+_24:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	4
+	dw	50,49,54,54
+_25:
+	db	"FOURCC_DXT1",0
+_26:
+	db	"$",0
+	align	4
+_27:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	4
+	dw	68,88,84,49
+_28:
+	db	"FOURCC_DXT2",0
+	align	4
+_29:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	4
+	dw	68,88,84,50
+_30:
+	db	"FOURCC_DXT3",0
+	align	4
+_31:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	4
+	dw	68,88,84,51
+_32:
+	db	"FOURCC_DXT4",0
+	align	4
+_33:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	4
+	dw	68,88,84,52
+_34:
+	db	"DDENUM_ATTACHEDSECONDARYDEVICES",0
+	align	4
+_35:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	1
+	dw	49
+_36:
+	db	"DDENUM_DETACHEDSECONDARYDEVICES",0
+	align	4
+_37:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	1
+	dw	50
+_38:
+	db	"DDENUM_NONDISPLAYDEVICES",0
+	align	4
+_39:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	1
+	dw	52
+_40:
+	db	"REGSTR_KEY_DDHW_DESCRIPTION",0
+	align	4
+_41:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	68,101,115,99,114,105,112,116,105,111,110
+_42:
+	db	"REGSTR_KEY_DDHW_DRIVERNAME",0
+	align	4
+_43:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	10
+	dw	68,114,105,118,101,114,78,97,109,101
+_44:
+	db	"REGSTR_PATH_DDHW",0
+	align	4
+_45:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	27
+	dw	72,97,114,100,119,97,114,101,92,92,68,105,114,101,99,116
+	dw	68,114,97,119,68,114,105,118,101,114,115
+_46:
+	db	"DDCREATE_HARDWAREONLY",0
+	align	4
+_47:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	49,55
+_48:
+	db	"DDCREATE_EMULATIONONLY",0
+	align	4
+_49:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	51,51
+_50:
+	db	"DDSD_CAPS",0
+_51:
+	db	"DDSD_HEIGHT",0
+_52:
+	db	"DDSD_WIDTH",0
+_53:
+	db	"DDSD_PITCH",0
+	align	4
+_54:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	1
+	dw	56
+_55:
+	db	"DDSD_BACKBUFFERCOUNT",0
+	align	4
+_56:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	51,50
+_57:
+	db	"DDSD_ZBUFFERBITDEPTH",0
+	align	4
+_58:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	54,52
+_59:
+	db	"DDSD_ALPHABITDEPTH",0
+	align	4
+_60:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,50,56
+_61:
+	db	"DDSD_LPSURFACE",0
+	align	4
+_62:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	4
+	dw	50,48,52,56
+_63:
+	db	"DDSD_PIXELFORMAT",0
+	align	4
+_64:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	4
+	dw	52,48,57,54
+_65:
+	db	"DDSD_CKDESTOVERLAY",0
+	align	4
+_66:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	4
+	dw	56,49,57,50
+_67:
+	db	"DDSD_CKDESTBLT",0
+	align	4
+_68:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	49,54,51,56,52
+_69:
+	db	"DDSD_CKSRCOVERLAY",0
+	align	4
+_70:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	51,50,55,54,56
+_71:
+	db	"DDSD_CKSRCBLT",0
+	align	4
+_72:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	54,53,53,51,54
+_73:
+	db	"DDSD_MIPMAPCOUNT",0
+	align	4
+_74:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	6
+	dw	49,51,49,48,55,50
+_75:
+	db	"DDSD_REFRESHRATE",0
+	align	4
+_76:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	6
+	dw	50,54,50,49,52,52
+_77:
+	db	"DDSD_LINEARSIZE",0
+	align	4
+_78:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	6
+	dw	53,50,52,50,56,56
+_79:
+	db	"DDSD_TEXTURESTAGE",0
+	align	4
+_80:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	7
+	dw	49,48,52,56,53,55,54
+_81:
+	db	"DDSD_FVF",0
+	align	4
+_82:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	7
+	dw	50,48,57,55,49,53,50
+_83:
+	db	"DDSD_SRCVBHANDLE",0
+	align	4
+_84:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	7
+	dw	52,49,57,52,51,48,52
+_85:
+	db	"DDSD_ALL",0
+	align	4
+_86:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	7
+	dw	56,51,56,55,48,53,52
+_87:
+	db	"DDOSD_GUID",0
+_88:
+	db	"DDOSD_COMPRESSION_RATIO",0
+_89:
+	db	"DDOSD_SCAPS",0
+_90:
+	db	"DDOSD_OSCAPS",0
+_91:
+	db	"DDOSD_ALL",0
+	align	4
+_92:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	49,53
+_93:
+	db	"DDOSDCAPS_OPTCOMPRESSED",0
+_94:
+	db	"DDOSDCAPS_OPTREORDERED",0
+_95:
+	db	"DDOSDCAPS_MONOLITHICMIPMAP",0
+_96:
+	db	"DDOSDCAPS_VALIDSCAPS",0
+	align	4
+_97:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	9
+	dw	56,48,53,51,50,52,56,48,48
+_98:
+	db	"DDOSDCAPS_VALIDOSCAPS",0
+	align	4
+_99:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	1
+	dw	55
+_100:
+	db	"DDCOLOR_BRIGHTNESS",0
+_101:
+	db	"DDCOLOR_CONTRAST",0
+_102:
+	db	"DDCOLOR_HUE",0
+_103:
+	db	"DDCOLOR_SATURATION",0
+_104:
+	db	"DDCOLOR_SHARPNESS",0
+	align	4
+_105:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	49,54
+_106:
+	db	"DDCOLOR_GAMMA",0
+_107:
+	db	"DDCOLOR_COLORENABLE",0
+_108:
+	db	"DDSCAPS_RESERVED1",0
+_109:
+	db	"DDSCAPS_ALPHA",0
+_110:
+	db	"DDSCAPS_BACKBUFFER",0
+_111:
+	db	"DDSCAPS_COMPLEX",0
+_112:
+	db	"DDSCAPS_FLIP",0
+_113:
+	db	"DDSCAPS_FRONTBUFFER",0
+_114:
+	db	"DDSCAPS_OFFSCREENPLAIN",0
+_115:
+	db	"DDSCAPS_OVERLAY",0
+_116:
+	db	"DDSCAPS_PALETTE",0
+	align	4
+_117:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	50,53,54
+_118:
+	db	"DDSCAPS_PRIMARYSURFACE",0
+	align	4
+_119:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	53,49,50
+_120:
+	db	"DDSCAPS_RESERVED3",0
+	align	4
+_121:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	4
+	dw	49,48,50,52
+_122:
+	db	"DDSCAPS_SYSTEMMEMORY",0
+_123:
+	db	"DDSCAPS_TEXTURE",0
+_124:
+	db	"DDSCAPS_3DDEVICE",0
+_125:
+	db	"DDSCAPS_VIDEOMEMORY",0
+_126:
+	db	"DDSCAPS_VISIBLE",0
+_127:
+	db	"DDSCAPS_WRITEONLY",0
+_128:
+	db	"DDSCAPS_ZBUFFER",0
+_129:
+	db	"DDSCAPS_OWNDC",0
+_130:
+	db	"DDSCAPS_LIVEVIDEO",0
+_131:
+	db	"DDSCAPS_HWCODEC",0
+_132:
+	db	"DDSCAPS_MODEX",0
+_133:
+	db	"DDSCAPS_MIPMAP",0
+_134:
+	db	"DDSCAPS_RESERVED2",0
+	align	4
+_135:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	7
+	dw	56,51,56,56,54,48,56
+_136:
+	db	"DDSCAPS_ALLOCONLOAD",0
+	align	4
+_137:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	8
+	dw	54,55,49,48,56,56,54,52
+_138:
+	db	"DDSCAPS_VIDEOPORT",0
+	align	4
+_139:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	9
+	dw	49,51,52,50,49,55,55,50,56
+_140:
+	db	"DDSCAPS_LOCALVIDMEM",0
+	align	4
+_141:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	9
+	dw	50,54,56,52,51,53,52,53,54
+_142:
+	db	"DDSCAPS_NONLOCALVIDMEM",0
+	align	4
+_143:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	9
+	dw	53,51,54,56,55,48,57,49,50
+_144:
+	db	"DDSCAPS_STANDARDVGAMODE",0
+	align	4
+_145:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	10
+	dw	49,48,55,51,55,52,49,56,50,52
+_146:
+	db	"DDSCAPS_OPTIMIZED",0
+	align	4
+_147:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,49,52,55,52,56,51,54,52,56
+_148:
+	db	"DDSCAPS2_HARDWAREDEINTERLACE",0
+_149:
+	db	"DDSCAPS2_HINTDYNAMIC",0
+_150:
+	db	"DDSCAPS2_HINTSTATIC",0
+_151:
+	db	"DDSCAPS2_TEXTUREMANAGE",0
+_152:
+	db	"DDSCAPS2_RESERVED1",0
+_153:
+	db	"DDSCAPS2_RESERVED2",0
+_154:
+	db	"DDSCAPS2_OPAQUE",0
+_155:
+	db	"DDSCAPS2_HINTANTIALIASING",0
+_156:
+	db	"DDSCAPS2_CUBEMAP",0
+_157:
+	db	"DDSCAPS2_CUBEMAP_POSITIVEX",0
+_158:
+	db	"DDSCAPS2_CUBEMAP_NEGATIVEX",0
+_159:
+	db	"DDSCAPS2_CUBEMAP_POSITIVEY",0
+_160:
+	db	"DDSCAPS2_CUBEMAP_NEGATIVEY",0
+_161:
+	db	"DDSCAPS2_CUBEMAP_POSITIVEZ",0
+_162:
+	db	"DDSCAPS2_CUBEMAP_NEGATIVEZ",0
+_163:
+	db	"DDSCAPS2_CUBEMAP_ALLFACES",0
+	align	4
+_164:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	54,52,53,49,50
+_165:
+	db	"DDSCAPS2_MIPMAPSUBLEVEL",0
+_166:
+	db	"DDSCAPS2_D3DTEXTUREMANAGE",0
+_167:
+	db	"DDSCAPS2_DONOTPERSIST",0
+_168:
+	db	"DDSCAPS2_STEREOSURFACELEFT",0
+_169:
+	db	"DDCAPS_3D",0
+_170:
+	db	"DDCAPS_ALIGNBOUNDARYDEST",0
+_171:
+	db	"DDCAPS_ALIGNSIZEDEST",0
+_172:
+	db	"DDCAPS_ALIGNBOUNDARYSRC",0
+_173:
+	db	"DDCAPS_ALIGNSIZESRC",0
+_174:
+	db	"DDCAPS_ALIGNSTRIDE",0
+_175:
+	db	"DDCAPS_BLT",0
+_176:
+	db	"DDCAPS_BLTQUEUE",0
+_177:
+	db	"DDCAPS_BLTFOURCC",0
+_178:
+	db	"DDCAPS_BLTSTRETCH",0
+_179:
+	db	"DDCAPS_GDI",0
+_180:
+	db	"DDCAPS_OVERLAY",0
+_181:
+	db	"DDCAPS_OVERLAYCANTCLIP",0
+_182:
+	db	"DDCAPS_OVERLAYFOURCC",0
+_183:
+	db	"DDCAPS_OVERLAYSTRETCH",0
+_184:
+	db	"DDCAPS_PALETTE",0
+_185:
+	db	"DDCAPS_PALETTEVSYNC",0
+_186:
+	db	"DDCAPS_READSCANLINE",0
+_187:
+	db	"DDCAPS_RESERVED1",0
+_188:
+	db	"DDCAPS_VBI",0
+_189:
+	db	"DDCAPS_ZBLTS",0
+_190:
+	db	"DDCAPS_ZOVERLAYS",0
+_191:
+	db	"DDCAPS_COLORKEY",0
+_192:
+	db	"DDCAPS_ALPHA",0
+_193:
+	db	"DDCAPS_COLORKEYHWASSIST",0
+	align	4
+_194:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	8
+	dw	49,54,55,55,55,50,49,54
+_195:
+	db	"DDCAPS_NOHARDWARE",0
+	align	4
+_196:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	8
+	dw	51,51,53,53,52,52,51,50
+_197:
+	db	"DDCAPS_BLTCOLORFILL",0
+_198:
+	db	"DDCAPS_BANKSWITCHED",0
+_199:
+	db	"DDCAPS_BLTDEPTHFILL",0
+_200:
+	db	"DDCAPS_CANCLIP",0
+_201:
+	db	"DDCAPS_CANCLIPSTRETCHED",0
+_202:
+	db	"DDCAPS_CANBLTSYSMEM",0
+_203:
+	db	"DDCAPS2_CERTIFIED",0
+_204:
+	db	"DDCAPS2_NO2DDURING3DSCENE",0
+_205:
+	db	"DDCAPS2_VIDEOPORT",0
+_206:
+	db	"DDCAPS2_AUTOFLIPOVERLAY",0
+_207:
+	db	"DDCAPS2_CANBOBINTERLEAVED",0
+_208:
+	db	"DDCAPS2_CANBOBNONINTERLEAVED",0
+_209:
+	db	"DDCAPS2_COLORCONTROLOVERLAY",0
+_210:
+	db	"DDCAPS2_COLORCONTROLPRIMARY",0
+_211:
+	db	"DDCAPS2_CANDROPZ16BIT",0
+_212:
+	db	"DDCAPS2_NONLOCALVIDMEM",0
+_213:
+	db	"DDCAPS2_NONLOCALVIDMEMCAPS",0
+_214:
+	db	"DDCAPS2_NOPAGELOCKREQUIRED",0
+_215:
+	db	"DDCAPS2_WIDESURFACES",0
+_216:
+	db	"DDCAPS2_CANFLIPODDEVEN",0
+_217:
+	db	"DDCAPS2_CANBOBHARDWARE",0
+_218:
+	db	"DDCAPS2_COPYFOURCC",0
+_219:
+	db	"DDCAPS2_PRIMARYGAMMA",0
+_220:
+	db	"DDCAPS2_CANRENDERWINDOWED",0
+_221:
+	db	"DDCAPS2_CANCALIBRATEGAMMA",0
+_222:
+	db	"DDCAPS2_FLIPINTERVAL",0
+_223:
+	db	"DDCAPS2_FLIPNOVSYNC",0
+_224:
+	db	"DDCAPS2_CANMANAGETEXTURE",0
+_225:
+	db	"DDCAPS2_TEXMANINNONLOCALVIDMEM",0
+_226:
+	db	"DDCAPS2_STEREO",0
+_227:
+	db	"DDCAPS2_SYSTONONLOCAL_AS_SYSTOLOCAL",0
+_228:
+	db	"DDFXALPHACAPS_BLTALPHAEDGEBLEND",0
+_229:
+	db	"DDFXALPHACAPS_BLTALPHAPIXELS",0
+_230:
+	db	"DDFXALPHACAPS_BLTALPHAPIXELSNEG",0
+_231:
+	db	"DDFXALPHACAPS_BLTALPHASURFACES",0
+_232:
+	db	"DDFXALPHACAPS_BLTALPHASURFACESNEG",0
+_233:
+	db	"DDFXALPHACAPS_OVERLAYALPHAEDGEBLEND",0
+_234:
+	db	"DDFXALPHACAPS_OVERLAYALPHAPIXELS",0
+_235:
+	db	"DDFXALPHACAPS_OVERLAYALPHAPIXELSNEG",0
+_236:
+	db	"DDFXALPHACAPS_OVERLAYALPHASURFACES",0
+_237:
+	db	"DDFXALPHACAPS_OVERLAYALPHASURFACESNEG",0
+_238:
+	db	"DDFXCAPS_BLTARITHSTRETCHY",0
+_239:
+	db	"DDFXCAPS_BLTARITHSTRETCHYN",0
+_240:
+	db	"DDFXCAPS_BLTMIRRORLEFTRIGHT",0
+_241:
+	db	"DDFXCAPS_BLTMIRRORUPDOWN",0
+_242:
+	db	"DDFXCAPS_BLTROTATION",0
+_243:
+	db	"DDFXCAPS_BLTROTATION90",0
+_244:
+	db	"DDFXCAPS_BLTSHRINKX",0
+_245:
+	db	"DDFXCAPS_BLTSHRINKXN",0
+_246:
+	db	"DDFXCAPS_BLTSHRINKY",0
+_247:
+	db	"DDFXCAPS_BLTSHRINKYN",0
+_248:
+	db	"DDFXCAPS_BLTSTRETCHX",0
+_249:
+	db	"DDFXCAPS_BLTSTRETCHXN",0
+_250:
+	db	"DDFXCAPS_BLTSTRETCHY",0
+_251:
+	db	"DDFXCAPS_BLTSTRETCHYN",0
+_252:
+	db	"DDFXCAPS_OVERLAYARITHSTRETCHY",0
+_253:
+	db	"DDFXCAPS_OVERLAYARITHSTRETCHYN",0
+_254:
+	db	"DDFXCAPS_OVERLAYSHRINKX",0
+_255:
+	db	"DDFXCAPS_OVERLAYSHRINKXN",0
+_256:
+	db	"DDFXCAPS_OVERLAYSHRINKY",0
+_257:
+	db	"DDFXCAPS_OVERLAYSHRINKYN",0
+_258:
+	db	"DDFXCAPS_OVERLAYSTRETCHX",0
+_259:
+	db	"DDFXCAPS_OVERLAYSTRETCHXN",0
+_260:
+	db	"DDFXCAPS_OVERLAYSTRETCHY",0
+_261:
+	db	"DDFXCAPS_OVERLAYSTRETCHYN",0
+_262:
+	db	"DDFXCAPS_OVERLAYMIRRORLEFTRIGHT",0
+_263:
+	db	"DDFXCAPS_OVERLAYMIRRORUPDOWN",0
+_264:
+	db	"DDFXCAPS_BLTALPHA",0
+_265:
+	db	"DDFXCAPS_BLTFILTER",0
+_266:
+	db	"DDFXCAPS_OVERLAYALPHA",0
+_267:
+	db	"DDFXCAPS_OVERLAYFILTER",0
+_268:
+	db	"DDSVCAPS_RESERVED1",0
+_269:
+	db	"DDSVCAPS_RESERVED2",0
+_270:
+	db	"DDSVCAPS_RESERVED3",0
+_271:
+	db	"DDSVCAPS_RESERVED4",0
+_272:
+	db	"DDSVCAPS_STEREOSEQUENTIAL",0
+_273:
+	db	"DDPCAPS_4BIT",0
+_274:
+	db	"DDPCAPS_8BITENTRIES",0
+_275:
+	db	"DDPCAPS_8BIT",0
+_276:
+	db	"DDPCAPS_INITIALIZE",0
+	align	4
+_277:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	1
+	dw	48
+_278:
+	db	"DDPCAPS_PRIMARYSURFACE",0
+_279:
+	db	"DDPCAPS_PRIMARYSURFACELEFT",0
+_280:
+	db	"DDPCAPS_ALLOW256",0
+_281:
+	db	"DDPCAPS_VSYNC",0
+_282:
+	db	"DDPCAPS_1BIT",0
+_283:
+	db	"DDPCAPS_2BIT",0
+_284:
+	db	"DDPCAPS_ALPHA",0
+_285:
+	db	"DDSPD_IUNKNOWNPOINTER",0
+_286:
+	db	"DDSPD_VOLATILE",0
+_287:
+	db	"DDBD_1",0
+_288:
+	db	"DDBD_2",0
+_289:
+	db	"DDBD_4",0
+_290:
+	db	"DDBD_8",0
+_291:
+	db	"DDBD_16",0
+_292:
+	db	"DDBD_24",0
+_293:
+	db	"DDBD_32",0
+_294:
+	db	"DDCKEY_COLORSPACE",0
+_295:
+	db	"DDCKEY_DESTBLT",0
+_296:
+	db	"DDCKEY_DESTOVERLAY",0
+_297:
+	db	"DDCKEY_SRCBLT",0
+_298:
+	db	"DDCKEY_SRCOVERLAY",0
+_299:
+	db	"DDCKEYCAPS_DESTBLT",0
+_300:
+	db	"DDCKEYCAPS_DESTBLTCLRSPACE",0
+_301:
+	db	"DDCKEYCAPS_DESTBLTCLRSPACEYUV",0
+_302:
+	db	"DDCKEYCAPS_DESTBLTYUV",0
+_303:
+	db	"DDCKEYCAPS_DESTOVERLAY",0
+_304:
+	db	"DDCKEYCAPS_DESTOVERLAYCLRSPACE",0
+_305:
+	db	"DDCKEYCAPS_DESTOVERLAYCLRSPACEYUV",0
+_306:
+	db	"DDCKEYCAPS_DESTOVERLAYONEACTIVE",0
+_307:
+	db	"DDCKEYCAPS_DESTOVERLAYYUV",0
+_308:
+	db	"DDCKEYCAPS_SRCBLT",0
+_309:
+	db	"DDCKEYCAPS_SRCBLTCLRSPACE",0
+_310:
+	db	"DDCKEYCAPS_SRCBLTCLRSPACEYUV",0
+_311:
+	db	"DDCKEYCAPS_SRCBLTYUV",0
+_312:
+	db	"DDCKEYCAPS_SRCOVERLAY",0
+_313:
+	db	"DDCKEYCAPS_SRCOVERLAYCLRSPACE",0
+_314:
+	db	"DDCKEYCAPS_SRCOVERLAYCLRSPACEYUV",0
+_315:
+	db	"DDCKEYCAPS_SRCOVERLAYONEACTIVE",0
+_316:
+	db	"DDCKEYCAPS_SRCOVERLAYYUV",0
+_317:
+	db	"DDCKEYCAPS_NOCOSTOVERLAY",0
+_318:
+	db	"DDPF_ALPHAPIXELS",0
+_319:
+	db	"DDPF_ALPHA",0
+_320:
+	db	"DDPF_FOURCC",0
+_321:
+	db	"DDPF_PALETTEINDEXED4",0
+_322:
+	db	"DDPF_PALETTEINDEXEDTO8",0
+_323:
+	db	"DDPF_PALETTEINDEXED8",0
+_324:
+	db	"DDPF_RGB",0
+_325:
+	db	"DDPF_COMPRESSED",0
+_326:
+	db	"DDPF_RGBTOYUV",0
+_327:
+	db	"DDPF_YUV",0
+_328:
+	db	"DDPF_ZBUFFER",0
+_329:
+	db	"DDPF_PALETTEINDEXED1",0
+_330:
+	db	"DDPF_PALETTEINDEXED2",0
+_331:
+	db	"DDPF_ZPIXELS",0
+_332:
+	db	"DDPF_STENCILBUFFER",0
+_333:
+	db	"DDPF_ALPHAPREMULT",0
+_334:
+	db	"DDPF_LUMINANCE",0
+_335:
+	db	"DDPF_BUMPLUMINANCE",0
+_336:
+	db	"DDPF_BUMPDUDV",0
+_337:
+	db	"DDENUMSURFACES_ALL",0
+_338:
+	db	"DDENUMSURFACES_MATCH",0
+_339:
+	db	"DDENUMSURFACES_NOMATCH",0
+_340:
+	db	"DDENUMSURFACES_CANBECREATED",0
+_341:
+	db	"DDENUMSURFACES_DOESEXIST",0
+_342:
+	db	"DDSDM_STANDARDVGAMODE",0
+_343:
+	db	"DDEDM_REFRESHRATES",0
+_344:
+	db	"DDEDM_STANDARDVGAMODES",0
+_345:
+	db	"DDSCL_FULLSCREEN",0
+_346:
+	db	"DDSCL_ALLOWREBOOT",0
+_347:
+	db	"DDSCL_NOWINDOWCHANGES",0
+_348:
+	db	"DDSCL_NORMAL",0
+_349:
+	db	"DDSCL_EXCLUSIVE",0
+_350:
+	db	"DDSCL_ALLOWMODEX",0
+_351:
+	db	"DDSCL_SETFOCUSWINDOW",0
+_352:
+	db	"DDSCL_SETDEVICEWINDOW",0
+_353:
+	db	"DDSCL_CREATEDEVICEWINDOW",0
+_354:
+	db	"DDSCL_MULTITHREADED",0
+_355:
+	db	"DDSCL_FPUSETUP",0
+_356:
+	db	"DDSCL_FPUPRESERVE",0
+_357:
+	db	"DDBLT_ALPHADEST",0
+_358:
+	db	"DDBLT_ALPHADESTCONSTOVERRIDE",0
+_359:
+	db	"DDBLT_ALPHADESTNEG",0
+_360:
+	db	"DDBLT_ALPHADESTSURFACEOVERRIDE",0
+_361:
+	db	"DDBLT_ALPHAEDGEBLEND",0
+_362:
+	db	"DDBLT_ALPHASRC",0
+_363:
+	db	"DDBLT_ALPHASRCCONSTOVERRIDE",0
+_364:
+	db	"DDBLT_ALPHASRCNEG",0
+_365:
+	db	"DDBLT_ALPHASRCSURFACEOVERRIDE",0
+_366:
+	db	"DDBLT_ASYNC",0
+_367:
+	db	"DDBLT_COLORFILL",0
+_368:
+	db	"DDBLT_DDFX",0
+_369:
+	db	"DDBLT_DDROPS",0
+_370:
+	db	"DDBLT_KEYDEST",0
+_371:
+	db	"DDBLT_KEYDESTOVERRIDE",0
+_372:
+	db	"DDBLT_KEYSRC",0
+_373:
+	db	"DDBLT_KEYSRCOVERRIDE",0
+_374:
+	db	"DDBLT_ROP",0
+_375:
+	db	"DDBLT_ROTATIONANGLE",0
+_376:
+	db	"DDBLT_ZBUFFER",0
+_377:
+	db	"DDBLT_ZBUFFERDESTCONSTOVERRIDE",0
+_378:
+	db	"DDBLT_ZBUFFERDESTOVERRIDE",0
+_379:
+	db	"DDBLT_ZBUFFERSRCCONSTOVERRIDE",0
+_380:
+	db	"DDBLT_ZBUFFERSRCOVERRIDE",0
+_381:
+	db	"DDBLT_WAIT",0
+_382:
+	db	"DDBLT_DEPTHFILL",0
+_383:
+	db	"DDBLT_DONOTWAIT",0
+_384:
+	db	"DDBLTFAST_NOCOLORKEY",0
+_385:
+	db	"DDBLTFAST_SRCCOLORKEY",0
+_386:
+	db	"DDBLTFAST_DESTCOLORKEY",0
+_387:
+	db	"DDBLTFAST_WAIT",0
+_388:
+	db	"DDBLTFAST_DONOTWAIT",0
+_389:
+	db	"DDFLIP_WAIT",0
+_390:
+	db	"DDFLIP_EVEN",0
+_391:
+	db	"DDFLIP_ODD",0
+_392:
+	db	"DDFLIP_NOVSYNC",0
+_393:
+	db	"DDFLIP_INTERVAL2",0
+_394:
+	db	"DDFLIP_INTERVAL3",0
+	align	4
+_395:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	8
+	dw	53,48,51,51,49,54,52,56
+_396:
+	db	"DDFLIP_INTERVAL4",0
+_397:
+	db	"DDFLIP_STEREO",0
+_398:
+	db	"DDFLIP_DONOTWAIT",0
+_399:
+	db	"DDOVER_ALPHADEST",0
+_400:
+	db	"DDOVER_ALPHADESTCONSTOVERRIDE",0
+_401:
+	db	"DDOVER_ALPHADESTNEG",0
+_402:
+	db	"DDOVER_ALPHADESTSURFACEOVERRIDE",0
+_403:
+	db	"DDOVER_ALPHAEDGEBLEND",0
+_404:
+	db	"DDOVER_ALPHASRC",0
+_405:
+	db	"DDOVER_ALPHASRCCONSTOVERRIDE",0
+_406:
+	db	"DDOVER_ALPHASRCNEG",0
+_407:
+	db	"DDOVER_ALPHASRCSURFACEOVERRIDE",0
+_408:
+	db	"DDOVER_HIDE",0
+_409:
+	db	"DDOVER_KEYDEST",0
+_410:
+	db	"DDOVER_KEYDESTOVERRIDE",0
+_411:
+	db	"DDOVER_KEYSRC",0
+_412:
+	db	"DDOVER_KEYSRCOVERRIDE",0
+_413:
+	db	"DDOVER_SHOW",0
+_414:
+	db	"DDOVER_ADDDIRTYRECT",0
+_415:
+	db	"DDOVER_REFRESHDIRTYRECTS",0
+_416:
+	db	"DDOVER_REFRESHALL",0
+_417:
+	db	"DDOVER_DDFX",0
+_418:
+	db	"DDOVER_AUTOFLIP",0
+_419:
+	db	"DDOVER_BOB",0
+_420:
+	db	"DDOVER_OVERRIDEBOBWEAVE",0
+_421:
+	db	"DDOVER_INTERLEAVED",0
+_422:
+	db	"DDOVER_BOBHARDWARE",0
+_423:
+	db	"DDOVER_ARGBSCALEFACTORS",0
+_424:
+	db	"DDOVER_DEGRADEARGBSCALING",0
+_425:
+	db	"DDLOCK_SURFACEMEMORYPTR",0
+_426:
+	db	"DDLOCK_WAIT",0
+_427:
+	db	"DDLOCK_EVENT",0
+_428:
+	db	"DDLOCK_READONLY",0
+_429:
+	db	"DDLOCK_WRITEONLY",0
+_430:
+	db	"DDLOCK_NOSYSLOCK",0
+_431:
+	db	"DDLOCK_NOOVERWRITE",0
+_432:
+	db	"DDLOCK_DISCARDCONTENTS",0
+_433:
+	db	"DDLOCK_OKTOSWAP",0
+_434:
+	db	"DDLOCK_DONOTWAIT",0
+_435:
+	db	"DDBLTFX_ARITHSTRETCHY",0
+_436:
+	db	"DDBLTFX_MIRRORLEFTRIGHT",0
+_437:
+	db	"DDBLTFX_MIRRORUPDOWN",0
+_438:
+	db	"DDBLTFX_NOTEARING",0
+_439:
+	db	"DDBLTFX_ROTATE180",0
+_440:
+	db	"DDBLTFX_ROTATE270",0
+_441:
+	db	"DDBLTFX_ROTATE90",0
+_442:
+	db	"DDBLTFX_ZBUFFERRANGE",0
+_443:
+	db	"DDBLTFX_ZBUFFERBASEDEST",0
+_444:
+	db	"DDOVERFX_ARITHSTRETCHY",0
+_445:
+	db	"DDOVERFX_MIRRORLEFTRIGHT",0
+_446:
+	db	"DDOVERFX_MIRRORUPDOWN",0
+_447:
+	db	"DDWAITVB_BLOCKBEGIN",0
+_448:
+	db	"DDWAITVB_BLOCKBEGINEVENT",0
+_449:
+	db	"DDWAITVB_BLOCKEND",0
+_450:
+	db	"DDGFS_CANFLIP",0
+_451:
+	db	"DDGFS_ISFLIPDONE",0
+_452:
+	db	"DDGBS_CANBLT",0
+_453:
+	db	"DDGBS_ISBLTDONE",0
+_454:
+	db	"DDENUMOVERLAYZ_BACKTOFRONT",0
+_455:
+	db	"DDENUMOVERLAYZ_FRONTTOBACK",0
+_456:
+	db	"DDOVERZ_SENDTOFRONT",0
+_457:
+	db	"DDOVERZ_SENDTOBACK",0
+_458:
+	db	"DDOVERZ_MOVEFORWARD",0
+_459:
+	db	"DDOVERZ_MOVEBACKWARD",0
+	align	4
+_460:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	1
+	dw	51
+_461:
+	db	"DDOVERZ_INSERTINFRONTOF",0
+_462:
+	db	"DDOVERZ_INSERTINBACKOF",0
+	align	4
+_463:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	1
+	dw	53
+_464:
+	db	"DDSGR_CALIBRATE",0
+_465:
+	db	"DDSMT_ISTESTREQUIRED",0
+_466:
+	db	"DDEM_MODEPASSED",0
+_467:
+	db	"DDEM_MODEFAILED",0
+_468:
+	db	"DD_OK",0
+_469:
+	db	"DD_FALSE",0
+_470:
+	db	"DDENUMRET_CANCEL",0
+_471:
+	db	"DDENUMRET_OK",0
+_472:
+	db	"DDERR",0
+	align	4
+_473:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,54,55,50
+_474:
+	db	"DDERR_ALREADYINITIALIZED",0
+	align	4
+_475:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,54,54,55
+_476:
+	db	"DDERR_CANNOTATTACHSURFACE",0
+	align	4
+_477:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,54,54,50
+_478:
+	db	"DDERR_CANNOTDETACHSURFACE",0
+	align	4
+_479:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,54,53,50
+_480:
+	db	"DDERR_CURRENTLYNOTAVAIL",0
+	align	4
+_481:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,54,51,50
+_482:
+	db	"DDERR_EXCEPTION",0
+	align	4
+_483:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,54,49,55
+_484:
+	db	"DDERR_GENERIC",0
+	align	4
+_485:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,49,52,55,52,54,55,50,53,57
+_486:
+	db	"DDERR_HEIGHTALIGN",0
+	align	4
+_487:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,53,56,50
+_488:
+	db	"DDERR_INCOMPATIBLEPRIMARY",0
+	align	4
+_489:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,53,55,55
+_490:
+	db	"DDERR_INVALIDCAPS",0
+	align	4
+_491:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,53,55,50
+_492:
+	db	"DDERR_INVALIDCLIPLIST",0
+	align	4
+_493:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,53,54,50
+_494:
+	db	"DDERR_INVALIDMODE",0
+	align	4
+_495:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,53,53,50
+_496:
+	db	"DDERR_INVALIDOBJECT",0
+	align	4
+_497:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,53,52,50
+_498:
+	db	"DDERR_INVALIDPARAMS",0
+	align	4
+_499:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,49,52,55,48,50,52,56,48,57
+_500:
+	db	"DDERR_INVALIDPIXELFORMAT",0
+	align	4
+_501:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,53,50,55
+_502:
+	db	"DDERR_INVALIDRECT",0
+	align	4
+_503:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,53,50,50
+_504:
+	db	"DDERR_LOCKEDSURFACES",0
+	align	4
+_505:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,53,49,50
+_506:
+	db	"DDERR_NO3D",0
+	align	4
+_507:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,53,48,50
+_508:
+	db	"DDERR_NOALPHAHW",0
+	align	4
+_509:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,52,57,50
+_510:
+	db	"DDERR_NOSTEREOHARDWARE",0
+	align	4
+_511:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,52,57,49
+_512:
+	db	"DDERR_NOSURFACELEFT",0
+	align	4
+_513:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,52,57,48
+_514:
+	db	"DDERR_NOCLIPLIST",0
+	align	4
+_515:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,52,54,55
+_516:
+	db	"DDERR_NOCOLORCONVHW",0
+	align	4
+_517:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,52,54,50
+_518:
+	db	"DDERR_NOCOOPERATIVELEVELSET",0
+	align	4
+_519:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,52,54,48
+_520:
+	db	"DDERR_NOCOLORKEY",0
+	align	4
+_521:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,52,53,55
+_522:
+	db	"DDERR_NOCOLORKEYHW",0
+	align	4
+_523:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,52,53,50
+_524:
+	db	"DDERR_NODIRECTDRAWSUPPORT",0
+	align	4
+_525:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,52,53,48
+_526:
+	db	"DDERR_NOEXCLUSIVEMODE",0
+	align	4
+_527:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,52,52,55
+_528:
+	db	"DDERR_NOFLIPHW",0
+	align	4
+_529:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,52,52,50
+_530:
+	db	"DDERR_NOGDI",0
+	align	4
+_531:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,52,51,50
+_532:
+	db	"DDERR_NOMIRRORHW",0
+	align	4
+_533:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,52,50,50
+_534:
+	db	"DDERR_NOTFOUND",0
+	align	4
+_535:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,52,49,55
+_536:
+	db	"DDERR_NOOVERLAYHW",0
+	align	4
+_537:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,52,49,50
+_538:
+	db	"DDERR_OVERLAPPINGRECTS",0
+	align	4
+_539:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,52,48,50
+_540:
+	db	"DDERR_NORASTEROPHW",0
+	align	4
+_541:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,51,57,50
+_542:
+	db	"DDERR_NOROTATIONHW",0
+	align	4
+_543:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,51,56,50
+_544:
+	db	"DDERR_NOSTRETCHHW",0
+	align	4
+_545:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,51,54,50
+_546:
+	db	"DDERR_NOT4BITCOLOR",0
+	align	4
+_547:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,51,53,54
+_548:
+	db	"DDERR_NOT4BITCOLORINDEX",0
+	align	4
+_549:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,51,53,53
+_550:
+	db	"DDERR_NOT8BITCOLOR",0
+	align	4
+_551:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,51,53,50
+_552:
+	db	"DDERR_NOTEXTUREHW",0
+	align	4
+_553:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,51,52,50
+_554:
+	db	"DDERR_NOVSYNCHW",0
+	align	4
+_555:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,51,51,55
+_556:
+	db	"DDERR_NOZBUFFERHW",0
+	align	4
+_557:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,51,51,50
+_558:
+	db	"DDERR_NOZOVERLAYHW",0
+	align	4
+_559:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,51,50,50
+_560:
+	db	"DDERR_OUTOFCAPS",0
+	align	4
+_561:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,51,49,50
+_562:
+	db	"DDERR_OUTOFMEMORY",0
+	align	4
+_563:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,49,52,55,48,50,52,56,56,50
+_564:
+	db	"DDERR_OUTOFVIDEOMEMORY",0
+	align	4
+_565:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,50,57,50
+_566:
+	db	"DDERR_OVERLAYCANTCLIP",0
+	align	4
+_567:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,50,57,48
+_568:
+	db	"DDERR_OVERLAYCOLORKEYONLYONEACTIVE",0
+	align	4
+_569:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,50,56,56
+_570:
+	db	"DDERR_PALETTEBUSY",0
+	align	4
+_571:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,50,56,53
+_572:
+	db	"DDERR_COLORKEYNOTSET",0
+	align	4
+_573:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,50,55,50
+_574:
+	db	"DDERR_SURFACEALREADYATTACHED",0
+	align	4
+_575:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,50,54,50
+_576:
+	db	"DDERR_SURFACEALREADYDEPENDENT",0
+	align	4
+_577:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,50,53,50
+_578:
+	db	"DDERR_SURFACEBUSY",0
+	align	4
+_579:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,50,52,50
+_580:
+	db	"DDERR_CANTLOCKSURFACE",0
+	align	4
+_581:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,50,51,55
+_582:
+	db	"DDERR_SURFACEISOBSCURED",0
+	align	4
+_583:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,50,51,50
+_584:
+	db	"DDERR_SURFACELOST",0
+	align	4
+_585:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,50,50,50
+_586:
+	db	"DDERR_SURFACENOTATTACHED",0
+	align	4
+_587:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,50,49,50
+_588:
+	db	"DDERR_TOOBIGHEIGHT",0
+	align	4
+_589:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,50,48,50
+_590:
+	db	"DDERR_TOOBIGSIZE",0
+	align	4
+_591:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,49,57,50
+_592:
+	db	"DDERR_TOOBIGWIDTH",0
+	align	4
+_593:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,49,56,50
+_594:
+	db	"DDERR_UNSUPPORTED",0
+	align	4
+_595:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,49,52,55,52,56,51,54,52,55
+_596:
+	db	"DDERR_UNSUPPORTEDFORMAT",0
+	align	4
+_597:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,49,54,50
+_598:
+	db	"DDERR_UNSUPPORTEDMASK",0
+	align	4
+_599:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,49,53,50
+_600:
+	db	"DDERR_INVALIDSTREAM",0
+	align	4
+_601:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,49,53,49
+_602:
+	db	"DDERR_VERTICALBLANKINPROGRESS",0
+	align	4
+_603:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,49,51,53
+_604:
+	db	"DDERR_WASSTILLDRAWING",0
+	align	4
+_605:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,49,51,50
+_606:
+	db	"DDERR_DDSCAPSCOMPLEXREQUIRED",0
+	align	4
+_607:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,49,51,48
+_608:
+	db	"DDERR_XALIGN",0
+	align	4
+_609:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,49,49,50
+_610:
+	db	"DDERR_INVALIDDIRECTDRAWGUID",0
+	align	4
+_611:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,49,49,49
+_612:
+	db	"DDERR_DIRECTDRAWALREADYCREATED",0
+	align	4
+_613:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,49,49,48
+_614:
+	db	"DDERR_NODIRECTDRAWHW",0
+	align	4
+_615:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,49,48,57
+_616:
+	db	"DDERR_PRIMARYSURFACEALREADYEXISTS",0
+	align	4
+_617:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,49,48,56
+_618:
+	db	"DDERR_NOEMULATION",0
+	align	4
+_619:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,49,48,55
+_620:
+	db	"DDERR_REGIONTOOSMALL",0
+	align	4
+_621:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,49,48,54
+_622:
+	db	"DDERR_CLIPPERISUSINGHWND",0
+	align	4
+_623:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,49,48,53
+_624:
+	db	"DDERR_NOCLIPPERATTACHED",0
+	align	4
+_625:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,49,48,52
+_626:
+	db	"DDERR_NOHWND",0
+	align	4
+_627:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,49,48,51
+_628:
+	db	"DDERR_HWNDSUBCLASSED",0
+	align	4
+_629:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,49,48,50
+_630:
+	db	"DDERR_HWNDALREADYSET",0
+	align	4
+_631:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,49,48,49
+_632:
+	db	"DDERR_NOPALETTEATTACHED",0
+	align	4
+_633:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,49,48,48
+_634:
+	db	"DDERR_NOPALETTEHW",0
+	align	4
+_635:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,48,57,57
+_636:
+	db	"DDERR_BLTFASTCANTCLIP",0
+	align	4
+_637:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,48,57,56
+_638:
+	db	"DDERR_NOBLTHW",0
+	align	4
+_639:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,48,57,55
+_640:
+	db	"DDERR_NODDROPSHW",0
+	align	4
+_641:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,48,57,54
+_642:
+	db	"DDERR_OVERLAYNOTVISIBLE",0
+	align	4
+_643:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,48,57,53
+_644:
+	db	"DDERR_NOOVERLAYDEST",0
+	align	4
+_645:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,48,57,52
+_646:
+	db	"DDERR_INVALIDPOSITION",0
+	align	4
+_647:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,48,57,51
+_648:
+	db	"DDERR_NOTAOVERLAYSURFACE",0
+	align	4
+_649:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,48,57,50
+_650:
+	db	"DDERR_EXCLUSIVEMODEALREADYSET",0
+	align	4
+_651:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,48,57,49
+_652:
+	db	"DDERR_NOTFLIPPABLE",0
+	align	4
+_653:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,48,57,48
+_654:
+	db	"DDERR_CANTDUPLICATE",0
+	align	4
+_655:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,48,56,57
+_656:
+	db	"DDERR_NOTLOCKED",0
+	align	4
+_657:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,48,56,56
+_658:
+	db	"DDERR_CANTCREATEDC",0
+	align	4
+_659:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,48,56,55
+_660:
+	db	"DDERR_NODC",0
+	align	4
+_661:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,48,56,54
+_662:
+	db	"DDERR_WRONGMODE",0
+	align	4
+_663:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,48,56,53
+_664:
+	db	"DDERR_IMPLICITLYCREATED",0
+	align	4
+_665:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,48,56,52
+_666:
+	db	"DDERR_NOTPALETTIZED",0
+	align	4
+_667:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,48,56,51
+_668:
+	db	"DDERR_UNSUPPORTEDMODE",0
+	align	4
+_669:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,48,56,50
+_670:
+	db	"DDERR_NOMIPMAPHW",0
+	align	4
+_671:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,48,56,49
+_672:
+	db	"DDERR_INVALIDSURFACETYPE",0
+	align	4
+_673:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,48,56,48
+_674:
+	db	"DDERR_NOOPTIMIZEHW",0
+	align	4
+_675:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,48,55,50
+_676:
+	db	"DDERR_NOTLOADED",0
+	align	4
+_677:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,48,55,49
+_678:
+	db	"DDERR_NOFOCUSWINDOW",0
+	align	4
+_679:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,48,55,48
+_680:
+	db	"DDERR_NOTONMIPMAPSUBLEVEL",0
+	align	4
+_681:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,48,54,57
+_682:
+	db	"DDERR_DCALREADYCREATED",0
+	align	4
+_683:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,48,53,50
+_684:
+	db	"DDERR_NONONLOCALVIDMEM",0
+	align	4
+_685:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,48,52,50
+_686:
+	db	"DDERR_CANTPAGELOCK",0
+	align	4
+_687:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,48,51,50
+_688:
+	db	"DDERR_CANTPAGEUNLOCK",0
+	align	4
+_689:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,50,48,49,50
+_690:
+	db	"DDERR_NOTPAGELOCKED",0
+	align	4
+_691:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,49,57,57,50
+_692:
+	db	"DDERR_MOREDATA",0
+	align	4
+_693:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,49,57,56,50
+_694:
+	db	"DDERR_EXPIRED",0
+	align	4
+_695:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,49,57,56,49
+_696:
+	db	"DDERR_TESTFINISHED",0
+	align	4
+_697:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,49,57,56,48
+_698:
+	db	"DDERR_NEWMODE",0
+	align	4
+_699:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,49,57,55,57
+_700:
+	db	"DDERR_D3DNOTINITIALIZED",0
+	align	4
+_701:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,49,57,55,56
+_702:
+	db	"DDERR_VIDEONOTACTIVE",0
+	align	4
+_703:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,49,57,55,55
+_704:
+	db	"DDERR_NOMONITORINFORMATION",0
+	align	4
+_705:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,49,57,55,54
+_706:
+	db	"DDERR_NODRIVERSUPPORT",0
+	align	4
+_707:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,49,57,55,53
+_708:
+	db	"DDERR_DEVICEDOESNTOWNSURFACE",0
+	align	4
+_709:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,49,57,55,51
+_710:
+	db	"DDERR_NOTINITIALIZED",0
+	align	4
+_711:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,49,52,55,50,50,49,48,48,56
+_712:
+	db	"DD_ROP_SPACE",0
+_713:
+	db	"ddLib",0
+_714:
+	db	"IID_IDirectDraw7",0
+_715:
+	db	"[]i",0
+_716:
+	db	"DirectDrawCreate",0
+_717:
+	db	"(*i,*:IDirectDraw,*i)i",0
+_718:
+	db	"DirectDrawCreateEx",0
+_719:
+	db	"(*b,*b,*i,*b)i",0
+_720:
+	db	"DirectDrawEnumerate",0
+_721:
+	db	"((*i,*b,*b,*i)i,*i)i",0
+_722:
+	db	"D3DADAPTER_DEFAULT",0
+_723:
+	db	"D3DENUMRET_CANCEL",0
+_724:
+	db	"D3DENUMRET_OK",0
+_725:
+	db	"D3DSTATUS",0
+	align	4
+_726:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	9
+	dw	49,52,49,57,53,48,57,55,54
+_727:
+	db	"D3DHRESULT",0
+_728:
+	db	"D3DERR_WRONGTEXTUREFORMAT",0
+	align	4
+_729:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,48,54,48,48
+_730:
+	db	"D3DERR_UNSUPPORTEDCOLOROPERATION",0
+	align	4
+_731:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,48,53,57,57
+_732:
+	db	"D3DERR_UNSUPPORTEDCOLORARG",0
+	align	4
+_733:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,48,53,57,56
+_734:
+	db	"D3DERR_UNSUPPORTEDALPHAOPERATION",0
+	align	4
+_735:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,48,53,57,55
+_736:
+	db	"D3DERR_UNSUPPORTEDALPHAARG",0
+	align	4
+_737:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,48,53,57,54
+_738:
+	db	"D3DERR_TOOMANYOPERATIONS",0
+	align	4
+_739:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,48,53,57,53
+_740:
+	db	"D3DERR_CONFLICTINGTEXTUREFILTER",0
+	align	4
+_741:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,48,53,57,52
+_742:
+	db	"D3DERR_UNSUPPORTEDFACTORVALUE",0
+	align	4
+_743:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,48,53,57,51
+_744:
+	db	"D3DERR_CONFLICTINGRENDERSTATE",0
+	align	4
+_745:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,48,53,57,49
+_746:
+	db	"D3DERR_UNSUPPORTEDTEXTUREFILTER",0
+	align	4
+_747:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,48,53,57,48
+_748:
+	db	"D3DERR_CONFLICTINGTEXTUREPALETTE",0
+	align	4
+_749:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,48,53,56,54
+_750:
+	db	"D3DERR_DRIVERINTERNALERROR",0
+	align	4
+_751:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,48,53,56,53
+_752:
+	db	"D3DERR_NOTFOUND",0
+	align	4
+_753:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,48,53,50,50
+_754:
+	db	"D3DERR_MOREDATA",0
+	align	4
+_755:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,48,53,50,49
+_756:
+	db	"D3DERR_DEVICELOST",0
+	align	4
+_757:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,48,53,50,48
+_758:
+	db	"D3DERR_DEVICENOTRESET",0
+	align	4
+_759:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,48,53,49,57
+_760:
+	db	"D3DERR_NOTAVAILABLE",0
+	align	4
+_761:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,48,53,49,56
+_762:
+	db	"D3DERR_OUTOFVIDEOMEMORY",0
+_763:
+	db	"D3DERR_INVALIDDEVICE",0
+	align	4
+_764:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,48,53,49,55
+_765:
+	db	"D3DERR_INVALIDCALL",0
+	align	4
+_766:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,48,53,49,54
+_767:
+	db	"D3DERR_DRIVERINVALIDCALL",0
+	align	4
+_768:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	11
+	dw	45,50,48,48,53,53,51,48,53,49,53
+_769:
+	db	"D3DERR_WASSTILLDRAWING",0
+_770:
+	db	"D3D_OK",0
+_771:
+	db	"D3DOK_NOAUTOGEN",0
+	align	4
+_772:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	9
+	dw	49,52,49,57,53,51,49,51,53
+_773:
+	db	"D3DLOCK_READONLY",0
+_774:
+	db	"D3DLOCK_DISCARD",0
+_775:
+	db	"D3DLOCK_NOOVERWRITE",0
+_776:
+	db	"D3DLOCK_NOSYSLOCK",0
+_777:
+	db	"D3DLOCK_DONOTWAIT",0
+_778:
+	db	"D3DLOCK_NO_DIRTY_UPDATE",0
+_779:
+	db	"D3DUSAGE_RENDERTARGET",0
+_780:
+	db	"D3DUSAGE_DEPTHSTENCIL",0
+_781:
+	db	"D3DUSAGE_DYNAMIC",0
+_782:
+	db	"D3DUSAGE_AUTOGENMIPMAP",0
+_783:
+	db	"D3DUSAGE_DMAP",0
+_784:
+	db	"D3DUSAGE_QUERY_LEGACYBUMPMAP",0
+_785:
+	db	"D3DUSAGE_QUERY_SRGBREAD",0
+_786:
+	db	"D3DUSAGE_QUERY_FILTER",0
+_787:
+	db	"D3DUSAGE_QUERY_SRGBWRITE",0
+_788:
+	db	"D3DUSAGE_QUERY_POSTPIXELSHADER_BLENDING",0
+_789:
+	db	"D3DUSAGE_QUERY_VERTEXTEXTURE",0
+_790:
+	db	"D3DUSAGE_WRITEONLY",0
+_791:
+	db	"D3DUSAGE_SOFTWAREPROCESSING",0
+_792:
+	db	"D3DUSAGE_DONOTCLIP",0
+_793:
+	db	"D3DUSAGE_POINTS",0
+_794:
+	db	"D3DUSAGE_RTPATCHES",0
+_795:
+	db	"D3DUSAGE_NPATCHES",0
+_796:
+	db	"D3DTADDRESS_WRAP",0
+_797:
+	db	"D3DTADDRESS_MIRROR",0
+_798:
+	db	"D3DTADDRESS_CLAMP",0
+_799:
+	db	"D3DTADDRESS_BORDER",0
+_800:
+	db	"D3DTADDRESS_MIRRORONCE",0
+_801:
+	db	"D3DMCS_MATERIAL",0
+_802:
+	db	"D3DMCS_COLOR1",0
+_803:
+	db	"D3DMCS_COLOR2",0
+_804:
+	db	"D3DBLEND_ZERO",0
+_805:
+	db	"D3DBLEND_ONE",0
+_806:
+	db	"D3DBLEND_SRCCOLOR",0
+_807:
+	db	"D3DBLEND_INVSRCCOLOR",0
+_808:
+	db	"D3DBLEND_SRCALPHA",0
+_809:
+	db	"D3DBLEND_INVSRCALPHA",0
+	align	4
+_810:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	1
+	dw	54
+_811:
+	db	"D3DBLEND_DESTALPHA",0
+_812:
+	db	"D3DBLEND_INVDESTALPHA",0
+_813:
+	db	"D3DBLEND_DESTCOLOR",0
+	align	4
+_814:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	1
+	dw	57
+_815:
+	db	"D3DBLEND_INVDESTCOLOR",0
+	align	4
+_816:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	49,48
+_817:
+	db	"D3DBLEND_SRCALPHASAT",0
+	align	4
+_818:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	49,49
+_819:
+	db	"D3DBLEND_BOTHSRCALPHA",0
+	align	4
+_820:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	49,50
+_821:
+	db	"D3DBLEND_BOTHINVSRCALPHA",0
+	align	4
+_822:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	49,51
+_823:
+	db	"D3DBLEND_BLENDFACTOR",0
+	align	4
+_824:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	49,52
+_825:
+	db	"D3DBLEND_INVBLENDFACTOR",0
+_826:
+	db	"D3DTOP_DISABLE",0
+_827:
+	db	"D3DTOP_SELECTARG1",0
+_828:
+	db	"D3DTOP_SELECTARG2",0
+_829:
+	db	"D3DTOP_MODULATE",0
+_830:
+	db	"D3DTOP_MODULATE2X",0
+_831:
+	db	"D3DTOP_MODULATE4X",0
+_832:
+	db	"D3DTOP_ADD",0
+_833:
+	db	"D3DTOP_ADDSIGNED",0
+_834:
+	db	"D3DTOP_ADDSIGNED2X",0
+_835:
+	db	"D3DTOP_SUBTRACT",0
+_836:
+	db	"D3DTOP_ADDSMOOTH",0
+_837:
+	db	"D3DTOP_BLENDDIFFUSEALPHA",0
+_838:
+	db	"D3DTOP_BLENDTEXTUREALPHA",0
+_839:
+	db	"D3DTOP_BLENDFACTORALPHA",0
+_840:
+	db	"D3DTOP_BLENDTEXTUREALPHAPM",0
+_841:
+	db	"D3DTOP_BLENDCURRENTALPHA",0
+_842:
+	db	"D3DTOP_PREMODULATE",0
+_843:
+	db	"D3DTOP_MODULATEALPHA_ADDCOLOR",0
+	align	4
+_844:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	49,56
+_845:
+	db	"D3DTOP_MODULATECOLOR_ADDALPHA",0
+	align	4
+_846:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	49,57
+_847:
+	db	"D3DTOP_MODULATEINVALPHA_ADDCOLOR",0
+	align	4
+_848:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	50,48
+_849:
+	db	"D3DTOP_MODULATEINVCOLOR_ADDALPHA",0
+	align	4
+_850:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	50,49
+_851:
+	db	"D3DTOP_BUMPENVMAP",0
+	align	4
+_852:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	50,50
+_853:
+	db	"D3DTOP_BUMPENVMAPLUMINANCE",0
+	align	4
+_854:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	50,51
+_855:
+	db	"D3DTOP_DOTPRODUCT3",0
+	align	4
+_856:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	50,52
+_857:
+	db	"D3DTOP_MULTIPLYADD",0
+	align	4
+_858:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	50,53
+_859:
+	db	"D3DTOP_LERP",0
+	align	4
+_860:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	50,54
+_861:
+	db	"D3DTA_SELECTMASK",0
+_862:
+	db	"D3DTA_DIFFUSE",0
+_863:
+	db	"D3DTA_CURRENT",0
+_864:
+	db	"D3DTA_TEXTURE",0
+_865:
+	db	"D3DTA_TFACTOR",0
+_866:
+	db	"D3DTA_SPECULAR",0
+_867:
+	db	"D3DTA_TEMP",0
+_868:
+	db	"D3DTA_CONSTANT",0
+_869:
+	db	"D3DTA_COMPLEMENT",0
+_870:
+	db	"D3DTA_ALPHAREPLICATE",0
+_871:
+	db	"D3DCULL_NONE",0
+_872:
+	db	"D3DCULL_CW",0
+_873:
+	db	"D3DCULL_CCW",0
+_874:
+	db	"D3DCMP_NEVER",0
+_875:
+	db	"D3DCMP_LESS",0
+_876:
+	db	"D3DCMP_EQUAL",0
+_877:
+	db	"D3DCMP_LESSEQUAL",0
+_878:
+	db	"D3DCMP_GREATER",0
+_879:
+	db	"D3DCMP_NOTEQUAL",0
+_880:
+	db	"D3DCMP_GREATEREQUAL",0
+_881:
+	db	"D3DCMP_ALWAYS",0
+_882:
+	db	"D3DSTENCILOP_KEEP",0
+_883:
+	db	"D3DSTENCILOP_ZERO",0
+_884:
+	db	"D3DSTENCILOP_REPLACE",0
+_885:
+	db	"D3DSTENCILOP_INCRSAT",0
+_886:
+	db	"D3DSTENCILOP_DECRSAT",0
+_887:
+	db	"D3DSTENCILOP_INVERT",0
+_888:
+	db	"D3DSTENCILOP_INCR",0
+_889:
+	db	"D3DSTENCILOP_DECR",0
+_890:
+	db	"D3DFMT_UNKNOWN",0
+_891:
+	db	"D3DFMT_R8G8B8",0
+_892:
+	db	"D3DFMT_A8R8G8B8",0
+_893:
+	db	"D3DFMT_X8R8G8B8",0
+_894:
+	db	"D3DFMT_R5G6B5",0
+_895:
+	db	"D3DFMT_X1R5G5B5",0
+_896:
+	db	"D3DFMT_A1R5G5B5",0
+_897:
+	db	"D3DFMT_A4R4G4B4",0
+_898:
+	db	"D3DFMT_R3G3B2",0
+	align	4
+_899:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	50,55
+_900:
+	db	"D3DFMT_A8",0
+	align	4
+_901:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	50,56
+_902:
+	db	"D3DFMT_A8R3G3B2",0
+	align	4
+_903:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	50,57
+_904:
+	db	"D3DFMT_X4R4G4B4",0
+	align	4
+_905:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	51,48
+_906:
+	db	"D3DFMT_A2B10G10R10",0
+	align	4
+_907:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	51,49
+_908:
+	db	"D3DFMT_A8B8G8R8",0
+_909:
+	db	"D3DFMT_X8B8G8R8",0
+_910:
+	db	"D3DFMT_G16R16",0
+	align	4
+_911:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	51,52
+_912:
+	db	"D3DFMT_A2R10G10B10",0
+	align	4
+_913:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	51,53
+_914:
+	db	"D3DFMT_A16B16G16R16",0
+	align	4
+_915:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	51,54
+_916:
+	db	"D3DFMT_D16_LOCKABLE",0
+	align	4
+_917:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	55,48
+_918:
+	db	"D3DFMT_D32",0
+	align	4
+_919:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	55,49
+_920:
+	db	"D3DFMT_D15S1",0
+	align	4
+_921:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	55,51
+_922:
+	db	"D3DFMT_D24S8",0
+	align	4
+_923:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	55,53
+_924:
+	db	"D3DFMT_D24X8",0
+	align	4
+_925:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	55,55
+_926:
+	db	"D3DFMT_D24X4S4",0
+	align	4
+_927:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	55,57
+_928:
+	db	"D3DFMT_D16",0
+	align	4
+_929:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	56,48
+_930:
+	db	"D3DFMT_D32F_LOCKABLE",0
+	align	4
+_931:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	56,50
+_932:
+	db	"D3DFMT_D24FS8",0
+	align	4
+_933:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	56,51
+_934:
+	db	"D3DFMT_VERTEXDATA",0
+	align	4
+_935:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,48,48
+_936:
+	db	"D3DFMT_INDEX16",0
+	align	4
+_937:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,48,49
+_938:
+	db	"D3DFMT_INDEX32",0
+	align	4
+_939:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,48,50
+_940:
+	db	"D3DDEVTYPE_HAL",0
+_941:
+	db	"D3DDEVTYPE_REF",0
+_942:
+	db	"D3DDEVTYPE_SW",0
+_943:
+	db	"D3DRTYPE_SURFACE",0
+_944:
+	db	"D3DRTYPE_VOLUME",0
+_945:
+	db	"D3DRTYPE_TEXTURE",0
+_946:
+	db	"D3DRTYPE_VOLUMETEXTURE",0
+_947:
+	db	"D3DRTYPE_CUBETEXTURE",0
+_948:
+	db	"D3DRTYPE_VERTEXBUFFER",0
+_949:
+	db	"D3DRTYPE_INDEXBUFFER",0
+_950:
+	db	"D3DMULTISAMPLE_NONE",0
+_951:
+	db	"D3DMULTISAMPLE_NONMASKABLE",0
+_952:
+	db	"D3DMULTISAMPLE_2_SAMPLES",0
+_953:
+	db	"D3DMULTISAMPLE_3_SAMPLES",0
+_954:
+	db	"D3DMULTISAMPLE_4_SAMPLES",0
+_955:
+	db	"D3DMULTISAMPLE_5_SAMPLES",0
+_956:
+	db	"D3DMULTISAMPLE_6_SAMPLES",0
+_957:
+	db	"D3DMULTISAMPLE_7_SAMPLES",0
+_958:
+	db	"D3DMULTISAMPLE_8_SAMPLES",0
+_959:
+	db	"D3DMULTISAMPLE_9_SAMPLES",0
+_960:
+	db	"D3DMULTISAMPLE_10_SAMPLES",0
+_961:
+	db	"D3DMULTISAMPLE_11_SAMPLES",0
+_962:
+	db	"D3DMULTISAMPLE_12_SAMPLES",0
+_963:
+	db	"D3DMULTISAMPLE_13_SAMPLES",0
+_964:
+	db	"D3DMULTISAMPLE_14_SAMPLES",0
+_965:
+	db	"D3DMULTISAMPLE_15_SAMPLES",0
+_966:
+	db	"D3DMULTISAMPLE_16_SAMPLES",0
+_967:
+	db	"D3DSWAPEFFECT_DISCARD",0
+_968:
+	db	"D3DSWAPEFFECT_FLIP",0
+_969:
+	db	"D3DSWAPEFFECT_COPY",0
+_970:
+	db	"D3DPRESENT_INTERVAL_DEFAULT",0
+_971:
+	db	"D3DPRESENT_INTERVAL_ONE",0
+_972:
+	db	"D3DPRESENT_INTERVAL_TWO",0
+_973:
+	db	"D3DPRESENT_INTERVAL_THREE",0
+_974:
+	db	"D3DPRESENT_INTERVAL_FOUR",0
+_975:
+	db	"D3DPRESENT_INTERVAL_IMMEDIATE",0
+_976:
+	db	"D3DPOOL_DEFAULT",0
+_977:
+	db	"D3DPOOL_MANAGED",0
+_978:
+	db	"D3DPOOL_SYSTEMMEM",0
+_979:
+	db	"D3DPOOL_SCRATCH",0
+_980:
+	db	"D3DBACKBUFFER_TYPE_MONO",0
+_981:
+	db	"D3DBACKBUFFER_TYPE_LEFT",0
+_982:
+	db	"D3DBACKBUFFER_TYPE_RIGHT",0
+_983:
+	db	"D3DTEXF_NONE",0
+_984:
+	db	"D3DTEXF_POINT",0
+_985:
+	db	"D3DTEXF_LINEAR",0
+_986:
+	db	"D3DTEXF_ANISOTROPIC",0
+_987:
+	db	"D3DTEXF_PYRAMIDALQUAD",0
+_988:
+	db	"D3DTEXF_GAUSSIANQUAD",0
+_989:
+	db	"D3DTS_VIEW",0
+_990:
+	db	"D3DTS_PROJECTION",0
+_991:
+	db	"D3DTS_TEXTURE0",0
+_992:
+	db	"D3DTS_TEXTURE1",0
+_993:
+	db	"D3DTS_TEXTURE2",0
+_994:
+	db	"D3DTS_TEXTURE3",0
+_995:
+	db	"D3DTS_TEXTURE4",0
+_996:
+	db	"D3DTS_TEXTURE5",0
+_997:
+	db	"D3DTS_TEXTURE6",0
+_998:
+	db	"D3DTS_TEXTURE7",0
+_999:
+	db	"D3DTS_WORLD",0
+_1000:
+	db	"D3DTS_WORLD1",0
+	align	4
+_1001:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	50,53,55
+_1002:
+	db	"D3DTS_WORLD2",0
+	align	4
+_1003:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	50,53,56
+_1004:
+	db	"D3DTS_WORLD3",0
+	align	4
+_1005:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	50,53,57
+_1006:
+	db	"D3DLIGHT_POINT",0
+_1007:
+	db	"D3DLIGHT_SPOT",0
+_1008:
+	db	"D3DLIGHT_DIRECTIONAL",0
+_1009:
+	db	"D3DRS_TEXTUREPERSPECTIVE",0
+_1010:
+	db	"D3DRS_ZENABLE",0
+_1011:
+	db	"D3DRS_FILLMODE",0
+_1012:
+	db	"D3DRS_SHADEMODE",0
+_1013:
+	db	"D3DRS_ZWRITEENABLE",0
+_1014:
+	db	"D3DRS_ALPHATESTENABLE",0
+_1015:
+	db	"D3DRS_LASTPIXEL",0
+_1016:
+	db	"D3DRS_SRCBLEND",0
+_1017:
+	db	"D3DRS_DESTBLEND",0
+_1018:
+	db	"D3DRS_CULLMODE",0
+_1019:
+	db	"D3DRS_ZFUNC",0
+_1020:
+	db	"D3DRS_ALPHAREF",0
+_1021:
+	db	"D3DRS_ALPHAFUNC",0
+_1022:
+	db	"D3DRS_DITHERENABLE",0
+_1023:
+	db	"D3DRS_ALPHABLENDENABLE",0
+_1024:
+	db	"D3DRS_FOGENABLE",0
+_1025:
+	db	"D3DRS_SPECULARENABLE",0
+_1026:
+	db	"D3DRS_FOGCOLOR",0
+_1027:
+	db	"D3DRS_FOGTABLEMODE",0
+_1028:
+	db	"D3DRS_FOGSTART",0
+_1029:
+	db	"D3DRS_FOGEND",0
+	align	4
+_1030:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	51,55
+_1031:
+	db	"D3DRS_FOGDENSITY",0
+	align	4
+_1032:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	51,56
+_1033:
+	db	"D3DRS_RANGEFOGENABLE",0
+	align	4
+_1034:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	52,56
+_1035:
+	db	"D3DRS_STENCILENABLE",0
+	align	4
+_1036:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	53,50
+_1037:
+	db	"D3DRS_STENCILFAIL",0
+	align	4
+_1038:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	53,51
+_1039:
+	db	"D3DRS_STENCILZFAIL",0
+	align	4
+_1040:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	53,52
+_1041:
+	db	"D3DRS_STENCILPASS",0
+	align	4
+_1042:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	53,53
+_1043:
+	db	"D3DRS_STENCILFUNC",0
+	align	4
+_1044:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	53,54
+_1045:
+	db	"D3DRS_STENCILREF",0
+	align	4
+_1046:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	53,55
+_1047:
+	db	"D3DRS_STENCILMASK",0
+	align	4
+_1048:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	53,56
+_1049:
+	db	"D3DRS_STENCILWRITEMASK",0
+	align	4
+_1050:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	53,57
+_1051:
+	db	"D3DRS_TEXTUREFACTOR",0
+	align	4
+_1052:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	2
+	dw	54,48
+_1053:
+	db	"D3DRS_WRAP0",0
+_1054:
+	db	"D3DRS_WRAP1",0
+	align	4
+_1055:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,50,57
+_1056:
+	db	"D3DRS_WRAP2",0
+	align	4
+_1057:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,51,48
+_1058:
+	db	"D3DRS_WRAP3",0
+	align	4
+_1059:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,51,49
+_1060:
+	db	"D3DRS_WRAP4",0
+	align	4
+_1061:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,51,50
+_1062:
+	db	"D3DRS_WRAP5",0
+	align	4
+_1063:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,51,51
+_1064:
+	db	"D3DRS_WRAP6",0
+	align	4
+_1065:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,51,52
+_1066:
+	db	"D3DRS_WRAP7",0
+	align	4
+_1067:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,51,53
+_1068:
+	db	"D3DRS_CLIPPING",0
+	align	4
+_1069:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,51,54
+_1070:
+	db	"D3DRS_LIGHTING",0
+	align	4
+_1071:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,51,55
+_1072:
+	db	"D3DRS_AMBIENT",0
+	align	4
+_1073:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,51,57
+_1074:
+	db	"D3DRS_FOGVERTEXMODE",0
+	align	4
+_1075:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,52,48
+_1076:
+	db	"D3DRS_COLORVERTEX",0
+	align	4
+_1077:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,52,49
+_1078:
+	db	"D3DRS_LOCALVIEWER",0
+	align	4
+_1079:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,52,50
+_1080:
+	db	"D3DRS_NORMALIZENORMALS",0
+	align	4
+_1081:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,52,51
+_1082:
+	db	"D3DRS_DIFFUSEMATERIALSOURCE",0
+	align	4
+_1083:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,52,53
+_1084:
+	db	"D3DRS_SPECULARMATERIALSOURCE",0
+	align	4
+_1085:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,52,54
+_1086:
+	db	"D3DRS_AMBIENTMATERIALSOURCE",0
+	align	4
+_1087:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,52,55
+_1088:
+	db	"D3DRS_EMISSIVEMATERIALSOURCE",0
+	align	4
+_1089:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,52,56
+_1090:
+	db	"D3DRS_VERTEXBLEND",0
+	align	4
+_1091:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,53,49
+_1092:
+	db	"D3DRS_CLIPPLANEENABLE",0
+	align	4
+_1093:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,53,50
+_1094:
+	db	"D3DRS_POINTSIZE",0
+	align	4
+_1095:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,53,52
+_1096:
+	db	"D3DRS_POINTSIZE_MIN",0
+	align	4
+_1097:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,53,53
+_1098:
+	db	"D3DRS_POINTSPRITEENABLE",0
+	align	4
+_1099:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,53,54
+_1100:
+	db	"D3DRS_POINTSCALEENABLE",0
+	align	4
+_1101:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,53,55
+_1102:
+	db	"D3DRS_POINTSCALE_A",0
+	align	4
+_1103:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,53,56
+_1104:
+	db	"D3DRS_POINTSCALE_B",0
+	align	4
+_1105:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,53,57
+_1106:
+	db	"D3DRS_POINTSCALE_C",0
+	align	4
+_1107:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,54,48
+_1108:
+	db	"D3DRS_MULTISAMPLEANTIALIAS",0
+	align	4
+_1109:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,54,49
+_1110:
+	db	"D3DRS_MULTISAMPLEMASK",0
+	align	4
+_1111:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,54,50
+_1112:
+	db	"D3DRS_PATCHEDGESTYLE",0
+	align	4
+_1113:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,54,51
+_1114:
+	db	"D3DRS_DEBUGMONITORTOKEN",0
+	align	4
+_1115:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,54,53
+_1116:
+	db	"D3DRS_POINTSIZE_MAX",0
+	align	4
+_1117:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,54,54
+_1118:
+	db	"D3DRS_INDEXEDVERTEXBLENDENABLE",0
+	align	4
+_1119:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,54,55
+_1120:
+	db	"D3DRS_COLORWRITEENABLE",0
+	align	4
+_1121:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,54,56
+_1122:
+	db	"D3DRS_TWEENFACTOR",0
+	align	4
+_1123:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,55,48
+_1124:
+	db	"D3DRS_BLENDOP",0
+	align	4
+_1125:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,55,49
+_1126:
+	db	"D3DRS_POSITIONDEGREE",0
+	align	4
+_1127:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,55,50
+_1128:
+	db	"D3DRS_NORMALDEGREE",0
+	align	4
+_1129:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,55,51
+_1130:
+	db	"D3DRS_SCISSORTESTENABLE",0
+	align	4
+_1131:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,55,52
+_1132:
+	db	"D3DRS_SLOPESCALEDEPTHBIAS",0
+	align	4
+_1133:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,55,53
+_1134:
+	db	"D3DRS_ANTIALIASEDLINEENABLE",0
+	align	4
+_1135:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,55,54
+_1136:
+	db	"D3DRS_MINTESSELLATIONLEVEL",0
+	align	4
+_1137:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,55,56
+_1138:
+	db	"D3DRS_MAXTESSELLATIONLEVEL",0
+	align	4
+_1139:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,55,57
+_1140:
+	db	"D3DRS_ADAPTIVETESS_X",0
+	align	4
+_1141:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,56,48
+_1142:
+	db	"D3DRS_ADAPTIVETESS_Y",0
+	align	4
+_1143:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,56,49
+_1144:
+	db	"D3DRS_ADAPTIVETESS_Z",0
+	align	4
+_1145:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,56,50
+_1146:
+	db	"D3DRS_ADAPTIVETESS_W",0
+	align	4
+_1147:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,56,51
+_1148:
+	db	"D3DRS_ENABLEADAPTIVETESSELLATION",0
+	align	4
+_1149:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,56,52
+_1150:
+	db	"D3DRS_TWOSIDEDSTENCILMODE",0
+	align	4
+_1151:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,56,53
+_1152:
+	db	"D3DRS_CCW_STENCILFAIL",0
+	align	4
+_1153:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,56,54
+_1154:
+	db	"D3DRS_CCW_STENCILZFAIL",0
+	align	4
+_1155:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,56,55
+_1156:
+	db	"D3DRS_CCW_STENCILPASS",0
+	align	4
+_1157:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,56,56
+_1158:
+	db	"D3DRS_CCW_STENCILFUNC",0
+	align	4
+_1159:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,56,57
+_1160:
+	db	"D3DRS_COLORWRITEENABLE1",0
+	align	4
+_1161:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,57,48
+_1162:
+	db	"D3DRS_COLORWRITEENABLE2",0
+	align	4
+_1163:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,57,49
+_1164:
+	db	"D3DRS_COLORWRITEENABLE3",0
+	align	4
+_1165:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,57,50
+_1166:
+	db	"D3DRS_BLENDFACTOR",0
+	align	4
+_1167:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,57,51
+_1168:
+	db	"D3DRS_SRGBWRITEENABLE",0
+	align	4
+_1169:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,57,52
+_1170:
+	db	"D3DRS_DEPTHBIAS",0
+	align	4
+_1171:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,57,53
+_1172:
+	db	"D3DRS_WRAP8",0
+	align	4
+_1173:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,57,56
+_1174:
+	db	"D3DRS_WRAP9",0
+	align	4
+_1175:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	49,57,57
+_1176:
+	db	"D3DRS_WRAP10",0
+	align	4
+_1177:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	50,48,48
+_1178:
+	db	"D3DRS_WRAP11",0
+	align	4
+_1179:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	50,48,49
+_1180:
+	db	"D3DRS_WRAP12",0
+	align	4
+_1181:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	50,48,50
+_1182:
+	db	"D3DRS_WRAP13",0
+	align	4
+_1183:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	50,48,51
+_1184:
+	db	"D3DRS_WRAP14",0
+	align	4
+_1185:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	50,48,52
+_1186:
+	db	"D3DRS_WRAP15",0
+	align	4
+_1187:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	50,48,53
+_1188:
+	db	"D3DRS_SEPARATEALPHABLENDENABLE",0
+	align	4
+_1189:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	50,48,54
+_1190:
+	db	"D3DRS_SRCBLENDALPHA",0
+	align	4
+_1191:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	50,48,55
+_1192:
+	db	"D3DRS_DESTBLENDALPHA",0
+	align	4
+_1193:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	50,48,56
+_1194:
+	db	"D3DRS_BLENDOPALPHA",0
+	align	4
+_1195:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	50,48,57
+_1196:
+	db	"D3DTSS_COLOROP",0
+_1197:
+	db	"D3DTSS_COLORARG1",0
+_1198:
+	db	"D3DTSS_COLORARG2",0
+_1199:
+	db	"D3DTSS_ALPHAOP",0
+_1200:
+	db	"D3DTSS_ALPHAARG1",0
+_1201:
+	db	"D3DTSS_ALPHAARG2",0
+_1202:
+	db	"D3DTSS_BUMPENVMAT00",0
+_1203:
+	db	"D3DTSS_BUMPENVMAT01",0
+_1204:
+	db	"D3DTSS_BUMPENVMAT10",0
+_1205:
+	db	"D3DTSS_BUMPENVMAT11",0
+_1206:
+	db	"D3DTSS_TEXCOORDINDEX",0
+_1207:
+	db	"D3DTSS_ADDRESS",0
+_1208:
+	db	"D3DTSS_MAGFILTER",0
+_1209:
+	db	"D3DTSS_MINFILTER",0
+_1210:
+	db	"D3DTSS_MIPFILTER",0
+_1211:
+	db	"D3DTSS_BUMPENVLSCALE",0
+_1212:
+	db	"D3DTSS_BUMPENVLOFFSET",0
+_1213:
+	db	"D3DTSS_TEXTURETRANSFORMFLAGS",0
+_1214:
+	db	"D3DTSS_COLORARG0",0
+_1215:
+	db	"D3DTSS_ALPHAARG0",0
+_1216:
+	db	"D3DTSS_RESULTARG",0
+_1217:
+	db	"D3DTSS_CONSTANT",0
+_1218:
+	db	"D3DSAMP_ADDRESSU",0
+_1219:
+	db	"D3DSAMP_ADDRESSV",0
+_1220:
+	db	"D3DSAMP_ADDRESSW",0
+_1221:
+	db	"D3DSAMP_BORDERCOLOR",0
+_1222:
+	db	"D3DSAMP_MAGFILTER",0
+_1223:
+	db	"D3DSAMP_MINFILTER",0
+_1224:
+	db	"D3DSAMP_MIPFILTER",0
+_1225:
+	db	"D3DSAMP_MIPMAPLODBIAS",0
+_1226:
+	db	"D3DSAMP_MAXMIPLEVEL",0
+_1227:
+	db	"D3DSAMP_MAXANISOTROPY",0
+_1228:
+	db	"D3DSAMP_SRGBTEXTURE",0
+_1229:
+	db	"D3DSAMP_ELEMENTINDEX",0
+_1230:
+	db	"D3DSAMP_DMAPOFFSET",0
+_1231:
+	db	"D3DSBT_ALL",0
+_1232:
+	db	"D3DSBT_PIXELSTATE",0
+_1233:
+	db	"D3DSBT_VERTEXSTATE",0
+_1234:
+	db	"D3DPT_POINTLIST",0
+_1235:
+	db	"D3DPT_LINELIST",0
+_1236:
+	db	"D3DPT_LINESTRIP",0
+_1237:
+	db	"D3DPT_TRIANGLELIST",0
+_1238:
+	db	"D3DPT_TRIANGLESTRIP",0
+_1239:
+	db	"D3DPT_TRIANGLEFAN",0
+_1240:
+	db	"D3DDECLUSAGE_POSITION",0
+_1241:
+	db	"D3DDECLUSAGE_BLENDWEIGHT",0
+_1242:
+	db	"D3DDECLUSAGE_BLENDINDICES",0
+_1243:
+	db	"D3DDECLUSAGE_NORMAL",0
+_1244:
+	db	"D3DDECLUSAGE_PSIZE",0
+_1245:
+	db	"D3DDECLUSAGE_TEXCOORD",0
+_1246:
+	db	"D3DDECLUSAGE_TANGENT",0
+_1247:
+	db	"D3DDECLUSAGE_BINORMAL",0
+_1248:
+	db	"D3DDECLUSAGE_TESSFACTOR",0
+_1249:
+	db	"D3DDECLUSAGE_POSITIONT",0
+_1250:
+	db	"D3DDECLUSAGE_COLOR",0
+_1251:
+	db	"D3DDECLUSAGE_FOG",0
+_1252:
+	db	"D3DDECLUSAGE_DEPTH",0
+_1253:
+	db	"D3DDECLUSAGE_SAMPLE",0
+_1254:
+	db	"D3DDECLMETHOD_DEFAULT",0
+_1255:
+	db	"D3DDECLMETHOD_PARTIALU",0
+_1256:
+	db	"D3DDECLMETHOD_PARTIALV",0
+_1257:
+	db	"D3DDECLMETHOD_CROSSUV",0
+_1258:
+	db	"D3DDECLMETHOD_UV",0
+_1259:
+	db	"D3DDECLMETHOD_LOOKUP",0
+_1260:
+	db	"D3DDECLMETHOD_LOOKUPPRESAMPLED",0
+_1261:
+	db	"D3DDECLTYPE_FLOAT1",0
+_1262:
+	db	"D3DDECLTYPE_FLOAT2",0
+_1263:
+	db	"D3DDECLTYPE_FLOAT3",0
+_1264:
+	db	"D3DDECLTYPE_FLOAT4",0
+_1265:
+	db	"D3DDECLTYPE_D3DCOLOR",0
+_1266:
+	db	"D3DDECLTYPE_UBYTE4",0
+_1267:
+	db	"D3DDECLTYPE_SHORT2",0
+_1268:
+	db	"D3DDECLTYPE_SHORT4",0
+_1269:
+	db	"D3DDECLTYPE_UBYTE4N",0
+_1270:
+	db	"D3DDECLTYPE_SHORT2N",0
+_1271:
+	db	"D3DDECLTYPE_SHORT4N",0
+_1272:
+	db	"D3DDECLTYPE_USHORT2N",0
+_1273:
+	db	"D3DDECLTYPE_USHORT4N",0
+_1274:
+	db	"D3DDECLTYPE_UDEC3",0
+_1275:
+	db	"D3DDECLTYPE_DEC3N",0
+_1276:
+	db	"D3DDECLTYPE_FLOAT16_2",0
+_1277:
+	db	"D3DDECLTYPE_FLOAT16_4",0
+_1278:
+	db	"D3DDECLTYPE_UNUSED",0
+_1279:
+	db	"D3DQUERYTYPE_VCACHE",0
+_1280:
+	db	"D3DQUERYTYPE_RESOURCEMANAGER",0
+_1281:
+	db	"D3DQUERYTYPE_VERTEXSTATS",0
+_1282:
+	db	"D3DQUERYTYPE_EVENT",0
+_1283:
+	db	"D3DQUERYTYPE_OCCLUSION",0
+_1284:
+	db	"D3DISSUE_END",0
+_1285:
+	db	"D3DISSUE_BEGIN",0
+_1286:
+	db	"D3DGETDATA_FLUSH",0
+_1287:
+	db	"D3DFVF_POSITION_MASK",0
+	align	4
+_1288:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	49,54,51,57,56
+_1289:
+	db	"D3DFVF_XYZ",0
+_1290:
+	db	"D3DFVF_XYZRHW",0
+_1291:
+	db	"D3DFVF_XYZB1",0
+_1292:
+	db	"D3DFVF_XYZB2",0
+_1293:
+	db	"D3DFVF_XYZB3",0
+_1294:
+	db	"D3DFVF_XYZB4",0
+_1295:
+	db	"D3DFVF_XYZB5",0
+_1296:
+	db	"D3DFVF_XYZW",0
+	align	4
+_1297:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	5
+	dw	49,54,51,56,54
+_1298:
+	db	"D3DFVF_NORMAL",0
+_1299:
+	db	"D3DFVF_PSIZE",0
+_1300:
+	db	"D3DFVF_DIFFUSE",0
+_1301:
+	db	"D3DFVF_SPECULAR",0
+_1302:
+	db	"D3DFVF_TEXCOUNT_MASK",0
+	align	4
+_1303:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	4
+	dw	51,56,52,48
+_1304:
+	db	"D3DFVF_TEXCOUNT_SHIFT",0
+_1305:
+	db	"D3DFVF_TEX0",0
+_1306:
+	db	"D3DFVF_TEX1",0
+_1307:
+	db	"D3DFVF_TEX2",0
+_1308:
+	db	"D3DFVF_TEX3",0
+	align	4
+_1309:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	3
+	dw	55,54,56
+_1310:
+	db	"D3DFVF_TEX4",0
+_1311:
+	db	"D3DFVF_TEX5",0
+	align	4
+_1312:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	4
+	dw	49,50,56,48
+_1313:
+	db	"D3DFVF_TEX6",0
+	align	4
+_1314:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	4
+	dw	49,53,51,54
+_1315:
+	db	"D3DFVF_TEX7",0
+_1316:
+	db	"D3DFVF_TEX8",0
+_1317:
+	db	"D3DPRESENTFLAG_LOCKABLE_BACKBUFFER",0
+_1318:
+	db	"D3DPRESENTFLAG_DISCARD_DEPTHSTENCIL",0
+_1319:
+	db	"D3DPRESENTFLAG_DEVICECLIP",0
+_1320:
+	db	"D3DPRESENTFLAG_VIDEO",0
+_1321:
+	db	"D3DCREATE_FPU_PRESERVE",0
+_1322:
+	db	"D3DCREATE_MULTITHREADED",0
+_1323:
+	db	"D3DCREATE_PUREDEVICE",0
+_1324:
+	db	"D3DCREATE_SOFTWARE_VERTEXPROCESSING",0
+_1325:
+	db	"D3DCREATE_HARDWARE_VERTEXPROCESSING",0
+_1326:
+	db	"D3DCREATE_MIXED_VERTEXPROCESSING",0
+_1327:
+	db	"D3DCREATE_DISABLE_DRIVER_MANAGEMENT",0
+_1328:
+	db	"D3DCREATE_ADAPTERGROUP_DEVICE",0
+_1329:
+	db	"D3DCLEAR_TARGET",0
+_1330:
+	db	"D3DCLEAR_ZBUFFER",0
+_1331:
+	db	"D3DCLEAR_STENCIL",0
+_1332:
+	db	"D3DCS_LEFT",0
+_1333:
+	db	"D3DCS_RIGHT",0
+_1334:
+	db	"D3DCS_TOP",0
+_1335:
+	db	"D3DCS_BOTTOM",0
+_1336:
+	db	"D3DCS_FRONT",0
+_1337:
+	db	"D3DCS_BACK",0
+_1338:
+	db	"D3DCS_PLANE0",0
+_1339:
+	db	"D3DCS_PLANE1",0
+_1340:
+	db	"D3DCS_PLANE2",0
+_1341:
+	db	"D3DCS_PLANE3",0
+_1342:
+	db	"D3DCS_PLANE4",0
+_1343:
+	db	"D3DCS_PLANE5",0
+_1344:
+	db	"D3DCS_ALL",0
+	align	4
+_1345:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	4
+	dw	52,48,57,53
+_1346:
+	db	"D3DCLIPSTATUS_STATUS",0
+_1347:
+	db	"D3DCLIPSTATUS_EXTENTS2",0
+_1348:
+	db	"D3DCLIPSTATUS_EXTENTS3",0
+_1349:
+	db	"D3DSHADE_FLAT",0
+_1350:
+	db	"D3DSHADE_GOURAUD",0
+_1351:
+	db	"D3DSHADE_PHONG",0
+_1352:
+	db	"D3DDEVCAPS_HWRASTERIZATION",0
+_1353:
+	db	"D3DTFN_POINT",0
+_1354:
+	db	"D3DTFN_LINEAR",0
+_1355:
+	db	"D3DTFN_ANISOTROPIC",0
+_1356:
+	db	"D3DTFP_NONE",0
+_1357:
+	db	"D3DTFP_POINT",0
+_1358:
+	db	"D3DTFP_LINEAR",0
+_1359:
+	db	"D3DTFG_POINT",0
+_1360:
+	db	"D3DTFG_LINEAR",0
+_1361:
+	db	"D3DTFG_FLATCUBIC",0
+_1362:
+	db	"D3DTFG_GAUSSIANCUBIC",0
+_1363:
+	db	"D3DTFG_ANISOTROPIC",0
+_1364:
+	db	"D3DVBCAPS_SYSTEMMEMORY",0
+_1365:
+	db	"D3DVBCAPS_WRITEONLY",0
+_1366:
+	db	"D3DVBCAPS_OPTIMIZED",0
+_1367:
+	db	"D3DVBCAPS_DONOTCLIP",0
+_1368:
+	db	"IID_IDirect3D7",0
+_1369:
+	db	"IID_IDirect3DHALDevice",0
+_1370:
+	db	"IID_IDirect3DTnLDevice",0
+_1371:
+	db	"DIRECT3D_VERSION9",0
+	align	4
+_1372:
+	dd	_bbStringClass
+	dd	2147483646
+	dd	4
+	dw	50,51,48,52
+_1373:
+	db	"d3d9Lib",0
+_1374:
+	db	"Direct3DCreate9",0
+_1375:
+	db	"(i):IDirect3D9",0
+_1376:
+	db	"d3dx9Lib",0
+_1377:
+	db	"D3DXAssembleShader",0
+_1378:
+	db	"(*b,i,*b,*b,i,*:ID3DXBuffer,*:ID3DXBuffer)i",0
+_1379:
+	db	"DIRECTSOUND_VERSION",0
+_1380:
+	db	"DSSCL_NORMAL",0
+_1381:
+	db	"DSSCL_PRIORITY",0
+_1382:
+	db	"DSSCL_EXCLUSIVE",0
+_1383:
+	db	"DSSCL_WRITEPRIMARY",0
+_1384:
+	db	"DSCAPS_PRIMARYMONO",0
+_1385:
+	db	"DSCAPS_PRIMARYSTEREO",0
+_1386:
+	db	"DSCAPS_PRIMARY8BIT",0
+_1387:
+	db	"DSCAPS_PRIMARY16BIT",0
+_1388:
+	db	"DSCAPS_CONTINUOUSRATE",0
+_1389:
+	db	"DSCAPS_EMULDRIVER",0
+_1390:
+	db	"DSCAPS_CERTIFIED",0
+_1391:
+	db	"DSCAPS_SECONDARYMONO",0
+_1392:
+	db	"DSCAPS_SECONDARYSTEREO",0
+_1393:
+	db	"DSCAPS_SECONDARY8BIT",0
+_1394:
+	db	"DSCAPS_SECONDARY16BIT",0
+_1395:
+	db	"DSSPEAKER_HEADPHONE",0
+_1396:
+	db	"DSSPEAKER_MONO",0
+_1397:
+	db	"DSSPEAKER_QUAD",0
+_1398:
+	db	"DSSPEAKER_STEREO",0
+_1399:
+	db	"DSSPEAKER_SURROUND",0
+_1400:
+	db	"DSSPEAKER_5POINT1",0
+_1401:
+	db	"DSSPEAKER_GEOMETRY_MIN",0
+_1402:
+	db	"DSSPEAKER_GEOMETRY_NARROW",0
+_1403:
+	db	"DSSPEAKER_GEOMETRY_WIDE",0
+_1404:
+	db	"DSSPEAKER_GEOMETRY_MAX",0
+_1405:
+	db	"DSBCAPS_PRIMARYBUFFER",0
+_1406:
+	db	"DSBCAPS_STATIC",0
+_1407:
+	db	"DSBCAPS_LOCHARDWARE",0
+_1408:
+	db	"DSBCAPS_LOCSOFTWARE",0
+_1409:
+	db	"DSBCAPS_CTRL3D",0
+_1410:
+	db	"DSBCAPS_CTRLFREQUENCY",0
+_1411:
+	db	"DSBCAPS_CTRLPAN",0
+_1412:
+	db	"DSBCAPS_CTRLVOLUME",0
+_1413:
+	db	"DSBCAPS_CTRLPOSITIONNOTIFY",0
+_1414:
+	db	"DSBCAPS_STICKYFOCUS",0
+_1415:
+	db	"DSBCAPS_GLOBALFOCUS",0
+_1416:
+	db	"DSBCAPS_GETCURRENTPOSITION2",0
+_1417:
+	db	"DSBCAPS_MUTE3DATMAXDISTANCE",0
+_1418:
+	db	"DSBCAPS_LOCDEFER",0
+_1419:
+	db	"DSBPLAY_LOOPING",0
+_1420:
+	db	"DSBPLAY_LOCHARDWARE",0
+_1421:
+	db	"DSBPLAY_LOCSOFTWARE",0
+_1422:
+	db	"DSBPLAY_TERMINATEBY_TIME",0
+_1423:
+	db	"DSBPLAY_TERMINATEBY_DISTANCE",0
+_1424:
+	db	"DSBPLAY_TERMINATEBY_PRIORITY",0
+_1425:
+	db	"DSBSTATUS_PLAYING",0
+_1426:
+	db	"DSBSTATUS_BUFFERLOST",0
+_1427:
+	db	"DSBSTATUS_LOOPING",0
+_1428:
+	db	"DSBSTATUS_LOCHARDWARE",0
+_1429:
+	db	"DSBSTATUS_LOCSOFTWARE",0
+_1430:
+	db	"DSBSTATUS_TERMINATED",0
+_1431:
+	db	"DSBLOCK_FROMWRITECURSOR",0
+_1432:
+	db	"DSBLOCK_ENTIREBUFFER",0
+_1433:
+	db	"DirectSoundCreate",0
+_1434:
+	db	"(*b,*:IDirectSound,*b)i",0
+	align	4
+_18:
+	dd	1
+	dd	_19
+	dd	1
+	dd	_20
+	dd	_21
+	dd	_22
+	dd	1
+	dd	_23
+	dd	_21
+	dd	_24
+	dd	1
+	dd	_25
+	dd	_26
+	dd	_27
+	dd	1
+	dd	_28
+	dd	_26
+	dd	_29
+	dd	1
+	dd	_30
+	dd	_26
+	dd	_31
+	dd	1
+	dd	_32
+	dd	_26
+	dd	_33
+	dd	1
+	dd	_34
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_36
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_38
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_40
+	dd	_26
+	dd	_41
+	dd	1
+	dd	_42
+	dd	_26
+	dd	_43
+	dd	1
+	dd	_44
+	dd	_26
+	dd	_45
+	dd	1
+	dd	_46
+	dd	_21
+	dd	_47
+	dd	1
+	dd	_48
+	dd	_21
+	dd	_49
+	dd	1
+	dd	_50
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_51
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_52
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_53
+	dd	_21
+	dd	_54
+	dd	1
+	dd	_55
+	dd	_21
+	dd	_56
+	dd	1
+	dd	_57
+	dd	_21
+	dd	_58
+	dd	1
+	dd	_59
+	dd	_21
+	dd	_60
+	dd	1
+	dd	_61
+	dd	_21
+	dd	_62
+	dd	1
+	dd	_63
+	dd	_21
+	dd	_64
+	dd	1
+	dd	_65
+	dd	_21
+	dd	_66
+	dd	1
+	dd	_67
+	dd	_21
+	dd	_68
+	dd	1
+	dd	_69
+	dd	_21
+	dd	_70
+	dd	1
+	dd	_71
+	dd	_21
+	dd	_72
+	dd	1
+	dd	_73
+	dd	_21
+	dd	_74
+	dd	1
+	dd	_75
+	dd	_21
+	dd	_76
+	dd	1
+	dd	_77
+	dd	_21
+	dd	_78
+	dd	1
+	dd	_79
+	dd	_21
+	dd	_80
+	dd	1
+	dd	_81
+	dd	_21
+	dd	_82
+	dd	1
+	dd	_83
+	dd	_21
+	dd	_84
+	dd	1
+	dd	_85
+	dd	_21
+	dd	_86
+	dd	1
+	dd	_87
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_88
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_89
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_90
+	dd	_21
+	dd	_54
+	dd	1
+	dd	_91
+	dd	_21
+	dd	_92
+	dd	1
+	dd	_93
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_94
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_95
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_96
+	dd	_21
+	dd	_97
+	dd	1
+	dd	_98
+	dd	_21
+	dd	_99
+	dd	1
+	dd	_100
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_101
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_102
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_103
+	dd	_21
+	dd	_54
+	dd	1
+	dd	_104
+	dd	_21
+	dd	_105
+	dd	1
+	dd	_106
+	dd	_21
+	dd	_56
+	dd	1
+	dd	_107
+	dd	_21
+	dd	_58
+	dd	1
+	dd	_108
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_109
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_110
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_111
+	dd	_21
+	dd	_54
+	dd	1
+	dd	_112
+	dd	_21
+	dd	_105
+	dd	1
+	dd	_113
+	dd	_21
+	dd	_56
+	dd	1
+	dd	_114
+	dd	_21
+	dd	_58
+	dd	1
+	dd	_115
+	dd	_21
+	dd	_60
+	dd	1
+	dd	_116
+	dd	_21
+	dd	_117
+	dd	1
+	dd	_118
+	dd	_21
+	dd	_119
+	dd	1
+	dd	_120
+	dd	_21
+	dd	_121
+	dd	1
+	dd	_122
+	dd	_21
+	dd	_62
+	dd	1
+	dd	_123
+	dd	_21
+	dd	_64
+	dd	1
+	dd	_124
+	dd	_21
+	dd	_66
+	dd	1
+	dd	_125
+	dd	_21
+	dd	_68
+	dd	1
+	dd	_126
+	dd	_21
+	dd	_70
+	dd	1
+	dd	_127
+	dd	_21
+	dd	_72
+	dd	1
+	dd	_128
+	dd	_21
+	dd	_74
+	dd	1
+	dd	_129
+	dd	_21
+	dd	_76
+	dd	1
+	dd	_130
+	dd	_21
+	dd	_78
+	dd	1
+	dd	_131
+	dd	_21
+	dd	_80
+	dd	1
+	dd	_132
+	dd	_21
+	dd	_82
+	dd	1
+	dd	_133
+	dd	_21
+	dd	_84
+	dd	1
+	dd	_134
+	dd	_21
+	dd	_135
+	dd	1
+	dd	_136
+	dd	_21
+	dd	_137
+	dd	1
+	dd	_138
+	dd	_21
+	dd	_139
+	dd	1
+	dd	_140
+	dd	_21
+	dd	_141
+	dd	1
+	dd	_142
+	dd	_21
+	dd	_143
+	dd	1
+	dd	_144
+	dd	_21
+	dd	_145
+	dd	1
+	dd	_146
+	dd	_21
+	dd	_147
+	dd	1
+	dd	_148
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_149
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_150
+	dd	_21
+	dd	_54
+	dd	1
+	dd	_151
+	dd	_21
+	dd	_105
+	dd	1
+	dd	_152
+	dd	_21
+	dd	_56
+	dd	1
+	dd	_153
+	dd	_21
+	dd	_58
+	dd	1
+	dd	_154
+	dd	_21
+	dd	_60
+	dd	1
+	dd	_155
+	dd	_21
+	dd	_117
+	dd	1
+	dd	_156
+	dd	_21
+	dd	_119
+	dd	1
+	dd	_157
+	dd	_21
+	dd	_121
+	dd	1
+	dd	_158
+	dd	_21
+	dd	_62
+	dd	1
+	dd	_159
+	dd	_21
+	dd	_64
+	dd	1
+	dd	_160
+	dd	_21
+	dd	_66
+	dd	1
+	dd	_161
+	dd	_21
+	dd	_68
+	dd	1
+	dd	_162
+	dd	_21
+	dd	_70
+	dd	1
+	dd	_163
+	dd	_21
+	dd	_164
+	dd	1
+	dd	_165
+	dd	_21
+	dd	_72
+	dd	1
+	dd	_166
+	dd	_21
+	dd	_74
+	dd	1
+	dd	_167
+	dd	_21
+	dd	_76
+	dd	1
+	dd	_168
+	dd	_21
+	dd	_78
+	dd	1
+	dd	_169
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_170
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_171
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_172
+	dd	_21
+	dd	_54
+	dd	1
+	dd	_173
+	dd	_21
+	dd	_105
+	dd	1
+	dd	_174
+	dd	_21
+	dd	_56
+	dd	1
+	dd	_175
+	dd	_21
+	dd	_58
+	dd	1
+	dd	_176
+	dd	_21
+	dd	_60
+	dd	1
+	dd	_177
+	dd	_21
+	dd	_117
+	dd	1
+	dd	_178
+	dd	_21
+	dd	_119
+	dd	1
+	dd	_179
+	dd	_21
+	dd	_121
+	dd	1
+	dd	_180
+	dd	_21
+	dd	_62
+	dd	1
+	dd	_181
+	dd	_21
+	dd	_64
+	dd	1
+	dd	_182
+	dd	_21
+	dd	_66
+	dd	1
+	dd	_183
+	dd	_21
+	dd	_68
+	dd	1
+	dd	_184
+	dd	_21
+	dd	_70
+	dd	1
+	dd	_185
+	dd	_21
+	dd	_72
+	dd	1
+	dd	_186
+	dd	_21
+	dd	_74
+	dd	1
+	dd	_187
+	dd	_21
+	dd	_76
+	dd	1
+	dd	_188
+	dd	_21
+	dd	_78
+	dd	1
+	dd	_189
+	dd	_21
+	dd	_80
+	dd	1
+	dd	_190
+	dd	_21
+	dd	_82
+	dd	1
+	dd	_191
+	dd	_21
+	dd	_84
+	dd	1
+	dd	_192
+	dd	_21
+	dd	_135
+	dd	1
+	dd	_193
+	dd	_21
+	dd	_194
+	dd	1
+	dd	_195
+	dd	_21
+	dd	_196
+	dd	1
+	dd	_197
+	dd	_21
+	dd	_137
+	dd	1
+	dd	_198
+	dd	_21
+	dd	_139
+	dd	1
+	dd	_199
+	dd	_21
+	dd	_141
+	dd	1
+	dd	_200
+	dd	_21
+	dd	_143
+	dd	1
+	dd	_201
+	dd	_21
+	dd	_145
+	dd	1
+	dd	_202
+	dd	_21
+	dd	_147
+	dd	1
+	dd	_203
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_204
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_205
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_206
+	dd	_21
+	dd	_54
+	dd	1
+	dd	_207
+	dd	_21
+	dd	_105
+	dd	1
+	dd	_208
+	dd	_21
+	dd	_56
+	dd	1
+	dd	_209
+	dd	_21
+	dd	_58
+	dd	1
+	dd	_210
+	dd	_21
+	dd	_60
+	dd	1
+	dd	_211
+	dd	_21
+	dd	_117
+	dd	1
+	dd	_212
+	dd	_21
+	dd	_119
+	dd	1
+	dd	_213
+	dd	_21
+	dd	_121
+	dd	1
+	dd	_214
+	dd	_21
+	dd	_62
+	dd	1
+	dd	_215
+	dd	_21
+	dd	_64
+	dd	1
+	dd	_216
+	dd	_21
+	dd	_66
+	dd	1
+	dd	_217
+	dd	_21
+	dd	_68
+	dd	1
+	dd	_218
+	dd	_21
+	dd	_70
+	dd	1
+	dd	_219
+	dd	_21
+	dd	_74
+	dd	1
+	dd	_220
+	dd	_21
+	dd	_78
+	dd	1
+	dd	_221
+	dd	_21
+	dd	_80
+	dd	1
+	dd	_222
+	dd	_21
+	dd	_82
+	dd	1
+	dd	_223
+	dd	_21
+	dd	_84
+	dd	1
+	dd	_224
+	dd	_21
+	dd	_135
+	dd	1
+	dd	_225
+	dd	_21
+	dd	_194
+	dd	1
+	dd	_226
+	dd	_21
+	dd	_196
+	dd	1
+	dd	_227
+	dd	_21
+	dd	_137
+	dd	1
+	dd	_228
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_229
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_230
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_231
+	dd	_21
+	dd	_54
+	dd	1
+	dd	_232
+	dd	_21
+	dd	_105
+	dd	1
+	dd	_233
+	dd	_21
+	dd	_56
+	dd	1
+	dd	_234
+	dd	_21
+	dd	_58
+	dd	1
+	dd	_235
+	dd	_21
+	dd	_60
+	dd	1
+	dd	_236
+	dd	_21
+	dd	_117
+	dd	1
+	dd	_237
+	dd	_21
+	dd	_119
+	dd	1
+	dd	_238
+	dd	_21
+	dd	_56
+	dd	1
+	dd	_239
+	dd	_21
+	dd	_105
+	dd	1
+	dd	_240
+	dd	_21
+	dd	_58
+	dd	1
+	dd	_241
+	dd	_21
+	dd	_60
+	dd	1
+	dd	_242
+	dd	_21
+	dd	_117
+	dd	1
+	dd	_243
+	dd	_21
+	dd	_119
+	dd	1
+	dd	_244
+	dd	_21
+	dd	_121
+	dd	1
+	dd	_245
+	dd	_21
+	dd	_62
+	dd	1
+	dd	_246
+	dd	_21
+	dd	_64
+	dd	1
+	dd	_247
+	dd	_21
+	dd	_66
+	dd	1
+	dd	_248
+	dd	_21
+	dd	_68
+	dd	1
+	dd	_249
+	dd	_21
+	dd	_70
+	dd	1
+	dd	_250
+	dd	_21
+	dd	_72
+	dd	1
+	dd	_251
+	dd	_21
+	dd	_74
+	dd	1
+	dd	_252
+	dd	_21
+	dd	_76
+	dd	1
+	dd	_253
+	dd	_21
+	dd	_54
+	dd	1
+	dd	_254
+	dd	_21
+	dd	_78
+	dd	1
+	dd	_255
+	dd	_21
+	dd	_80
+	dd	1
+	dd	_256
+	dd	_21
+	dd	_82
+	dd	1
+	dd	_257
+	dd	_21
+	dd	_84
+	dd	1
+	dd	_258
+	dd	_21
+	dd	_135
+	dd	1
+	dd	_259
+	dd	_21
+	dd	_194
+	dd	1
+	dd	_260
+	dd	_21
+	dd	_196
+	dd	1
+	dd	_261
+	dd	_21
+	dd	_137
+	dd	1
+	dd	_262
+	dd	_21
+	dd	_139
+	dd	1
+	dd	_263
+	dd	_21
+	dd	_141
+	dd	1
+	dd	_264
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_265
+	dd	_21
+	dd	_56
+	dd	1
+	dd	_266
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_267
+	dd	_21
+	dd	_76
+	dd	1
+	dd	_268
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_269
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_270
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_271
+	dd	_21
+	dd	_54
+	dd	1
+	dd	_272
+	dd	_21
+	dd	_105
+	dd	1
+	dd	_273
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_274
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_275
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_276
+	dd	_21
+	dd	_277
+	dd	1
+	dd	_278
+	dd	_21
+	dd	_105
+	dd	1
+	dd	_279
+	dd	_21
+	dd	_56
+	dd	1
+	dd	_280
+	dd	_21
+	dd	_58
+	dd	1
+	dd	_281
+	dd	_21
+	dd	_60
+	dd	1
+	dd	_282
+	dd	_21
+	dd	_117
+	dd	1
+	dd	_283
+	dd	_21
+	dd	_119
+	dd	1
+	dd	_284
+	dd	_21
+	dd	_121
+	dd	1
+	dd	_285
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_286
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_287
+	dd	_21
+	dd	_68
+	dd	1
+	dd	_288
+	dd	_21
+	dd	_66
+	dd	1
+	dd	_289
+	dd	_21
+	dd	_64
+	dd	1
+	dd	_290
+	dd	_21
+	dd	_62
+	dd	1
+	dd	_291
+	dd	_21
+	dd	_121
+	dd	1
+	dd	_292
+	dd	_21
+	dd	_119
+	dd	1
+	dd	_293
+	dd	_21
+	dd	_117
+	dd	1
+	dd	_294
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_295
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_296
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_297
+	dd	_21
+	dd	_54
+	dd	1
+	dd	_298
+	dd	_21
+	dd	_105
+	dd	1
+	dd	_299
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_300
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_301
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_302
+	dd	_21
+	dd	_54
+	dd	1
+	dd	_303
+	dd	_21
+	dd	_105
+	dd	1
+	dd	_304
+	dd	_21
+	dd	_56
+	dd	1
+	dd	_305
+	dd	_21
+	dd	_58
+	dd	1
+	dd	_306
+	dd	_21
+	dd	_60
+	dd	1
+	dd	_307
+	dd	_21
+	dd	_117
+	dd	1
+	dd	_308
+	dd	_21
+	dd	_119
+	dd	1
+	dd	_309
+	dd	_21
+	dd	_121
+	dd	1
+	dd	_310
+	dd	_21
+	dd	_62
+	dd	1
+	dd	_311
+	dd	_21
+	dd	_64
+	dd	1
+	dd	_312
+	dd	_21
+	dd	_66
+	dd	1
+	dd	_313
+	dd	_21
+	dd	_68
+	dd	1
+	dd	_314
+	dd	_21
+	dd	_70
+	dd	1
+	dd	_315
+	dd	_21
+	dd	_72
+	dd	1
+	dd	_316
+	dd	_21
+	dd	_74
+	dd	1
+	dd	_317
+	dd	_21
+	dd	_76
+	dd	1
+	dd	_318
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_319
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_320
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_321
+	dd	_21
+	dd	_54
+	dd	1
+	dd	_322
+	dd	_21
+	dd	_105
+	dd	1
+	dd	_323
+	dd	_21
+	dd	_56
+	dd	1
+	dd	_324
+	dd	_21
+	dd	_58
+	dd	1
+	dd	_325
+	dd	_21
+	dd	_60
+	dd	1
+	dd	_326
+	dd	_21
+	dd	_117
+	dd	1
+	dd	_327
+	dd	_21
+	dd	_119
+	dd	1
+	dd	_328
+	dd	_21
+	dd	_121
+	dd	1
+	dd	_329
+	dd	_21
+	dd	_62
+	dd	1
+	dd	_330
+	dd	_21
+	dd	_64
+	dd	1
+	dd	_331
+	dd	_21
+	dd	_66
+	dd	1
+	dd	_332
+	dd	_21
+	dd	_68
+	dd	1
+	dd	_333
+	dd	_21
+	dd	_70
+	dd	1
+	dd	_334
+	dd	_21
+	dd	_74
+	dd	1
+	dd	_335
+	dd	_21
+	dd	_76
+	dd	1
+	dd	_336
+	dd	_21
+	dd	_78
+	dd	1
+	dd	_337
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_338
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_339
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_340
+	dd	_21
+	dd	_54
+	dd	1
+	dd	_341
+	dd	_21
+	dd	_105
+	dd	1
+	dd	_342
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_343
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_344
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_345
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_346
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_347
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_348
+	dd	_21
+	dd	_54
+	dd	1
+	dd	_349
+	dd	_21
+	dd	_105
+	dd	1
+	dd	_350
+	dd	_21
+	dd	_58
+	dd	1
+	dd	_351
+	dd	_21
+	dd	_60
+	dd	1
+	dd	_352
+	dd	_21
+	dd	_117
+	dd	1
+	dd	_353
+	dd	_21
+	dd	_119
+	dd	1
+	dd	_354
+	dd	_21
+	dd	_121
+	dd	1
+	dd	_355
+	dd	_21
+	dd	_62
+	dd	1
+	dd	_356
+	dd	_21
+	dd	_64
+	dd	1
+	dd	_357
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_358
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_359
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_360
+	dd	_21
+	dd	_54
+	dd	1
+	dd	_361
+	dd	_21
+	dd	_105
+	dd	1
+	dd	_362
+	dd	_21
+	dd	_56
+	dd	1
+	dd	_363
+	dd	_21
+	dd	_58
+	dd	1
+	dd	_364
+	dd	_21
+	dd	_60
+	dd	1
+	dd	_365
+	dd	_21
+	dd	_117
+	dd	1
+	dd	_366
+	dd	_21
+	dd	_119
+	dd	1
+	dd	_367
+	dd	_21
+	dd	_121
+	dd	1
+	dd	_368
+	dd	_21
+	dd	_62
+	dd	1
+	dd	_369
+	dd	_21
+	dd	_64
+	dd	1
+	dd	_370
+	dd	_21
+	dd	_66
+	dd	1
+	dd	_371
+	dd	_21
+	dd	_68
+	dd	1
+	dd	_372
+	dd	_21
+	dd	_70
+	dd	1
+	dd	_373
+	dd	_21
+	dd	_72
+	dd	1
+	dd	_374
+	dd	_21
+	dd	_74
+	dd	1
+	dd	_375
+	dd	_21
+	dd	_76
+	dd	1
+	dd	_376
+	dd	_21
+	dd	_78
+	dd	1
+	dd	_377
+	dd	_21
+	dd	_80
+	dd	1
+	dd	_378
+	dd	_21
+	dd	_82
+	dd	1
+	dd	_379
+	dd	_21
+	dd	_84
+	dd	1
+	dd	_380
+	dd	_21
+	dd	_135
+	dd	1
+	dd	_381
+	dd	_21
+	dd	_194
+	dd	1
+	dd	_382
+	dd	_21
+	dd	_196
+	dd	1
+	dd	_383
+	dd	_21
+	dd	_139
+	dd	1
+	dd	_384
+	dd	_21
+	dd	_277
+	dd	1
+	dd	_385
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_386
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_387
+	dd	_21
+	dd	_105
+	dd	1
+	dd	_388
+	dd	_21
+	dd	_56
+	dd	1
+	dd	_389
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_390
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_391
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_392
+	dd	_21
+	dd	_54
+	dd	1
+	dd	_393
+	dd	_21
+	dd	_196
+	dd	1
+	dd	_394
+	dd	_21
+	dd	_395
+	dd	1
+	dd	_396
+	dd	_21
+	dd	_137
+	dd	1
+	dd	_397
+	dd	_21
+	dd	_105
+	dd	1
+	dd	_398
+	dd	_21
+	dd	_56
+	dd	1
+	dd	_399
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_400
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_401
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_402
+	dd	_21
+	dd	_54
+	dd	1
+	dd	_403
+	dd	_21
+	dd	_105
+	dd	1
+	dd	_404
+	dd	_21
+	dd	_56
+	dd	1
+	dd	_405
+	dd	_21
+	dd	_58
+	dd	1
+	dd	_406
+	dd	_21
+	dd	_60
+	dd	1
+	dd	_407
+	dd	_21
+	dd	_117
+	dd	1
+	dd	_408
+	dd	_21
+	dd	_119
+	dd	1
+	dd	_409
+	dd	_21
+	dd	_121
+	dd	1
+	dd	_410
+	dd	_21
+	dd	_62
+	dd	1
+	dd	_411
+	dd	_21
+	dd	_64
+	dd	1
+	dd	_412
+	dd	_21
+	dd	_66
+	dd	1
+	dd	_413
+	dd	_21
+	dd	_68
+	dd	1
+	dd	_414
+	dd	_21
+	dd	_70
+	dd	1
+	dd	_415
+	dd	_21
+	dd	_72
+	dd	1
+	dd	_416
+	dd	_21
+	dd	_74
+	dd	1
+	dd	_417
+	dd	_21
+	dd	_78
+	dd	1
+	dd	_418
+	dd	_21
+	dd	_80
+	dd	1
+	dd	_419
+	dd	_21
+	dd	_82
+	dd	1
+	dd	_420
+	dd	_21
+	dd	_84
+	dd	1
+	dd	_421
+	dd	_21
+	dd	_135
+	dd	1
+	dd	_422
+	dd	_21
+	dd	_194
+	dd	1
+	dd	_423
+	dd	_21
+	dd	_196
+	dd	1
+	dd	_424
+	dd	_21
+	dd	_137
+	dd	1
+	dd	_425
+	dd	_21
+	dd	_277
+	dd	1
+	dd	_426
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_427
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_428
+	dd	_21
+	dd	_105
+	dd	1
+	dd	_429
+	dd	_21
+	dd	_56
+	dd	1
+	dd	_430
+	dd	_21
+	dd	_62
+	dd	1
+	dd	_431
+	dd	_21
+	dd	_64
+	dd	1
+	dd	_432
+	dd	_21
+	dd	_66
+	dd	1
+	dd	_433
+	dd	_21
+	dd	_66
+	dd	1
+	dd	_434
+	dd	_21
+	dd	_68
+	dd	1
+	dd	_435
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_436
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_437
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_438
+	dd	_21
+	dd	_54
+	dd	1
+	dd	_439
+	dd	_21
+	dd	_105
+	dd	1
+	dd	_440
+	dd	_21
+	dd	_56
+	dd	1
+	dd	_441
+	dd	_21
+	dd	_58
+	dd	1
+	dd	_442
+	dd	_21
+	dd	_60
+	dd	1
+	dd	_443
+	dd	_21
+	dd	_117
+	dd	1
+	dd	_444
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_445
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_446
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_447
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_448
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_449
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_450
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_451
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_452
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_453
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_454
+	dd	_21
+	dd	_277
+	dd	1
+	dd	_455
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_456
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_457
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_458
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_459
+	dd	_21
+	dd	_460
+	dd	1
+	dd	_461
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_462
+	dd	_21
+	dd	_463
+	dd	1
+	dd	_464
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_465
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_466
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_467
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_468
+	dd	_21
+	dd	_277
+	dd	1
+	dd	_469
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_470
+	dd	_21
+	dd	_277
+	dd	1
+	dd	_471
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_472
+	dd	_21
+	dd	_473
+	dd	1
+	dd	_474
+	dd	_21
+	dd	_475
+	dd	1
+	dd	_476
+	dd	_21
+	dd	_477
+	dd	1
+	dd	_478
+	dd	_21
+	dd	_479
+	dd	1
+	dd	_480
+	dd	_21
+	dd	_481
+	dd	1
+	dd	_482
+	dd	_21
+	dd	_483
+	dd	1
+	dd	_484
+	dd	_21
+	dd	_485
+	dd	1
+	dd	_486
+	dd	_21
+	dd	_487
+	dd	1
+	dd	_488
+	dd	_21
+	dd	_489
+	dd	1
+	dd	_490
+	dd	_21
+	dd	_491
+	dd	1
+	dd	_492
+	dd	_21
+	dd	_493
+	dd	1
+	dd	_494
+	dd	_21
+	dd	_495
+	dd	1
+	dd	_496
+	dd	_21
+	dd	_497
+	dd	1
+	dd	_498
+	dd	_21
+	dd	_499
+	dd	1
+	dd	_500
+	dd	_21
+	dd	_501
+	dd	1
+	dd	_502
+	dd	_21
+	dd	_503
+	dd	1
+	dd	_504
+	dd	_21
+	dd	_505
+	dd	1
+	dd	_506
+	dd	_21
+	dd	_507
+	dd	1
+	dd	_508
+	dd	_21
+	dd	_509
+	dd	1
+	dd	_510
+	dd	_21
+	dd	_511
+	dd	1
+	dd	_512
+	dd	_21
+	dd	_513
+	dd	1
+	dd	_514
+	dd	_21
+	dd	_515
+	dd	1
+	dd	_516
+	dd	_21
+	dd	_517
+	dd	1
+	dd	_518
+	dd	_21
+	dd	_519
+	dd	1
+	dd	_520
+	dd	_21
+	dd	_521
+	dd	1
+	dd	_522
+	dd	_21
+	dd	_523
+	dd	1
+	dd	_524
+	dd	_21
+	dd	_525
+	dd	1
+	dd	_526
+	dd	_21
+	dd	_527
+	dd	1
+	dd	_528
+	dd	_21
+	dd	_529
+	dd	1
+	dd	_530
+	dd	_21
+	dd	_531
+	dd	1
+	dd	_532
+	dd	_21
+	dd	_533
+	dd	1
+	dd	_534
+	dd	_21
+	dd	_535
+	dd	1
+	dd	_536
+	dd	_21
+	dd	_537
+	dd	1
+	dd	_538
+	dd	_21
+	dd	_539
+	dd	1
+	dd	_540
+	dd	_21
+	dd	_541
+	dd	1
+	dd	_542
+	dd	_21
+	dd	_543
+	dd	1
+	dd	_544
+	dd	_21
+	dd	_545
+	dd	1
+	dd	_546
+	dd	_21
+	dd	_547
+	dd	1
+	dd	_548
+	dd	_21
+	dd	_549
+	dd	1
+	dd	_550
+	dd	_21
+	dd	_551
+	dd	1
+	dd	_552
+	dd	_21
+	dd	_553
+	dd	1
+	dd	_554
+	dd	_21
+	dd	_555
+	dd	1
+	dd	_556
+	dd	_21
+	dd	_557
+	dd	1
+	dd	_558
+	dd	_21
+	dd	_559
+	dd	1
+	dd	_560
+	dd	_21
+	dd	_561
+	dd	1
+	dd	_562
+	dd	_21
+	dd	_563
+	dd	1
+	dd	_564
+	dd	_21
+	dd	_565
+	dd	1
+	dd	_566
+	dd	_21
+	dd	_567
+	dd	1
+	dd	_568
+	dd	_21
+	dd	_569
+	dd	1
+	dd	_570
+	dd	_21
+	dd	_571
+	dd	1
+	dd	_572
+	dd	_21
+	dd	_573
+	dd	1
+	dd	_574
+	dd	_21
+	dd	_575
+	dd	1
+	dd	_576
+	dd	_21
+	dd	_577
+	dd	1
+	dd	_578
+	dd	_21
+	dd	_579
+	dd	1
+	dd	_580
+	dd	_21
+	dd	_581
+	dd	1
+	dd	_582
+	dd	_21
+	dd	_583
+	dd	1
+	dd	_584
+	dd	_21
+	dd	_585
+	dd	1
+	dd	_586
+	dd	_21
+	dd	_587
+	dd	1
+	dd	_588
+	dd	_21
+	dd	_589
+	dd	1
+	dd	_590
+	dd	_21
+	dd	_591
+	dd	1
+	dd	_592
+	dd	_21
+	dd	_593
+	dd	1
+	dd	_594
+	dd	_21
+	dd	_595
+	dd	1
+	dd	_596
+	dd	_21
+	dd	_597
+	dd	1
+	dd	_598
+	dd	_21
+	dd	_599
+	dd	1
+	dd	_600
+	dd	_21
+	dd	_601
+	dd	1
+	dd	_602
+	dd	_21
+	dd	_603
+	dd	1
+	dd	_604
+	dd	_21
+	dd	_605
+	dd	1
+	dd	_606
+	dd	_21
+	dd	_607
+	dd	1
+	dd	_608
+	dd	_21
+	dd	_609
+	dd	1
+	dd	_610
+	dd	_21
+	dd	_611
+	dd	1
+	dd	_612
+	dd	_21
+	dd	_613
+	dd	1
+	dd	_614
+	dd	_21
+	dd	_615
+	dd	1
+	dd	_616
+	dd	_21
+	dd	_617
+	dd	1
+	dd	_618
+	dd	_21
+	dd	_619
+	dd	1
+	dd	_620
+	dd	_21
+	dd	_621
+	dd	1
+	dd	_622
+	dd	_21
+	dd	_623
+	dd	1
+	dd	_624
+	dd	_21
+	dd	_625
+	dd	1
+	dd	_626
+	dd	_21
+	dd	_627
+	dd	1
+	dd	_628
+	dd	_21
+	dd	_629
+	dd	1
+	dd	_630
+	dd	_21
+	dd	_631
+	dd	1
+	dd	_632
+	dd	_21
+	dd	_633
+	dd	1
+	dd	_634
+	dd	_21
+	dd	_635
+	dd	1
+	dd	_636
+	dd	_21
+	dd	_637
+	dd	1
+	dd	_638
+	dd	_21
+	dd	_639
+	dd	1
+	dd	_640
+	dd	_21
+	dd	_641
+	dd	1
+	dd	_642
+	dd	_21
+	dd	_643
+	dd	1
+	dd	_644
+	dd	_21
+	dd	_645
+	dd	1
+	dd	_646
+	dd	_21
+	dd	_647
+	dd	1
+	dd	_648
+	dd	_21
+	dd	_649
+	dd	1
+	dd	_650
+	dd	_21
+	dd	_651
+	dd	1
+	dd	_652
+	dd	_21
+	dd	_653
+	dd	1
+	dd	_654
+	dd	_21
+	dd	_655
+	dd	1
+	dd	_656
+	dd	_21
+	dd	_657
+	dd	1
+	dd	_658
+	dd	_21
+	dd	_659
+	dd	1
+	dd	_660
+	dd	_21
+	dd	_661
+	dd	1
+	dd	_662
+	dd	_21
+	dd	_663
+	dd	1
+	dd	_664
+	dd	_21
+	dd	_665
+	dd	1
+	dd	_666
+	dd	_21
+	dd	_667
+	dd	1
+	dd	_668
+	dd	_21
+	dd	_669
+	dd	1
+	dd	_670
+	dd	_21
+	dd	_671
+	dd	1
+	dd	_672
+	dd	_21
+	dd	_673
+	dd	1
+	dd	_674
+	dd	_21
+	dd	_675
+	dd	1
+	dd	_676
+	dd	_21
+	dd	_677
+	dd	1
+	dd	_678
+	dd	_21
+	dd	_679
+	dd	1
+	dd	_680
+	dd	_21
+	dd	_681
+	dd	1
+	dd	_682
+	dd	_21
+	dd	_683
+	dd	1
+	dd	_684
+	dd	_21
+	dd	_685
+	dd	1
+	dd	_686
+	dd	_21
+	dd	_687
+	dd	1
+	dd	_688
+	dd	_21
+	dd	_689
+	dd	1
+	dd	_690
+	dd	_21
+	dd	_691
+	dd	1
+	dd	_692
+	dd	_21
+	dd	_693
+	dd	1
+	dd	_694
+	dd	_21
+	dd	_695
+	dd	1
+	dd	_696
+	dd	_21
+	dd	_697
+	dd	1
+	dd	_698
+	dd	_21
+	dd	_699
+	dd	1
+	dd	_700
+	dd	_21
+	dd	_701
+	dd	1
+	dd	_702
+	dd	_21
+	dd	_703
+	dd	1
+	dd	_704
+	dd	_21
+	dd	_705
+	dd	1
+	dd	_706
+	dd	_21
+	dd	_707
+	dd	1
+	dd	_708
+	dd	_21
+	dd	_709
+	dd	1
+	dd	_710
+	dd	_21
+	dd	_711
+	dd	1
+	dd	_712
+	dd	_21
+	dd	_54
+	dd	4
+	dd	_713
+	dd	_21
+	dd	_pub_directx_ddLib
+	dd	4
+	dd	_714
+	dd	_715
+	dd	_pub_directx_IID_IDirectDraw7
+	dd	4
+	dd	_716
+	dd	_717
+	dd	_pub_directx_DirectDrawCreate
+	dd	4
+	dd	_718
+	dd	_719
+	dd	_pub_directx_DirectDrawCreateEx
+	dd	4
+	dd	_720
+	dd	_721
+	dd	_pub_directx_DirectDrawEnumerate
+	dd	1
+	dd	_722
+	dd	_21
+	dd	_277
+	dd	1
+	dd	_723
+	dd	_21
+	dd	_277
+	dd	1
+	dd	_724
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_725
+	dd	_21
+	dd	_726
+	dd	1
+	dd	_727
+	dd	_21
+	dd	_473
+	dd	1
+	dd	_728
+	dd	_21
+	dd	_729
+	dd	1
+	dd	_730
+	dd	_21
+	dd	_731
+	dd	1
+	dd	_732
+	dd	_21
+	dd	_733
+	dd	1
+	dd	_734
+	dd	_21
+	dd	_735
+	dd	1
+	dd	_736
+	dd	_21
+	dd	_737
+	dd	1
+	dd	_738
+	dd	_21
+	dd	_739
+	dd	1
+	dd	_740
+	dd	_21
+	dd	_741
+	dd	1
+	dd	_742
+	dd	_21
+	dd	_743
+	dd	1
+	dd	_744
+	dd	_21
+	dd	_745
+	dd	1
+	dd	_746
+	dd	_21
+	dd	_747
+	dd	1
+	dd	_748
+	dd	_21
+	dd	_749
+	dd	1
+	dd	_750
+	dd	_21
+	dd	_751
+	dd	1
+	dd	_752
+	dd	_21
+	dd	_753
+	dd	1
+	dd	_754
+	dd	_21
+	dd	_755
+	dd	1
+	dd	_756
+	dd	_21
+	dd	_757
+	dd	1
+	dd	_758
+	dd	_21
+	dd	_759
+	dd	1
+	dd	_760
+	dd	_21
+	dd	_761
+	dd	1
+	dd	_762
+	dd	_21
+	dd	_565
+	dd	1
+	dd	_763
+	dd	_21
+	dd	_764
+	dd	1
+	dd	_765
+	dd	_21
+	dd	_766
+	dd	1
+	dd	_767
+	dd	_21
+	dd	_768
+	dd	1
+	dd	_769
+	dd	_21
+	dd	_605
+	dd	1
+	dd	_770
+	dd	_21
+	dd	_277
+	dd	1
+	dd	_771
+	dd	_21
+	dd	_772
+	dd	1
+	dd	_773
+	dd	_21
+	dd	_105
+	dd	1
+	dd	_774
+	dd	_21
+	dd	_66
+	dd	1
+	dd	_775
+	dd	_21
+	dd	_64
+	dd	1
+	dd	_776
+	dd	_21
+	dd	_62
+	dd	1
+	dd	_777
+	dd	_21
+	dd	_68
+	dd	1
+	dd	_778
+	dd	_21
+	dd	_70
+	dd	1
+	dd	_779
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_780
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_781
+	dd	_21
+	dd	_119
+	dd	1
+	dd	_782
+	dd	_21
+	dd	_121
+	dd	1
+	dd	_783
+	dd	_21
+	dd	_68
+	dd	1
+	dd	_784
+	dd	_21
+	dd	_70
+	dd	1
+	dd	_785
+	dd	_21
+	dd	_72
+	dd	1
+	dd	_786
+	dd	_21
+	dd	_74
+	dd	1
+	dd	_787
+	dd	_21
+	dd	_76
+	dd	1
+	dd	_788
+	dd	_21
+	dd	_78
+	dd	1
+	dd	_789
+	dd	_21
+	dd	_80
+	dd	1
+	dd	_790
+	dd	_21
+	dd	_54
+	dd	1
+	dd	_791
+	dd	_21
+	dd	_105
+	dd	1
+	dd	_792
+	dd	_21
+	dd	_56
+	dd	1
+	dd	_793
+	dd	_21
+	dd	_58
+	dd	1
+	dd	_794
+	dd	_21
+	dd	_60
+	dd	1
+	dd	_795
+	dd	_21
+	dd	_117
+	dd	1
+	dd	_796
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_797
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_798
+	dd	_21
+	dd	_460
+	dd	1
+	dd	_799
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_800
+	dd	_21
+	dd	_463
+	dd	1
+	dd	_801
+	dd	_21
+	dd	_277
+	dd	1
+	dd	_802
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_803
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_804
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_805
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_806
+	dd	_21
+	dd	_460
+	dd	1
+	dd	_807
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_808
+	dd	_21
+	dd	_463
+	dd	1
+	dd	_809
+	dd	_21
+	dd	_810
+	dd	1
+	dd	_811
+	dd	_21
+	dd	_99
+	dd	1
+	dd	_812
+	dd	_21
+	dd	_54
+	dd	1
+	dd	_813
+	dd	_21
+	dd	_814
+	dd	1
+	dd	_815
+	dd	_21
+	dd	_816
+	dd	1
+	dd	_817
+	dd	_21
+	dd	_818
+	dd	1
+	dd	_819
+	dd	_21
+	dd	_820
+	dd	1
+	dd	_821
+	dd	_21
+	dd	_822
+	dd	1
+	dd	_823
+	dd	_21
+	dd	_824
+	dd	1
+	dd	_825
+	dd	_21
+	dd	_92
+	dd	1
+	dd	_826
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_827
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_828
+	dd	_21
+	dd	_460
+	dd	1
+	dd	_829
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_830
+	dd	_21
+	dd	_463
+	dd	1
+	dd	_831
+	dd	_21
+	dd	_810
+	dd	1
+	dd	_832
+	dd	_21
+	dd	_99
+	dd	1
+	dd	_833
+	dd	_21
+	dd	_54
+	dd	1
+	dd	_834
+	dd	_21
+	dd	_814
+	dd	1
+	dd	_835
+	dd	_21
+	dd	_816
+	dd	1
+	dd	_836
+	dd	_21
+	dd	_818
+	dd	1
+	dd	_837
+	dd	_21
+	dd	_820
+	dd	1
+	dd	_838
+	dd	_21
+	dd	_822
+	dd	1
+	dd	_839
+	dd	_21
+	dd	_824
+	dd	1
+	dd	_840
+	dd	_21
+	dd	_92
+	dd	1
+	dd	_841
+	dd	_21
+	dd	_105
+	dd	1
+	dd	_842
+	dd	_21
+	dd	_47
+	dd	1
+	dd	_843
+	dd	_21
+	dd	_844
+	dd	1
+	dd	_845
+	dd	_21
+	dd	_846
+	dd	1
+	dd	_847
+	dd	_21
+	dd	_848
+	dd	1
+	dd	_849
+	dd	_21
+	dd	_850
+	dd	1
+	dd	_851
+	dd	_21
+	dd	_852
+	dd	1
+	dd	_853
+	dd	_21
+	dd	_854
+	dd	1
+	dd	_855
+	dd	_21
+	dd	_856
+	dd	1
+	dd	_857
+	dd	_21
+	dd	_858
+	dd	1
+	dd	_859
+	dd	_21
+	dd	_860
+	dd	1
+	dd	_861
+	dd	_21
+	dd	_92
+	dd	1
+	dd	_862
+	dd	_21
+	dd	_277
+	dd	1
+	dd	_863
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_864
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_865
+	dd	_21
+	dd	_460
+	dd	1
+	dd	_866
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_867
+	dd	_21
+	dd	_463
+	dd	1
+	dd	_868
+	dd	_21
+	dd	_810
+	dd	1
+	dd	_869
+	dd	_21
+	dd	_105
+	dd	1
+	dd	_870
+	dd	_21
+	dd	_56
+	dd	1
+	dd	_871
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_872
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_873
+	dd	_21
+	dd	_460
+	dd	1
+	dd	_874
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_875
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_876
+	dd	_21
+	dd	_460
+	dd	1
+	dd	_877
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_878
+	dd	_21
+	dd	_463
+	dd	1
+	dd	_879
+	dd	_21
+	dd	_810
+	dd	1
+	dd	_880
+	dd	_21
+	dd	_99
+	dd	1
+	dd	_881
+	dd	_21
+	dd	_54
+	dd	1
+	dd	_882
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_883
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_884
+	dd	_21
+	dd	_460
+	dd	1
+	dd	_885
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_886
+	dd	_21
+	dd	_463
+	dd	1
+	dd	_887
+	dd	_21
+	dd	_810
+	dd	1
+	dd	_888
+	dd	_21
+	dd	_99
+	dd	1
+	dd	_889
+	dd	_21
+	dd	_54
+	dd	1
+	dd	_890
+	dd	_21
+	dd	_277
+	dd	1
+	dd	_891
+	dd	_21
+	dd	_848
+	dd	1
+	dd	_892
+	dd	_21
+	dd	_850
+	dd	1
+	dd	_893
+	dd	_21
+	dd	_852
+	dd	1
+	dd	_894
+	dd	_21
+	dd	_854
+	dd	1
+	dd	_895
+	dd	_21
+	dd	_856
+	dd	1
+	dd	_896
+	dd	_21
+	dd	_858
+	dd	1
+	dd	_897
+	dd	_21
+	dd	_860
+	dd	1
+	dd	_898
+	dd	_21
+	dd	_899
+	dd	1
+	dd	_900
+	dd	_21
+	dd	_901
+	dd	1
+	dd	_902
+	dd	_21
+	dd	_903
+	dd	1
+	dd	_904
+	dd	_21
+	dd	_905
+	dd	1
+	dd	_906
+	dd	_21
+	dd	_907
+	dd	1
+	dd	_908
+	dd	_21
+	dd	_56
+	dd	1
+	dd	_909
+	dd	_21
+	dd	_49
+	dd	1
+	dd	_910
+	dd	_21
+	dd	_911
+	dd	1
+	dd	_912
+	dd	_21
+	dd	_913
+	dd	1
+	dd	_914
+	dd	_21
+	dd	_915
+	dd	1
+	dd	_916
+	dd	_21
+	dd	_917
+	dd	1
+	dd	_918
+	dd	_21
+	dd	_919
+	dd	1
+	dd	_920
+	dd	_21
+	dd	_921
+	dd	1
+	dd	_922
+	dd	_21
+	dd	_923
+	dd	1
+	dd	_924
+	dd	_21
+	dd	_925
+	dd	1
+	dd	_926
+	dd	_21
+	dd	_927
+	dd	1
+	dd	_928
+	dd	_21
+	dd	_929
+	dd	1
+	dd	_930
+	dd	_21
+	dd	_931
+	dd	1
+	dd	_932
+	dd	_21
+	dd	_933
+	dd	1
+	dd	_934
+	dd	_21
+	dd	_935
+	dd	1
+	dd	_936
+	dd	_21
+	dd	_937
+	dd	1
+	dd	_938
+	dd	_21
+	dd	_939
+	dd	1
+	dd	_940
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_941
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_942
+	dd	_21
+	dd	_460
+	dd	1
+	dd	_943
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_944
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_945
+	dd	_21
+	dd	_460
+	dd	1
+	dd	_946
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_947
+	dd	_21
+	dd	_463
+	dd	1
+	dd	_948
+	dd	_21
+	dd	_810
+	dd	1
+	dd	_949
+	dd	_21
+	dd	_99
+	dd	1
+	dd	_950
+	dd	_21
+	dd	_277
+	dd	1
+	dd	_951
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_952
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_953
+	dd	_21
+	dd	_460
+	dd	1
+	dd	_954
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_955
+	dd	_21
+	dd	_463
+	dd	1
+	dd	_956
+	dd	_21
+	dd	_810
+	dd	1
+	dd	_957
+	dd	_21
+	dd	_99
+	dd	1
+	dd	_958
+	dd	_21
+	dd	_54
+	dd	1
+	dd	_959
+	dd	_21
+	dd	_814
+	dd	1
+	dd	_960
+	dd	_21
+	dd	_816
+	dd	1
+	dd	_961
+	dd	_21
+	dd	_818
+	dd	1
+	dd	_962
+	dd	_21
+	dd	_820
+	dd	1
+	dd	_963
+	dd	_21
+	dd	_822
+	dd	1
+	dd	_964
+	dd	_21
+	dd	_824
+	dd	1
+	dd	_965
+	dd	_21
+	dd	_92
+	dd	1
+	dd	_966
+	dd	_21
+	dd	_105
+	dd	1
+	dd	_967
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_968
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_969
+	dd	_21
+	dd	_460
+	dd	1
+	dd	_970
+	dd	_21
+	dd	_277
+	dd	1
+	dd	_971
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_972
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_973
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_974
+	dd	_21
+	dd	_54
+	dd	1
+	dd	_975
+	dd	_21
+	dd	_147
+	dd	1
+	dd	_976
+	dd	_21
+	dd	_277
+	dd	1
+	dd	_977
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_978
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_979
+	dd	_21
+	dd	_460
+	dd	1
+	dd	_980
+	dd	_21
+	dd	_277
+	dd	1
+	dd	_981
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_982
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_983
+	dd	_21
+	dd	_277
+	dd	1
+	dd	_984
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_985
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_986
+	dd	_21
+	dd	_460
+	dd	1
+	dd	_987
+	dd	_21
+	dd	_810
+	dd	1
+	dd	_988
+	dd	_21
+	dd	_99
+	dd	1
+	dd	_989
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_990
+	dd	_21
+	dd	_460
+	dd	1
+	dd	_991
+	dd	_21
+	dd	_105
+	dd	1
+	dd	_992
+	dd	_21
+	dd	_47
+	dd	1
+	dd	_993
+	dd	_21
+	dd	_844
+	dd	1
+	dd	_994
+	dd	_21
+	dd	_846
+	dd	1
+	dd	_995
+	dd	_21
+	dd	_848
+	dd	1
+	dd	_996
+	dd	_21
+	dd	_850
+	dd	1
+	dd	_997
+	dd	_21
+	dd	_852
+	dd	1
+	dd	_998
+	dd	_21
+	dd	_854
+	dd	1
+	dd	_999
+	dd	_21
+	dd	_117
+	dd	1
+	dd	_1000
+	dd	_21
+	dd	_1001
+	dd	1
+	dd	_1002
+	dd	_21
+	dd	_1003
+	dd	1
+	dd	_1004
+	dd	_21
+	dd	_1005
+	dd	1
+	dd	_1006
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_1007
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_1008
+	dd	_21
+	dd	_460
+	dd	1
+	dd	_1009
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_1010
+	dd	_21
+	dd	_99
+	dd	1
+	dd	_1011
+	dd	_21
+	dd	_54
+	dd	1
+	dd	_1012
+	dd	_21
+	dd	_814
+	dd	1
+	dd	_1013
+	dd	_21
+	dd	_824
+	dd	1
+	dd	_1014
+	dd	_21
+	dd	_92
+	dd	1
+	dd	_1015
+	dd	_21
+	dd	_105
+	dd	1
+	dd	_1016
+	dd	_21
+	dd	_846
+	dd	1
+	dd	_1017
+	dd	_21
+	dd	_848
+	dd	1
+	dd	_1018
+	dd	_21
+	dd	_852
+	dd	1
+	dd	_1019
+	dd	_21
+	dd	_854
+	dd	1
+	dd	_1020
+	dd	_21
+	dd	_856
+	dd	1
+	dd	_1021
+	dd	_21
+	dd	_858
+	dd	1
+	dd	_1022
+	dd	_21
+	dd	_860
+	dd	1
+	dd	_1023
+	dd	_21
+	dd	_899
+	dd	1
+	dd	_1024
+	dd	_21
+	dd	_901
+	dd	1
+	dd	_1025
+	dd	_21
+	dd	_903
+	dd	1
+	dd	_1026
+	dd	_21
+	dd	_911
+	dd	1
+	dd	_1027
+	dd	_21
+	dd	_913
+	dd	1
+	dd	_1028
+	dd	_21
+	dd	_915
+	dd	1
+	dd	_1029
+	dd	_21
+	dd	_1030
+	dd	1
+	dd	_1031
+	dd	_21
+	dd	_1032
+	dd	1
+	dd	_1033
+	dd	_21
+	dd	_1034
+	dd	1
+	dd	_1035
+	dd	_21
+	dd	_1036
+	dd	1
+	dd	_1037
+	dd	_21
+	dd	_1038
+	dd	1
+	dd	_1039
+	dd	_21
+	dd	_1040
+	dd	1
+	dd	_1041
+	dd	_21
+	dd	_1042
+	dd	1
+	dd	_1043
+	dd	_21
+	dd	_1044
+	dd	1
+	dd	_1045
+	dd	_21
+	dd	_1046
+	dd	1
+	dd	_1047
+	dd	_21
+	dd	_1048
+	dd	1
+	dd	_1049
+	dd	_21
+	dd	_1050
+	dd	1
+	dd	_1051
+	dd	_21
+	dd	_1052
+	dd	1
+	dd	_1053
+	dd	_21
+	dd	_60
+	dd	1
+	dd	_1054
+	dd	_21
+	dd	_1055
+	dd	1
+	dd	_1056
+	dd	_21
+	dd	_1057
+	dd	1
+	dd	_1058
+	dd	_21
+	dd	_1059
+	dd	1
+	dd	_1060
+	dd	_21
+	dd	_1061
+	dd	1
+	dd	_1062
+	dd	_21
+	dd	_1063
+	dd	1
+	dd	_1064
+	dd	_21
+	dd	_1065
+	dd	1
+	dd	_1066
+	dd	_21
+	dd	_1067
+	dd	1
+	dd	_1068
+	dd	_21
+	dd	_1069
+	dd	1
+	dd	_1070
+	dd	_21
+	dd	_1071
+	dd	1
+	dd	_1072
+	dd	_21
+	dd	_1073
+	dd	1
+	dd	_1074
+	dd	_21
+	dd	_1075
+	dd	1
+	dd	_1076
+	dd	_21
+	dd	_1077
+	dd	1
+	dd	_1078
+	dd	_21
+	dd	_1079
+	dd	1
+	dd	_1080
+	dd	_21
+	dd	_1081
+	dd	1
+	dd	_1082
+	dd	_21
+	dd	_1083
+	dd	1
+	dd	_1084
+	dd	_21
+	dd	_1085
+	dd	1
+	dd	_1086
+	dd	_21
+	dd	_1087
+	dd	1
+	dd	_1088
+	dd	_21
+	dd	_1089
+	dd	1
+	dd	_1090
+	dd	_21
+	dd	_1091
+	dd	1
+	dd	_1092
+	dd	_21
+	dd	_1093
+	dd	1
+	dd	_1094
+	dd	_21
+	dd	_1095
+	dd	1
+	dd	_1096
+	dd	_21
+	dd	_1097
+	dd	1
+	dd	_1098
+	dd	_21
+	dd	_1099
+	dd	1
+	dd	_1100
+	dd	_21
+	dd	_1101
+	dd	1
+	dd	_1102
+	dd	_21
+	dd	_1103
+	dd	1
+	dd	_1104
+	dd	_21
+	dd	_1105
+	dd	1
+	dd	_1106
+	dd	_21
+	dd	_1107
+	dd	1
+	dd	_1108
+	dd	_21
+	dd	_1109
+	dd	1
+	dd	_1110
+	dd	_21
+	dd	_1111
+	dd	1
+	dd	_1112
+	dd	_21
+	dd	_1113
+	dd	1
+	dd	_1114
+	dd	_21
+	dd	_1115
+	dd	1
+	dd	_1116
+	dd	_21
+	dd	_1117
+	dd	1
+	dd	_1118
+	dd	_21
+	dd	_1119
+	dd	1
+	dd	_1120
+	dd	_21
+	dd	_1121
+	dd	1
+	dd	_1122
+	dd	_21
+	dd	_1123
+	dd	1
+	dd	_1124
+	dd	_21
+	dd	_1125
+	dd	1
+	dd	_1126
+	dd	_21
+	dd	_1127
+	dd	1
+	dd	_1128
+	dd	_21
+	dd	_1129
+	dd	1
+	dd	_1130
+	dd	_21
+	dd	_1131
+	dd	1
+	dd	_1132
+	dd	_21
+	dd	_1133
+	dd	1
+	dd	_1134
+	dd	_21
+	dd	_1135
+	dd	1
+	dd	_1136
+	dd	_21
+	dd	_1137
+	dd	1
+	dd	_1138
+	dd	_21
+	dd	_1139
+	dd	1
+	dd	_1140
+	dd	_21
+	dd	_1141
+	dd	1
+	dd	_1142
+	dd	_21
+	dd	_1143
+	dd	1
+	dd	_1144
+	dd	_21
+	dd	_1145
+	dd	1
+	dd	_1146
+	dd	_21
+	dd	_1147
+	dd	1
+	dd	_1148
+	dd	_21
+	dd	_1149
+	dd	1
+	dd	_1150
+	dd	_21
+	dd	_1151
+	dd	1
+	dd	_1152
+	dd	_21
+	dd	_1153
+	dd	1
+	dd	_1154
+	dd	_21
+	dd	_1155
+	dd	1
+	dd	_1156
+	dd	_21
+	dd	_1157
+	dd	1
+	dd	_1158
+	dd	_21
+	dd	_1159
+	dd	1
+	dd	_1160
+	dd	_21
+	dd	_1161
+	dd	1
+	dd	_1162
+	dd	_21
+	dd	_1163
+	dd	1
+	dd	_1164
+	dd	_21
+	dd	_1165
+	dd	1
+	dd	_1166
+	dd	_21
+	dd	_1167
+	dd	1
+	dd	_1168
+	dd	_21
+	dd	_1169
+	dd	1
+	dd	_1170
+	dd	_21
+	dd	_1171
+	dd	1
+	dd	_1172
+	dd	_21
+	dd	_1173
+	dd	1
+	dd	_1174
+	dd	_21
+	dd	_1175
+	dd	1
+	dd	_1176
+	dd	_21
+	dd	_1177
+	dd	1
+	dd	_1178
+	dd	_21
+	dd	_1179
+	dd	1
+	dd	_1180
+	dd	_21
+	dd	_1181
+	dd	1
+	dd	_1182
+	dd	_21
+	dd	_1183
+	dd	1
+	dd	_1184
+	dd	_21
+	dd	_1185
+	dd	1
+	dd	_1186
+	dd	_21
+	dd	_1187
+	dd	1
+	dd	_1188
+	dd	_21
+	dd	_1189
+	dd	1
+	dd	_1190
+	dd	_21
+	dd	_1191
+	dd	1
+	dd	_1192
+	dd	_21
+	dd	_1193
+	dd	1
+	dd	_1194
+	dd	_21
+	dd	_1195
+	dd	1
+	dd	_1196
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_1197
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_1198
+	dd	_21
+	dd	_460
+	dd	1
+	dd	_1199
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_1200
+	dd	_21
+	dd	_463
+	dd	1
+	dd	_1201
+	dd	_21
+	dd	_810
+	dd	1
+	dd	_1202
+	dd	_21
+	dd	_99
+	dd	1
+	dd	_1203
+	dd	_21
+	dd	_54
+	dd	1
+	dd	_1204
+	dd	_21
+	dd	_814
+	dd	1
+	dd	_1205
+	dd	_21
+	dd	_816
+	dd	1
+	dd	_1206
+	dd	_21
+	dd	_818
+	dd	1
+	dd	_1207
+	dd	_21
+	dd	_820
+	dd	1
+	dd	_1208
+	dd	_21
+	dd	_105
+	dd	1
+	dd	_1209
+	dd	_21
+	dd	_47
+	dd	1
+	dd	_1210
+	dd	_21
+	dd	_844
+	dd	1
+	dd	_1211
+	dd	_21
+	dd	_852
+	dd	1
+	dd	_1212
+	dd	_21
+	dd	_854
+	dd	1
+	dd	_1213
+	dd	_21
+	dd	_856
+	dd	1
+	dd	_1214
+	dd	_21
+	dd	_860
+	dd	1
+	dd	_1215
+	dd	_21
+	dd	_899
+	dd	1
+	dd	_1216
+	dd	_21
+	dd	_901
+	dd	1
+	dd	_1217
+	dd	_21
+	dd	_56
+	dd	1
+	dd	_1218
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_1219
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_1220
+	dd	_21
+	dd	_460
+	dd	1
+	dd	_1221
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_1222
+	dd	_21
+	dd	_463
+	dd	1
+	dd	_1223
+	dd	_21
+	dd	_810
+	dd	1
+	dd	_1224
+	dd	_21
+	dd	_99
+	dd	1
+	dd	_1225
+	dd	_21
+	dd	_54
+	dd	1
+	dd	_1226
+	dd	_21
+	dd	_814
+	dd	1
+	dd	_1227
+	dd	_21
+	dd	_816
+	dd	1
+	dd	_1228
+	dd	_21
+	dd	_818
+	dd	1
+	dd	_1229
+	dd	_21
+	dd	_820
+	dd	1
+	dd	_1230
+	dd	_21
+	dd	_822
+	dd	1
+	dd	_1231
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_1232
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_1233
+	dd	_21
+	dd	_460
+	dd	1
+	dd	_1234
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_1235
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_1236
+	dd	_21
+	dd	_460
+	dd	1
+	dd	_1237
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_1238
+	dd	_21
+	dd	_463
+	dd	1
+	dd	_1239
+	dd	_21
+	dd	_810
+	dd	1
+	dd	_1240
+	dd	_21
+	dd	_277
+	dd	1
+	dd	_1241
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_1242
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_1243
+	dd	_21
+	dd	_460
+	dd	1
+	dd	_1244
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_1245
+	dd	_21
+	dd	_463
+	dd	1
+	dd	_1246
+	dd	_21
+	dd	_810
+	dd	1
+	dd	_1247
+	dd	_21
+	dd	_99
+	dd	1
+	dd	_1248
+	dd	_21
+	dd	_54
+	dd	1
+	dd	_1249
+	dd	_21
+	dd	_814
+	dd	1
+	dd	_1250
+	dd	_21
+	dd	_816
+	dd	1
+	dd	_1251
+	dd	_21
+	dd	_818
+	dd	1
+	dd	_1252
+	dd	_21
+	dd	_820
+	dd	1
+	dd	_1253
+	dd	_21
+	dd	_822
+	dd	1
+	dd	_1254
+	dd	_21
+	dd	_277
+	dd	1
+	dd	_1255
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_1256
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_1257
+	dd	_21
+	dd	_460
+	dd	1
+	dd	_1258
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_1259
+	dd	_21
+	dd	_463
+	dd	1
+	dd	_1260
+	dd	_21
+	dd	_810
+	dd	1
+	dd	_1261
+	dd	_21
+	dd	_277
+	dd	1
+	dd	_1262
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_1263
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_1264
+	dd	_21
+	dd	_460
+	dd	1
+	dd	_1265
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_1266
+	dd	_21
+	dd	_463
+	dd	1
+	dd	_1267
+	dd	_21
+	dd	_810
+	dd	1
+	dd	_1268
+	dd	_21
+	dd	_99
+	dd	1
+	dd	_1269
+	dd	_21
+	dd	_54
+	dd	1
+	dd	_1270
+	dd	_21
+	dd	_814
+	dd	1
+	dd	_1271
+	dd	_21
+	dd	_816
+	dd	1
+	dd	_1272
+	dd	_21
+	dd	_818
+	dd	1
+	dd	_1273
+	dd	_21
+	dd	_820
+	dd	1
+	dd	_1274
+	dd	_21
+	dd	_822
+	dd	1
+	dd	_1275
+	dd	_21
+	dd	_824
+	dd	1
+	dd	_1276
+	dd	_21
+	dd	_92
+	dd	1
+	dd	_1277
+	dd	_21
+	dd	_105
+	dd	1
+	dd	_1278
+	dd	_21
+	dd	_47
+	dd	1
+	dd	_1279
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_1280
+	dd	_21
+	dd	_463
+	dd	1
+	dd	_1281
+	dd	_21
+	dd	_810
+	dd	1
+	dd	_1282
+	dd	_21
+	dd	_54
+	dd	1
+	dd	_1283
+	dd	_21
+	dd	_814
+	dd	1
+	dd	_1284
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_1285
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_1286
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_1287
+	dd	_21
+	dd	_1288
+	dd	1
+	dd	_1289
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_1290
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_1291
+	dd	_21
+	dd	_810
+	dd	1
+	dd	_1292
+	dd	_21
+	dd	_54
+	dd	1
+	dd	_1293
+	dd	_21
+	dd	_816
+	dd	1
+	dd	_1294
+	dd	_21
+	dd	_820
+	dd	1
+	dd	_1295
+	dd	_21
+	dd	_824
+	dd	1
+	dd	_1296
+	dd	_21
+	dd	_1297
+	dd	1
+	dd	_1298
+	dd	_21
+	dd	_105
+	dd	1
+	dd	_1299
+	dd	_21
+	dd	_56
+	dd	1
+	dd	_1300
+	dd	_21
+	dd	_58
+	dd	1
+	dd	_1301
+	dd	_21
+	dd	_60
+	dd	1
+	dd	_1302
+	dd	_21
+	dd	_1303
+	dd	1
+	dd	_1304
+	dd	_21
+	dd	_54
+	dd	1
+	dd	_1305
+	dd	_21
+	dd	_277
+	dd	1
+	dd	_1306
+	dd	_21
+	dd	_117
+	dd	1
+	dd	_1307
+	dd	_21
+	dd	_119
+	dd	1
+	dd	_1308
+	dd	_21
+	dd	_1309
+	dd	1
+	dd	_1310
+	dd	_21
+	dd	_121
+	dd	1
+	dd	_1311
+	dd	_21
+	dd	_1312
+	dd	1
+	dd	_1313
+	dd	_21
+	dd	_1314
+	dd	1
+	dd	_1315
+	dd	_21
+	dd	_22
+	dd	1
+	dd	_1316
+	dd	_21
+	dd	_62
+	dd	1
+	dd	_1317
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_1318
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_1319
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_1320
+	dd	_21
+	dd	_105
+	dd	1
+	dd	_1321
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_1322
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_1323
+	dd	_21
+	dd	_105
+	dd	1
+	dd	_1324
+	dd	_21
+	dd	_56
+	dd	1
+	dd	_1325
+	dd	_21
+	dd	_58
+	dd	1
+	dd	_1326
+	dd	_21
+	dd	_60
+	dd	1
+	dd	_1327
+	dd	_21
+	dd	_117
+	dd	1
+	dd	_1328
+	dd	_21
+	dd	_119
+	dd	1
+	dd	_1329
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_1330
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_1331
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_1332
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_1333
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_1334
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_1335
+	dd	_21
+	dd	_54
+	dd	1
+	dd	_1336
+	dd	_21
+	dd	_105
+	dd	1
+	dd	_1337
+	dd	_21
+	dd	_56
+	dd	1
+	dd	_1338
+	dd	_21
+	dd	_58
+	dd	1
+	dd	_1339
+	dd	_21
+	dd	_60
+	dd	1
+	dd	_1340
+	dd	_21
+	dd	_117
+	dd	1
+	dd	_1341
+	dd	_21
+	dd	_119
+	dd	1
+	dd	_1342
+	dd	_21
+	dd	_121
+	dd	1
+	dd	_1343
+	dd	_21
+	dd	_62
+	dd	1
+	dd	_1344
+	dd	_21
+	dd	_1345
+	dd	1
+	dd	_1346
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_1347
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_1348
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_1349
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_1350
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_1351
+	dd	_21
+	dd	_460
+	dd	1
+	dd	_1352
+	dd	_21
+	dd	_78
+	dd	1
+	dd	_1353
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_1354
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_1355
+	dd	_21
+	dd	_460
+	dd	1
+	dd	_1356
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_1357
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_1358
+	dd	_21
+	dd	_460
+	dd	1
+	dd	_1359
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_1360
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_1361
+	dd	_21
+	dd	_460
+	dd	1
+	dd	_1362
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_1363
+	dd	_21
+	dd	_463
+	dd	1
+	dd	_1364
+	dd	_21
+	dd	_62
+	dd	1
+	dd	_1365
+	dd	_21
+	dd	_72
+	dd	1
+	dd	_1366
+	dd	_21
+	dd	_147
+	dd	1
+	dd	_1367
+	dd	_21
+	dd	_35
+	dd	4
+	dd	_1368
+	dd	_715
+	dd	_pub_directx_IID_IDirect3D7
+	dd	4
+	dd	_1369
+	dd	_715
+	dd	_pub_directx_IID_IDirect3DHALDevice
+	dd	4
+	dd	_1370
+	dd	_715
+	dd	_pub_directx_IID_IDirect3DTnLDevice
+	dd	1
+	dd	_1371
+	dd	_21
+	dd	_1372
+	dd	4
+	dd	_1373
+	dd	_21
+	dd	_pub_directx_d3d9Lib
+	dd	4
+	dd	_1374
+	dd	_1375
+	dd	_pub_directx_Direct3DCreate9
+	dd	4
+	dd	_1376
+	dd	_21
+	dd	_pub_directx_d3dx9Lib
+	dd	4
+	dd	_1377
+	dd	_1378
+	dd	_pub_directx_D3DXAssembleShader
+	dd	1
+	dd	_1379
+	dd	_21
+	dd	_22
+	dd	1
+	dd	_1380
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_1381
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_1382
+	dd	_21
+	dd	_460
+	dd	1
+	dd	_1383
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_1384
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_1385
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_1386
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_1387
+	dd	_21
+	dd	_54
+	dd	1
+	dd	_1388
+	dd	_21
+	dd	_105
+	dd	1
+	dd	_1389
+	dd	_21
+	dd	_56
+	dd	1
+	dd	_1390
+	dd	_21
+	dd	_58
+	dd	1
+	dd	_1391
+	dd	_21
+	dd	_117
+	dd	1
+	dd	_1392
+	dd	_21
+	dd	_119
+	dd	1
+	dd	_1393
+	dd	_21
+	dd	_121
+	dd	1
+	dd	_1394
+	dd	_21
+	dd	_62
+	dd	1
+	dd	_1395
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_1396
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_1397
+	dd	_21
+	dd	_460
+	dd	1
+	dd	_1398
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_1399
+	dd	_21
+	dd	_463
+	dd	1
+	dd	_1400
+	dd	_21
+	dd	_810
+	dd	1
+	dd	_1401
+	dd	_21
+	dd	_463
+	dd	1
+	dd	_1402
+	dd	_21
+	dd	_816
+	dd	1
+	dd	_1403
+	dd	_21
+	dd	_848
+	dd	1
+	dd	_1404
+	dd	_21
+	dd	_1141
+	dd	1
+	dd	_1405
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_1406
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_1407
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_1408
+	dd	_21
+	dd	_54
+	dd	1
+	dd	_1409
+	dd	_21
+	dd	_105
+	dd	1
+	dd	_1410
+	dd	_21
+	dd	_56
+	dd	1
+	dd	_1411
+	dd	_21
+	dd	_58
+	dd	1
+	dd	_1412
+	dd	_21
+	dd	_60
+	dd	1
+	dd	_1413
+	dd	_21
+	dd	_117
+	dd	1
+	dd	_1414
+	dd	_21
+	dd	_68
+	dd	1
+	dd	_1415
+	dd	_21
+	dd	_70
+	dd	1
+	dd	_1416
+	dd	_21
+	dd	_72
+	dd	1
+	dd	_1417
+	dd	_21
+	dd	_74
+	dd	1
+	dd	_1418
+	dd	_21
+	dd	_76
+	dd	1
+	dd	_1419
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_1420
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_1421
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_1422
+	dd	_21
+	dd	_54
+	dd	1
+	dd	_1423
+	dd	_21
+	dd	_105
+	dd	1
+	dd	_1424
+	dd	_21
+	dd	_56
+	dd	1
+	dd	_1425
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_1426
+	dd	_21
+	dd	_37
+	dd	1
+	dd	_1427
+	dd	_21
+	dd	_39
+	dd	1
+	dd	_1428
+	dd	_21
+	dd	_54
+	dd	1
+	dd	_1429
+	dd	_21
+	dd	_105
+	dd	1
+	dd	_1430
+	dd	_21
+	dd	_56
+	dd	1
+	dd	_1431
+	dd	_21
+	dd	_35
+	dd	1
+	dd	_1432
+	dd	_21
+	dd	_37
+	dd	4
+	dd	_1433
+	dd	_1434
+	dd	_pub_directx_DirectSoundCreate
+	dd	0

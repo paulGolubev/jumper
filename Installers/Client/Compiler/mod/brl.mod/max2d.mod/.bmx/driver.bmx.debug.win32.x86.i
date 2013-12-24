@@ -1,0 +1,39 @@
+import brl.blitz
+import brl.pixmap
+import brl.graphics
+MASKBLEND%=1
+SOLIDBLEND%=2
+ALPHABLEND%=3
+LIGHTBLEND%=4
+SHADEBLEND%=5
+MASKEDIMAGE%=1
+FILTEREDIMAGE%=2
+MIPMAPPEDIMAGE%=4
+DYNAMICIMAGE%=8
+TImageFrame^brl.blitz.Object{
+-New%()="_brl_max2d_TImageFrame_New"
+-Delete%()="_brl_max2d_TImageFrame_Delete"
+-Draw%(x0#,y0#,x1#,y1#,tx#,ty#,sx#,sy#,sw#,sh#)A="brl_blitz_NullMethodError"
+}A="brl_max2d_TImageFrame"
+TMax2DDriver^brl.graphics.TGraphicsDriver{
+-New%()="_brl_max2d_TMax2DDriver_New"
+-Delete%()="_brl_max2d_TMax2DDriver_Delete"
+-CreateFrameFromPixmap:TImageFrame(pixmap:brl.pixmap.TPixmap,flags%)A="brl_blitz_NullMethodError"
+-SetBlend%(blend%)A="brl_blitz_NullMethodError"
+-SetAlpha%(alpha#)A="brl_blitz_NullMethodError"
+-SetColor%(red%,green%,blue%)A="brl_blitz_NullMethodError"
+-SetClsColor%(red%,green%,blue%)A="brl_blitz_NullMethodError"
+-SetViewport%(x%,y%,width%,height%)A="brl_blitz_NullMethodError"
+-SetTransform%(xx#,xy#,yx#,yy#)A="brl_blitz_NullMethodError"
+-SetLineWidth%(width#)A="brl_blitz_NullMethodError"
+-Cls%()A="brl_blitz_NullMethodError"
+-Plot%(x#,y#)A="brl_blitz_NullMethodError"
+-DrawLine%(x0#,y0#,x1#,y1#,tx#,ty#)A="brl_blitz_NullMethodError"
+-DrawRect%(x0#,y0#,x1#,y1#,tx#,ty#)A="brl_blitz_NullMethodError"
+-DrawOval%(x0#,y0#,x1#,y1#,tx#,ty#)A="brl_blitz_NullMethodError"
+-DrawPoly%(xy#&[],handlex#,handley#,originx#,originy#)A="brl_blitz_NullMethodError"
+-DrawPixmap%(pixmap:brl.pixmap.TPixmap,x%,y%)A="brl_blitz_NullMethodError"
+-GrabPixmap:brl.pixmap.TPixmap(x%,y%,width%,height%)A="brl_blitz_NullMethodError"
+-SetResolution%(width#,height#)A="brl_blitz_NullMethodError"
+}A="brl_max2d_TMax2DDriver"
+_max2dDriver:TMax2DDriver&=mem:p("brl_max2d__max2dDriver")
