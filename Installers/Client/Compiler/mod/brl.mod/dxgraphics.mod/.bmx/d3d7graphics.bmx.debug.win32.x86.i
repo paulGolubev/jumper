@@ -1,0 +1,63 @@
+import brl.blitz
+import brl.graphics
+import brl.linkedlist
+import pub.directx
+TD3D7Graphics^brl.graphics.TGraphics{
+_primSurf:pub.directx.IDirectDrawSurface7&=mem:p("_brl_dxgraphics_TD3D7Graphics__primSurf")
+_primRefs%&=mem("_brl_dxgraphics_TD3D7Graphics__primRefs")
+._width%&
+._height%&
+._depth%&
+._hertz%&
+._flags%&
+._hwnd%&
+._clipper:pub.directx.IDirectDrawClipper&
+._renderSurf:pub.directx.IDirectDrawSurface7&
+-New%()="_brl_dxgraphics_TD3D7Graphics_New"
+-Delete%()="_brl_dxgraphics_TD3D7Graphics_Delete"
+-Driver:brl.graphics.TGraphicsDriver()="_brl_dxgraphics_TD3D7Graphics_Driver"
+-GetSettings%(width% Var,height% Var,depth% Var,hertz% Var,flags% Var)="_brl_dxgraphics_TD3D7Graphics_GetSettings"
+-Close%()="_brl_dxgraphics_TD3D7Graphics_Close"
+-Flip%(sync%)="_brl_dxgraphics_TD3D7Graphics_Flip"
+-RenderSurface:pub.directx.IDirectDrawSurface7()="_brl_dxgraphics_TD3D7Graphics_RenderSurface"
+-CreateRenderSurface:pub.directx.IDirectDrawSurface7()="_brl_dxgraphics_TD3D7Graphics_CreateRenderSurface"
+-DestroyRenderSurface%()="_brl_dxgraphics_TD3D7Graphics_DestroyRenderSurface"
++Attach:TD3D7Graphics(hwnd%,flags%)="_brl_dxgraphics_TD3D7Graphics_Attach"
++Create:TD3D7Graphics(width%,height%,depth%,hertz%,flags%)="_brl_dxgraphics_TD3D7Graphics_Create"
+-ValidateSize%()="_brl_dxgraphics_TD3D7Graphics_ValidateSize"
+}="brl_dxgraphics_TD3D7Graphics"
+TD3D7GraphicsDriver^brl.graphics.TGraphicsDriver{
+IsValid%&=mem("_brl_dxgraphics_TD3D7GraphicsDriver_IsValid")
+._modes:brl.graphics.TGraphicsMode&[]&
+._dd7:pub.directx.IDirectDraw7&
+._d3d7:pub.directx.IDirect3D7&
+._d3ddev7:pub.directx.IDirect3DDevice7&
+._graphics:TD3D7Graphics&
+._n_graphics%&
+._n_fullscreen%&
+._inScene%&
+._surfaces:brl.linkedlist.TList&
+._graphicss:brl.linkedlist.TList&
+-New%()="_brl_dxgraphics_TD3D7GraphicsDriver_New"
+-Delete%()="_brl_dxgraphics_TD3D7GraphicsDriver_Delete"
+-GraphicsModes:brl.graphics.TGraphicsMode&[]()="_brl_dxgraphics_TD3D7GraphicsDriver_GraphicsModes"
+-AttachGraphics:TD3D7Graphics(hwnd%,flags%)="_brl_dxgraphics_TD3D7GraphicsDriver_AttachGraphics"
+-CreateGraphics:TD3D7Graphics(width%,height%,depth%,hertz%,flags%)="_brl_dxgraphics_TD3D7GraphicsDriver_CreateGraphics"
+-CloseGraphics%(g:TD3D7Graphics)="_brl_dxgraphics_TD3D7GraphicsDriver_CloseGraphics"
+-SetGraphics%(g:brl.graphics.TGraphics)="_brl_dxgraphics_TD3D7GraphicsDriver_SetGraphics"
+-Graphics:TD3D7Graphics()="_brl_dxgraphics_TD3D7GraphicsDriver_Graphics"
+-Flip%(sync%)="_brl_dxgraphics_TD3D7GraphicsDriver_Flip"
+-DirectDraw7:pub.directx.IDirectDraw7()="_brl_dxgraphics_TD3D7GraphicsDriver_DirectDraw7"
+-Direct3D7:pub.directx.IDirect3D7()="_brl_dxgraphics_TD3D7GraphicsDriver_Direct3D7"
+-Direct3DDevice7:pub.directx.IDirect3DDevice7()="_brl_dxgraphics_TD3D7GraphicsDriver_Direct3DDevice7"
+-BeginScene%()="_brl_dxgraphics_TD3D7GraphicsDriver_BeginScene"
+-EndScene%()="_brl_dxgraphics_TD3D7GraphicsDriver_EndScene"
+-CreateSurface:pub.directx.IDirectDrawSurface7(desc:pub.directx.DDSURFACEDESC2)="_brl_dxgraphics_TD3D7GraphicsDriver_CreateSurface"
+-DestroySurface%(surf:pub.directx.IDirectDrawSurface7)="_brl_dxgraphics_TD3D7GraphicsDriver_DestroySurface"
+-_ValidateGraphics%()="_brl_dxgraphics_TD3D7GraphicsDriver__ValidateGraphics"
+-ValidateGraphics%(force%=0)="_brl_dxgraphics_TD3D7GraphicsDriver_ValidateGraphics"
++Create:TD3D7GraphicsDriver()="_brl_dxgraphics_TD3D7GraphicsDriver_Create"
+-_Create:TD3D7GraphicsDriver()="_brl_dxgraphics_TD3D7GraphicsDriver__Create"
+-_Destroy:TD3D7GraphicsDriver()="_brl_dxgraphics_TD3D7GraphicsDriver__Destroy"
+}="brl_dxgraphics_TD3D7GraphicsDriver"
+D3D7GraphicsDriver:TD3D7GraphicsDriver()="brl_dxgraphics_D3D7GraphicsDriver"
