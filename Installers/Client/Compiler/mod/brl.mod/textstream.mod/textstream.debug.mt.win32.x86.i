@@ -1,0 +1,56 @@
+ModuleInfo "Version: 1.03 "
+ModuleInfo "Author: Mark Sibly"
+ModuleInfo "License: Blitz Shared Source Code"
+ModuleInfo "Copyright: Blitz Research Ltd"
+ModuleInfo "Modserver: BRL"
+ModuleInfo "History: 1.03 Release"
+ModuleInfo "History: Modified LoadText to handle stream URLs"
+ModuleInfo "History: 1.02 Release"
+ModuleInfo "History: Added LoadText, SaveText"
+ModuleInfo "History: Fixed UTF16LE=4"
+ModuleInfo "History: 1.01 Release"
+ModuleInfo "History: 1.00 Release"
+ModuleInfo "History: Added TextStream module"
+import brl.blitz
+import brl.stream
+TTextStream^brl.stream.TStreamWrapper{
+LATIN1%=1
+UTF8%=2
+UTF16BE%=3
+UTF16LE%=4
+._encoding%&
+._bufcount%&
+-New%()="_brl_textstream_TTextStream_New"
+-Read%(buf@*,count%)="_brl_textstream_TTextStream_Read"
+-Write%(buf@*,count%)="_brl_textstream_TTextStream_Write"
+-ReadByte%()="_brl_textstream_TTextStream_ReadByte"
+-WriteByte%(n%)="_brl_textstream_TTextStream_WriteByte"
+-ReadShort%()="_brl_textstream_TTextStream_ReadShort"
+-WriteShort%(n%)="_brl_textstream_TTextStream_WriteShort"
+-ReadInt%()="_brl_textstream_TTextStream_ReadInt"
+-WriteInt%(n%)="_brl_textstream_TTextStream_WriteInt"
+-ReadLong%%()="_brl_textstream_TTextStream_ReadLong"
+-WriteLong%(n%%)="_brl_textstream_TTextStream_WriteLong"
+-ReadFloat#()="_brl_textstream_TTextStream_ReadFloat"
+-WriteFloat%(n#)="_brl_textstream_TTextStream_WriteFloat"
+-ReadDouble!()="_brl_textstream_TTextStream_ReadDouble"
+-WriteDouble%(n!)="_brl_textstream_TTextStream_WriteDouble"
+-ReadLine$()="_brl_textstream_TTextStream_ReadLine"
+-ReadFile$()="_brl_textstream_TTextStream_ReadFile"
+-WriteLine%(str$)="_brl_textstream_TTextStream_WriteLine"
+-ReadString$(length%)="_brl_textstream_TTextStream_ReadString"
+-WriteString%(str$)="_brl_textstream_TTextStream_WriteString"
+-ReadChar%()="_brl_textstream_TTextStream_ReadChar"
+-WriteChar%(char%)="_brl_textstream_TTextStream_WriteChar"
++Create:TTextStream(stream:brl.stream.TStream,encoding%)="_brl_textstream_TTextStream_Create"
+-_ReadByte%()="_brl_textstream_TTextStream__ReadByte"
+-_WriteByte%(n%)="_brl_textstream_TTextStream__WriteByte"
+-_FlushRead%()="_brl_textstream_TTextStream__FlushRead"
+-_FlushWrite%()="_brl_textstream_TTextStream__FlushWrite"
+}="brl_textstream_TTextStream"
+TTextStreamFactory^brl.stream.TStreamFactory{
+-New%()="_brl_textstream_TTextStreamFactory_New"
+-CreateStream:brl.stream.TStream(url:Object,proto$,path$,readable%,writeable%)="_brl_textstream_TTextStreamFactory_CreateStream"
+}="brl_textstream_TTextStreamFactory"
+LoadText$(url:Object)="brl_textstream_LoadText"
+SaveText%(str$,url:Object)="brl_textstream_SaveText"

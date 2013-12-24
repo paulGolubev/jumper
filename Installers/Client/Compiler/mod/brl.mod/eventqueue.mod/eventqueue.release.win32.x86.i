@@ -1,0 +1,26 @@
+ModuleInfo "Version: 1.01"
+ModuleInfo "Author: Mark Sibly"
+ModuleInfo "License: Blitz Shared Source Code"
+ModuleInfo "Copyright: Blitz Research Ltd"
+ModuleInfo "Modserver: BRL"
+ModuleInfo "History: 1.01 Release"
+ModuleInfo "History: Fixed CurrentEvent being retained in queue array"
+ModuleInfo "History: 1.00 Release"
+ModuleInfo "History: Created module"
+import brl.blitz
+import brl.event
+import brl.system
+PeekEvent:brl.event.TEvent()="brl_eventqueue_PeekEvent"
+PollEvent%()="brl_eventqueue_PollEvent"
+WaitEvent%()="brl_eventqueue_WaitEvent"
+PostEvent%(event:brl.event.TEvent,update%=0)="brl_eventqueue_PostEvent"
+EventID%()="brl_eventqueue_EventID"
+EventData%()="brl_eventqueue_EventData"
+EventMods%()="brl_eventqueue_EventMods"
+EventX%()="brl_eventqueue_EventX"
+EventY%()="brl_eventqueue_EventY"
+EventExtra:Object()="brl_eventqueue_EventExtra"
+EventText$()="brl_eventqueue_EventText"
+EventSource:Object()="brl_eventqueue_EventSource"
+EventSourceHandle%()="brl_eventqueue_EventSourceHandle"
+CurrentEvent:brl.event.TEvent&=mem:p("brl_eventqueue_CurrentEvent")

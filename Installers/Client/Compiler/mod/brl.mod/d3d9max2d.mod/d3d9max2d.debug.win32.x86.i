@@ -1,0 +1,50 @@
+import brl.blitz
+import brl.max2d
+import brl.dxgraphics
+import brl.d3d7max2d
+LOG_ERRS%=1
+TD3D9ImageFrame^brl.max2d.TImageFrame{
+._texture:pub.directx.IDirect3DTexture9&
+._seq%&
+._magfilter%&
+._minfilter%&
+._mipfilter%&
+._uscale#&
+._vscale#&
+._fverts#&[]&
+._iverts%*&
+-New%()="_brl_d3d9max2d_TD3D9ImageFrame_New"
+-Delete%()="_brl_d3d9max2d_TD3D9ImageFrame_Delete"
+-Create:TD3D9ImageFrame(pixmap:brl.pixmap.TPixmap,flags%)="_brl_d3d9max2d_TD3D9ImageFrame_Create"
+-Draw%(x0#,y0#,x1#,y1#,tx#,ty#,sx#,sy#,sw#,sh#)="_brl_d3d9max2d_TD3D9ImageFrame_Draw"
+}="brl_d3d9max2d_TD3D9ImageFrame"
+TD3D9Max2DDriver^brl.max2d.TMax2dDriver{
+-New%()="_brl_d3d9max2d_TD3D9Max2DDriver_New"
+-Delete%()="_brl_d3d9max2d_TD3D9Max2DDriver_Delete"
+-ToString$()="_brl_d3d9max2d_TD3D9Max2DDriver_ToString"
+-Create:TD3D9Max2DDriver()="_brl_d3d9max2d_TD3D9Max2DDriver_Create"
+-GraphicsModes:brl.graphics.TGraphicsMode&[]()="_brl_d3d9max2d_TD3D9Max2DDriver_GraphicsModes"
+-AttachGraphics:brl.graphics.TGraphics(widget%,flags%)="_brl_d3d9max2d_TD3D9Max2DDriver_AttachGraphics"
+-CreateGraphics:brl.graphics.TGraphics(width%,height%,depth%,hertz%,flags%)="_brl_d3d9max2d_TD3D9Max2DDriver_CreateGraphics"
+-SetGraphics%(g:brl.graphics.TGraphics)="_brl_d3d9max2d_TD3D9Max2DDriver_SetGraphics"
+-Flip%(sync%)="_brl_d3d9max2d_TD3D9Max2DDriver_Flip"
+-ResetDevice%()="_brl_d3d9max2d_TD3D9Max2DDriver_ResetDevice"
+-CreateFrameFromPixmap:brl.max2d.TImageFrame(pixmap:brl.pixmap.TPixmap,flags%)="_brl_d3d9max2d_TD3D9Max2DDriver_CreateFrameFromPixmap"
+-SetBlend%(blend%)="_brl_d3d9max2d_TD3D9Max2DDriver_SetBlend"
+-SetAlpha%(alpha#)="_brl_d3d9max2d_TD3D9Max2DDriver_SetAlpha"
+-SetColor%(red%,green%,blue%)="_brl_d3d9max2d_TD3D9Max2DDriver_SetColor"
+-SetClsColor%(red%,green%,blue%)="_brl_d3d9max2d_TD3D9Max2DDriver_SetClsColor"
+-SetViewport%(x%,y%,width%,height%)="_brl_d3d9max2d_TD3D9Max2DDriver_SetViewport"
+-SetTransform%(xx#,xy#,yx#,yy#)="_brl_d3d9max2d_TD3D9Max2DDriver_SetTransform"
+-SetLineWidth%(width#)="_brl_d3d9max2d_TD3D9Max2DDriver_SetLineWidth"
+-Cls%()="_brl_d3d9max2d_TD3D9Max2DDriver_Cls"
+-Plot%(x#,y#)="_brl_d3d9max2d_TD3D9Max2DDriver_Plot"
+-DrawLine%(x0#,y0#,x1#,y1#,tx#,ty#)="_brl_d3d9max2d_TD3D9Max2DDriver_DrawLine"
+-DrawRect%(x0#,y0#,x1#,y1#,tx#,ty#)="_brl_d3d9max2d_TD3D9Max2DDriver_DrawRect"
+-DrawOval%(x0#,y0#,x1#,y1#,tx#,ty#)="_brl_d3d9max2d_TD3D9Max2DDriver_DrawOval"
+-DrawPoly%(verts#&[],handlex#,handley#,tx#,ty#)="_brl_d3d9max2d_TD3D9Max2DDriver_DrawPoly"
+-DrawPixmap%(pixmap:brl.pixmap.TPixmap,x%,y%)="_brl_d3d9max2d_TD3D9Max2DDriver_DrawPixmap"
+-GrabPixmap:brl.pixmap.TPixmap(x%,y%,width%,height%)="_brl_d3d9max2d_TD3D9Max2DDriver_GrabPixmap"
+-SetResolution%(width#,height#)="_brl_d3d9max2d_TD3D9Max2DDriver_SetResolution"
+}="brl_d3d9max2d_TD3D9Max2DDriver"
+D3D9Max2DDriver:TD3D9Max2DDriver()="brl_d3d9max2d_D3D9Max2DDriver"
