@@ -14,4 +14,4 @@ xcopy "%clientDir%\Music" "%currentDir%\compiled\Music" /e /y
 
 "%compilerDir%\bmk" makeapp  -a -r -o "%currentDir%\compiled\jumper" "%clientDir%\index.bmx"
 
-start explorer "%currentDir%\compiled"
+exit

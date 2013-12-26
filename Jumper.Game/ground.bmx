@@ -22,7 +22,7 @@ Type Ground Extends GObject
 		z_index = 10
 		heightMap = New Float[length]
 		imageMap = New TImage[length]
-		h:Int = 100
+		h:Int = 40
 		w:Int = length
 		
 		layers:Int = 5
