@@ -2,3 +2,4 @@ Jumper.Game/*.bak
 Jumper.Game/*.exe
 Jumper.Game/.bmx
 Jumper.Game/*.db
+*.tmp
